@@ -25,6 +25,7 @@ export default function RootLayout({
       <Head>
         {/* 🌍 Global defaults */}
         <title>SarkariResult - Government Jobs, Results, Admit Cards</title>
+        <meta name="google-site-verification" content="1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas" />
         <meta
           name="description"
           content="Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest"
