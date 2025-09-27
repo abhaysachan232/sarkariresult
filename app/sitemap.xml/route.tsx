@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import datas from '../../public/jobs.json';
 
 export const runtime = 'nodejs';
 
@@ -21,16 +22,12 @@ const menuItems = [
 
 export async function GET() {
   try {
-     const baseUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3000";
 
-    const res = await fetch(`${baseUrl}/jobs.json`);
-    if (!res.ok) {
-      console.error('Failed to fetch jobs.json', res.status);
-      return new NextResponse('Failed to fetch jobs.json', { status: 500 });
-    }
-    const jobs: Job[] = await res.json();
+
+    const jobs: Job[] = (datas as any[]).map((job) => ({
+      title: job.title,
+      updatedAt: job.updatedAt || job.date || new Date().toISOString(),
+    }));
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -38,7 +35,7 @@ export async function GET() {
     .map(
       (item) => `
     <url>
-      <loc>${baseUrl}${item.href}</loc>
+      <loc>https://sarkariresult.rest${item.href}</loc>
       <lastmod>${new Date().toISOString()}</lastmod>
     </url>
   `
@@ -48,12 +45,24 @@ export async function GET() {
     .map(
       (job) => `
     <url>
-      <loc>${baseUrl}/jobs/${job.title.split(" ").join("-")}</loc>
+      <loc>https://sarkariresult.rest/jobs/${job.title.split(" ").join("-")}</loc>
       <lastmod>${job.updatedAt}</lastmod>
     </url>
   `
     )
     .join('')}
+
+     ${["about", "contact", "disclaimer", "faq", "privacy","terms"]
+    .map(
+      (job) => `
+    <url>
+      <loc>https://sarkariresult.rest/${job}</loc>
+      <lastmod>${job}</lastmod>
+    </url>
+  `
+    )
+    .join('')}
+
 </urlset>`;
 
     return new NextResponse(sitemap, {

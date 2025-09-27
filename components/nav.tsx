@@ -48,9 +48,7 @@ export default function Navbar() {
               <Bell className="h-4 w-4" />
               <span className="sr-only">Notifications</span>
             </Button>
-            <Button variant="default" className="hidden md:flex">
-              Login
-            </Button>
+
    <Button
           variant="outline"
           size="icon"

@@ -57,7 +57,6 @@ export default function JobCard({data }: JobCardProps) {
     setVisibleCount((prev) => prev + 9);
   }
 
-console.log(data,'abhay');
 
 
   return (
@@ -76,7 +75,7 @@ console.log(data,'abhay');
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, delay: index * 0.1 }}
       className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden hover:shadow-md transition-shadow"
-      key={index}
+      key={index + jobs}
 
     >
       <Link href={`/jobs/${jobs.title.split(" ").join("-")}`} className="block h-full">

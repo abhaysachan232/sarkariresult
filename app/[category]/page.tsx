@@ -15,6 +15,7 @@ import axios from "axios";
 import fs from "fs";
 import path from "path";
 import { Metadata } from "next"
+import datas from '../../public/jobs.json';
 
 type Params = { category?: string };
 
@@ -50,19 +51,8 @@ export default async function Middle({
   if (!selectedCategory || selectedCategory === "favicon.ico") return null;
 
 
-       console.log(selectedCategory);
-       
- const baseUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3000";
 
-    // console.log(baseUrl);
-    
-  const res = await fetch(`${baseUrl}/jobs.json`, { next: { revalidate: 600 } });
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch data.json");
-  }
 
   type Job = {
     category: string;
@@ -72,8 +62,10 @@ export default async function Middle({
 
   // You need to define selectedCategory or use 'category' from params
 
-  const jobs: Job[] = await res.json();
-  const data = jobs.filter((job: Job) => job.category === selectedCategory);
+  const jobs: Job[] = datas;
+  const data = selectedCategory=='home'?jobs: jobs.filter((job: Job) => job.category ===selectedCategory);
+  console.log(data,selectedCategory,jobs);
+  
 
   return (
 <>

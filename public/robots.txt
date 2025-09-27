@@ -1,13 +1,11 @@
-# *
+# robots.txt for your site
+
 User-agent: *
 Allow: /
 
-# Googlebot
-User-agent: Googlebot
-Disallow: /admin
+# Block Next.js internals
+Disallow: /_next/
+Disallow: /api/
 
-# Host
-Host: http://localhost:3000
-
-# Sitemaps
-Sitemap: http://localhost:3000/sitemap.xml
+# Sitemap location
+Sitemap: https://sarkariresult.rest/sitemap.xml

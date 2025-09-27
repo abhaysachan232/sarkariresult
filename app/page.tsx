@@ -1,20 +1,6 @@
 
-import Link from "next/link"
-import { Search, Bell, ChevronDown, Mic, ArrowRight } from "lucide-react"
-import JobCard from "@/components/job-card"
-import NewsMarquee from "@/components/news-marquee"
-import CategoryFilter from "@/components/category-filter"
-import LiveTicker from "@/components/live-ticker"
-import ThemeToggle from "@/components/theme-toggle"
-import ChatbotButton from "@/components/chatbot-button"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { useState,useEffect } from "react"
-import axios from "axios"
+
 import Middle from "@/components/Middle"
-import fs from "fs";
-import path from "path";
 import { Metadata } from "next"
 
 export async function generateMetadata(): Promise<Metadata> {

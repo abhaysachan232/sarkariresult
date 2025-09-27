@@ -1,5 +1,16 @@
 import Link from "next/link";
 export default function Footer() {
+   const menuItems = [
+    { name: "Home", href: "/" ,target:''},
+    { name: "Latest Jobs", href: "/latest-jobs",target:'_blank' },
+    { name: "Results", href: "/results" ,target:'_blank'},
+    { name: "Admit Card", href: "/admit-card" ,target:'_blank'},
+    { name: "Answer Key", href: "/answer-key" ,target:'_blank'},
+    { name: "Syllabus", href: "/syllabus",target:'_blank' },
+    { name: "Admission", href: "/admission" ,target:'_blank'},
+    { name: "Certificate Verification", href: "/certificate-verification",target:'_blank' },
+    { name: "Important", href: "/important",target:'_blank' },
+  ]
   return (
     <>
           <footer className="border-t bg-muted/50">
@@ -8,21 +19,21 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                {["Home", "Latest Jobs", "Results", "Admit Card", "Answer Key"].map((link) => (
-                  <li key={link}>
-                    <Link href="#" className="text-sm hover:underline">
-                      {link}
+                {menuItems.map((link) => (
+                  <li key={link.name}>
+                    <Link href={`${link.href}`} className="text-sm hover:underline">
+                      {link.name}
                     </Link>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Government Portals</h3>
+              <h3 className="text-lg font-semibold mb-4"></h3>
               <ul className="space-y-2">
-                {["UPSC", "SSC", "Railway", "Banking", "Police"].map((portal) => (
+                {["about", "contact", "disclaimer", "faq", "privacy","terms"].map((portal) => (
                   <li key={portal}>
-                    <Link href="#" className="text-sm hover:underline">
+                    <Link href={`/${portal}`} className="text-sm hover:underline">
                       {portal}
                     </Link>
                   </li>
@@ -34,8 +45,8 @@ export default function Footer() {
               <ul className="space-y-2">
                 {["Central Govt Jobs", "State Govt Jobs", "Banking Jobs", "Teaching Jobs", "Railway Jobs"].map(
                   (category) => (
-                    <li key={category}>
-                      <Link href="#" className="text-sm hover:underline">
+                    <li className={category} key={category}>
+                      <Link href={`/${category}`} className="text-sm hover:underline">
                         {category}
                       </Link>
                     </li>
@@ -50,7 +61,7 @@ export default function Footer() {
                 <li className="text-sm">Phone: +91 1234567890</li>
                 <li className="flex items-center gap-2 mt-4">
                   {["facebook", "twitter", "instagram", "youtube"].map((social) => (
-                    <Link key={social} href="#" className="rounded-full bg-background p-2 hover:bg-accent">
+                    <Link key={social} href={`/${social}`} className="rounded-full bg-background p-2 hover:bg-accent">
                       <span className="sr-only">{social}</span>
                       <div className="h-4 w-4" />
                     </Link>

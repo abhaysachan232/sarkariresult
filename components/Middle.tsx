@@ -14,22 +14,20 @@ import { useState , useEffect } from "react";
 import axios from "axios";
 import fs from "fs";
 import path from "path";
+import jobs from '../public/jobs.json';
 
 export default async function Middle() {
-       
- const baseUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3000";
+
+  const baseUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "http://localhost:3000";     
+
 
     // console.log(baseUrl);
     
-  const res = await fetch(`${baseUrl}/jobs.json`, { next: { revalidate: 600 } });
+  
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch data.json");
-  }
-
-  const data = await res.json();
+  const data = jobs
   return (
 <>
       <main className="container py-6">
