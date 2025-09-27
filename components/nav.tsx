@@ -35,7 +35,7 @@ export default function Navbar() {
           key={item.name}
           href={item.href}
           target={''}   // नया tab में खुलेगा
-          rel="noopener noreferrer"
+          rel="canonical"
           className="text-sm font-medium transition-colors hover:text-primary"
         >
           {item.name}
@@ -84,7 +84,7 @@ export default function Navbar() {
                 key={item.name}
                 href={item.href}
                 target={''}
-                rel="noopener noreferrer"
+                rel="canonical"
                 className="text-sm font-medium hover:text-primary px-2 py-1 rounded-md hover:bg-accent"
                  onClick={() => setIsOpen(!isOpen)}
               >

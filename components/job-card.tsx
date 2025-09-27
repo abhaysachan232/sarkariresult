@@ -78,7 +78,7 @@ export default function JobCard({data }: JobCardProps) {
       key={index + jobs}
 
     >
-      <Link href={`/jobs/${jobs.title.split(" ").join("-")}`} className="block h-full">
+      <Link rel="canonical" href={`/jobs/${jobs.title.split(" ").join("-")}`} className="block h-full">
       <div className="p-6">
         <div className="flex justify-between items-start mb-3">
           <Badge

@@ -21,7 +21,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 {menuItems.map((link) => (
                   <li key={link.name}>
-                    <Link href={`${link.href}`} className="text-sm hover:underline">
+                    <Link rel="canonical" href={`${link.href}`} className="text-sm hover:underline">
                       {link.name}
                     </Link>
                   </li>
@@ -33,7 +33,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 {["about", "contact", "disclaimer", "faq", "privacy","terms"].map((portal) => (
                   <li key={portal}>
-                    <Link href={`/${portal}`} className="text-sm hover:underline">
+                    <Link rel="canonical" href={`/${portal}`} className="text-sm hover:underline">
                       {portal}
                     </Link>
                   </li>
@@ -46,7 +46,7 @@ export default function Footer() {
                 {["Central Govt Jobs", "State Govt Jobs", "Banking Jobs", "Teaching Jobs", "Railway Jobs"].map(
                   (category) => (
                     <li className={category} key={category}>
-                      <Link href={`/${category}`} className="text-sm hover:underline">
+                      <Link rel="canonical" href={`/${category}`} className="text-sm hover:underline">
                         {category}
                       </Link>
                     </li>
@@ -61,7 +61,7 @@ export default function Footer() {
                 <li className="text-sm">Phone: +91 9580311217</li>
                 <li className="flex items-center gap-2 mt-4">
                   {["facebook", "twitter", "instagram", "youtube"].map((social) => (
-                    <Link key={social} href={`/${social}`} className="rounded-full bg-background p-2 hover:bg-accent">
+                    <Link key={social} href={`/${social}`} rel="canonical" className="rounded-full bg-background p-2 hover:bg-accent">
                       <span className="sr-only">{social}</span>
                       <div className="h-4 w-4" />
                     </Link>
