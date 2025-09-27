@@ -1,28 +1,37 @@
 
 
 import Middle from "@/components/Middle"
-import { Metadata } from "next"
+import { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+interface Props {
+  params: { slug: string };
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const baseUrl = 'https://sarkariresult.rest';
+  const slug = params.slug || '';
+  const fullUrl = `${baseUrl}/jobs/${slug}`;
 
   return {
-    title: "SarkariResult - Latest Government Jobs, Results, Admit Cards",
-    description: "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
-    keywords: "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
-    alternates: { canonical: "https://sarkariresult.rest" },
+    title: `SarkariResult - ${slug.toUpperCase()} Job Details`,
+    description: `Find details about ${slug} jobs, admit cards, and results at SarkariResult.rest.`,
+    alternates: {
+      canonical: fullUrl,
+    },
     openGraph: {
-      title: "SarkariResult - Government Jobs Portal",
-      description: "Find latest government jobs, results, admit cards, answer keys and more.",
-      url: "https://sarkariresult.rest",
-      type: "website",
+      title: `SarkariResult - ${slug.toUpperCase()} Job Details`,
+      description: `Find details about ${slug} jobs, admit cards, and results at SarkariResult.rest.`,
+      url: fullUrl,
+      type: 'article',
     },
     twitter: {
       card: "summary_large_image",
-      title: "SarkariResult - Government Jobs Portal",
-      description: "Find latest government jobs, results, admit cards, answer keys and more.",
+      title: `SarkariResult - ${slug.toUpperCase()} Job Details`,
+      description: `Find details about ${slug} jobs, admit cards, and results at SarkariResult.rest.`,
     },
   };
 }
+
 export default async function Home() {
 
   // console.log(data);
