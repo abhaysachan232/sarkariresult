@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: "SarkariResult - Latest Government Jobs, Results, Admit Cards",
-    description: "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.com",
+    description: "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
     keywords: "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
     alternates: { canonical: "https://sarkariresult.rest" },
     openGraph: {
