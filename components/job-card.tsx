@@ -16,7 +16,7 @@ interface JobCardProps {
 }
 
 export default function JobCard({data }: JobCardProps) {
-  console.log('data',data);
+  // console.log('data',data);
   
 
   // Dummy jobs array and visibleCount for demonstration

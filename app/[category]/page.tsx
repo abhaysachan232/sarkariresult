@@ -5,49 +5,48 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Mic } from "lucide-react";
 import LiveTicker from "@/components/live-ticker";
-import { Tabs } from "@radix-ui/react-tabs";
-import { TabsContent } from "@radix-ui/react-tabs";
 import JobCard from "@/components/job-card";
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { useState , useEffect } from "react";
-import axios from "axios";
-import fs from "fs";
-import path from "path";
-import { Metadata } from "next"
 import datas from '../../public/jobs.json';
-
-type Params = { category?: string };
-
+import { Metadata } from "next";
+import { headers } from "next/headers";
 
 export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers();
+  const host = headersList.get("host") ?? "sarkariresult.rest";
+  const proto = headersList.get("x-forwarded-proto") || "https";
+  const url = `${proto}://${host}`;
 
   return {
     title: "SarkariResult - Latest Government Jobs, Results, Admit Cards",
-    description: "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.com",
+    description:
+      "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
     keywords: "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
-    alternates: { canonical: "https://sarkariresult.rest" },
+    alternates: { canonical: url },
     openGraph: {
       title: "SarkariResult - Government Jobs Portal",
-      description: "Find latest government jobs, results, admit cards, answer keys and more.",
-      url: "https://sarkariresult.rest",
+      description:
+        "Find latest government jobs, results, admit cards, answer keys and more.",
+      url: url,
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: "SarkariResult - Government Jobs Portal",
-      description: "Find latest government jobs, results, admit cards, answer keys and more.",
+      description:
+        "Find latest government jobs, results, admit cards, answer keys and more.",
     },
   };
 }
 
+type Params = { category: string };
+
 export default async function Middle({
   params,
 }: {
-  params: { category: string }; // use resolved type
+  params: Promise<Params>;
 }) {
-  const selectedCategory = params.category;
-
+  const { category: selectedCategory } = await params;
   if (!selectedCategory || selectedCategory === "favicon.ico") return null;
 
 

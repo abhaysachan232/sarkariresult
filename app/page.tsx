@@ -1,37 +1,34 @@
-
-
 import Middle from "@/components/Middle"
-import { Metadata } from 'next';
+import { Metadata } from "next";
+import { headers } from "next/headers";
 
-interface Props {
-  params: { slug: string };
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const baseUrl = 'https://sarkariresult.rest';
-  const slug = params.slug || '';
-  const fullUrl = `${baseUrl}/jobs/${slug}`;
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers();
+  const host = headersList.get("host") ?? "sarkariresult.rest";
+  const proto = headersList.get("x-forwarded-proto") || "https";
+  const url = `${proto}://${host}`;
 
   return {
-    title: `SarkariResult - ${slug.toUpperCase()} Job Details`,
-    description: `Find details about ${slug} jobs, admit cards, and results at SarkariResult.rest.`,
-    alternates: {
-      canonical: fullUrl,
-    },
+    title: "SarkariResult - Latest Government Jobs, Results, Admit Cards",
+    description:
+      "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
+    keywords: "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
+    alternates: { canonical: url },
     openGraph: {
-      title: `SarkariResult - ${slug.toUpperCase()} Job Details`,
-      description: `Find details about ${slug} jobs, admit cards, and results at SarkariResult.rest.`,
-      url: fullUrl,
-      type: 'article',
+      title: "SarkariResult - Government Jobs Portal",
+      description:
+        "Find latest government jobs, results, admit cards, answer keys and more.",
+      url: url,
+      type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: `SarkariResult - ${slug.toUpperCase()} Job Details`,
-      description: `Find details about ${slug} jobs, admit cards, and results at SarkariResult.rest.`,
+      title: "SarkariResult - Government Jobs Portal",
+      description:
+        "Find latest government jobs, results, admit cards, answer keys and more.",
     },
   };
 }
-
 export default async function Home() {
 
   // console.log(data);
