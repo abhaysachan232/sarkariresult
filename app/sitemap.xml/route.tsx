@@ -22,8 +22,6 @@ const menuItems = [
 
 export async function GET() {
   try {
-
-
     const jobs: Job[] = (datas as any[]).map((job) => ({
       title: job.title,
       updatedAt: job.updatedAt || job.date || new Date().toISOString(),
@@ -36,33 +34,36 @@ export async function GET() {
       (item) => `
     <url>
       <loc>https://sarkariresult.rest${item.href}</loc>
-      <lastmod>${new Date().toISOString()}</lastmod>
+      <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     </url>
   `
     )
     .join('')}
+
   ${jobs
     .map(
-      (job) => `
+      (job) => {
+        const lastmod = new Date(job.updatedAt).toISOString().split('T')[0];
+        return `
     <url>
       <loc>https://sarkariresult.rest/jobs/${job.title.split(" ").join("-")}</loc>
-      <lastmod>${job.updatedAt}</lastmod>
+      <lastmod>${lastmod}</lastmod>
     </url>
-  `
+  `;
+      }
     )
     .join('')}
 
-     ${["about", "contact", "disclaimer", "faq", "privacy","terms"]
+  ${["about", "contact", "disclaimer", "faq", "privacy","terms"]
     .map(
-      (job) => `
+      (page) => `
     <url>
-      <loc>https://sarkariresult.rest/${job}</loc>
-      <lastmod>${job}</lastmod>
+      <loc>https://sarkariresult.rest/${page}</loc>
+      <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     </url>
   `
     )
     .join('')}
-
 </urlset>`;
 
     return new NextResponse(sitemap, {
