@@ -57,8 +57,8 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
               <ul className="space-y-2">
-                <li className="text-sm">Email: info@sarkariresult.com</li>
-                <li className="text-sm">Phone: +91 1234567890</li>
+                <li className="text-sm">Email: abhaysachan232@gmail.com</li>
+                <li className="text-sm">Phone: +91 9580311217</li>
                 <li className="flex items-center gap-2 mt-4">
                   {["facebook", "twitter", "instagram", "youtube"].map((social) => (
                     <Link key={social} href={`/${social}`} className="rounded-full bg-background p-2 hover:bg-accent">
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
           <div className="mt-8 border-t pt-8 text-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} SarkariResult.com - All rights reserved.
+              © {new Date().getFullYear()} SarkariResult.rest - All rights reserved.
             </p>
           </div>
         </div>
