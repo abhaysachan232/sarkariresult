@@ -238,25 +238,113 @@ console.log(job);
             <div dangerouslySetInnerHTML={{ __html: job.description }} />
 
             <h2>About {job.organization}</h2>
-            <p>
-              <b><i>{job.organization}</i></b> is one of the most reputed institutions in India, known for conducting transparent and
-              large-scale recruitment examinations. The authority is responsible for recruiting talented individuals for
-              various government departments, ensuring fair opportunities for all candidates. Over the years, it has
-              built a reputation for efficiency and transparency in the recruitment process.
-            </p>
+             <p>
+        <b><i>{job.organization}</i></b> is one of the most trusted recruitment bodies in India, well-known for
+        conducting large-scale examinations. Aspirants who follow <b>Sarkari Result</b> updates regularly will find
+        this recruitment highly beneficial, as it offers an authentic chance to secure a government job with
+        transparency and efficiency.
+      </p>
 
-            <h2>Job Description</h2>
-            <p>
-              The <b>{job.title}</b> role offers a golden opportunity for aspirants who are looking to build a stable career in
-              the government sector. Selected candidates will be responsible for handling official documentation, data
-              entry, clerical work, and assisting higher officials in day-to-day operations. The position promises job
-              security, fixed working hours, and growth opportunities through departmental examinations and promotions.
-            </p>
-            <p>
-              Candidates applying for this recruitment will get the chance to serve in the state government setup with
-              attractive perks and allowances. The role also brings a sense of pride and responsibility, as government
-              jobs are often considered highly prestigious in India.
-            </p>
+      <h2>About the {job.title} Recruitment</h2>
+      <p>
+        The <b>{job.title}</b> notification released by <b>{job.organization}</b> is a major highlight in the{" "}
+        <b>Sarkari Result</b> job listings. It gives candidates a golden opportunity to build a long-term career in
+        the government sector. Every year, thousands of aspirants check <b>Sarkari Result</b> for the latest
+        updates, and this recruitment has already gained significant attention due to its attractive benefits and
+        job security.
+      </p>
+
+      <h2>Key Highlights of {job.title} </h2>
+      <ul className="list-disc list-inside space-y-2">
+        <li><b>Organization:</b> {job.organization}</li>
+        <li><b>Post Name:</b> {job.title}</li>
+        <li><b>Total Vacancies:</b> {job.Post}</li>
+        <li><b>Salary:</b> {job.salary}</li>
+        <li><b>Age Limit:</b><span dangerouslySetInnerHTML={{ __html: job.age ?? "N/A" }}></span> </li>
+        <li><b>Application Start Date:</b> {job.importantDates.start}</li>
+        <li><b>Application Last Date:</b> {job.importantDates.lastDate}</li>
+        <li><b>Exam Date:</b> {job.importantDates.examDate}</li>
+        <li><b>Official Website:</b> {job.links?.official ?? "N/A"}</li>
+      </ul>
+      <p>
+        For complete details, aspirants are advised to visit the official site or check trusted sources like{" "}
+        <b>Sarkari Result</b> for authentic job information and timely updates.
+      </p>
+
+      <h2>Eligibility Criteria</h2>
+      <p>
+        Candidates checking <b>Sarkari Result</b> for the <b>{job.title}</b> post must carefully go through the
+        eligibility conditions. These include educational qualifications, age requirements, and sometimes skill-based
+        conditions. Here is a quick overview:
+      </p>
+      <ul className="list-disc list-inside space-y-2">
+        <li><b>Educational Qualification:</b> {job.qualification}</li>
+        {/* <li><b>Age Limit:</b> {job.age}</li> */}
+        {/* <li><b>Other Requirements:</b> {job.otherRequirements}</li> */}
+      </ul>
+
+      <h2>Job Responsibilities</h2>
+      <p>
+        According to the official <b>Sarkari Result</b> job notification, selected candidates for{" "}
+        <b>{job.title}</b> will have the following roles and responsibilities:
+      </p>
+      <ul className="list-disc list-inside space-y-2">
+        <li>Maintaining and updating official records.</li>
+        <li>Assisting senior officers in daily operations.</li>
+        <li>Handling clerical work like data entry, documentation, and file management.</li>
+        <li>Supporting smooth communication between departments.</li>
+        <li>Performing additional tasks as assigned by higher authorities.</li>
+      </ul>
+
+      <h2>Salary and Benefits</h2>
+      <p>
+        A major reason why aspirants search for this recruitment on <b>Sarkari Result</b> is the attractive salary
+        package. The monthly salary for the <b>{job.title}</b> post is <b>{job.salary}</b>, along with allowances
+        like DA, HRA, Travel Allowance, and Medical Facilities. In addition, candidates enjoy pension benefits,
+        gratuity, and career progression opportunities.
+      </p>
+
+      <h2>Application Process</h2>
+      <p>
+        Candidates must submit their applications online via the official website of <b>{job.organization}</b>. The
+        application window opens on <b>{job.importantDates.start}</b> and will close on <b>{job.importantDates.lastDate}</b>. Detailed step-by-step
+        guidance is usually available on trusted portals like <b>Sarkari Result</b>, where candidates can cross-check
+        instructions to avoid mistakes during form filling.
+      </p>
+
+      <h2>Selection Process</h2>
+      <p>
+        The recruitment process for <b>{job.title}</b> typically includes a written examination followed by skill
+        tests or interviews, depending on the nature of the post. Exam details, syllabus, and admit card updates are
+        frequently covered on <b>Sarkari Result</b>, making it a reliable platform for aspirants.
+      </p>
+
+      <h2>Why Follow Sarkari Result for {job.title} Updates?</h2>
+      <p>
+        <b>Sarkari Result</b> has become the go-to platform for millions of aspirants who wish to stay updated with
+        the latest government job notifications. By checking <b>Sarkari Result</b>, candidates applying for{" "}
+        {job.title} under {job.organization} can ensure they never miss important updates like exam dates,
+        admit card releases, or result announcements.
+      </p>
+
+      <h2>Important Dates</h2>
+      <ul className="list-disc list-inside space-y-2">
+        {/* <li><b>Notification Release Date:</b> {job.notificationDate}</li> */}
+        <li><b>Application Start Date:</b> {job.importantDates.start}</li>
+        <li><b>Application Last Date:</b> {job.importantDates.lastDate}</li>
+        <li><b>Admit Card Release Date:</b> {job.importantDates.admitCard}</li>
+        <li><b>Exam Date:</b> {job.importantDates.examDate}</li>
+        <li><b>Result Declaration:</b> {job.importantDates.ResultDeclaredDate}</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>
+        The <b>{job.title}</b> recruitment by <b>{job.organization}</b> is one of the top opportunities listed on{" "}
+        <b>Sarkari Result</b>. With stable salary, allowances, retirement benefits, and promotional avenues, this job
+        is highly recommended for aspirants. Candidates are strongly advised to apply before{" "}
+        <b>{job.importantDates.lastDate}</b> and keep checking <b>Sarkari Result</b> for the latest notifications, admit cards, and
+        result updates.
+      </p>
           </div>
 
           {/* Job Overview Table */}
