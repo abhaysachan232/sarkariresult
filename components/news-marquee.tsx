@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import { AlertCircle } from "lucide-react"
+import datas from '../public/jobs.json';
+
 
 export default function NewsMarquee() {
   const news = [
@@ -27,9 +29,9 @@ export default function NewsMarquee() {
           }}
           className="whitespace-nowrap"
         >
-          {news.map((item, index) => (
+          {datas.map((item, index) => (
             <span key={index} className="inline-block mx-4">
-              {item}
+              {item.title}
             </span>
           ))}
         </motion.div>

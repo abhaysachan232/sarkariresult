@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Clock } from "lucide-react"
+import datas from '../public/jobs.json';
 
 export default function LiveTicker() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -39,8 +40,8 @@ export default function LiveTicker() {
             transition={{ duration: 0.3 }}
             className="flex items-center"
           >
-            <span>{updates[currentIndex]}</span>
-            {currentIndex === 0 && (
+            <span>{datas[currentIndex].title}</span>
+            {currentIndex === datas.length-1 && (
               <Badge variant="outline" className="ml-2 bg-red-500 text-white border-red-500">
                 Urgent
               </Badge>
