@@ -1,90 +1,116 @@
 [
-      {
-      "id": 1,
-      "title": "MPESB Stenographer",
-      "setPath": "MPESBStenographer",
-      "organization": "Madhya Pradesh Employees Selection Board",
-      "date": "28-01-2025",
-      "location": "Madhya Pradesh",
-      "type": "Full-Time",
-      "category": "latest-jobs",
-      "year": "2025",
-      "Type":"Full Time"
-      ,
-      "description":
-        "<b>Madhya Pradesh Employees Selection Board</b> (MPESB) has officially announced the <b>Stenographer Recruitment 2025</b> on its website. A total of 861 vacancies have been released under this notification. The online application process will commence from 04 February 2025 and will remain open till 18 February 2025. As per the eligibility criteria, the minimum age limit is 18 years, while the maximum age should not exceed 40 years as on 01 January 2024. Interested applicants are advised to carefully go through the complete MPESB Group 4 Recruitment 2025 notification for detailed information.",
-      "importantDates": {
-        "start": "04-02-2025",
-        "lastDate": "18-02-2025",
-        "correction": "23-02-2025",
-        "examDate": "30-03-2025",
-        "admitCard": "Before Exam",
-        "ResultDeclaredDate": "Will Be Updated Here Soon."
-      },
-    
-
-      "applicationFee": {
-        "general": 500,
-        "obc": 500,
-        "scst": 175,
-        "EWSPH": 250
-      },
-
-      "eligibility": "Candidates should generally have passed 10th grade (High School) or 12th grade (Intermediate) from a recognized board.For some posts, a Diploma or Degree in a relevant field may be required.All applicants are advised to thoroughly read the official notification before applying.",
-      "age": "18 years to 40 Years",
-      "Post": 861,
-
-      "salary": "57700",
-
-      "links": {
-        "apply": "https://xyzuniversity.ac.in/apply",
-        "notification": "https://xyzuniversity.ac.in/notification.pdf",
-        "official": "https://xyzuniversity.ac.in/"
-      }
+  {
+    "id": 1,
+    "title": "MPESB Stenographer",
+    "setPath": "MPESBStenographer",
+    "organization": "Madhya Pradesh Employees Selection Board",
+    "date": "28-01-2025",
+    "location": "Madhya Pradesh",
+    "type": "Full-Time",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "Full Time",
+    "description": "<b>Madhya Pradesh Employees Selection Board</b> (MPESB) has officially announced the <b>Stenographer Recruitment 2025</b> on its website. A total of 861 vacancies have been released under this notification. The online application process will commence from 04 February 2025 and will remain open till 18 February 2025. As per the eligibility criteria, the minimum age limit is 18 years, while the maximum age should not exceed 40 years as on 01 January 2024. Interested applicants are advised to carefully go through the complete MPESB Group 4 Recruitment 2025 notification for detailed information.",
+    "importantDates": {
+      "start": "04-02-2025",
+      "lastDate": "18-02-2025",
+      "correction": "23-02-2025",
+      "examDate": "30-03-2025",
+      "admitCard": "Before Exam",
+      "ResultDeclaredDate": "Will Be Updated Here Soon."
     },
-      {
-      "id": 2,
-      "title": "Bihar BSSC Inter Level Recruitment 2025",
-      "setPath": "Bihar-BSSC-Inter-Level-Recruitment-2025",
-      "organization": "Bihar Staff Selection Commission (BSSC)",
-      "date": "15-10-2025",
-      "location": "Bihar",
-      "type": "latest-job",
-      "category": "latest-jobs",
-      "year": "2025",
-      "Type":"sarkari result",
-      
-      "description":
-      "  <b> Bihar Personnel Selection Compensation (BSSC)<b>, has launched a notification on <b>official internet site<b> for the employment of Inter Level Various Post. This employment is for <b>23,175 positions<b>. BSSC Application Form will certainly start with <b>15 October 2025<b> & the candidates can use till the <b>25 November 2025<b>. <b>Minimum age for this is 18 Years & The maximum Age Is 37 Years<b> as on 01 August 2025. Candidates have to check the total information for Bihar BSSC Inter level Recruitment 2025. Link are provided below. <b>(Advt.No. 02/2023 (A)<b>",
-
-      "importantDates": {
-        "start": "15-10-2025",
-        "lastDate": "25-11-2025",
-        "correction": "NA",
-        "examDate": "Notify Soon",
-        "admitCard": "Before Exam",
-        "ResultDeclaredDate": "Will Be Updated Here Soon."
-      },
-      "qualification":"12th Pass",
-
-      "applicationFee": {
-        "general": 100,
-        "obc": 100,
-        "scst": 100,
-        "EWSPH": 100
-      },
-
-      "eligibility": "<b>Candidates need to have passed the 12th Class (Intermediate) examination from a recognized board or establishment.",
-      "age": "18 years to 37 Years <br/> Maximum Age : 37 Years (UR Male) <br/> Maximum Age : 40 Years (UR Female)<br/>Maximum Age : 40 Years (BC/ EBC Male, Female)<br/>Maximum Age : 42 Years (SC/ ST Male, Female)",
-      "Post": 23175,
-
-      "salary":"69,100",
-
-      "links": {
-        "apply": "https://bssc.bihar.gov.in/",
-        "notification": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
-        "official": "https://bssc.bihar.gov.in/"
-      }
+    "applicationFee": {
+      "general": 500,
+      "obc": 500,
+      "scst": 175,
+      "EWSPH": 250
+    },
+    "eligibility": "Candidates should generally have passed 10th grade (High School) or 12th grade (Intermediate) from a recognized board.For some posts, a Diploma or Degree in a relevant field may be required.All applicants are advised to thoroughly read the official notification before applying.",
+    "age": "18 years to 40 Years",
+    "Post": 861,
+    "salary": "57700",
+    "links": {
+      "apply": "https://xyzuniversity.ac.in/apply",
+      "notification": "https://xyzuniversity.ac.in/notification.pdf",
+      "official": "https://xyzuniversity.ac.in/"
     }
+  },
+  {
+    "id": 2,
+    "title": "Bihar BSSC Inter Level Recruitment 2025",
+    "setPath": "Bihar-BSSC-Inter-Level-Recruitment-2025",
+    "organization": "Bihar Staff Selection Commission (BSSC)",
+    "date": "15-10-2025",
+    "location": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "  <b> Bihar Personnel Selection Compensation (BSSC)<b>, has launched a notification on <b>official internet site<b> for the employment of Inter Level Various Post. This employment is for <b>23,175 positions<b>. BSSC Application Form will certainly start with <b>15 October 2025<b> & the candidates can use till the <b>25 November 2025<b>. <b>Minimum age for this is 18 Years & The maximum Age Is 37 Years<b> as on 01 August 2025. Candidates have to check the total information for Bihar BSSC Inter level Recruitment 2025. Link are provided below. <b>(Advt.No. 02/2023 (A)<b>",
+    "importantDates": {
+      "start": "15-10-2025",
+      "lastDate": "25-11-2025",
+      "correction": "NA",
+      "examDate": "Notify Soon",
+      "admitCard": "Before Exam",
+      "ResultDeclaredDate": "Will Be Updated Here Soon."
+    },
+    "qualification": "12th Pass",
+    "applicationFee": {
+      "general": 100,
+      "obc": 100,
+      "scst": 100,
+      "EWSPH": 100
+    },
+    "eligibility": "<b>Candidates need to have passed the 12th Class (Intermediate) examination from a recognized board or establishment.",
+    "age": "18 years to 37 Years <br/> Maximum Age : 37 Years (UR Male) <br/> Maximum Age : 40 Years (UR Female)<br/>Maximum Age : 40 Years (BC/ EBC Male, Female)<br/>Maximum Age : 42 Years (SC/ ST Male, Female)",
+    "Post": 23175,
+    "salary": "69,100",
+    "links": {
+      "apply": "https://bssc.bihar.gov.in/",
+      "notification": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
+      "official": "https://bssc.bihar.gov.in/"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Bihar STET 2025 online",
+    "setPath": "Bihar-STET-2025-online",
+    "organization": "Bihar School Examination Board (BSEB)",
+    "date": "19-09-2025",
+    "location": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "  <b>The Bihar College Assessment Board (BSEB)</b> has issued a notification on its website for the <b>Bihar State Teacher Eligibility Test (BSTET/STET 2025)</b>. To apply for the STET, visit the official website, find the STET 2025 notification, and follow the instructions to complete and submit the online form. The application opens on <b>September 19, 2025</b>, and closes on <b>October 5, 2025 (Extended)</b>. Candidates age must be between <b>21 and 42 years old as of August 1, 2025</b>, to qualify. Review all required details before submitting the Bihar STET Online Form 2025.",
 
+    "importantDates": {
+      "start": "19-09-2025",
+      "lastDate": "05-10-2025",
+      "correction": "NA",
+      "examDate": "Notify Soon",
+      "admitCard": "Before Exam",
+      "ResultDeclaredDate": "Will Be Updated Here Soon."
+    },
+    "qualification": "12th Pass",
+    "applicationFee": {
+"General/ EWS/ BC/ EBC":   960,
+"Other State (All Category)":960,
+"SC/ ST/ PWD":  "760",
+"Both Paper General/ EWS/ BC/ EBC":   1440,
+"Both Paper Other State (All Category)":   1440,
+"Both Paper SC/ ST/ PWD":  1140
+
+    },
+    "eligibility": "For <b>Class 9–10 Teachers which will have Paper-I</b>, candidates must have a <b>Bachelor’s degree in the subject which they applied with at least 50% marks and a B.Ed. degree</b>. For <b>Senior Secondary Teacher </b>, you need a <b>Postgraduate degree in the subject with Second Division with a B.Ed. </b> degree <b>(not required for Computer Science)</b>. Candidates belonging to <b>SC/ST/EBC/BC/Divyang categories</b> get <b>5% relaxation</b> in marks.",
+    "age": "21 years to 37 Years for male <br/> max:- 40 Years (Female UR, BC/ EBC-Male & Female)  <br/> max:- 42 Years (SC/ ST-Male & Female)<br/> <b>Bihar BSEB</b> provides age relaxation for the <b>Bihar STET</b> position as per their regulations.",
+    "Post": "NA",
+    "salary": "Not Aplicable",
+    "links": {
+      "apply": "https://cdn3.digialm.com/EForms/configuredHtml/1631/95659/Registration.html",
+      "notification": "https://pbs.twimg.com/media/G11CJoWWsAAinIW?format=jpg&name=small",
+      "official": "https://secondary.biharboardonline.com//"
+    }
+  }
 ]
