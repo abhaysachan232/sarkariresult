@@ -24,8 +24,9 @@ export async function GET() {
   try {
     const jobs: Job[] = (datas as any[]).map((job) => ({
       title: job.title,
-      updatedAt: job.updatedAt || job.date || new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
     }));
+console.log(jobs);
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
