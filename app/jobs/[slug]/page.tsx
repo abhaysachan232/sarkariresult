@@ -34,6 +34,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       apply?: string;
       notification?: string;
       official?: string;
+      admitCard?: string;
+      result?: string;
     };
     image?: string;
     [key: string]: any;
@@ -103,6 +105,8 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
       apply?: string;
       notification?: string;
       official?: string;
+      admitCard?: string;
+      result?: string;
     };
     image?: string;
     [key: string]: any;
@@ -204,28 +208,49 @@ console.log(job);
             <span className="px-3 py-1 text-sm bg-white/20 rounded-full">{job.Type}</span>
             {job.Post && <span className="px-3 py-1 text-sm bg-white/20 rounded-full">Vacancies: {job.Post}</span>}
           </div>
-          <div className="mt-6 flex gap-3">
-            {job.links?.apply && (
-              <a
-                href={job.links.apply}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-2 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-300 shadow-lg"
-              >
-                Apply Now
-              </a>
-            )}
-            {job.links?.notification && (
-              <a
-                href={job.links.notification}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-5 py-2 rounded-lg border border-white text-white font-semibold hover:bg-white hover:text-blue-700"
-              >
-                Download Notification
-              </a>
-            )}
-          </div>
+    <div className="mt-6 flex flex-wrap gap-3">
+  {job.links?.notification && (
+    <a
+      href={job.links.notification}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
+    >
+      📄 Notification
+    </a>
+  )}
+  {job.links?.apply && (
+    <a
+      href={job.links.apply}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-yellow-400 text-black font-semibold hover:bg-yellow-300 shadow-lg"
+    >
+      📝 Apply Now
+    </a>
+  )}
+  {job.links?.admitCard && (
+    <a
+      href={job.links.admitCard}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-green-600 text-white font-semibold hover:bg-green-700"
+    >
+      🎫 Download Admit Card
+    </a>
+  )}
+  {job.links?.result && (
+    <a
+      href={job.links.result}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
+    >
+      ✅ Check Result
+    </a>
+  )}
+</div>
+
         </div>
       </section>
 

@@ -110,7 +110,49 @@
     "links": {
       "apply": "https://cdn3.digialm.com/EForms/configuredHtml/1631/95659/Registration.html",
       "notification": "https://pbs.twimg.com/media/G11CJoWWsAAinIW?format=jpg&name=small",
-      "official": "https://secondary.biharboardonline.com//"
+      "official": "https://secondary.biharboardonline.com//",
+      "admitCard": "https://example.com/admit-card-link",
+       "result": "https://example.com/result-link"
+    }
+  },
+    {
+    "id": 4,
+    "title": "bihar police asi steno result mark 2024",
+    "setPath": "bihar-police-asi-steno​-Result-BPSSC-2024",
+    "organization": "BPSSC Bihar Police Subordinate Services Commission",
+    "date": "14-12-2024",
+    "location": "Bihar",
+    "type": "results",
+    "category": "results",
+    "year": "2024",
+    "Type": "sarkari result",
+    "description": " <b>The Bihar Police Junior Solutions Compensation (BPSSC)</b> has on its official site for the Steno Assistant Below Examiner (ASI) recuitment, which includes 305 jobs. The application procedure occurred from <b>December 17, 2024</b>, to <b>January 17, 2025</b>. The Bihar Authorities exam was provided from <b>April 15 to 17, 2025</b>. To access their marks, candidates can visit to the portal utilizing their enrollment number, registration number, or birthdate.",
+
+    "importantDates": {
+      "start": "17-12-2024",
+      "lastDate": "17-01-2025",
+      "correction": "NA",
+      "examDate": "23-02-2025",
+      "admitCard": "10-02-2025",
+      "ResultDeclaredDate": "27-09-2025"
+    },
+    "qualification": "12th Pass",
+    "applicationFee": {
+"For General, EBC, BC, EWS"  : 700,
+"For Other State All Category" : 700,
+"For SC / ST, PH" : 400
+
+    },
+    "eligibility": "Candidates must have passed Class <b>12th/HSC</b> from a recognized board.Must have a <b>1-year Diploma Certificate in Computers</b>.Hindi Stenographer: Speed of <b>80 words per minute</b> (WPM)Computer Typing: Proficiency in both Hindi and English with a typing speed of <b>30 WPM,completing 300 words in 10 minutes</b>.Computer Test: Should have good knowledge of <b>MS Office (Word, Excel, PowerPoint) and the Internet</b>.",
+    "age": "Minimum Age : 18 Years <br/> Maximum Age : 25 Years  (UR/ EWS)-Male, <br/>Female Maximum Age : 27 Years  (BC / EBC)-Male <br/>Maximum Age : 28 Years  (BC / EBC)<br/>FemaleMaximum Age : 30 Years  (SC/ ST) Male, Female <br/>BPSSC provides age relaxation for the Steno ASI position as per their regulations.",
+    "Post": "305",
+    "salary": "₹40,000 to ₹45,000",
+    "links": {
+      "apply": "https://apply-bpssc.com/StenoAsi124/applicationIndex",
+      "notification": "https://bpssc.bihar.gov.in/Advts/Advt.%20No.-01-2024-Steno%20ASI.pdf",
+      "official": "https://bpssc.bihar.gov.in/",
+      "admitCard": "https://apply-bpssc.com/StenoAsiWEAdmit124/applicationIndex",
+       "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
     }
   }
 ]
