@@ -107,30 +107,20 @@ export default function JobCard({data }: JobCardProps) {
           <div className="flex items-center text-sm text-muted-foreground">
             <Calendar className="mr-2 h-4 w-4" />
             <span>
-              Posted on:{" "}
-              {new Date(2023, 2, 15 + index).toLocaleDateString("en-US", {
-                day: "numeric",
-                month: "short",
-                year: "numeric",
-              })}
+              Posted on: {jobs.date}
             </span>
           </div>
           <div className="flex items-center text-sm text-muted-foreground">
             <Clock className="mr-2 h-4 w-4" />
             <span>
-              Last Date:{" "}
-              {new Date(2023, 3, 15 + index).toLocaleDateString("en-US", {
-                day: "numeric",
-                month: "short",
-                year: "numeric",
-              })}
+              Last Date: {jobs.importantDates.lastDate}
             </span>
           </div>
         </div>
         <div className="flex justify-between items-center">
           <div>
             <span className="text-xs text-muted-foreground">Qualification:</span>
-            <span className="text-xs ml-1">{["Graduate", "12th Pass", "10th Pass", "Post Graduate"][index % 4]}</span>
+            <span className="text-xs ml-1">{jobs.qualification}</span>
           </div>
           <motion.div >
             <Button asChild size="sm" className="gap-1">

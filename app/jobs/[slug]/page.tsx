@@ -154,6 +154,7 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
       : undefined,
     url: `https://sarkariresult.rest/jobs/${slug}`,
   };
+console.log(job);
 
   return (<>
 
@@ -200,7 +201,7 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
           <p className="text-lg md:text-xl font-medium">{job.organization}</p>
           <div className="flex flex-wrap gap-2 mt-4">
             <span className="px-3 py-1 text-sm bg-white/20 rounded-full">{job.category}</span>
-            <span className="px-3 py-1 text-sm bg-white/20 rounded-full">{job.type}</span>
+            <span className="px-3 py-1 text-sm bg-white/20 rounded-full">{job.Type}</span>
             {job.Post && <span className="px-3 py-1 text-sm bg-white/20 rounded-full">Vacancies: {job.Post}</span>}
           </div>
           <div className="mt-6 flex gap-3">
@@ -275,7 +276,7 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-2 font-medium">Age</td>
-                  <td className="px-4 py-2">{job.age ?? "N/A"}</td>
+                  <td className="px-4 py-2" dangerouslySetInnerHTML={{ __html: job.age ?? "N/A" }}></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 font-medium">Salary</td>
@@ -292,7 +293,7 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
               <tbody>
                 <tr className="border-b">
                   <td className="px-4 py-2 font-medium">Education</td>
-                  <td className="px-4 py-2">{job.eligibility ?? "Not specified"}</td>
+                  <td className="px-4 py-2"  dangerouslySetInnerHTML={{ __html:job.eligibility ?? "Not specified" }}></td>
                 </tr>
                 <tr className="border-b">
                   <td className="px-4 py-2 font-medium">Application Fee</td>

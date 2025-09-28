@@ -30,7 +30,7 @@
       },
 
       "eligibility": "Candidates should generally have passed 10th grade (High School) or 12th grade (Intermediate) from a recognized board.For some posts, a Diploma or Degree in a relevant field may be required.All applicants are advised to thoroughly read the official notification before applying.",
-      "age": "18years to 40 Years",
+      "age": "18 years to 40 Years",
       "Post": 861,
 
       "salary": "57700",
@@ -40,7 +40,50 @@
         "notification": "https://xyzuniversity.ac.in/notification.pdf",
         "official": "https://xyzuniversity.ac.in/"
       }
-    }
+    },
+      {
+      "id": 2,
+      "title": "Bihar BSSC Inter Level Recruitment 2025",
+      "setPath": "Bihar-BSSC-Inter-Level-Recruitment-2025",
+      "organization": "Bihar Staff Selection Commission (BSSC)",
+      "date": "15-10-2025",
+      "location": "Bihar",
+      "type": "latest-job",
+      "category": "latest-jobs",
+      "year": "2025",
+      "Type":"sarkari result",
+      
+      "description":
+      "  <b> Bihar Personnel Selection Compensation (BSSC)<b>, has launched a notification on <b>official internet site<b> for the employment of Inter Level Various Post. This employment is for <b>23,175 positions<b>. BSSC Application Form will certainly start with <b>15 October 2025<b> & the candidates can use till the <b>25 November 2025<b>. <b>Minimum age for this is 18 Years & The maximum Age Is 37 Years<b> as on 01 August 2025. Candidates have to check the total information for Bihar BSSC Inter level Recruitment 2025. Link are provided below. <b>(Advt.No. 02/2023 (A)<b>",
 
+      "importantDates": {
+        "start": "15-10-2025",
+        "lastDate": "25-11-2025",
+        "correction": "NA",
+        "examDate": "Notify Soon",
+        "admitCard": "Before Exam",
+        "ResultDeclaredDate": "Will Be Updated Here Soon."
+      },
+      "qualification":"12th Pass",
+
+      "applicationFee": {
+        "general": 100,
+        "obc": 100,
+        "scst": 100,
+        "EWSPH": 100
+      },
+
+      "eligibility": "<b>Candidates need to have passed the 12th Class (Intermediate) examination from a recognized board or establishment.",
+      "age": "18 years to 37 Years <br/> Maximum Age : 37 Years (UR Male) <br/> Maximum Age : 40 Years (UR Female)<br/>Maximum Age : 40 Years (BC/ EBC Male, Female)<br/>Maximum Age : 42 Years (SC/ ST Male, Female)",
+      "Post": 23175,
+
+      "salary":"69,100",
+
+      "links": {
+        "apply": "https://bssc.bihar.gov.in/",
+        "notification": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
+        "official": "https://bssc.bihar.gov.in/"
+      }
+    }
 
 ]
