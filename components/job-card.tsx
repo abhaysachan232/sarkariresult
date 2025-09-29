@@ -163,28 +163,12 @@
 import React from "react";
 import Link from "next/link";
 
-interface CategoryData {
-  [category: string]: {
-    text: string;
-    url: string;
-  }[];
+interface JobCardProps {
+  data:any;
+  selection:any
 }
 
-interface Itemed {
-  [category: string]: {
-    name: string;
-    href: string;
-    target: string;
-  }[];
-}
-
-interface CategorySectionsProps {
-  data: CategoryData;
-  selection: Itemed;
-}
-const CategorySections: React.FC<CategorySectionsProps> = ({ data,selection }) => {
-
-
+export default function JobCard({data,selection }: JobCardProps) {
   return (
     <div
       style={{
@@ -243,4 +227,3 @@ const CategorySections: React.FC<CategorySectionsProps> = ({ data,selection }) =
   );
 };
 
-export default CategorySections;

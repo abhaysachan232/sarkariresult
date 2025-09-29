@@ -67,15 +67,14 @@ export default async function Middle({
 
   type Job = {
     category: string;
-    // add other fields as needed
     [key: string]: any;
   };
 
   // You need to define selectedCategory or use 'category' from params
 
-  const jobs: Job[] = datas;
-  const data = selectedCategory=='home'?jobs: jobs.filter((job: Job) => job.category ===selectedCategory);
-  console.log(data,selectedCategory,jobs);
+  // const jobs: Job[] = datas;
+  const data = selectedCategory=='home'?datas: datas.filter((job: Job) => job.category ===selectedCategory);
+  console.log(data,selectedCategory,datas);
  const selCtegory =selectedCategory=='home'?menuItems: menuItems.filter((item: any) => item.href === selectedCategory);
   
 
