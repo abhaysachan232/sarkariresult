@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { AlertCircle } from "lucide-react"
 import datas from '../public/jobs.json';
+import Link from "next/link";
 
 
 export default function NewsMarquee() {
@@ -30,9 +31,11 @@ export default function NewsMarquee() {
           className="whitespace-nowrap"
         >
           {datas.map((item, index) => (
+            <Link href={`/jobs/${item.title.split(" ").join("-")}`}>
             <span key={index} className="inline-block mx-4">
               {item.title}
             </span>
+            </Link>
           ))}
         </motion.div>
       </div>

@@ -28,6 +28,17 @@ export default async function Middle() {
   
 
   const data = jobs
+
+    const menuItems:any = [    
+    { name: "Latest Jobs", href: "latest-jobs",target:'_blank' },
+    { name: "Results", href: "results" ,target:'_blank'},
+    { name: "Admit Card", href: "admit-card" ,target:'_blank'},
+    { name: "Answer Key", href: "answer-key" ,target:'_blank'},
+    { name: "Syllabus", href: "syllabus",target:'_blank' },
+    { name: "Admission", href: "admission" ,target:'_blank'},
+    { name: "Certificate Verification", href: "certificate-verification",target:'_blank' },
+    { name: "Important", href: "important",target:'_blank' }
+  ]
   return (
 <>
       <main className="container py-6">
@@ -35,7 +46,7 @@ export default async function Middle() {
         <NewsMarquee />
 
         {/* Search Bar */}
-        <div className="mt-6 mb-8 relative">
+        {/* <div className="mt-6 mb-8 relative">
           <div className="flex w-full max-w-4xl mx-auto items-center space-x-2 overflow-hidden rounded-full border bg-background px-3 shadow-sm focus-within:ring-1 focus-within:ring-ring">
             <Search className="h-5 w-5 text-muted-foreground" />
             <Input
@@ -55,7 +66,7 @@ export default async function Middle() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Live Ticker */}
         <LiveTicker />
@@ -64,7 +75,7 @@ export default async function Middle() {
         {/* <CategoryFilter /> */}
 
         {/* Main Content Tabs */}
-<JobCard data={data}/>
+<JobCard data={data} selection={menuItems}/>
 
         {/* Trending News Section */}
         <section className="mt-12">

@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Clock } from "lucide-react"
 import datas from '../public/jobs.json';
+import Link from "next/link";
 
 export default function LiveTicker() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -40,7 +41,7 @@ export default function LiveTicker() {
             transition={{ duration: 0.3 }}
             className="flex items-center"
           >
-            <span>{datas[currentIndex].title}</span>
+            <Link href={`/jobs/${datas[currentIndex].title.split(" ").join("-")}`}> <span>{datas[currentIndex].title}</span></Link>
             {currentIndex === datas.length-1 && (
               <Badge variant="outline" className="ml-2 bg-red-500 text-white border-red-500">
                 Urgent

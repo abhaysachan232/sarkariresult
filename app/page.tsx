@@ -39,7 +39,7 @@ export default async function Home() {
     <div className="min-h-screen bg-background" suppressHydrationWarning={true}>
       {/* Header */}
       <ClientOnly>
-  <div style={{ minHeight: "50px" }}> {/* reserve space */}
+  <div > {/* reserve space */}
     <NotificationButton />
   </div>
 </ClientOnly>
