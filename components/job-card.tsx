@@ -169,19 +169,19 @@ interface CategoryData {
     url: string;
   }[];
 }
-interface Itemed{
-  [selection:atring]:{
-    name:string;
-    href:string;
-    target:string
-  }
+
+interface Itemed {
+  [category: string]: {
+    name: string;
+    href: string;
+    target: string;
+  }[];
 }
 
 interface CategorySectionsProps {
   data: CategoryData;
-  selection:Itemed;
+  selection: Itemed;
 }
-
 const CategorySections: React.FC<CategorySectionsProps> = ({ data,selection }) => {
 
 
