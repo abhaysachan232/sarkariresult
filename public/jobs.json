@@ -317,6 +317,47 @@
       "admitCard": "",
        "result": ""
     }
+  },
+    {
+    "id": 9,
+    "title": "dsssb admit card 2025",
+    "setPath": "dsssb-admit-card-2025",
+    "organization": "Delhi Subordinate Service Selection Commission (DSSSB)",
+    "date": "31-10-2025",
+    "location": "India",
+    "type": "admit-card",
+    "category": "admit-card",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": " <b>Delhi Subordinate Service Selection Commission (DSSSB)</b>, The Admit Card has been now available on the official website for the vacancy of DSSSB. The DSSSB Exam date will be from 01 October 2025 - 31 October 2025. Candidates can now download  Admit Card by  their Enrollment Number which is given in form,also can use Registration Number, and Date of Birth by official website (link given below).",
+
+    "importantDates": {
+      "start": "29-09-2025",
+      "lastDate": "30-10-2025 ",
+      "correction": "NA",
+      "Online Fee Payment Last Date" :  "",
+      "examDate": "will be notified later ",
+      "admitCard": "29 September 2025",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": " as per notification",
+    "applicationFee": {
+"For General / OBC / EWS" : "No fees to download",
+"For SC / ST / EBC" : "No fees to download",
+"For All Category female" : "No fees to download"
+
+    },
+    "eligibility": "as per notification",
+    "age": "not required",
+    "Post": "",
+    "salary": "as per post",
+    "links": {
+      "apply": "https://dsssb.delhi.gov.in/",
+      "notification": "https://dsssb.delhi.gov.in/",
+      "official": "https://dsssb.delhi.gov.in/",
+      "admitCard": "https://cdn.digialm.com/EForms/configuredHtml/1258/96015/login.html",
+       "result": ""
+    }
   }
 
 ]
