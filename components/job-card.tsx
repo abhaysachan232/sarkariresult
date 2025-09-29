@@ -169,6 +169,8 @@ interface JobCardProps {
 }
 
 export default function JobCard({data,selection }: JobCardProps) {
+  console.log(data);
+  
   return (
     <div
       style={{

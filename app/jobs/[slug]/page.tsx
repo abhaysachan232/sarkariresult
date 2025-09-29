@@ -262,7 +262,7 @@ console.log(job);
           <div className="prose dark:prose-invert max-w-none space-y-6">
             <div dangerouslySetInnerHTML={{ __html: job.description }} />
 
-            <h2>About {job.organization}</h2>
+            <h2><b>About {job.organization}</b></h2>
              <p>
         <b><i>{job.organization}</i></b> is one of the most trusted recruitment bodies in India, well-known for
         conducting large-scale examinations. Aspirants who follow <b>Sarkari Result</b> updates regularly will find
@@ -270,7 +270,7 @@ console.log(job);
         transparency and efficiency.
       </p>
 
-      <h2>About the {job.title} Recruitment</h2>
+      <h2><b>About the {job.title}</b></h2>
       <p>
         The <b>{job.title}</b> notification released by <b>{job.organization}</b> is a major highlight in the{" "}
         <b>Sarkari Result</b> job listings. It gives candidates a golden opportunity to build a long-term career in
@@ -279,7 +279,7 @@ console.log(job);
         job security.
       </p>
 
-      <h2>Key Highlights of {job.title} </h2>
+      <h2><b>Key Highlights of {job.title}</b></h2>
       <ul className="list-disc list-inside space-y-2">
         <li><b>Organization:</b> {job.organization}</li>
         <li><b>Post Name:</b> {job.title}</li>
@@ -296,7 +296,7 @@ console.log(job);
         <b>Sarkari Result</b> for authentic job information and timely updates.
       </p>
 
-      <h2>Eligibility Criteria</h2>
+      <h2><b>Eligibility Criteria</b></h2>
       <p>
         Candidates checking <b>Sarkari Result</b> for the <b>{job.title}</b> post must carefully go through the
         eligibility conditions. These include educational qualifications, age requirements, and sometimes skill-based
@@ -308,7 +308,7 @@ console.log(job);
         {/* <li><b>Other Requirements:</b> {job.otherRequirements}</li> */}
       </ul>
 
-      <h2>Job Responsibilities</h2>
+      <h2><b>Job Responsibilities</b></h2>
       <p>
         According to the official <b>Sarkari Result</b> job notification, selected candidates for{" "}
         <b>{job.title}</b> will have the following roles and responsibilities:
@@ -321,7 +321,7 @@ console.log(job);
         <li>Performing additional tasks as assigned by higher authorities.</li>
       </ul>
 
-      <h2>Salary and Benefits</h2>
+      <h2><b>Salary and Benefits</b></h2>
       <p>
         A major reason why aspirants search for this recruitment on <b>Sarkari Result</b> is the attractive salary
         package. The monthly salary for the <b>{job.title}</b> post is <b>{job.salary}</b>, along with allowances
@@ -329,7 +329,7 @@ console.log(job);
         gratuity, and career progression opportunities.
       </p>
 
-      <h2>Application Process</h2>
+      <h2><b>Application Process</b></h2>
       <p>
         Candidates must submit their applications online via the official website of <b>{job.organization}</b>. The
         application window opens on <b>{job.importantDates.start}</b> and will close on <b>{job.importantDates.lastDate}</b>. Detailed step-by-step
@@ -337,14 +337,14 @@ console.log(job);
         instructions to avoid mistakes during form filling.
       </p>
 
-      <h2>Selection Process</h2>
+      <h2><b>Selection Process</b></h2>
       <p>
         The recruitment process for <b>{job.title}</b> typically includes a written examination followed by skill
         tests or interviews, depending on the nature of the post. Exam details, syllabus, and admit card updates are
         frequently covered on <b>Sarkari Result</b>, making it a reliable platform for aspirants.
       </p>
 
-      <h2>Why Follow Sarkari Result for {job.title} Updates?</h2>
+      <h2><b>Why Follow Sarkari Result for {job.title} Updates?</b></h2>
       <p>
         <b>Sarkari Result</b> has become the go-to platform for millions of aspirants who wish to stay updated with
         the latest government job notifications. By checking <b>Sarkari Result</b>, candidates applying for{" "}
@@ -352,7 +352,7 @@ console.log(job);
         admit card releases, or result announcements.
       </p>
 
-      <h2>Important Dates</h2>
+      <h2><b>Important Dates</b></h2>
       <ul className="list-disc list-inside space-y-2">
         {/* <li><b>Notification Release Date:</b> {job.notificationDate}</li> */}
         <li><b>Application Start Date:</b> {job.importantDates.start}</li>
@@ -362,7 +362,7 @@ console.log(job);
         <li><b>Result Declaration:</b> {job.importantDates.ResultDeclaredDate}</li>
       </ul>
 
-      <h2>Conclusion</h2>
+      <h2><b>Conclusion</b></h2>
       <p>
         The <b>{job.title}</b> recruitment by <b>{job.organization}</b> is one of the top opportunities listed on{" "}
         <b>Sarkari Result</b>. With stable salary, allowances, retirement benefits, and promotional avenues, this job

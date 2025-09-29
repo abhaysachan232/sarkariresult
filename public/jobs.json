@@ -115,7 +115,7 @@
        "result": "https://example.com/result-link"
     }
   },
-    {
+  {
     "id": 4,
     "title": "bihar police asi steno result mark 2024",
     "setPath": "bihar-police-asi-steno​-Result-BPSSC-2024",
@@ -153,6 +153,46 @@
       "official": "https://bpssc.bihar.gov.in/",
       "admitCard": "https://apply-bpssc.com/StenoAsiWEAdmit124/applicationIndex",
        "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
+    }
+  },
+    {
+    "id": 5,
+    "title": "DDA Recruitment 2025",
+    "setPath": "DDA-Recruitment-2025",
+    "organization": "Delhi Development Authority",
+    "date": "06-10-2025",
+    "location": "Delhi",
+  "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": " <b>Delhi Development Authority (DDA)</b> many post online form 2025|Advt No 09/2025: Delhi Development Authority DDA notification is released and Online form filling Now <b>Started on 06 October 2025 to 05 November 2025 is Last Day</b> for Upcoming DDA vacancies form, Openings 2025 Complete Alert available at the official website. All the candidates can currently examine the thorough alert of Delhi Development Authority DDA Recruitment 2025 Jobs. Age Limitation/ Job Details/ Curriculum/ Wage Particulars are Available on Alert/ Promotion.",
+
+    "importantDates": {
+      "start": "06-10-2025",
+      "lastDate": "05-11-2025",
+      "correction": "NA",
+      "Online Fee Payment Last Date" :  "05-11-2025",
+      "examDate": "December / January ",
+      "admitCard": "Before Exam",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "10th, 10+2, Degree / Diploma (Post Wise)",
+    "applicationFee": {
+"General / OBC / EWS" : "2500",
+"SC / ST / PH / Female" : "2500"
+
+    },
+    "eligibility": "10th, 10+2, Degree / Diploma (Post Wise) For Post Wise Eligibility Details Read the Notification.",
+    "age": "Minimum Age : 18 Years.<br/>Maximum Age : 27 Years <br/>Age Relaxation Extra as per Delhi Development Authority DDA Various Post Recruitment Rules.",
+    "Post": "1732",
+    "salary": "as per post",
+    "links": {
+      "apply": "https://dda.gov.in/latest-jobs",
+      "notification": "https://dda.gov.in/sites/default/files/latest_jobs/dda_final_notification_dr_2025_dated_26_sep_2025.pdf",
+      "official": "https://dda.gov.in/",
+      "admitCard": "",
+       "result": ""
     }
   }
 ]
