@@ -4,6 +4,7 @@
 import { Calendar, MapPin, FileText, Banknote, UserCheck, CheckCircle } from "lucide-react"
 import Head from "next/head"
 import Script from "next/script"
+import Link from "next/link"
 import JobCard from "@/components/job-card"
 import datas from '../../../public/jobs.json';
 import NotFound from '../../not-found';
@@ -121,8 +122,21 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
       : undefined,
   }));
   const job = jobs.find((j) => j.title.split(" ").join("-") === slug);
-  
-  if (!job) return NotFound()
+
+  if (!job) return NotFound();
+
+  let relatedJobs = jobs
+    .filter((j) => j.id < job.id) // current job से पहले वाली jobs
+    .sort((a, b) => a.id - b.id)
+    .slice(0, 3);
+
+  // अगर पहली job है तो बाद वाली दिखाओ
+  if (relatedJobs.length === 0) {
+    relatedJobs = jobs
+      .filter((j) => j.id > job.id)
+      .sort((a, b) => a.id - b.id)
+      .slice(0, 3);
+  }
 
   const jobPostingSchema = {
     "@context": "https://schema.org/",
@@ -472,6 +486,26 @@ console.log(job);
           {/* Related Jobs - you can render other JobCards if you want */}
           {/* <JobCard jobs={jobs.filter(j => j.title !== job.title).slice(0, 5)} /> */}
         </aside>
+          <aside className="lg:col-span-1 space-y-6">
+        {relatedJobs.length > 0 && (
+          <div className="rounded-xl border bg-white shadow p-6">
+            <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+              📰 {job.id === 1 ? "Recent Jobs" : "Previous Jobs"}
+            </h2>
+            <ul className="list-disc list-inside space-y-2">
+              {relatedJobs.map((rj) => (
+                <li key={rj.id}>
+                  <Link href={`/jobs/${rj.title.split(" ").join("-")}`}
+                    className="text-blue-600 hover:underline"
+                  >
+                    {rj.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
       </section>
     </article>
 

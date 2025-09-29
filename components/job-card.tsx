@@ -207,21 +207,24 @@ export default function JobCard({data,selection }: JobCardProps) {
 
           {/* List */}
           <ul style={{ listStyle: "disc", padding: "15px 20px", margin: 0 }}>
-            {data.filter((job:any) => job.category ===item.href).map((items:any, index:any) => (
-              <li key={index} style={{ marginBottom: "10px", fontSize: "14px" }}>
-                <Link href={`/jobs/${items.title.split(" ").join("-")}`}>
-                  <span
-                    style={{
-                      color: "blue",
-                      textDecoration: "underline",
-                      cursor: "pointer",
-                    }}
-                  >
-                    {items.title}
-                  </span>
-                </Link>
-              </li>
-            ))}
+         {data
+    .filter((job: any) => job.category === item.href)
+    .sort((a: any, b: any) => b.id - a.id)   // 👈 id के हिसाब से sort (descending)
+    .map((items: any, index: any) => (
+      <li key={index} style={{ marginBottom: "10px", fontSize: "14px" }}>
+        <Link href={`/jobs/${items.title.split(" ").join("-")}`}>
+          <span
+            style={{
+              color: "blue",
+              textDecoration: "underline",
+              cursor: "pointer",
+            }}
+          >
+            {items.title}
+          </span>
+        </Link>
+      </li>
+    ))}
           </ul>
         </div>
       ))}
