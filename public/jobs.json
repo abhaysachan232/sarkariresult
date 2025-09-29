@@ -155,7 +155,7 @@
        "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
     }
   },
-    {
+  {
     "id": 5,
     "title": "DDA Recruitment 2025",
     "setPath": "DDA-Recruitment-2025",
@@ -195,7 +195,7 @@
        "result": ""
     }
   },
-      {
+  {
     "id": 6,
     "title": "RRB NTPC Recruitment 2025",
     "setPath": "RRB NTPC Recruitment 2025",
@@ -236,7 +236,7 @@
        "result": ""
     }
   },
-        {
+ {
     "id": 7,
     "title": "RRB NTPC Graduate Level Recruitment 2025",
     "setPath": "RRB-NTPC-Graduate-Level-Recruitment-2025",
@@ -247,7 +247,7 @@
     "category": "latest-jobs",
     "year": "2025",
     "Type": "sarkari result",
-    "description": " <b>Railway Recruitment Board (RRB)</b>, has given a short notice on its website for the vacancy of Non-Technical recruitment Popular Categories (NTPC) Graduate level Post. This recruitment has <b>5800 vacancies</b>. RRB Application Form filling start date from 21 October 2025 & the candidates can fill form till the 20 November 2025 and fee payment last date is 20 November 2025. The Minimum age is 18 Years & The Maximum Age Is 33 Years as on 01 January 2026. Candidates must check notification for the complete details for RRB NTPC 12th level Recruitment 2025 which has given below. (Advt No : CEN 06/2025)",
+    "description": " <b>Railway Recruitment Board (RRB)</b>, has given a short notice on its website for the vacancy of Non-Technical recruitment Popular Categories (NTPC) Graduate level Post. This recruitment has <b>5800 vacancies</b>. RRB Application Form filling start date from 21 October 2025 & the candidates can fill form till the 20 November 2025 and fee payment last date is 20 November 2025. The Minimum age is 18 Years & The Maximum Age Is 33 Years as on 01 January 2026. Candidates must check notification for the complete details for RRB NTPC graduate level Recruitment 2025 which has given below. (Advt No : CEN 06/2025)",
 
     "importantDates": {
       "start": "21-10-2025 (tentative)",
@@ -272,6 +272,47 @@
     "links": {
       "apply": "https://www.rrbapply.gov.in/#/auth/landing",
       "notification": "/jobs-images/rrb-ntpc.jpg",
+      "official": "https://www.rrbapply.gov.in/#/auth/landing",
+      "admitCard": "",
+       "result": ""
+    }
+  },
+  {
+    "id": 8,
+    "title": "Railway RRB Junior Engineer JE Recruitment 2025",
+    "setPath": "Railway-RRB-Junior-Engineer-JE-Recruitment-2025",
+    "organization": "Railway Recruitment Board (RRB)",
+    "date": "31-10-2025",
+    "location": "India",
+  "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": " <b>Railway Recruitment Board (RRB)</b>, has given a short notice on its website for the vacancy of <b>RRB JE recruitment 2025</b> Popular Categories Engineering Diploma or Degree holder Post. This recruitment has <b>2570 vacancies</b>. RRB Application Form filling start date from 31 October 2025 & the candidates can fill form till the 30 November 2025 and fee payment last date is 30 November 2025. The Minimum age is 18 Years & The Maximum Age Is 33 Years as on 01 January 2026. Candidates must check notification for the complete details for RRB Engineering Diploma or Degree level JE Recruitment 2025 which has given below. (Advt No : CEN 06/2025)",
+
+    "importantDates": {
+      "start": "31-10-2025 (tentative)",
+      "lastDate": "30-11-2025 (tentative)",
+      "correction": "NA",
+      "Online Fee Payment Last Date" :  "30-11-2025 (tentative)",
+      "examDate": "will be notified later ",
+      "admitCard": "Before Exam updated here",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "Engineering Diploma or Degree",
+    "applicationFee": {
+"For General / OBC / EWS" : 500,
+"For SC / ST / EBC" : 250,
+"For All Category female" : 250
+
+    },
+    "eligibility": "Candidates must possess a Engineering Diploma or Degree from a recognized University/Institute in India.",
+    "age": "Minimum Age : 18 Years (Tentative) <br/>Maximum Age : 33 Years (Tentative)<br/> RRB provides age relaxation for the NTPC Inter Level position as per their regulations.",
+    "Post": "2570",
+    "salary": "as per post",
+    "links": {
+      "apply": "https://www.rrbapply.gov.in/#/auth/landing",
+      "notification": "/jobs-images/rrb-je-notice.webp",
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
        "result": ""
