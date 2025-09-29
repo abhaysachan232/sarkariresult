@@ -205,7 +205,7 @@ export default function JobCard({data,selection }: JobCardProps) {
 
           {/* List */}
           <ul style={{ listStyle: "disc", padding: "15px 20px", margin: 0 }}>
-            {data.filter((job) => job.category ===item.href).map((items, index) => (
+            {data.filter((job:any) => job.category ===item.href).map((items:any, index:any) => (
               <li key={index} style={{ marginBottom: "10px", fontSize: "14px" }}>
                 <Link href={`/jobs/${items.title.split(" ").join("-")}`}>
                   <span
