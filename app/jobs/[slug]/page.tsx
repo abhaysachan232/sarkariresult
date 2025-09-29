@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${job.title} - ${job.organization} | SarkariResult`,
     description: job.description,
-    keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Government Jobs`,
+    keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri,result sarkari result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/jobs/${slug}` },
     openGraph: {
       title: job.title,
@@ -167,7 +167,7 @@ console.log(job);
       <meta name="description" content={job.description} />
       <meta
         name="keywords"
-        content={`${slug} ${job.title}, ${job.category}, Sarkari Naukri, Government Jobs`}
+        content={`${slug} ${job.title}, ${job.category},result sarkari result, Sarkari Naukri, Government Jobs`}
       />
       <link rel="canonical" href={`https://sarkariresult.rest/jobs/${slug}`} />
 

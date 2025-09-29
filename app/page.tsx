@@ -1,6 +1,9 @@
-import Middle from "@/components/Middle"
+import Middle from "@/components/Middle";
 import { Metadata } from "next";
 import { headers } from "next/headers";
+import NotificationButton from "../components/NotificationButton";
+import ClientOnly from "@/components/ClientOnly";
+import NotificationWrapper from "@/components/NotificationWrapper";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
@@ -12,7 +15,8 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "SarkariResult - Latest Government Jobs, Results, Admit Cards",
     description:
       "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
-    keywords: "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
+    keywords:
+      "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
     alternates: { canonical: url },
     openGraph: {
       title: "SarkariResult - Government Jobs Portal",
@@ -29,22 +33,23 @@ export async function generateMetadata(): Promise<Metadata> {
     },
   };
 }
+
 export default async function Home() {
-
-  // console.log(data);
-
   return (
-    <>
-
-    <div className="min-h-screen bg-background">
-      
+    <div className="min-h-screen bg-background" suppressHydrationWarning={true}>
       {/* Header */}
+      <ClientOnly>
+  <div style={{ minHeight: "50px" }}> {/* reserve space */}
+    <NotificationButton />
+  </div>
+</ClientOnly>
+      <Middle />
 
-<Middle  />
 
-
-
+      {/* Client-only Notifications
+      <ClientOnly>
+        <NotificationButton />
+      </ClientOnly> */}
     </div>
-        </>
-  )
+  );
 }
