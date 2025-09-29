@@ -9,6 +9,7 @@ const firebaseConfig = {
   storageBucket: "sarkari-result-4b489.appspot.com",
   messagingSenderId: "57541469785",
   appId: "1:57541469785:web:4936d8a484e79bd9167348",
+   measurementId: "G-C5DDJ6MLBQ"
 };
 
 const app = initializeApp(firebaseConfig);
