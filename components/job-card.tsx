@@ -179,7 +179,7 @@ export default function JobCard({data,selection }: JobCardProps) {
         padding: "20px",
       }}
     >
-      {selection.map((item,index) => (
+      {selection.map((item:any,index:any) => (
         <div
           key={item.href}
           style={{
