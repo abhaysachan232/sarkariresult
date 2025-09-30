@@ -399,6 +399,47 @@
        "result": "",
        "syllabus": "/pdf/Notice_of_DPHCM_2025-16-24.pdf"
     }
+  },
+      {
+    "id": 11,
+    "title": "RBI Grade B Officer Recruitment 2025",
+    "setPath": "RBI-Grade-B-Officer-Recruitment-2025",
+    "organization": "Reserve Bank of India (RBI)",
+    "date": "29-10-2025",
+    "location": "India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": " Staff Selection Commission (SSC Delhi Police), has given a notification on it's official website for the vacancy of (SSC) Delhi Police Head Constable . This Hiring is for 509 Posts. Delhi Police Form start Date is 29 September 2025 & the Aplicant can apply till 20 October 2025. candidates age must be between 18 and 25 years as on 01 January 2026. SSC provides age relaxation for the Delhi Police Head Constable Aplicant as per their regulations. Candidates must check notification for the complete details for Delhi Police Head Constable Recruitment 2025 which has given below. ",
+
+    "importantDates": {
+      "start": "29-09-2025",
+      "lastDate": "20-10-2025",
+      "correction": "27-10-2025 to 29-10-2025",
+      "Online Fee Payment Last Date" :  "20-10-2025",
+      "examDate": "December 2025 / January 2026 ",
+      "admitCard": "Available before exam",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "passed 10+2 with typing speed of 30 w.p.m in English or 25 w.p.m in Hindi on computer.",
+    "applicationFee": {
+"For General, OBC, EWS" :  100,
+"For SC, ST, PWD Candidates" : 0
+
+    },
+    "eligibility": "passed 10+2 with typing speed of 30 w.p.m in English or 25 w.p.m in Hindi on computer.",
+    "age": "18 years to 25 Years <br/> Maximum Age : 25 Years ",
+    "Post": "509",
+    "salary": "as per post",
+    "links": {
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPHCM_2025.pdf",
+      "official": "https://ssc.nic.in/",
+      "admitCard": "",
+       "result": "",
+       "syllabus": "/pdf/Notice_of_DPHCM_2025-16-24.pdf"
+    }
   }
 
 ]
