@@ -31,9 +31,9 @@ export default async function Middle() {
   const data = jobs
 
     const menuItems:any = [    
-    { name: "Latest Jobs", href: "latest-jobs",target:'_blank' },
-    { name: "Results", href: "results" ,target:'_blank'},
-    { name: "Admit Card", href: "admit-card" ,target:'_blank'},
+      { name: "Admit Card", href: "admit-card" ,target:'_blank'},
+      { name: "Results", href: "results" ,target:'_blank'},
+      { name: "Latest Jobs", href: "latest-jobs",target:'_blank' },
     { name: "Answer Key", href: "answer-key" ,target:'_blank'},
     { name: "Syllabus", href: "syllabus",target:'_blank' },
     { name: "Admission", href: "admission" ,target:'_blank'},
