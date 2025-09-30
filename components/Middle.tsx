@@ -15,6 +15,7 @@ import axios from "axios";
 import fs from "fs";
 import path from "path";
 import jobs from '../public/jobs.json';
+import datas from "../public/articles.json";
 
 export default async function Middle() {
 
@@ -86,34 +87,28 @@ export default async function Middle() {
             </Link>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {Array.from({ length: 3 }).map((_, i) => (
+            {datas.slice(-3).map((item, i) => (
               <div key={i} className="rounded-lg border p-4 shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-xs font-medium text-blue-600 mb-2">
-                  {["Exam Notification", "Application Alert", "Result Update"][i % 3]}
+                {item.Type}
                 </div>
                 <h3 className="font-semibold mb-2">
                   {
-                    [
-                      "UPSC Civil Services 2023 Application Deadline Extended",
-                      "SSC CGL 2023 Notification Released - Apply Now",
-                      "IBPS PO 2023 Results Announced - Check Now",
-                    ][i % 3]
+                    item.title
                   }
                 </h3>
                 <p className="text-sm text-muted-foreground mb-3">
                   {
-                    [
-                      "The Union Public Service Commission has extended the application deadline for Civil Services Examination 2023...",
-                      "Staff Selection Commission has released the notification for Combined Graduate Level Examination 2023...",
-                      "Institute of Banking Personnel Selection has announced the results for Probationary Officer Examination 2023...",
-                    ][i % 3]
+                    item.description.substring(0, 100) + '...'
                   }
                 </p>
                 <div className="flex justify-between items-center">
-                  <span className="text-xs text-muted-foreground">March 15, 2023</span>
+                  <span className="text-xs text-muted-foreground">{item.datePublished}</span>
+                  <Link href={`/article/${item.slug}`}>
                   <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700">
                     Read More
                   </Button>
+                  </Link>
                 </div>
               </div>
             ))}
