@@ -109,6 +109,7 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
       official?: string;
       admitCard?: string;
       result?: string;
+      syllabus?: string;
     };
     image?: string;
     [key: string]: any;
