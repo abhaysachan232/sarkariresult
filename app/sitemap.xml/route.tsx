@@ -1,11 +1,17 @@
 import { NextResponse } from 'next/server';
 import datas from '../../public/jobs.json';
+import article from '../../public/articles.json';
 
 export const runtime = 'nodejs';
 
 type Job = {
   title: string;
   updatedAt: string;
+};
+type art = {
+  title: string;
+  updatedAt: string;
+  slug?:string;
 };
 
 const menuItems = [
@@ -27,6 +33,11 @@ export async function GET() {
       updatedAt: new Date().toISOString(),
     }));
 console.log(jobs);
+const Articl: art[] = (article as any[]).map((job) => ({
+      title: job.title,
+      updatedAt: new Date().toISOString(),
+      slug: job.slug
+    }));
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -54,7 +65,19 @@ console.log(jobs);
       }
     )
     .join('')}
-
+  ${Articl
+    .map(
+      (job) => {
+        const lastmod = new Date(job.updatedAt).toISOString().split('T')[0];
+        return `
+    <url>
+      <loc>https://sarkariresult.rest/article/${job.slug}</loc>
+      <lastmod>${lastmod}</lastmod>
+    </url>
+  `;
+      }
+    )
+    .join('')}
   ${["about", "contact", "disclaimer", "faq", "privacy","terms"]
     .map(
       (page) => `
