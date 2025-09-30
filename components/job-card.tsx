@@ -168,13 +168,19 @@ export default function JobCard({ data, selection, category }: JobCardProps) {
 
   return (
     <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: "20px",
-        justifyContent: "center",
-        padding: "20px",
-      }}
+      // style={{
+      //   display: "flex",
+      //   flexWrap: "wrap",
+      //   gap: "20px",
+      //   justifyContent: "center",
+      //   padding: "20px",
+      // }}
+       style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
+    gap: "20px",
+    padding: "20px",
+  }}
     >
       {selection.map((item: any, index: any) => (
         <div
