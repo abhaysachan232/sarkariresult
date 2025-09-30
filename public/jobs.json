@@ -111,8 +111,8 @@
       "apply": "https://cdn3.digialm.com/EForms/configuredHtml/1631/95659/Registration.html",
       "notification": "https://pbs.twimg.com/media/G11CJoWWsAAinIW?format=jpg&name=small",
       "official": "https://secondary.biharboardonline.com//",
-      "admitCard": "https://example.com/admit-card-link",
-       "result": "https://example.com/result-link"
+      "admitCard": "#",
+       "result": "#"
     }
   },
   {
