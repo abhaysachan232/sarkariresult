@@ -17,7 +17,6 @@
 
 // export default function JobCard({data }: JobCardProps) {
 //   // console.log('data',data);
-  
 
 //   // Dummy jobs array and visibleCount for demonstration
 //   const job = Array.isArray(data) ? data : [];
@@ -57,10 +56,7 @@
 //     setVisibleCount((prev) => prev + 9);
 //   }
 
-
-
 //   return (
-
 
 //     <>
 //             <Tabs defaultValue="latest-jobs" className="mt-8">
@@ -90,7 +86,7 @@
 //           <Badge
 //             variant={index > 10  ? "destructive" : "outline"}
 //             className={
-//               index > 10 
+//               index > 10
 //                 ? ""
 //                 : "bg-green-50 text-green-700 hover:bg-green-50 dark:bg-green-950 dark:text-green-400"
 //             }
@@ -153,8 +149,6 @@
 //         </Tabs>
 //     </>
 
-
-    
 //   )
 // }
 
@@ -164,13 +158,14 @@ import React from "react";
 import Link from "next/link";
 
 interface JobCardProps {
-  data:any;
-  selection:any
+  data: any;
+  selection: any;
+  category?: string;
 }
 
-export default function JobCard({data,selection }: JobCardProps) {
-  console.log(data);
-  
+export default function JobCard({ data, selection, category }: JobCardProps) {
+  console.log(category);
+
   return (
     <div
       style={{
@@ -181,7 +176,7 @@ export default function JobCard({data,selection }: JobCardProps) {
         padding: "20px",
       }}
     >
-      {selection.map((item:any,index:any) => (
+      {selection.map((item: any, index: any) => (
         <div
           key={item.href}
           style={{
@@ -206,29 +201,84 @@ export default function JobCard({data,selection }: JobCardProps) {
           </div>
 
           {/* List */}
-          <ul style={{ listStyle: "disc", padding: "15px 20px", margin: 0 }}>
-         {data
-    .filter((job: any) => job.category === item.href)
-    .sort((a: any, b: any) => b.id - a.id)   // 👈 id के हिसाब से sort (descending)
-    .map((items: any, index: any) => (
-      <li key={index} style={{ marginBottom: "10px", fontSize: "14px" }}>
-        <Link href={`/jobs/${items.title.split(" ").join("-")}`}>
-          <span
-            style={{
-              color: "blue",
-              textDecoration: "underline",
-              cursor: "pointer",
-            }}
-          >
-            {items.title}
-          </span>
-        </Link>
-      </li>
-    ))}
-          </ul>
+          {category?.length === 0 && (
+            <ul style={{ listStyle: "disc", padding: "15px 20px", margin: 0 }}>
+              {data
+                .filter((job: any) => job.category === item.href)
+                .sort((a: any, b: any) => b.id - a.id)
+                .slice(0, 50) // 👈 id के हिसाब से sort (descending)
+                .map((items: any, index: any) => (
+                  <li
+                    key={index}
+                    style={{ marginBottom: "10px", fontSize: "14px" }}
+                  >
+                    <Link href={`/jobs/${items.title.split(" ").join("-")}`}>
+                      <span
+                        style={{
+                          color: "blue",
+                          textDecoration: "underline",
+                          cursor: "pointer",
+                        }}
+                      >
+                        {items.title}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+
+              {data.filter((job: any) => job.category === item.href).length >
+                50 && (
+                <div
+                  style={{
+                    textAlign: "right",
+                    padding: "10px 20px 15px",
+                  }}
+                >
+                  <Link href={`/${item.href}`}>
+                    <span
+                      style={{
+                        color: "green",
+                        fontWeight: "bold",
+                        cursor: "pointer",
+                        textDecoration: "underline",
+                        fontSize: "14px",
+                      }}
+                    >
+                      Show More &raquo;
+                    </span>
+                  </Link>
+                </div>
+              )}
+            </ul>
+          )}
+
+          {(category?.length ?? 0) > 0 && (
+            <ul style={{ listStyle: "disc", padding: "15px 20px", margin: 0 }}>
+              {data
+                .filter((job: any) => job.category === item.href)
+                .sort((a: any, b: any) => b.id - a.id) // 👈 id के हिसाब से sort (descending)
+                .map((items: any, index: any) => (
+                  <li
+                    key={index}
+                    style={{ marginBottom: "10px", fontSize: "14px" }}
+                  >
+                    <Link href={`/jobs/${items.title.split(" ").join("-")}`}>
+                      <span
+                        style={{
+                          color: "blue",
+                          textDecoration: "underline",
+                          cursor: "pointer",
+                        }}
+                      >
+                        {items.title}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          )}
         </div>
       ))}
     </div>
   );
-};
-
+}

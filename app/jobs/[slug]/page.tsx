@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       official?: string;
       admitCard?: string;
       result?: string;
+      syllabus?: string;
     };
     image?: string;
     [key: string]: any;
@@ -261,6 +262,16 @@ console.log(job);
       className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
     >
       ✅ Check Result
+    </a>
+  )}
+    {job.links?.syllabus && (
+    <a
+      href={job.links.syllabus}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
+    >
+      ✅ Syllabus
     </a>
   )}
 </div>

@@ -75,7 +75,7 @@ export default async function Middle() {
         {/* <CategoryFilter /> */}
 
         {/* Main Content Tabs */}
-<JobCard data={data} selection={menuItems}/>
+<JobCard data={data} selection={menuItems} category={""}/>
 
         {/* Trending News Section */}
         <section className="mt-12">
