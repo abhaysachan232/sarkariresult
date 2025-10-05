@@ -4,10 +4,7 @@ import Script from "next/script";
 import data from "../../../public/articles.json";
 import Link from "next/link";
 
-const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({
-  headers,
-  rows,
-}) => (
+const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({ headers, rows }) => (
   <div className="overflow-x-auto my-4">
     <table className="min-w-full border border-gray-300 rounded-lg overflow-hidden">
       <thead className="bg-blue-100">
@@ -60,22 +57,23 @@ interface Article {
   apply: string;
 }
 
+interface PageProps {
+  params: { slug: string };
+}
 
-
+// Generate static params for dynamic routing
 export async function generateStaticParams() {
   return data.map((article: Article) => ({
     slug: article.slug,
   }));
 }
-interface PageProps {
-  params: { slug: string };
-}
-const Page = async({ params }: PageProps) => {
-const { slug } = params;
-  const article = data.find((art: Article) => art.slug === params.slug);
+
+const Page = async ({ params }: PageProps) => {
+  const { slug } = params;
+  const article = data.find((art: Article) => art.slug === slug);
 
   if (!article) {
-    return <p>Article not found</p>;
+    return <p className="text-center mt-10 text-red-500">Article not found</p>;
   }
 
   const jobSchema = {
@@ -118,7 +116,7 @@ const { slug } = params;
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
-      {/* JSON-LD */}
+      {/* JSON-LD for SEO */}
       <Script
         id="job-posting-schema"
         type="application/ld+json"
@@ -128,9 +126,7 @@ const { slug } = params;
 
       {/* Hero Section */}
       <div className="text-center mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
-          {article.title}
-        </h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">{article.title}</h1>
         <p className="text-gray-700 text-lg md:text-xl">{article.description}</p>
         <Link
           href={article.apply}
@@ -140,15 +136,13 @@ const { slug } = params;
         </Link>
       </div>
 
-      {/* All Content Sections */}
-      {article.content.map((section:any, idx:any) => (
+      {/* Article Sections */}
+      {article.content.map((section, idx) => (
         <section
           key={idx}
           className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition"
         >
-          <h2 className="text-2xl font-semibold mb-3 text-blue-800">
-            {section.heading}
-          </h2>
+          <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
           <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
           {section.table && <Table headers={section.table.headers} rows={section.table.rows} />}
         </section>
@@ -158,7 +152,7 @@ const { slug } = params;
       {lastSections.length > 0 && (
         <div className="bg-blue-50 p-6 rounded-lg space-y-4">
           <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
-          {lastSections.map((sec:any, idx:any) => (
+          {lastSections.map((sec, idx) => (
             <div key={idx}>
               <h3 className="font-semibold text-blue-800">{sec.heading}</h3>
               <p className="text-gray-700 whitespace-pre-line">{sec.body}</p>
@@ -166,6 +160,23 @@ const { slug } = params;
           ))}
         </div>
       )}
+
+      {/* Internal Links Section */}
+      <div className="bg-gray-100 p-6 rounded-lg space-y-3">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Articles</h2>
+        {data
+          .filter((art) => art.slug !== article.slug)
+          .slice(0, 5)
+          .map((art) => (
+            <Link
+              key={art.slug}
+              href={`/article/${art.slug}`}
+              className="text-blue-700 hover:underline block"
+            >
+              {art.title}
+            </Link>
+          ))}
+      </div>
 
       {/* Footer */}
       <p className="text-sm text-gray-500 text-center mt-8">
