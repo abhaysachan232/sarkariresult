@@ -10,9 +10,7 @@ const Table = ({ headers, rows }: { headers: string[]; rows: string[][] }) => (
       <thead className="bg-blue-100">
         <tr>
           {headers.map((header, idx) => (
-            <th key={idx} className="border px-4 py-2 text-left font-semibold text-blue-800">
-              {header}
-            </th>
+            <th key={idx} className="border px-4 py-2 text-left font-semibold text-blue-800">{header}</th>
           ))}
         </tr>
       </thead>
@@ -51,17 +49,19 @@ interface Article {
   apply: string;
 }
 
-// No explicit type for props
-export async function generateStaticParams() {
+// Correct generateStaticParams
+export async function generateStaticParams() {  
   return data.map((article: Article) => ({
     slug: article.slug,
   }));
 }
 
-// Async server component
+// Page component without explicit interface
 const Page = async ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
-  const article = data.find((art: Article) => art.slug === slug);
+  console.log(params.slug);
+  
+  const article = data.find((art) => art.slug === slug);
 
   if (!article) return <p>Article not found</p>;
 
