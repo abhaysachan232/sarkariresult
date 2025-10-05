@@ -56,9 +56,13 @@ export async function generateStaticParams() {
   }));
 }
 
-type Params = { slug: string; };
+type Params = { slug: string };
 
-const Page = async ({ params }: { params: Params }) => {
+interface PageProps {
+  params: Params; // Directly object
+}
+
+const Page = async ({ params }: PageProps) => {
   const { slug: selectedCategory } = params; // <- no await needed
   const article = data.find((art) => art.slug === selectedCategory);
   console.log(article);
