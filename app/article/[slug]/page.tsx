@@ -60,19 +60,18 @@ interface Article {
   apply: string;
 }
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
+
 
 export async function generateStaticParams() {
   return data.map((article: Article) => ({
     slug: article.slug,
   }));
 }
-
-const Page = ({ params }: PageProps) => {
+interface PageProps {
+  params: { slug: string };
+}
+const Page = async({ params }: PageProps) => {
+const { slug } = params;
   const article = data.find((art: Article) => art.slug === params.slug);
 
   if (!article) {
