@@ -57,22 +57,23 @@ interface Article {
   apply: string;
 }
 
-interface PageProps {
-  params: { slug: string };
+interface Params {
+  slug: string;
 }
 
-// Generate static params for dynamic routing
-export async function generateStaticParams() {
-  return data.map((article: Article) => ({
-    slug: article.slug,
-  }));
+interface PageProps {
+  params: Promise<Params>;
 }
 
 const Page = async ({ params }: PageProps) => {
-  const { slug } =await params;
-  console.log(slug);
+  // await kar ke real object le rahe ho
+  const { slug } = await params;
+
+  // const article = data.find((art) => art.slug === slug);
   
   const article = data.find((art: Article) => art.slug === slug);
+  console.log(article);
+  
 
   if (!article) {
     return <p className="text-center mt-10 text-red-500">Article not found</p>;
