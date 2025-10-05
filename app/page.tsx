@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import NotificationButton from "../components/NotificationButton";
 import ClientOnly from "@/components/ClientOnly";
 import NotificationWrapper from "@/components/NotificationWrapper";
+import { Analytics } from "@vercel/analytics/next"
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
@@ -39,7 +40,7 @@ export default async function Home() {
     <div className="min-h-screen bg-background" suppressHydrationWarning={true}>
       <div className="centre" style={{display:'flex',justifyContent:'center',alignContent:'center',alignItems:'center'}}>
       <h1>Sarkari Result - Latest Government Jobs, Results, Admit Cards</h1>
-
+<Analytics/>
       </div>
       {/* Header */}
       <ClientOnly>
