@@ -128,18 +128,20 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
 
   if (!job) return NotFound();
 
-  let relatedJobs = jobs
-    .filter((j) => j.id < job.id) // current job से पहले वाली jobs
-    .sort((a, b) => a.id - b.id)
-    .slice(0, 3);
+ // Assume jobs sorted by id ascending
+const currentIndex = jobs.findIndex((j) => j.id === job.id);
 
-  // अगर पहली job है तो बाद वाली दिखाओ
-  if (relatedJobs.length === 0) {
-    relatedJobs = jobs
-      .filter((j) => j.id > job.id)
-      .sort((a, b) => a.id - b.id)
-      .slice(0, 3);
-  }
+// Start aur end index calculate karo
+const startIndex = Math.max(currentIndex - 2, 0); // 2 jobs pehle ya 0 se start
+const endIndex = Math.min(currentIndex + 2, jobs.length - 1); // 2 jobs baad ya last index
+
+// Slice related jobs (exclude current job itself)
+const relatedJobs = jobs
+  .slice(startIndex, endIndex + 1) // end inclusive
+  .filter((j) => j.id !== job.id); // current job remove
+
+console.log(relatedJobs);
+
 
   const jobPostingSchema = {
     "@context": "https://schema.org/",
@@ -531,7 +533,7 @@ console.log(job);
         {relatedJobs.length > 0 && (
           <div className="rounded-xl border bg-white shadow p-6">
             <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-              📰 {job.id === 1 ? "Recent Jobs" : "Previous Jobs"}
+              📰 Related Jobs
             </h2>
             <ul className="list-disc list-inside space-y-2">
               {relatedJobs.map((rj) => (

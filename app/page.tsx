@@ -37,6 +37,10 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Home() {
   return (
     <div className="min-h-screen bg-background" suppressHydrationWarning={true}>
+      <div className="centre" style={{display:'flex',justifyContent:'center',alignContent:'center',alignItems:'center'}}>
+      <h1>Sarkari Result - Latest Government Jobs, Results, Admit Cards</h1>
+
+      </div>
       {/* Header */}
       <ClientOnly>
   <div > {/* reserve space */}
