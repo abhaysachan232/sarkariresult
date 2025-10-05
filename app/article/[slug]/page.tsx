@@ -1,22 +1,35 @@
-// app/article/[slug]/page.tsx
+// app/delhi-police-recruitment-2025/page.tsx
 import React from "react";
 import Script from "next/script";
 import data from "../../../public/articles.json";
 import Link from "next/link";
 
-const Table = ({ headers, rows }: { headers: string[]; rows: string[][] }) => (
+const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({
+  headers,
+  rows,
+}) => (
   <div className="overflow-x-auto my-4">
     <table className="min-w-full border border-gray-300 rounded-lg overflow-hidden">
       <thead className="bg-blue-100">
         <tr>
           {headers.map((header, idx) => (
-            <th key={idx} className="border px-4 py-2 text-left font-semibold text-blue-800">{header}</th>
+            <th
+              key={idx}
+              className="border px-4 py-2 text-left font-semibold text-blue-800"
+            >
+              {header}
+            </th>
           ))}
         </tr>
       </thead>
       <tbody>
         {rows.map((row, idx) => (
-          <tr key={idx} className={`${idx % 2 === 0 ? "bg-white" : "bg-blue-50"} hover:bg-blue-200 transition-colors`}>
+          <tr
+            key={idx}
+            className={`${
+              idx % 2 === 0 ? "bg-white" : "bg-blue-50"
+            } hover:bg-blue-200 transition-colors`}
+          >
             {row.map((cell, i) => (
               <td key={i} className="border px-4 py-2">
                 <span dangerouslySetInnerHTML={{ __html: cell }} />
@@ -39,7 +52,6 @@ interface Section {
 }
 
 interface Article {
-  slug: string;
   title: string;
   description: string;
   datePublished: string;
@@ -49,21 +61,8 @@ interface Article {
   apply: string;
 }
 
-// Correct generateStaticParams
-export async function generateStaticParams() {  
-  return data.map((article: Article) => ({
-    slug: article.slug,
-  }));
-}
-
-// Page component without explicit interface
-const Page = async ({ params }: { params: { slug: string } }) => {
-  const { slug } = params;
-  console.log(params.slug);
-  
-  const article = data.find((art) => art.slug === slug);
-
-  if (!article) return <p>Article not found</p>;
+const Page = () => {
+  const article = data[0] as Article;
 
   const jobSchema = {
     "@context": "https://schema.org/",
@@ -92,14 +91,21 @@ const Page = async ({ params }: { params: { slug: string } }) => {
     baseSalary: {
       "@type": "MonetaryAmount",
       currency: "INR",
-      value: { "@type": "QuantitativeValue", minValue: 21700, maxValue: 69100, unitText: "MONTH" },
+      value: {
+        "@type": "QuantitativeValue",
+        minValue: 21700,
+        maxValue: 69100,
+        unitText: "MONTH",
+      },
     },
   };
 
+  // Last 3 sections (or fewer)
   const lastSections = article.content.slice(-3);
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+      {/* JSON-LD */}
       <Script
         id="job-posting-schema"
         type="application/ld+json"
@@ -107,22 +113,37 @@ const Page = async ({ params }: { params: { slug: string } }) => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jobSchema) }}
       />
 
+      {/* Hero Section */}
       <div className="text-center mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">{article.title}</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
+          {article.title}
+        </h1>
         <p className="text-gray-700 text-lg md:text-xl">{article.description}</p>
-        <Link href={article.apply} className="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+        <Link
+          href={article.apply}
+          className="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        >
           Apply Now
         </Link>
       </div>
 
+      {/* All Content Sections */}
       {article.content.map((section, idx) => (
-        <section key={idx} className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
-          <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
+        <section
+          key={idx}
+          className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-2xl font-semibold mb-3 text-blue-800">
+            {section.heading}
+          </h2>
           <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
-          {section.table && <Table headers={section.table.headers} rows={section.table.rows} />}
+          {section.table && (
+            <Table headers={section.table.headers} rows={section.table.rows} />
+          )}
         </section>
       ))}
 
+      {/* Highlight Last 3 Sections */}
       {lastSections.length > 0 && (
         <div className="bg-blue-50 p-6 rounded-lg space-y-4">
           <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
@@ -135,6 +156,7 @@ const Page = async ({ params }: { params: { slug: string } }) => {
         </div>
       )}
 
+      {/* Footer */}
       <p className="text-sm text-gray-500 text-center mt-8">
         Published on: {article.datePublished} | Last Updated: {article.dateModified}
       </p>
