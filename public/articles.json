@@ -88,7 +88,14 @@
             ["46-50 / 41-45", "21", "21"],
             ["Above 50 / Above 45", "25", "25"]
           ]
-        }
+        },
+         "internalLinks": [
+          {
+            "text": "dsssb tgt syllabus exam pattern selection process",
+            "slug": "/article/dsssb-tgt-syllabus-exam-pattern-selection-process"
+          }
+        ]
+
       },
       {
         "heading": "Computer Formatting Test",
@@ -107,5 +114,95 @@
         "body": "The **Delhi Police Recruitment 2025** is a golden opportunity for aspirants. With proper planning, regular fitness training, and focused study, candidates can crack the exam. Stay disciplined, follow a study timetable, and practice typing and computer skills to ensure success. For more updates, keep checking **sarkariresult.rest**."
       }
     ]
-  }
+  },
+  {
+  "id": 2,
+  "slug": "dsssb-tgt-syllabus-exam-pattern-selection-process",
+  "Type": "Syllabus Alert",
+  "title": "DSSSB TGT Syllabus 2025 – Exam Pattern, Subjects & Selection Process",
+  "description": "Complete guide for DSSSB TGT recruitment 2025 including exam pattern, detailed syllabus, selection process, eligibility criteria, and preparation tips for aspiring candidates.",
+  "keywords": "DSSSB TGT Syllabus 2025, DSSSB TGT Exam Pattern, DSSSB TGT Selection Process, DSSSB Teacher Recruitment, DSSSB Exam Preparation, DSSSB Notification",
+  "author": "Admin",
+  "publisher": "sarkariresult.rest",
+  "image": "https://yourdomain.com/images/dsssb-tgt-syllabus-2025.jpg",
+  "datePublished": "2025-10-05",
+  "dateModified": "2025-10-05",
+  "twitterHandle": "@sarkariresult",
+  "apply": "/jobs/dsssb-tgt-recruitment-2025",
+  "content": [
+    {
+      "heading": "Introduction",
+      "body": "The **DSSSB TGT (Trained Graduate Teacher) Recruitment 2025** has been officially announced. This recruitment provides a golden opportunity for aspirants to secure a government teaching position in Delhi schools. In this guide, we cover the exam pattern, complete syllabus, selection procedure, eligibility criteria, and preparation tips to help candidates succeed."
+    },
+    {
+      "heading": "Exam Pattern Overview",
+      "body": "The DSSSB TGT exam is conducted in multiple stages. Here's a quick overview:",
+      "table": {
+        "headers": ["Stage", "Conducting Authority", "Marks/Type"],
+        "rows": [
+          ["Written Examination (Objective Type)", "DSSSB", "**100-200 Marks** depending on subject"],
+          ["Skill/Teaching Ability Test", "DSSSB", "**Qualifying**"],
+          ["Document Verification & Interview", "DSSSB", "**Qualifying**"]
+        ]
+      }
+    },
+    {
+      "heading": "Written Examination (Objective Type)",
+      "body": "The written exam is the primary stage for selection. Duration is **2 hours**, consisting of **100-200 multiple-choice questions** depending on the subject. The exam is bilingual (**English & Hindi**) and carries **negative marking of 0.25 per wrong answer**.",
+      "table": {
+        "headers": ["Subject", "Number of Questions", "Marks"],
+        "rows": [
+          ["General Awareness", "20", "20"],
+          ["English Language", "30", "30"],
+          ["Mathematics/Science (Subject-specific)", "50", "50"],
+          ["Teaching Methodology/Child Development", "30", "30"],
+          ["Total", "130", "130"]
+        ]
+      }
+    },
+    {
+      "heading": "Detailed Syllabus",
+      "body": "The syllabus is divided into multiple sections to test knowledge and teaching ability:\n\n- **General Awareness**: Current Affairs, Indian History, Constitution, Polity, Geography, Economy, and General Science.\n- **English Language**: Grammar, Comprehension, Vocabulary, Synonyms, Antonyms, Sentence Correction.\n- **Mathematics/Science**: Subject-specific topics based on TGT subject applied.\n- **Teaching Methodology & Child Development**: Educational psychology, pedagogy, lesson planning, teaching strategies.\n- **Computer Knowledge** (if applicable): MS Office basics, Internet usage, Computer Fundamentals."
+    },
+    {
+      "heading": "Selection Process",
+      "body": "The DSSSB TGT selection process ensures candidates meet academic and teaching standards:",
+      "table": {
+        "headers": ["Stage", "Description"],
+        "rows": [
+          ["Written Exam", "Evaluates knowledge of the subject and general aptitude."],
+          ["Skill/Teaching Ability Test", "Assesses practical teaching skills, lesson delivery, and classroom management."],
+          ["Document Verification & Interview", "Verification of eligibility, qualifications, and personal documents."]
+        ]
+      }
+    },
+    {
+      "heading": "Eligibility Criteria",
+      "body": "Candidates must meet the following conditions:",
+      "table": {
+        "headers": ["Criteria", "Requirement"],
+        "rows": [
+          ["Educational Qualification", "Bachelor's Degree in relevant subject + B.Ed or equivalent."],
+          ["Age Limit", "Typically 21-32 years (relaxation for reserved categories)."],
+          ["Nationality", "Indian Citizen."]
+        ]
+      },
+      "internalLinks": [
+          {
+            "text": "delhi police recruitment 2025 syllabus",
+            "slug": "/article/delhi-police-recruitment-2025-syllabus-selection-process"
+          }
+        ]
+    },
+    {
+      "heading": "Preparation Tips",
+      "body": "Here are effective strategies for DSSSB TGT preparation:\n\n- **Syllabus Coverage**: Study each topic thoroughly and follow the latest syllabus updates.\n- **Mock Tests**: Practice previous years’ papers and online mock tests.\n- **Current Affairs**: Read newspapers, magazines, and reliable online sources.\n- **Time Management**: Create a timetable to balance teaching topics, general knowledge, and English.\n- **Skill Practice**: For the teaching ability test, practice lesson delivery and interactive teaching techniques."
+    },
+    {
+      "heading": "Conclusion",
+      "body": "The **DSSSB TGT 2025** recruitment is a remarkable opportunity for aspirants seeking a government teaching career. Proper planning, focused preparation, and regular practice of both theoretical and practical aspects will maximize chances of success. Keep visiting **sarkariresult.rest** for the latest notifications, syllabus updates, and preparation tips."
+    }
+  ]
+}
+
 ]
