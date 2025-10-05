@@ -47,6 +47,8 @@ const Articl: art[] = (article as any[]).map((job) => ({
     <url>
       <loc>https://sarkariresult.rest${item.href}</loc>
       <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
     </url>
   `
     )
@@ -60,6 +62,8 @@ const Articl: art[] = (article as any[]).map((job) => ({
     <url>
       <loc>https://sarkariresult.rest/jobs/${job.title.split(" ").join("-")}</loc>
       <lastmod>${lastmod}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
     </url>
   `;
       }
@@ -84,6 +88,7 @@ const Articl: art[] = (article as any[]).map((job) => ({
     <url>
       <loc>https://sarkariresult.rest/${page}</loc>
       <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+      <priority>0.8</priority>
     </url>
   `
     )

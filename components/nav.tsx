@@ -35,6 +35,7 @@ export default function Navbar() {
           key={item.name}
           href={item.href}
           target={''}   // नया tab में खुलेगा
+          rel="canonical"
         
           className="text-sm font-medium transition-colors hover:text-primary"
         >

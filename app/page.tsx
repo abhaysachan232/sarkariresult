@@ -3,8 +3,7 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 import NotificationButton from "../components/NotificationButton";
 import ClientOnly from "@/components/ClientOnly";
-import NotificationWrapper from "@/components/NotificationWrapper";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
