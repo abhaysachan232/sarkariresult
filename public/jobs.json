@@ -33,7 +33,9 @@
       "apply": "https://xyzuniversity.ac.in/apply",
       "notification": "https://xyzuniversity.ac.in/notification.pdf",
       "official": "https://xyzuniversity.ac.in/"
-    }
+    },
+    "updatedon":"2025-10-05"
+    
   },
   {
     "id": 2,
@@ -70,7 +72,8 @@
       "apply": "https://bssc.bihar.gov.in/",
       "notification": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
       "official": "https://bssc.bihar.gov.in/"
-    }
+    },
+     "updatedon":"2025-10-05"
   },
   {
     "id": 3,
@@ -153,7 +156,8 @@
       "official": "https://bpssc.bihar.gov.in/",
       "admitCard": "https://apply-bpssc.com/StenoAsiWEAdmit124/applicationIndex",
        "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
-    }
+    },
+     "updatedon":"2025-10-05"
   },
   {
     "id": 5,
@@ -193,7 +197,8 @@
       "official": "https://dda.gov.in/",
       "admitCard": "",
        "result": ""
-    }
+    },
+     "updatedon":"2025-10-05"
   },
   {
     "id": 6,
@@ -234,7 +239,8 @@
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
        "result": ""
-    }
+    },
+     "updatedon":"2025-10-05"
   },
  {
     "id": 7,
@@ -275,7 +281,8 @@
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
        "result": ""
-    }
+    },
+     "updatedon":"2025-10-05"
   },
   {
     "id": 8,
@@ -316,7 +323,8 @@
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
        "result": ""
-    }
+    },
+     "updatedon":"2025-10-05"
   },
     {
     "id": 9,
@@ -357,7 +365,8 @@
       "official": "https://dsssb.delhi.gov.in/",
       "admitCard": "https://cdn.digialm.com/EForms/configuredHtml/1258/96015/login.html",
        "result": ""
-    }
+    },
+     "updatedon":"2025-10-05"
   },
       {
     "id": 10,
@@ -398,7 +407,8 @@
       "admitCard": "",
        "result": "",
        "syllabus": "/pdf/Notice_of_DPHCM_2025-16-24.pdf"
-    }
+    },
+     "updatedon":"2025-10-05"
   },
       {
     "id": 11,
@@ -439,7 +449,8 @@
       "official": "#",
       "admitCard": "#",
        "result": "https://rrbpryj.gov.in/"
-    }
+    },
+     "updatedon":"2025-10-05"
   },
         {
     "id": 12,
@@ -481,6 +492,7 @@
       "admitCard": "",
        "result": "",
        "Also Check": "https://sarkariresult.rest/jobs/MPESB-Stenographer"
-    }
+    },
+     "updatedon":"2025-10-05"
   }
 ]

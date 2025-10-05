@@ -6,7 +6,7 @@ export const runtime = 'nodejs';
 
 type Job = {
   title: string;
-  updatedAt: string;
+  updatedon: string;
 };
 type art = {
   title: string;
@@ -29,9 +29,9 @@ const menuItems = [
 export async function GET() {
   try {
     const jobs: Job[] = (datas as any[]).map((job) => ({
-      title: job.title,
-      updatedAt: new Date().toISOString(),
-    }));
+          title: job.title,
+          updatedon: job.updatedon || new Date().toISOString(),
+        }));
 console.log(jobs);
 const Articl: art[] = (article as any[]).map((job) => ({
       title: job.title,
@@ -55,7 +55,7 @@ const Articl: art[] = (article as any[]).map((job) => ({
   ${jobs
     .map(
       (job) => {
-        const lastmod = new Date(job.updatedAt).toISOString().split('T')[0];
+        const lastmod = new Date(job.updatedon).toISOString().split('T')[0];
         return `
     <url>
       <loc>https://sarkariresult.rest/jobs/${job.title.split(" ").join("-")}</loc>
