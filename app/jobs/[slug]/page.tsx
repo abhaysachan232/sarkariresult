@@ -177,7 +177,6 @@ console.log(relatedJobs);
       : undefined,
     url: `https://sarkariresult.rest/jobs/${slug}`,
   };
-console.log(job);
 
   return (<>
 
@@ -225,7 +224,12 @@ console.log(job);
           <div className="flex flex-wrap gap-2 mt-4">
             <span className="px-3 py-1 text-sm bg-white/20 rounded-full">{job.category}</span>
             <span className="px-3 py-1 text-sm bg-white/20 rounded-full">{job.Type}</span>
-            {job.Post && <span className="px-3 py-1 text-sm bg-white/20 rounded-full">Vacancies: {job.Post}</span>}
+            {job.Post && (
+  <span
+    className="px-3 py-1 text-sm bg-white/20 rounded-full"
+    dangerouslySetInnerHTML={{ __html: `Vacancies: ${job.Post}` }}
+  />
+)}
           </div>
     <div className="mt-6 flex flex-wrap gap-3">
       {

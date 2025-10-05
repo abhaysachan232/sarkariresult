@@ -440,5 +440,47 @@
       "admitCard": "#",
        "result": "https://rrbpryj.gov.in/"
     }
+  },
+        {
+    "id": 12,
+    "title": "MPESB MP Police ASI and Subedar Recruitment 2025",
+    "setPath": "MPESB-MP-Police-ASI-and-Subedar-Recruitment-2025",
+    "organization": "Madhya Pradesh Employees Selection Board",
+    "date": "29-10-2025",
+    "location": "India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "Recruitment Examination 2025 for the vacant posts of Subedar (Sub-Inspector), and Assistant Sub-Inspector (Class II) under the Police Headquarters, Home (Police) Department, Government of Madhya Pradesh.",
+
+    "importantDates": {
+      "start": "03-10-2025",
+      "lastDate": "17-10-2025",
+      "correction": "03-10-2025 to 22-10-2025",
+      "Online Fee Payment Last Date" :  "20-10-2025",
+      "examDate": "Starts from 10-12-2025 ",
+      "admitCard": "Available before exam",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "12th Pass",
+    "applicationFee": {
+"For General, OBC, EWS" :  500,
+"For SC, ST, PWD Candidates" : 250
+
+    },
+    "eligibility": "12th Pass with relevant stenography and computer proficiency certifications.",
+    "age": "18 years to 33 Years <br/> Maximum Age : 33 Years ",
+    "Post": "<b>400 posts for Assistant Sub-Inspector (Stenographer)</b> <b>100 posts for Subedar (Stenographer)</b>",
+    "salary": "as per post",
+    "howtoapply":"Visit the official website: <b>esb.mp.gov.in</b> Click on the Apply Online link for Subedar & Assistant Sub-Inspector Recruitment 2025 Register and fill in the application form with required details Upload necessary documents and pay the application fee Submit the application and take a printout for future reference",
+    "links": {
+      "apply": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
+      "notification": "https://esb.mp.gov.in/Rulebooks/RB_2025/PRT_STENO_LDC_2025_Rulelbook.pdf",
+      "official": "https://esb.mponline.gov.in",
+      "admitCard": "",
+       "result": "",
+       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Stenographer"
+    }
   }
 ]
