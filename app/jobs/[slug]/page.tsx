@@ -146,10 +146,9 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
         <meta name="twitter:title" content={job.title} />
         <meta name="twitter:description" content={stripHtml(safeDescription)} />
         <meta name="twitter:image" content={job.image || "https://example.com/default-image.png"} />
-       <div
-  dangerouslySetInnerHTML={{
-    __html: `<script type="application/ld+json">${JSON.stringify(jobPostingSchema)}</script>`,
-  }}
+       <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}
 />
       </Head>
 
