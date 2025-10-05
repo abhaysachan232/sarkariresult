@@ -8,6 +8,7 @@ import Link from "next/link"
 import JobCard from "@/components/job-card"
 import datas from '../../../public/jobs.json';
 import NotFound from '../../not-found';
+import ShareButtons from '../../../components/sharebtn';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   
@@ -225,7 +226,34 @@ console.log(job);
             {job.Post && <span className="px-3 py-1 text-sm bg-white/20 rounded-full">Vacancies: {job.Post}</span>}
           </div>
     <div className="mt-6 flex flex-wrap gap-3">
-  {job.links?.notification && (
+      {
+        Object.keys(job.links || {}).length === 0 && (
+          <span className="px-4 py-2 rounded-lg bg-gray-300 text-gray-700 font-semibold">
+            No Action Links Available
+          </span>
+        )
+      }
+
+       {
+        Object.entries(job.links || {}).map(([key,value],index)=>{
+          return(
+            <>
+                <a
+      href={value}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
+    >
+    { `${key=='notification'?'📄':key=='apply'?'📝':key=='admitCard'?'🎫':'✅'} ${key.toString().toUpperCase()}`} 
+    </a>
+            </>
+          )
+        })
+      }
+
+
+
+  {/* {job.links?.notification && (
     <a
       href={job.links.notification}
       target="_blank"
@@ -274,12 +302,12 @@ console.log(job);
     >
       ✅ Syllabus
     </a>
-  )}
+  )} */}
 </div>
 
         </div>
       </section>
-
+ <ShareButtons url={`https://sarkariresult.rest/jobs/${slug}`} title={job.title} />
       {/* Main content */}
       <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left Column */}
@@ -494,6 +522,7 @@ console.log(job);
             </h2>
             <p>{job.type}</p>
           </div>
+ <ShareButtons url={`https://sarkariresult.rest/jobs/${slug}`} title={job.title} />
 
           {/* Related Jobs - you can render other JobCards if you want */}
           {/* <JobCard jobs={jobs.filter(j => j.title !== job.title).slice(0, 5)} /> */}
