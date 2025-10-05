@@ -146,13 +146,14 @@ export default async function JobDetailsPage({ params }: { params: Promise<{ slu
         <meta name="twitter:title" content={job.title} />
         <meta name="twitter:description" content={stripHtml(safeDescription)} />
         <meta name="twitter:image" content={job.image || "https://example.com/default-image.png"} />
-       <script
+      
+      </Head>
+ <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}
 />
-      </Head>
-
       <article className="min-h-screen">
+
         {/* Hero Banner */}
         <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
           <div className="container max-w-5xl mx-auto px-4">
