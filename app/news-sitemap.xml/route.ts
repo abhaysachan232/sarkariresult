@@ -1,16 +1,15 @@
 import { NextResponse } from "next/server";
 import jobs from "../../public/jobs.json";
-import Articles from"../../public/articles.json";
+import articles from "../../public/articles.json";
 
 export const runtime = "nodejs";
 
 type Job = {
   title: string;
   updatedon?: string;
-  setPath?: string;
 };
 
-type Articles = {
+type Article = {
   title: string;
   datePublished?: string;
   slug?: string;
@@ -19,20 +18,16 @@ type Articles = {
 export async function GET() {
   try {
     const now = Date.now();
-console.log(Articles);
 
-    const recentJobs = (jobs as Job[])
-      .filter((a) => {
-        if (!a.updatedon) return false;
-        const d = new Date(a.updatedon);
-        // Check if updated within 48 hours
-        return now - d.getTime() < 48 * 60 * 60 * 1000;
-      })
-      .map((a) => {
-        const slug =
-          a.title.split(" ").join("-");
-        const pubDate = new Date(a.updatedon || new Date()).toISOString();
-        const title = a.title?.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const sanitize = (text: string) =>
+      text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    const recentJobsXml = (jobs as Job[])
+      .filter((j) => j.updatedon && now - new Date(j.updatedon).getTime() < 48 * 60 * 60 * 1000)
+      .map((j) => {
+        const slug = j.title.split(" ").join("-");
+        const pubDate = new Date(j.updatedon!).toISOString();
+        const title = sanitize(j.title);
         return `
   <url>
     <loc>https://sarkariresult.rest/jobs/${slug}</loc>
@@ -48,23 +43,19 @@ console.log(Articles);
       })
       .join("");
 
-
-
-    const recentArticles = (Articles as Articles[])
-      .filter((a) => {
-        if (!a.datePublished) return false;
-        const d = new Date(a.datePublished);
-        // Check if updated within 48 hours
-        return now - d.getTime() < 48 * 60 * 60 * 1000;
-      })
+    const recentArticlesXml = (articles as Article[])
+      .filter(
+        (a) =>
+          a.datePublished &&
+          a.slug &&
+          now - new Date(a.datePublished).getTime() < 48 * 60 * 60 * 1000
+      )
       .map((a) => {
-        const slug =
-          a.slug ;
-        const pubDate = new Date(a.datePublished || new Date()).toISOString();
-        const title = a.title?.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const pubDate = new Date(a.datePublished!).toISOString();
+        const title = sanitize(a.title);
         return `
   <url>
-    <loc>https://sarkariresult.rest/article/${slug}</loc>
+    <loc>https://sarkariresult.rest/article/${a.slug}</loc>
     <news:news>
       <news:publication>
         <news:name>Sarkari Result</news:name>
@@ -77,19 +68,23 @@ console.log(Articles);
       })
       .join("");
 
+    // Combine both XMLs
+    const combinedXml = recentJobsXml + recentArticlesXml;
+
+    // Fallback if nothing available
+    const fallback = combinedXml ? "" : `<url><loc>https://sarkariresult.rest/</loc></url>`;
+
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset 
+<urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${recentJobs || ""}
-${recentArticles || ""}
+  ${combinedXml}
+  ${fallback}
 </urlset>`;
 
     return new NextResponse(xml, {
       status: 200,
-      headers: {
-        "Content-Type": "application/xml",
-      },
+      headers: { "Content-Type": "application/xml" },
     });
   } catch (err) {
     console.error("Error generating news sitemap:", err);
