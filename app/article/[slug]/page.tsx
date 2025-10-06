@@ -87,6 +87,11 @@ const Page = async ({ params }: PageProps) => {
     datePosted: article.datePublished,
     validThrough: "2025-12-31",
     employmentType: "FULL_TIME",
+    author:{
+      "@type": "Person",
+      "name": "Abhay Sachan",
+      "url": "https://sarkariresult.rest"
+    },
     hiringOrganization: {
       "@type": "Organization",
       name: "Delhi Police",

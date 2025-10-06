@@ -150,6 +150,11 @@ export default async function JobDetailsPage({
     }),
     datePosted: job.date,
     validThrough: job.importantDates?.lastDate || null,
+    author:{
+      "@type": "Person",
+      name: "Abhay Sachan",
+      url: "https://sarkariresult.rest"
+    },
     employmentType: job.type,
     hiringOrganization: {
       "@type": "Organization",
