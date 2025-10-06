@@ -85,6 +85,8 @@ const Page = async ({ params }: PageProps) => {
     title: article.title,
     description: article.description,
     datePosted: article.datePublished,
+   alternates: { canonical: `https://sarkariresult.rest/article/${article.slug}` },
+
     validThrough: "2025-12-31",
     employmentType: "FULL_TIME",
     author:{
