@@ -452,7 +452,7 @@
     },
      "updatedon":"2025-10-05"
   },
-        {
+  {
     "id": 12,
     "title": "MPESB MP Police ASI and Subedar Recruitment 2025",
     "setPath": "MPESB-MP-Police-ASI-and-Subedar-Recruitment-2025",
@@ -492,6 +492,49 @@
       "admitCard": "",
        "result": "",
        "Also Check": "https://sarkariresult.rest/jobs/MPESB-Stenographer"
+    },
+     "updatedon":"2025-10-05"
+  },
+    {
+    "id": 13,
+    "title": "CSBC Bihar Police Constable Recruitment 2025",
+    "setPath": "CSBC-Bihar-Police-Constable-Recruitment-2025",
+    "organization": "Central Selection Board of Constable (CSBC)",
+    "date": "29-10-2025",
+    "location": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "Recruitment Examination 2025 for the vacant posts of Subedar (Sub-Inspector), and Assistant Sub-Inspector (Class II) under the Police Headquarters, Home (Police) Department, Government of Madhya Pradesh.",
+
+    "importantDates": {
+      "start": "06-10-2025",
+      "lastDate": "05-11-2025",
+      "correction": "NA",
+      "examDate": "Notify Soon",
+      "admitCard": "Available before exam",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "12th Pass",
+    "applicationFee": {
+"For General, OBC, EWS" :  100,
+"For SC, ST, PWD Candidates" : 100
+
+    },
+    "eligibility": "Candidates must have passed 10+2 (Intermediate) or its equivalent examination from a recognized board or institution.",
+    "age": "<div style:{{color:'blue'}}><b>For Prohibition & Mobile Squad Constable:</b></div> General (Male): 18 - 25 years<br/> OBC / EBC (Male : 18 - 27 years<br/> OBC / EBC (Female): 18 - 28 years <br/>SC / ST (Male & Female): 18 - 30 years<br/> <div style:{{color:'blue'}}><b>For Jail Warder (Constable Category):</b></div> General (Male): 18 - 23 years<br/> OBC / EBC (Male): 18 - 25 years<br/> OBC / EBC (Female): 18 - 26 years <br/>SC / ST (Male & Female): 18 - 28 years <br/> <b>Bihar Police</b> provides age relaxation for the CSBC Constable position as per their regulations.",
+    "Post": "<b>4128 Posts</b>",
+    "salary": "as per post",
+    "howtoapply":"Interested candidates who wish to apply for the Bihar Police CSBC post can submit their application online before 05 November 2025.",
+    "links": {
+      "apply": "https://apply-csbc.com/csbc_3_25_mv1/applicationIndex",
+      "notification": "https://csbc.bihar.gov.in/Advt/Advt-03-2025-Prohibition-Jail%20Warder-Mobile%20Squad-Constables.pdf",
+      "official": "https://csbc.bihar.gov.in/A-REP.htm",
+      "admitCard": "",
+       "result": "",
+       "Also Check": "https://sarkariresult.rest/article/dsssb-tgt-syllabus-exam-pattern-selection-process",
+       "syllabus":"/pdf/Advt-03-2025-Prohibition-Jail-Warder-Mobile-Squad-Constables-8-12.pdf"
     },
      "updatedon":"2025-10-05"
   }
