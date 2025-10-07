@@ -527,6 +527,12 @@
     "Post": "<b>4128 Posts</b>",
     "salary": "as per post",
     "howtoapply":"Interested candidates who wish to apply for the Bihar Police CSBC post can submit their application online before 05 November 2025.",
+    "streetAddress":"Madhya Pradesh", 
+    "addressLocality":"Madhya Pradesh",
+    "addressRegion":"Madhya Pradesh",
+    "postalCode":"462001",
+    "addressCountry":"India",
+    "image":"https://sarkariresult.rest/jobs-images/logo.png",
     "links": {
       "apply": "https://apply-csbc.com/csbc_3_25_mv1/applicationIndex",
       "notification": "https://csbc.bihar.gov.in/Advt/Advt-03-2025-Prohibition-Jail%20Warder-Mobile%20Squad-Constables.pdf",

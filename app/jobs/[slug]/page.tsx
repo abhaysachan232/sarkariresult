@@ -140,48 +140,53 @@ export default async function JobDetailsPage({
     : undefined;
 
   // Structured data schema: remove HTML tags from description for schema
-  const jobPostingSchema = {
-    "@context": "https://schema.org/",
-    "@type": "JobPosting",
-    title: job.title,
-    description: sanitizeHtml(String(job.description || ""), {
-      allowedTags: [],
-      allowedAttributes: {},
-    }),
-    datePosted: job.date,
-    validThrough: job.importantDates?.lastDate || null,
-    author:{
-      "@type": "Person",
-      name: "Abhay Sachan",
-      url: "https://sarkariresult.rest"
+const jobPostingSchema = {
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  title: job.title,
+  description: sanitizeHtml(String(job.description || ""), {
+    allowedTags: [],
+    allowedAttributes: {},
+  }),
+  datePosted: job.date,
+  validThrough: job.importantDates?.lastDate || null,
+  author: {
+    "@type": "Person",
+    name: "Abhay Sachan",
+    url: "https://sarkariresult.rest",
+  },
+  employmentType: job.type,
+  hiringOrganization: {
+    "@type": "Organization",
+    name: job.organization,
+    sameAs: job.links?.official || undefined,
+    logo: job.image || undefined,
+  },
+  jobLocation: {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: job.streetAddress || "",      // added
+      addressLocality: job.location || "",        // existing
+      addressRegion: job.state || "",             // added
+      postalCode: job.postalCode || "",           // added
+      addressCountry: job.country || "IN",        // added default to IN
     },
-    employmentType: job.type,
-    hiringOrganization: {
-      "@type": "Organization",
-      name: job.organization,
-      sameAs: job.links?.official || undefined,
-      logo: job.image || undefined,
-    },
-    jobLocation: {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: job.location,
-      },
-    },
-    baseSalary: job.salary
-      ? {
-          "@type": "MonetaryAmount",
-          currency: "INR",
-          value: {
-            "@type": "QuantitativeValue",
-            value: Number(String(job.salary).replace(/[^0-9]/g, "")) || 0,
-            unitText: "YEAR",
-          },
-        }
-      : undefined,
-    url: `https://sarkariresult.rest/jobs/${slug}`,
-  };
+  },
+  baseSalary: job.salary
+    ? {
+        "@type": "MonetaryAmount",
+        currency: "INR",
+        value: {
+          "@type": "QuantitativeValue",
+          value: Number(String(job.salary).replace(/[^0-9]/g, "")) || 0,
+          unitText: "YEAR",
+        },
+      }
+    : undefined,
+  url: `https://sarkariresult.rest/jobs/${slug}`,
+};
+
 
   return (
     <>
