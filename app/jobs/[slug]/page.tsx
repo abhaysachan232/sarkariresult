@@ -167,10 +167,10 @@ const jobPostingSchema = {
     address: {
       "@type": "PostalAddress",
       streetAddress: job.streetAddress || "",      // added
-      addressLocality: job.location || "",        // existing
-      addressRegion: job.state || "",             // added
+      addressLocality: job.addressLocality || "",        // existing
+      addressRegion: job.addressRegion || "",             // added
       postalCode: job.postalCode || "",           // added
-      addressCountry: job.country || "IN",        // added default to IN
+      addressCountry: job.addressCountry || "IN",        // added default to IN
     },
   },
   baseSalary: job.salary
@@ -180,7 +180,7 @@ const jobPostingSchema = {
         value: {
           "@type": "QuantitativeValue",
           value: Number(String(job.salary).replace(/[^0-9]/g, "")) || 0,
-          unitText: "YEAR",
+          unitText: "Monthly",
         },
       }
     : undefined,
