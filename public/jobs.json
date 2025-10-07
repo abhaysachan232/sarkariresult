@@ -543,5 +543,52 @@
        "syllabus":"/pdf/Advt-03-2025-Prohibition-Jail-Warder-Mobile-Squad-Constables-8-12.pdf"
     },
      "updatedon":"2025-10-07"
+  },
+{
+    "id": 14,
+    "title": "TES Army Recruitment 2025 Apply Online",
+    "setPath": "TES-Army-Recruitment-2025-Apply-Online",
+    "organization": "Central Selection Board of Constable (CSBC)",
+    "date": "06-10-2025",
+    "location": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>The Indian Army</b> has recently announced a short notification on its official portal for the <b>recruitment of 10+2 Technical Entry Scheme (TES)</b> July 2026 Batch - TES 55 Entry. A total of <b>90 vacancies</b> are available under this recruitment. The online application process will commence from 14th October 2025 and will remain open until 13th November 2025. Candidates must be at <b>least 16.5 years old and not exceed 19.5 years of age as on 1st July 2026</b>. Aspirants are advised to go through all the detailed information regarding the Army 10+2 TES 55 Recruitment 2025 before <b>applying on Sarkari Result</b>.",
+
+    "importantDates": {
+      "start": "14-10-2025",
+      "lastDate": "13-11-2025",
+      "correction": "NA",
+      "examDate": "Notify Soon",
+      "admitCard": "Available before exam",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "12th Pass",
+    "applicationFee": {
+"For General, OBC, EWS, SC, ST, PWD Candidates" :  "No application fee is required for any candidate."
+    },
+    "eligibility": "For the <b>Indian Army TES 55 Course</b>, candidates must have appeared in <b>JEE Mains 2025</b>, as it is now mandatory. They should also have passed 10+2 (Intermediate) with a minimum of <b>60% aggregate marks in Physics, Chemistry, and Mathematics</b> (PCM stream) from a recognized board.",
+    "age": " <b>Minimum Age </b>: 16.5 Years<br/> <b>Maximum Age</b> : 19.5 Years<br/> <b>Indian Army</b> provides age relaxation for the <b>Army 10+2 TES 55 position</b> as per their regulations.",
+    "Post": "<b>90 Posts</b>",
+    "salary": "0",
+    "howtoapply":"Interested candidates who wish to apply for the Indian Army post can submit their application online before the <b>13 November 2025</b>.",
+    "streetAddress":"India", 
+    "addressLocality":"New Delhi",
+    "addressRegion":"India",
+    "postalCode":"110001",
+    "addressCountry":"India",
+    "image":"https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://joinindianarmy.nic.in/Authentication.aspx",
+      "Notice":"/jobs-images/Indian-Army-TES-55-Notification-Out-for-JUL-2026-Course-740x1024-1.webp",
+      "notification": "https://joinindianarmy.nic.in/Authentication.aspx",
+      "official": "https://joinindianarmy.nic.in/Authentication.aspx",
+       "Also Check": "https://sarkariresult.rest/jobs/CSBC-Bihar-Police-Constable-Recruitment-2025"
+
+    },
+     "updatedon":"2025-10-07"
   }
+
 ]
