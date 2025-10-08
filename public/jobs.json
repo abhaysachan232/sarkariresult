@@ -64,7 +64,7 @@
       "scst": 100,
       "EWSPH": 100
     },
-    "eligibility": "<b>Candidates need to have passed the 12th Class (Intermediate) examination from a recognized board or establishment.",
+    "eligibility": "<>Candidates need to have passed the 12th Class (Intermediate) examination from a recognized board or establishment.",
     "age": "18 years to 37 Years <br/> Maximum Age : 37 Years (UR Male) <br/> Maximum Age : 40 Years (UR Female)<br/>Maximum Age : 40 Years (BC/ EBC Male, Female)<br/>Maximum Age : 42 Years (SC/ ST Male, Female)",
     "Post": 23175,
     "salary": "69,100",
@@ -636,6 +636,54 @@
 
     },
      "updatedon":"2025-10-08"
+  },
+    {
+    "id": 15,
+    "title": "BSSC Office Attendant Bihar Recruitment 2025",
+    "setPath": "BSSC-Office-Attendant-Bihar-Recruitment-2025",
+    "organization": "Bihar Staff Selection Commission (BSSC)",
+    "date": "08-10-2025",
+    "location": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>Bihar BSSC Office Attendant Recruitment 2025</b> - Notification, Eligibility, and Details The Bihar Staff Selection Commission (BSSC) has officially announced the BSSC Office Attendant Recruitment 2025, offering an excellent opportunity for candidates seeking a stable government job in Bihar. This recruitment drive is aimed at filling Group D posts like Office Attendant (Karyalay Parichari) and other support staff positions across various government departments. Aspirants looking for secure employment in the Bihar government can apply online through the official website <b>bssc.bihar.gov.in</b>.OverviewThe <b>BSSC Office Attendant Recruitment 2025</b> is one of the key job openings for matriculation (10th pass) candidates in Bihar. The role of an office attendant is vital in maintaining the smooth functioning of government offices. Employees are responsible for assisting officers, managing files, maintaining office cleanliness, delivering official documents, and supporting administrative operations. <b>Eligibility Criteria To apply for the BSSC Office Attendant Recruitment 2025,candidates must meet the following requirements:Educational Qualification: The applicant must have passed Class 10 (Matriculation)</b> from a recognized board. <b>Age Limit:General (Male): 18 to 37 years OBC / EBC (Male): up to 40 years Female (All Categories): up to 40 years SC / ST (Male and Female): up to 42 years</b> Domicile: <b>The applicant must be a resident of Bihar to avail of reservation benefits</b>.Relaxation in the upper age limit is applicable as per the Government of Bihar norms.Application Process The entire application process for Bihar BSSC Office Attendant Recruitment 2025 will be conducted online. Candidates can follow these steps: Visit the official website bssc.bihar.gov.in. Click on the Office Attendant Recruitment 2025 link. Register using a valid email ID and mobile number.Fill out the application form carefully with accurate personal and educational details. Upload the required documents such as a recent passport-size photograph and signature. Pay the application fee online. <b>Application Fees:General / OBC / EWS: ₹540,SC / ST / PH / Female (Bihar Residents): ₹135</b>, <b>Selection Process</b> The selection for BSSC Office Attendant 2025 will be based on the following stages:Written Examination - Objective questions on General Knowledge, Mathematics, and Reasoning.Document Verification - Qualified candidates will be called for verification of certificates and eligibility proof.Medical Test - Final stage to ensure the candidate's physical fitness for the post.Salary Structure: Candidates selected for the Office Attendant post will receive a pay scale under Level 1 (₹18,000 - ₹56,900) as per the 7th Pay Commission, along with other allowances such as DA, HRA, and medical benefits.",
+
+    "importantDates": {
+      "start": "25-08-2025",
+      "lastDate": "14-10-2025",
+      "correction": "NA",
+      "examDate": "Notify Soon",
+      "admitCard": "Available before exam",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "10th Pass",
+    "applicationFee": {
+"For General, OBC, EWS, SC, ST, PWD Candidates" :  "100"
+    },
+    "eligibility": "Candidates must have passed the 10th Class examination from a recognized board or institution.",
+    "age": " <b>Minimum Age</b> : 18 Year<br/> <b>Maximum Age</b> : 37 Years (UR Male)<br/><b>Maximum Age </b>: 40 Years (UR Female)<br/><b>Maximum Age</b> : 40 Years (BC/ EBC Male, Female)<br/><b>Maximum Age</b> : 42 Years (SC/ ST Male, Female)<br/> <b>Bihar BSSC</b> provides age relaxation for the Inter Level as per their regulations.",
+    "Post": "<b>3727 Posts</b>",
+    "salary": "56,900",
+    "howtoapply":"Interested candidates who wish to apply for the BSSC post can submit their application online before <b>14 October 2025</b>.Use the Apply button provided above in desktop and below in mobile phone under heading section to apply directly.Alternatively, visit the official website of BSSC to complete the application process online..",
+    "streetAddress":"Bihar", 
+    "addressLocality":"patna",
+    "addressRegion":"patna",
+    "postalCode":"801103",
+    "addressCountry":"India",
+    "image":"https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://www.onlinebssc.com/officeattendantspecial/",
+      "Notice":"https://bssc.bihar.gov.in/Advertisement/3834_notice.pdf",
+      "notification": "https://bssc.bihar.gov.in/Advertisement/0625_ADVT.pdf",
+      "official": "https://bssc.bihar.gov.in/",
+      "syllabus":"/pdf/0625_ADVT-7-11.pdf",
+       "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025-Apply-Online"
+
+    },
+     "updatedon":"2025-10-08"
   }
+
 
 ]
