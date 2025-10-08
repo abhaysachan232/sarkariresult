@@ -9,12 +9,14 @@ const inter = Inter({ subsets: ["latin"] })
 import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
 import Script from "next/script"
+import SwgLoginButton from "@/components/SwgLoginButton"
 
 // export const metadata: Metadata = {
 //   title: "SarkariResult - Government Jobs, Results, Admit Cards",
 //   description: "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.com",
 //     generator: 'v0.app'
 // }
+
 
 export default function RootLayout({
   children,
@@ -41,23 +43,11 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <script async type="application/javascript"
         src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
-<Script id="swg-basic-init" strategy="afterInteractive">
-          {`
-            (self.SWG_BASIC = self.SWG_BASIC || []).push(basicSubscriptions => {
-              basicSubscriptions.init({
-                type: "NewsArticle",
-                isPartOfType: ["Product"],
-                isPartOfProductId: "CAowhNjBDA:openaccess",
-                clientOptions: { theme: "light", lang: "en-GB" },
-              });
-            });
-          `}
-        </Script>
       </Head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
          <Navbar />
-
+<SwgLoginButton />
           {/* 🔹 Beech ka content (path change hote hi update hoga) */}
           <main style={{ flex: 1, padding: "20px" }}>{children}</main>
 
