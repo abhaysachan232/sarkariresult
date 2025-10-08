@@ -8,6 +8,7 @@ import Head from "next/head"
 const inter = Inter({ subsets: ["latin"] })
 import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
+import Script from "next/script"
 
 // export const metadata: Metadata = {
 //   title: "SarkariResult - Government Jobs, Results, Admit Cards",
@@ -38,6 +39,20 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
         <meta name="twitter:card" content="summary_large_image" />
+        <script async type="application/javascript"
+        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<Script id="swg-basic-init" strategy="afterInteractive">
+          {`
+            (self.SWG_BASIC = self.SWG_BASIC || []).push(basicSubscriptions => {
+              basicSubscriptions.init({
+                type: "NewsArticle",
+                isPartOfType: ["Product"],
+                isPartOfProductId: "CAowhNjBDA:openaccess",
+                clientOptions: { theme: "light", lang: "en-GB" },
+              });
+            });
+          `}
+        </Script>
       </Head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
