@@ -45,7 +45,7 @@ export default async function Home() {
       {/* Header */}
       <ClientOnly>
   <div > {/* reserve space */}
-    <NotificationButton />
+    {/* <NotificationButton /> */}
   </div>
 </ClientOnly>
       <Middle />

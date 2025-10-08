@@ -72,7 +72,7 @@ export default function SwgFollowButton() {
       />
 
       {/* Follow Button */}
-      <div style={{ display: "flex", justifyContent: "flex-end", margin: "20px 0" }}>
+      <div style={{ display: "flex", justifyContent: "center", margin: "20px 0" }}>
         <button
           onClick={handleFollow}
           disabled={!swgReady}
@@ -86,7 +86,7 @@ export default function SwgFollowButton() {
             fontSize: "16px",
           }}
         >
-          Follow
+          Subscribe for Updates
         </button>
       </div>
 
