@@ -100,16 +100,17 @@ const Page = async ({ params }: PageProps) => {
       sameAs: "https://www.delhipolice.nic.in/",
       logo: article.image,
     },
-    jobLocation: {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Delhi Police Headquarters",
-        addressLocality: "New Delhi",
-        postalCode: "110001",
-        addressCountry: "IN",
-      },
+  jobLocation: {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: article.streetAddress || "",      // added
+      addressLocality: article.addressLocality || "",        // existing
+      addressRegion: article.addressRegion || "",             // added
+      postalCode: article.postalCode || "",           // added
+      addressCountry: article.addressCountry || "IN",        // added default to IN
     },
+  },
     baseSalary: {
       "@type": "MonetaryAmount",
       currency: "INR",

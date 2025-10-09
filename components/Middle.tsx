@@ -87,7 +87,7 @@ export default async function Middle() {
             </Link>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {datas.slice(-3).map((item, i) => (
+            {datas.map((item, i) => (
               <div key={i} className="rounded-lg border p-4 shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-xs font-medium text-blue-600 mb-2">
                 {item.Type}
