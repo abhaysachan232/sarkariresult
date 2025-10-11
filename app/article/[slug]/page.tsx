@@ -1,7 +1,7 @@
 // app/article/[slug]/page.tsx
 import React from "react";
 import Script from "next/script";
-import data from "../../../public/articles.json";
+import dataJson from "../../../public/articles.json";
 import Link from "next/link";
 
 const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({ headers, rows }) => (
@@ -52,14 +52,14 @@ interface Article {
   description: string;
   datePublished: string;
   dateModified: string;
-  streetAddress:string;
+  streetAddress?: string;
+  addressLocality?: string;
+  addressRegion?: string;
+  postalCode?: string;
+  addressCountry?: string;
   image: string;
   content: Section[];
   apply: string;
-  addressLocality:string;
-   addressRegion:string;
-    postalCode:string;
-    addressCountry:string;
 }
 
 interface Params {
@@ -71,14 +71,12 @@ interface PageProps {
 }
 
 const Page = async ({ params }: PageProps) => {
-  // await kar ke real object le rahe ho
   const { slug } = await params;
 
-  // const article = data.find((art) => art.slug === slug);
-  
-  const article = data.find((art: Article) => art.slug === slug);
-  console.log(article);
-  
+  // Type guard to safely find Article
+  const article = (dataJson as any[]).find(
+    (art): art is Article => typeof art.slug === "string" && art.slug === slug
+  );
 
   if (!article) {
     return <p className="text-center mt-10 text-red-500">Article not found</p>;
@@ -90,14 +88,13 @@ const Page = async ({ params }: PageProps) => {
     title: article.title,
     description: article.description,
     datePosted: article.datePublished,
-   alternates: { canonical: `https://sarkariresult.rest/article/${article.slug}` },
-
+    alternates: { canonical: `https://sarkariresult.rest/article/${article.slug}` },
     validThrough: "2025-12-31",
     employmentType: "FULL_TIME",
-    author:{
+    author: {
       "@type": "Person",
-      "name": "Abhay Sachan",
-      "url": "https://sarkariresult.rest"
+      name: "Abhay Sachan",
+      url: "https://sarkariresult.rest",
     },
     hiringOrganization: {
       "@type": "Organization",
@@ -105,17 +102,17 @@ const Page = async ({ params }: PageProps) => {
       sameAs: "https://www.delhipolice.nic.in/",
       logo: article.image,
     },
-  jobLocation: {
-    "@type": "Place",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: article.streetAddress || "",      // added
-      addressLocality: article.addressLocality || "",        // existing
-      addressRegion: article.addressRegion || "",             // added
-      postalCode: article.postalCode || "",           // added
-      addressCountry: article.addressCountry || "IN",        // added default to IN
+    jobLocation: {
+      "@type": "Place",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: article.streetAddress || "",
+        addressLocality: article.addressLocality || "",
+        addressRegion: article.addressRegion || "",
+        postalCode: article.postalCode || "",
+        addressCountry: article.addressCountry || "IN",
+      },
     },
-  },
     baseSalary: {
       "@type": "MonetaryAmount",
       currency: "INR",
@@ -180,8 +177,8 @@ const Page = async ({ params }: PageProps) => {
       {/* Internal Links Section */}
       <div className="bg-gray-100 p-6 rounded-lg space-y-3">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Articles</h2>
-        {data
-          .filter((art) => art.slug !== article.slug)
+        {(dataJson as any[])
+          .filter((art) => art.slug !== article.slug && typeof art.title === "string")
           .slice(0, 5)
           .map((art) => (
             <Link
