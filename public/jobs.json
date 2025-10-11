@@ -683,7 +683,54 @@
 
     },
      "updatedon":"2025-10-08"
-  }
+  },
+  {
+  "id": 17,
+  "title": "UP SI Exam Date Declared 2025 Check Now",
+  "setPath": "UP-SI-Exam-Date-Declared-2025-Check-Now",
+  "organization": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
+  "date": "09-10-2025",
+  "location": "Uttar Pradesh",
+  "type": "exam-date",
+  "category": "latest-updates",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "<b>UP SI Exam Date 2025 Declared</b> - The Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB) has officially announced the <b>UP Police Sub-Inspector (SI) Exam Date 2025</b>. Candidates who have successfully registered for the UP Police SI Recruitment 2025 can now check the detailed schedule, exam timing, and venue details. The examination will be conducted in multiple shifts across the state of Uttar Pradesh. As per the notification, the UP SI written exam is <b>tentatively scheduled in December 2025</b>. Applicants are advised to keep visiting the official website <b>uppbpb.gov.in</b> and <b>sarkariresult.rest</b> for updates related to admit card release and exam instructions.<br/><br/>The <b>UP Police SI recruitment</b> is one of the most sought-after exams for candidates aspiring for a government job in the police department. The recruitment aims to fill Sub-Inspector (Civil Police), Platoon Commander, and Fire Officer posts. The written exam will consist of objective-type questions testing General Knowledge, Law & Constitution, Reasoning, and Numerical Aptitude.",
+  "importantDates": {
+    "notification": "15-06-2025",
+    "start": "12-08-2025",
+    "lastDate": "11-09-2025",
+    "examDate": "December 2025 (Tentative)",
+    "admitCard": "Available before exam",
+    "resultDate": "Notify Soon"
+  },
+  "qualification": "Graduation in any discipline from a recognized university.",
+  "applicationFee": {
+    "General / OBC / EWS": "₹400",
+    "SC / ST / Female": "₹400"
+  },
+  "eligibility": "Candidates must possess a Bachelor's Degree from a recognized university and meet the physical standards prescribed by UP Police. Minimum height for Male candidates - 168 cm (General/OBC/SC), 160 cm (ST); for Female candidates - 152 cm (General/OBC/SC), 147 cm (ST).",
+  "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 28 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
+  "Post": "<b>9213 Posts</b>",
+  "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6)",
+  "howtoapply": "Candidates who have applied for the UP Police SI 2025 recruitment can check their exam date and schedule online. Visit the official website <b>uppbpb.gov.in</b> and navigate to the 'Exam Notice' section. Enter your registration number and date of birth to check your exam date, shift, and city details. Admit cards will be released 10 days prior to the exam.",
+  "streetAddress": "Lucknow",
+  "addressLocality": "Lucknow",
+  "addressRegion": "Uttar Pradesh",
+  "postalCode": "226001",
+  "addressCountry": "India",
+  "image": "https://sarkariresult.rest/jobs-images/logo.png",
+  "links": {
+    "apply": "https://uppbpb.gov.in/",
+    "official": "https://uppbpb.gov.in/",
+    "Notice": "",
+    "admitCard": "",
+    "result": "",
+    "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
+  },
+  "updatedon": "2025-10-09"
+}
+
 
 
 ]
