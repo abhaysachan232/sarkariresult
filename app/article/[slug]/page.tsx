@@ -52,9 +52,14 @@ interface Article {
   description: string;
   datePublished: string;
   dateModified: string;
+  streetAddress:string;
   image: string;
   content: Section[];
   apply: string;
+  addressLocality:string;
+   addressRegion:string;
+    postalCode:string;
+    addressCountry:string;
 }
 
 interface Params {
