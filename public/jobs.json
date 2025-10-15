@@ -1192,7 +1192,54 @@
     "Also Check": ""
   },
   "updatedon": "2025-10-14"
+},
+{
+  "id": 28,
+  "title": "UPSSSC AGTA DV Result 2025",
+  "setPath": "upsssc-agta-dv-result-2025",
+  "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+  "date": "15-10-2025",
+  "location": "Uttar Pradesh, India",
+  "type": "result",
+  "category": "results",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "<b>UPSSSC AGTA DV Result 2025</b> – The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the <b>Agriculture Technical Assistant (AGTA)</b> Document Verification (DV) Result 2025. Candidates who appeared in the DV round can now check their results online at <b>upsssc.gov.in</b>. The result includes the list of shortlisted candidates for the final appointment process. This result is an important milestone for candidates waiting for their AGTA recruitment final status. Candidates are advised to download the official PDF and verify their roll numbers carefully.",
+  "importantDates": {
+    "notification": "20-09-2025",
+    "examDate": "15-06-2025",
+    "dvDate": "05-10-2025 to 10-10-2025",
+    "resultDate": "15-10-2025",
+    "finalMerit": "To Be Announced Soon"
+  },
+  "qualification": "Candidates must have a Bachelor's Degree in Agriculture or equivalent qualification from a recognized university or institution.",
+  "applicationFee": {
+    "General / OBC / EWS": "₹25 (Online Processing Fee)",
+    "SC / ST": "₹25 (Online Processing Fee)",
+    "PH (Divyang)": "₹25 (Online Processing Fee)"
+  },
+  "eligibility": "Candidates who qualified in the written examination and appeared for document verification are eligible for the UPSSSC AGTA DV Result 2025. All candidates must ensure their documents and certificates match the eligibility criteria mentioned in the official advertisement.",
+  "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 40 Years<br/>Age relaxation is applicable as per Uttar Pradesh government rules.",
+  "Post": "<b>Agriculture Technical Assistant (AGTA)</b> – Group C Post",
+  "salary": "Pay Scale: Rs. 25,500 – 81,100/- (Pay Level 4) plus usual allowances as per UP government norms.",
+  "howtoapply": "To check the <b>UPSSSC AGTA DV Result 2025</b>, candidates should visit the official website <b>upsssc.gov.in</b>, open the <b>Results / Important Declarations</b> section, and click on the DV Result link. Download the official PDF file and search your Roll Number or Name using Ctrl+F. Candidates shortlisted in this stage will be called for the final joining process as per the Commission's schedule.",
+  "streetAddress": "UPSSSC, 3rd Floor, Pickup Bhawan, Vibhuti Khand, Gomti Nagar",
+  "addressLocality": "Lucknow",
+  "addressRegion": "Uttar Pradesh",
+  "postalCode": "226010",
+  "addressCountry": "India",
+  "image": "https://upsssc.gov.in/images/upsssc-logo.png",
+  "links": {
+    "apply": "",
+    "official": "https://upsssc.gov.in",
+    "notification": "https://upsssc.gov.in/AllNotifications.aspx",
+    "admitCard": "https://upsssc.gov.in",
+    "result": "https://upsssc.gov.in/",
+    "Also Check": "https://sarkariresult.rest/article/bihar-bssc-4th-graduate-level-syllabus-exam-pattern-selection-process"
+  },
+  "updatedon": "2025-10-15"
 }
+
 
 
 
