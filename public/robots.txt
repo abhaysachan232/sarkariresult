@@ -1,11 +1,21 @@
-# robots.txt for your site
+# robots.txt for SarkariResult.Rest
 
+# Allow all crawlers full access
 User-agent: *
 Allow: /
 
-# Block Next.js internals
+# Explicitly allow Google News & Image bots (helps Google News indexing)
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Block internal Next.js & API routes (not useful for indexing)
 Disallow: /_next/
 Disallow: /api/
 
-# Sitemap location
+# Sitemap locations
+Sitemap: https://sarkariresult.rest/sitemap-index.xml
+Sitemap: https://sarkariresult.rest/news-sitemap.xml
 Sitemap: https://sarkariresult.rest/sitemap.xml

@@ -34,8 +34,7 @@
       "notification": "https://xyzuniversity.ac.in/notification.pdf",
       "official": "https://xyzuniversity.ac.in/"
     },
-    "updatedon":"2025-10-05"
-    
+    "updatedon": "2025-10-05"
   },
   {
     "id": 2,
@@ -73,7 +72,7 @@
       "notification": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
       "official": "https://bssc.bihar.gov.in/"
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
   {
     "id": 3,
@@ -98,13 +97,12 @@
     },
     "qualification": "12th Pass",
     "applicationFee": {
-"General/ EWS/ BC/ EBC":   960,
-"Other State (All Category)":960,
-"SC/ ST/ PWD":  "760",
-"Both Paper General/ EWS/ BC/ EBC":   1440,
-"Both Paper Other State (All Category)":   1440,
-"Both Paper SC/ ST/ PWD":  1140
-
+      "General/ EWS/ BC/ EBC": 960,
+      "Other State (All Category)": 960,
+      "SC/ ST/ PWD": "760",
+      "Both Paper General/ EWS/ BC/ EBC": 1440,
+      "Both Paper Other State (All Category)": 1440,
+      "Both Paper SC/ ST/ PWD": 1140
     },
     "eligibility": "For <b>Class 9–10 Teachers which will have Paper-I</b>, candidates must have a <b>Bachelor’s degree in the subject which they applied with at least 50% marks and a B.Ed. degree</b>. For <b>Senior Secondary Teacher </b>, you need a <b>Postgraduate degree in the subject with Second Division with a B.Ed. </b> degree <b>(not required for Computer Science)</b>. Candidates belonging to <b>SC/ST/EBC/BC/Divyang categories</b> get <b>5% relaxation</b> in marks.",
     "age": "21 years to 37 Years for male <br/> max:- 40 Years (Female UR, BC/ EBC-Male & Female)  <br/> max:- 42 Years (SC/ ST-Male & Female)<br/> <b>Bihar BSEB</b> provides age relaxation for the <b>Bihar STET</b> position as per their regulations.",
@@ -115,7 +113,7 @@
       "notification": "https://pbs.twimg.com/media/G11CJoWWsAAinIW?format=jpg&name=small",
       "official": "https://secondary.biharboardonline.com//",
       "admitCard": "#",
-       "result": "#"
+      "result": "#"
     }
   },
   {
@@ -141,10 +139,9 @@
     },
     "qualification": "12th Pass",
     "applicationFee": {
-"For General, EBC, BC, EWS"  : 700,
-"For Other State All Category" : 700,
-"For SC / ST, PH" : 400
-
+      "For General, EBC, BC, EWS": 700,
+      "For Other State All Category": 700,
+      "For SC / ST, PH": 400
     },
     "eligibility": "Candidates must have passed Class <b>12th/HSC</b> from a recognized board.Must have a <b>1-year Diploma Certificate in Computers</b>.Hindi Stenographer: Speed of <b>80 words per minute</b> (WPM)Computer Typing: Proficiency in both Hindi and English with a typing speed of <b>30 WPM,completing 300 words in 10 minutes</b>.Computer Test: Should have good knowledge of <b>MS Office (Word, Excel, PowerPoint) and the Internet</b>.",
     "age": "Minimum Age : 18 Years <br/> Maximum Age : 25 Years  (UR/ EWS)-Male, <br/>Female Maximum Age : 27 Years  (BC / EBC)-Male <br/>Maximum Age : 28 Years  (BC / EBC)<br/>FemaleMaximum Age : 30 Years  (SC/ ST) Male, Female <br/>BPSSC provides age relaxation for the Steno ASI position as per their regulations.",
@@ -155,9 +152,9 @@
       "notification": "https://bpssc.bihar.gov.in/Advts/Advt.%20No.-01-2024-Steno%20ASI.pdf",
       "official": "https://bpssc.bihar.gov.in/",
       "admitCard": "https://apply-bpssc.com/StenoAsiWEAdmit124/applicationIndex",
-       "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
+      "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
   {
     "id": 5,
@@ -166,7 +163,7 @@
     "organization": "Delhi Development Authority",
     "date": "06-10-2025",
     "location": "Delhi",
-  "type": "latest-job",
+    "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "sarkari result",
@@ -176,16 +173,15 @@
       "start": "06-10-2025",
       "lastDate": "05-11-2025",
       "correction": "NA",
-      "Online Fee Payment Last Date" :  "05-11-2025",
+      "Online Fee Payment Last Date": "05-11-2025",
       "examDate": "December / January ",
       "admitCard": "Before Exam",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": "10th, 10+2, Degree / Diploma (Post Wise)",
     "applicationFee": {
-"General / OBC / EWS" : "2500",
-"SC / ST / PH / Female" : "2500"
-
+      "General / OBC / EWS": "2500",
+      "SC / ST / PH / Female": "2500"
     },
     "eligibility": "10th, 10+2, Degree / Diploma (Post Wise) For Post Wise Eligibility Details Read the Notification.",
     "age": "Minimum Age : 18 Years.<br/>Maximum Age : 27 Years <br/>Age Relaxation Extra as per Delhi Development Authority DDA Various Post Recruitment Rules.",
@@ -196,9 +192,9 @@
       "notification": "https://dda.gov.in/sites/default/files/latest_jobs/dda_final_notification_dr_2025_dated_26_sep_2025.pdf",
       "official": "https://dda.gov.in/",
       "admitCard": "",
-       "result": ""
+      "result": ""
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
   {
     "id": 6,
@@ -207,7 +203,7 @@
     "organization": "Railway Recruitment Board (RRB)",
     "date": "28-10-2025",
     "location": "India",
-  "type": "latest-job",
+    "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "sarkari result",
@@ -217,17 +213,16 @@
       "start": "28-10-2025",
       "lastDate": "27-11-2025",
       "correction": "NA",
-      "Online Fee Payment Last Date" :  "27-11-2025",
+      "Online Fee Payment Last Date": "27-11-2025",
       "examDate": "will be notified later ",
       "admitCard": "Before Exam updated here",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": "10+2",
     "applicationFee": {
-"For General / OBC / EWS" : 500,
-"For SC / ST / EBC" : 250,
-"For All Category female" : 250
-
+      "For General / OBC / EWS": 500,
+      "For SC / ST / EBC": 250,
+      "For All Category female": 250
     },
     "eligibility": "Candidates must possess a 10+2 Intermediate Pass from a recognized University/Institute in India.",
     "age": "Minimum Age : 18 Years (Tentative) <br/>Maximum Age : 30 Years (Tentative)<br/> RRB provides age relaxation for the NTPC Inter Level position as per their regulations.",
@@ -238,18 +233,18 @@
       "notification": "https://www.rrbapply.gov.in/#/auth/landing",
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
-       "result": ""
+      "result": ""
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
- {
+  {
     "id": 7,
     "title": "RRB NTPC Graduate Level Recruitment 2025",
     "setPath": "RRB-NTPC-Graduate-Level-Recruitment-2025",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "21-10-2025",
     "location": "India",
-  "type": "latest-job",
+    "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "sarkari result",
@@ -259,17 +254,16 @@
       "start": "21-10-2025 (tentative)",
       "lastDate": "20-11-2025 (tentative)",
       "correction": "NA",
-      "Online Fee Payment Last Date" :  "20-11-2025 (tentative)",
+      "Online Fee Payment Last Date": "20-11-2025 (tentative)",
       "examDate": "will be notified later ",
       "admitCard": "Before Exam updated here",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": "Graduate",
     "applicationFee": {
-"For General / OBC / EWS" : 500,
-"For SC / ST / EBC" : 250,
-"For All Category female" : 250
-
+      "For General / OBC / EWS": 500,
+      "For SC / ST / EBC": 250,
+      "For All Category female": 250
     },
     "eligibility": "Candidates must possess a Graduate Degree from a recognized University/Institute in India.",
     "age": "Minimum Age : 18 Years (Tentative) <br/>Maximum Age : 33 Years (Tentative)<br/> RRB provides age relaxation for the NTPC Inter Level position as per their regulations.",
@@ -280,9 +274,9 @@
       "notification": "/jobs-images/rrb-ntpc.jpg",
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
-       "result": ""
+      "result": ""
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
   {
     "id": 8,
@@ -291,7 +285,7 @@
     "organization": "Railway Recruitment Board (RRB)",
     "date": "31-10-2025",
     "location": "India",
-  "type": "latest-job",
+    "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "sarkari result",
@@ -301,17 +295,16 @@
       "start": "31-10-2025 (tentative)",
       "lastDate": "30-11-2025 (tentative)",
       "correction": "NA",
-      "Online Fee Payment Last Date" :  "30-11-2025 (tentative)",
+      "Online Fee Payment Last Date": "30-11-2025 (tentative)",
       "examDate": "will be notified later ",
       "admitCard": "Before Exam updated here",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": "Engineering Diploma or Degree",
     "applicationFee": {
-"For General / OBC / EWS" : 500,
-"For SC / ST / EBC" : 250,
-"For All Category female" : 250
-
+      "For General / OBC / EWS": 500,
+      "For SC / ST / EBC": 250,
+      "For All Category female": 250
     },
     "eligibility": "Candidates must possess a Engineering Diploma or Degree from a recognized University/Institute in India.",
     "age": "Minimum Age : 18 Years (Tentative) <br/>Maximum Age : 33 Years (Tentative)<br/> RRB provides age relaxation for the NTPC Inter Level position as per their regulations.",
@@ -322,11 +315,11 @@
       "notification": "/jobs-images/rrb-je-notice.webp",
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "",
-       "result": ""
+      "result": ""
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
-    {
+  {
     "id": 9,
     "title": "dsssb admit card 2025",
     "setPath": "dsssb-admit-card-2025",
@@ -343,17 +336,16 @@
       "start": "29-09-2025",
       "lastDate": "30-10-2025 ",
       "correction": "NA",
-      "Online Fee Payment Last Date" :  "",
+      "Online Fee Payment Last Date": "",
       "examDate": "will be notified later ",
       "admitCard": "29 September 2025",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": " as per notification",
     "applicationFee": {
-"For General / OBC / EWS" : "No fees to download",
-"For SC / ST / EBC" : "No fees to download",
-"For All Category female" : "No fees to download"
-
+      "For General / OBC / EWS": "No fees to download",
+      "For SC / ST / EBC": "No fees to download",
+      "For All Category female": "No fees to download"
     },
     "eligibility": "as per notification",
     "age": "not required",
@@ -364,11 +356,11 @@
       "notification": "https://dsssb.delhi.gov.in/",
       "official": "https://dsssb.delhi.gov.in/",
       "admitCard": "https://cdn.digialm.com/EForms/configuredHtml/1258/96015/login.html",
-       "result": ""
+      "result": ""
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
-      {
+  {
     "id": 10,
     "title": "Delhi Police Head Constable Ministerial Recruitment 2025",
     "setPath": "Delhi-Police-Head-Constable-Ministerial-Recruitment-2025",
@@ -385,16 +377,15 @@
       "start": "29-09-2025",
       "lastDate": "20-10-2025",
       "correction": "27-10-2025 to 29-10-2025",
-      "Online Fee Payment Last Date" :  "20-10-2025",
+      "Online Fee Payment Last Date": "20-10-2025",
       "examDate": "December 2025 / January 2026 ",
       "admitCard": "Available before exam",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": "passed 10+2 with typing speed of 30 w.p.m in English or 25 w.p.m in Hindi on computer.",
     "applicationFee": {
-"For General, OBC, EWS" :  100,
-"For SC, ST, PWD Candidates" : 0
-
+      "For General, OBC, EWS": 100,
+      "For SC, ST, PWD Candidates": 0
     },
     "eligibility": "passed 10+2 with typing speed of 30 w.p.m in English or 25 w.p.m in Hindi on computer.",
     "age": "18 years to 25 Years <br/> Maximum Age : 25 Years ",
@@ -405,12 +396,12 @@
       "notification": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPHCM_2025.pdf",
       "official": "https://ssc.nic.in/",
       "admitCard": "",
-       "result": "",
-       "syllabus": "/pdf/Notice_of_DPHCM_2025-16-24.pdf"
+      "result": "",
+      "syllabus": "/pdf/Notice_of_DPHCM_2025-16-24.pdf"
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
-      {
+  {
     "id": 11,
     "title": "rrb alp CBT 2 Result sarkari result",
     "setPath": "rrb-alp-CBT-2-Result-sarkari-result",
@@ -427,17 +418,16 @@
       "start": "01-10-2025",
       "lastDate": "NA ",
       "correction": "NA",
-      "Online Fee Payment Last Date" :  "",
+      "Online Fee Payment Last Date": "",
       "examDate": "will be notified later ",
       "admitCard": "29 September 2025",
       "ResultDeclaredDate": "01-10-2025"
     },
     "qualification": " as per notification",
     "applicationFee": {
-"For General / OBC / EWS" : "No fees to download",
-"For SC / ST / EBC" : "No fees to download",
-"For All Category female" : "No fees to download"
-
+      "For General / OBC / EWS": "No fees to download",
+      "For SC / ST / EBC": "No fees to download",
+      "For All Category female": "No fees to download"
     },
     "eligibility": "as per notification",
     "age": "not required",
@@ -448,9 +438,9 @@
       "notification": "#",
       "official": "#",
       "admitCard": "#",
-       "result": "https://rrbpryj.gov.in/"
+      "result": "https://rrbpryj.gov.in/"
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
   {
     "id": 12,
@@ -469,33 +459,32 @@
       "start": "03-10-2025",
       "lastDate": "17-10-2025",
       "correction": "03-10-2025 to 22-10-2025",
-      "Online Fee Payment Last Date" :  "20-10-2025",
+      "Online Fee Payment Last Date": "20-10-2025",
       "examDate": "Starts from 10-12-2025 ",
       "admitCard": "Available before exam",
       "ResultDeclaredDate": "After Exam"
     },
     "qualification": "12th Pass",
     "applicationFee": {
-"For General, OBC, EWS" :  500,
-"For SC, ST, PWD Candidates" : 250
-
+      "For General, OBC, EWS": 500,
+      "For SC, ST, PWD Candidates": 250
     },
     "eligibility": "12th Pass with relevant stenography and computer proficiency certifications.",
     "age": "18 years to 33 Years <br/> Maximum Age : 33 Years ",
     "Post": "<b>400 posts for Assistant Sub-Inspector (Stenographer)</b> <b>100 posts for Subedar (Stenographer)</b>",
     "salary": "as per post",
-    "howtoapply":"Visit the official website: <b>esb.mp.gov.in</b> Click on the Apply Online link for Subedar & Assistant Sub-Inspector Recruitment 2025 Register and fill in the application form with required details Upload necessary documents and pay the application fee Submit the application and take a printout for future reference",
+    "howtoapply": "Visit the official website: <b>esb.mp.gov.in</b> Click on the Apply Online link for Subedar & Assistant Sub-Inspector Recruitment 2025 Register and fill in the application form with required details Upload necessary documents and pay the application fee Submit the application and take a printout for future reference",
     "links": {
       "apply": "https://esb.mponline.gov.in/Portal/Examinations/Vyapam/examsList.aspx",
       "notification": "https://esb.mp.gov.in/Rulebooks/RB_2025/PRT_STENO_LDC_2025_Rulelbook.pdf",
       "official": "https://esb.mponline.gov.in",
       "admitCard": "",
-       "result": "",
-       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Stenographer"
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/jobs/MPESB-Stenographer"
     },
-     "updatedon":"2025-10-05"
+    "updatedon": "2025-10-05"
   },
-    {
+  {
     "id": 13,
     "title": "CSBC Bihar Police Constable Recruitment 2025",
     "setPath": "CSBC-Bihar-Police-Constable-Recruitment-2025",
@@ -518,33 +507,32 @@
     },
     "qualification": "12th Pass",
     "applicationFee": {
-"For General, OBC, EWS" :  100,
-"For SC, ST, PWD Candidates" : 100
-
+      "For General, OBC, EWS": 100,
+      "For SC, ST, PWD Candidates": 100
     },
     "eligibility": "Candidates must have passed 10+2 (Intermediate) or its equivalent examination from a recognized board or institution.",
     "age": "<div style:{{color:'blue'}}><b>For Prohibition & Mobile Squad Constable:</b></div> General (Male): 18 - 25 years<br/> OBC / EBC (Male : 18 - 27 years<br/> OBC / EBC (Female): 18 - 28 years <br/>SC / ST (Male & Female): 18 - 30 years<br/> <div style:{{color:'blue'}}><b>For Jail Warder (Constable Category):</b></div> General (Male): 18 - 23 years<br/> OBC / EBC (Male): 18 - 25 years<br/> OBC / EBC (Female): 18 - 26 years <br/>SC / ST (Male & Female): 18 - 28 years <br/> <b>Bihar Police</b> provides age relaxation for the CSBC Constable position as per their regulations.",
     "Post": "<b>4128 Posts</b>",
     "salary": "as per post",
-    "howtoapply":"Interested candidates who wish to apply for the Bihar Police CSBC post can submit their application online before 05 November 2025.",
-    "streetAddress":"Bihar", 
-    "addressLocality":"patna",
-    "addressRegion":"Bihar",
-    "postalCode":"801103",
-    "addressCountry":"India",
-    "image":"https://sarkariresult.rest/jobs-images/logo.png",
+    "howtoapply": "Interested candidates who wish to apply for the Bihar Police CSBC post can submit their application online before 05 November 2025.",
+    "streetAddress": "Bihar",
+    "addressLocality": "patna",
+    "addressRegion": "Bihar",
+    "postalCode": "801103",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
     "links": {
       "apply": "https://apply-csbc.com/csbc_3_25_mv1/applicationIndex",
       "notification": "https://csbc.bihar.gov.in/Advt/Advt-03-2025-Prohibition-Jail%20Warder-Mobile%20Squad-Constables.pdf",
       "official": "https://csbc.bihar.gov.in/A-REP.htm",
       "admitCard": "",
-       "result": "",
-       "Also Check": "https://sarkariresult.rest/article/dsssb-tgt-syllabus-exam-pattern-selection-process",
-       "syllabus":"/pdf/Advt-03-2025-Prohibition-Jail-Warder-Mobile-Squad-Constables-8-12.pdf"
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/article/dsssb-tgt-syllabus-exam-pattern-selection-process",
+      "syllabus": "/pdf/Prohibition-Jail-Warder-Mobile-Squad-Constables.pdf"
     },
-     "updatedon":"2025-10-07"
+    "updatedon": "2025-10-07"
   },
-{
+  {
     "id": 14,
     "title": "TES Army Recruitment 2025 Apply Online",
     "setPath": "TES-Army-Recruitment-2025-Apply-Online",
@@ -567,28 +555,27 @@
     },
     "qualification": "12th Pass",
     "applicationFee": {
-"For General, OBC, EWS, SC, ST, PWD Candidates" :  "No application fee is required for any candidate."
+      "For General, OBC, EWS, SC, ST, PWD Candidates": "No application fee is required for any candidate."
     },
     "eligibility": "For the <b>Indian Army TES 55 Course</b>, candidates must have appeared in <b>JEE Mains 2025</b>, as it is now mandatory. They should also have passed 10+2 (Intermediate) with a minimum of <b>60% aggregate marks in Physics, Chemistry, and Mathematics</b> (PCM stream) from a recognized board.",
     "age": " <b>Minimum Age </b>: 16.5 Years<br/> <b>Maximum Age</b> : 19.5 Years<br/> <b>Indian Army</b> provides age relaxation for the <b>Army 10+2 TES 55 position</b> as per their regulations.",
     "Post": "<b>90 Posts</b>",
     "salary": "0",
-    "howtoapply":"Interested candidates who wish to apply for the Indian Army post can submit their application online before the <b>13 November 2025</b>.",
-    "streetAddress":"India", 
-    "addressLocality":"New Delhi",
-    "addressRegion":"India",
-    "postalCode":"110001",
-    "addressCountry":"India",
-    "image":"https://sarkariresult.rest/jobs-images/logo.png",
+    "howtoapply": "Interested candidates who wish to apply for the Indian Army post can submit their application online before the <b>13 November 2025</b>.",
+    "streetAddress": "India",
+    "addressLocality": "New Delhi",
+    "addressRegion": "India",
+    "postalCode": "110001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
     "links": {
       "apply": "https://joinindianarmy.nic.in/Authentication.aspx",
-      "Notice":"/jobs-images/Indian-Army-TES-55-Notification-Out-for-JUL-2026-Course-740x1024-1.webp",
+      "Notice": "/jobs-images/Indian-Army-TES-55-Notification-Out-for-JUL-2026-Course-740x1024-1.webp",
       "notification": "https://joinindianarmy.nic.in/Authentication.aspx",
       "official": "https://joinindianarmy.nic.in/Authentication.aspx",
-       "Also Check": "https://sarkariresult.rest/jobs/CSBC-Bihar-Police-Constable-Recruitment-2025"
-
+      "Also Check": "https://sarkariresult.rest/jobs/CSBC-Bihar-Police-Constable-Recruitment-2025"
     },
-     "updatedon":"2025-10-07"
+    "updatedon": "2025-10-07"
   },
   {
     "id": 15,
@@ -613,31 +600,30 @@
     },
     "qualification": "12th Pass",
     "applicationFee": {
-"For General, OBC, EWS, SC, ST, PWD Candidates" :  "100"
+      "For General, OBC, EWS, SC, ST, PWD Candidates": "100"
     },
     "eligibility": "Candidates must have passed the 12th Class (Intermediate) examination from a recognized board or institution.",
     "age": " <b>Minimum Age</b> : 18 Year<br/> <b>Maximum Age</b> : 37 Years (UR Male)<br/><b>Maximum Age </b>: 40 Years (UR Female)<br/><b>Maximum Age</b> : 40 Years (BC/ EBC Male, Female)<br/><b>Maximum Age</b> : 42 Years (SC/ ST Male, Female)<br/> <b>Bihar BSSC</b> provides age relaxation for the Inter Level as per their regulations.",
     "Post": "<b>23,175 Posts</b>",
     "salary": "0",
-    "howtoapply":"Interested candidates who wish to apply for the BSSC post can submit their application online before <b>25 November 2025</b>.Use the Apply button provided above in desktop and below in mobile phone under heading section to apply directly.Alternatively, visit the official website of BSSC to complete the application process online..",
-    "streetAddress":"Bihar", 
-    "addressLocality":"patna",
-    "addressRegion":"patna",
-    "postalCode":"801103",
-    "addressCountry":"India",
-    "image":"https://sarkariresult.rest/jobs-images/logo.png",
+    "howtoapply": "Interested candidates who wish to apply for the BSSC post can submit their application online before <b>25 November 2025</b>.Use the Apply button provided above in desktop and below in mobile phone under heading section to apply directly.Alternatively, visit the official website of BSSC to complete the application process online..",
+    "streetAddress": "Bihar",
+    "addressLocality": "patna",
+    "addressRegion": "patna",
+    "postalCode": "801103",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
     "links": {
       "apply": "https://bssc.bihar.gov.in/",
-      "Notice":"https://bssc.bihar.gov.in/Advertisement/2568.pdf",
+      "Notice": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
       "notification": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
       "official": "https://bssc.bihar.gov.in/",
-      "syllabus":"/pdf/02_23A_Advt-14-16.pdf",
-       "Also Check": "https://sarkariresult.rest/jobs/TES-Army-Recruitment-2025-Apply-Online"
-
+      "syllabus": "/pdf/02_23A_Advt-14-16.pdf",
+      "Also Check": "https://sarkariresult.rest/jobs/TES-Army-Recruitment-2025-Apply-Online"
     },
-     "updatedon":"2025-10-08"
+    "updatedon": "2025-10-08"
   },
-    {
+  {
     "id": 16,
     "title": "BSSC Office Attendant Bihar Recruitment 2025",
     "setPath": "BSSC-Office-Attendant-Bihar-Recruitment-2025",
@@ -660,596 +646,581 @@
     },
     "qualification": "10th Pass",
     "applicationFee": {
-"For General, OBC, EWS, SC, ST, PWD Candidates" :  "100"
+      "For General, OBC, EWS, SC, ST, PWD Candidates": "100"
     },
     "eligibility": "Candidates must have passed the 10th Class examination from a recognized board or institution.",
     "age": " <b>Minimum Age</b> : 18 Year<br/> <b>Maximum Age</b> : 37 Years (UR Male)<br/><b>Maximum Age </b>: 40 Years (UR Female)<br/><b>Maximum Age</b> : 40 Years (BC/ EBC Male, Female)<br/><b>Maximum Age</b> : 42 Years (SC/ ST Male, Female)<br/> <b>Bihar BSSC</b> provides age relaxation for the Inter Level as per their regulations.",
     "Post": "<b>3727 Posts</b>",
     "salary": "56,900",
-    "howtoapply":"Interested candidates who wish to apply for the BSSC post can submit their application online before <b>14 October 2025</b>.Use the Apply button provided above in desktop and below in mobile phone under heading section to apply directly.Alternatively, visit the official website of BSSC to complete the application process online..",
-    "streetAddress":"Bihar", 
-    "addressLocality":"patna",
-    "addressRegion":"patna",
-    "postalCode":"801103",
-    "addressCountry":"India",
-    "image":"https://sarkariresult.rest/jobs-images/logo.png",
+    "howtoapply": "Interested candidates who wish to apply for the BSSC post can submit their application online before <b>14 October 2025</b>.Use the Apply button provided above in desktop and below in mobile phone under heading section to apply directly.Alternatively, visit the official website of BSSC to complete the application process online..",
+    "streetAddress": "Bihar",
+    "addressLocality": "patna",
+    "addressRegion": "patna",
+    "postalCode": "801103",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
     "links": {
       "apply": "https://www.onlinebssc.com/officeattendantspecial/",
-      "Notice":"https://bssc.bihar.gov.in/Advertisement/3834_notice.pdf",
+      "Notice": "https://bssc.bihar.gov.in/Advertisement/3834_notice.pdf",
       "notification": "https://bssc.bihar.gov.in/Advertisement/0625_ADVT.pdf",
       "official": "https://bssc.bihar.gov.in/",
-      "syllabus":"/pdf/0625_ADVT-7-11.pdf",
-       "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025-Apply-Online"
-
+      "syllabus": "/pdf/0625_ADVT-7-11.pdf",
+      "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025-Apply-Online"
     },
-     "updatedon":"2025-10-08"
+    "updatedon": "2025-10-08"
   },
   {
-  "id": 17,
-  "title": "UP SI Exam Date Declared 2025 Check Now",
-  "setPath": "UP-SI-Exam-Date-Declared-2025-Check-Now",
-  "organization": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
-  "date": "09-10-2025",
-  "location": "Uttar Pradesh",
+    "id": 17,
+    "title": "UP SI Exam Date Declared 2025 Check Now",
+    "setPath": "UP-SI-Exam-Date-Declared-2025-Check-Now",
+    "organization": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
+    "date": "09-10-2025",
+    "location": "Uttar Pradesh",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "sarkari result",
-  "description": "<b>UP SI Exam Date 2025 Declared</b> - The Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB) has officially announced the <b>UP Police Sub-Inspector (SI) Exam Date 2025</b>. Candidates who have successfully registered for the UP Police SI Recruitment 2025 can now check the detailed schedule, exam timing, and venue details. The examination will be conducted in multiple shifts across the state of Uttar Pradesh. As per the notification, the UP SI written exam is <b>tentatively scheduled in December 2025</b>. Applicants are advised to keep visiting the official website <b>uppbpb.gov.in</b> and <b>sarkariresult.rest</b> for updates related to admit card release and exam instructions.<br/><br/>The <b>UP Police SI recruitment</b> is one of the most sought-after exams for candidates aspiring for a government job in the police department. The recruitment aims to fill Sub-Inspector (Civil Police), Platoon Commander, and Fire Officer posts. The written exam will consist of objective-type questions testing General Knowledge, Law & Constitution, Reasoning, and Numerical Aptitude.",
-  "importantDates": {
-    "notification": "15-06-2025",
-    "start": "12-08-2025",
-    "lastDate": "11-09-2025",
-    "examDate": "December 2025 (Tentative)",
-    "admitCard": "Available before exam",
-    "resultDate": "Notify Soon"
+    "description": "<b>UP SI Exam Date 2025 Declared</b> - The Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB) has officially announced the <b>UP Police Sub-Inspector (SI) Exam Date 2025</b>. Candidates who have successfully registered for the UP Police SI Recruitment 2025 can now check the detailed schedule, exam timing, and venue details. The examination will be conducted in multiple shifts across the state of Uttar Pradesh. As per the notification, the UP SI written exam is <b>tentatively scheduled in December 2025</b>. Applicants are advised to keep visiting the official website <b>uppbpb.gov.in</b> and <b>sarkariresult.rest</b> for updates related to admit card release and exam instructions.<br/><br/>The <b>UP Police SI recruitment</b> is one of the most sought-after exams for candidates aspiring for a government job in the police department. The recruitment aims to fill Sub-Inspector (Civil Police), Platoon Commander, and Fire Officer posts. The written exam will consist of objective-type questions testing General Knowledge, Law & Constitution, Reasoning, and Numerical Aptitude.",
+    "importantDates": {
+      "notification": "15-06-2025",
+      "start": "12-08-2025",
+      "lastDate": "11-09-2025",
+      "examDate": "December 2025 (Tentative)",
+      "admitCard": "Available before exam",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "Graduation in any discipline from a recognized university.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹400",
+      "SC / ST / Female": "₹400"
+    },
+    "eligibility": "Candidates must possess a Bachelor's Degree from a recognized university and meet the physical standards prescribed by UP Police. Minimum height for Male candidates - 168 cm (General/OBC/SC), 160 cm (ST); for Female candidates - 152 cm (General/OBC/SC), 147 cm (ST).",
+    "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 28 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
+    "Post": "<b>9213 Posts</b>",
+    "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6)",
+    "howtoapply": "Candidates who have applied for the UP Police SI 2025 recruitment can check their exam date and schedule online. Visit the official website <b>uppbpb.gov.in</b> and navigate to the 'Exam Notice' section. Enter your registration number and date of birth to check your exam date, shift, and city details. Admit cards will be released 10 days prior to the exam.",
+    "streetAddress": "Lucknow",
+    "addressLocality": "Lucknow",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "226001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://uppbpb.gov.in/",
+      "official": "https://uppbpb.gov.in/",
+      "Notice": "",
+      "admitCard": "",
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
+    },
+    "updatedon": "2025-10-09"
   },
-  "qualification": "Graduation in any discipline from a recognized university.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹400",
-    "SC / ST / Female": "₹400"
+  {
+    "id": 18,
+    "title": "SSC Delhi Police Constable Recruitment 2025 Apply Now",
+    "setPath": "SSC-Delhi-Police-Constable-Recruitment-2025-Apply-Now",
+    "organization": "Staff Selection Commission (SSC Delhi Police)",
+    "date": "11-10-2025",
+    "location": "India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>SSC Delhi Police Constable Recruitment 2025 Apply Now</b> - The Staff Selection Commission (SSC Delhi Police) has officially announced the <b>SSC Delhi Police Constable Recruitment 2025</b>. Eligible candidates who meet the educational and physical standards can now apply online. This recruitment drive aims to fill Constable (General Duty) posts across various units of Delhi Police. The application process, selection procedure, and eligibility criteria are clearly mentioned in the official notification. Candidates interested in a government job in law enforcement must not miss this opportunity to <b>apply now</b>. The recruitment includes multiple stages such as a written examination, physical efficiency test, medical examination, and document verification. The written exam consists of objective-type questions covering General Knowledge, Law & Constitution, Reasoning, Numerical Aptitude, and current affairs. Aspirants should carefully follow the official notification and start preparing accordingly to secure a position in Delhi Police. Stay updated with official SSC notifications and regularly check <b>ssc.nic.in</b> and <b>sarkariresult.rest</b> for the latest updates regarding the recruitment and application deadlines.",
+    "importantDates": {
+      "notification": "01-09-2025",
+      "start": "22-09-2025",
+      "lastDate": "21-10-2025",
+      "examDate": "December 2025 (Tentative)",
+      "admitCard": "Available before exam",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "10+2 pass from a recognized board or equivalent.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹100",
+      "SC / ST / PWD / Female": "₹0"
+    },
+    "eligibility": "Candidates must have passed 10+2 from a recognized board. Male and female candidates must meet the physical and medical standards prescribed by Delhi Police. Height, chest, and other parameters are as per the official notification.",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 25 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
+    "Post": "<b>5000+ Posts</b>",
+    "salary": "Rs. 21,700 - 69,100/- (Pay Level 3) along with allowances such as DA, HRA, and medical benefits.",
+    "howtoapply": "Candidates interested in the <b>SSC Delhi Police Constable Recruitment 2025</b> can <b>apply now</b> online by visiting the official SSC website <b>ssc.nic.in</b>. Register with a valid email ID and mobile number, fill in all the personal and educational details, upload scanned documents including photograph and signature, pay the application fee, and submit the form before the last date. Candidates must keep a printout of the application form and fee receipt for future reference. It is mandatory to follow all instructions mentioned in the notification to avoid rejection.",
+    "streetAddress": "New Delhi",
+    "addressLocality": "New Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "110001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://ssc.nic.in/",
+      "official": "https://ssc.nic.in/",
+      "notification": "https://ssc.nic.in/",
+      "admitCard": "",
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
+    },
+    "updatedon": "2025-10-11"
   },
-  "eligibility": "Candidates must possess a Bachelor's Degree from a recognized university and meet the physical standards prescribed by UP Police. Minimum height for Male candidates - 168 cm (General/OBC/SC), 160 cm (ST); for Female candidates - 152 cm (General/OBC/SC), 147 cm (ST).",
-  "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 28 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
-  "Post": "<b>9213 Posts</b>",
-  "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6)",
-  "howtoapply": "Candidates who have applied for the UP Police SI 2025 recruitment can check their exam date and schedule online. Visit the official website <b>uppbpb.gov.in</b> and navigate to the 'Exam Notice' section. Enter your registration number and date of birth to check your exam date, shift, and city details. Admit cards will be released 10 days prior to the exam.",
-  "streetAddress": "Lucknow",
-  "addressLocality": "Lucknow",
-  "addressRegion": "Uttar Pradesh",
-  "postalCode": "226001",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "https://uppbpb.gov.in/",
-    "official": "https://uppbpb.gov.in/",
-    "Notice": "",
-    "admitCard": "",
-    "result": "",
-    "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
-  },
-  "updatedon": "2025-10-09"
-},
-{
-  "id": 18,
-  "title": "SSC Delhi Police Constable Recruitment 2025 Apply Now",
-  "setPath": "SSC-Delhi-Police-Constable-Recruitment-2025-Apply-Now",
-  "organization": "Staff Selection Commission (SSC Delhi Police)",
-  "date": "11-10-2025",
-  "location": "India",
-  "type": "latest-job",
-  "category": "latest-jobs",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>SSC Delhi Police Constable Recruitment 2025 Apply Now</b> - The Staff Selection Commission (SSC Delhi Police) has officially announced the <b>SSC Delhi Police Constable Recruitment 2025</b>. Eligible candidates who meet the educational and physical standards can now apply online. This recruitment drive aims to fill Constable (General Duty) posts across various units of Delhi Police. The application process, selection procedure, and eligibility criteria are clearly mentioned in the official notification. Candidates interested in a government job in law enforcement must not miss this opportunity to <b>apply now</b>. The recruitment includes multiple stages such as a written examination, physical efficiency test, medical examination, and document verification. The written exam consists of objective-type questions covering General Knowledge, Law & Constitution, Reasoning, Numerical Aptitude, and current affairs. Aspirants should carefully follow the official notification and start preparing accordingly to secure a position in Delhi Police. Stay updated with official SSC notifications and regularly check <b>ssc.nic.in</b> and <b>sarkariresult.rest</b> for the latest updates regarding the recruitment and application deadlines.",
-  "importantDates": {
-    "notification": "01-09-2025",
-    "start": "22-09-2025",
-    "lastDate": "21-10-2025",
-    "examDate": "December 2025 (Tentative)",
-    "admitCard": "Available before exam",
-    "resultDate": "Notify Soon"
-  },
-  "qualification": "10+2 pass from a recognized board or equivalent.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹100",
-    "SC / ST / PWD / Female": "₹0"
-  },
-  "eligibility": "Candidates must have passed 10+2 from a recognized board. Male and female candidates must meet the physical and medical standards prescribed by Delhi Police. Height, chest, and other parameters are as per the official notification.",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 25 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
-  "Post": "<b>5000+ Posts</b>",
-  "salary": "Rs. 21,700 - 69,100/- (Pay Level 3) along with allowances such as DA, HRA, and medical benefits.",
-  "howtoapply": "Candidates interested in the <b>SSC Delhi Police Constable Recruitment 2025</b> can <b>apply now</b> online by visiting the official SSC website <b>ssc.nic.in</b>. Register with a valid email ID and mobile number, fill in all the personal and educational details, upload scanned documents including photograph and signature, pay the application fee, and submit the form before the last date. Candidates must keep a printout of the application form and fee receipt for future reference. It is mandatory to follow all instructions mentioned in the notification to avoid rejection.",
-  "streetAddress": "New Delhi",
-  "addressLocality": "New Delhi",
-  "addressRegion": "Delhi",
-  "postalCode": "110001",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "https://ssc.nic.in/",
-    "official": "https://ssc.nic.in/",
-    "notification": "https://ssc.nic.in/",
-    "admitCard": "",
-    "result": "",
-    "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
-  },
-  "updatedon": "2025-10-11"
-},
-{
-  "id": 19,
-  "title": "SSC Constable GD 2024 PET PST Result 2025",
-  "setPath": "ssc-constable-gd-2024-pet-pst-result-2025",
-  "organization": "Staff Selection Commission (SSC)",
-  "date": "13-10-2025",
-  "location": "India",
+  {
+    "id": 19,
+    "title": "SSC Constable GD 2024 PET PST Result 2025",
+    "setPath": "ssc-constable-gd-2024-pet-pst-result-2025",
+    "organization": "Staff Selection Commission (SSC)",
+    "date": "13-10-2025",
+    "location": "India",
     "type": "results",
     "category": "results",
     "year": "2024",
     "Type": "sarkari result",
-  "description": "<b>SSC Constable GD 2024 PET/ PST Result 2025</b> - The Staff Selection Commission (SSC) has officially announced the results for the Constable (General Duty) Physical Efficiency Test (PET) and Physical Standard Test (PST) conducted from August 20 to September 12, 2025. A total of 1,26,736 candidates have qualified for the next stage, which includes the Detailed Medical Examination (DME) and Document Verification (DV). Candidates can check their results and download the result PDF from the official SSC website: <b>ssc.gov.in</b>.",
-  "importantDates": {
-    "notification": "01-09-2025",
-    "start": "20-08-2025",
-    "lastDate": "12-09-2025",
-    "examDate": "August 20 to September 12, 2025",
-    "admitCard": "Available before exam",
-    "resultDate": "13-10-2025"
+    "description": "<b>SSC Constable GD 2024 PET/ PST Result 2025</b> - The Staff Selection Commission (SSC) has officially announced the results for the Constable (General Duty) Physical Efficiency Test (PET) and Physical Standard Test (PST) conducted from August 20 to September 12, 2025. A total of 1,26,736 candidates have qualified for the next stage, which includes the Detailed Medical Examination (DME) and Document Verification (DV). Candidates can check their results and download the result PDF from the official SSC website: <b>ssc.gov.in</b>.",
+    "importantDates": {
+      "notification": "01-09-2025",
+      "start": "20-08-2025",
+      "lastDate": "12-09-2025",
+      "examDate": "August 20 to September 12, 2025",
+      "admitCard": "Available before exam",
+      "resultDate": "13-10-2025"
+    },
+    "qualification": "Candidates must have passed 10+2 from a recognized board and meet the physical and medical standards prescribed by SSC.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹100",
+      "SC / ST / PWD / Female": "₹0"
+    },
+    "eligibility": "Candidates must have passed 10+2 from a recognized board. Male and female candidates must meet the physical and medical standards prescribed by SSC.",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 23 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
+    "Post": "<b>53,690 Posts</b>",
+    "salary": "Rs. 21,700 - 69,100/- (Pay Level 3) along with allowances such as DA, HRA, and medical benefits.",
+    "howtoapply": "Candidates interested in the <b>SSC Constable GD 2024 PET/ PST Result 2025</b> can check their results online by visiting the official SSC website <b>ssc.gov.in</b>. Enter your roll number and date of birth to view your result. For the next stage, candidates must appear for the Detailed Medical Examination (DME) and Document Verification (DV) as per the schedule provided by SSC.",
+    "streetAddress": "New Delhi",
+    "addressLocality": "New Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "110001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://ssc.nic.in/",
+      "official": "https://ssc.nic.in/",
+      "notification": "https://ssc.nic.in/",
+      "admitCard": "",
+      "result": "https://ssc.nic.in/",
+      "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
+    },
+    "updatedon": "2025-10-13"
   },
-  "qualification": "Candidates must have passed 10+2 from a recognized board and meet the physical and medical standards prescribed by SSC.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹100",
-    "SC / ST / PWD / Female": "₹0"
+  {
+    "id": 20,
+    "title": "UPSSSC Technical Assistant Group C Result 2025",
+    "setPath": "upsssc-technical-assistant-group-c-result-2025",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "14-10-2025",
+    "location": "Uttar Pradesh, India",
+    "type": "result",
+    "category": "results",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>UPSSSC Technical Assistant Group C Result 2025</b> - The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has conducted the Technical Assistant Group C examination. Candidates who appeared for the exam are advised to check the official UPSSSC website for the latest updates regarding the result. The result will include the list of qualified candidates for the next stage of selection.",
+    "importantDates": {
+      "notification": "Available on official website",
+      "start": "Exam Conducted Earlier",
+      "lastDate": "Check official website for updates",
+      "examDate": "Check official notification",
+      "admitCard": "Available before exam",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "Candidates must have completed the required educational qualification in Technical/Engineering stream as per UPSSSC norms.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹100",
+      "SC / ST / PWD / Female": "₹0"
+    },
+    "eligibility": "Candidates must meet the educational, age, and other eligibility criteria as specified in the official UPSSSC notification.",
+    "age": "<b>Minimum Age</b>: As per notification<br/><b>Maximum Age</b>: As per notification<br/>Age relaxation applicable as per government rules.",
+    "Post": "<b>Vacancies as per official notification</b>",
+    "salary": "Pay scale as per UP government norms for Group C Technical Assistant posts.",
+    "howtoapply": "Candidates should visit the official UPSSSC website <b>upsssc.gov.in</b> to check results and further instructions for the next selection stage.",
+    "streetAddress": "UPSSSC Office, Lucknow",
+    "addressLocality": "Lucknow",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "226007",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "",
+      "official": "https://upsssc.gov.in/",
+      "notification": "",
+      "admitCard": "",
+      "result": "https://upsssc.gov.in/Online_App/Results.aspx?ID=136&Result_Type=M&Exam_Code=5&Advt_Code=562&Dept_Code=533&Post_Code=1&OnlyIntview=No",
+      "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
+    },
+    "updatedon": "2025-10-14"
   },
-  "eligibility": "Candidates must have passed 10+2 from a recognized board. Male and female candidates must meet the physical and medical standards prescribed by SSC.",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 23 Years<br/>Age relaxation is applicable as per government rules for reserved categories.",
-  "Post": "<b>53,690 Posts</b>",
-  "salary": "Rs. 21,700 - 69,100/- (Pay Level 3) along with allowances such as DA, HRA, and medical benefits.",
-  "howtoapply": "Candidates interested in the <b>SSC Constable GD 2024 PET/ PST Result 2025</b> can check their results online by visiting the official SSC website <b>ssc.gov.in</b>. Enter your roll number and date of birth to view your result. For the next stage, candidates must appear for the Detailed Medical Examination (DME) and Document Verification (DV) as per the schedule provided by SSC.",
-  "streetAddress": "New Delhi",
-  "addressLocality": "New Delhi",
-  "addressRegion": "Delhi",
-  "postalCode": "110001",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "https://ssc.nic.in/",
-    "official": "https://ssc.nic.in/",
-    "notification": "https://ssc.nic.in/",
-    "admitCard": "",
-    "result": "https://ssc.nic.in/",
-    "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
+  {
+    "id": 21,
+    "title": "UPSSSC Stenographer Eligibility Result 2025",
+    "setPath": "upsssc-stenographer-eligibility-result-2025",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "14-10-2025",
+    "location": "Uttar Pradesh, India",
+    "type": "result",
+    "category": "results",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>UPSSSC Stenographer Eligibility Result 2025</b> - उत्तर प्रदेश अधीनस्थ सेवा चयन आयोग (UPSSSC) ने स्टेनोग्राफर पदों के लिए पात्रता परिणाम 4 अक्टूबर 2024 को जारी किया था। योग्य उम्मीदवारों को मुख्य परीक्षा में बैठने के लिए शॉर्टलिस्ट किया गया है। मुख्य परीक्षा की तिथि 16 नवंबर 2025 निर्धारित की गई है। उम्मीदवारों को सलाह दी जाती है कि वे आधिकारिक वेबसाइट पर जाकर अपने परिणाम की जांच करें।",
+    "importantDates": {
+      "notification": "02-12-2024",
+      "start": "26-12-2024",
+      "lastDate": "25-01-2025",
+      "examDate": "16-11-2025",
+      "admitCard": "Available before exam",
+      "resultDate": "04-10-2024"
+    },
+    "qualification": "उम्मीदवारों को इंटरमीडिएट या समकक्ष परीक्षा किसी मान्यता प्राप्त बोर्ड से उत्तीर्ण होना चाहिए। इसके अतिरिक्त, UPSSSC PET (Preliminary Eligibility Test) और CCC कोर्स (DOEACC Society) में उत्तीर्णता आवश्यक है।",
+    "applicationFee": {
+      "General / OBC / EWS": "₹185",
+      "SC / ST / PWD / Female": "₹95"
+    },
+    "eligibility": "उम्मीदवारों की आयु 18 से 40 वर्ष के बीच होनी चाहिए। आयु सीमा में छूट सरकारी नियमों के अनुसार लागू होगी।",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 40 Years<br/>आयु में छूट सरकारी नियमों के अनुसार लागू होगी।",
+    "Post": "<b>661 Posts</b>",
+    "salary": "₹29,200 - ₹92,300 (Pay Level 5)",
+    "howtoapply": "उम्मीदवार आधिकारिक वेबसाइट <b>upsssc.gov.in</b> पर जाकर मुख्य परीक्षा के लिए आवेदन कर सकते हैं। आवेदन पत्र में आवश्यक विवरण भरें और निर्धारित शुल्क का भुगतान करें।",
+    "streetAddress": "UPSSSC Office, Lucknow",
+    "addressLocality": "Lucknow",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "226007",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "",
+      "official": "https://upsssc.gov.in/",
+      "notification": "",
+      "admitCard": "",
+      "result": "https://upsssc.gov.in/Online_App/Results.aspx?ID=137&Result_Type=P&Exam_Code=5&Advt_Code=567&Dept_Code=555&Post_Code=1&OnlyIntview=No",
+      "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
+    },
+    "updatedon": "2025-10-14"
   },
-  "updatedon": "2025-10-13"
-},
-{
-  "id": 20,
-  "title": "UPSSSC Technical Assistant Group C Result 2025",
-  "setPath": "upsssc-technical-assistant-group-c-result-2025",
-  "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
-  "date": "14-10-2025",
-  "location": "Uttar Pradesh, India",
-  "type": "result",
-  "category": "results",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>UPSSSC Technical Assistant Group C Result 2025</b> - The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has conducted the Technical Assistant Group C examination. Candidates who appeared for the exam are advised to check the official UPSSSC website for the latest updates regarding the result. The result will include the list of qualified candidates for the next stage of selection.",
-  "importantDates": {
-    "notification": "Available on official website",
-    "start": "Exam Conducted Earlier",
-    "lastDate": "Check official website for updates",
-    "examDate": "Check official notification",
-    "admitCard": "Available before exam",
-    "resultDate": "Notify Soon"
-  },
-  "qualification": "Candidates must have completed the required educational qualification in Technical/Engineering stream as per UPSSSC norms.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹100",
-    "SC / ST / PWD / Female": "₹0"
-  },
-  "eligibility": "Candidates must meet the educational, age, and other eligibility criteria as specified in the official UPSSSC notification.",
-  "age": "<b>Minimum Age</b>: As per notification<br/><b>Maximum Age</b>: As per notification<br/>Age relaxation applicable as per government rules.",
-  "Post": "<b>Vacancies as per official notification</b>",
-  "salary": "Pay scale as per UP government norms for Group C Technical Assistant posts.",
-  "howtoapply": "Candidates should visit the official UPSSSC website <b>upsssc.gov.in</b> to check results and further instructions for the next selection stage.",
-  "streetAddress": "UPSSSC Office, Lucknow",
-  "addressLocality": "Lucknow",
-  "addressRegion": "Uttar Pradesh",
-  "postalCode": "226007",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "",
-    "official": "https://upsssc.gov.in/",
-    "notification": "",
-    "admitCard": "",
-    "result": "https://upsssc.gov.in/Online_App/Results.aspx?ID=136&Result_Type=M&Exam_Code=5&Advt_Code=562&Dept_Code=533&Post_Code=1&OnlyIntview=No",
-    "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
-  },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 21,
-  "title": "UPSSSC Stenographer Eligibility Result 2025",
-  "setPath": "upsssc-stenographer-eligibility-result-2025",
-  "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
-  "date": "14-10-2025",
-  "location": "Uttar Pradesh, India",
-  "type": "result",
-  "category": "results",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>UPSSSC Stenographer Eligibility Result 2025</b> - उत्तर प्रदेश अधीनस्थ सेवा चयन आयोग (UPSSSC) ने स्टेनोग्राफर पदों के लिए पात्रता परिणाम 4 अक्टूबर 2024 को जारी किया था। योग्य उम्मीदवारों को मुख्य परीक्षा में बैठने के लिए शॉर्टलिस्ट किया गया है। मुख्य परीक्षा की तिथि 16 नवंबर 2025 निर्धारित की गई है। उम्मीदवारों को सलाह दी जाती है कि वे आधिकारिक वेबसाइट पर जाकर अपने परिणाम की जांच करें।",
-  "importantDates": {
-    "notification": "02-12-2024",
-    "start": "26-12-2024",
-    "lastDate": "25-01-2025",
-    "examDate": "16-11-2025",
-    "admitCard": "Available before exam",
-    "resultDate": "04-10-2024"
-  },
-  "qualification": "उम्मीदवारों को इंटरमीडिएट या समकक्ष परीक्षा किसी मान्यता प्राप्त बोर्ड से उत्तीर्ण होना चाहिए। इसके अतिरिक्त, UPSSSC PET (Preliminary Eligibility Test) और CCC कोर्स (DOEACC Society) में उत्तीर्णता आवश्यक है।",
-  "applicationFee": {
-    "General / OBC / EWS": "₹185",
-    "SC / ST / PWD / Female": "₹95"
-  },
-  "eligibility": "उम्मीदवारों की आयु 18 से 40 वर्ष के बीच होनी चाहिए। आयु सीमा में छूट सरकारी नियमों के अनुसार लागू होगी।",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 40 Years<br/>आयु में छूट सरकारी नियमों के अनुसार लागू होगी।",
-  "Post": "<b>661 Posts</b>",
-  "salary": "₹29,200 - ₹92,300 (Pay Level 5)",
-  "howtoapply": "उम्मीदवार आधिकारिक वेबसाइट <b>upsssc.gov.in</b> पर जाकर मुख्य परीक्षा के लिए आवेदन कर सकते हैं। आवेदन पत्र में आवश्यक विवरण भरें और निर्धारित शुल्क का भुगतान करें।",
-  "streetAddress": "UPSSSC Office, Lucknow",
-  "addressLocality": "Lucknow",
-  "addressRegion": "Uttar Pradesh",
-  "postalCode": "226007",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "",
-    "official": "https://upsssc.gov.in/",
-    "notification": "",
-    "admitCard": "",
-    "result": "https://upsssc.gov.in/Online_App/Results.aspx?ID=137&Result_Type=P&Exam_Code=5&Advt_Code=567&Dept_Code=555&Post_Code=1&OnlyIntview=No",
-    "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
-  },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 22,
-  "title": "IB Jr Intelligence Officer (Tech.) Admit Card 2025",
-  "setPath": "ib-jr-intelligence-officer-tech-admit-card-2025",
-  "organization": "Intelligence Bureau (IB), Ministry of Home Affairs",
-  "date": "14-10-2025",
-  "location": "India",
-  "type": "admit-card",
+  {
+    "id": 22,
+    "title": "IB Jr Intelligence Officer (Tech.) Admit Card 2025",
+    "setPath": "ib-jr-intelligence-officer-tech-admit-card-2025",
+    "organization": "Intelligence Bureau (IB), Ministry of Home Affairs",
+    "date": "14-10-2025",
+    "location": "India",
+    "type": "admit-card",
     "category": "admit-card",
     "year": "2025",
     "Type": "sarkari result",
-  "description": "<b>IB Jr Intelligence Officer (Tech.) Admit Card 2025</b> - The Intelligence Bureau (IB) has released the admit card for the Junior Intelligence Officer (Technical) Grade-II exam 2025. Candidates can download their admit cards from the official website mha.gov.in. The exam is scheduled to be held on 15th October 2025. Candidates must follow the instructions mentioned on the admit card and reach the exam center on time.",
-  "importantDates": {
-    "notification": "Available on official website",
-    "start": "12-10-2025",
-    "lastDate": "14-10-2025",
-    "examDate": "15-10-2025",
-    "admitCard": "12-10-2025",
-    "resultDate": "Notify Soon"
+    "description": "<b>IB Jr Intelligence Officer (Tech.) Admit Card 2025</b> - The Intelligence Bureau (IB) has released the admit card for the Junior Intelligence Officer (Technical) Grade-II exam 2025. Candidates can download their admit cards from the official website mha.gov.in. The exam is scheduled to be held on 15th October 2025. Candidates must follow the instructions mentioned on the admit card and reach the exam center on time.",
+    "importantDates": {
+      "notification": "Available on official website",
+      "start": "12-10-2025",
+      "lastDate": "14-10-2025",
+      "examDate": "15-10-2025",
+      "admitCard": "12-10-2025",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "Candidates must possess the required educational and technical qualifications as per IB norms.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹100",
+      "SC / ST / PWD / Female": "₹0"
+    },
+    "eligibility": "Candidates must meet the educational, technical, and age eligibility criteria as specified in the official IB notification.",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: As per notification<br/>Age relaxation applicable as per government rules.",
+    "Post": "<b>Vacancies as per official notification</b>",
+    "salary": "As per IB pay scale for Junior Intelligence Officer (Technical) Grade-II posts.",
+    "howtoapply": "Candidates can download their admit card from the official IB website <b>mha.gov.in</b> using their login credentials. They must carry a printed copy of the admit card and a valid photo ID to the examination center.",
+    "streetAddress": "IB Office, New Delhi",
+    "addressLocality": "New Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "110001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "",
+      "official": "https://mha.gov.in/",
+      "notification": "https://mha.gov.in/",
+      "admitCard": "https://cdn.digialm.com/EForms/configuredHtml/1258/94260/login.html",
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/jobs/dsssb-admit-card-2025"
+    },
+    "updatedon": "2025-10-14"
   },
-  "qualification": "Candidates must possess the required educational and technical qualifications as per IB norms.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹100",
-    "SC / ST / PWD / Female": "₹0"
-  },
-  "eligibility": "Candidates must meet the educational, technical, and age eligibility criteria as specified in the official IB notification.",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: As per notification<br/>Age relaxation applicable as per government rules.",
-  "Post": "<b>Vacancies as per official notification</b>",
-  "salary": "As per IB pay scale for Junior Intelligence Officer (Technical) Grade-II posts.",
-  "howtoapply": "Candidates can download their admit card from the official IB website <b>mha.gov.in</b> using their login credentials. They must carry a printed copy of the admit card and a valid photo ID to the examination center.",
-  "streetAddress": "IB Office, New Delhi",
-  "addressLocality": "New Delhi",
-  "addressRegion": "Delhi",
-  "postalCode": "110001",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "",
-    "official": "https://mha.gov.in/",
-    "notification": "https://mha.gov.in/",
-    "admitCard": "https://cdn.digialm.com/EForms/configuredHtml/1258/94260/login.html",
-    "result": "",
-    "Also Check": "https://sarkariresult.rest/jobs/dsssb-admit-card-2025"
-  },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 23,
-  "title": "PGCIL Field Engineer and Supervisor Admit Card 2025",
-  "setPath": "pgcil-field-engineer-and-supervisor-admit-card-2025",
-  "organization": "Power Grid Corporation of India Limited (PGCIL)",
-  "date": "14-10-2025",
-  "location": "India",
- "type": "admit-card",
+  {
+    "id": 23,
+    "title": "PGCIL Field Engineer and Supervisor Admit Card 2025",
+    "setPath": "pgcil-field-engineer-and-supervisor-admit-card-2025",
+    "organization": "Power Grid Corporation of India Limited (PGCIL)",
+    "date": "14-10-2025",
+    "location": "India",
+    "type": "admit-card",
     "category": "admit-card",
     "year": "2025",
     "Type": "sarkari result",
-  "description": "<b>PGCIL Field Engineer and Supervisor Admit Card 2025</b> - Power Grid Corporation of India Limited (PGCIL) has released the admit card for the recruitment of Field Engineer and Field Supervisor posts. Candidates who applied can download their admit cards from the official website <b>powergrid.in</b>. The exam is expected to be held in November 2025. Candidates must carefully read the instructions and carry their admit card to the exam center.",
-  "importantDates": {
-    "notification": "Available on official website",
-    "start": "10-08-2025",
-    "lastDate": "10-09-2025",
-    "examDate": "November 2025 (Tentative)",
-    "admitCard": "14-10-2025",
-    "resultDate": "December 2025 (Expected)"
+    "description": "<b>PGCIL Field Engineer and Supervisor Admit Card 2025</b> - Power Grid Corporation of India Limited (PGCIL) has released the admit card for the recruitment of Field Engineer and Field Supervisor posts. Candidates who applied can download their admit cards from the official website <b>powergrid.in</b>. The exam is expected to be held in November 2025. Candidates must carefully read the instructions and carry their admit card to the exam center.",
+    "importantDates": {
+      "notification": "Available on official website",
+      "start": "10-08-2025",
+      "lastDate": "10-09-2025",
+      "examDate": "November 2025 (Tentative)",
+      "admitCard": "14-10-2025",
+      "resultDate": "December 2025 (Expected)"
+    },
+    "qualification": "Candidates must have completed B.E/B.Tech/Diploma in relevant engineering disciplines from a recognized university or institute.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹400",
+      "SC / ST / PWD / Female": "₹0"
+    },
+    "eligibility": "Applicants must meet the educational qualification and age criteria as per the official PGCIL Field Engineer and Supervisor 2025 notification.",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 30 Years<br/>Age relaxation applicable as per government rules.",
+    "Post": "<b>Field Engineer</b> and <b>Field Supervisor</b> posts under various electrical and civil disciplines.",
+    "salary": "As per PGCIL pay scale – Field Engineer: ₹30,000–₹1,20,000 per month, Field Supervisor: ₹23,000–₹1,05,000 per month (approx).",
+    "howtoapply": "Candidates can download their admit card from the official PGCIL website <b>powergrid.in</b> using their registration number and date of birth. They must carry a printed copy of the admit card and a valid photo ID to the examination center.",
+    "streetAddress": "Power Grid Corporation of India Limited, Gurugram",
+    "addressLocality": "Gurugram",
+    "addressRegion": "Haryana",
+    "postalCode": "122001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "",
+      "official": "https://www.powergrid.in/",
+      "notification": "",
+      "admitCard": "https://cdn.digialm.com//EForms/configuredHtml/1258/96223/login.html",
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/jobs/SSC-Delhi-Police-Constable-Recruitment-2025-Apply-Now"
+    },
+    "updatedon": "2025-10-14"
   },
-  "qualification": "Candidates must have completed B.E/B.Tech/Diploma in relevant engineering disciplines from a recognized university or institute.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹400",
-    "SC / ST / PWD / Female": "₹0"
-  },
-  "eligibility": "Applicants must meet the educational qualification and age criteria as per the official PGCIL Field Engineer and Supervisor 2025 notification.",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 30 Years<br/>Age relaxation applicable as per government rules.",
-  "Post": "<b>Field Engineer</b> and <b>Field Supervisor</b> posts under various electrical and civil disciplines.",
-  "salary": "As per PGCIL pay scale – Field Engineer: ₹30,000–₹1,20,000 per month, Field Supervisor: ₹23,000–₹1,05,000 per month (approx).",
-  "howtoapply": "Candidates can download their admit card from the official PGCIL website <b>powergrid.in</b> using their registration number and date of birth. They must carry a printed copy of the admit card and a valid photo ID to the examination center.",
-  "streetAddress": "Power Grid Corporation of India Limited, Gurugram",
-  "addressLocality": "Gurugram",
-  "addressRegion": "Haryana",
-  "postalCode": "122001",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "",
-    "official": "https://www.powergrid.in/",
-    "notification": "",
-    "admitCard": "https://cdn.digialm.com//EForms/configuredHtml/1258/96223/login.html",
-    "result": "",
-    "Also Check": "https://sarkariresult.rest/jobs/SSC-Delhi-Police-Constable-Recruitment-2025-Apply-Now"
-  },
-  "updatedon": "2025-10-14"
-}
-,
-{
-  "id": 24,
-  "title": "Bihar STET Admit Card 2025",
-  "setPath": "bihar-stet-admit-card-2025",
-  "organization": "Bihar School Examination Board (BSEB)",
-  "date": "14-10-2025",
-  "location": "Bihar, India",
- "type": "admit-card",
+  {
+    "id": 24,
+    "title": "Bihar STET Admit Card 2025",
+    "setPath": "bihar-stet-admit-card-2025",
+    "organization": "Bihar School Examination Board (BSEB)",
+    "date": "14-10-2025",
+    "location": "Bihar, India",
+    "type": "admit-card",
     "category": "admit-card",
     "year": "2025",
     "Type": "sarkari result",
-  "description": "<b>Bihar STET Admit Card 2025</b> - The Bihar School Examination Board (BSEB) has released the admit card for the Bihar State Teacher Eligibility Test (STET) 2025. Candidates who have applied can download their admit card from the official website <b>bsebstet.com</b>. The exam will be conducted in online mode across various exam centers in Bihar. Candidates are advised to verify all details mentioned on the admit card and carry a valid ID proof to the exam center.",
-  "importantDates": {
-    "notification": "01-09-2025",
-    "start": "02-09-2025",
-    "lastDate": "20-09-2025",
-    "examDate": "October 2025",
-    "admitCard": "14-10-2025",
-    "resultDate": "November 2025 (Expected)"
+    "description": "<b>Bihar STET Admit Card 2025</b> - The Bihar School Examination Board (BSEB) has released the admit card for the Bihar State Teacher Eligibility Test (STET) 2025. Candidates who have applied can download their admit card from the official website <b>bsebstet.com</b>. The exam will be conducted in online mode across various exam centers in Bihar. Candidates are advised to verify all details mentioned on the admit card and carry a valid ID proof to the exam center.",
+    "importantDates": {
+      "notification": "01-09-2025",
+      "start": "02-09-2025",
+      "lastDate": "20-09-2025",
+      "examDate": "October 2025",
+      "admitCard": "14-10-2025",
+      "resultDate": "November 2025 (Expected)"
+    },
+    "qualification": "Candidates must have passed Graduation and B.Ed. in the relevant subject from a recognized university or institution.",
+    "applicationFee": {
+      "General / OBC / EWS (Paper I or II)": "₹960",
+      "SC / ST / PWD (Paper I or II)": "₹760",
+      "Both Papers (General / OBC / EWS)": "₹1440",
+      "Both Papers (SC / ST / PWD)": "₹1140"
+    },
+    "eligibility": "Candidates must have the required educational qualification (Graduation + B.Ed.) and fulfill the eligibility criteria as prescribed by the Bihar School Examination Board (BSEB).",
+    "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 37 Years (Male)<br/><b>Maximum Age</b>: 40 Years (Female)<br/>Age relaxation applicable as per Bihar Government rules.",
+    "Post": "<b>Bihar Secondary and Higher Secondary Teachers Eligibility</b> for Paper I (Class 9–10) and Paper II (Class 11–12).",
+    "salary": "As per Bihar Government norms for qualified teachers after appointment through STET eligibility.",
+    "howtoapply": "Candidates can download their admit card by visiting the official website <b>bsebstet.com</b> and logging in using their registration number and date of birth. It is mandatory to carry the printed admit card along with a valid photo ID to the examination center.",
+    "streetAddress": "Bihar School Examination Board, Sinha Library Road",
+    "addressLocality": "Patna",
+    "addressRegion": "Bihar",
+    "postalCode": "800017",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "",
+      "official": "https://biharboardonline.bihar.gov.in/",
+      "notification": "https://bsebstet.org/notification.jpeg",
+      "admitCard": "https://cdn3.digialm.com/EForms/configuredHtml/1631/95659/login.html",
+      "result": "",
+      "Also Check": "https://sarkariresult.rest/jobs/UP-SI-Exam-Date-Declared-2025-Check-Now"
+    },
+    "updatedon": "2025-10-14"
   },
-  "qualification": "Candidates must have passed Graduation and B.Ed. in the relevant subject from a recognized university or institution.",
-  "applicationFee": {
-    "General / OBC / EWS (Paper I or II)": "₹960",
-    "SC / ST / PWD (Paper I or II)": "₹760",
-    "Both Papers (General / OBC / EWS)": "₹1440",
-    "Both Papers (SC / ST / PWD)": "₹1140"
+  {
+    "id": 25,
+    "title": "RRB Section Controller Recruitment 2025",
+    "setPath": "rrb-section-controller-recruitment-2025",
+    "organization": "Railway Recruitment Board (RRB)",
+    "date": "14-10-2025",
+    "location": "India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>RRB Section Controller Recruitment 2025</b> - The Railway Recruitment Board (RRB) has officially released the notification for <b>Section Controller Recruitment 2025</b>. Eligible candidates can apply online through the official RRB website. This recruitment aims to fill various Section Controller posts across different railway zones in India. Interested candidates must carefully read the official notification for details regarding eligibility, application process, selection procedure, and important dates. The selection process will include a Computer-Based Test (CBT), Document Verification, and Medical Examination.",
+    "importantDates": {
+      "notification": "10-10-2025",
+      "start": "15-10-2025",
+      "lastDate": "15-11-2025",
+      "examDate": "January 2026 (Tentative)",
+      "admitCard": "Available before exam",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "Candidates must have a Bachelor’s degree in any discipline from a recognized university or institution. Candidates with railway management or technical experience will be given preference.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹500",
+      "SC / ST / PWD / Female / Ex-Servicemen": "₹250"
+    },
+    "eligibility": "Indian citizens who have completed a Bachelor’s degree and meet the medical and physical fitness criteria prescribed by RRB are eligible to apply.",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 33 Years<br/>Age relaxation is applicable as per government norms for reserved categories.",
+    "Post": "<b>Various Section Controller Posts</b> across Indian Railways",
+    "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6) along with allowances such as DA, HRA, and TA as per Railway norms.",
+    "howtoapply": "Candidates can apply online through the official Railway Recruitment Board (RRB) portal by visiting <b>www.rrbcdg.gov.in</b>. They must register with valid credentials, fill out the application form, upload the required documents, pay the application fee, and submit the form before the last date. Applicants are advised to keep a printed copy of the application form for future reference.",
+    "streetAddress": "Railway Recruitment Board Office",
+    "addressLocality": "New Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "110001",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://www.rrbapply.gov.in/#/auth/landing",
+      "official": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281",
+      "notification": "https://www.rrbapply.gov.in/assets/forms/CEN_04_2025_Section_Controller_CEN_08_09_2025.pdf",
+      "admitCard": "",
+      "result": "",
+      "Also Check": ""
+    },
+    "updatedon": "2025-10-14"
   },
-  "eligibility": "Candidates must have the required educational qualification (Graduation + B.Ed.) and fulfill the eligibility criteria as prescribed by the Bihar School Examination Board (BSEB).",
-  "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 37 Years (Male)<br/><b>Maximum Age</b>: 40 Years (Female)<br/>Age relaxation applicable as per Bihar Government rules.",
-  "Post": "<b>Bihar Secondary and Higher Secondary Teachers Eligibility</b> for Paper I (Class 9–10) and Paper II (Class 11–12).",
-  "salary": "As per Bihar Government norms for qualified teachers after appointment through STET eligibility.",
-  "howtoapply": "Candidates can download their admit card by visiting the official website <b>bsebstet.com</b> and logging in using their registration number and date of birth. It is mandatory to carry the printed admit card along with a valid photo ID to the examination center.",
-  "streetAddress": "Bihar School Examination Board, Sinha Library Road",
-  "addressLocality": "Patna",
-  "addressRegion": "Bihar",
-  "postalCode": "800017",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "",
-    "official": "https://biharboardonline.bihar.gov.in/",
-    "notification": "https://bsebstet.org/notification.jpeg",
-    "admitCard": "https://cdn3.digialm.com/EForms/configuredHtml/1631/95659/login.html",
-    "result": "",
-    "Also Check": "https://sarkariresult.rest/jobs/UP-SI-Exam-Date-Declared-2025-Check-Now"
+  {
+    "id": 26,
+    "title": "Bihar BSSC 4th Graduate Level Recruitment 2025",
+    "setPath": "bihar-bssc-4th-graduate-level-recruitment-2025",
+    "organization": "Bihar Staff Selection Commission (BSSC)",
+    "date": "14-10-2025",
+    "location": "Bihar, India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>Bihar BSSC 4th Graduate Level Recruitment 2025</b> - The Bihar Staff Selection Commission (BSSC) has released the official notification for the <b>4th Graduate Level Recruitment 2025</b>. This recruitment drive aims to fill multiple graduate-level posts across various departments of the Bihar government. Eligible candidates who hold a graduation degree from a recognized university can apply online through the official website <b>bssc.bihar.gov.in</b>. The selection process will include a Preliminary Examination, Main Examination, and Document Verification. Candidates are advised to go through the detailed notification before applying.",
+    "importantDates": {
+      "notification": "10-10-2025",
+      "start": "16-10-2025",
+      "lastDate": "30-11-2025",
+      "examDate": "February 2026 (Tentative)",
+      "admitCard": "Available before exam",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "Candidates must possess a Bachelor’s Degree in any discipline from a recognized university in India.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹540",
+      "SC / ST / PWD / Female (Bihar Domicile)": "₹135"
+    },
+    "eligibility": "Applicants must be Indian citizens and permanent residents of Bihar. They must hold a Bachelor’s degree and meet all eligibility conditions as specified by BSSC in the official notification.",
+    "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 37 Years (Male)<br/><b>Maximum Age</b>: 40 Years (Female)<br/>Age relaxation applicable as per Bihar Government rules.",
+    "Post": "<b>Multiple Graduate Level Posts</b> in various Bihar government departments",
+    "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6) along with other applicable allowances as per government norms.",
+    "howtoapply": "Interested candidates can apply online for the <b>BSSC 4th Graduate Level Recruitment 2025</b> by visiting the official website <b>bssc.bihar.gov.in</b>. Candidates must register, fill in their personal and educational details, upload scanned documents, pay the application fee, and submit the application form before the last date. It is advised to keep a printout of the application form for future reference.",
+    "streetAddress": "Bihar Staff Selection Commission, Veterinary College Campus",
+    "addressLocality": "Patna",
+    "addressRegion": "Bihar",
+    "postalCode": "800014",
+    "addressCountry": "India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "links": {
+      "apply": "https://www.onlinebssc.com/4thgralevel/",
+      "official": "https://bssc.bihar.gov.in/",
+      "notification": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+      "admitCard": "",
+      "result": "",
+      "Also Check": ""
+    },
+    "updatedon": "2025-10-14"
   },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 25,
-  "title": "RRB Section Controller Recruitment 2025",
-  "setPath": "rrb-section-controller-recruitment-2025",
-  "organization": "Railway Recruitment Board (RRB)",
-  "date": "14-10-2025",
-  "location": "India",
-  "type": "latest-job",
-  "category": "latest-jobs",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>RRB Section Controller Recruitment 2025</b> - The Railway Recruitment Board (RRB) has officially released the notification for <b>Section Controller Recruitment 2025</b>. Eligible candidates can apply online through the official RRB website. This recruitment aims to fill various Section Controller posts across different railway zones in India. Interested candidates must carefully read the official notification for details regarding eligibility, application process, selection procedure, and important dates. The selection process will include a Computer-Based Test (CBT), Document Verification, and Medical Examination.",
-  "importantDates": {
-    "notification": "10-10-2025",
-    "start": "15-10-2025",
-    "lastDate": "15-11-2025",
-    "examDate": "January 2026 (Tentative)",
-    "admitCard": "Available before exam",
-    "resultDate": "Notify Soon"
+  {
+    "id": 27,
+    "title": "Bihar BSSC Office Attendant Recruitment 2025",
+    "setPath": "bihar-bssc-office-attendant-recruitment-2025",
+    "organization": "Bihar Staff Selection Commission (BSSC)",
+    "date": "14-10-2025",
+    "location": "Bihar, India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>Bihar BSSC Office Attendant Recruitment 2025</b> - The Bihar Staff Selection Commission (BSSC) has released the official notification for the recruitment of <b>Office Attendant (Karyalay Parichari)</b> posts in various departments of the Bihar government. Eligible candidates who have passed Class 10th (Matriculation) can apply online through the official website <b>bssc.bihar.gov.in</b>. This recruitment provides a great opportunity for candidates seeking government jobs in Bihar. The selection will be based on a written examination and document verification. Candidates are advised to read the full notification carefully before applying online.",
+    "importantDates": {
+      "notification": "12-10-2025",
+      "start": "18-10-2025",
+      "lastDate": "25-11-2025",
+      "examDate": "January 2026 (Tentative)",
+      "admitCard": "Available before exam",
+      "resultDate": "Notify Soon"
+    },
+    "qualification": "Candidates must have passed Class 10th (Matriculation) from a recognized board.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹540",
+      "SC / ST / PWD / Female (Bihar Domicile)": "₹135"
+    },
+    "eligibility": "Applicants must be Indian citizens and residents of Bihar. They must have passed the 10th class and meet the physical and character standards as specified in the official notification.",
+    "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 37 Years (Male)<br/><b>Maximum Age</b>: 40 Years (Female)<br/>Age relaxation is applicable as per Bihar Government norms.",
+    "Post": "<b>Office Attendant (Karyalay Parichari)</b> - Multiple Vacancies",
+    "salary": "Rs. 18,000 - 56,900/- (Pay Level 1) along with other applicable allowances.",
+    "howtoapply": "Interested candidates can apply online for the <b>BSSC Office Attendant Recruitment 2025</b> by visiting the official website <b>bssc.bihar.gov.in</b>. Candidates must register themselves, fill in all required personal and educational details, upload scanned documents, pay the required application fee, and submit the form before the last date. Candidates should keep a printout of the submitted application form for future reference.",
+    "streetAddress": "Bihar Staff Selection Commission, Veterinary College Campus",
+    "addressLocality": "Patna",
+    "addressRegion": "Bihar",
+    "postalCode": "800014",
+    "addressCountry": "India",
+    "image": "https://bssc.bihar.gov.in/images/logo.png",
+    "links": {
+      "apply": "https://www.onlinebssc.com/officeattendantspecial/",
+      "official": "https://bssc.bihar.gov.in/NoticeBoard.htm",
+      "notification": "https://bssc.bihar.gov.in/Advertisement/0625_ADVT.pdf",
+      "admitCard": "",
+      "result": "",
+      "Also Check": ""
+    },
+    "updatedon": "2025-10-14"
   },
-  "qualification": "Candidates must have a Bachelor’s degree in any discipline from a recognized university or institution. Candidates with railway management or technical experience will be given preference.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹500",
-    "SC / ST / PWD / Female / Ex-Servicemen": "₹250"
-  },
-  "eligibility": "Indian citizens who have completed a Bachelor’s degree and meet the medical and physical fitness criteria prescribed by RRB are eligible to apply.",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 33 Years<br/>Age relaxation is applicable as per government norms for reserved categories.",
-  "Post": "<b>Various Section Controller Posts</b> across Indian Railways",
-  "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6) along with allowances such as DA, HRA, and TA as per Railway norms.",
-  "howtoapply": "Candidates can apply online through the official Railway Recruitment Board (RRB) portal by visiting <b>www.rrbcdg.gov.in</b>. They must register with valid credentials, fill out the application form, upload the required documents, pay the application fee, and submit the form before the last date. Applicants are advised to keep a printed copy of the application form for future reference.",
-  "streetAddress": "Railway Recruitment Board Office",
-  "addressLocality": "New Delhi",
-  "addressRegion": "Delhi",
-  "postalCode": "110001",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "https://www.rrbapply.gov.in/#/auth/landing",
-    "official": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,7,1281",
-    "notification": "https://www.rrbapply.gov.in/assets/forms/CEN_04_2025_Section_Controller_CEN_08_09_2025.pdf",
-    "admitCard": "",
-    "result": "",
-    "Also Check": ""
-  },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 26,
-  "title": "Bihar BSSC 4th Graduate Level Recruitment 2025",
-  "setPath": "bihar-bssc-4th-graduate-level-recruitment-2025",
-  "organization": "Bihar Staff Selection Commission (BSSC)",
-  "date": "14-10-2025",
-  "location": "Bihar, India",
-  "type": "latest-job",
-  "category": "latest-jobs",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>Bihar BSSC 4th Graduate Level Recruitment 2025</b> - The Bihar Staff Selection Commission (BSSC) has released the official notification for the <b>4th Graduate Level Recruitment 2025</b>. This recruitment drive aims to fill multiple graduate-level posts across various departments of the Bihar government. Eligible candidates who hold a graduation degree from a recognized university can apply online through the official website <b>bssc.bihar.gov.in</b>. The selection process will include a Preliminary Examination, Main Examination, and Document Verification. Candidates are advised to go through the detailed notification before applying.",
-  "importantDates": {
-    "notification": "10-10-2025",
-    "start": "16-10-2025",
-    "lastDate": "30-11-2025",
-    "examDate": "February 2026 (Tentative)",
-    "admitCard": "Available before exam",
-    "resultDate": "Notify Soon"
-  },
-  "qualification": "Candidates must possess a Bachelor’s Degree in any discipline from a recognized university in India.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹540",
-    "SC / ST / PWD / Female (Bihar Domicile)": "₹135"
-  },
-  "eligibility": "Applicants must be Indian citizens and permanent residents of Bihar. They must hold a Bachelor’s degree and meet all eligibility conditions as specified by BSSC in the official notification.",
-  "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 37 Years (Male)<br/><b>Maximum Age</b>: 40 Years (Female)<br/>Age relaxation applicable as per Bihar Government rules.",
-  "Post": "<b>Multiple Graduate Level Posts</b> in various Bihar government departments",
-  "salary": "Rs. 35,400 - 1,12,400/- (Pay Level 6) along with other applicable allowances as per government norms.",
-  "howtoapply": "Interested candidates can apply online for the <b>BSSC 4th Graduate Level Recruitment 2025</b> by visiting the official website <b>bssc.bihar.gov.in</b>. Candidates must register, fill in their personal and educational details, upload scanned documents, pay the application fee, and submit the application form before the last date. It is advised to keep a printout of the application form for future reference.",
-  "streetAddress": "Bihar Staff Selection Commission, Veterinary College Campus",
-  "addressLocality": "Patna",
-  "addressRegion": "Bihar",
-  "postalCode": "800014",
-  "addressCountry": "India",
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "links": {
-    "apply": "https://www.onlinebssc.com/4thgralevel/",
-    "official": "https://bssc.bihar.gov.in/",
-    "notification": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
-    "admitCard": "",
-    "result": "",
-    "Also Check": ""
-  },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 27,
-  "title": "Bihar BSSC Office Attendant Recruitment 2025",
-  "setPath": "bihar-bssc-office-attendant-recruitment-2025",
-  "organization": "Bihar Staff Selection Commission (BSSC)",
-  "date": "14-10-2025",
-  "location": "Bihar, India",
-  "type": "latest-job",
-  "category": "latest-jobs",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>Bihar BSSC Office Attendant Recruitment 2025</b> - The Bihar Staff Selection Commission (BSSC) has released the official notification for the recruitment of <b>Office Attendant (Karyalay Parichari)</b> posts in various departments of the Bihar government. Eligible candidates who have passed Class 10th (Matriculation) can apply online through the official website <b>bssc.bihar.gov.in</b>. This recruitment provides a great opportunity for candidates seeking government jobs in Bihar. The selection will be based on a written examination and document verification. Candidates are advised to read the full notification carefully before applying online.",
-  "importantDates": {
-    "notification": "12-10-2025",
-    "start": "18-10-2025",
-    "lastDate": "25-11-2025",
-    "examDate": "January 2026 (Tentative)",
-    "admitCard": "Available before exam",
-    "resultDate": "Notify Soon"
-  },
-  "qualification": "Candidates must have passed Class 10th (Matriculation) from a recognized board.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹540",
-    "SC / ST / PWD / Female (Bihar Domicile)": "₹135"
-  },
-  "eligibility": "Applicants must be Indian citizens and residents of Bihar. They must have passed the 10th class and meet the physical and character standards as specified in the official notification.",
-  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 37 Years (Male)<br/><b>Maximum Age</b>: 40 Years (Female)<br/>Age relaxation is applicable as per Bihar Government norms.",
-  "Post": "<b>Office Attendant (Karyalay Parichari)</b> - Multiple Vacancies",
-  "salary": "Rs. 18,000 - 56,900/- (Pay Level 1) along with other applicable allowances.",
-  "howtoapply": "Interested candidates can apply online for the <b>BSSC Office Attendant Recruitment 2025</b> by visiting the official website <b>bssc.bihar.gov.in</b>. Candidates must register themselves, fill in all required personal and educational details, upload scanned documents, pay the required application fee, and submit the form before the last date. Candidates should keep a printout of the submitted application form for future reference.",
-  "streetAddress": "Bihar Staff Selection Commission, Veterinary College Campus",
-  "addressLocality": "Patna",
-  "addressRegion": "Bihar",
-  "postalCode": "800014",
-  "addressCountry": "India",
-  "image": "https://bssc.bihar.gov.in/images/logo.png",
-  "links": {
-    "apply": "https://www.onlinebssc.com/officeattendantspecial/",
-    "official": "https://bssc.bihar.gov.in/NoticeBoard.htm",
-    "notification": "https://bssc.bihar.gov.in/Advertisement/0625_ADVT.pdf",
-    "admitCard": "",
-    "result": "",
-    "Also Check": ""
-  },
-  "updatedon": "2025-10-14"
-},
-{
-  "id": 28,
-  "title": "UPSSSC AGTA DV Result 2025",
-  "setPath": "upsssc-agta-dv-result-2025",
-  "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
-  "date": "15-10-2025",
-  "location": "Uttar Pradesh, India",
-  "type": "result",
-  "category": "results",
-  "year": "2025",
-  "Type": "sarkari result",
-  "description": "<b>UPSSSC AGTA DV Result 2025</b> – The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the <b>Agriculture Technical Assistant (AGTA)</b> Document Verification (DV) Result 2025. Candidates who appeared in the DV round can now check their results online at <b>upsssc.gov.in</b>. The result includes the list of shortlisted candidates for the final appointment process. This result is an important milestone for candidates waiting for their AGTA recruitment final status. Candidates are advised to download the official PDF and verify their roll numbers carefully.",
-  "importantDates": {
-    "notification": "20-09-2025",
-    "examDate": "15-06-2025",
-    "dvDate": "05-10-2025 to 10-10-2025",
-    "resultDate": "15-10-2025",
-    "finalMerit": "To Be Announced Soon"
-  },
-  "qualification": "Candidates must have a Bachelor's Degree in Agriculture or equivalent qualification from a recognized university or institution.",
-  "applicationFee": {
-    "General / OBC / EWS": "₹25 (Online Processing Fee)",
-    "SC / ST": "₹25 (Online Processing Fee)",
-    "PH (Divyang)": "₹25 (Online Processing Fee)"
-  },
-  "eligibility": "Candidates who qualified in the written examination and appeared for document verification are eligible for the UPSSSC AGTA DV Result 2025. All candidates must ensure their documents and certificates match the eligibility criteria mentioned in the official advertisement.",
-  "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 40 Years<br/>Age relaxation is applicable as per Uttar Pradesh government rules.",
-  "Post": "<b>Agriculture Technical Assistant (AGTA)</b> – Group C Post",
-  "salary": "Pay Scale: Rs. 25,500 – 81,100/- (Pay Level 4) plus usual allowances as per UP government norms.",
-  "howtoapply": "To check the <b>UPSSSC AGTA DV Result 2025</b>, candidates should visit the official website <b>upsssc.gov.in</b>, open the <b>Results / Important Declarations</b> section, and click on the DV Result link. Download the official PDF file and search your Roll Number or Name using Ctrl+F. Candidates shortlisted in this stage will be called for the final joining process as per the Commission's schedule.",
-  "streetAddress": "UPSSSC, 3rd Floor, Pickup Bhawan, Vibhuti Khand, Gomti Nagar",
-  "addressLocality": "Lucknow",
-  "addressRegion": "Uttar Pradesh",
-  "postalCode": "226010",
-  "addressCountry": "India",
-  "image": "https://upsssc.gov.in/images/upsssc-logo.png",
-  "links": {
-    "apply": "",
-    "official": "https://upsssc.gov.in",
-    "notification": "https://upsssc.gov.in/AllNotifications.aspx",
-    "admitCard": "https://upsssc.gov.in",
-    "result": "https://upsssc.gov.in/",
-    "Also Check": "https://sarkariresult.rest/article/bihar-bssc-4th-graduate-level-syllabus-exam-pattern-selection-process"
-  },
-  "updatedon": "2025-10-15"
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+    "id": 28,
+    "title": "UPSSSC AGTA DV Result 2025",
+    "setPath": "upsssc-agta-dv-result-2025",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "15-10-2025",
+    "location": "Uttar Pradesh, India",
+    "type": "result",
+    "category": "results",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": "<b>UPSSSC AGTA DV Result 2025</b> – The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the <b>Agriculture Technical Assistant (AGTA)</b> Document Verification (DV) Result 2025. Candidates who appeared in the DV round can now check their results online at <b>upsssc.gov.in</b>. The result includes the list of shortlisted candidates for the final appointment process. This result is an important milestone for candidates waiting for their AGTA recruitment final status. Candidates are advised to download the official PDF and verify their roll numbers carefully.",
+    "importantDates": {
+      "notification": "20-09-2025",
+      "examDate": "15-06-2025",
+      "dvDate": "05-10-2025 to 10-10-2025",
+      "resultDate": "15-10-2025",
+      "finalMerit": "To Be Announced Soon"
+    },
+    "qualification": "Candidates must have a Bachelor's Degree in Agriculture or equivalent qualification from a recognized university or institution.",
+    "applicationFee": {
+      "General / OBC / EWS": "₹25 (Online Processing Fee)",
+      "SC / ST": "₹25 (Online Processing Fee)",
+      "PH (Divyang)": "₹25 (Online Processing Fee)"
+    },
+    "eligibility": "Candidates who qualified in the written examination and appeared for document verification are eligible for the UPSSSC AGTA DV Result 2025. All candidates must ensure their documents and certificates match the eligibility criteria mentioned in the official advertisement.",
+    "age": "<b>Minimum Age</b>: 21 Years<br/><b>Maximum Age</b>: 40 Years<br/>Age relaxation is applicable as per Uttar Pradesh government rules.",
+    "Post": "<b>Agriculture Technical Assistant (AGTA)</b> – Group C Post",
+    "salary": "Pay Scale: Rs. 25,500 – 81,100/- (Pay Level 4) plus usual allowances as per UP government norms.",
+    "howtoapply": "To check the <b>UPSSSC AGTA DV Result 2025</b>, candidates should visit the official website <b>upsssc.gov.in</b>, open the <b>Results / Important Declarations</b> section, and click on the DV Result link. Download the official PDF file and search your Roll Number or Name using Ctrl+F. Candidates shortlisted in this stage will be called for the final joining process as per the Commission's schedule.",
+    "streetAddress": "UPSSSC, 3rd Floor, Pickup Bhawan, Vibhuti Khand, Gomti Nagar",
+    "addressLocality": "Lucknow",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "226010",
+    "addressCountry": "India",
+    "image": "https://upsssc.gov.in/images/upsssc-logo.png",
+    "links": {
+      "apply": "",
+      "official": "https://upsssc.gov.in",
+      "notification": "https://upsssc.gov.in/AllNotifications.aspx",
+      "admitCard": "https://upsssc.gov.in",
+      "result": "https://upsssc.gov.in/",
+      "Also Check": "https://sarkariresult.rest/article/bihar-bssc-4th-graduate-level-syllabus-exam-pattern-selection-process"
+    },
+    "updatedon": "2025-10-15"
+  }
 ]
