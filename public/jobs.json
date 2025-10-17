@@ -1318,6 +1318,52 @@
   },
   "updatedon": "2025-10-16"
 }
+,
+{
+  "id": 33,
+  "title": "RRB NTPC Graduate Level CBT-02 Answer Key Out Download Now",
+  "setPath": "rrb-ntpc-graduate-level-cbt-02-answer-key-out",
+  "organization": "Railway Recruitment Board (RRB)",
+  "date": "17-10-2025",
+  "location": "All India",
+  "type": "answer-key",
+  "category": "answer-key",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "The Railway Recruitment Board has released the **RRB NTPC Graduate Level CBT-02 Answer Key** for the 2025 recruitment exam. Candidates who appeared in the Graduate Level CBT-02 can now download the provisional answer key to check their responses. Objections (if any) will be accepted within the stipulated period.",
+  "importantDates": {
+    "notification": "01-04-2025",
+    "examDateStart": "15-08-2025",
+    "examDateEnd": "25-08-2025",
+    "answerKeyDate": "17-10-2025",
+    "objectionLastDate": "27-10-2025"
+  },
+  "qualification": "Candidates must have a bachelor’s degree (Graduate level) from a recognized university in India.",
+  "applicationFee": {
+    "General / OBC": "₹500",
+    "SC / ST / EWS / Female": "₹250"
+  },
+  "eligibility": "Candidate must be Indian citizen, must satisfy age, educational and other eligibility norms prescribed by RRB.",
+  "age": "Age between 18 and 33 years as on 01-01-2025, relaxations as per government norms.",
+  "Post": "RRB NTPC Graduate Level (Various Posts)",
+  "salary": "Pay Level as per 7th Pay Commission plus allowances per railway rules.",
+  "howtoapply": "Visit the official RRB portal → Go to “Answer Key / Results” section → Click on ‘Graduate Level CBT-02 Answer Key 2025’ → Download PDF and match your responses with correct answers.",
+  "streetAddress": "Railway Recruitment Board, [regionwise offices]",
+  "addressLocality": "New Delhi",
+  "addressRegion": "Delhi",
+  "postalCode": "110001",
+  "addressCountry": "India",
+  "image": "https://indianrailways.gov.in/images/logo.gif",
+  "links": {
+    "apply": "https://indianrailways.gov.in/",
+    "official": "https://rrb.gov.in",
+    "notification": "",
+    "answerKey": "https://rrb.digialm.com//EForms/configuredHtml/33015/94346/login.html",
+    "objection": "",
+    "finalResult": ""
+  },
+  "updatedon": "17-10-2025"
+}
 
 
 ]
