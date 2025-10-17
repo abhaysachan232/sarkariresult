@@ -1279,7 +1279,7 @@
   "location": "Rajasthan, India",
   "type": "result",
   "category": "results",
-  "year": "2023",
+  "year": "2025",
   "Type": "sarkari result",
   "description": "<b>RPSC RAS/ RTS Final Result 2023</b> - Rajasthan Public Service Commission (RPSC) ने <b>RAS/RTS 2023 Final Result</b> जारी कर दिया है। इस परिणाम में चयनित उम्मीदवारों की अंतिम सूची और उनके प्राप्त अंक शामिल हैं। उम्मीदवार अब <b>Sarkari Result</b> वेबसाइट या RPSC की आधिकारिक साइट से परिणाम PDF डाउनलोड कर अपने रोल नंबर से स्थिति देख सकते हैं।",
   "importantDates": {
@@ -1316,12 +1316,12 @@
     "main result":"https://rpsc.rajasthan.gov.in/Static/Result/58270E2B2E30431281E4A08089EC3385.pdf",
     "Also Check": "https://sarkariresult.rest/jobs/upsc-nda-i-final-result-2025-check-now-marks"
   },
-  "updatedon": "2025-10-16"
+  "updatedon": "2025-10-17"
 }
 ,
 {
   "id": 33,
-  "title": "RRB NTPC Graduate Level CBT-02 Answer Key Out Download Now",
+  "title": "RRB NTPC Graduate Level CBT 02 Answer Key Out Download Now",
   "setPath": "rrb-ntpc-graduate-level-cbt-02-answer-key-out",
   "organization": "Railway Recruitment Board (RRB)",
   "date": "17-10-2025",
@@ -1338,7 +1338,7 @@
     "answerKeyDate": "17-10-2025",
     "objectionLastDate": "27-10-2025"
   },
-  "qualification": "Candidates must have a bachelor’s degree (Graduate level) from a recognized university in India.",
+  "qualification": "Candidates must have a bachelor's degree (Graduate level) from a recognized university in India.",
   "applicationFee": {
     "General / OBC": "₹500",
     "SC / ST / EWS / Female": "₹250"
@@ -1347,7 +1347,7 @@
   "age": "Age between 18 and 33 years as on 01-01-2025, relaxations as per government norms.",
   "Post": "RRB NTPC Graduate Level (Various Posts)",
   "salary": "Pay Level as per 7th Pay Commission plus allowances per railway rules.",
-  "howtoapply": "Visit the official RRB portal → Go to “Answer Key / Results” section → Click on ‘Graduate Level CBT-02 Answer Key 2025’ → Download PDF and match your responses with correct answers.",
+  "howtoapply": "Visit the official RRB portal → Go to “Answer Key / Results” section → Click on  'Graduate Level CBT-02 Answer Key 2025' → Download PDF and match your responses with correct answers.",
   "streetAddress": "Railway Recruitment Board, [regionwise offices]",
   "addressLocality": "New Delhi",
   "addressRegion": "Delhi",
@@ -1362,7 +1362,7 @@
     "objection": "",
     "finalResult": ""
   },
-  "updatedon": "17-10-2025"
+  "updatedon": "2025-10-17"
 }
 
 

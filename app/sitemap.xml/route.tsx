@@ -94,6 +94,10 @@ const Articl: art[] = (article as any[]).map((job) => ({
     )
     .join('')}
 </urlset>`;
+console.log(jobs
+    .map(
+      (job) => {
+        const lastmod = new Date(job.updatedon).toISOString().split('T')[0];}));
 
     return new NextResponse(sitemap, {
       status: 200,
