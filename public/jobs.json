@@ -1404,8 +1404,55 @@
       "admitCard": "https://www.rrbapply.gov.in",
       "result": "https://www.rrbapply.gov.in"
     },
-    "updatedon": "2025-10-024"
-  }
+    "updatedon": "2025-10-24"
+  },
+  {
+  "id": 18,
+  "title": "Army DG EME Apply Online 2025 Group C Recruitment, Eligibility Vacancy Details",
+  "setPath": "army-dg-eme-apply-online-2025",
+  "organization": "Directorate General of Electrical & Mechanical Engineers (DG EME), Indian Army",
+  "date": "24-10-2025",
+  "location": "All India",
+  "type": "latest-job",
+  "category": "latest-jobs",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "<b>Army DG EME Apply Online 2025</b> - Directorate General of EME, Indian Army has released the official notification for Group C civilian posts. Check detailed vacancy information, eligibility criteria, application process, selection procedure, salary, and apply online links for the latest DG EME recruitment 2025.",
+  "importantDates": {
+    "notification": "30-09-2025",
+    "start": "04-10-2025",
+    "lastDate": "24-10-2025",
+    "examDate": "Notify Soon",
+    "admitCard": "Available before exam",
+    "resultDate": "Notify Soon"
+  },
+  "qualification": "10th / 12th / ITI or as per post requirement from a recognized board/institution.",
+  "applicationFee": {
+    "General / OBC / EWS": "₹0",
+    "SC / ST / Female": "₹0"
+  },
+  "eligibility": "Candidates must meet the educational and physical standards prescribed by DG EME for respective Group C posts. Refer to the official notification for post-specific requirements.",
+  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 25 Years<br/>Age relaxation applicable as per government rules for reserved categories.",
+  "Post": "<b>Varies by Post  Check Official Notification</b>",
+  "salary": "Rs. 19,900 - 63,200/- (Level 2 to Level 4 as per 7th CPC Pay Matrix)",
+  "howtoapply": "Candidates can <b>Army DG EME Apply Online 2025</b> through the official website <b>joinindianarmy.nic.in</b>. Fill the application form, upload necessary documents, and submit before the last date. Ensure all details are correct and keep a printout for reference.",
+  "streetAddress": "Khan Market",
+  "addressLocality": "New Delhi",
+  "addressRegion": "Delhi",
+  "postalCode": "110003",
+  "addressCountry": "India",
+  "image": "https://www.joinindianarmy.nic.in/writereaddata/Portal/Images/logo.png",
+  "links": {
+    "apply": "https://sarkariresult.rest/pdf/dg-eme-army",
+    "official": "https://www.joinindianarmy.nic.in/Authentication.aspx",
+    "Notice": "https://sarkariresult.rest/pdf/Army-DGEME-Group-C-Recruitment-2025-Notification",
+    "admitCard": "",
+    "result": "",
+    "Also Check": "https://sarkariresult.rest/jobs/RRB-NTPC-Graduate-Level-Recruitment-2025-start-Now"
+  },
+  "updatedon": "2025-10-24"
+}
+
 
 
 ]
