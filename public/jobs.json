@@ -1364,6 +1364,48 @@
   },
   "updatedon": "2025-10-17"
 }
+,
+  {
+    "id": 34,
+    "title": "RRB NTPC Graduate Level Recruitment 2025 start Now",
+    "setPath": "RRB-NTPC-Graduate-Level-Recruitment-2025",
+    "organization": "Railway Recruitment Board (RRB)",
+    "date": "21-10-2025",
+    "location": "India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "sarkari result",
+    "description": " <b>Railway Recruitment Board (RRB)</b>, has given a short notice on its website for the vacancy of Non-Technical recruitment Popular Categories (NTPC) Graduate level Post. This recruitment has <b>5800 vacancies</b>. RRB Application Form filling start date from 21 October 2025 & the candidates can fill form till the 20 November 2025 and fee payment last date is 20 November 2025. The Minimum age is 18 Years & The Maximum Age Is 33 Years as on 01 January 2026. Candidates must check notification for the complete details for RRB NTPC graduate level Recruitment 2025 which has given below. (Advt No : CEN 06/2025)",
+
+    "importantDates": {
+      "start": "21-10-2025 ",
+      "lastDate": "20-11-2025",
+      "correction": "NA",
+      "Online Fee Payment Last Date": "20-11-2025 ",
+      "examDate": "will be notified later ",
+      "admitCard": "Before Exam updated here",
+      "ResultDeclaredDate": "After Exam"
+    },
+    "qualification": "Graduate",
+    "applicationFee": {
+      "For General / OBC / EWS": 500,
+      "For SC / ST / EBC": 250,
+      "For All Category female": 250
+    },
+    "eligibility": "Candidates must possess a Graduate Degree from a recognized University/Institute in India.",
+    "age": "Minimum Age : 18 Years (Tentative) <br/>Maximum Age : 33 Years (Tentative)<br/> RRB provides age relaxation for the NTPC Inter Level position as per their regulations.",
+    "Post": "5800",
+    "salary": "as per post",
+    "links": {
+      "apply": "https://www.rrbapply.gov.in/#/auth/landing",
+      "notification": "/jobs-images/rrb-ntpc.jpg",
+      "official": "https://www.rrbapply.gov.in/#/auth/landing",
+      "admitCard": "https://www.rrbapply.gov.in",
+      "result": "https://www.rrbapply.gov.in"
+    },
+    "updatedon": "2025-10-024"
+  }
 
 
 ]
