@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 41,
     "title": "MPESB Stenographer",
     "setPath": "MPESBStenographer",
     "organization": "Madhya Pradesh Employees Selection Board",
@@ -30,11 +30,12 @@
     "Post": 861,
     "salary": "57700",
     "links": {
-      "apply": "https://xyzuniversity.ac.in/apply",
-      "notification": "https://xyzuniversity.ac.in/notification.pdf",
-      "official": "https://xyzuniversity.ac.in/"
+      "apply": "",
+      "notification": "",
+      "official": "",
+      "Also Check":"https://sarkariresult.rest/jobs/MPESB-Police-Constable-Admit-Card-2025-Out-Download-Now"
     },
-    "updatedon": "2025-10-05"
+    "updatedon": "2025-10-27"
   },
   {
     "id": 30,
