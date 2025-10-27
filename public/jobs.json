@@ -716,7 +716,7 @@
     "updatedon": "2025-10-09"
   },
   {
-    "id": 18,
+    "id": 37,
     "title": "SSC Delhi Police Constable Recruitment 2025 Apply Now",
     "setPath": "SSC-Delhi-Police-Constable-Recruitment-2025-Apply-Now",
     "organization": "Staff Selection Commission (SSC Delhi Police)",
@@ -730,7 +730,7 @@
     "importantDates": {
       "notification": "01-09-2025",
       "start": "22-09-2025",
-      "lastDate": "21-10-2025",
+      "lastDate": "31-10-2025 (extended)",
       "examDate": "December 2025 (Tentative)",
       "admitCard": "Available before exam",
       "resultDate": "Notify Soon"
@@ -757,9 +757,9 @@
       "notification": "https://ssc.nic.in/",
       "admitCard": "",
       "result": "",
-      "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
+      "Also Check": "https://sarkariresult.rest/jobs/Army-DG-EME-Apply-Online-2025-Group-C-Recruitment-Eligibility-Vacancy-Details"
     },
-    "updatedon": "2025-10-11"
+    "updatedon": "2025-10-27"
   },
   {
     "id": 19,
@@ -1400,7 +1400,8 @@
       "notification": "/jobs-images/rrb-ntpc.jpg",
       "official": "https://www.rrbapply.gov.in/#/auth/landing",
       "admitCard": "https://www.rrbapply.gov.in",
-      "result": "https://www.rrbapply.gov.in"
+      "result": "https://www.rrbapply.gov.in",
+      "Also Check": "https://sarkariresult.rest/jobs/MPESB-Police-Constable-Admit-Card-2025-Out-Download-Now"
     },
     "updatedon": "2025-10-24"
   },
@@ -1452,15 +1453,15 @@
   },
   {
   "id": 36,
-  "title": "MPESB Police Constable Admit Card 2025 Out Download Now at esb.mp.gov.in",
+  "title": "MPESB Police Constable Admit Card 2025 Out Download Now",
   "setPath": "mpesb-police-constable-admit-card-2025",
   "organization": "Madhya Pradesh Employees Selection Board (MPESB)",
   "date": "27-10-2025",
   "location": "Madhya Pradesh, India",
-  "type": "admit-card",
-  "category": "admit-cards",
-  "year": "2025",
-  "Type": "sarkari result",
+   "type": "admit-card",
+    "category": "admit-card",
+    "year": "2025",
+    "Type": "sarkari result",
   "description": "<b>MPESB Police Constable Admit Card 2025</b> is now released at the official website <b>esb.mp.gov.in</b>. Candidates who applied for the MP Police Constable recruitment can download their hall ticket online. Check step-by-step instructions, exam date, important links, and official updates about the <b>MP Police Constable Admit Card 2025</b> below.",
   "importantDates": {
     "notification": "10-09-2025",
@@ -1495,6 +1496,53 @@
     "Also Check": "https://sarkariresult.rest/jobs/Army-DG-EME-Apply-Online-2025-Group-C-Recruitment-Eligibility-Vacancy-Details"
   },
   "updatedon": "2025-10-27"
+},
+{
+  "id": 38,
+  "title": "SSC CHSL 10+2 Exam Self Slot Booking 2025 Select Your City Date Shift Now",
+  "setPath": "ssc-chsl-10+2-exam-self-slot-booking-2025",
+  "organization": "Staff Selection Commission (SSC)",
+  "date": "27-10-2025",
+  "location": "All India",
+  "type": "important",
+  "category": "important",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "<b>SSC CHSL 10+2 Exam Self Slot Booking 2025</b> window is now open for eligible candidates. Through the official portal, candidates can choose their exam city, preferred date and shift for the Tier-1 exam beginning 12 November 2025. Follow step-by-step guidelines below to complete your slot booking at <b>ssc.gov.in</b> before the last date.",
+  "importantDates": {
+    "notification": "23-06-2025",
+    "start": "22-10-2025",
+    "lastDate": "28-10-2025",
+    "examDate": "12-11-2025",
+    "admitCard": "08-11-2025",
+    "resultDate": "Notify Soon"
+  },
+  "qualification": "12th pass or equivalent from a recognised board/institution.",
+  "applicationFee": {
+    "General / OBC": "₹100",
+    "SC / ST / Female": "₹0"
+  },
+  "eligibility": "Candidates who have submitted the application form for SSC CHSL 2025 and are declared eligible by SSC can participate in the slot booking. Ensure you meet the age & qualification criteria as per notification.",
+  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 27 Years (as on specified date) – age relaxation applicable for reserved categories.",
+  "Post": "<b>Lower Divisional Clerk (LDC) / Junior Secretariat Assistant (JSA) / Data Entry Operator (DEO)</b> – Approx. 3,131 Vacancies",
+  "salary": "Rs. 19,900 – 63,200/- (Level 2 as per 7th CPC Pay Matrix)",
+  "howtoapply": "Visit the official website <b>ssc.gov.in</b>. Log in using your registration credentials, navigate to the SSC CHSL 2025 slot booking link, select your preferred exam city (from 3 cities opted), date and shift, submit your choice and print the confirmation page for future reference.",
+  "streetAddress": "Block No. 12, CGO Complex",
+  "addressLocality": "Lodhi Road, New Delhi",
+  "addressRegion": "Delhi",
+  "postalCode": "110003",
+  "addressCountry": "India",
+  "image": "https://ssc.gov.in/assets/sscLogo.webp",
+  "links": {
+    "apply": "https://ssc.gov.in/login",
+    "official": "https://ssc.gov.in",
+    "Notice": "https://ssc.gov.in/sites/default/files/notification-sscchsl2025.pdf",
+    "admitCard": "https://ssc.gov.in/admitcards",
+    "result": "",
+    "Also Check": "https://testbook.com/ssc-chsl-2025"
+  },
+  "updatedon": "2025-10-27"
 }
+
 
 ]
