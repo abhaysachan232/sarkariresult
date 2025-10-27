@@ -1178,7 +1178,7 @@
     "updatedon": "2025-10-14"
   },
   {
-    "id": 28,
+    "id": 39,
     "title": "UPSSSC AGTA DV Result 2025",
     "setPath": "upsssc-agta-dv-result-2025",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
@@ -1188,7 +1188,7 @@
     "category": "results",
     "year": "2025",
     "Type": "sarkari result",
-    "description": "<b>UPSSSC AGTA DV Result 2025</b> – The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the <b>Agriculture Technical Assistant (AGTA)</b> Document Verification (DV) Result 2025. Candidates who appeared in the DV round can now check their results online at <b>upsssc.gov.in</b>. The result includes the list of shortlisted candidates for the final appointment process. This result is an important milestone for candidates waiting for their AGTA recruitment final status. Candidates are advised to download the official PDF and verify their roll numbers carefully.",
+    "description": "<b>UPSSSC AGTA DV Result 2025</b> – The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially released the <b>Agriculture Technical Assistant (AGTA)</b> Document Verification (DV) Result 2025. Candidates who appeared in the DV round can now check their results online at <b>upsssc.gov.in</b>. The result includes the list of shortlisted candidates for the final appointment process. This result is an important milestone for candidates waiting for their AGTA recruitment final status. Candidates are advised to download the official PDF and verify their roll numbers carefully. again in some time vacancy anouncement will happen.",
     "importantDates": {
       "notification": "20-09-2025",
       "examDate": "15-06-2025",
@@ -1219,9 +1219,9 @@
       "notification": "https://upsssc.gov.in/AllNotifications.aspx",
       "admitCard": "https://upsssc.gov.in",
       "result": "https://upsssc.gov.in/",
-      "Also Check": "https://sarkariresult.rest/article/bihar-bssc-4th-graduate-level-syllabus-exam-pattern-selection-process"
+      "Also Check": "https://sarkariresult.rest/jobs/UPSSSC-AGTA-Upcoming-Vacancy-2025"
     },
-    "updatedon": "2025-10-15"
+    "updatedon": "2025-10-27"
   },
   {
     "id": 29,
@@ -1357,7 +1357,7 @@
       "apply": "https://indianrailways.gov.in/",
       "official": "https://rrb.gov.in",
       "notification": "",
-      "answerKey": "https://rrb.digialm.com//EForms/configuredHtml/33015/94346/login.html",
+      "answerKey": "https://rrb.digialm.com/EForms/configuredHtml/33015/94346/login.html",
       "objection": "",
       "finalResult": ""
     },
@@ -1542,7 +1542,51 @@
     "Also Check": "https://testbook.com/ssc-chsl-2025"
   },
   "updatedon": "2025-10-27"
+},
+{
+  "id": 40,
+  "title": "UPSSSC AGTA Upcoming Vacancy 2025",
+  "setPath": "upsssc-agta-upcoming-vacancy-2025",
+  "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+  "date": "27-10-2025",
+  "location": "Uttar Pradesh, India",
+  "type": "upcoming-job",
+  "category": "upcoming-jobs",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "<b>UPSSSC AGTA Upcoming Vacancy 2025</b> – Uttar Pradesh Subordinate Services Selection Commission is soon expected to release a new recruitment notification for <b>2200+ Agriculture Technical Assistant (AGTA)</b> posts. Get the latest updates on eligibility, syllabus, exam pattern, and expected dates for <b>UPSSSC AGTA Recruitment 2025</b>.",
+  "importantDates": {
+    "notification": "Expected November 2025",
+    "start": "To be announced",
+    "lastDate": "To be announced",
+    "examDate": "To be notified",
+    "admitCard": "Before Exam",
+    "resultDate": "To be notified"
+  },
+  "qualification": "Candidates must have a Bachelor's degree in Agriculture, Horticulture, or related field from a recognized university or institution in India.",
+  "applicationFee": {
+    "General / OBC / EWS": "₹25 (expected)",
+    "SC / ST / Female": "₹25 (expected)"
+  },
+  "eligibility": "Eligible candidates with agriculture-related degrees can apply once the official notification is released by UPSSSC. PET-2023 score may be required for application.",
+  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 40 Years<br/>Age relaxation will be applicable as per UP Government rules.",
+  "Post": "<b>Agriculture Technical Assistant (AGTA)</b> – Approx. 2200+ Upcoming Vacancies",
+  "salary": "Rs. 25,500 – 81,100/- (Level 4 as per 7th CPC Pay Matrix)",
+  "howtoapply": "Candidates will be able to apply online once the <b>UPSSSC AGTA Recruitment 2025 Notification</b> is released on the official website <b>upsssc.gov.in</b>. Keep your PET registration number, documents, and scanned certificates ready before applying.",
+  "streetAddress": "Paryatan Bhawan, C-1",
+  "addressLocality": "Vibhuti Khand, Gomti Nagar",
+  "addressRegion": "Lucknow, Uttar Pradesh",
+  "postalCode": "226010",
+  "addressCountry": "India",
+  "image": "https://sarkariresult.rest/jobs-images/logo.png",
+  "links": {
+    "apply": "https://upsssc.gov.in/",
+    "official": "https://upsssc.gov.in",
+    "Notice": "https://upsssc.gov.in",
+    "admitCard": "",
+    "result": "",
+    "Also Check": "https://sarkariresult.rest/jobs/UPSSSC-AGTA-DV-Result-2025"
+  },
+  "updatedon": "2025-10-27"
 }
-
-
 ]
