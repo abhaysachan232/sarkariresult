@@ -26,14 +26,27 @@ const menuItems = [
   { name: "Important", href: "/important", target: '_blank' },
 ];
 
+const STATE_LINKS = [
+  { name: "UP Govt Jobs", slug: "/state/uttar-pradesh" },
+  { name: "Bihar Govt Jobs", slug: "/state/bihar" },
+  { name: "MP Govt Jobs", slug: "/state/madhya-pradesh" },
+  { name: "Rajasthan Govt Jobs", slug: "/state/rajasthan" },
+  { name: "Delhi Govt Jobs", slug: "/state/delhi" },
+  { name: "Haryana Govt Jobs", slug: "/state/haryana" },
+  { name: "Jharkhand Govt Jobs", slug: "/state/jharkhand" },
+  { name: "Punjab Govt Jobs", slug: "/state/punjab" },
+  { name: "Gujarat Govt Jobs", slug: "/state/gujarat" },
+  { name: "Maharashtra Govt Jobs", slug: "/state/maharashtra" },
+];
+
 export async function GET() {
   try {
     const jobs: Job[] = (datas as any[]).map((job) => ({
-          title: job.title,
-          updatedon: job.updatedon || new Date().toISOString(),
-        }));
-console.log(jobs);
-const Articl: art[] = (article as any[]).map((job) => ({
+      title: job.title,
+      updatedon: job.updatedon || new Date().toISOString(),
+    }));
+
+    const Articl: art[] = (article as any[]).map((job) => ({
       title: job.title,
       updatedAt: new Date().toISOString(),
       slug: job.slug
@@ -41,6 +54,7 @@ const Articl: art[] = (article as any[]).map((job) => ({
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   ${menuItems
     .map(
       (item) => `
@@ -49,8 +63,19 @@ const Articl: art[] = (article as any[]).map((job) => ({
       <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
-    </url>
-  `
+    </url>`
+    )
+    .join('')}
+
+  ${STATE_LINKS
+    .map(
+      (state) => `
+    <url>
+      <loc>https://sarkariresult.rest${state.slug}</loc>
+      <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.85</priority>
+    </url>`
     )
     .join('')}
 
@@ -60,15 +85,15 @@ const Articl: art[] = (article as any[]).map((job) => ({
         const lastmod = new Date(job.updatedon).toISOString().split('T')[0];
         return `
     <url>
-      <loc>https://sarkariresult.rest/jobs/${job.title.split(" ").join("-")}</loc>
+      <loc>httpsarkariresult.rest/jobs/${job.title.split(" ").join("-")}</loc>
       <lastmod>${lastmod}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
-    </url>
-  `;
+    </url>`;
       }
     )
     .join('')}
+
   ${Articl
     .map(
       (job) => {
@@ -77,11 +102,11 @@ const Articl: art[] = (article as any[]).map((job) => ({
     <url>
       <loc>https://sarkariresult.rest/article/${job.slug}</loc>
       <lastmod>${lastmod}</lastmod>
-    </url>
-  `;
+    </url>`;
       }
     )
     .join('')}
+
   ${["about", "contact", "disclaimer", "faq", "privacy","terms"]
     .map(
       (page) => `
@@ -89,15 +114,11 @@ const Articl: art[] = (article as any[]).map((job) => ({
       <loc>https://sarkariresult.rest/${page}</loc>
       <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
       <priority>0.8</priority>
-    </url>
-  `
+    </url>`
     )
     .join('')}
+
 </urlset>`;
-console.log(jobs
-    .map(
-      (job) => {
-        const lastmod = new Date(job.updatedon).toISOString().split('T')[0];}));
 
     return new NextResponse(sitemap, {
       status: 200,
