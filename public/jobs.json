@@ -1600,6 +1600,7 @@
   "Post": "<b>Agriculture Technical Assistant (AGTA)</b> – Approx. 2200+ Upcoming Vacancies",
   "salary": "Rs. 25,500 – 81,100/- (Level 4 as per 7th CPC Pay Matrix)",
    "state":"uttar pradesh",
+ 
   "howtoapply": "Candidates will be able to apply online once the <b>UPSSSC AGTA Recruitment 2025 Notification</b> is released on the official website <b>upsssc.gov.in</b>. Keep your PET registration number, documents, and scanned certificates ready before applying.",
   "streetAddress": "Paryatan Bhawan, C-1",
   "addressLocality": "Vibhuti Khand, Gomti Nagar",
@@ -1616,5 +1617,53 @@
     "Also Check": "https://sarkariresult.rest/jobs/UPSSSC-AGTA-DV-Result-2025"
   },
   "updatedon": "2025-10-27"
+},
+{
+  "id": 41,
+  "title": "RRB Group D Exam Date 2025 Announced Check Railway CBT Schedule",
+  "setPath": "rrb-group-d-exam-date-2025",
+  "organization": "Railway Recruitment Board (RRB)",
+  "date": "28-10-2025",
+  "location": "Across India",
+  "type": "exam-date",
+  "category": "admit-card",
+  "year": "2025",
+  "Type": "sarkari result",
+  "description": "<b>RRB Group D Exam Date 2025</b> – Railway Recruitment Board will conduct the Group D Level-1 CBT exam for more than <b>1.8 Lakh vacancies</b> under Indian Railways. Check the detailed <b>Railway Group D 2025 CBT schedule, syllabus, admit card updates</b> and important instructions for the examination.",
+  "importantDates": {
+    "notification": "Expected January 2025",
+    "start": "To be announced",
+    "lastDate": "To be announced",
+    "examDate": "Expected April – June 2025",
+    "admitCard": "Before 4 Days of Exam",
+    "resultDate": "To be notified"
+  },
+  "qualification": "10th Pass (Matriculation) or ITI from recognized board or NCVT/SCVT approved institution.",
+  "applicationFee": {
+    "General / OBC / EWS": "₹500 (₹400 refund after CBT)",
+    "SC / ST / Female / PWD": "₹250 (₹250 refund after CBT)"
+  },
+  "eligibility": "Candidates with Matriculation or ITI qualification and valid ID proof are eligible. Physical eligibility is mandatory as per Railway norms.",
+  "age": "<b>Minimum Age</b>: 18 Years<br/><b>Maximum Age</b>: 33 Years<br/>Age relaxation will be applicable as per Indian Railway rules.",
+  "Post": "<b>Group D Level-1 Posts</b> – Track Maintainer, Helper, Assistant, Porter and other technical & non-technical roles",
+  "salary": "Rs. 18,000/- (Level-1 as per 7th CPC Pay Matrix) + Allowances",
+  "state": "All India",
+  "howtoapply": "Online application link will be activated on the official website of Railway Recruitment Boards <b>rrbcdg.gov.in</b> and regional RRB portals. Keep Aadhaar, certificates, and photos ready before applying.",
+  "streetAddress": "Rail Bhawan",
+  "addressLocality": "Raisina Road",
+  "addressRegion": "New Delhi",
+  "postalCode": "110001",
+  "addressCountry": "India",
+  "image": "https://sarkariresult.rest/jobs-images/logo.png",
+  "links": {
+    "apply": "https://www.rrbcdg.gov.in/",
+    "official": "https://www.rrbcdg.gov.in/",
+    "Notice": "https://www.rrbcdg.gov.in/",
+    "admitCard": "",
+    "result": "",
+    "Also Check": "https://sarkariresult.rest/jobs/rrb-group-d-result-2025"
+  },
+  "updatedon": "2025-10-28"
 }
+
 ]
