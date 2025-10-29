@@ -6,7 +6,12 @@ import dataJson from "../../../public/articles.json";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
-const Table = ({ headers, rows }) => (
+interface TableProps {
+  headers: string[];
+  rows: string[][];
+}
+
+const Table = ({ headers, rows }: TableProps) => (
   <div className="overflow-x-auto my-4">
     <table className="min-w-full border border-gray-300 rounded-lg overflow-hidden">
       <thead className="bg-blue-100">
