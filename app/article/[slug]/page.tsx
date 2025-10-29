@@ -4,6 +4,32 @@ import Script from "next/script";
 import dataJson from "../../../public/articles.json";
 import Link from "next/link";
 
+interface Params {
+  slug: string;
+}
+
+// ✅ Dynamic SEO Metadata (Next.js App Router)
+export async function generateMetadata({ params }: { params: Params }) {
+  const { slug } = params;
+  const article = (dataJson as any[]).find((art: any) => art.slug === slug);
+
+  if (!article) {
+    return {
+      title: "Article Not Found | Sarkari Result",
+      description: "This article could not be found.",
+    };
+  }
+
+  return {
+    title: `${article.title} | Sarkari Result`,
+    description: article.description,
+    keywords: `${article.keywords || ""}, Sarkari Naukri`,
+    alternates: {
+      canonical: `https://sarkariresult.rest/article/${article.slug}`,
+    },
+  };
+}
+
 const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({ headers, rows }) => (
   <div className="overflow-x-auto my-4">
     <table className="min-w-full border border-gray-300 rounded-lg overflow-hidden">
@@ -60,10 +86,7 @@ interface Article {
   image: string;
   content: Section[];
   apply: string;
-}
-
-interface Params {
-  slug: string;
+  keywords: string;
 }
 
 interface PageProps {
@@ -73,7 +96,6 @@ interface PageProps {
 const Page = async ({ params }: PageProps) => {
   const { slug } = await params;
 
-  // Type guard to safely find Article
   const article = (dataJson as any[]).find(
     (art): art is Article => typeof art.slug === "string" && art.slug === slug
   );
