@@ -143,12 +143,7 @@ const Page = async ({ params }: PageProps) => {
       name: "Abhay Sachan",
       url: "https://sarkariresult.rest",
     },
-    hiringOrganization: {
-      "@type": "Organization",
-      name: "Delhi Police",
-      sameAs: "https://www.delhipolice.nic.in/",
-      logo: article.image,
-    },
+
     jobLocation: {
       "@type": "Place",
       address: {
