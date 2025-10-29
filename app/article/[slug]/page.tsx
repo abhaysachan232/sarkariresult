@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   return {
     title: `${article.title} | Sarkari Result`,
     description: article.description,
-    keywords: `${article.keywords || ""}, Sarkari Naukri`,
+    keywords: `${article.keywords || ""}, Sarkari Naukri, Latest Govt Jobs`,
     alternates: {
       canonical: `https://sarkariresult.rest/article/${article.slug}`,
     },
@@ -36,10 +36,7 @@ const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({ headers, row
       <thead className="bg-blue-100">
         <tr>
           {headers.map((header, idx) => (
-            <th
-              key={idx}
-              className="border px-4 py-2 text-left font-semibold text-blue-800"
-            >
+            <th key={idx} className="border px-4 py-2 text-left font-semibold text-blue-800">
               {header}
             </th>
           ))}
@@ -90,11 +87,11 @@ interface Article {
 }
 
 interface PageProps {
-  params: Promise<Params>;
+  params: Params;
 }
 
 const Page = async ({ params }: PageProps) => {
-  const { slug } = await params;
+  const { slug } = params;
 
   const article = (dataJson as any[]).find(
     (art): art is Article => typeof art.slug === "string" && art.slug === slug
@@ -104,13 +101,41 @@ const Page = async ({ params }: PageProps) => {
     return <p className="text-center mt-10 text-red-500">Article not found</p>;
   }
 
+  // ✅ NewsArticle Schema
+  const newsSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://sarkariresult.rest/article/${article.slug}`,
+    },
+    headline: article.title,
+    description: article.description,
+    image: [article.image],
+    datePublished: article.datePublished,
+    dateModified: article.dateModified,
+    author: {
+      "@type": "Person",
+      name: "Abhay Sachan",
+      url: "https://sarkariresult.rest",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Sarkari Result",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://sarkariresult.rest/logo.png",
+      },
+    },
+  };
+
+  // ✅ JobPosting Schema
   const jobSchema = {
     "@context": "https://schema.org/",
     "@type": "JobPosting",
     title: article.title,
     description: article.description,
     datePosted: article.datePublished,
-    alternates: { canonical: `https://sarkariresult.rest/article/${article.slug}` },
     validThrough: "2025-12-31",
     employmentType: "FULL_TIME",
     author: {
@@ -151,15 +176,21 @@ const Page = async ({ params }: PageProps) => {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
-      {/* JSON-LD for SEO */}
+      {/* ✅ JSON-LD for SEO */}
       <Script
-        id="job-posting-schema"
+        id="news-schema"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(newsSchema) }}
+      />
+      <Script
+        id="job-schema"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jobSchema) }}
       />
 
-      {/* Hero Section */}
+      {/* ✅ Hero Section */}
       <div className="text-center mb-8">
         <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">{article.title}</h1>
         <p className="text-gray-700 text-lg md:text-xl">{article.description}</p>
@@ -171,19 +202,16 @@ const Page = async ({ params }: PageProps) => {
         </Link>
       </div>
 
-      {/* Article Sections */}
+      {/* ✅ Article Sections */}
       {article.content.map((section, idx) => (
-        <section
-          key={idx}
-          className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition"
-        >
+        <section key={idx} className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
           <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
           <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
           {section.table && <Table headers={section.table.headers} rows={section.table.rows} />}
         </section>
       ))}
 
-      {/* Highlight Last 3 Sections */}
+      {/* ✅ Highlights */}
       {lastSections.length > 0 && (
         <div className="bg-blue-50 p-6 rounded-lg space-y-4">
           <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
@@ -196,7 +224,7 @@ const Page = async ({ params }: PageProps) => {
         </div>
       )}
 
-      {/* Internal Links Section */}
+      {/* ✅ Related Articles */}
       <div className="bg-gray-100 p-6 rounded-lg space-y-3">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Articles</h2>
         {(dataJson as any[])
@@ -213,7 +241,7 @@ const Page = async ({ params }: PageProps) => {
           ))}
       </div>
 
-      {/* Footer */}
+      {/* ✅ Footer Info */}
       <p className="text-sm text-gray-500 text-center mt-8">
         Published on: {article.datePublished} | Last Updated: {article.dateModified}
       </p>

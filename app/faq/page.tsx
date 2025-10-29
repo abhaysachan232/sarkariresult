@@ -109,11 +109,11 @@ export default function FAQs() {
 
         <div className="text-center mt-8 text-gray-600">
           <p>
-            Still have questions? Visit our{" "}
+            Still have questions? Visit our{" contact page"}
             <Link href="/contact" className="text-blue-600 hover:underline">
               Contact Page
             </Link>{" "}
-            or read more about us on the{" "}
+            or read more about us on the{" about page"}.
             <Link href="/about" className="text-blue-600 hover:underline">
               About Page
             </Link>
