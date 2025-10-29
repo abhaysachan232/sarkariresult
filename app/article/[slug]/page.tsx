@@ -106,10 +106,8 @@ export default function Page() {
         <link rel="canonical" href={`https://sarkariresult.rest/article/${article.slug}`} />
       </Head>
 
-      <Script
-        id="news-schema"
+       <script
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(newsSchema) }}
       />
 
