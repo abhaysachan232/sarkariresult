@@ -1,33 +1,9 @@
+// app/article/[slug]/page.tsx
 import React from "react";
+import Head from "next/head";
 import Script from "next/script";
 import dataJson from "../../../public/articles.json";
 import Link from "next/link";
-
-interface Params {
-  slug: string;
-}
-
-// ✅ Dynamic SEO Metadata (Next.js App Router)
-export async function generateMetadata({ params }: { params: Params }) {
-  const { slug } = params;
-  const article = (dataJson as any[]).find((art: any) => art.slug === slug);
-
-  if (!article) {
-    return {
-      title: "Article Not Found | Sarkari Result",
-      description: "This article could not be found.",
-    };
-  }
-
-  return {
-    title: `${article.title} | Sarkari Result`,
-    description: article.description,
-    keywords: `${article.keywords || ""}, Sarkari Naukri`,
-    alternates: {
-      canonical: `https://sarkariresult.rest/article/${article.slug}`,
-    },
-  };
-}
 
 const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({ headers, rows }) => (
   <div className="overflow-x-auto my-4">
@@ -35,10 +11,7 @@ const Table: React.FC<{ headers: string[]; rows: string[][] }> = ({ headers, row
       <thead className="bg-blue-100">
         <tr>
           {headers.map((header, idx) => (
-            <th
-              key={idx}
-              className="border px-4 py-2 text-left font-semibold text-blue-800"
-            >
+            <th key={idx} className="border px-4 py-2 text-left font-semibold text-blue-800">
               {header}
             </th>
           ))}
@@ -83,6 +56,10 @@ interface Article {
   keywords: string;
 }
 
+interface Params {
+  slug: string;
+}
+
 interface PageProps {
   params: Promise<Params>;
 }
@@ -98,18 +75,18 @@ const Page = async ({ params }: PageProps) => {
     return <p className="text-center mt-10 text-red-500">Article not found</p>;
   }
 
-  // ✅ Replace Job Schema → News Schema
+  // ✅ NewsArticle Schema
   const newsSchema = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     headline: article.title,
     description: article.description,
-    image: article.image ? [`https://sarkariresult.rest${article.image}`] : undefined,
+    image: [article.image],
     datePublished: article.datePublished,
     dateModified: article.dateModified,
     author: {
-      "@type": "Organization",
-      name: "Sarkari Result",
+      "@type": "Person",
+      name: "Abhay Sachan",
       url: "https://sarkariresult.rest",
     },
     publisher: {
@@ -129,74 +106,77 @@ const Page = async ({ params }: PageProps) => {
   const lastSections = article.content.slice(-3);
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
-      {/* ✅ News Schema for SEO */}
-      <Script
-        id="news-article-schema"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(newsSchema) }}
-      />
+    <>
+      {/* ✅ Dynamic Head SEO Section */}
+      <Head>
+        <title>{`${article.title} | Sarkari Result`}</title>
+        <meta name="description" content={article.description} />
+        <meta name="keywords" content={article.keywords || "Sarkari Naukri, Government Jobs"} />
+        <link rel="canonical" href={`https://sarkariresult.rest/article/${article.slug}`} />
+      </Head>
 
-      {/* Hero Section */}
-      <div className="text-center mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">{article.title}</h1>
-        <p className="text-gray-700 text-lg md:text-xl">{article.description}</p>
-        <Link
-          href={article.apply}
-          className="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-        >
-          Apply Now
-        </Link>
-      </div>
+      <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+        {/* ✅ JSON-LD for News Schema */}
+        <Script
+          id="news-article-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(newsSchema) }}
+        />
 
-      {/* Article Sections */}
-      {article.content.map((section, idx) => (
-        <section
-          key={idx}
-          className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition"
-        >
-          <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
-          <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
-          {section.table && <Table headers={section.table.headers} rows={section.table.rows} />}
-        </section>
-      ))}
-
-      {/* Highlight Last 3 Sections */}
-      {lastSections.length > 0 && (
-        <div className="bg-blue-50 p-6 rounded-lg space-y-4">
-          <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
-          {lastSections.map((sec, idx) => (
-            <div key={idx}>
-              <h3 className="font-semibold text-blue-800">{sec.heading}</h3>
-              <p className="text-gray-700 whitespace-pre-line">{sec.body}</p>
-            </div>
-          ))}
+        {/* Hero Section */}
+        <div className="text-center mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">{article.title}</h1>
+          <p className="text-gray-700 text-lg md:text-xl">{article.description}</p>
+          <Link
+            href={article.apply}
+            className="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          >
+            Apply Now
+          </Link>
         </div>
-      )}
 
-      {/* Internal Links Section */}
-      <div className="bg-gray-100 p-6 rounded-lg space-y-3">
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Articles</h2>
-        {(dataJson as any[])
-          .filter((art) => art.slug !== article.slug && typeof art.title === "string")
-          .slice(0, 5)
-          .map((art) => (
-            <Link
-              key={art.slug}
-              href={`/article/${art.slug}`}
-              className="text-blue-700 hover:underline block"
-            >
-              {art.title}
-            </Link>
-          ))}
-      </div>
+        {/* Article Sections */}
+        {article.content.map((section, idx) => (
+          <section key={idx} className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
+            <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
+            <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
+            {section.table && <Table headers={section.table.headers} rows={section.table.rows} />}
+          </section>
+        ))}
 
-      {/* Footer */}
-      <p className="text-sm text-gray-500 text-center mt-8">
-        Published on: {article.datePublished} | Last Updated: {article.dateModified}
-      </p>
-    </main>
+        {/* Key Highlights */}
+        {lastSections.length > 0 && (
+          <div className="bg-blue-50 p-6 rounded-lg space-y-4">
+            <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
+            {lastSections.map((sec, idx) => (
+              <div key={idx}>
+                <h3 className="font-semibold text-blue-800">{sec.heading}</h3>
+                <p className="text-gray-700 whitespace-pre-line">{sec.body}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Related Articles */}
+        <div className="bg-gray-100 p-6 rounded-lg space-y-3">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Articles</h2>
+          {(dataJson as any[])
+            .filter((art) => art.slug !== article.slug && typeof art.title === "string")
+            .slice(0, 5)
+            .map((art) => (
+              <Link key={art.slug} href={`/article/${art.slug}`} className="text-blue-700 hover:underline block">
+                {art.title}
+              </Link>
+            ))}
+        </div>
+
+        {/* Footer */}
+        <p className="text-sm text-gray-500 text-center mt-8">
+          Published on: {article.datePublished} | Last Updated: {article.dateModified}
+        </p>
+      </main>
+    </>
   );
 };
 
