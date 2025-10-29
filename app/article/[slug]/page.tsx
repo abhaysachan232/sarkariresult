@@ -103,7 +103,7 @@ export default function Page() {
           </Link>
         </div>
 
-        {article.content.map((section, idx) => (
+        {article.content.map((section:any, idx:any) => (
           <section key={idx} className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
             <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
@@ -114,7 +114,7 @@ export default function Page() {
         {lastSections.length > 0 && (
           <div className="bg-blue-50 p-6 rounded-lg space-y-4">
             <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
-            {lastSections.map((sec, idx) => (
+            {lastSections.map((sec:any, idx:any) => (
               <div key={idx}>
                 <h3 className="font-semibold text-blue-800">{sec.heading}</h3>
                 <p className="text-gray-700 whitespace-pre-line">{sec.body}</p>
