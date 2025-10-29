@@ -6,12 +6,34 @@ import dataJson from "../../../public/articles.json";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
+// ✅ Types
 interface TableProps {
   headers: string[];
   rows: string[][];
 }
 
-const Table = ({ headers, rows }: TableProps) => (
+interface Section {
+  heading: string;
+  body: string;
+  table?: {
+    headers: string[];
+    rows: string[][];
+  };
+}
+
+interface Article {
+  slug: string;
+  title: string;
+  description: string;
+  keywords?: string;
+  datePublished: string;
+  dateModified: string;
+  image: string;
+  content: Section[];
+  apply: string;
+}
+
+const Table: React.FC<TableProps> = ({ headers, rows }) => (
   <div className="overflow-x-auto my-4">
     <table className="min-w-full border border-gray-300 rounded-lg overflow-hidden">
       <thead className="bg-blue-100">
@@ -43,9 +65,9 @@ const Table = ({ headers, rows }: TableProps) => (
 
 export default function Page() {
   const params = useParams();
-  const slug = params?.slug;
+  const slug = params?.slug as string;
 
-  const article = (dataJson as any[]).find((art) => art.slug === slug);
+  const article = (dataJson as Article[]).find((art) => art.slug === slug);
 
   useEffect(() => {
     if (article?.title) {
@@ -103,7 +125,8 @@ export default function Page() {
           </Link>
         </div>
 
-        {article.content.map((section:any, idx:any) => (
+        {/* ✅ Section typed properly */}
+        {article.content.map((section: Section, idx: number) => (
           <section key={idx} className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-3 text-blue-800">{section.heading}</h2>
             <p className="mb-4 whitespace-pre-line text-gray-800">{section.body}</p>
@@ -114,7 +137,7 @@ export default function Page() {
         {lastSections.length > 0 && (
           <div className="bg-blue-50 p-6 rounded-lg space-y-4">
             <h2 className="text-2xl font-bold text-blue-900 mb-2">Key Highlights</h2>
-            {lastSections.map((sec:any, idx:any) => (
+            {lastSections.map((sec: Section, idx: number) => (
               <div key={idx}>
                 <h3 className="font-semibold text-blue-800">{sec.heading}</h3>
                 <p className="text-gray-700 whitespace-pre-line">{sec.body}</p>
@@ -125,7 +148,7 @@ export default function Page() {
 
         <div className="bg-gray-100 p-6 rounded-lg space-y-3">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Articles</h2>
-          {(dataJson as any[])
+          {(dataJson as Article[])
             .filter((art) => art.slug !== article.slug)
             .slice(0, 5)
             .map((art) => (
