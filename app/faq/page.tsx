@@ -62,7 +62,7 @@ export default function FAQs() {
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-
+  
   return (
     <>
       <Head>

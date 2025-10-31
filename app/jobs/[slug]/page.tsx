@@ -186,30 +186,7 @@ const jobPostingSchema = {
     : undefined,
   url: `https://sarkariresult.rest/jobs/${slug}`,
 };
-const newsSchema =    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://sarkariresult.rest/",
-        },  
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": `${job.state}`,
-          "item": `https://sarkariresult.rest/state/${job.state.find(" ")?job.state.split(" ").join("-").toLowerCase():job.state.toLowerCase()}`,
-        },              
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": job.title,
-          "item": `https://sarkariresult.rest/jobs/${slug}`,
-        },
-      ],
-    }
+
 
   return (
     <>
@@ -249,10 +226,6 @@ const newsSchema =    {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}
-      />
-        <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(newsSchema) }}
       />
       <article className="min-h-screen">
         {/* Hero Banner */}
