@@ -57,11 +57,11 @@ export async function generateMetadata({
     title: `${job.title} - ${job.organization} | SarkariResult`,
     description: job.description,
     keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
-    alternates: { canonical: `https://sarkariresult.rest/jobs/${slug}` },
+    alternates: { canonical: `https://sarkariresult.rest/article/${slug}` },
     openGraph: {
       title: job.title,
       description: job.description,
-      url: `https://sarkariresult.rest/job/${slug}`,
+      url: `https://sarkariresult.rest/article/${slug}`,
       type: "article",
       images: [
         {
