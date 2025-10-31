@@ -1,10 +1,10 @@
-"use client";
-import React, { useEffect } from "react";
+// "use client";
+// import React, { useEffect } from "react";
 import Head from "next/head";
 import Script from "next/script";
 import dataJson from "../../../public/articles.json";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+// import { useParams } from "next/navigation";
 
 // ✅ Types
 interface TableProps {
@@ -32,6 +32,56 @@ interface Article {
   content: Section[];
   apply: string;
 }
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  type JobType = { /* ...same as before... */ [key: string]: any };
+
+  const jobs: JobType[] = dataJson.map((job: any) => ({
+    ...job,
+    applicationFee: job.applicationFee
+      ? Object.fromEntries(
+          Object.entries(job.applicationFee).map(([k, v]) => [k, String(v)])
+        )
+      : undefined,
+  }));
+  const job = jobs.find((j) => j.slug === slug);
+  if (!job) return { title: "Job Not Found" };
+
+  return {
+    title: `${job.title} - ${job.organization} | SarkariResult`,
+    description: job.description,
+    keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
+    alternates: { canonical: `https://sarkariresult.rest/jobs/${slug}` },
+    openGraph: {
+      title: job.title,
+      description: job.description,
+      url: `https://sarkariresult.rest/job/${slug}`,
+      type: "article",
+      images: [
+        {
+          url: job.image || "https://example.com/default-image.png",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: job.title,
+      description: job.description,
+      images: [job.image || "https://example.com/default-image.png"],
+    },
+  };
+}
+
+
+
 
 const Table: React.FC<TableProps> = ({ headers, rows }) => (
   <div className="overflow-x-auto my-4">
@@ -63,19 +113,25 @@ const Table: React.FC<TableProps> = ({ headers, rows }) => (
   </div>
 );
 
-export default function Page() {
-  const params = useParams();
-  const slug = params?.slug as string;
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  // const params = useParams();
+   const { slug } = await params;
+  // const resolvedParams = await params;
+  // const slug = resolvedParams.slug;
 
   const article = (dataJson as Article[]).find((art) => art.slug === slug);
 
-  useEffect(() => {
-    if (article?.title) {
-      document.title = `${article.title} | Sarkari Result`;
-      const metaDesc = document.querySelector("meta[name='description']");
-      if (metaDesc) metaDesc.setAttribute("content", article.description);
-    }
-  }, [article]);
+  // useEffect(() => {
+  //   if (article?.title) {
+  //     document.title = `${article.title} | Sarkari Result`;
+  //     const metaDesc = document.querySelector("meta[name='description']");
+  //     if (metaDesc) metaDesc.setAttribute("content", article.description);
+  //   }
+  // }, [article]);
 
   if (!article)
     return <p className="text-center mt-10 text-red-500">Article not found</p>;
