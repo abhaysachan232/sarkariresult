@@ -1,7 +1,5 @@
-"use client";
 import Head from "next/head";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function FAQs() {
   const faqs = [
@@ -30,46 +28,15 @@ export default function FAQs() {
       answer:
         "Yes. We gather data from verified and official government sources only. However, candidates should always cross-check information with the official website before applying.",
     },
-    {
-      question: "What should I do if I find incorrect information?",
-      answer:
-        "If you find any incorrect or outdated information, you can contact us through our Contact page. We’ll review and update the content immediately after verification.",
-    },
-    {
-      question: "Do you provide direct links to apply online?",
-      answer:
-        "Yes, every job post on Sarkari Result includes a direct link to the official apply page, making the process quick and easy.",
-    },
-    {
-      question: "How can I check my exam results?",
-      answer:
-        "Go to the ‘Results’ section on our website and click on the exam name. You’ll be redirected to the official site or a verified PDF download link.",
-    },
-    {
-      question: "Do you charge any fee for job updates?",
-      answer:
-        "No. Sarkari Result is completely free to use. We never charge users for accessing job notifications, results, or admit card links.",
-    },
-    {
-      question: "How often is Sarkari Result updated?",
-      answer:
-        "Our team updates the website multiple times a day to ensure every new government notification, result, or admit card is published as soon as possible.",
-    },
   ];
 
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-  
   return (
     <>
       <Head>
         <title>FAQs - Sarkari Result | Common Questions About Govt Jobs</title>
         <meta
           name="description"
-          content="Find answers to frequently asked questions about Sarkari Result, including job applications, admit cards, results, and notifications. Get all details in one place."
+          content="Find answers to frequently asked questions about Sarkari Result, including job applications, admit cards, results, and notifications."
         />
         <meta
           name="keywords"
@@ -78,49 +45,66 @@ export default function FAQs() {
         <link rel="canonical" href="https://sarkariresult.rest/faqs" />
       </Head>
 
-      <div className="container mx-auto p-4 space-y-6">
+      <main className="container mx-auto p-4 space-y-6">
         <h1 className="text-4xl font-bold mb-4 text-center">
           Frequently Asked Questions (FAQs)
         </h1>
         <p className="text-gray-700 text-lg text-center mb-6">
-          Welcome to our FAQ section. Here you’ll find answers to the most common questions about{" "}
-          <strong>Sarkari Result</strong> — from applying for government jobs to checking results and admit cards.
+          Welcome to our FAQ section. Here you’ll find answers to the most
+          common questions about{" "}
+          <strong>Sarkari Result</strong> — from applying for government jobs to
+          checking results and admit cards.
         </p>
 
-        <div className="space-y-4">
+        {/* ✅ FAQ Accordion using CSS only */}
+        <div className="space-y-3">
           {faqs.map((faq, idx) => (
-            <div
-              key={idx}
-              className="border border-gray-300 rounded-lg p-4 shadow hover:shadow-md transition"
-            >
-              <button
-                onClick={() => toggleFAQ(idx)}
-                className="w-full text-left font-semibold text-lg flex justify-between items-center"
+            <div key={idx} className="border border-gray-300 rounded-lg shadow">
+              <input
+                type="checkbox"
+                id={`faq-${idx}`}
+                className="peer hidden"
+              />
+              <label
+                htmlFor={`faq-${idx}`}
+                className="block cursor-pointer p-4 font-semibold text-lg bg-gray-100 hover:bg-gray-200 flex justify-between items-center"
               >
                 {faq.question}
-                <span>{openIndex === idx ? "−" : "+"}</span>
-              </button>
-              {openIndex === idx && (
-                <p className="mt-2 text-gray-700">{faq.answer}</p>
-              )}
+                <span className="text-xl text-gray-600 peer-checked:rotate-45 transition-transform">
+                  +
+                </span>
+              </label>
+              <div className="hidden peer-checked:block p-4 bg-white text-gray-700 border-t border-gray-200">
+                {faq.answer}
+              </div>
             </div>
           ))}
         </div>
 
         <div className="text-center mt-8 text-gray-600">
-          <p>
-            Still have questions? Visit our{" contact page"}
-            <Link href="/contact" className="text-blue-600 hover:underline">
-              Contact Page
-            </Link>{" "}
-            or read more about us on the{" about page"}.
-            <Link href="/about" className="text-blue-600 hover:underline">
-              About Page
-            </Link>
-            .
-          </p>
+          Still have questions? Visit our{" "}
+          <Link href="/contact" className="text-blue-600 hover:underline">
+            Contact Page
+          </Link>{" "}
+          or read more about us on the{" "}
+          <Link href="/about" className="text-blue-600 hover:underline">
+            About Page
+          </Link>
+          .
         </div>
-      </div>
+      </main>
+
+      <style jsx>{`
+        /* Small plus-to-minus animation */
+        label span {
+          display: inline-block;
+          transform-origin: center;
+          transition: transform 0.2s ease;
+        }
+        input:checked + label span {
+          transform: rotate(45deg);
+        }
+      `}</style>
     </>
   );
 }

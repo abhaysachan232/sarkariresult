@@ -60,6 +60,12 @@ export async function GET() {
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
     </url>
+       <url>
+      <loc>http://sarkariresult.rest</loc>
+      <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.9</priority>
+    </url>
   ${menuItems
     .map(
       (item) => `
