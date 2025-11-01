@@ -191,39 +191,6 @@ const jobPostingSchema = {
 
   return (
     <>
-      <Head>
-        <title>{`${slug} - Sarkari Result Job Portal`}</title>
-        <meta
-          name="description"
-          content={stripHtml(safeDescription).slice(0, 160)}
-        />
-        <meta
-          name="keywords"
-          content={`${slug} ${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri`}
-        />
-        <link
-          rel="canonical"
-          href={`https://sarkariresult.rest/jobs/${slug}`}
-        />
-        <meta property="og:title" content={`${job.title}`} />
-        <meta property="og:description" content={stripHtml(safeDescription)} />
-        <meta
-          property="og:url"
-          content={`https://sarkariresult.rest/jobs/${slug}`}
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:image"
-          content={job.image || "https://example.com/default-image.png"}
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={job.title} />
-        <meta name="twitter:description" content={stripHtml(safeDescription)} />
-        <meta
-          name="twitter:image"
-          content={job.image || "https://example.com/default-image.png"}
-        />
-      </Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}

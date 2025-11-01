@@ -224,19 +224,6 @@ export default async function Page({
 
   return (
     <>
-      <Head>
-        <title>{article.title} | Sarkari Result</title>
-        <meta name="description" content={article.description} />
-        <meta
-          name="keywords"
-          content={article.keywords || "Sarkari Naukri, Government Jobs"}
-        />
-        <link
-          rel="canonical"
-          href={`https://sarkariresult.rest/article/${article.slug}`}
-        />
-      </Head>
-
       {/* ✅ Combined structured data (NewsArticle + JobPosting + BreadcrumbList) */}
       <Script
         id="combined-schema"

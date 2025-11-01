@@ -4,10 +4,61 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
-import Script from "next/script"
 import SwgLoginButton from "@/components/SwgLoginButton"
 
 const inter = Inter({ subsets: ["latin"] })
+
+// ✅ Global SEO metadata (applies site-wide)
+export const metadata = {
+  title: {
+    default: "SarkariResult - Government Jobs, Results, Admit Cards",
+    template: "%s | SarkariResult",
+  },
+  description:
+    "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
+  keywords:
+    "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results, Sarkari Exam, Sarkari Result 2025",
+  metadataBase: new URL("https://sarkariresult.rest"),
+
+  openGraph: {
+    title: "SarkariResult - Government Jobs, Results, Admit Cards",
+    description:
+      "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
+    url: "https://sarkariresult.rest",
+    siteName: "SarkariResult",
+    locale: "en_IN",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "SarkariResult - Govt Jobs, Results, Admit Cards",
+    description:
+      "Get the latest Sarkari Naukri, Admit Cards, Results, and Answer Keys updates instantly.",
+  },
+
+  verification: {
+    google: "1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas",
+  },
+
+  // ✅ Favicons and Web Manifest
+  icons: {
+    icon: [
+      { url: "/fevicons/favicon.ico", sizes: "any" },
+      { url: "/fevicons/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/fevicons/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    apple: "/fevicons/apple-touch-icon.png",
+  },
+  manifest: "/fevicons/manifest.json",
+
+  // ✅ Microsoft browser config
+  other: {
+    "msapplication-TileColor": "#ffffff",
+    "msapplication-TileImage": "/fevicons/mstile-144x144.png",
+    "msapplication-config": "/fevicons/browserconfig.xml",
+  },
+}
 
 export default function RootLayout({
   children,
@@ -16,54 +67,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        {/* 🌍 Basic Meta */}
-        <title>SarkariResult - Government Jobs, Results, Admit Cards</title>
-        <meta
-          name="description"
-          content="Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest"
-        />
-        <meta
-          name="keywords"
-          content="Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results"
-        />
-        <meta property="og:site_name" content="SarkariResult" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_IN" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="google-site-verification" content="1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas" />
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {/* ✅ Navbar */}
+          <Navbar />
 
-        {/* ✅ Favicons */}
-        <link rel="icon" href="/fevicons/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/fevicons/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/fevicons/favicon-16x16.png" />
-        {/* <link rel="apple-touch-icon" sizes="180x180" href="/fevicon/apple-touch-icon.png" /> */}
-        <link rel="manifest" href="/fevicons/manifest.json" />
+          {/* ✅ Google News SwG */}
+          <SwgLoginButton />
 
-        {/* ✅ BrowserConfig for Windows */}
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/fevicons/mstile-144x144.png" />
-        <meta name="msapplication-config" content="/fevicons/browserconfig.xml" />
+          {/* ✅ Page Content */}
+          <main style={{ flex: 1, padding: "20px" }}>{children}</main>
 
-        {/* ✅ Sitemap & Feeds */}
-  
+          {/* ✅ Footer */}
+          <Footer />
+        </ThemeProvider>
 
-        {/* ✅ SwG Script */}
+        {/* ✅ Google News Script */}
         <script
           async
           type="application/javascript"
           src="https://news.google.com/swg/js/v1/swg-basic.js"
         ></script>
-      </head>
-
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <Navbar />
-          <SwgLoginButton />
-          <main style={{ flex: 1, padding: "20px" }}>{children}</main>
-          <Footer />
-        </ThemeProvider>
       </body>
     </html>
   )
