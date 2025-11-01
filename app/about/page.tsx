@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "About Sarkari Result | Government Job Portal India",
+  title: "About Sarkari Result",
   description:
     "Learn everything about Sarkari Result — India's most trusted portal for government jobs, admit cards, results, and exam updates. Stay updated with all Sarkari Naukri opportunities in India.",
   keywords:

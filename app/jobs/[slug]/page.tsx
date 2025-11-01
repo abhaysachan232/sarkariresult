@@ -34,22 +34,22 @@ export async function generateMetadata({
         )
       : undefined,
   }));
-  const job = jobs.find((j) => j.title.split(" ").join("-") === slug);
+  const job = jobs.find((j) => j.setPath.split(" ").join("-") === slug);
   if (!job) return { title: "Job Not Found" };
 
   return {
-    title: `${job.title} - ${job.organization} | SarkariResult`,
+    title: `${job.title}`,
     description: job.description,
     keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/jobs/${slug}` },
     openGraph: {
       title: job.title,
       description: job.description,
-      url: `https://sarkariresult.rest/job/${slug}`,
+      url: `https://sarkariresult.rest/jobs/${slug}`,
       type: "article",
       images: [
         {
-          url: job.image || "https://example.com/default-image.png",
+          url: job.image || "https://sarkariresult.rest/jobs-images/logo.png",
           width: 1200,
           height: 630,
         },
@@ -59,7 +59,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: job.title,
       description: job.description,
-      images: [job.image || "https://example.com/default-image.png"],
+      images: [job.image || "https://sarkariresult.rest/jobs-images/logo.png"],
     },
   };
 }
@@ -83,7 +83,7 @@ export default async function JobDetailsPage({
       : undefined,
   }));
 
-  const job = jobs.find((j) => j.title.split(" ").join("-") === slug);
+  const job = jobs.find((j) => j.setPath.split(" ").join("-") === slug);
   if (!job) return NotFound();
 
   // --- Related jobs (2 before, 2 after) ---
@@ -461,7 +461,7 @@ const jobPostingSchema = {
                   {relatedJobs.map((rj) => (
                     <li key={rj.id}>
                       <Link
-                        href={`/jobs/${rj.title.split(" ").join("-")}`}
+                        href={`/jobs/${rj.setPath.split(" ").join("-")}`}
                         className="text-blue-600 hover:underline"
                       >
                         {rj.title}

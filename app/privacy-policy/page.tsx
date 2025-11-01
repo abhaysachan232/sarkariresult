@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy - SarkariResult.rest",
+  title: "Privacy Policy Sarkari Result",
   description:
     "Read the Privacy Policy of SarkariResult.rest to understand how we collect, use, and protect your personal information while providing government job updates, results, and admit cards in India.",
   keywords:

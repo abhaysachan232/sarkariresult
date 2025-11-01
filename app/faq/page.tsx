@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FAQs - Sarkari Result | Government Job Help, Admit Cards & Results",
+  title: "FAQs - Sarkari Result",
   description:
     "Find detailed answers to frequently asked questions about Sarkari Result, including government job applications, admit cards, results, notifications, eligibility, and updates.",
   keywords:

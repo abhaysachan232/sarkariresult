@@ -3,7 +3,7 @@ import React from "react";
 
 // ✅ Step 1: SEO Metadata
 export const metadata = {
-  title: "Disclaimer | Sarkari Result Official Information Policy",
+  title: "Disclaimer Sarkari Result",
   description:
     "Read the official disclaimer of Sarkari Result. Learn how we source government job information, our accuracy policy, and your responsibility before relying on the content.",
   keywords:

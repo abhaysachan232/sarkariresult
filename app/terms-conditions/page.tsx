@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Terms & Conditions - Sarkari Result (Official)",
+  title: "Terms & Conditions Sarkari Result",
   description:
     "Read the official Terms and Conditions of SarkariResult.rest. Learn about our rules, disclaimer, content use, advertisement policy, and user responsibilities while using the Sarkari Result website for Sarkari Jobs, Admit Cards, and Results updates.",
   keywords:

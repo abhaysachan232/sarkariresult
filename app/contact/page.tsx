@@ -3,7 +3,7 @@ import React from "react";
 
 // ✅ Step 1: SEO Metadata (App Router style)
 export const metadata = {
-  title: "Contact Sarkari Result | Get in Touch with India’s Leading Sarkari Naukri Portal",
+  title: "Contact Sarkari Result",
   description:
     "Contact Sarkari Result for any questions, feedback, or corrections. Reach out via email or phone for updates on Sarkari Naukri, Results, Admit Cards, and Government Exams across India.",
   keywords:
