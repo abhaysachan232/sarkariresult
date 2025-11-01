@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
 import SwgLoginButton from "@/components/SwgLoginButton"
+import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -59,7 +60,7 @@ export const metadata = {
     "msapplication-config": "/fevicons/browserconfig.xml",
   },
 }
-
+const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -67,7 +68,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+
       <body className={inter.className}>
+        {/* <!-- Google tag (gtag.js) --> */}
+<Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
