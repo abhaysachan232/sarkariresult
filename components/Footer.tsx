@@ -31,7 +31,7 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4"></h3>
               <ul className="space-y-2">
-                {["about", "contact", "disclaimer", "faq", "privacy","terms"].map((portal) => (
+                {["about", "contact", "disclaimer", "faq", "privacy-policy","terms-conditions"].map((portal) => (
                   <li key={portal}>
                     <Link  href={`/${portal}`} className="text-sm hover:underline">
                       {portal}
