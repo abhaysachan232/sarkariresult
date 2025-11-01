@@ -15,6 +15,7 @@ import JobCard from "@/components/job-card";
 import datas from "../../../public/jobs.json";
 import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
+import Faq from "../../../components/faq"
 
 export async function generateMetadata({
   params,
@@ -451,6 +452,8 @@ const jobPostingSchema = {
                 </tbody>
               </table>
             </div>
+            <Faq/>
+
           </main>
 
           {/* Right Sidebar */}

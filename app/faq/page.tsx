@@ -1,199 +1,186 @@
-import Head from "next/head";
+// app/faq/page.tsx
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "FAQs - Sarkari Result | Government Job Help, Admit Cards & Results",
+  description:
+    "Find detailed answers to frequently asked questions about Sarkari Result, including government job applications, admit cards, results, notifications, eligibility, and updates.",
+  keywords:
+    "Sarkari Result FAQs, Sarkari Naukri Questions, Sarkari Exam Help, Govt Job Guide, Admit Card Download, Result Checking, SarkariResult Info, Sarkari Update, Online Form Help",
+  alternates: {
+    canonical: "https://sarkariresult.rest/faqs",
+  },
+};
 
 export default function FAQs() {
   const faqs = [
     {
-      question: "How do I apply for a government job?",
-      answer: `
-        Applying for a government job in India requires a systematic approach. First, visit the official recruitment notification issued by the concerned department such as SSC, UPSC, State PSC, Police Department, or Railway Board. Carefully read the eligibility criteria, including age limit, educational qualification, and physical standards if applicable.
-        
-        Once confirmed, visit the official online application link. Fill out the form accurately — providing details like name, address, category, educational background, and experience. Upload your scanned photograph, signature, and certificates as mentioned in the notification. Then pay the application fee online through debit card, credit card, UPI, or net banking.
-
-        Always download a copy of the completed application form and keep the acknowledgment number safe for future use. Websites like Sarkari Result or Sarkari Naukri Portal provide verified links to apply directly for official vacancies.
-      `,
+      question: "What is Sarkari Result?",
+      answer:
+        "Sarkari Result is a trusted portal for all government job aspirants in India. It provides accurate and timely updates about Sarkari exams, online forms, admit cards, results, and recruitment notices from official government sources. This website is designed to simplify the process of staying updated with all job opportunities released by central and state governments.",
     },
     {
-      question: "Where can I download admit cards?",
-      answer: `
-        Admit cards are released by the examination authority a few days before the exam date. Candidates can download them by visiting the official website of the organization conducting the exam — for example, SSC, RRB, UPSC, or State Service Commission.
-
-        On the official site, look for the “Admit Card” or “Hall Ticket” section. Then, enter your registration number and date of birth to log in. After verification, you can download and print your admit card. Sarkari Result also provides a separate section for admit cards, offering direct and safe links verified from official sources.
-
-        It’s important to check all details on your admit card — such as your name, photograph, exam center, and exam date — to ensure everything is correct. If you find any discrepancy, contact the respective authority immediately.
-      `,
+      question: "How can I apply for a Sarkari Naukri?",
+      answer:
+        "To apply for any Sarkari job, first read the official notification carefully. You can find the eligibility criteria, application dates, fees, and required documents. Then visit the official portal (like ssc.gov.in, upsc.gov.in, or state PSC websites) and fill out the online form. On Sarkari Result, we provide verified direct application links to save your time.",
     },
     {
-      question: "How will I know about new job notifications?",
-      answer: `
-        Keeping track of all new job notifications can be overwhelming since different government bodies release vacancies at different times. The most effective method is to follow trusted portals like Sarkari Result, SarkariExam, and Employment News. These platforms regularly update new job openings across central and state governments.
-
-        You can also subscribe to email alerts or push notifications from Sarkari Result to get instant updates. For example, if you are preparing for SSC CGL, UPSC, or Railway exams, you can receive notifications whenever new application forms or results are released.
-
-        Additionally, you can bookmark categories based on your interests — such as Police Jobs, Defence Jobs, Teaching Jobs, Banking Jobs, or State-specific recruitments like UPPSC, BPSC, or MPESB. This ensures you never miss an update relevant to your qualification.
-      `,
+      question: "How do I know which government jobs are currently open?",
+      answer:
+        "You can visit the homepage of Sarkari Result daily where we list all the latest and active recruitment forms. Jobs are categorized by organizations, qualifications, and states. You can also use the search feature to find jobs based on your interests, like teaching, banking, defense, or railway.",
+    },
+    {
+      question: "Where can I download admit cards for government exams?",
+      answer:
+        "You can download admit cards from the official website of the respective recruitment board. However, Sarkari Result provides one-click access to the latest admit cards section so that you never miss your exam updates. We list admit cards for SSC, UPSC, State Police, Railway, Bank, and all other government exams.",
+    },
+    {
+      question: "How will I get updates about new job notifications?",
+      answer:
+        "You can bookmark Sarkari Result or subscribe to notifications. We update every new government job alert instantly. Additionally, you can follow our Telegram channel or visit our ‘Latest Jobs’ page to stay informed.",
     },
     {
       question: "Is Sarkari Result an official government website?",
-      answer: `
-        No, Sarkari Result is not an official government website. It is an independent private portal that provides updates and verified links to official government notifications, application forms, admit cards, and results. The main goal of Sarkari Result is to make it easier for students and job seekers to find accurate information without visiting multiple sites.
-
-        We strictly source data only from official government websites like ssc.gov.in, upsc.gov.in, rrbcdg.gov.in, upsssc.gov.in, and other legitimate portals. However, we always recommend candidates verify details with the official site before applying to avoid any confusion or outdated information.
-      `,
+      answer:
+        "No. Sarkari Result is an independent private portal that curates information from official government websites and recruitment boards. We do not conduct any recruitment or examination. All application forms are submitted on official portals only.",
     },
     {
-      question: "Can I trust the information on Sarkari Result?",
-      answer: `
-        Yes, the information on Sarkari Result is compiled carefully from official government notifications, press releases, and verified circulars. Our editorial team ensures that every update — from application dates to result announcements — matches the official notice published by the concerned authority.
-
-        Each post on our website includes important details like eligibility, age limit, exam pattern, syllabus, application fees, and direct official links. We do not post speculative or unconfirmed news. Moreover, we mention the official website of the recruiting organization in every article so that candidates can cross-check directly.
-      `,
+      question: "Can I trust the information available on Sarkari Result?",
+      answer:
+        "Absolutely. We only post verified information from government sources like employment newspapers, official notifications, and press releases. Still, we always recommend candidates verify details on the official website before final submission.",
     },
     {
-      question: "What are the benefits of government jobs in India?",
-      answer: `
-        Government jobs offer long-term stability, job security, and numerous benefits that private jobs rarely match. Employees receive a fixed salary, timely promotions, dearness allowance, house rent allowance, and pension after retirement. Apart from financial security, government employees enjoy additional perks like medical facilities, travel allowances, and housing benefits.
-
-        Moreover, working in a government department brings social respect and recognition. Many positions also allow employees to contribute directly to the development of the country — such as working in defense, education, or healthcare sectors. These factors make Sarkari Naukri one of the most sought-after career choices for youth.
-      `,
+      question: "Does Sarkari Result charge any fees?",
+      answer:
+        "No, we never charge money for providing information. Our portal is completely free to access. However, you may have to pay the official application fee on the respective government website while filling out the form.",
     },
     {
-      question: "Which are the most popular government exams in India?",
-      answer: `
-        India conducts a wide range of competitive exams every year for recruitment in various departments. Some of the most popular ones include:
-        - SSC CGL, CHSL, and MTS exams for central government departments.
-        - UPSC Civil Services Examination (IAS, IPS, IFS).
-        - Railway Recruitment Board (RRB) NTPC, Group D, and JE exams.
-        - State Public Service Commission exams such as UPPSC, BPSC, and MPPSC.
-        - Defence exams like NDA, CDS, AFCAT, and CAPF.
-        - Banking exams like IBPS PO, Clerk, and SBI exams.
-        - Teaching exams like CTET, UPTET, and KVS recruitment.
-
-        Each of these exams has its own eligibility criteria and selection process. Aspirants are advised to prepare strategically and follow previous year papers for better understanding.
-      `,
+      question: "How can I check my Sarkari Result or exam score?",
+      answer:
+        "You can visit the ‘Results’ section on our website. We categorize results by date and organization for easy access. Click on the desired exam result, and we provide you a direct link to the official website where you can check or download your result.",
     },
     {
-      question: "How can I prepare for Sarkari exams effectively?",
-      answer: `
-        Preparation for government exams requires consistency and a well-structured study plan. Start by understanding the syllabus and exam pattern. Divide subjects into daily study goals — for instance, one day for quantitative aptitude, one for reasoning, and another for general awareness.
-
-        Use standard study materials like NCERT books for basics and trusted guidebooks for advanced topics. Practice mock tests regularly to improve time management and accuracy. Many aspirants also join online coaching classes or follow YouTube channels for concept clarity.
-
-        Revision plays a crucial role — create short notes and revise them frequently. Lastly, stay motivated and patient; most successful candidates clear exams after several attempts.
-      `,
+      question: "How often is Sarkari Result updated?",
+      answer:
+        "Our content team updates the website 24×7. Every time a new notification, admit card, or result is released by any government body, we verify and publish it within minutes. You can rely on Sarkari Result as your one-stop destination for timely updates.",
     },
     {
-      question: "What is the difference between Central and State Government jobs?",
-      answer: `
-        Central Government jobs are offered by organizations that operate at the national level — such as the Indian Railways, Income Tax Department, Defence Services, and Central Secretariat. These jobs usually have transfers across India and follow pay scales defined by the 7th Central Pay Commission.
-
-        State Government jobs, on the other hand, are limited to the respective state jurisdiction. They include roles in state police, revenue, education, and public works departments. The recruitment process is conducted by State PSCs or local recruitment boards.
-
-        While both offer stability, the choice depends on personal preference — Central jobs provide nationwide exposure, while State jobs allow candidates to serve within their home region.
-      `,
+      question: "Does Sarkari Result provide syllabus or previous year papers?",
+      answer:
+        "Yes. We regularly publish exam syllabi, pattern details, and previous year question papers for major exams like SSC, UPSC, Railway, Bank, and State-level PSC exams. These help candidates in effective preparation.",
     },
     {
-      question: "Why should I follow Sarkari Result daily?",
-      answer: `
-        Sarkari Result is a one-stop destination for all government job updates, admit cards, syllabus, results, and answer keys. By visiting it daily, you stay ahead of others who might miss critical deadlines.
-
-        It’s especially useful for aspirants who are preparing for multiple exams simultaneously. With dedicated sections for Central, State, Defence, Railway, and Teaching jobs, you can easily find the exact vacancy relevant to your qualification. Each page includes all important details in one place — saving you hours of searching online.
-      `,
+      question: "How can I prepare for government exams?",
+      answer:
+        "First, understand the syllabus and exam pattern. Then make a study plan that includes daily reading of current affairs, previous papers, and mock tests. We also link to recommended preparation materials and official websites.",
+    },
+    {
+      question: "Can I apply for multiple government jobs at the same time?",
+      answer:
+        "Yes, you can apply for as many government jobs as you are eligible for. However, you must check the exam schedule to ensure there are no date clashes between tests.",
+    },
+    {
+      question: "Which government jobs are best after graduation?",
+      answer:
+        "After graduation, candidates can apply for UPSC Civil Services, SSC CGL, Banking (IBPS/ SBI PO), State PSC, Railway NTPC, and Defense exams. Sarkari Result lists all such graduate-level opportunities with direct links.",
+    },
+    {
+      question: "Do I need to register on Sarkari Result?",
+      answer:
+        "No registration is required. All pages, forms, and updates are publicly available. However, if you subscribe to our notification service, you can receive instant updates through email or browser alerts.",
+    },
+    {
+      question: "How can I report an error or broken link?",
+      answer:
+        "If you find any incorrect information or non-working link, you can contact our support team via the Contact Page. We actively monitor and fix any reported issues immediately to maintain accuracy.",
     },
   ];
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
-    <>
-      <Head>
-        <title>
-          FAQs - Sarkari Result | Common Questions About Govt Jobs and Exams
-        </title>
-        <meta
-          name="description"
-          content="Find answers to the most frequently asked questions about Sarkari Result, government jobs, admit cards, exam preparation, results, eligibility, and official notifications."
-        />
-        <meta
-          name="keywords"
-          content="Sarkari Result FAQ, government job guide, how to apply online, Sarkari exam preparation, Sarkari Naukri information, admit card help, government vacancy 2025, result updates, SSC UPSC RRB PSC"
-        />
-        <link rel="canonical" href="https://sarkariresult.rest/faqs" />
-      </Head>
+    <main className="container mx-auto px-4 py-10 max-w-4xl">
+      <h1 className="text-4xl font-bold mb-6 text-center">
+        Frequently Asked Questions (FAQs)
+      </h1>
+      <p className="text-gray-700 text-lg mb-10 text-center">
+        Welcome to the official FAQ page of <strong>Sarkari Result</strong>.
+        Below you’ll find detailed answers to common questions about Sarkari
+        exams, recruitment, admit cards, results, and eligibility. Whether
+        you’re applying for your first government job or preparing for your next
+        big opportunity, this guide will help you understand everything about
+        the process — from filling online forms to checking results.
+      </p>
 
-      <main className="container mx-auto p-4 space-y-6">
-        <h1 className="text-4xl font-bold mb-4 text-center">
-          Frequently Asked Questions (FAQs)
-        </h1>
-        <p className="text-gray-700 text-lg text-center mb-6 leading-relaxed">
-          Welcome to the comprehensive FAQ section of{" "}
-          <strong>Sarkari Result</strong>. Here you’ll find detailed answers to
-          the most common queries asked by aspirants preparing for various{" "}
-          <strong>government exams, recruitment processes, and results</strong>.
-          Whether you’re a first-time applicant or an experienced candidate,
-          this guide covers everything from application steps to preparation
-          strategies and job benefits.
-        </p>
-
-        <div className="space-y-3">
-          {faqs.map((faq, idx) => (
-            <div key={idx} className="border border-gray-300 rounded-lg shadow">
-              <input
-                type="checkbox"
-                id={`faq-${idx}`}
-                className="peer hidden"
-              />
-              <label
-                htmlFor={`faq-${idx}`}
-                className="flex justify-between items-center cursor-pointer p-4 font-semibold text-lg bg-gray-100 hover:bg-gray-200 transition"
-              >
-                {faq.question}
-                <span className="text-xl text-gray-600 transition-transform duration-200 peer-checked:rotate-45">
+      <section className="space-y-4">
+        {faqs.map((faq, idx) => (
+          <div
+            key={idx}
+            className="border border-gray-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+          >
+            <details className="group">
+              <summary className="cursor-pointer p-4 font-semibold text-lg bg-gray-100 hover:bg-gray-200 flex justify-between items-center">
+                <span>{faq.question}</span>
+                <span className="text-xl text-gray-600 group-open:rotate-45 transition-transform">
                   +
                 </span>
-              </label>
-              <div className="max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-[2000px] p-0 peer-checked:p-4 bg-white text-gray-700 border-t border-gray-200 whitespace-pre-line leading-relaxed">
+              </summary>
+              <div className="p-4 text-gray-700 leading-relaxed bg-white">
                 {faq.answer}
               </div>
-            </div>
-          ))}
-        </div>
+            </details>
+          </div>
+        ))}
+      </section>
 
-        <section className="text-gray-700 mt-10 leading-relaxed">
-          <h2 className="text-2xl font-bold mb-2 text-center">
-            Final Words — Your Gateway to Sarkari Opportunities
-          </h2>
-          <p>
-            The government job ecosystem in India is massive, and understanding
-            how it functions is crucial for success. From UPSC and SSC to
-            Railway, Defence, and State-level recruitments, every organization
-            follows a unique structure. Sarkari Result simplifies this journey
-            for you by organizing all official data, forms, and notifications in
-            one reliable place.
-          </p>
-          <p className="mt-3">
-            Bookmark our site, visit regularly, and follow the latest{" "}
-            <strong>Govt Job Updates</strong>, <strong>Admit Cards</strong>,{" "}
-            <strong>Results</strong>, and <strong>Answer Keys</strong> for all
-            major exams. Whether you aim for IAS, Teacher, Constable, or Clerk —
-            we help you stay informed and one step ahead.
-          </p>
-          <p className="mt-3">
-            Visit our{" "}
-            <Link href="/" className="text-blue-600 hover:underline">
-              Homepage
-            </Link>{" "}
-            for trending government vacancies, or explore{" "}
-            <Link href="/results" className="text-blue-600 hover:underline">
-              Latest Results
-            </Link>{" "}
-            and{" "}
-            <Link href="/admit-card" className="text-blue-600 hover:underline">
-              Admit Card Updates
-            </Link>
-            . We’re committed to providing accurate, official, and timely
-            information to every aspirant in India.
-          </p>
-        </section>
-      </main>
-    </>
+      <div className="text-center mt-10 text-gray-600">
+        Still have questions? Visit our{" "}
+        <Link href="/contact" className="text-blue-600 hover:underline">
+          Contact Page
+        </Link>{" "}
+        or learn more on our{" "}
+        <Link href="/about" className="text-blue-600 hover:underline">
+          About Page
+        </Link>
+        .
+      </div>
+
+      <div className="mt-12 text-sm text-gray-500 text-justify leading-relaxed">
+        <p>
+          Sarkari Result is one of India’s most trusted sources for authentic
+          government job information. Our mission is to bridge the gap between
+          candidates and official government opportunities. With regular updates
+          across all categories — central, state, banking, teaching, defense,
+          and PSU — we ensure that aspirants get real-time access to the latest
+          opportunities without the hassle of navigating multiple official
+          portals. Whether you’re a student preparing for SSC exams or a
+          professional aiming for PSU recruitment, we are here to help.
+        </p>
+        <p className="mt-3">
+          Every page on Sarkari Result follows SEO-friendly and accessibility
+          guidelines, ensuring smooth browsing for users and better visibility
+          on search engines. We continuously enhance our platform to make it
+          faster, more responsive, and easier to use for everyone in India.
+        </p>
+      </div>
+
+      {/* ✅ FAQ Schema JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+    </main>
   );
 }
