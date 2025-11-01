@@ -54,7 +54,7 @@ export async function generateMetadata({
   if (!job) return { title: "Job Not Found" };
 
   return {
-    title: `${job.title} - ${job.organization} | SarkariResult`,
+    title: `${job.title}`,
     description: job.description,
     keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/article/${slug}` },
