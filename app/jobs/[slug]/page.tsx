@@ -15,7 +15,8 @@ import JobCard from "@/components/job-card";
 import datas from "../../../public/jobs.json";
 import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
-import Faq from "../../../components/faq"
+import Faq from "../../../components/faq";
+import { getShortTitle } from "@/components/utils/getShortTitle";
 
 export async function generateMetadata({
   params,
@@ -35,10 +36,11 @@ export async function generateMetadata({
       : undefined,
   }));
   const job = jobs.find((j) => j.setPath.split(" ").join("-") === slug);
+  const shortTitle = getShortTitle(job?.title || "");
   if (!job) return { title: "Job Not Found" };
 
   return {
-    title: `${job.title}`,
+    title: `${shortTitle}`,
     description: job.description,
     keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/jobs/${slug}` },

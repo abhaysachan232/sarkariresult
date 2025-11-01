@@ -4,6 +4,7 @@ import Head from "next/head";
 import Script from "next/script";
 import dataJson from "../../../public/articles.json";
 import Link from "next/link";
+import { getShortTitle } from "@/components/utils/getShortTitle";
 // import { useParams } from "next/navigation";
 
 // ✅ Types
@@ -51,10 +52,12 @@ export async function generateMetadata({
       : undefined,
   }));
   const job = jobs.find((j) => j.slug === slug);
+    const shortTitle = getShortTitle(job?.title || "");
+
   if (!job) return { title: "Job Not Found" };
 
   return {
-    title: `${job.title}`,
+    title: `${shortTitle}`,
     description: job.description,
     keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/article/${slug}` },
