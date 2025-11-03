@@ -118,7 +118,7 @@ export async function GET() {
     )
     .join('')}
 
-  ${["about", "contact", "disclaimer", "faq", "privacy","terms"]
+  ${["about", "contact", "disclaimer", "faq", "privacy-policy","terms-conditions"]
     .map(
       (page) => `
     <url>
