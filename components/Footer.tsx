@@ -40,7 +40,7 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h3 className="text-lg font-semibold mb-4">Job Categories</h3>
               <ul className="space-y-2">
                 {["Central Govt Jobs", "State Govt Jobs", "Banking Jobs", "Teaching Jobs", "Railway Jobs"].map(
@@ -53,7 +53,7 @@ export default function Footer() {
                   ),
                 )}
               </ul>
-            </div>
+            </div> */}
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
               <ul className="space-y-2">

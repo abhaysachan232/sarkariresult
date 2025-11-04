@@ -58,8 +58,8 @@ export default async function Home() {
           <Link  href="/latest-jobs" className="hover:underline text-blue-600">Latest Jobs</Link>
           <Link href="/admit-card" className="hover:underline text-blue-600">Admit Cards</Link>
           <Link href="/results" className="hover:underline text-blue-600">Results</Link>
-          <Link href="/bank-jobs" className="hover:underline text-blue-600">Bank Jobs</Link>
-          <Link href="/railway-jobs" className="hover:underline text-blue-600">Railway Jobs</Link>
+          {/* <Link href="/bank-jobs" className="hover:underline text-blue-600">Bank Jobs</Link> */}
+          {/* <Link href="/railway-jobs" className="hover:underline text-blue-600">Railway Jobs</Link> */}
         </nav>
       </section>
 
