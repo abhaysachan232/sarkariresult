@@ -39,7 +39,11 @@ export const metadata = {
   },
 
   verification: {
-    google: "1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas",
+    // google: "1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas",
+     google: [
+      "1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas", // Search Console (old)
+      "ca-pub-9833711276765412", // AdSense (new)
+    ],
   },
 
   // ✅ Favicons and Web Manifest
@@ -71,12 +75,7 @@ export default function RootLayout({
 
       <body className={inter.className}>
         {/* <!-- Google tag (gtag.js) --> */}
-      <Script
-        id="adsense-verify"
-        async
-        strategy="afterInteractive"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9833711276765412"
-      />
+
      
 <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
