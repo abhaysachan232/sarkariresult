@@ -40,10 +40,9 @@ export const metadata = {
 
   verification: {
     // google: "1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas",
-     google: [
-      "1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas", // Search Console (old)
-      "ca-pub-9833711276765412", // AdSense (new)
-    ],
+     google:"1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas" // Search Console (old)
+    
+    ,
   },
 
   // ✅ Favicons and Web Manifest
