@@ -54,7 +54,7 @@ export default function Footer() {
                 )}
               </ul>
             </div> */}
-            <div>
+            {/* <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
               <ul className="space-y-2">
                 <li className="text-sm">Email: abhaysachan232@gmail.com</li>
@@ -68,7 +68,7 @@ export default function Footer() {
                   ))}
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="mt-8 border-t pt-8 text-center">
             <p className="text-sm text-muted-foreground">
