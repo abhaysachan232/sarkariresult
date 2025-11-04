@@ -71,18 +71,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-  <head>
-        {/* ✅ Google Search Console verify */}
-        <meta
-          name="google-site-verification"
-          content="1GbNeWCS6tHMyMZrSbM_4KyX0sJFlq3TdwUINMtgMas"
-        />
-        {/* ✅ Google AdSense verify */}
-        <meta
-          name="google-site-verification"
-          content="ca-pub-9833711276765412"
-        />
-      </head>
       <body className={inter.className}>
         {/* <!-- Google tag (gtag.js) --> */}
 
