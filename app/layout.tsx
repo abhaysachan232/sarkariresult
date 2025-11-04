@@ -71,10 +71,18 @@ export default function RootLayout({
 
       <body className={inter.className}>
         {/* <!-- Google tag (gtag.js) --> */}
+      <Script
+        id="adsense-verify"
+        async
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9833711276765412"
+      />
+     
 <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
         />
+        
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
