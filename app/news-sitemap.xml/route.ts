@@ -7,6 +7,7 @@ export const runtime = "nodejs";
 type Job = {
   title: string;
   updatedon?: string;
+  setpath?:string;
 };
 
 type Article = {
@@ -25,7 +26,7 @@ export async function GET() {
     const recentJobsXml = (jobs as Job[])
       .filter((j) => j.updatedon && now - new Date(j.updatedon).getTime() < 48 * 60 * 60 * 1000)
       .map((j) => {
-        const slug = j.title.split(" ").join("-");
+        const slug = j.setpath.split(" ").join("-");
         const pubDate = new Date(j.updatedon!).toISOString();
         const title = sanitize(j.title);
         return `

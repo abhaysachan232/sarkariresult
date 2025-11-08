@@ -36,7 +36,7 @@ export default function StateJobsClient({
             transition={{ duration: 0.3, delay: index * 0.1 }}
             className="rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-lg transition-shadow duration-300"
           >
-            <Link href={`/jobs/${job.title.split(" ").join("-")}`}>
+            <Link href={`/jobs/${job.setpath.split(" ").join("-")}`}>
               <div className="p-6">
                 <div className="flex justify-between text-xs mb-3">
                   <span className="bg-blue-600 text-white px-2 py-1 rounded-sm">

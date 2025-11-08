@@ -31,7 +31,7 @@ export default function NewsMarquee() {
           className="whitespace-nowrap"
         >
           {datas.map((item, index) => (
-            <Link href={`/jobs/${item.title.split(" ").join("-")}`}>
+            <Link key={index} href={`/jobs/${item.setPath.split(" ").join("-")}`}>
             <span key={index} className="inline-block mx-4">
               {item.title}
             </span>

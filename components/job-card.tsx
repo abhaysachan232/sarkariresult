@@ -212,7 +212,7 @@ export default function JobCard({ data, selection, category }: JobCardProps) {
             <ul style={{ listStyle: "disc", padding: "15px 20px", margin: 0 }}>
               {categoryJobs.map((job: any, index: number) => (
                 <li key={index} style={{ marginBottom: "10px", fontSize: "14px" }}>
-                  <Link href={`/jobs/${job.title.split(" ").join("-")}`}>
+                  <Link href={`/jobs/${job.setPath.split(" ").join("-")}`}>
                     <span
                       style={{
                         color: "blue",

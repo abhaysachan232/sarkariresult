@@ -41,7 +41,7 @@ export default function LiveTicker() {
             transition={{ duration: 0.3 }}
             className="flex items-center"
           >
-            <Link href={`/jobs/${datas[currentIndex].title.split(" ").join("-")}`}> <span>{datas[currentIndex].title}</span></Link>
+            <Link href={`/jobs/${datas[currentIndex].setPath.split(" ").join("-")}`}> <span>{datas[currentIndex].title}</span></Link>
             {currentIndex === datas.length-1 && (
               <Badge variant="outline" className="ml-2 bg-red-500 text-white border-red-500">
                 Urgent
