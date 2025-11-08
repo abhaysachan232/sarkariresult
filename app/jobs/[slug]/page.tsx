@@ -40,9 +40,9 @@ export async function generateMetadata({
   if (!job) return { title: "Job Not Found" };
 
   return {
-    title: `${shortTitle}`,
-    description: job.description,
-    keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
+    title: job.id<43? `${shortTitle}`:`${job.seo.metaTitle}`,
+    description: job.id<43?`${job.description}`:`${job.seo.metaDescription}`,
+    keywords: job.id<43?`${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`:`${job.seo.keywords}, Sarkari Naukri, Sarkari Result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/jobs/${slug}` },
     openGraph: {
       title: job.title,
