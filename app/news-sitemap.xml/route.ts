@@ -7,7 +7,7 @@ export const runtime = "nodejs";
 type Job = {
   title: string;
   updatedon?: string;
-  setPath?:string;
+  setPath: string;
 };
 
 type Article = {
