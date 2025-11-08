@@ -7,7 +7,7 @@ export const runtime = 'nodejs';
 type Job = {
   title: string;
   updatedon: string;
-  setpath:string;
+  setPath:string;
 };
 type art = {
   title: string;
@@ -97,7 +97,7 @@ export async function GET() {
         const lastmod = new Date(job.updatedon).toISOString().split('T')[0];
         return `
     <url>
-      <loc>https://sarkariresult.rest/jobs/${job.setpath.split(" ").join("-")}</loc>
+      <loc>https://sarkariresult.rest/jobs/${job.setPath.split(" ").join("-")}</loc>
       <lastmod>${lastmod}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
