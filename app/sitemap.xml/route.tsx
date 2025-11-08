@@ -45,6 +45,7 @@ export async function GET() {
     const jobs: Job[] = (datas as any[]).map((job) => ({
       title: job.title,
       updatedon: job.updatedon || new Date().toISOString(),
+      setPath: job.setPath
     }));
 
     const Articl: art[] = (article as any[]).map((job) => ({
