@@ -213,10 +213,10 @@ export default function PrivacyPolicy() {
       <p className="mt-2">
         📧 <strong>Email:</strong>{" "}
         <a
-          href="mailto:sachanabhay982@gmail.com"
+          href="mailto:support@sarkariresult.rest"
           className="text-blue-600 hover:underline"
         >
-          sachanabhay982@gmail.com
+          support@sarkariresult.rest
         </a>
         <br />
         📞 <strong>Mobile:</strong> 9580311217

@@ -153,8 +153,8 @@ export default function Terms() {
       <ul className="pl-6 space-y-2">
         <li>
           📧 <strong>Email:</strong>{" "}
-          <a href="mailto:sachanabhay982@gmail.com" className="text-blue-600 hover:underline">
-            sachanabhay982@gmail.com
+          <a href="mailto:support@sarkariresult.rest" className="text-blue-600 hover:underline">
+            support@sarkariresult.rest
           </a>
         </li>
         <li>
