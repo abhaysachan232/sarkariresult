@@ -17,6 +17,7 @@ import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
 import Faq from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
+import JobImage from "@/components/JobImage";
 
 export async function generateMetadata({
   params,
@@ -256,7 +257,7 @@ const jobPostingSchema = {
           url={`https://sarkariresult.rest/jobs/${slug}`}
           title={job.title}
         />
-
+<JobImage slug={job.setPath}/>
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column */}
