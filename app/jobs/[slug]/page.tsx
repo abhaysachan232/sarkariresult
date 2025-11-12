@@ -306,15 +306,16 @@ const jobPostingSchema = {
                     dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
                   />
                 </li>
-                <li>
-                  <b>Application Start Date:</b> {job.importantDates.start}
-                </li>
-                <li>
-                  <b>Application Last Date:</b> {job.importantDates.lastDate}
-                </li>
-                <li>
-                  <b>Exam Date:</b> {job.importantDates.examDate}
-                </li>
+
+                {
+                  Object.entries(job.importantDates).map(([key, value]) => {
+                    return (
+                      <li key={key}>
+                        <b>{key}</b> {String(value)}
+                      </li>
+                    );
+                  })
+                }
                 <li>
                   <b>Official Website:</b> {job.links?.official ?? "N/A"}
                 </li>
