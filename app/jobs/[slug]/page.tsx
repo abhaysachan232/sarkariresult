@@ -195,14 +195,43 @@ const jobPostingSchema = {
     : undefined,
   url: `https://sarkariresult.rest/jobs/${slug}`,
 };
-
+const newsSchema = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  headline: job.title,
+  description: sanitizeHtml(String(job.description || ""), {
+    allowedTags: [],
+    allowedAttributes: {},
+  }),
+  image: [`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+      job.title
+    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`],
+  datePublished: job.date,
+  dateModified: job.updatedon || job.date,
+  author: {
+    "@type": "Organization",
+    name: "Sarkari Result",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Sarkari Result",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://sarkariresult.rest/jobs-images/logo.png",
+    },
+  },
+  mainEntityOfPage: `https://sarkariresult.rest/jobs/${slug}`,
+};
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPostingSchema) }}
-      />
+     <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify([jobPostingSchema, newsSchema]),
+  }}
+/>
+
       <article className="min-h-screen">
         {/* Hero Banner */}
         <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
@@ -217,7 +246,7 @@ const jobPostingSchema = {
                 fill
                 className="w-full h-64 md:h-96 object-cover rounded"
                 sizes="(max-width: 768px) 100vw, 1200px"
-                unoptimized
+                unoptimized                
               />
             </div>
             
