@@ -30,7 +30,14 @@ export async function generateMetadata(): Promise<Metadata> {
       "Sarkari Result: Latest government jobs, admit cards, exam results, answer keys, recruitment notifications, and online forms updates.",
     keywords:
       "Sarkari Result, Government Jobs, Sarkari Naukri, Latest Jobs, Admit Card, Results, Online Form",
-    alternates: { canonical: url }
+    alternates: { canonical: url },
+    icons: {
+      icon: "/favicon/favicon.ico",
+      shortcut: "/favicon/icon1.png",
+      other: [
+        { rel: "manifest", url: "/favicon/manifest.json" }
+      ]
+    },
   };
 }
 

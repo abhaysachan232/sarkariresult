@@ -49,32 +49,5 @@ We aim to simplify job hunting by providing **real-time verified updates** and o
 git clone https://github.com/abh
 
 
-<div className="w-16 h-16 relative flex-shrink-0">
-                        <Image
-                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.title
-    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
-                          alt={rj.title}
-                          fill
-                          className="object-cover rounded"
-                          width={1200}
-                          height={600}
-                          unoptimized
-                        />
-                      </div>
 
 
-<div className="container max-w-5xl mx-auto px-4">
-            {/* Job Image using Next.js Image */}
-            <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
-              <Image
-                src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.title
-    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
-                alt={job.title}
-                fill
-                className="w-full h-64 md:h-96 object-cover rounded"
-                sizes="(max-width: 768px) 100vw, 1200px"
-                unoptimized
-              />
-            </div>
