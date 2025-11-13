@@ -135,6 +135,7 @@ export default async function JobDetailsPage({
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 1200px"
+                unoptimized
               />
             </div>
 
@@ -231,6 +232,7 @@ export default async function JobDetailsPage({
                           className="object-cover rounded"
                           width={1200}
                           height={600}
+                          unoptimized
                         />
                       </div>
                       <Link
