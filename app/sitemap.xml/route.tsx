@@ -107,16 +107,16 @@ export async function GET() {
         .split(" ")
         .join("-")}</loc>
       <lastmod>${lastmod}</lastmod>
-      <image:image>
-  <image:loc>${`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+      <changefreq>daily</changefreq>
+      <priority>0.9</priority>
+  <image:image>
+  <image:loc>https://sarkariresult.rest/api/og?title=${encodeURIComponent(
     job.title
   )}&footerText=${encodeURIComponent(
     job.organization
-  )}&type=minimal`}</image:loc>
+  )}&type=minimal</image:loc>
   <image:caption>${job.title}</image:caption>
 </image:image>
-      <changefreq>daily</changefreq>
-      <priority>0.9</priority>
     </url>`;
     })
     .join("")}
@@ -127,12 +127,12 @@ export async function GET() {
     <url>
       <loc>https://sarkariresult.rest/article/${job.slug}</loc>
       <lastmod>${lastmod}</lastmod>
-       <image:image>
-  <image:loc>${`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+  <image:image>
+  <image:loc>https://sarkariresult.rest/api/og?title=${encodeURIComponent(
     job.title
   )}&footerText=${encodeURIComponent(
     job.organization
-  )}&type=minimal`}</image:loc>
+  )}&type=minimal</image:loc>
   <image:caption>${job.title}</image:caption>
 </image:image>
     </url>`;
