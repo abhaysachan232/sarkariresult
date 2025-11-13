@@ -6,6 +6,8 @@ export const runtime = "edge";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
+  console.log(req.url);
+  
   const title = searchParams.get("title") || "Default Title";
   const footer = searchParams.get("footerText") || "";
 
