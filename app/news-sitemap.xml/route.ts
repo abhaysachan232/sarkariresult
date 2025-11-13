@@ -44,14 +44,7 @@ export async function GET() {
       <news:title>${title}</news:title>
     </news:news>
 
-  <image:image>
-  <image:loc>https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-    title
-  )}&footerText=${encodeURIComponent(
-    organization
-  )}&type=minimal</image:loc>
-  <image:caption>${title}</image:caption>
-</image:image>
+
   </url>`;
       })
       .join("");
@@ -78,14 +71,7 @@ export async function GET() {
       <news:publication_date>${pubDate}</news:publication_date>
       <news:title>${title}</news:title>
     </news:news>
-          <image:image>
-  <image:loc>https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-    title
-  )}&footerText=${encodeURIComponent(
-    org
-  )}&type=minimal</image:loc>
-  <image:caption>${title}</image:caption>
-</image:image>
+         
   </url>`;
       })
       .join("");
