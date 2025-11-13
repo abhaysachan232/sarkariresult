@@ -8,12 +8,14 @@ type Job = {
   title: string;
   updatedon?: string;
   setPath: string;
+  organization: string;
 };
 
 type Article = {
   title: string;
   datePublished?: string;
   slug?: string;
+  publisher: string;
 };
 
 export async function GET() {
@@ -29,6 +31,7 @@ export async function GET() {
         const slug = j.setPath.split(" ").join("-");
         const pubDate = new Date(j.updatedon!).toISOString();
         const title = sanitize(j.title);
+        const organization = j.organization;
         return `
   <url>
     <loc>https://sarkariresult.rest/jobs/${slug}</loc>
@@ -40,6 +43,14 @@ export async function GET() {
       <news:publication_date>${pubDate}</news:publication_date>
       <news:title>${title}</news:title>
     </news:news>
+              <image:image>
+  <image:loc>${`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+    title
+  )}&footerText=${encodeURIComponent(
+    organization
+  )}&type=minimal`}</image:loc>
+  <image:caption>${title}</image:caption>
+</image:image>
   </url>`;
       })
       .join("");
@@ -54,6 +65,7 @@ export async function GET() {
       .map((a) => {
         const pubDate = new Date(a.datePublished!).toISOString();
         const title = sanitize(a.title);
+        const org = a.publisher;
         return `
   <url>
     <loc>https://sarkariresult.rest/article/${a.slug}</loc>
@@ -65,6 +77,14 @@ export async function GET() {
       <news:publication_date>${pubDate}</news:publication_date>
       <news:title>${title}</news:title>
     </news:news>
+          <image:image>
+  <image:loc>${`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+    title
+  )}&footerText=${encodeURIComponent(
+    org
+  )}&type=minimal`}</image:loc>
+  <image:caption>${title}</image:caption>
+</image:image>
   </url>`;
       })
       .join("");
