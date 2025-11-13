@@ -8,12 +8,16 @@ type Job = {
   title: string;
   updatedon: string;
   setPath: string;
+  description:string;
+
+
 };
 
 type Article = {
   title: string;
   updatedAt: string;
   slug: string;
+  description:string;
 };
 
 export async function GET() {
@@ -24,12 +28,14 @@ export async function GET() {
       title: job.title,
       updatedon: job.updatedon || new Date().toISOString(),
       setPath: job.setPath,
+      description:job.description,
     }));
 
     const arts: Article[] = (articles as any[]).map((a) => ({
       title: a.title,
       updatedAt: a.updatedAt || new Date().toISOString(),
       slug: a.slug,
+      description:a.description,
     }));
 
     // 📰 Google News Compatible RSS
@@ -41,7 +47,7 @@ export async function GET() {
           <link>${siteUrl}/jobs/${job.setPath.split(" ").join("-")}</link>
           <guid>${siteUrl}/jobs/${job.setPath.split(" ").join("-")}</guid>
           <pubDate>${new Date(job.updatedon).toUTCString()}</pubDate>
-          <description><![CDATA[${job.title}]]></description>
+          <description><![CDATA[${job.description}]]></description>
         </item>`
       ),
       ...arts.map(
@@ -51,7 +57,7 @@ export async function GET() {
           <link>${siteUrl}/article/${art.slug}</link>
           <guid>${siteUrl}/article/${art.slug}</guid>
           <pubDate>${new Date(art.updatedAt).toUTCString()}</pubDate>
-          <description><![CDATA[${art.title}]]></description>
+          <description><![CDATA[${art.description}]]></description>
         </item>`
       ),
     ].join("\n");
