@@ -133,7 +133,7 @@ export default async function JobDetailsPage({
     )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
                 alt={job.title}
                 fill
-                className="object-cover"
+                className="w-full h-64 md:h-96 object-cover rounded"
                 sizes="(max-width: 768px) 100vw, 1200px"
                 unoptimized
               />
