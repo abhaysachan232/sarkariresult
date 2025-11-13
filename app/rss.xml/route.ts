@@ -59,13 +59,13 @@ export async function GET() {
         <link>${siteUrl}/jobs/${job.setPath
           .split(" ")
           .join("-")
-          .toLowerCase()}</link>
+          }</link>
         <description><![CDATA[${job.description}]]></description>
         <pubDate>${new Date(job.updatedon).toUTCString()}</pubDate>
         <guid>${siteUrl}/jobs/${job.setPath
           .split(" ")
           .join("-")
-          .toLowerCase()}</guid>
+          }</guid>
       </item>`
       )
       .join("")}
