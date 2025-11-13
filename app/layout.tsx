@@ -133,6 +133,19 @@ console.log(pathname);
 
   return (
     <html lang="en" suppressHydrationWarning>
+  <head>
+    <link rel="icon" href="/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/icon1.png" />
+    <link rel="icon" type="image/png" sizes="180x180" href="/favicon/apple-icon.png" />
+    {/* <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" /> */}
+
+    {/* Manifest for PWA */}
+    <link rel="manifest" href="/manifest.json" />
+    {/* <meta name="theme-color" content="#0f2027" /> */}
+
+    {/* Microsoft Tile */}
+    {/* <meta name="msapplication-TileColor" content="#0f2027" /> */}
+  </head>
       <body className={inter.className}>
         {/* Google Analytics */}
         <Script
