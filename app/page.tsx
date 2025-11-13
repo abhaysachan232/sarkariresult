@@ -32,10 +32,10 @@ export async function generateMetadata(): Promise<Metadata> {
       "Sarkari Result, Government Jobs, Sarkari Naukri, Latest Jobs, Admit Card, Results, Online Form",
     alternates: { canonical: url },
     icons: {
-      icon: "/favicon/favicon.ico",
-      shortcut: "/favicon/icon1.png",
+      icon: "/fevicons/favicon.ico",
+      shortcut: "/fevicons/icon1.png",
       other: [
-        { rel: "manifest", url: "/favicon/manifest.json" }
+        { rel: "manifest", url: "/fevicons/manifest.json" }
       ]
     },
   };
