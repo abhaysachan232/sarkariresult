@@ -4,18 +4,24 @@
 User-agent: *
 Allow: /
 
-# Explicitly allow Google News & Image bots (helps Google News indexing)
+# Explicitly allow Google News & Image bots
 User-agent: Googlebot-News
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
-# Block internal Next.js & API routes (not useful for indexing)
+# Disallow internal Next.js & API routes (these shouldn't be indexed)
 Disallow: /_next/
 Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /server-sitemap.xml
 
-# Sitemap locations
+# Crawl-delay for heavy scrapers (optional)
+Crawl-delay: 5
+
+# Sitemap locations (priority: main → news → rss)
 Sitemap: https://sarkariresult.rest/sitemap-index.xml
 Sitemap: https://sarkariresult.rest/news-sitemap.xml
-Sitemap: https://sarkariresult.rest/sitemap.xml
+Sitemap: https://sarkariresult.rest/rss.xml
