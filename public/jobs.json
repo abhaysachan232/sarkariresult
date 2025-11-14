@@ -2280,8 +2280,10 @@
       "Last Date for Apply Online": "District Wise",
       "Merit List Released": "As per Schedule"
     },
+    
     "eligibility": "",
-    "applicationFee": {"General / OBC / EWS" : "0/-",
+    "applicationFee": {
+      "General / OBC / EWS" : "0/-",
 "SC / ST / PH" : "0/-",
 "No Application Fee for the All Candidates.":""},
     "image": "https://sarkariresult.rest/jobs-images/logo.png",
@@ -2299,5 +2301,51 @@
       "keywords": "Anganwadi, Helper, Online Form, Uttar Pradesh, Recruitment 2025"
     },
     "updatedon": "2025-11-13"
-  }
+  },
+  {
+  "id": 51,
+  "title": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 Notification Out",
+  "setPath": "railway-rrc-ner-gorakhpur-apprentice-recruitment-2025",
+  "organization": "Railway Recruitment Cell (RRC) North Eastern Railway NER Gorakhpur",
+  "date": "2025-11-14",
+  "location": "All India",
+  "state": "All India",
+  "type": "latest-job",
+  "category": "latest-jobs",
+  "year": "2025",
+  "Type": "Sarkari Result",
+  "description": "<b>Railway RRC NER Gorakhpur Apprentice Recruitment 2025</b>: Online Form Notification Out. RRC North Eastern Railway Gorakhpur ne ITI Apprentice Recruitment 2025 ka official notification jari kar diya hai. Eligible 10th + ITI pass candidates is recruitment ke liye online apply kar sakte hain. Yeh bharti Railway Apprentice Act ke tahat ki ja rahi hai jisme selection purely merit basis par hoga. Isme koi written exam nahi hota. Iss notification me various trades jaise Fitter, Welder, Electrician, Carpenter, Painter, Machinist, Mechanic aur Turner ke liye vacancies expected hain. Candidates ko form bharne ke liye apne documents jaise 10th marksheet, ITI certificate, Aadhaar, caste certificate, photo aur signature upload karne honge. Application fee General / OBC / EWS candidates ke liye Rs. 100 rakha gaya hai jabki SC / ST / Female candidates ke liye koi fee nahi hai. Important dates, eligibility, age limit, selection process aur district / workshop wise vacancy details jald hi official notification ke saath update ki jayegi. Ye job un candidates ke liye perfect hai jo Railway me apprentice training ke sath apne career ki shuruaat karna chahte hain.",
+  "importantDates": {
+    "Application Begin": "16 October 2025",
+    "Last Date for Apply Online": "15 November 2025",
+    "Last Date For Fee Payment" : "15 November 2025",
+"Exam Date ": "Notify Soon",
+"Admit Card" : "Before Exam",
+"Result Date" : "Will Be Updated Here Soon",
+"Candidates are advised to confirm from the RRC official website.":""
+  },
+  "eligibility": "10th Pass (Minimum 50% Marks) + ITI Certificate in Relevant Trade. Age Limit: 15-24 Years. Age relaxation as per Railway Apprentice Rules.",
+  "age": "15 years to 24 Years",
+  "applicationFee": {
+    "General / OBC / EWS": "100/-",
+    "SC / ST / PH / Female": "0/-",
+    "Note": "Application Fee Payment Mode: Online."
+  },
+  "image": "https://sarkariresult.rest/jobs-images/logo.png",
+  "jobLocation": "All India",
+  "howToApply": "1. Visit the official RRC NER website.<br/>2. Click on 'Apprentice Recruitment 2025'.<br/>3. Registration complete karein.<br/>4. Form fill karein and documents upload karein.<br/>5. Application fee pay karein.<br/>6. Final submit karein aur print lein.",
+  "links": {
+    "Registration": "https://apprentice.rrcner.net/next_page.php",
+    "Apply":"https://apprentice.rrcner.net/login.php",
+    "Notification PDF": "https://ner.indianrailways.gov.in/uploads/files/1760532135478-Act%20Apprentice%20Notification%202026-27.pdf",
+    "Official Website": "https://ner.indianrailways.gov.in/"
+  },
+  "seo": {
+    "metaTitle": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 - Apply Online",
+    "metaDescription": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 notification out. ITI pass candidates apply online. Check eligibility, age limit, fees, selection process & apply link.",
+    "keywords": "Railway Apprentice, RRC NER Gorakhpur, Apprentice Online Form, Sarkari Result 2025, Latest Government Jobs, ITI Apprentice"
+  },
+  "updatedon": "2025-11-14"
+}
+
 ]
