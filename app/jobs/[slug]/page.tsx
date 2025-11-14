@@ -348,7 +348,7 @@ const newsSchema = {
                 </li>
                 <li>
                   <b>Salary:</b> {job.salary}
-                </li>
+                </li>                
                 <li>
                   <b>Age Limit:</b>{" "}
                   <span
