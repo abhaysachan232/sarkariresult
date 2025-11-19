@@ -5,6 +5,7 @@ import Script from "next/script";
 import dataJson from "../../../public/articles.json";
 import Link from "next/link";
 import { getShortTitle } from "@/components/utils/getShortTitle";
+import Image from "next/image";
 // import { useParams } from "next/navigation";
 
 // ✅ Types
@@ -30,9 +31,28 @@ interface Article {
   datePublished: string;
   dateModified: string;
   image: string;
-  content: Section[];
   apply: string;
+
+  content: Section[];
+
+  seo?: {
+    meta_title?: string;
+    meta_description?: string;
+    meta_keywords?: string;
+
+    og_title?: string;
+    og_description?: string;
+    og_image?: string;
+    og_url?: string;
+
+    twitter_card?: string;
+    twitter_title?: string;
+    twitter_description?: string;
+    twitter_image?: string;
+  };
+  twitterHandle:string;
 }
+
 
 export async function generateMetadata({
   params,
@@ -57,18 +77,20 @@ export async function generateMetadata({
   if (!job) return { title: "Job Not Found" };
 
   return {
-    title: `${shortTitle}`,
-    description: job.description,
-    keywords: `${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
+    title:job.seo?job.seo.meta_title: `${shortTitle}`,
+    description: job.seo?job.seo.meta_description: job.description,
+    keywords: job.seo?job.seo.meta_keywords:`${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
     alternates: { canonical: `https://sarkariresult.rest/article/${slug}` },
     openGraph: {
-      title: job.title,
-      description: job.description,
+      title: job.seo?job.seo.og_title:job.title,
+      description: job.seo?job.seo.og_description:job.description,
       url: `https://sarkariresult.rest/article/${slug}`,
       type: "article",
       images: [
         {
-          url: job.image || "https://example.com/default-image.png",
+          url: `https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+      job.seo?job.seo.og_title:job.title
+    )}&footerText=${encodeURIComponent(job.twitterHandle)}&type=minimal`,
           width: 1200,
           height: 630,
         },
@@ -76,9 +98,11 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: job.title,
-      description: job.description,
-      images: [job.image || "https://example.com/default-image.png"],
+      title: job.seo?job.seo.twitter_title:job.title,
+      description: job.seo?job.seo.twitter_description:job.description,
+      images: [`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+      job.seo?job.seo.twitter_title:job.title
+    )}&footerText=${encodeURIComponent(job.twitterHandle)}&type=minimal`],
     },
   };
 }
@@ -145,7 +169,9 @@ export default async function Page({
       "@type": "NewsArticle",
       "headline": article.title,
       "description": article.description,
-      "image": [article.image],
+      "image": [`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+      article.title
+    )}&footerText=${encodeURIComponent('sarkariresult.rest')}&type=minimal`],
       "datePublished": article.datePublished,
       "dateModified": article.dateModified,
       "author": {
@@ -166,7 +192,7 @@ export default async function Page({
         "@id": `https://sarkariresult.rest/article/${article.slug}`,
       },
       "articleSection": "Government Jobs",
-      "keywords": article.keywords || "Sarkari Result, Government Jobs, Sarkari Naukri",
+      "keywords": article.seo?.meta_keywords || "Sarkari Result, Government Jobs, Sarkari Naukri",
       "inLanguage": "en-IN",
       "isAccessibleForFree": true,
     },
@@ -239,6 +265,18 @@ export default async function Page({
 
       <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
         <div className="text-center mb-8">
+          <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
+                        <Image
+                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+                article.title
+              )}&footerText=${encodeURIComponent('sarkariresult.rest')}&type=minimal`}
+                          alt={article.title}
+                          fill
+                          className="w-full h-64 md:h-96 object-cover rounded"
+                          sizes="(max-width: 768px) 100vw, 1200px"
+                          unoptimized                
+                        />
+                      </div>
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
             {article.title}
           </h1>
