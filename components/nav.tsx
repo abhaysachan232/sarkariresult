@@ -13,9 +13,9 @@ export default function Navbar() {
     { name: "Sarkari Results", href: "/results" ,target:'_blank'},
     { name: "Admit Card", href: "/admit-card" ,target:'_blank'},
     { name: "Answer Key", href: "/answer-key" ,target:'_blank'},
-    { name: "Syllabus", href: "/syllabus",target:'_blank' },
+    // { name: "Syllabus", href: "/syllabus",target:'_blank' },
     { name: "Admission", href: "/admission" ,target:'_blank'},
-    { name: "Certificate Verification", href: "/certificate-verification",target:'_blank' },
+    // { name: "Certificate Verification", href: "/certificate-verification",target:'_blank' },
     { name: "Important", href: "/important",target:'_blank' },
   ]
   return (
