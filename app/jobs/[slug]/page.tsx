@@ -90,6 +90,7 @@ export default async function JobDetailsPage({
         )
       : undefined,
   }));
+console.log(jobs,'abh');
 
   const job = jobs.find((j) => j.setPath.split(" ").join("-") === slug);
   if (!job) return NotFound();
@@ -101,7 +102,6 @@ export default async function JobDetailsPage({
   const relatedJobs = jobs
     .slice(startIndex, endIndex + 1)
     .filter((j) => j.id !== job.id);
-console.log(job,'abc');
   // ---------- SANITIZE HTML STRINGS (server-side) ----------
   // Allowed tags/attributes: adjust to your needs.
   const sanitizeOptions = {
