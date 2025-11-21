@@ -2270,7 +2270,7 @@
     "date": "2025-11-12",
     "location": "Uttar Pradesh",
     "state": "Uttar Pradesh",
-   "type": "latest-job",
+    "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "Sarkari Result",
@@ -2280,20 +2280,20 @@
       "Last Date for Apply Online": "District Wise",
       "Merit List Released": "As per Schedule"
     },
-    
+
     "eligibility": "",
     "applicationFee": {
-      "General / OBC / EWS" : "0/-",
-"SC / ST / PH" : "0/-",
-"No Application Fee for the All Candidates.":""},
+      "General / OBC / EWS": "0/-",
+      "SC / ST / PH": "0/-",
+      "No Application Fee for the All Candidates.": ""
+    },
     "image": "https://sarkariresult.rest/jobs-images/logo.png",
     "jobLocation": "Uttar Pradesh",
     "howToApply": "1. Visit the official website<br/>2. Click on link<br/>3. Enter credentials (Registration Number, DOB)<br/>4. fill form",
     "links": {
-      "UP Anganwadi Apply Online":"https://upanganwadibharti.in/helper/users/registration.php",
-      "UP Anganwadi Apply login":"https://upanganwadibharti.in/helper/users/login.php",
-      "UP ANganwadi Notification":"https://upanganwadibharti.in/"
-
+      "UP Anganwadi Apply Online": "https://upanganwadibharti.in/helper/users/registration.php",
+      "UP Anganwadi Apply login": "https://upanganwadibharti.in/helper/users/login.php",
+      "UP ANganwadi Notification": "https://upanganwadibharti.in/"
     },
     "seo": {
       "metaTitle": "UP Anganwadi Helper Online Form 2025 - Latest Update",
@@ -2303,145 +2303,143 @@
     "updatedon": "2025-11-13"
   },
   {
-  "id": 51,
-  "title": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 Notification Out",
-  "setPath": "railway-rrc-ner-gorakhpur-apprentice-recruitment-2025",
-  "organization": "Railway Recruitment Cell (RRC) North Eastern Railway NER Gorakhpur",
-  "date": "2025-11-14",
-  "location": "All India",
-  "state": "All India",
-  "type": "latest-job",
-  "category": "latest-jobs",
-  "year": "2025",
-  "Type": "Sarkari Result",
-  "description": "<b>Railway RRC NER Gorakhpur Apprentice Recruitment 2025</b>: Online Form Notification Out. RRC North Eastern Railway Gorakhpur ne ITI Apprentice Recruitment 2025 ka official notification jari kar diya hai. Eligible 10th + ITI pass candidates is recruitment ke liye online apply kar sakte hain. Yeh bharti Railway Apprentice Act ke tahat ki ja rahi hai jisme selection purely merit basis par hoga. Isme koi written exam nahi hota. Iss notification me various trades jaise Fitter, Welder, Electrician, Carpenter, Painter, Machinist, Mechanic aur Turner ke liye vacancies expected hain. Candidates ko form bharne ke liye apne documents jaise 10th marksheet, ITI certificate, Aadhaar, caste certificate, photo aur signature upload karne honge. Application fee General / OBC / EWS candidates ke liye Rs. 100 rakha gaya hai jabki SC / ST / Female candidates ke liye koi fee nahi hai. Important dates, eligibility, age limit, selection process aur district / workshop wise vacancy details jald hi official notification ke saath update ki jayegi. Ye job un candidates ke liye perfect hai jo Railway me apprentice training ke sath apne career ki shuruaat karna chahte hain.",
-  "importantDates": {
-    "Application Begin": "16 October 2025",
-    "Last Date for Apply Online": "15 November 2025",
-    "Last Date For Fee Payment" : "15 November 2025",
-"Exam Date ": "Notify Soon",
-"Admit Card" : "Before Exam",
-"Result Date" : "Will Be Updated Here Soon",
-"Candidates are advised to confirm from the RRC official website.":""
+    "id": 51,
+    "title": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 Notification Out",
+    "setPath": "railway-rrc-ner-gorakhpur-apprentice-recruitment-2025",
+    "organization": "Railway Recruitment Cell (RRC) North Eastern Railway NER Gorakhpur",
+    "date": "2025-11-14",
+    "location": "All India",
+    "state": "All India",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "Sarkari Result",
+    "description": "<b>Railway RRC NER Gorakhpur Apprentice Recruitment 2025</b>: Online Form Notification Out. RRC North Eastern Railway Gorakhpur ne ITI Apprentice Recruitment 2025 ka official notification jari kar diya hai. Eligible 10th + ITI pass candidates is recruitment ke liye online apply kar sakte hain. Yeh bharti Railway Apprentice Act ke tahat ki ja rahi hai jisme selection purely merit basis par hoga. Isme koi written exam nahi hota. Iss notification me various trades jaise Fitter, Welder, Electrician, Carpenter, Painter, Machinist, Mechanic aur Turner ke liye vacancies expected hain. Candidates ko form bharne ke liye apne documents jaise 10th marksheet, ITI certificate, Aadhaar, caste certificate, photo aur signature upload karne honge. Application fee General / OBC / EWS candidates ke liye Rs. 100 rakha gaya hai jabki SC / ST / Female candidates ke liye koi fee nahi hai. Important dates, eligibility, age limit, selection process aur district / workshop wise vacancy details jald hi official notification ke saath update ki jayegi. Ye job un candidates ke liye perfect hai jo Railway me apprentice training ke sath apne career ki shuruaat karna chahte hain.",
+    "importantDates": {
+      "Application Begin": "16 October 2025",
+      "Last Date for Apply Online": "15 November 2025",
+      "Last Date For Fee Payment": "15 November 2025",
+      "Exam Date ": "Notify Soon",
+      "Admit Card": "Before Exam",
+      "Result Date": "Will Be Updated Here Soon",
+      "Candidates are advised to confirm from the RRC official website.": ""
+    },
+    "eligibility": "10th Pass (Minimum 50% Marks) + ITI Certificate in Relevant Trade. Age Limit: 15-24 Years. Age relaxation as per Railway Apprentice Rules.",
+    "age": "15 years to 24 Years",
+    "applicationFee": {
+      "General / OBC / EWS": "100/-",
+      "SC / ST / PH / Female": "0/-",
+      "Note": "Application Fee Payment Mode: Online."
+    },
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "jobLocation": "All India",
+    "howToApply": "1. Visit the official RRC NER website.<br/>2. Click on 'Apprentice Recruitment 2025'.<br/>3. Registration complete karein.<br/>4. Form fill karein and documents upload karein.<br/>5. Application fee pay karein.<br/>6. Final submit karein aur print lein.",
+    "links": {
+      "Registration": "https://apprentice.rrcner.net/next_page.php",
+      "Apply": "https://apprentice.rrcner.net/login.php",
+      "Notification PDF": "https://ner.indianrailways.gov.in/uploads/files/1760532135478-Act%20Apprentice%20Notification%202026-27.pdf",
+      "Official Website": "https://ner.indianrailways.gov.in/"
+    },
+    "seo": {
+      "metaTitle": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 - Apply Online",
+      "metaDescription": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 notification out. ITI pass candidates apply online. Check eligibility, age limit, fees, selection process & apply link.",
+      "keywords": "Railway Apprentice, RRC NER Gorakhpur, Apprentice Online Form, Sarkari Result 2025, Latest Government Jobs, ITI Apprentice"
+    },
+    "updatedon": "2025-11-14"
   },
-  "eligibility": "10th Pass (Minimum 50% Marks) + ITI Certificate in Relevant Trade. Age Limit: 15-24 Years. Age relaxation as per Railway Apprentice Rules.",
-  "age": "15 years to 24 Years",
-  "applicationFee": {
-    "General / OBC / EWS": "100/-",
-    "SC / ST / PH / Female": "0/-",
-    "Note": "Application Fee Payment Mode: Online."
+  {
+    "id": 52,
+    "title": "SBI PO Phase-III Admit Card 2025 Out Now",
+    "setPath": "sbi-po-phase-iii-admit-card-2025",
+    "organization": "State Bank of India (SBI)",
+    "date": "2025-11-14",
+    "location": "All India",
+    "state": "All India",
+    "type": "admit-card",
+    "category": "admit-card",
+    "year": "2025",
+    "Type": "Sarkari Result",
+    "description": "SBI PO Phase-III Admit Card 2025 jari ho chuka hai. Jo candidates Sarkari Result 2025 ya latest government jobs updates dekh rahe hain, unke liye ye ek bahut bada update hai. State Bank of India ne Probationary Officer (PO) Recruitment 2025 ke Interview aur Psychometric Test ke liye admit card upload kar diya hai. Ye exam All India Govt Jobs category me aata hai aur rojgar result candidate is stage ka bahut intezar kar rahe the. Phase-III SBI PO ka final selection stage hota hai jisme Group Exercise, Interview aur Psychometric Test conduct hote hain.\n\nAgar aap sarkari result online form, jobriya updates ya banking government jobs ki tayari kar rahe ho, to SBI PO Phase-III ek top level opportunity hai. Admit card me exam centre, reporting time, guidelines aur identity verification rules sab mention hote hain. Candidates ko apna original photo ID, passport size photo aur mains scorecard sath le jana hoga. Official schedule ke hisab se interview various dates par conduct kiya jayega, isliye candidates ko sarkari result latest job aur SBI career portal par regular check karna chahiye.",
+    "importantDates": {
+      "Admit Card Available": "Released",
+      "Phase-III Exam Date": "As per Schedule",
+      "Final Result": "As per Notification"
+    },
+    "eligibility": "Candidates jinhone SBI PO Mains Exam (Phase-II) qualify kiya hai. Age Limit: Minimum 21 years, Maximum 30 years (General Category) as on 01.04.2025. Reserved categories ko age relaxation apply hota hai.",
+    "ageLimit": "General: 21–30 years as on 01 April 2025<br/>OBC (NCL): Up to 33 years<br/>SC/ST: Up to 35 years<br/>PWD (Gen/EWS): Up to 40 years<br/>PWD (OBC): Up to 43 years<br/>PWD (SC/ST): Up to 45 years",
+    "applicationFee": {
+      "Note": "Admit Card download karne ke liye koi fee nahi hai."
+    },
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "jobLocation": "All India",
+    "howToApply": "1. SBI official website visit karein.<br/>2. Careers section kholein.<br/>3. 'SBI PO Phase-III Admit Card 2025' link par click karein.<br/>4. Registration Number & Password enter karein.<br/>5. Admit card download karein aur print nikal lein.",
+    "links": {
+      "Download Phase 3 Admit Card": "https://ibpsonline.ibps.in/sbipomay25/ptcla_nov25/login.php?appid=4cee52d2293f589fe234f78f44ea0075",
+      "Official SBI Portal": "https://sbi.bank.in/",
+      "SBI PO Recruitment Page": "https://sbi.bank.in/web/careers"
+    },
+    "seo": {
+      "metaTitle": "SBI PO Phase-III Admit Card 2025 - Sarkari Result Latest Update",
+      "metaDescription": "SBI PO Phase-III Admit Card 2025 out. Sarkari Result latest job update: Interview & Psychometric Test admit card download karein. All India govt jobs candidates ke liye bada update.",
+      "keywords": "SBI PO, sarkari result 2025, sarkari result latest job, rojgar result, all india govt jobs, SBI admit card, government jobs, SBI PO Interview"
+    },
+    "updatedon": "2025-11-14"
   },
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "jobLocation": "All India",
-  "howToApply": "1. Visit the official RRC NER website.<br/>2. Click on 'Apprentice Recruitment 2025'.<br/>3. Registration complete karein.<br/>4. Form fill karein and documents upload karein.<br/>5. Application fee pay karein.<br/>6. Final submit karein aur print lein.",
-  "links": {
-    "Registration": "https://apprentice.rrcner.net/next_page.php",
-    "Apply":"https://apprentice.rrcner.net/login.php",
-    "Notification PDF": "https://ner.indianrailways.gov.in/uploads/files/1760532135478-Act%20Apprentice%20Notification%202026-27.pdf",
-    "Official Website": "https://ner.indianrailways.gov.in/"
-  },
-  "seo": {
-    "metaTitle": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 - Apply Online",
-    "metaDescription": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 notification out. ITI pass candidates apply online. Check eligibility, age limit, fees, selection process & apply link.",
-    "keywords": "Railway Apprentice, RRC NER Gorakhpur, Apprentice Online Form, Sarkari Result 2025, Latest Government Jobs, ITI Apprentice"
-  },
-  "updatedon": "2025-11-14"
-}
-,
-{
-  "id": 52,
-  "title": "SBI PO Phase-III Admit Card 2025 Out Now",
-  "setPath": "sbi-po-phase-iii-admit-card-2025",
-  "organization": "State Bank of India (SBI)",
-  "date": "2025-11-14",
-  "location": "All India",
-  "state": "All India",
-  "type": "admit-card",
-  "category": "admit-card",
-  "year": "2025",
-  "Type": "Sarkari Result",
-  "description": "SBI PO Phase-III Admit Card 2025 jari ho chuka hai. Jo candidates Sarkari Result 2025 ya latest government jobs updates dekh rahe hain, unke liye ye ek bahut bada update hai. State Bank of India ne Probationary Officer (PO) Recruitment 2025 ke Interview aur Psychometric Test ke liye admit card upload kar diya hai. Ye exam All India Govt Jobs category me aata hai aur rojgar result candidate is stage ka bahut intezar kar rahe the. Phase-III SBI PO ka final selection stage hota hai jisme Group Exercise, Interview aur Psychometric Test conduct hote hain.\n\nAgar aap sarkari result online form, jobriya updates ya banking government jobs ki tayari kar rahe ho, to SBI PO Phase-III ek top level opportunity hai. Admit card me exam centre, reporting time, guidelines aur identity verification rules sab mention hote hain. Candidates ko apna original photo ID, passport size photo aur mains scorecard sath le jana hoga. Official schedule ke hisab se interview various dates par conduct kiya jayega, isliye candidates ko sarkari result latest job aur SBI career portal par regular check karna chahiye.",
-  "importantDates": {
-    "Admit Card Available": "Released",
-    "Phase-III Exam Date": "As per Schedule",
-    "Final Result": "As per Notification"
-  },
-  "eligibility": "Candidates jinhone SBI PO Mains Exam (Phase-II) qualify kiya hai. Age Limit: Minimum 21 years, Maximum 30 years (General Category) as on 01.04.2025. Reserved categories ko age relaxation apply hota hai.",
-  "ageLimit": "General: 21–30 years as on 01 April 2025<br/>OBC (NCL): Up to 33 years<br/>SC/ST: Up to 35 years<br/>PWD (Gen/EWS): Up to 40 years<br/>PWD (OBC): Up to 43 years<br/>PWD (SC/ST): Up to 45 years"
-,
-  "applicationFee": {
-    "Note": "Admit Card download karne ke liye koi fee nahi hai."
-  },
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "jobLocation": "All India",
-  "howToApply": "1. SBI official website visit karein.<br/>2. Careers section kholein.<br/>3. 'SBI PO Phase-III Admit Card 2025' link par click karein.<br/>4. Registration Number & Password enter karein.<br/>5. Admit card download karein aur print nikal lein.",
-  "links": {
-    "Download Phase 3 Admit Card": "https://ibpsonline.ibps.in/sbipomay25/ptcla_nov25/login.php?appid=4cee52d2293f589fe234f78f44ea0075",
-    "Official SBI Portal": "https://sbi.bank.in/",
-    "SBI PO Recruitment Page": "https://sbi.bank.in/web/careers"
-  },
-  "seo": {
-    "metaTitle": "SBI PO Phase-III Admit Card 2025 - Sarkari Result Latest Update",
-    "metaDescription": "SBI PO Phase-III Admit Card 2025 out. Sarkari Result latest job update: Interview & Psychometric Test admit card download karein. All India govt jobs candidates ke liye bada update.",
-    "keywords": "SBI PO, sarkari result 2025, sarkari result latest job, rojgar result, all india govt jobs, SBI admit card, government jobs, SBI PO Interview"
-  },
-  "updatedon": "2025-11-14"
-},
-{
-  "id": 54,
-  "title": "SSC GD Constable PET/ PST Result 2025 Out – Download Now",
-  "setPath": "ssc-gd-constable-pet-pst-result-2025",
-  "organization": "Staff Selection Commission (SSC)",
-  "date": "2025-11-14",
-  "location": "All India",
-  "state": "All India",
-  "type": "results",
-  "category": "results",
-  "year": "2025",
-  "Type": "Sarkari Result",
+  {
+    "id": 54,
+    "title": "SSC GD Constable PET/ PST Result 2025 Out – Download Now",
+    "setPath": "ssc-gd-constable-pet-pst-result-2025",
+    "organization": "Staff Selection Commission (SSC)",
+    "date": "2025-11-14",
+    "location": "All India",
+    "state": "All India",
+    "type": "results",
+    "category": "results",
+    "year": "2025",
+    "Type": "Sarkari Result",
 
-  "description": "SSC GD Constable PET/ PST Result 2025 out ho chuka hai aur candidates apna result ab direct PDF me check kar sakte hain. Yeh update un sabhi applicants ke liye important hai jo roj roj Sarkari Result, Sarkari Result 2025, latest government jobs aur rojgar result updates follow karte hain. SSC ne GD Constable Recruitment 2025 ke PET/PST stage ka final result upload kar diya hai jo next phase ke liye major step hai.\n\nSSC GD All India Govt Jobs category me aata hai aur har saal lakhon candidates is exam ka intezar karte hain. Jo aspirants SSC GD Written Exam 2025 qualify karke PET/PST tak pahunch gaye the, unke liye ab DME (Medical Test) next stage hoga. Jobriya aur sarkari result latest job search karne wale candidates is recruitment par nazar banaye hue the.\n\nCandidates apna roll number PDF me check kar sakte hain. Official cutoff, merit list aur medical test schedule jald hi update kiya jayega. Neeche sare important details, age limit, eligibility aur official links diye gaye hain.",
+    "description": "SSC GD Constable PET/ PST Result 2025 out ho chuka hai aur candidates apna result ab direct PDF me check kar sakte hain. Yeh update un sabhi applicants ke liye important hai jo roj roj Sarkari Result, Sarkari Result 2025, latest government jobs aur rojgar result updates follow karte hain. SSC ne GD Constable Recruitment 2025 ke PET/PST stage ka final result upload kar diya hai jo next phase ke liye major step hai.\n\nSSC GD All India Govt Jobs category me aata hai aur har saal lakhon candidates is exam ka intezar karte hain. Jo aspirants SSC GD Written Exam 2025 qualify karke PET/PST tak pahunch gaye the, unke liye ab DME (Medical Test) next stage hoga. Jobriya aur sarkari result latest job search karne wale candidates is recruitment par nazar banaye hue the.\n\nCandidates apna roll number PDF me check kar sakte hain. Official cutoff, merit list aur medical test schedule jald hi update kiya jayega. Neeche sare important details, age limit, eligibility aur official links diye gaye hain.",
 
-  "importantDates": {
-    "PET/PST Result Out": "14 November 2025",
-    "DME (Medical Test)": "Soon",
-    "Final Result": "As per Notification"
-  },
+    "importantDates": {
+      "PET/PST Result Out": "14 November 2025",
+      "DME (Medical Test)": "Soon",
+      "Final Result": "As per Notification"
+    },
 
-  "eligibility": "SSC GD PET/PST ke liye wahi candidates eligible the jinhone SSC GD Constable Written Exam 2025 qualify kiya tha. Physical standards aur physical test performance ke basis par result prepare kiya gaya hai.",
+    "eligibility": "SSC GD PET/PST ke liye wahi candidates eligible the jinhone SSC GD Constable Written Exam 2025 qualify kiya tha. Physical standards aur physical test performance ke basis par result prepare kiya gaya hai.",
 
-  "ageLimit": "Minimum Age: 18 years<br/>Maximum Age: 23 years<br/>OBC: +3 years relaxation<br/>SC/ST: +5 years relaxation<br/>Ex-Servicemen: As per rules",
+    "ageLimit": "Minimum Age: 18 years<br/>Maximum Age: 23 years<br/>OBC: +3 years relaxation<br/>SC/ST: +5 years relaxation<br/>Ex-Servicemen: As per rules",
 
-  "applicationFee": {
-    "General / OBC / EWS": "0/- (Result Check)",
-    "SC / ST / PH": "0/-",
-    "Female": "0/-",
-    "Note": "Result check karne ke liye koi fee nahi lagti."
-  },
+    "applicationFee": {
+      "General / OBC / EWS": "0/- (Result Check)",
+      "SC / ST / PH": "0/-",
+      "Female": "0/-",
+      "Note": "Result check karne ke liye koi fee nahi lagti."
+    },
 
-  "image": "https://sarkariresult.rest/jobs-images/logo.png",
-  "jobLocation": "All India",
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "jobLocation": "All India",
 
-  "howToApply": "1. SSC ki official website visit karein.<br/>2. Latest News section open karein.<br/>3. 'SSC GD PET/PST Result 2025' PDF link par click karein.<br/>4. Roll number ke according apna result check karein.<br/>5. PDF download karke future use ke liye save kar lein.",
+    "howToApply": "1. SSC ki official website visit karein.<br/>2. Latest News section open karein.<br/>3. 'SSC GD PET/PST Result 2025' PDF link par click karein.<br/>4. Roll number ke according apna result check karein.<br/>5. PDF download karke future use ke liye save kar lein.",
 
-  "links": {
-    "Download PET/PST Result PDF List 1": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST1_13102025.pdf",
-    "Download PET/PST Result PDF List 2": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST2_13102025.pdf",
-     "Download PET/PST Result PDF List 3": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST3_13102025.pdf",
+    "links": {
+      "Download PET/PST Result PDF List 1": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST1_13102025.pdf",
+      "Download PET/PST Result PDF List 2": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST2_13102025.pdf",
+      "Download PET/PST Result PDF List 3": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST3_13102025.pdf",
       "Download PET/PST Result PDF List 4": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST4_13102025.pdf",
       "Download PET/PST Result PDF List 5": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/LIST5_13102025.pdf",
-    "Official SSC Website": "https://ssc.nic.in/",
-    "SSC GD Recruitment Page": "https://ssc.nic.in/"
-  },
+      "Official SSC Website": "https://ssc.nic.in/",
+      "SSC GD Recruitment Page": "https://ssc.nic.in/"
+    },
 
-  "seo": {
-    "metaTitle": "SSC GD Constable PET/ PST Result 2025 – Sarkari Result",
-    "metaDescription": "SSC GD Constable PET/PST Result 2025 out. Sarkari Result latest update: SSC GD Physical Result PDF download. Check cutoff, merit list & DME details.",
-    "keywords": "SSC GD Result 2025, SSC GD PET PST, sarkari result, sarkari result 2025, rojgar result, latest government jobs, jobriya, all india govt jobs, sarkari result latest job"
-  },
+    "seo": {
+      "metaTitle": "SSC GD Constable PET/ PST Result 2025 – Sarkari Result",
+      "metaDescription": "SSC GD Constable PET/PST Result 2025 out. Sarkari Result latest update: SSC GD Physical Result PDF download. Check cutoff, merit list & DME details.",
+      "keywords": "SSC GD Result 2025, SSC GD PET PST, sarkari result, sarkari result 2025, rojgar result, latest government jobs, jobriya, all india govt jobs, sarkari result latest job"
+    },
 
-  "updatedon": "2025-11-14"
-},
+    "updatedon": "2025-11-14"
+  },
   {
     "id": 55,
     "title": "UP Anganwadi Helper Online Form",
@@ -2450,7 +2448,7 @@
     "date": "2025-11-12",
     "location": "Uttar Pradesh",
     "state": "Uttar Pradesh",
-   "type": "latest-job",
+    "type": "latest-job",
     "category": "latest-jobs",
     "year": "2025",
     "Type": "Sarkari Result",
@@ -2460,70 +2458,70 @@
       "Last Date for Apply Online": "District Wise",
       "Merit List Released": "As per Schedule"
     },
-    
+
     "eligibility": "",
     "applicationFee": {
-      "General / OBC / EWS" : "0/-",
-"SC / ST / PH" : "0/-",
-"No Application Fee for the All Candidates.":""},
+      "General / OBC / EWS": "0/-",
+      "SC / ST / PH": "0/-",
+      "No Application Fee for the All Candidates.": ""
+    },
     "image": "https://sarkariresult.rest/jobs-images/logo.png",
     "jobLocation": "Uttar Pradesh",
     "howToApply": "1. Visit the official website<br/>2. Click on link<br/>3. Enter credentials (Registration Number, DOB)<br/>4. fill form",
     "links": {
-      "UP Anganwadi Apply Online":"https://upanganwadibharti.in/helper/users/registration.php",
-      "UP Anganwadi Apply login":"https://upanganwadibharti.in/helper/users/login.php",
-      "UP ANganwadi Notification":"https://upanganwadibharti.in/"
-
+      "UP Anganwadi Apply Online": "https://upanganwadibharti.in/helper/users/registration.php",
+      "UP Anganwadi Apply login": "https://upanganwadibharti.in/helper/users/login.php",
+      "UP ANganwadi Notification": "https://upanganwadibharti.in/"
     },
 
-  "content": [
-    {
-      "heading": "Online Form Apply 2025 – Complete Guide",
-      "body": "Aaj ke digital time me sabhi Government jobs, exams, scholarships, admissions aur certificates online apply hote hain. Lekin bahut saare students ko form apply karne me dikkat hoti hai. Yahan hum step-by-step bata rahe hain ki online form kaise bhare 2025 me."
-    },
-    {
-      "heading": "Online Form Apply Karne ke Liye Kya-Kya Chahiye?",
-      "body": [
-        "Aadhaar Number",
-        "Mobile Number",
-        "Email ID",
-        "Passport Size Photo",
-        "Signature",
-        "ID Proof (PAN, Aadhaar, Voter ID)",
-        "Education Documents"
-      ]
-    },
-    {
-      "heading": "Government Online Form Apply Kaise Kare?",
-      "body": [
-        "Step 1: Official Website Open Karein",
-        "Step 2: New Registration Karein",
-        "Step 3: Personal Details Fill Karein",
-        "Step 4: Education Details Add Karein",
-        "Step 5: Photo & Signature Upload",
-        "Step 6: Fees Payment (UPI/Debit Card)",
-        "Step 7: Final Submit & Print Form"
-      ]
-    },
-    {
-      "heading": "Online Form Apply Karte Waqt Common Mistakes",
-      "body": [
-        "Photo/Signature wrong format",
-        "Spelling Mistake",
-        "Wrong Category",
-        "Incomplete Form"
-      ]
-    },
-    {
-      "heading": "Why SarkariResult.rest Best For Online Forms?",
-      "body": [
-        "Fast Updates",
-        "Direct Apply Links",
-        "Step-by-Step Guide",
-        "Mobile Friendly UI"
-      ]
-    }
-  ],
+    "content": [
+      {
+        "heading": "Online Form Apply 2025 – Complete Guide",
+        "body": "Aaj ke digital time me sabhi Government jobs, exams, scholarships, admissions aur certificates online apply hote hain. Lekin bahut saare students ko form apply karne me dikkat hoti hai. Yahan hum step-by-step bata rahe hain ki online form kaise bhare 2025 me."
+      },
+      {
+        "heading": "Online Form Apply Karne ke Liye Kya-Kya Chahiye?",
+        "body": [
+          "Aadhaar Number",
+          "Mobile Number",
+          "Email ID",
+          "Passport Size Photo",
+          "Signature",
+          "ID Proof (PAN, Aadhaar, Voter ID)",
+          "Education Documents"
+        ]
+      },
+      {
+        "heading": "Government Online Form Apply Kaise Kare?",
+        "body": [
+          "Step 1: Official Website Open Karein",
+          "Step 2: New Registration Karein",
+          "Step 3: Personal Details Fill Karein",
+          "Step 4: Education Details Add Karein",
+          "Step 5: Photo & Signature Upload",
+          "Step 6: Fees Payment (UPI/Debit Card)",
+          "Step 7: Final Submit & Print Form"
+        ]
+      },
+      {
+        "heading": "Online Form Apply Karte Waqt Common Mistakes",
+        "body": [
+          "Photo/Signature wrong format",
+          "Spelling Mistake",
+          "Wrong Category",
+          "Incomplete Form"
+        ]
+      },
+      {
+        "heading": "Why SarkariResult.rest Best For Online Forms?",
+        "body": [
+          "Fast Updates",
+          "Direct Apply Links",
+          "Step-by-Step Guide",
+          "Mobile Friendly UI"
+        ]
+      }
+    ],
 
     "seo": {
       "metaTitle": "UP Anganwadi Helper Online Form 2025 - Latest Update",
@@ -2532,7 +2530,153 @@
     },
     "updatedon": "2025-11-21"
   }
+  ,
+  {
+  "id": 55,
+  "title": "UPPSC Various Post Direct Recruitment 2025 Online Form",
+  "setPath": "uppsc-various-post-direct-recruitment-2025-online-form",
+  "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
+  "date": "2025-02-20",
+  "location": "Uttar Pradesh",
+  "state": "Uttar Pradesh",
+  "type": "latest-job",
+  "category": "latest-jobs",
+  "year": "2025",
+  "Type": "Sarkari Result",
 
+  "description": "<b>Uttar Pradesh Public Service Commission (UPPSC)</b> ने 2025 के लिए Various Post Direct Recruitment का नया नोटिफिकेशन जारी कर दिया है। इस भर्ती के माध्यम से राज्य के विभिन्न विभागों में अधिकारी, निरीक्षक, तकनीकी विशेषज्ञ, प्रबंधक और प्रशासनिक पदों पर सीधी भर्ती की जाएगी। यदि आप यूपी सरकार के अंतर्गत एक प्रतिष्ठित और स्थायी नौकरी की तलाश में हैं, तो यह भर्ती आपके लिए एक उत्कृष्ट अवसर है। आवेदन प्रक्रिया पूरी तरह ऑनलाइन है और उम्मीदवारों को आवश्यक दस्तावेजों के साथ अंतिम तिथि से पहले फॉर्म भरना अनिवार्य है। इस लेख में eligibility, selection process, syllabus, salary, और apply करने के सभी step-by-step instructions दिए गए हैं।",
 
+  "importantDates": {
+    "Application Begin": "21/11/2025",
+    "Last Date for Apply Online": "22/12/2025",
+    "Fee Payment Last Date": "22/12/2025",
+    "Correction Last Date": "Notified Soon",
+    "Exam Date": "Notified Soon"
+  },
+
+  "eligibility": "<ul><li>उम्मीदवार भारत का नागरिक होना चाहिए।</li><li>शैक्षिक योग्यता पद के अनुसार Graduation, Post Graduation, Technical Degree या Diploma आवश्यक।</li><li>आयु सीमा: 21 से 40 वर्ष (नियम अनुसार छूट उपलब्ध)।</li><li>Medical, Engineering, Teaching, Legal, Management आदि पदों के लिए विशेष योग्यता आवश्यक।</li><li>अंतिम वर्ष के उम्मीदवार तभी आवेदन कर सकते हैं जब पोस्ट के नियम अनुमति दें।</li></ul>",
+
+  "applicationFee": {
+    "General / OBC / EWS": "125/-",
+    "SC / ST": "65/-",
+    "PH Divyang": "25/-",
+    "Female (Some categories)": "As per rule"
+  },
+
+  "image": "https://sarkariresult.rest/jobs-images/logo.png",
+  "jobLocation": "Uttar Pradesh",
+
+  "howToApply": "1. UPPSC की आधिकारिक वेबसाइट पर जाएं<br/>2. 'Direct Recruitment 2025' लिंक पर क्लिक करें<br/>3. Registration पूरा करें<br/>4. Personal details, education और documents अपलोड करें<br/>5. Application fee का भुगतान करें<br/>6. Form submit करें और प्रिंट निकालें",
+
+  "links": {
+    "Apply Online": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "Download Notification": "/UPPSC_Hindi_sarkariresultRest_Direct_21_nov_2025.pdf",
+    "Official Website": "https://uppsc.up.nic.in/"
+  },
+
+  "content": [
+    {
+      "heading": "UPPSC Direct Recruitment 2025 Overview",
+      "body": "UPPSC द्वारा आयोजित Direct Recruitment सबसे प्रतिष्ठित सरकारी भर्तियों में से एक है। इस भर्ती में विभिन्न विभागों के लिए विशेषज्ञ, अधिकारी और तकनीकी स्टाफ की नियुक्ति की जाती है। 2025 की भर्ती में कई नए पद जोड़े गए हैं, जिनके लिए युवा और योग्य उम्मीदवार आवेदन कर सकते हैं।"
+    },
+    {
+      "heading": "UPPSC Various Posts 2025 – पदों की सूची",
+      "body": [
+        "DEPUTY DAIRY DEVELOPMENT OFFICER,S-02/05",
+        "JOINT DIRECTOR (EVALUATION),S-02/06",
+        "DEPUTY DIRECTOR,S-02/07",
+        "ASSISTANT ARCHAEOLOGICAL OFFICER,S-03/06",
+        "DEPUTY SECRETARY (I.T.),S-10/04"      
+      ]
+    },
+    {
+      "heading": "शैक्षिक योग्यता (Post Wise)",
+      "body": [
+        "Graduation (General posts) or Bachelor Degree in Dairy Technology OR Diploma in Dairy Science OR Bachelor Degree in Agriculture with Specialization in Animal Husbandry and Dairy.",
+        "B.Tech / M.Tech (Technical posts)",
+        "MBBS / MD / MS (Medical posts)",
+        "LLB / LLM (Legal posts)",
+        "Post Graduation (Teaching / Specialist posts)",
+        "5 Year Experience."
+      ]
+    },
+    {
+      "heading": "UPPSC Selection Process 2025",
+      "body": [
+        "Screening Test (यदि आवेदन अधिक हों)",
+        "Written Exam",
+        "Interview & Personality Test",
+        "Document Verification",
+        "Final Merit List"
+      ]
+    },
+    {
+      "heading": "UPPSC Syllabus 2025 – Short Summary",
+      "body": [
+        "General Studies - Polity, History, Geography, Economy, Current Affairs",
+        "General Hindi",
+        "Reasoning & Mental Ability",
+        "Technical Subject संबंधित प्रश्न",
+        "Administrative aptitude (कुछ पदों पर)"
+      ]
+    },
+    {
+      "heading": "UPPSC Direct Recruitment 2025 Form Kaise Bhare?",
+      "body": [
+        "Step-1: uppsc.up.nic.in वेबसाइट खोलें",
+        "Step-2: Direct Recruitment लिंक खोलें",
+        "Step-3: Registration पूरा करें",
+        "Step-4: Personal, Education और Experience details भरें",
+        "Step-5: Photo / Signature अपलोड करें",
+        "Step-6: Online fee payment करें",
+        "Step-7: Final submit करें और प्रिंट निकालें"
+      ]
+    },
+    {
+      "heading": "Documents Required",
+      "body": [
+        "Aadhaar Card",
+        "10th / 12th Marksheet",
+        "Graduation / PG / Technical certificates",
+        "Caste Certificate (यदि लागू)",
+        "Domicile Certificate",
+        "Passport Size Photo",
+        "Signature",
+        "Experience Certificate (यदि लागू)"
+      ]
+    },
+    {
+      "heading": "UPPSC Salary Structure 2025",
+      "body": [
+        "Pay Level 6 से लेकर Pay Level 10 तक",
+        "Basic Pay: ₹35,400 से ₹56,100 तक",
+        "DA + HRA + TA",
+        "Job security और pension benefits"
+      ]
+    },
+    {
+      "heading": "UPPSC Preparation Tips (Human Written)",
+      "body": "UPPSC की तैयारी में सबसे जरूरी है – current affairs, static GK और subject knowledge की clarity। रोज़ 2–3 घंटे General Studies पढ़ें और साथ में weekly mocks दें। अपने subject की तैयारी 30 days cycle में करें और पिछले वर्षों के प्रश्न पत्र जरूर हल करें।"
+    },
+    {
+      "heading": "UPPSC Direct Recruitment 2025 – FAQs",
+      "body": [
+        "Q1. UPPSC Direct Recruitment 2025 किस लिए है? – विभिन्न विभागों में अधिकारी और तकनीकी पदों के लिए।",
+        "Q2. क्या Written exam होगा? – हां, अधिकांश पदों पर होगा।",
+        "Q3. क्या इस भर्ती में अनुभव जरूरी है? – कुछ पदों पर।",
+        "Q4. आवेदन शुल्क कितना है? – General/OBC/EWS: 125 रुपये।",
+        "Q5. Apply कैसे करें? – UPPSC की आधिकारिक वेबसाइट पर जाकर।"
+      ]
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "UPPSC Various Post Direct Recruitment 2025 Online Form – Apply Now",
+    "metaDescription": "UPPSC Various Post Direct Recruitment 2025 का नोटिफिकेशन जारी। विभिन्न विभागों में अधिकारी और तकनीकी पदों पर भर्ती। Eligibility, syllabus, salary, application process की पूरी जानकारी यहाँ पढ़ें।",
+    "keywords": "UPPSC Recruitment 2025, UPPSC Direct Recruitment, UPPSC Online Form 2025, Uttar Pradesh Government Jobs, Sarkari Result UPPSC"
+  },
+
+  "updatedon": "2025-11-21"
+}
 
 ]
