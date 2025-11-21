@@ -381,31 +381,33 @@ const newsSchema = {
 
               {/* ...rest remains mostly the same. */}
             </div>
-{job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-           {job.content.map((item:any)=>{
-            return(
-              <>
-               <h2 className="text-xl font-bold mb-4">{item.heading}</h2>
-               {
-                item.body.map((body:any)=>{
-                  return(
-                    <>
-                    <ul>
-                      <li>
-                      {body}
-                      </li>
-                    </ul>
-                    
-                    </>
-                  )
+      {Array.isArray(job.content) && job.content.length > 0 && (
+  <div className="space-y-10">
+    {job.content.map((section: any, index: number) => (
+      <div key={index} className="prose dark:prose-invert max-w-none">
 
-                })
-               }
-           
-              </>
-            )
-           })  }
-     </div>}
+        {/* Heading */}
+        {section.heading && (
+          <h2 className="text-2xl font-bold mb-3">{section.heading}</h2>
+        )}
+
+        {/* BODY CHECK */}
+        {section.body && (
+          typeof section.body === "string" ? (
+            <p>{section.body}</p>
+          ) : Array.isArray(section.body) ? (
+            <ul className="list-disc list-inside space-y-1">
+              {section.body.map((point: string, idx: number) => (
+                <li key={idx}>{point}</li>
+              ))}
+            </ul>
+          ) : null
+        )}
+
+      </div>
+    ))}
+  </div>
+)}
 
  <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
            {job.content.map((item:any)=>{
@@ -804,29 +806,34 @@ const newsSchema = {
               </table>
             </div>
             {job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-           {job.content.map((item:any)=>{
-            return(
-              <>
-               <h2 className="text-xl font-bold mb-4">{item.heading}</h2>
-               {
-                item.body.map((str:any)=>{
-                  return(
-                    <>
-                    <ul>
-                      <li>
-                      {str}
-                      </li>
-                    </ul>
-                    
-                    </>
-                  )
+      {Array.isArray(job.content) && job.content.length > 0 && (
+  <div className="space-y-10">
+    {job.content.map((section: any, index: number) => (
+      <div key={index} className="prose dark:prose-invert max-w-none">
 
-                })
-               }
-           
-              </>
-            )
-           })  }
+        {/* Heading */}
+        {section.heading && (
+          <h2 className="text-2xl font-bold mb-3">{section.heading}</h2>
+        )}
+
+        {/* BODY CHECK */}
+        {section.body && (
+          typeof section.body === "string" ? (
+            <p>{section.body}</p>
+          ) : Array.isArray(section.body) ? (
+            <ul className="list-disc list-inside space-y-1">
+              {section.body.map((point: string, idx: number) => (
+                <li key={idx}>{point}</li>
+              ))}
+            </ul>
+          ) : null
+        )}
+
+      </div>
+    ))}
+  </div>
+)}
+
      </div>}
             <Faq/>
 
