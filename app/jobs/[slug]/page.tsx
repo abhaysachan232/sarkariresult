@@ -101,7 +101,7 @@ export default async function JobDetailsPage({
   const relatedJobs = jobs
     .slice(startIndex, endIndex + 1)
     .filter((j) => j.id !== job.id);
-
+console.log(job,'abc');
   // ---------- SANITIZE HTML STRINGS (server-side) ----------
   // Allowed tags/attributes: adjust to your needs.
   const sanitizeOptions = {
@@ -223,7 +223,7 @@ const newsSchema = {
   mainEntityOfPage: `https://sarkariresult.rest/jobs/${slug}`,
 };
 
-console.log(job.content,'abc');
+
 
 
   return (
