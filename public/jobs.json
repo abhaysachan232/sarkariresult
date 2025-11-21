@@ -2531,9 +2531,9 @@
     "updatedon": "2025-11-21"
   }
   ,
-  {
+{
   "id": 56,
-  "title": "UPPSC Various Post Direct Recruitment 2025 Online Form",
+ "title": "UPPSC Various Post Direct Recruitment 2025 Online Form",
   "setPath": "uppsc-various-post-direct-recruitment-2025-online-form",
   "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
   "date": "2025-02-20",
@@ -2547,7 +2547,7 @@
   "description": "<b>Uttar Pradesh Public Service Commission (UPPSC)</b> ने 2025 के लिए Various Post Direct Recruitment का नया नोटिफिकेशन जारी कर दिया है। इस भर्ती के माध्यम से राज्य के विभिन्न विभागों में अधिकारी, निरीक्षक, तकनीकी विशेषज्ञ, प्रबंधक और प्रशासनिक पदों पर सीधी भर्ती की जाएगी। यदि आप यूपी सरकार के अंतर्गत एक प्रतिष्ठित और स्थायी नौकरी की तलाश में हैं, तो यह भर्ती आपके लिए एक उत्कृष्ट अवसर है। आवेदन प्रक्रिया पूरी तरह ऑनलाइन है और उम्मीदवारों को आवश्यक दस्तावेजों के साथ अंतिम तिथि से पहले फॉर्म भरना अनिवार्य है। इस लेख में eligibility, selection process, syllabus, salary, और apply करने के सभी step-by-step instructions दिए गए हैं।",
 
   "importantDates": {
-    "Application Begin": "21/11/2025",
+  "Application Begin": "21/11/2025",
     "Last Date for Apply Online": "22/12/2025",
     "Fee Payment Last Date": "22/12/2025",
     "Correction Last Date": "Notified Soon",
@@ -2557,7 +2557,7 @@
   "eligibility": "<ul><li>उम्मीदवार भारत का नागरिक होना चाहिए।</li><li>शैक्षिक योग्यता पद के अनुसार Graduation, Post Graduation, Technical Degree या Diploma आवश्यक।</li><li>आयु सीमा: 21 से 40 वर्ष (नियम अनुसार छूट उपलब्ध)।</li><li>Medical, Engineering, Teaching, Legal, Management आदि पदों के लिए विशेष योग्यता आवश्यक।</li><li>अंतिम वर्ष के उम्मीदवार तभी आवेदन कर सकते हैं जब पोस्ट के नियम अनुमति दें।</li></ul>",
 
   "applicationFee": {
-    "General / OBC / EWS": "125/-",
+"General / OBC / EWS": "125/-",
     "SC / ST": "65/-",
     "PH Divyang": "25/-",
     "Female (Some categories)": "As per rule"
@@ -2566,10 +2566,10 @@
   "image": "https://sarkariresult.rest/jobs-images/logo.png",
   "jobLocation": "Uttar Pradesh",
 
-  "howToApply": "1. UPPSC की आधिकारिक वेबसाइट पर जाएं<br/>2. 'Direct Recruitment 2025' लिंक पर क्लिक करें<br/>3. Registration पूरा करें<br/>4. Personal details, education और documents अपलोड करें<br/>5. Application fee का भुगतान करें<br/>6. Form submit करें और प्रिंट निकालें",
+  "howToApply": "1. Visit the official website<br/>2. Click on link<br/>3. Enter credentials (Registration Number, DOB)<br/>4. fill form",
 
   "links": {
-    "Apply Online": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+ "Apply Online": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
     "Download Notification": "/UPPSC_Hindi_sarkariresultRest_Direct_21_nov_2025.pdf",
     "Official Website": "https://uppsc.up.nic.in/"
   },
@@ -2586,7 +2586,7 @@
         "JOINT DIRECTOR (EVALUATION),S-02/06",
         "DEPUTY DIRECTOR,S-02/07",
         "ASSISTANT ARCHAEOLOGICAL OFFICER,S-03/06",
-        "DEPUTY SECRETARY (I.T.),S-10/04"      
+        "DEPUTY SECRETARY (I.T.),S-10/04"
       ]
     },
     {
@@ -2670,7 +2670,7 @@
     }
   ],
 
-  "seo": {
+    "seo": {
     "metaTitle": "UPPSC Various Post Direct Recruitment 2025 Online Form – Apply Now",
     "metaDescription": "UPPSC Various Post Direct Recruitment 2025 का नोटिफिकेशन जारी। विभिन्न विभागों में अधिकारी और तकनीकी पदों पर भर्ती। Eligibility, syllabus, salary, application process की पूरी जानकारी यहाँ पढ़ें।",
     "keywords": "UPPSC Recruitment 2025, UPPSC Direct Recruitment, UPPSC Online Form 2025, Uttar Pradesh Government Jobs, Sarkari Result UPPSC"
@@ -2678,5 +2678,6 @@
 
   "updatedon": "2025-11-21"
 }
+
 
 ]
