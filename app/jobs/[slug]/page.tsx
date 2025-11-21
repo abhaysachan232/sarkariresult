@@ -809,12 +809,12 @@ const newsSchema = {
               <>
                <h2 className="text-xl font-bold mb-4">{item.heading}</h2>
                {
-                item.body.map((body:any)=>{
+                item.body.map((str:any)=>{
                   return(
                     <>
                     <ul>
                       <li>
-                      {body}
+                      {str}
                       </li>
                     </ul>
                     
