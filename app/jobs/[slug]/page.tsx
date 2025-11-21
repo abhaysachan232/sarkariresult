@@ -5,14 +5,10 @@ import {
   Calendar,
   MapPin,
   FileText,
-  Banknote,
   UserCheck,
   CheckCircle,
 } from "lucide-react";
-import Head from "next/head";
-import Script from "next/script";
 import Link from "next/link";
-import JobCard from "@/components/job-card";
 import datas from "../../../public/jobs.json";
 import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
@@ -90,6 +86,7 @@ export default async function JobDetailsPage({
         )
       : undefined,
   }));
+
 console.log(jobs,'abh');
 
   const job = jobs.find((j) => j.setPath.split(" ").join("-") === slug);
@@ -384,7 +381,7 @@ const newsSchema = {
 
               {/* ...rest remains mostly the same. */}
             </div>
- <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
+{job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
            {job.content.map((item:any)=>{
             return(
               <>
@@ -408,7 +405,7 @@ const newsSchema = {
               </>
             )
            })  }
-     </div>
+     </div>}
 
  <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
            {job.content.map((item:any)=>{
@@ -806,6 +803,31 @@ const newsSchema = {
                 </tbody>
               </table>
             </div>
+            {job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
+           {job.content.map((item:any)=>{
+            return(
+              <>
+               <h2 className="text-xl font-bold mb-4">{item.heading}</h2>
+               {
+                item.body.map((body:any)=>{
+                  return(
+                    <>
+                    <ul>
+                      <li>
+                      {body}
+                      </li>
+                    </ul>
+                    
+                    </>
+                  )
+
+                })
+               }
+           
+              </>
+            )
+           })  }
+     </div>}
             <Faq/>
 
           </main>
@@ -881,9 +903,4 @@ const newsSchema = {
   );
 }
 
-// helper to strip tags for meta descriptions
-function stripHtml(htmlString: string) {
-  return String(htmlString)
-    .replace(/(<([^>]+)>)/gi, "")
-    .trim();
-}
+
