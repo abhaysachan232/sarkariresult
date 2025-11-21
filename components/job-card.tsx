@@ -164,7 +164,7 @@ interface JobCardProps {
 }
 
 export default function JobCard({ data, selection, category }: JobCardProps) {
-  console.log(category);
+  console.log(data,category,selection);
 
   return (
     <div
