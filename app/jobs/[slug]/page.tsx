@@ -223,6 +223,9 @@ const newsSchema = {
   mainEntityOfPage: `https://sarkariresult.rest/jobs/${slug}`,
 };
 
+console.log(job.content);
+
+
   return (
     <>
      <script
