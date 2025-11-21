@@ -381,7 +381,57 @@ const newsSchema = {
 
               {/* ...rest remains mostly the same. */}
             </div>
+ <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
+           {job.content.map((item:any)=>{
+            return(
+              <>
+               <h2 className="text-xl font-bold mb-4">{item.heading}</h2>
+               {
+                item.body.map((body:any)=>{
+                  return(
+                    <>
+                    <ul>
+                      <li>
+                      {body}
+                      </li>
+                    </ul>
+                    
+                    </>
+                  )
 
+                })
+               }
+           
+              </>
+            )
+           })  }
+     </div>
+
+ <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
+           {job.content.map((item:any)=>{
+            return(
+              <>
+               <h2 className="text-xl font-bold mb-4">{item.heading}</h2>
+               {
+                item.body.map((body:any)=>{
+                  return(
+                    <>
+                    <ul>
+                      <li>
+                      {body}
+                      </li>
+                    </ul>
+                    
+                    </>
+                  )
+
+                })
+               }
+           
+              </>
+            )
+           })  }
+     </div>
             {/* Job Overview Table */}
             <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
@@ -471,6 +521,13 @@ const newsSchema = {
                 </tbody>
               </table>
             </div>
+
+
+
+    
+
+
+
             <Faq/>
 
           </main>
@@ -502,42 +559,6 @@ const newsSchema = {
               url={`https://sarkariresult.rest/jobs/${slug}`}
               title={job.title}
             />
-
-            {/* Related Jobs */}
-            {relatedJobs.length > 0 && (
-              <div className="rounded-xl border bg-white shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  📰 Related Jobs
-                </h2>
-                <ul className="list-disc list-inside space-y-2">
-                  {relatedJobs.map((rj) => (
-                    <>
-                    <div className="w-16 h-16 relative flex-shrink-0">
-                        <Image
-                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.title
-    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
-                          alt={rj.title}
-                          fill
-                          className="object-cover rounded"
-                          width={1200}
-                          height={600}
-                          unoptimized
-                        />
-                      </div>
-                    <li key={rj.id}>
-                      <Link
-                        href={`/jobs/${rj.setPath.split(" ").join("-")}`}
-                        className="text-blue-600 hover:underline"
-                      >
-                        {rj.title}
-                      </Link>
-                    </li>
-                    </>
-                  ))}
-                </ul>
-              </div>
-            )}
           </aside>
         </section>
       </article>}
@@ -658,7 +679,7 @@ const newsSchema = {
                 </tbody>
               </table>
             </div>
-
+            
       <ShareButtons
           url={`https://sarkariresult.rest/jobs/${slug}`}
           title={job.title}
@@ -751,41 +772,7 @@ const newsSchema = {
               />
 
               {/* ...rest remains mostly the same. */}
-            </div>  
-                {relatedJobs.length > 0 && (
-              <div className="rounded-xl border bg-white shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  📰 Related Jobs
-                </h2>
-                <ul className="list-disc list-inside space-y-2">
-                  {relatedJobs.map((rj) => (
-                    <>
-                    <div className="w-16 h-16 relative flex-shrink-0">
-                        <Image
-                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.title
-    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
-                          alt={rj.title}
-                          fill
-                          className="object-cover rounded"
-                          width={1200}
-                          height={600}
-                          unoptimized
-                        />
-                      </div>
-                    <li key={rj.id}>
-                      <Link
-                        href={`/jobs/${rj.setPath.split(" ").join("-")}`}
-                        className="text-blue-600 hover:underline"
-                      >
-                        {rj.title}
-                      </Link>
-                    </li>
-                    </>
-                  ))}
-                </ul>
-              </div>
-            )}    
+            </div>      
             {/* Job Overview Table */}
             <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">

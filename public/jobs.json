@@ -2441,7 +2441,97 @@
   },
 
   "updatedon": "2025-11-14"
-}
+},
+  {
+    "id": 55,
+    "title": "UP Anganwadi Helper Online Form 2025",
+    "setPath": "up-anganwadi-helper-online-form",
+    "organization": "Uttar Pradesh UP ICDS",
+    "date": "2025-11-12",
+    "location": "Uttar Pradesh",
+    "state": "Uttar Pradesh",
+   "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "Sarkari Result",
+    "description": "Uttar Pradesh UP ICDS Anganwadi Bharti Helper Recruitment 2025: Apply Online Form Post Date: 12-11-2025 Uttar Pradesh UP ICDS Anganwadi Helper Recruitment 2025 notification is now live. Eligible candidates can apply online for the Anganwadi Helper positions across various districts of Uttar Pradesh. The recruitment aims to fill vacant positions to support the state's ICDS program, which provides essential services to children and women.Candidates must follow the official guidelines to complete the online application process, including registration and submission of necessary details. The recruitment is open to candidates from all categories, with no application fee applicable for General, OBC, SC, ST, and other categories.Important dates for district-wise applications are provided in the official notification. Candidates are advised to check the merit list and schedule updates regularly.This is a great opportunity for eligible applicants to contribute to the government’s social welfare programs while securing a rewarding government job. Visit the official website to apply and get complete details about eligibility, application process, and selection procedure.",
+    "importantDates": {
+      "Application Begin": "District Wise",
+      "Last Date for Apply Online": "District Wise",
+      "Merit List Released": "As per Schedule"
+    },
+    
+    "eligibility": "",
+    "applicationFee": {
+      "General / OBC / EWS" : "0/-",
+"SC / ST / PH" : "0/-",
+"No Application Fee for the All Candidates.":""},
+    "image": "https://sarkariresult.rest/jobs-images/logo.png",
+    "jobLocation": "Uttar Pradesh",
+    "howToApply": "1. Visit the official website<br/>2. Click on link<br/>3. Enter credentials (Registration Number, DOB)<br/>4. fill form",
+    "links": {
+      "UP Anganwadi Apply Online":"https://upanganwadibharti.in/helper/users/registration.php",
+      "UP Anganwadi Apply login":"https://upanganwadibharti.in/helper/users/login.php",
+      "UP ANganwadi Notification":"https://upanganwadibharti.in/"
+
+    },
+    
+  "content": [
+    {
+      "heading": "Online Form Apply 2025 – Complete Guide",
+      "body": "Aaj ke digital time me sabhi Government jobs, exams, scholarships, admissions aur certificates online apply hote hain. Lekin bahut saare students ko form apply karne me dikkat hoti hai. Yahan hum step-by-step bata rahe hain ki online form kaise bhare 2025 me."
+    },
+    {
+      "heading": "Online Form Apply Karne ke Liye Kya-Kya Chahiye?",
+      "body": [
+        "Aadhaar Number",
+        "Mobile Number",
+        "Email ID",
+        "Passport Size Photo",
+        "Signature",
+        "ID Proof (PAN, Aadhaar, Voter ID)",
+        "Education Documents"
+      ]
+    },
+    {
+      "heading": "Government Online Form Apply Kaise Kare?",
+      "body": [
+        "Step 1: Official Website Open Karein",
+        "Step 2: New Registration Karein",
+        "Step 3: Personal Details Fill Karein",
+        "Step 4: Education Details Add Karein",
+        "Step 5: Photo & Signature Upload",
+        "Step 6: Fees Payment (UPI/Debit Card)",
+        "Step 7: Final Submit & Print Form"
+      ]
+    },
+    {
+      "heading": "Online Form Apply Karte Waqt Common Mistakes",
+      "body": [
+        "Photo/Signature wrong format",
+        "Spelling Mistake",
+        "Wrong Category",
+        "Incomplete Form"
+      ]
+    },
+    {
+      "heading": "Why SarkariResult.rest Best For Online Forms?",
+      "body": [
+        "Fast Updates",
+        "Direct Apply Links",
+        "Step-by-Step Guide",
+        "Mobile Friendly UI"
+      ]
+    }
+  ],
+
+    "seo": {
+      "metaTitle": "UP Anganwadi Helper Online Form 2025 - Latest Update",
+      "metaDescription": "Uttar Pradesh UP ICDS Anganwadi Bharti Helper Recruitment 2025: Apply Online Form Post Date: 12-11-2025 Short Description: Uttar Pradesh Government ...",
+      "keywords": "Anganwadi, Helper, Online Form, Uttar Pradesh, Recruitment 2025"
+    },
+    "updatedon": "2025-11-13"
+  }
 
 
 
