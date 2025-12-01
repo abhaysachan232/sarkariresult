@@ -381,6 +381,7 @@ const newsSchema = {
 
               {/* ...rest remains mostly the same. */}
             </div>
+  {job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
       {Array.isArray(job.content) && job.content.length > 0 && (
   <div className="space-y-10">
     {job.content.map((section: any, index: number) => (
@@ -408,6 +409,8 @@ const newsSchema = {
     ))}
   </div>
 )}
+
+     </div>}
 
  <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
            {job.content.map((item:any)=>{
