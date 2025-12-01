@@ -381,36 +381,12 @@ const newsSchema = {
 
               {/* ...rest remains mostly the same. */}
             </div>
- {job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-      {Array.isArray(job.content) && job.content.length > 0 && (
-  <div className="space-y-10">
-    {job.content.map((section: any, index: number) => (
-      <div key={index} className="prose dark:prose-invert max-w-none">
 
-        {/* Heading */}
-        {section.heading && (
-          <h2 className="text-2xl font-bold mb-3">{section.heading}</h2>
-        )}
 
-        {/* BODY CHECK */}
-        {section.body && (
-          typeof section.body === "string" ? (
-            <p>{section.body}</p>
-          ) : Array.isArray(section.body) ? (
-            <ul className="list-disc list-inside space-y-1">
-              {section.body.map((point: string, idx: number) => (
-                <li key={idx}>{point}</li>
-              ))}
-            </ul>
-          ) : null
-        )}
+            
 
-      </div>
-    ))}
-  </div>
-)}
 
-     </div>}
+
 
  <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
            {job.content.map((item:any)=>{
@@ -567,7 +543,8 @@ const newsSchema = {
           </aside>
         </section>
       </article>}
-      {job.id % 2 !== 0 &&<article className="min-h-screen">
+      {job.id % 2 !== 0 &&
+        <article className="min-h-screen">
         {/* Hero Banner */}
         <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
           <div className="container max-w-5xl mx-auto px-4">
@@ -637,6 +614,11 @@ const newsSchema = {
         </section>
 
   
+        
+
+
+
+
 
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -808,36 +790,7 @@ const newsSchema = {
                 </tbody>
               </table>
             </div>
-            {job.content && <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-      {Array.isArray(job.content) && job.content.length > 0 && (
-  <div className="space-y-10">
-    {job.content.map((section: any, index: number) => (
-      <div key={index} className="prose dark:prose-invert max-w-none">
-
-        {/* Heading */}
-        {section.heading && (
-          <h2 className="text-2xl font-bold mb-3">{section.heading}</h2>
-        )}
-
-        {/* BODY CHECK */}
-        {section.body && (
-          typeof section.body === "string" ? (
-            <p>{section.body}</p>
-          ) : Array.isArray(section.body) ? (
-            <ul className="list-disc list-inside space-y-1">
-              {section.body.map((point: string, idx: number) => (
-                <li key={idx}>{point}</li>
-              ))}
-            </ul>
-          ) : null
-        )}
-
-      </div>
-    ))}
-  </div>
-)}
-
-     </div>}
+          
             <Faq/>
 
           </main>
