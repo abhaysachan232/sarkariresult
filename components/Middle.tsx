@@ -1,19 +1,14 @@
 
+'use client';
+
+
 import NewsMarquee from "./news-marquee";
-import { Search } from "lucide-react";
-import { Input } from "./ui/input";
+
 import { Button } from "./ui/button";
-import { Mic } from "lucide-react";
 import LiveTicker from "./live-ticker";
-import { Tabs } from "@radix-ui/react-tabs";
-import { TabsContent } from "@radix-ui/react-tabs";
 import JobCard from "./job-card";
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { useState , useEffect } from "react";
-import axios from "axios";
-import fs from "fs";
-import path from "path";
+
 import jobs from '../public/jobs.json';
 import datas from "../public/articles.json";
 
