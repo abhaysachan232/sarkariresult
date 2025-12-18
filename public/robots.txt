@@ -1,27 +1,13 @@
-# robots.txt for SarkariResult.Rest
-
-# Allow all crawlers full access
+# *
 User-agent: *
 Allow: /
 
-# Explicitly allow Google News & Image bots
-User-agent: Googlebot-News
-Allow: /
+# Googlebot
+User-agent: Googlebot
+Disallow: /admin
 
-User-agent: Googlebot-Image
-Allow: /
+# Host
+Host: http://localhost:3000
 
-# Disallow internal Next.js & API routes (these shouldn't be indexed)
-Disallow: /_next/
-Disallow: /api/
-Disallow: /admin/
-Disallow: /dashboard/
-Disallow: /server-sitemap.xml
-
-# Crawl-delay for heavy scrapers (optional)
-Crawl-delay: 5
-
-# Sitemap locations (priority: main → news → rss)
-Sitemap: https://sarkariresult.rest/sitemap-index.xml
-Sitemap: https://sarkariresult.rest/news-sitemap.xml
-Sitemap: https://sarkariresult.rest/rss.xml
+# Sitemaps
+Sitemap: http://localhost:3000/sitemap.xml

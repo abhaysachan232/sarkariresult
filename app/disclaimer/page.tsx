@@ -1,5 +1,5 @@
 // app/disclaimer/page.tsx
-import React from "react";
+
 
 // ✅ Step 1: SEO Metadata
 export const metadata = {
