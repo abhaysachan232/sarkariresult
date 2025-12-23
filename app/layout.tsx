@@ -7,14 +7,14 @@ import Footer from "@/components/Footer"
 import Script from "next/script"
 import './globals.css'
 
-const inter = Inter({ subsets: ["latin"], display: "swap" })
+const inter = Inter({ subsets: ["latin"], display: "swap", preload: true, })
 
 const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
 
 // ✅ SEO Intro + FAQ Section Component
 function HomeSeoSection() {
   return (
-    <div className="min-h-[220px] flex flex-col justify-center">
+    <div className="min-h-[240px] flex items-center justify-center">
       <section style={{
     minHeight: "240px",
     display: "flex",
