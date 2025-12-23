@@ -244,7 +244,7 @@ export default async function JobDetailsPage({
   <Image
                           src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
                 job.title
-              )}&footerText=${encodeURIComponent('sarkariresult.rest')}&type=minimal`}
+              )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
                           alt={job.title}
                           fill
                           sizes="(max-width: 768px) 100vw, 1200px"
