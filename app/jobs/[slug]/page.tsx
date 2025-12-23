@@ -52,9 +52,7 @@ export async function generateMetadata({
       type: "article",
       images: [
         {
-          url: `https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-            job.title
-          )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`,
+          url: `https://sarkariresult.rest/og/jobs/${job.slug}.webp`,
           width: 1200,
           height: 630,
         },
@@ -64,9 +62,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: job.title,
       description: job.description,
-      images: `https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-        job.title
-      )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`,
+      images: `https://sarkariresult.rest/og/jobs/${job.slug}.webp`,
     },
   };
 }

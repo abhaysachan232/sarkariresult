@@ -88,9 +88,7 @@ export async function generateMetadata({
       type: "article",
       images: [
         {
-          url: `https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.seo?job.seo.og_title:job.title
-    )}&footerText=${encodeURIComponent(job.twitterHandle)}&type=minimal`,
+          url: `https://sarkariresult.rest/og/jobs/${job.slug}.webp`,
           width: 1200,
           height: 630,
         },
@@ -100,9 +98,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: job.seo?job.seo.twitter_title:job.title,
       description: job.seo?job.seo.twitter_description:job.description,
-      images: [`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.seo?job.seo.twitter_title:job.title
-    )}&footerText=${encodeURIComponent(job.twitterHandle)}&type=minimal`],
+      images: [`https://sarkariresult.rest/og/jobs/${job.slug}.webp`],
     },
   };
 }
@@ -169,9 +165,7 @@ export default async function Page({
       "@type": "NewsArticle",
       "headline": article.title,
       "description": article.description,
-      "image": [`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      article.title
-    )}&footerText=${encodeURIComponent('sarkariresult.rest')}&type=minimal`],
+      "image": [`https://sarkariresult.rest/og/jobs/${job.slug}.webp`],
       "datePublished": article.datePublished,
       "dateModified": article.dateModified,
       "author": {
