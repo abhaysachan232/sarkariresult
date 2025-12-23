@@ -1,10 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const { createCanvas } = require("canvas");
-
+const { createCanvas,loadImage } = require("canvas");
 // 🔹 Job data (slug + title required)
-const jobs = require("../public/jobs.json");
+const job = require("../public/jobs.json");
+const articles = require("../public/articles.json");
+const jobs = [...job, ...articles]
 
 const WIDTH = 1200;
 const HEIGHT = 630;
@@ -38,14 +39,17 @@ async function generateImages() {
     ctx.fillText("NEW", 600, 90);
 
     /* ================= LEFT ICON CARD ================= */
-    ctx.fillStyle = "rgba(255,255,255,0.15)";
-    drawRoundRect(ctx, 90, 190, 230, 300, 26);
-    ctx.fill();
+ctx.fillStyle = "rgba(255,255,255,0.15)";
+drawRoundRect(ctx, 90, 190, 230, 300, 26);
+ctx.fill();
 
-    ctx.font = "110px serif";
-    ctx.fillStyle = "#ffffff";
-    ctx.textAlign = "center";
-    ctx.fillText("📋", 205, 395);
+// ✅ TO-DO / CHECKLIST ICON
+const todoIcon = await loadImage(
+  path.join(process.cwd(), "public/todo.png")
+);
+
+// perfectly centered inside card
+ctx.drawImage(todoIcon, 125, 250, 150, 150);
 
     /* ================= JOB TITLE ================= */
     ctx.textAlign = "left";
@@ -79,9 +83,9 @@ async function generateImages() {
 
     await sharp(buffer)
       .webp({ quality: 82 })
-      .toFile(path.join(OUTPUT_DIR, `${job.slug}.webp`));
+      .toFile(path.join(OUTPUT_DIR, `${job.title.split(" ").join("-")}.webp`));
 
-    console.log(`✅ Generated: ${job.slug}.webp`);
+    console.log(`✅ Generated: ${job.title.split(" ").join("-")}.webp`);
   }
 }
 

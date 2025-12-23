@@ -234,362 +234,351 @@ export default async function JobDetailsPage({
         }}
       />
 
-     
-        <article className="min-h-screen">
-          {/* Hero Banner */}
-          <section className="bg-gradient-to-r from-gray-900 via-slate-800 to-indigo-900
- text-white py-12 md:py-16">
-            <div className="container max-w-5xl mx-auto px-4">
-              <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
-   {/* <Image
-                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-                job.title
-              )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
-                          alt={job.title}
-                          fill
-                          className="w-full h-64 md:h-96 object-cover rounded"
-                          sizes="(max-width: 768px) 100vw, 1200px"
-                          unoptimized              
-                        /> */}
-              <Image
-  src={`/og/jobs/${job.slug}.webp`}
-  alt={job.title}
-  width={1200}
-  height={630}
-  priority
-  className="w-full rounded"
-/>
+      <article className="min-h-screen">
+        {/* Hero Banner */}
+        <section
+          className="bg-gradient-to-r from-gray-900 via-slate-800 to-indigo-900
+ text-white py-12 md:py-16"
+        >
+          <div className="container max-w-5xl mx-auto px-4">
+        <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
+  <Image
+    src={`/og/jobs/${job.title.split(" ").join("-")}.webp`}
+    alt={job.title}
+    width={1200}
+    height={630}
+    sizes="100vw"
+    priority
+    className="w-full h-auto rounded-xl"
+  />
+</div>
 
-                      </div>
 
-              <h1
-                className="text-3xl md:text-5xl font-extrabold mb-3"
-                dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
-              />
-              <p className="text-lg md:text-xl font-medium">
-                {job.organization}
-              </p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
-                  {job.category}
-                </span>
-                <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
-                  {job.Type}
-                </span>
+            <h1
+              className="text-3xl md:text-5xl font-extrabold mb-3"
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
+            />
+            <p className="text-lg md:text-xl font-medium">{job.organization}</p>
+            <div className="flex flex-wrap gap-2 mt-4">
+              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+                {job.category}
+              </span>
+              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+                {job.Type}
+              </span>
 
-                {job.Post && (
-                  <span
-                    className="px-3 py-1 text-sm bg-white/20 rounded-full"
-                    dangerouslySetInnerHTML={{
-                      __html: `Vacancies: ${safePost}`,
-                    }}
-                  />
-                )}
-              </div>
-
-              <div className="mt-6 flex flex-wrap gap-3">
-                {Object.keys(job.links || {}).length === 0 && (
-                  <span className="px-4 py-2 rounded-lg bg-gray-300 text-gray-700 font-semibold">
-                    No Action Links Available
-                  </span>
-                )}
-
-                {Object.entries(job.links || {}).map(([key, value]) => (
-                  <a
-                    key={key}
-                    href={String(value)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
-                  >
-                    {`${
-                      key === "notification"
-                        ? "📄"
-                        : key === "apply"
-                        ? "📝"
-                        : key === "admitCard"
-                        ? "🎫"
-                        : "✅"
-                    } ${key.toString().toUpperCase()}`}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          {/* Main content */}
-          <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Left Column */}
-            <main className="lg:col-span-2 space-y-10">
-              {/* Eligibility Table */}
-              <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-                <h2 className="text-xl font-bold mb-4">Eligibility Criteria</h2>
-                <table className="table-auto w-full text-sm border-collapse border border-gray-200">
-                  <tbody>
-                    <tr className="border-b">
-                      <td className="px-4 py-2 font-medium">Education</td>
-                      <td className="px-4 py-2">
-                        <div
-                          dangerouslySetInnerHTML={{
-                            __html: safeEligibility || "Not specified",
-                          }}
-                        />
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-2 font-medium">Application Fee</td>
-                      <td className="px-4 py-2">
-                        {safeApplicationFee ? (
-                          <ul className="list-disc ml-5">
-                            {Object.entries(safeApplicationFee).map(
-                              ([key, value]) => (
-                                <li key={key}>
-                                  {key}:{" "}
-                                  <span
-                                    dangerouslySetInnerHTML={{
-                                      __html: String(value),
-                                    }}
-                                  />
-                                </li>
-                              )
-                            )}
-                          </ul>
-                        ) : (
-                          "No fee"
-                        )}
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <ShareButtons
-                url={`https://sarkariresult.rest/jobs/${slug}`}
-                title={job.title}
-              />
-
-              {/* Important Dates */}
-              <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  <Calendar className="h-5 w-5 text-blue-600" /> Important Dates
-                </h2>
-                <table className="table-auto w-full text-sm border-collapse border border-gray-200">
-                  <tbody>
-                    {Object.entries(job.importantDates).map(([key, value]) => (
-                      <tr key={key} className="border-b">
-                        <td className="px-4 py-2 font-medium">{key}</td>
-                        <td className="px-4 py-2">{String(value)}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              {/* Description */}
-              <div className="prose dark:prose-invert max-w-none space-y-6">
-                <div dangerouslySetInnerHTML={{ __html: safeDescription }} />
-
-                <h2>
-                  <b>About {job.organization}</b>
-                </h2>
-                <p>
-                  <b>
-                    <i>{job.organization}</i>
-                  </b>{" "}
-                  is one of the most trusted recruitment bodies...
-                </p>
-
-                <h2>
-                  <b>About the {job.title}</b>
-                </h2>
-                <p>
-                  The <b>{job.title}</b> notification released by{" "}
-                  <b>{job.organization}</b> ...
-                </p>
-
-                <h2>
-                  <b>Key Highlights of {job.title}</b>
-                </h2>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>
-                    <b>Organization:</b> {job.organization}
-                  </li>
-                  <li>
-                    <b>Post Name:</b> {job.title}
-                  </li>
-                  <li>
-                    <b>Total Vacancies:</b>{" "}
-                    <span dangerouslySetInnerHTML={{ __html: safePost }} />
-                  </li>
-                  <li>
-                    <b>Salary:</b> {job.salary}
-                  </li>
-                  <li>
-                    <b>Age Limit:</b>{" "}
-                    <span
-                      dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
-                    />
-                  </li>
-
-                  {Object.entries(job.importantDates).map(([key, value]) => {
-                    return (
-                      <li key={key}>
-                        <b>{key}</b> {String(value)}
-                      </li>
-                    );
-                  })}
-                  <li>
-                    <b>Official Website:</b> {job.links?.official ?? "N/A"}
-                  </li>
-                </ul>
-
-                <h2>
-                  <b>Eligibility Criteria</b>
-                </h2>
-                <div
+              {job.Post && (
+                <span
+                  className="px-3 py-1 text-sm bg-white/20 rounded-full"
                   dangerouslySetInnerHTML={{
-                    __html: safeEligibility || "<p>Not specified</p>",
+                    __html: `Vacancies: ${safePost}`,
                   }}
                 />
-
-                {/* ...rest remains mostly the same. */}
-              </div>
-              {/* Job Overview Table */}
-              <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  <FileText className="h-5 w-5 text-blue-600" /> Job Overview
-                </h2>
-                <table className="table-auto w-full text-sm border-collapse border border-gray-200">
-                  <tbody>
-                    <tr className="border-b">
-                      <td className="px-4 py-2 font-medium">Location</td>
-                      <td className="px-4 py-2">{job.location}</td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-2 font-medium">Posted</td>
-                      <td className="px-4 py-2">{job.date}</td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="px-4 py-2 font-medium">Age</td>
-                      <td className="px-4 py-2">
-                        <span
-                          dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
-                        />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 font-medium">Salary</td>
-                      <td className="px-4 py-2">₹{job.salary ?? "N/A"}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              {job.content && (
-                <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-                  {Array.isArray(job.content) && job.content.length > 0 && (
-                    <div className="space-y-10">
-                      {job.content.map((section: any, index: number) => (
-                        <div
-                          key={index}
-                          className="prose dark:prose-invert max-w-none"
-                        >
-                          {/* Heading */}
-                          {section.heading && (
-                            <h2 className="text-2xl font-bold mb-3">
-                              {section.heading}
-                            </h2>
-                          )}
-
-                          {/* BODY CHECK */}
-                          {section.body &&
-                            (typeof section.body === "string" ? (
-                              <p>{section.body}</p>
-                            ) : Array.isArray(section.body) ? (
-                              <ul className="list-disc list-inside space-y-1">
-                                {section.body.map(
-                                  (point: string, idx: number) => (
-                                    <li key={idx}>{point}</li>
-                                  )
-                                )}
-                              </ul>
-                            ) : null)}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
               )}
-              <Faq />
-            </main>
+            </div>
 
-            {/* Right Sidebar */}
-            <aside className="lg:col-span-1 space-y-6">
-              <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-blue-600" /> Location
-                </h2>
-                <p>{job.location}</p>
-              </div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {Object.keys(job.links || {}).length === 0 && (
+                <span className="px-4 py-2 rounded-lg bg-gray-300 text-gray-700 font-semibold">
+                  No Action Links Available
+                </span>
+              )}
 
-              <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  <UserCheck className="h-5 w-5 text-blue-600" /> Organization
-                </h2>
-                <p>{job.organization}</p>
-              </div>
+              {Object.entries(job.links || {}).map(([key, value]) => (
+                <a
+                  key={key}
+                  href={String(value)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
+                >
+                  {`${
+                    key === "notification"
+                      ? "📄"
+                      : key === "apply"
+                      ? "📝"
+                      : key === "admitCard"
+                      ? "🎫"
+                      : "✅"
+                  } ${key.toString().toUpperCase()}`}
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
 
-              <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-blue-600" /> Job Type
-                </h2>
-                <p>{job.type}</p>
-              </div>
+        {/* Main content */}
+        <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left Column */}
+          <main className="lg:col-span-2 space-y-10">
+            {/* Eligibility Table */}
+            <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
+              <h2 className="text-xl font-bold mb-4">Eligibility Criteria</h2>
+              <table className="table-auto w-full text-sm border-collapse border border-gray-200">
+                <tbody>
+                  <tr className="border-b">
+                    <td className="px-4 py-2 font-medium">Education</td>
+                    <td className="px-4 py-2">
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: safeEligibility || "Not specified",
+                        }}
+                      />
+                    </td>
+                  </tr>
+                  <tr className="border-b">
+                    <td className="px-4 py-2 font-medium">Application Fee</td>
+                    <td className="px-4 py-2">
+                      {safeApplicationFee ? (
+                        <ul className="list-disc ml-5">
+                          {Object.entries(safeApplicationFee).map(
+                            ([key, value]) => (
+                              <li key={key}>
+                                {key}:{" "}
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: String(value),
+                                  }}
+                                />
+                              </li>
+                            )
+                          )}
+                        </ul>
+                      ) : (
+                        "No fee"
+                      )}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-              <ShareButtons
-                url={`https://sarkariresult.rest/jobs/${slug}`}
-                title={job.title}
+            <ShareButtons
+              url={`https://sarkariresult.rest/jobs/${slug}`}
+              title={job.title}
+            />
+
+            {/* Important Dates */}
+            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <Calendar className="h-5 w-5 text-blue-600" /> Important Dates
+              </h2>
+              <table className="table-auto w-full text-sm border-collapse border border-gray-200">
+                <tbody>
+                  {Object.entries(job.importantDates).map(([key, value]) => (
+                    <tr key={key} className="border-b">
+                      <td className="px-4 py-2 font-medium">{key}</td>
+                      <td className="px-4 py-2">{String(value)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            {/* Description */}
+            <div className="prose dark:prose-invert max-w-none space-y-6">
+              <div dangerouslySetInnerHTML={{ __html: safeDescription }} />
+
+              <h2>
+                <b>About {job.organization}</b>
+              </h2>
+              <p>
+                <b>
+                  <i>{job.organization}</i>
+                </b>{" "}
+                is one of the most trusted recruitment bodies...
+              </p>
+
+              <h2>
+                <b>About the {job.title}</b>
+              </h2>
+              <p>
+                The <b>{job.title}</b> notification released by{" "}
+                <b>{job.organization}</b> ...
+              </p>
+
+              <h2>
+                <b>Key Highlights of {job.title}</b>
+              </h2>
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  <b>Organization:</b> {job.organization}
+                </li>
+                <li>
+                  <b>Post Name:</b> {job.title}
+                </li>
+                <li>
+                  <b>Total Vacancies:</b>{" "}
+                  <span dangerouslySetInnerHTML={{ __html: safePost }} />
+                </li>
+                <li>
+                  <b>Salary:</b> {job.salary}
+                </li>
+                <li>
+                  <b>Age Limit:</b>{" "}
+                  <span
+                    dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
+                  />
+                </li>
+
+                {Object.entries(job.importantDates).map(([key, value]) => {
+                  return (
+                    <li key={key}>
+                      <b>{key}</b> {String(value)}
+                    </li>
+                  );
+                })}
+                <li>
+                  <b>Official Website:</b> {job.links?.official ?? "N/A"}
+                </li>
+              </ul>
+
+              <h2>
+                <b>Eligibility Criteria</b>
+              </h2>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: safeEligibility || "<p>Not specified</p>",
+                }}
               />
 
-              {/* Related Jobs */}
-              {relatedJobs.length > 0 && (
-                <div className="rounded-xl border bg-white shadow p-6">
-                  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                    📰 Related Jobs
-                  </h2>
-                  <ul className="list-disc list-inside space-y-2">
-                    {relatedJobs.map((rj) => (
-                      <>
-                        <div className="w-16 h-16 relative flex-shrink-0">
-                          <Image
-                            src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-                              job.title
-                            )}&footerText=${encodeURIComponent(
-                              job.organization
-                            )}&type=minimal`}
-                            alt={rj.title}
-                            fill
-                            className="object-cover rounded"
-                            width={1200}
-                            height={600}
-                            unoptimized
-                          />
-                        </div>
-                        <li key={rj.id}>
-                          <Link
-                            href={`/jobs/${rj.setPath.split(" ").join("-")}`}
-                            className="text-blue-600 hover:underline"
-                          >
-                            {rj.title}
-                          </Link>
-                        </li>
-                      </>
+              {/* ...rest remains mostly the same. */}
+            </div>
+            {/* Job Overview Table */}
+            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <FileText className="h-5 w-5 text-blue-600" /> Job Overview
+              </h2>
+              <table className="table-auto w-full text-sm border-collapse border border-gray-200">
+                <tbody>
+                  <tr className="border-b">
+                    <td className="px-4 py-2 font-medium">Location</td>
+                    <td className="px-4 py-2">{job.location}</td>
+                  </tr>
+                  <tr className="border-b">
+                    <td className="px-4 py-2 font-medium">Posted</td>
+                    <td className="px-4 py-2">{job.date}</td>
+                  </tr>
+                  <tr className="border-b">
+                    <td className="px-4 py-2 font-medium">Age</td>
+                    <td className="px-4 py-2">
+                      <span
+                        dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 font-medium">Salary</td>
+                    <td className="px-4 py-2">₹{job.salary ?? "N/A"}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            {job.content && (
+              <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
+                {Array.isArray(job.content) && job.content.length > 0 && (
+                  <div className="space-y-10">
+                    {job.content.map((section: any, index: number) => (
+                      <div
+                        key={index}
+                        className="prose dark:prose-invert max-w-none"
+                      >
+                        {/* Heading */}
+                        {section.heading && (
+                          <h2 className="text-2xl font-bold mb-3">
+                            {section.heading}
+                          </h2>
+                        )}
+
+                        {/* BODY CHECK */}
+                        {section.body &&
+                          (typeof section.body === "string" ? (
+                            <p>{section.body}</p>
+                          ) : Array.isArray(section.body) ? (
+                            <ul className="list-disc list-inside space-y-1">
+                              {section.body.map(
+                                (point: string, idx: number) => (
+                                  <li key={idx}>{point}</li>
+                                )
+                              )}
+                            </ul>
+                          ) : null)}
+                      </div>
                     ))}
-                  </ul>
-                </div>
-              )}
-            </aside>
-          </section>
-        </article>
-     
+                  </div>
+                )}
+              </div>
+            )}
+            <Faq />
+          </main>
+
+          {/* Right Sidebar */}
+          <aside className="lg:col-span-1 space-y-6">
+            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <MapPin className="h-5 w-5 text-blue-600" /> Location
+              </h2>
+              <p>{job.location}</p>
+            </div>
+
+            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <UserCheck className="h-5 w-5 text-blue-600" /> Organization
+              </h2>
+              <p>{job.organization}</p>
+            </div>
+
+            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <CheckCircle className="h-5 w-5 text-blue-600" /> Job Type
+              </h2>
+              <p>{job.type}</p>
+            </div>
+
+            <ShareButtons
+              url={`https://sarkariresult.rest/jobs/${slug}`}
+              title={job.title}
+            />
+
+            {/* Related Jobs */}
+            {relatedJobs.length > 0 && (
+              <div className="rounded-xl border bg-white shadow p-6">
+                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                  📰 Related Jobs
+                </h2>
+                <ul className="list-disc list-inside space-y-2">
+                  {relatedJobs.map((rj) => (
+                    <>
+                      <div className="w-16 h-16 relative flex-shrink-0">
+                        <Image
+                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+                            job.title
+                          )}&footerText=${encodeURIComponent(
+                            job.organization
+                          )}&type=minimal`}
+                          alt={rj.title}
+                          fill
+                          className="object-cover rounded"
+                          width={1200}
+                          height={600}
+                          unoptimized
+                        />
+                      </div>
+                      <li key={rj.id}>
+                        <Link
+                          href={`/jobs/${rj.setPath.split(" ").join("-")}`}
+                          className="text-blue-600 hover:underline"
+                        >
+                          {rj.title}
+                        </Link>
+                      </li>
+                    </>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </aside>
+        </section>
+      </article>
     </>
   );
 }
