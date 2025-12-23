@@ -237,7 +237,7 @@ export default async function JobDetailsPage({
      
         <article className="min-h-screen">
           {/* Hero Banner */}
-          <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
+          <section className=" text-white py-12 md:py-16">
             <div className="container max-w-5xl mx-auto px-4">
               <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
                 <Image
@@ -258,20 +258,20 @@ export default async function JobDetailsPage({
                 className="text-3xl md:text-5xl font-extrabold mb-3"
                 dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
               />
-              <p className="text-lg md:text-xl font-medium">
+              <p className="text-lg md:text-xl font-medium text-blue-700 font-semibold border border-white">
                 {job.organization}
               </p>
-              <div className="flex flex-wrap gap-2 mt-4">
+              <div className="flex flex-wrap gap-2 mt-4 text-blue-700 font-semibold border border-white">
                 <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
                   {job.category}
                 </span>
-                <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+                <span className="px-3 py-1 text-sm bg-white/20 rounded-full text-blue-700 font-semibold border border-white">
                   {job.Type}
                 </span>
 
                 {job.Post && (
                   <span
-                    className="px-3 py-1 text-sm bg-white/20 rounded-full"
+                    className="px-3 py-1 text-sm bg-white/20 rounded-full text-blue-700 font-semibold border border-white"
                     dangerouslySetInnerHTML={{
                       __html: `Vacancies: ${safePost}`,
                     }}
