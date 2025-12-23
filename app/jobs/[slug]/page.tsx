@@ -249,8 +249,7 @@ export default async function JobDetailsPage({
                           fill
                           className="w-full h-64 md:h-96 object-cover rounded"
                           sizes="(max-width: 768px) 100vw, 1200px"
-                          priority
-  fetchPriority="high"               
+                          unoptimized              
                         />
                       </div>
 
