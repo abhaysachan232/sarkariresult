@@ -243,10 +243,8 @@ export default async function JobDetailsPage({
               <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
                 <Image
                   src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-                    job.title
-                  )}&footerText=${encodeURIComponent(
-                    job.organization
-                  )}&type=minimal`}
+    job.title
+  )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
                 alt={job.title}
                    width={1200}
   height={630}
