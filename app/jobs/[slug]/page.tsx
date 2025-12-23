@@ -243,7 +243,9 @@ export default async function JobDetailsPage({
   alt={job.title}
   width="1200"
   height="630"
-  className="w-full h-auto rounded-xl"
+                className="w-full h-auto rounded-xl"
+                priority
+                fetchPriority="high"
 />
 
 </div>

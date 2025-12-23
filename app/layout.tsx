@@ -16,9 +16,14 @@ const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
 // ✅ SEO Intro + FAQ Section Component
 function HomeSeoSection() {
   return (
-    <div className="mt-8 space-y-6 max-w-4xl mx-auto text-center min-h-[220px]">
-      <section>
-        <h1 className="text-2xl font-bold mb-3">
+    <div className="min-h-[220px] flex flex-col justify-center">
+      <section style={{
+    minHeight: "240px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  }}>
+        <h1 className="text-2xl font-bold mb-3 leading-tight">
           Welcome to www SarkariResult com – Your Trusted Source for Sarkari Jobs
         </h1>
         <p className="text-gray-700 leading-relaxed">
