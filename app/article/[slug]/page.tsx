@@ -265,19 +265,17 @@ export default async function Page({
 
       <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
         <div className="text-center mb-8">
-          <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
-                        <Image
-                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-                article.title
-              )}&footerText=${encodeURIComponent('sarkariresult.rest')}&type=minimal`}
-                          alt={article.title}
-                          fill
-                          className="w-full h-64 md:h-96 object-cover rounded"
-                          sizes="(max-width: 768px) 100vw, 1200px"
-                         priority
-  fetchPriority="high"              
-                        />
-                      </div>
+        <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
+  <Image
+    src={`/og/jobs/${article.title.split(" ").join("-")}.webp`}
+    alt={article.title}
+    width={1200}
+    height={630}
+    sizes="100vw"
+    priority
+    className="w-full h-auto rounded-xl"
+  />
+</div>
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
             {article.title}
           </h1>
