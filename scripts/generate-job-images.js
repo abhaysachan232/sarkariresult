@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 import { createCanvas, loadImage } from "canvas";
-import jobs from "../data/jobs.json" assert { type: "json" };
+import jobs from "../public/jobs.json" assert { type: "json" };
 
 const WIDTH = 1200;
 const HEIGHT = 630;
