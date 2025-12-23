@@ -7,6 +7,7 @@ import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
 import Script from "next/script"
 import { usePathname } from "next/navigation"
+import './globals.css'
 
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 
