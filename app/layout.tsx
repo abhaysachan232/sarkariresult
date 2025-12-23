@@ -5,7 +5,6 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
 import Script from "next/script"
-import { usePathname } from "next/navigation"
 import './globals.css'
 
 const inter = Inter({ subsets: ["latin"], display: "swap" })
@@ -22,7 +21,7 @@ function HomeSeoSection() {
     alignItems: "center",
     justifyContent: "center",
   }}>
-        <h1 className="text-2xl font-bold mb-3 leading-tight">
+        <h1 className="text-2xl font-bold mb-3 leading-tight" style={{ contentVisibility: "auto" }}>
           Welcome to www SarkariResult com – Your Trusted Source for Sarkari Jobs
         </h1>
         <p className="text-gray-700 leading-relaxed">
@@ -131,8 +130,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const pathname = usePathname()
-console.log(pathname);
+
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -162,7 +160,7 @@ console.log(pathname);
 
           <main style={{ flex: 1, padding: "20px" }}>
             {children}
-            {pathname === "/" && <HomeSeoSection />}
+<HomeSeoSection />
           </main>
 
           <Footer />
