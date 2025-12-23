@@ -274,7 +274,8 @@ export default async function Page({
                           fill
                           className="w-full h-64 md:h-96 object-cover rounded"
                           sizes="(max-width: 768px) 100vw, 1200px"
-                          unoptimized                
+                         priority
+  fetchPriority="high"              
                         />
                       </div>
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
