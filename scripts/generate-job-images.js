@@ -39,8 +39,14 @@ async function generateImages() {
     ctx.fillText("NEW", 600, 90);
 
     /* ================= LEFT ICON CARD ================= */
+// Background card
+const CARD_X = 90;
+const CARD_Y = 190;
+const CARD_W = 230;
+const CARD_H = 300;
+
 ctx.fillStyle = "rgba(255,255,255,0.15)";
-drawRoundRect(ctx, 90, 190, 230, 300, 26);
+drawRoundRect(ctx, CARD_X, CARD_Y, CARD_W, CARD_H, 26);
 ctx.fill();
 
 // ✅ TO-DO / CHECKLIST ICON
@@ -48,8 +54,16 @@ const todoIcon = await loadImage(
   path.join(process.cwd(), "public/todo.png")
 );
 
-// perfectly centered inside card
-ctx.drawImage(todoIcon, 125, 250, 150, 150);
+
+// 🔥 Icon sizing (NOT compact)
+const ICON_SIZE = 180; // ideal size (150 was too small)
+
+// Auto-center icon inside card
+const ICON_X = CARD_X + (CARD_W - ICON_SIZE) / 2;
+const ICON_Y = CARD_Y + (CARD_H - ICON_SIZE) / 2;
+
+ctx.drawImage(todoIcon, ICON_X, ICON_Y, ICON_SIZE, ICON_SIZE);
+
 
     /* ================= JOB TITLE ================= */
     ctx.textAlign = "left";
