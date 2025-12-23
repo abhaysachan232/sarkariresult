@@ -257,7 +257,6 @@ export default async function JobDetailsPage({
   width={1200}
   height={630}
   priority
-  sizes="(max-width: 768px) 100vw, 1200px"
   className="w-full rounded"
 />
 
