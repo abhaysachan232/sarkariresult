@@ -2,11 +2,9 @@
 
 import type React from "react"
 import { Inter } from "next/font/google"
-import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
-import SwgLoginButton from "@/components/SwgLoginButton"
 import Script from "next/script"
 import { usePathname } from "next/navigation"
 
@@ -17,7 +15,7 @@ const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
 // ✅ SEO Intro + FAQ Section Component
 function HomeSeoSection() {
   return (
-    <div className="mt-8 space-y-6 max-w-4xl mx-auto text-center">
+    <div className="mt-8 space-y-6 max-w-4xl mx-auto text-center min-h-[220px]">
       <section>
         <h1 className="text-2xl font-bold mb-3">
           Welcome to www SarkariResult com – Your Trusted Source for Sarkari Jobs
