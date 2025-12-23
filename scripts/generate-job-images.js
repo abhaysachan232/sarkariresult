@@ -2,7 +2,8 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 import { createCanvas, loadImage } from "canvas";
-import jobs from "../public/jobs.json" assert { type: "json" };
+// import jobs from "../public/jobs.json" assert { type: "json" };
+const jobs = require("../public/jobs.json");
 
 const WIDTH = 1200;
 const HEIGHT = 630;
