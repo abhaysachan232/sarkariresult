@@ -241,7 +241,7 @@ export default async function JobDetailsPage({
  text-white py-12 md:py-16">
             <div className="container max-w-5xl mx-auto px-4">
               <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
-   <Image
+   {/* <Image
                           src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
                 job.title
               )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
@@ -250,7 +250,17 @@ export default async function JobDetailsPage({
                           className="w-full h-64 md:h-96 object-cover rounded"
                           sizes="(max-width: 768px) 100vw, 1200px"
                           unoptimized              
-                        />
+                        /> */}
+              <Image
+  src={`/og/jobs/${job.slug}.webp`}
+  alt={job.title}
+  width={1200}
+  height={630}
+  priority
+  sizes="(max-width: 768px) 100vw, 1200px"
+  className="w-full rounded"
+/>
+
                       </div>
 
               <h1
