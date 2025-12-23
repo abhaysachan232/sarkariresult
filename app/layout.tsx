@@ -10,7 +10,7 @@ import SwgLoginButton from "@/components/SwgLoginButton"
 import Script from "next/script"
 import { usePathname } from "next/navigation"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
 
