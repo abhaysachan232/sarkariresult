@@ -1,70 +1,68 @@
-import fs from "fs";
-import path from "path";
-import sharp from "sharp";
-import { createCanvas, loadImage } from "canvas";
-// import jobs from "../public/jobs.json" assert { type: "json" };
+const fs = require("fs");
+const path = require("path");
+const sharp = require("sharp");
+const { createCanvas } = require("canvas");
+
 const jobs = require("../public/jobs.json");
 
 const WIDTH = 1200;
 const HEIGHT = 630;
 
 const outputDir = path.join(process.cwd(), "public/og/jobs");
-if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-for (const job of jobs) {
-  const canvas = createCanvas(WIDTH, HEIGHT);
-  const ctx = canvas.getContext("2d");
+async function generateImages() {
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
 
-  /* 🔵 Background gradient (same vibe) */
-  const gradient = ctx.createLinearGradient(0, 0, WIDTH, HEIGHT);
-  gradient.addColorStop(0, "#2563eb");
-  gradient.addColorStop(1, "#6d28d9");
-  ctx.fillStyle = gradient;
-  ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  for (const job of jobs) {
+    const canvas = createCanvas(WIDTH, HEIGHT);
+    const ctx = canvas.getContext("2d");
 
-  /* 🔶 NEW badge */
-  ctx.fillStyle = "#facc15";
-  roundRect(ctx, 480, 40, 240, 70, 40);
-  ctx.fill();
-  ctx.fillStyle = "#000";
-  ctx.font = "bold 36px sans-serif";
-  ctx.textAlign = "center";
-  ctx.fillText("NEW", 600, 90);
+    // 🔵 Background gradient
+    const gradient = ctx.createLinearGradient(0, 0, WIDTH, HEIGHT);
+    gradient.addColorStop(0, "#2563eb");
+    gradient.addColorStop(1, "#6d28d9");
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-  /* 📄 Left icon (clipboard style box) */
-  ctx.fillStyle = "rgba(255,255,255,0.15)";
-  roundRect(ctx, 80, 170, 260, 320, 30);
-  ctx.fill();
+    // 🔶 NEW badge
+    ctx.fillStyle = "#facc15";
+    roundRect(ctx, 480, 40, 240, 70, 40);
+    ctx.fill();
+    ctx.fillStyle = "#000";
+    ctx.font = "bold 36px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText("NEW", 600, 90);
 
-  ctx.font = "120px serif";
-  ctx.fillStyle = "#ffffff";
-  ctx.fillText("📋", 210, 380);
+    // 📄 Left icon block
+    ctx.fillStyle = "rgba(255,255,255,0.15)";
+    roundRect(ctx, 80, 170, 260, 320, 30);
+    ctx.fill();
 
-  /* 📝 JOB TITLE (dynamic) */
-  ctx.textAlign = "left";
-  ctx.fillStyle = "#ffffff";
-  ctx.font = "bold 64px sans-serif";
-  wrapText(
-    ctx,
-    job.title,          // 🔥 dynamic text
-    380,
-    260,
-    740,
-    78
-  );
+    ctx.font = "120px serif";
+    ctx.fillStyle = "#ffffff";
+    ctx.fillText("📋", 210, 380);
 
-  /* 🌐 Footer domain */
-  ctx.font = "bold 40px sans-serif";
-  ctx.fillStyle = "#fde68a";
-  ctx.fillText("sarkariresult.rest", 380, 520);
+    // 📝 Job title
+    ctx.textAlign = "left";
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "bold 64px sans-serif";
+    wrapText(ctx, job.title, 380, 260, 740, 78);
 
-  /* Convert to WEBP */
-  const buffer = canvas.toBuffer("image/png");
-  await sharp(buffer)
-    .webp({ quality: 82 })
-    .toFile(path.join(outputDir, `${job.slug}.webp`));
+    // 🌐 Footer
+    ctx.font = "bold 40px sans-serif";
+    ctx.fillStyle = "#fde68a";
+    ctx.fillText("sarkariresult.rest", 380, 520);
 
-  console.log(`✅ Generated: ${job.slug}.webp`);
+    const buffer = canvas.toBuffer("image/png");
+
+    await sharp(buffer)
+      .webp({ quality: 82 })
+      .toFile(path.join(outputDir, `${job.slug}.webp`));
+
+    console.log(`✅ Generated: ${job.slug}.webp`);
+  }
 }
 
 /* ---------- helpers ---------- */
@@ -96,3 +94,6 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
   }
   ctx.fillText(line, x, y);
 }
+
+// 🚀 run
+generateImages().catch(console.error);
