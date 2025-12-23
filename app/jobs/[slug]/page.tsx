@@ -237,7 +237,8 @@ export default async function JobDetailsPage({
      
         <article className="min-h-screen">
           {/* Hero Banner */}
-          <section className=" text-white py-12 md:py-16">
+          <section className="bg-gradient-to-r from-gray-900 via-slate-800 to-indigo-900
+ text-white py-12 md:py-16">
             <div className="container max-w-5xl mx-auto px-4">
               <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
                 <Image
@@ -246,11 +247,13 @@ export default async function JobDetailsPage({
                   )}&footerText=${encodeURIComponent(
                     job.organization
                   )}&type=minimal`}
-                  alt={job.title}
-                  fill
-                  className="w-full h-64 md:h-96 object-cover rounded"
-                  sizes="(max-width: 768px) 100vw, 1200px"
-                  unoptimized
+                alt={job.title}
+                   width={1200}
+  height={630}
+  priority
+  fetchPriority="high"
+  sizes="(max-width: 768px) 100vw, 1200px"
+  className="w-full rounded"
                 />
               </div>
 
@@ -258,20 +261,20 @@ export default async function JobDetailsPage({
                 className="text-3xl md:text-5xl font-extrabold mb-3"
                 dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
               />
-              <p className="text-lg md:text-xl font-medium text-blue-700 font-semibold border border-white">
+              <p className="text-lg md:text-xl font-medium">
                 {job.organization}
               </p>
-              <div className="flex flex-wrap gap-2 mt-4 text-blue-700 font-semibold border border-white">
+              <div className="flex flex-wrap gap-2 mt-4">
                 <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
                   {job.category}
                 </span>
-                <span className="px-3 py-1 text-sm bg-white/20 rounded-full text-blue-700 font-semibold border border-white">
+                <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
                   {job.Type}
                 </span>
 
                 {job.Post && (
                   <span
-                    className="px-3 py-1 text-sm bg-white/20 rounded-full text-blue-700 font-semibold border border-white"
+                    className="px-3 py-1 text-sm bg-white/20 rounded-full"
                     dangerouslySetInnerHTML={{
                       __html: `Vacancies: ${safePost}`,
                     }}
