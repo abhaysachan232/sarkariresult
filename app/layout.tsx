@@ -14,7 +14,7 @@ const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
 // ✅ SEO Intro + FAQ Section Component
 function HomeSeoSection() {
   return (
-    <div className="min-h-[240px] flex items-center justify-center">
+    <div className="min-h-[240px] flex-col items-center justify-center">
       <section style={{
     minHeight: "240px",
     display: "flex",
