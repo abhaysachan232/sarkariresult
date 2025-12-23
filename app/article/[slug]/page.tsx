@@ -148,13 +148,6 @@ export default async function Page({
 
   const article = (dataJson as Article[]).find((art) => art.slug === slug);
 
-  // useEffect(() => {
-  //   if (article?.title) {
-  //     document.title = `${article.title} | Sarkari Result`;
-  //     const metaDesc = document.querySelector("meta[name='description']");
-  //     if (metaDesc) metaDesc.setAttribute("content", article.description);
-  //   }
-  // }, [article]);
 
   if (!article)
     return <p className="text-center mt-10 text-red-500">Article not found</p>;
@@ -165,7 +158,7 @@ export default async function Page({
       "@type": "NewsArticle",
       "headline": article.title,
       "description": article.description,
-      "image": [`https://sarkariresult.rest/og/jobs/${job.slug}.webp`],
+      "image": [`https://sarkariresult.rest/og/jobs/${article.slug}.webp`],
       "datePublished": article.datePublished,
       "dateModified": article.dateModified,
       "author": {
