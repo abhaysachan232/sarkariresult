@@ -83,9 +83,9 @@ ctx.drawImage(todoIcon, 125, 250, 150, 150);
 
     await sharp(buffer)
       .webp({ quality: 82 })
-      .toFile(path.join(OUTPUT_DIR, `${job.title.split(" ").join("-")}.webp`));
+      .toFile(path.join(OUTPUT_DIR, `${job.slug}.webp`));
 
-    console.log(`✅ Generated: ${job.title.split(" ").join("-")}.webp`);
+    console.log(`✅ Generated: ${job.slug}.webp`);
   }
 }
 

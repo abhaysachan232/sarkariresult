@@ -267,7 +267,7 @@ export default async function Page({
         <div className="text-center mb-8">
         <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
   <Image
-    src={`/og/jobs/${article.title.split(" ").join("-")}.webp`}
+    src={`/og/jobs/${article.slug}.webp`}
     alt={article.title}
     width={1200}
     height={630}

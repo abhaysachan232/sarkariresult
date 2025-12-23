@@ -243,7 +243,7 @@ export default async function JobDetailsPage({
           <div className="container max-w-5xl mx-auto px-4">
         <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
   <Image
-    src={`/og/jobs/${job.title.split(" ").join("-")}.webp`}
+    src={`/og/jobs/${job.slug}.webp`}
     alt={job.title}
     width={1200}
     height={630}

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "MPESB Stenographer",
+    "slug":"mpesb-stenographer",
     "setPath": "MPESB Stenographer",
     "organization": "Madhya Pradesh Employees Selection Board",
     "date": "28-01-2025",
@@ -36,12 +37,13 @@
       "official": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Police-Constable-Admit-Card-2025-Out"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 2,
     "title": "Bihar BSSC Inter Level Recruitment 2025",
     "setPath": "Bihar BSSC Inter Level Recruitment 2025",
+    "slug":"bihar-bssc-inter-level-recruitment-2025",
     "organization": "Bihar Staff Selection Commission (BSSC)",
     "date": "16-10-2025",
     "location": "Bihar",
@@ -75,12 +77,13 @@
       "notification": "https://bssc.bihar.gov.in/Advertisement/2568.pdf",
       "official": "https://bssc.bihar.gov.in/"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 3,
     "title": "Bihar STET 2025 online",
     "setPath": "Bihar STET 2025 online",
+    "slug":"bihar-stet-2025-online",
     "organization": "Bihar School Examination Board (BSEB)",
     "date": "19-09-2025",
     "location": "Bihar",
@@ -123,6 +126,7 @@
     "id": 4,
     "title": "bihar police asi steno result mark 2024",
     "setPath": "bihar police asi steno result mark 2024",
+    "slug":"bihar-police-asi-steno-result-mark-2024",
     "organization": "BPSSC Bihar Police Subordinate Services Commission",
     "date": "14-12-2024",
     "location": "Bihar",
@@ -157,13 +161,15 @@
       "admitCard": "https://apply-bpssc.com/StenoAsiWEAdmit124/applicationIndex",
       "result": "https://apply-bpssc.com/bpssc_1_24_result_sheets/searchApplication"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 5,
     "title": "DDA Recruitment 2025",
     "setPath": "DDA Recruitment 2025",
+    "slug": "dda-recruitment-2025",
     "organization": "Delhi Development Authority",
+
     "date": "06-10-2025",
     "location": "Delhi",
     "type": "latest-job",
@@ -197,12 +203,13 @@
       "admitCard": "",
       "result": ""
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 6,
     "title": "RRB NTPC Recruitment 2025",
     "setPath": "RRB NTPC Recruitment 2025",
+    "slug": "rrb-ntp-recruitment-2025",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "28-10-2025",
     "location": "India",
@@ -238,12 +245,13 @@
       "admitCard": "",
       "result": ""
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 7,
     "title": "RRB NTPC Graduate Level Recruitment 2025",
     "setPath": "RRB NTPC Graduate Level Recruitment 2025",
+    "slug": "rrb-ntpc-graduate-level-recruitment-2025",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "21-10-2025",
     "location": "India",
@@ -279,12 +287,13 @@
       "admitCard": "",
       "result": ""
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 8,
     "title": "Railway RRB Junior Engineer JE Recruitment 2025",
     "setPath": "Railway RRB Junior Engineer JE Recruitment 2025",
+    "slug": "railway-rrb-junior-engineer-je-recruitment-2025",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "31-10-2025",
     "location": "India",
@@ -320,12 +329,13 @@
       "admitCard": "",
       "result": ""
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 9,
     "title": "dsssb admit card 2025",
     "setPath": "dsssb admit card 2025",
+    "slug":"dsssb-admit-card-2025",
     "organization": "Delhi Subordinate Service Selection Commission (DSSSB)",
     "date": "31-10-2025",
     "location": "India",
@@ -361,12 +371,13 @@
       "admitCard": "https://cdn.digialm.com/EForms/configuredHtml/1258/96015/login.html",
       "result": ""
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 10,
     "title": "Delhi Police Head Constable Recruitment",
     "setPath": "Delhi Police Head Constable Ministerial Recruitment 2025",
+    "slug": "delhi-police-head-constable-recruitment-2025",
     "organization": "Staff Selection Commission (SSC Delhi Police)",
     "date": "29-10-2025",
     "location": "India",
@@ -402,12 +413,13 @@
       "result": "",
       "syllabus": "/pdf/Notice_of_DPHCM_2025-16-24.pdf"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 11,
     "title": "rrb alp CBT 2 Result sarkari result",
     "setPath": "rrb alp CBT 2 Result sarkari result",
+    "slug":"rrb-alp-cbt-2-result-sarkari-result",
     "organization": "Railway Recruitment Board (RRB) ",
     "date": "31-10-2025",
     "location": "India",
@@ -443,12 +455,13 @@
       "admitCard": "#",
       "result": "https://rrbpryj.gov.in/"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 12,
     "title": "MPESB MP Police ASI and Subedar Recruitment 2025",
     "setPath": "MPESB MP Police ASI and Subedar Recruitment 2025",
+    "slug":"mpesb-mp-police-asi-and-subedar-recruitment-2025",
     "organization": "Madhya Pradesh Employees Selection Board",
     "date": "29-10-2025",
     "location": "India",
@@ -485,12 +498,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Stenographer"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 13,
     "title": "CSBC Bihar Police Constable Recruitment 2025",
     "setPath": "CSBC Bihar Police Constable Recruitment 2025",
+    "slug":"csbc-bihar-police-constable-recruitment-2025",
     "organization": "Central Selection Board of Constable (CSBC)",
     "date": "06-10-2025",
     "location": "Bihar",
@@ -533,12 +547,13 @@
       "Also Check": "https://sarkariresult.rest/article/dsssb-tgt-syllabus-exam-pattern-selection-process",
       "syllabus": "/pdf/Prohibition-Jail-Warder-Mobile-Squad-Constables.pdf"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 14,
     "title": "TES Army Recruitment 2025 Apply Online",
     "setPath": "TES Army Recruitment 2025 Apply Online",
+    "slug":"tes-army-recruitment-2025-apply-online",
     "organization": "Indian Army",
     "date": "06-10-2025",
     "location": "Bihar",
@@ -577,12 +592,13 @@
       "official": "https://joinindianarmy.nic.in/Authentication.aspx",
       "Also Check": "https://sarkariresult.rest/jobs/CSBC-Bihar-Police-Constable-Recruitment-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 15,
     "title": "BSSC Inter Level Bihar Recruitment 2025",
     "setPath": "BSSC Inter Level Bihar Recruitment 2025",
+    "slug":"bssc-inter-level-bihar-recruitment-2025",
     "organization": "Bihar Staff Selection Commission (BSSC)",
     "date": "08-10-2025",
     "location": "Bihar",
@@ -623,12 +639,13 @@
       "syllabus": "/pdf/02_23A_Advt-14-16.pdf",
       "Also Check": "https://sarkariresult.rest/jobs/TES-Army-Recruitment-2025-Apply-Online"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 16,
     "title": "BSSC Office Attendant Bihar Recruitment 2025",
     "setPath": "BSSC Office Attendant Bihar Recruitment 2025",
+    "slug":"bssc-office-attendant-bihar-recruitment-2025",
     "organization": "Bihar Staff Selection Commission (BSSC)",
     "date": "08-10-2025",
     "location": "Bihar",
@@ -669,12 +686,13 @@
       "syllabus": "/pdf/0625_ADVT-7-11.pdf",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 17,
     "title": "UP SI Exam Date Declared 2025 Check Now",
     "setPath": "UP SI Exam Date Declared 2025 Check Now",
+    "slug":"up-si-exam-date-declared-2025-check-now",
     "organization": "Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB)",
     "date": "09-10-2025",
     "location": "Uttar Pradesh",
@@ -716,12 +734,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 18,
     "title": "SSC Delhi Police Constable Recruitment 2025 Apply Now",
     "setPath": "SSC Delhi Police Constable Recruitment 2025 Apply Now",
+    "slug":"ssc-delhi-police-constable-recruitment-2025-apply-now",
     "organization": "Staff Selection Commission (SSC Delhi Police)",
     "date": "11-10-2025",
     "location": "India",
@@ -763,12 +782,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 19,
     "title": "SSC Constable GD 2024 PET PST Result 2025",
     "setPath": "SSC Constable GD 2024 PET PST Result 2025",
+    "slug":"ssc-constable-gd-2024-pet-pst-result-2025",
     "organization": "Staff Selection Commission (SSC)",
     "date": "13-10-2025",
     "location": "India",
@@ -809,12 +829,13 @@
       "result": "https://ssc.nic.in/",
       "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 20,
     "title": "UPSSSC Technical Assistant Group C Result 2025",
     "setPath": "UPSSSC Technical Assistant Group C Result 2025",
+    "slug":"upsssc-technical-assistant-group-c-result-2025",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "date": "14-10-2025",
     "location": "Uttar Pradesh, India",
@@ -856,12 +877,13 @@
       "result": "https://upsssc.gov.in/Online_App/Results.aspx?ID=136&Result_Type=M&Exam_Code=5&Advt_Code=562&Dept_Code=533&Post_Code=1&OnlyIntview=No",
       "Also Check": "https://sarkariresult.rest/jobs/BSSC-Inter-Level-Bihar-Recruitment-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 21,
     "title": "UPSSSC Stenographer Eligibility Result 2025",
     "setPath": "UPSSSC Stenographer Eligibility Result 2025",
+    "slug":"upsssc-stenographer-eligibility-result-2025",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "date": "14-10-2025",
     "location": "Uttar Pradesh, India",
@@ -903,12 +925,13 @@
       "result": "https://upsssc.gov.in/Online_App/Results.aspx?ID=137&Result_Type=P&Exam_Code=5&Advt_Code=567&Dept_Code=555&Post_Code=1&OnlyIntview=No",
       "Also Check": "https://sarkariresult.rest/article/delhi-police-constable-syllabus-exam-pattern-selection-process"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 22,
     "title": "IB Jr Intelligence Officer (Tech.) Admit Card 2025",
     "setPath": "IB Jr Intelligence Officer (Tech.) Admit Card 2025",
+    "slug":"ib-jr-intelligence-officer-tech-admit-card-2025",
     "organization": "Intelligence Bureau (IB), Ministry of Home Affairs",
     "date": "14-10-2025",
     "location": "India",
@@ -949,12 +972,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/dsssb-admit-card-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 23,
     "title": "PGCIL Field Engineer and Supervisor Admit Card 2025",
     "setPath": "PGCIL Field Engineer and Supervisor Admit Card 2025",
+    "slug":"pgcil-field-engineer-and-supervisor-admit-card-2025",
     "organization": "Power Grid Corporation of India Limited (PGCIL)",
     "date": "14-10-2025",
     "location": "India",
@@ -996,12 +1020,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/SSC-Delhi-Police-Constable-Recruitment-2025-Apply-Now"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 24,
     "title": "Bihar STET Admit Card 2025",
     "setPath": "Bihar STET Admit Card 2025",
+    "slug":"bihar-stet-admit-card-2025",
     "organization": "Bihar School Examination Board (BSEB)",
     "date": "14-10-2025",
     "location": "Bihar, India",
@@ -1045,12 +1070,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/UP-SI-Exam-Date-Declared-2025-Check-Now"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 25,
     "title": "RRB Section Controller Recruitment 2025",
     "setPath": "RRB Section Controller Recruitment 2025",
+    "slug":"rrb-section-controller-recruitment-2025",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "14-10-2025",
     "location": "India",
@@ -1091,12 +1117,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 26,
     "title": "Bihar BSSC 4th Graduate Level Recruitment 2025",
     "setPath": "Bihar BSSC 4th Graduate Level Recruitment 2025",
+    "slug":"bihar-bssc-4th-graduate-level-recruitment-2025",
     "organization": "Bihar Staff Selection Commission (BSSC)",
     "date": "14-10-2025",
     "location": "Bihar, India",
@@ -1138,12 +1165,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 27,
     "title": "Bihar BSSC Office Attendant Recruitment 2025",
     "setPath": "Bihar BSSC Office Attendant Recruitment 2025",
+    "slug":"bihar-bssc-office-attendant-recruitment-2025",
     "organization": "Bihar Staff Selection Commission (BSSC)",
     "date": "14-10-2025",
     "location": "Bihar, India",
@@ -1185,12 +1213,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 28,
     "title": "UPSSSC AGTA DV Result 2025",
     "setPath": "UPSSSC AGTA DV Result 2025",
+    "slug":"upsssc-agta-dv-result-2025",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "date": "15-10-2025",
     "location": "Uttar Pradesh, India",
@@ -1232,12 +1261,13 @@
       "result": "https://upsssc.gov.in/",
       "Also Check": "https://sarkariresult.rest/jobs/UPSSSC-AGTA-Upcoming-Vacancy-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 29,
     "title": "UPSC NDA I Final Result 2025 Check Now With Marks",
     "setPath": "UPSC NDA I Final Result 2025 Check Now With Marks",
+    "slug":"upsc-nda-i-final-result-2025-check-now-with-marks",
     "organization": "Union Public Service Commission (UPSC)",
     "date": "15-10-2025",
     "location": "India",
@@ -1279,12 +1309,13 @@
       "final result": "https://upsc.gov.in/sites/default/files/NDA-I-2025-FR-101025-Engl.pdf",
       "Also Check": "https://sarkariresult.rest/jobs/UPSSSC-AGTA-DV-Result-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 30,
     "title": "RPSC RAS RTS Final Result 2023 Check Now on Sarkari Result",
     "setPath": "RPSC RAS RTS Final Result 2023 Check Now on Sarkari Result",
+    "slug":"rpsc-ras-rts-final-result-2023-check-now-on-sarkari-result",
     "organization": "Rajasthan Public Service Commission (RPSC)",
     "date": "16-10-2025",
     "location": "Rajasthan, India",
@@ -1328,12 +1359,13 @@
       "main result": "https://rpsc.rajasthan.gov.in/Static/Result/58270E2B2E30431281E4A08089EC3385.pdf",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 31,
     "title": "RRB NTPC Graduate Level CBT 02 Answer Key Out Download Now",
     "setPath": "RRB NTPC Graduate Level CBT 02 Answer Key Out Download Now",
+    "slug":"rrb-ntpc-graduate-level-cbt-02-answer-key-out-download-now",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "17-10-2025",
     "location": "All India",
@@ -1373,12 +1405,13 @@
       "objection": "",
       "finalResult": ""
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 32,
     "title": "ntpc Graduate Level RRB Recruitment 2025 start Now",
     "setPath": "RRB NTPC Graduate Level Recruitment 2025 start Now",
+    "slug":"rrb-ntpc-graduate-level-recruitment-2025-start-now",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "21-10-2025",
     "location": "India",
@@ -1414,12 +1447,13 @@
       "result": "https://www.rrbapply.gov.in",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Police-Constable-Admit-Card-2025-Out"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 33,
     "title": "Army DG EME Apply Online 2025",
     "setPath": "Army DG EME Apply Online 2025",
+    "slug":"army-dg-eme-apply-online-2025",
     "organization": "Directorate General of Electrical & Mechanical Engineers (DG EME), Indian Army",
     "date": "24-10-2025",
     "location": "All India",
@@ -1460,12 +1494,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/RRB-NTPC-Graduate-Level-Recruitment-2025-start-Now"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 34,
     "title": "MPESB Police Constable Admit Card 2025 Out",
     "setPath": "MPESB Police Constable Admit Card 2025 Out",
+    "slug":"mpesb-police-constable-admit-card-2025-out",
     "organization": "Madhya Pradesh Employees Selection Board (MPESB)",
     "date": "27-10-2025",
     "location": "Madhya Pradesh, India",
@@ -1507,12 +1542,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 35,
     "title": "SSC CHSL Exam Self Slot Booking 2025 Select Your City Date Shift Now",
     "setPath": "SSC CHSL Exam Self Slot Booking 2025 Select Your City Date Shift Now",
+    "slug":"ssc-chsl-exam-self-slot-booking-2025-select-your-city-date-shift-now",
     "organization": "Staff Selection Commission (SSC)",
     "date": "27-10-2025",
     "location": "All India",
@@ -1553,12 +1589,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/MPESB-Group-2-Sub-Group-3-Recruitment-2025-Apply-Online-for-Various-Posts"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 36,
     "title": "UPSSSC AGTA Upcoming Vacancy 2025",
     "setPath": "UPSSSC AGTA Upcoming Vacancy 2025",
+    "slug":"upsssc-agta-upcoming-vacancy-2025",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "date": "27-10-2025",
     "location": "Uttar Pradesh, India",
@@ -1600,12 +1637,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/UPSSSC-AGTA-DV-Result-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 37,
     "title": "RRB Group D Exam Date 2025 Announced Check Railway CBT Schedule",
     "setPath": "RRB Group D Exam Date 2025 Announced Check Railway CBT Schedule",
+    "slug":"rrb-group-d-exam-date-2025-announced-check-railway-cbt-schedule",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "28-10-2025",
     "location": "Across India",
@@ -1647,12 +1685,13 @@
       "result": "",
       "Also Check": "https://sarkariresult.rest/jobs/RRB-Section-Controller-Recruitment-2025"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 38,
     "title": "MPESB Group 2 Sub Group 3 Recruitment 2025 Apply Online for Various Posts",
     "setPath": "MPESB Group 2 Sub Group 3 Recruitment 2025 Apply Online for Various Posts",
+    "slug":"mpesb-group-2-sub-group-3-recruitment-2025-apply-online-for-various-posts",
     "organization": "Madhya Pradesh Employees Selection Board (MPESB)",
     "date": "29-10-2025",
     "location": "Madhya Pradesh, India",
@@ -1706,12 +1745,13 @@
       "metaDescription": "Apply online for MPESB Group 2 Sub Group 3 Recruitment 2025. Check eligibility, age limit, exam pattern, syllabus, salary, and important dates for MPESB recruitment at esb.mp.gov.in.",
       "keywords": "MPESB Group 2 Sub Group 3 Recruitment 2025, MPESB Group 2 Notification 2025, MP Vyapam Group 2 Jobs, MPPEB Recruitment 2025, MP Sarkari Result"
     },
-    "updatedon": "2025-11-01"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 39,
     "title": "UP Home Guard Vacancy 2025 New Update Apply Online for 30,000+ Posts, Check Salary and Eligibility",
     "setPath": "up home guard vacancy 2025 new-update",
+    "slug":"up-home-guard-vacancy-2025-new-update-apply-online-for-30000-posts-check-salary-and-eligibility",
     "organization": "Uttar Pradesh Home Guard Department",
     "date": "08-11-2025",
     "location": "Uttar Pradesh, India",
@@ -1768,12 +1808,13 @@
       "metaDescription": "UP Home Guard Vacancy 2025 latest update out! Apply online for 30,000+ posts, check eligibility, age limit, UP Home Guard salary, selection process and important dates.",
       "keywords": "UP Home Guard Vacancy 2025, UP Home Guard Salary, UP Home Guard Bharti 2025, UP Home Guard New Update, UP Sarkari Result"
     },
-    "updatedon": "2025-12-18"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 40,
     "title": "NABARD Assistant Manager Recruitment 2025 - Apply Online for Grade A Posts, Check Eligibility & Salary",
     "setPath": "nabard-assistant-manager-recruitment-2025",
+    "slug":"nabard-assistant-manager-recruitment-2025-apply-online-for-grade-a-posts-check-eligibility-salary",
     "organization": "National Bank for Agriculture and Rural Development (NABARD)",
     "date": "08-11-2025",
     "location": "India",
@@ -1828,12 +1869,13 @@
       "metaDescription": "NABARD Assistant Manager Recruitment 2025 notification out! Apply online for Grade A posts. Check eligibility, NABARD salary, selection process, exam pattern & syllabus here.",
       "keywords": "NABARD Assistant Manager Recruitment 2025, NABARD Grade A Salary, NABARD Notification 2025, NABARD Apply Online, NABARD Sarkari Result"
     },
-    "updatedon": "2025-11-08"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 41,
     "title": "BSSC Sports Trainer Recruitment 2025 - Apply Online for 379 Posts in Bihar",
     "setPath": "bssc-sports-trainer-recruitment-2025-bihar",
+    "slug":"bssc-sports-trainer-recruitment-2025-apply-online-for-379-posts-in-bihar",
     "organization": "Bihar Staff Selection Commission (BSSC)",
     "date": "25-09-2025",
     "location": "Bihar, India",
@@ -1886,12 +1928,13 @@
       "metaDescription": "BSSC Sports Trainer Recruitment 2025 notification out for 379 posts. Check eligibility, age limit, pay scale, how to apply online at bssc.bihar.gov.in.",
       "keywords": "BSSC Sports Trainer Recruitment 2025, Bihar Sports Trainer Vacancy 2025, BSSC Khel Prashikshak Bharti 2025, Sports Trainer Bihar Sarkari Job"
     },
-    "updatedon": "2025-11-08"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 42,
     "title": "AISSEE 2026 - Sainik School Admission Online Form Open for Class 6 & 9",
     "setPath": "aissee-2026-sainik-school-admission-online-form",
+    "slug":"aissee-2026-sainik-school-admission-online-form-open-for-class-6-and-9",
     "organization": "National Testing Agency (NTA)",
     "date": "08-11-2025",
     "location": "India",
@@ -1947,12 +1990,13 @@
       "metaDescription": "AISSEE 2026 registration open for Sainik School admission into Class 6 & 9. Check eligibility, important dates, exam pattern, syllabus and how to apply online.",
       "keywords": "AISSEE 2026, Sainik School Admission 2026, NTA Sainik School Online Form, AISSEE Class 6 Class 9 2026, Sainik School Entrance Exam 2026"
     },
-    "updatedon": "2025-11-08"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 43,
     "title": "Sarkari Result 12th 2025 - UP Board 12th, 10th Result Date, Direct Link, and Latest Updates",
     "setPath": "Sarkari Result 12th 2025",
+    "slug":"sarkari-result-12th-2025-up-board-12th-10th-result-date-direct-link-and-latest-updates",
     "organization": "Uttar Pradesh Madhyamik Shiksha Parishad (UPMSP)",
     "date": "09-11-2025",
     "location": "Uttar Pradesh, India",
@@ -1997,12 +2041,13 @@
       "metaDescription": "Check UP Board 12th Result 2025 and 10th Result date on SarkariResult.com. Download marksheet, topper list, rechecking form and official result link at upresults.nic.in.",
       "keywords": "sarkari result 12th, up board 12th result 2025, up board result 2025, sarkari result 10th, sarkari result com 2025, upresults.nic.in, upmsp.edu.in"
     },
-    "updatedon": "2025-11-09"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 44,
     "title": "RSSB REET Mains Upper Teacher Recruitment 2025 - Level 2 (Classes 6‑8) Vacancy, Eligibility, Apply Link",
     "setPath": "RSSB REET Mains Upper Teacher Recruitment 2025",
+    "slug":"rssb-reet-mains-upper-teacher-recruitment-2025-level-2-classes-6-8-vacancy-eligibility-apply-link",
     "organization": "Rajasthan Staff Selection Board (RSSB)",
     "date": "09-11-2025",
     "location": "Rajasthan, India",
@@ -2044,12 +2089,13 @@
       "metaDescription": "Apply for RSSB REET Mains Upper Teacher Recruitment 2025 for Level 2 (Classes 6-8) in Rajasthan. Check 2,123 vacancies, eligibility, notification, apply link at rssb.rajasthan.gov.in.",
       "keywords": "RSSB,REET,RSSB REET Mains Upper Teacher Recruitment 2025, REET Mains 2025 Level 2 Teacher, Rajasthan teacher recruitment 2025, REET Level 2 vacancy 2025, Rajasthan Staff Selection Board teacher jobs"
     },
-    "updatedon": "2025-11-09"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 45,
     "title": "RRB NTPC Inter Level Recruitment 2025 - Apply Online",
     "setPath": "rrb-ntpc-inter-level-recruitment-2025",
+    "slug":"rrb-ntpc-inter-level-recruitment-2025-apply-online",
     "organization": "Railway Recruitment Board (RRB)",
     "date": "12-11-2025",
     "location": "India (All Zones)",
@@ -2087,12 +2133,13 @@
       "metaDescription": "Apply for RRB NTPC Inter Level Recruitment 2025 for 12th pass candidates. Check eligibility, exam dates, syllabus, salary, admit card & more at rrbcdg.gov.in.",
       "keywords": "RRB NTPC Inter Level Recruitment 2025, rrb ntpc mock test, rrb ntpc sarkari result, rrb ntpc exam pattern, rrb ntpc cut off, rrb ntpc previous year question paper, rrb ntpc salary, rrb ntpc answer key, railway jobs 2025"
     },
-    "updatedon": "2025-11-12"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 46,
     "title": "SSC CHSL Tier-I Admit Card 2025 - Download Hall Ticket",
     "setPath": "ssc-chsl-tier-i-admit-card-2025",
+    "slug":"ssc-chsl-tier-i-admit-card-2025-download-hall-ticket",
     "organization": "Staff Selection Commission (SSC)",
     "date": "12-11-2025",
     "location": "All India",
@@ -2135,12 +2182,13 @@
       "metaDescription": "Download SSC CHSL Tier-I Admit Card 2025. Check exam date, posts, eligibility, syllabus, salary, and answer key details for SSC CHSL Tier-I exam.",
       "keywords": "SSC CHSL Tier-I Admit Card 2025, ssc chsl result, posts in ssc chsl, ssc chsl answer key, ssc chsl posts, ssc chsl salary, ssc chsl full form, age limit for ssc chsl, ssc chsl exam date, ssc chsl notification"
     },
-    "updatedon": "2025-11-12"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 47,
     "title": "Bank of Baroda Apprentice Recruitment 2025 - Apply Online",
     "setPath": "bank-of-baroda-apprentice-recruitment-2025",
+    "slug":"bank-of-baroda-apprentice-recruitment-2025-apply-online",
     "organization": "Bank of Baroda (BOB)",
     "date": "12-11-2025",
     "location": "India (All Branches)",
@@ -2176,12 +2224,13 @@
       "metaDescription": "Apply online for Bank of Baroda Apprentice Recruitment 2025 for 2,700 positions. Check eligibility, important dates, selection process, and how to apply at bankofbaroda.in.",
       "keywords": "Bank of Baroda Apprentice Recruitment 2025, BOB apprentice 2025, bank jobs 2025, bank of baroda recruitment, apprentice vacancy, apply online BOB, bank of baroda official website"
     },
-    "updatedon": "2025-11-12"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 48,
     "title": "MPPSC Food Safety Officer Recruitment 2025 - Admit card Released Check Now",
     "setPath": "mppsc-food-safety-officer-recruitment-2025",
+    "slug": "mppsc-food-safety-officer-recruitment-2025",
     "organization": "Madhya Pradesh Public Service Commission (MPPSC)",
     "date": "12-11-2025",
     "location": "Madhya Pradesh, India",
@@ -2220,12 +2269,13 @@
       "metaDescription": "MPPSC FSO Recruitment 2025 for 67 posts. Check exam date 14 December 2025, eligibility, apply online details at mppsc.mp.gov.in.",
       "keywords": "MPPSC Food Safety Officer Recruitment 2025, MPPSC FSO 2025 exam date, mppsc fso syllabus 2025, mppsc fso apply online, food safety officer mp 2025"
     },
-    "updatedon": "2025-11-12"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 49,
     "title": "UPSSSC Stenographer Admit Card 2025 - Download Now",
     "setPath": "upsssc-stenographer-admit-card-2025",
+    "slug":"upsssc-stenographer-admit-card-2025-download-now",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
     "date": "12-11-2025",
     "location": "Uttar Pradesh, India",
@@ -2262,12 +2312,13 @@
       "metaDescription": "Download UPSSSC Stenographer Admit Card 2025 for upcoming exam. Check exam date, instructions, and download process at upsssc.gov.in.",
       "keywords": "UPSSSC Stenographer Admit Card 2025, UPSSSC Stenographer Exam Date 2025, upsssc stenographer download, upsssc stenographer hall ticket 2025"
     },
-    "updatedon": "2025-11-12"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 51,
     "title": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 Notification Out",
     "setPath": "railway-rrc-ner-gorakhpur-apprentice-recruitment-2025",
+    "slug": "railway-rrc-ner-gorakhpur-apprentice-recruitment-2025",
     "organization": "Railway Recruitment Cell (RRC) North Eastern Railway NER Gorakhpur",
     "date": "2025-11-14",
     "location": "All India",
@@ -2307,12 +2358,13 @@
       "metaDescription": "Railway RRC NER Gorakhpur Apprentice Recruitment 2025 notification out. ITI pass candidates apply online. Check eligibility, age limit, fees, selection process & apply link.",
       "keywords": "Railway Apprentice, RRC NER Gorakhpur, Apprentice Online Form, Sarkari Result 2025, Latest Government Jobs, ITI Apprentice"
     },
-    "updatedon": "2025-11-14"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 52,
     "title": "SBI PO Phase-III Admit Card 2025 Out Now",
     "setPath": "sbi-po-phase-iii-admit-card-2025",
+    "slug":"sbi-po-phase-iii-admit-card-2025-out-now",
     "organization": "State Bank of India (SBI)",
     "date": "2025-11-14",
     "location": "All India",
@@ -2345,12 +2397,13 @@
       "metaDescription": "SBI PO Phase-III Admit Card 2025 out. Sarkari Result latest job update: Interview & Psychometric Test admit card download karein. All India govt jobs candidates ke liye bada update.",
       "keywords": "SBI PO, sarkari result 2025, sarkari result latest job, rojgar result, all india govt jobs, SBI admit card, government jobs, SBI PO Interview"
     },
-    "updatedon": "2025-11-14"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 54,
     "title": "SSC GD Constable PET/ PST Result 2025 Out - Download Now",
     "setPath": "ssc-gd-constable-pet-pst-result-2025",
+    "slug":"ssc-gd-constable-pet-pst-result-2025-out-download-now",
     "organization": "Staff Selection Commission (SSC)",
     "date": "2025-11-14",
     "location": "All India",
@@ -2400,12 +2453,13 @@
       "keywords": "SSC GD Result 2025, SSC GD PET PST, sarkari result, sarkari result 2025, rojgar result, latest government jobs, jobriya, all india govt jobs, sarkari result latest job"
     },
 
-    "updatedon": "2025-11-14"
+    "updatedon": "2025-12-23"
   },
   {
     "id": 55,
     "title": "UP Anganwadi Helper Online Form",
     "setPath": "up-anganwadi-helper-online-form",
+    "slug":"up-anganwadi-helper-online-form-2025-latest-update",
     "organization": "Uttar Pradesh UP ICDS",
     "date": "2025-11-12",
     "location": "Uttar Pradesh",
@@ -2490,12 +2544,13 @@
       "metaDescription": "Uttar Pradesh UP ICDS Anganwadi Bharti Helper Recruitment 2025: Apply Online Form Post Date: 21-11-2025 Short Description: Uttar Pradesh Government ...",
       "keywords": "Anganwadi, Helper, Online Form, Uttar Pradesh, Recruitment 2025"
     },
-    "updatedon": "2025-11-21"
+    "updatedon": "2025-12-23"
   },
   {
   "id": 56,
   "title": "Railway RRB Group D Exam City / Admit Card 2025",
   "setPath": "rrb-group-d-exam-city-admit-card-2025",
+  "slug":"rrb-group-d-exam-city-admit-card-2025-download",
   "organization": "Railway Recruitment Board (RRB)",
   "date": "2025-12-01",
   "location": "India",
@@ -2734,7 +2789,7 @@
     "keywords": "RRB Group D Admit Card 2025, Railway Exam City Slip, RRB Exam City 2025, Group D Exam Center, RRB Admit Card Download"
   },
 
-  "updatedon": "2025-12-01"
+  "updatedon": "2025-12-23"
 },
 {
   "id": 57,
@@ -2868,12 +2923,13 @@
     "metaDescription": "Apply Online for SSC GD Constable Recruitment 2026: 25487 vacancies, eligibility, selection process, exam pattern & important dates. Direct official link to apply.",
     "keywords": "SSC GD Constable Recruitment 2026, GD Constable 25487 Posts, SSC GD Apply Online, SSC GD Vacancy 2026, SSC GD Exam Pattern"
   },
-  "updatedon": "2025-12-10"
+  "updatedon": "2025-12-23"
 },
 {
   "id": 58,
   "title": "UPSSSC Lekhpal Recruitment 2026 [7994 Post] Apply Online",
   "setPath": "upsssc-lekhpal-recruitment-2026-apply-online", 
+  "slug":"upsssc-lekhpal-recruitment-2026-7994-post-apply-online",
   "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",  
   "date": "2025-12-18",
   "location": "Uttar Pradesh",
@@ -2999,7 +3055,7 @@
     "keywords": "UPSSSC Lekhpal Recruitment 2026, UP Lekhpal Vacancy 2026, Lekhpal 7994 Post Apply Online, UPSSSC Lekhpal Notification"
   },
 
-  "updatedon": "2026-01-05"
+  "updatedon": "2025-12-23"
 }
 
 
