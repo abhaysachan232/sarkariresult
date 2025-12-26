@@ -238,6 +238,14 @@ export default async function Page({
 
   const lastSections = article.content.slice(-3);
 
+  const articles = dataJson as Article[];
+const currentIndex = articles.findIndex(
+  (a) => a.slug === article.slug
+);
+
+const relatedArticles = articles
+  .slice(currentIndex + 1, currentIndex + 6);
+
   return (
     <>
       {/* ✅ Combined structured data (NewsArticle + JobPosting + BreadcrumbList) */}
@@ -310,18 +318,16 @@ export default async function Page({
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
             Related Articles
           </h2>
-          {(dataJson as Article[])
-            .filter((art) => art.slug !== article.slug)
-            .slice(0, 5)
-            .map((art) => (
-              <Link
-                key={art.slug}
-                href={`/article/${art.slug}`}
-                className="text-blue-700 hover:underline block"
-              >
-                {art.title}
-              </Link>
-            ))}
+{relatedArticles.map((art) => (
+  <Link
+    key={art.slug}
+    href={`/article/${art.slug}`}
+    className="text-blue-700 hover:underline block"
+  >
+    {art.title}
+  </Link>
+))}
+
         </div>
 
         <p className="text-sm text-gray-500 text-center mt-8">
