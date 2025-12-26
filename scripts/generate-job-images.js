@@ -136,3 +136,4 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
 
 /* ================= RUN ================= */
 generateImages().catch(console.error);
+// node scripts/generate-job-images.js
