@@ -283,6 +283,23 @@ const relatedArticles = articles
           </Link>
         </div>
 
+                <div className="bg-gray-100 p-6 rounded-lg space-y-3">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+            Related Articles
+          </h2>
+{relatedArticles.map((art) => (
+  <Link
+    key={art.slug}
+    href={`/article/${art.slug}`}
+    className="text-blue-700 hover:underline block"
+  >
+    {art.title}
+  </Link>
+))}
+
+        </div>
+        
+
         {article.content.map((section: Section, idx: number) => (
           <section
             key={idx}
@@ -314,7 +331,7 @@ const relatedArticles = articles
           </div>
         )}
 
-        <div className="bg-gray-100 p-6 rounded-lg space-y-3">
+        {/* <div className="bg-gray-100 p-6 rounded-lg space-y-3">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
             Related Articles
           </h2>
@@ -328,7 +345,7 @@ const relatedArticles = articles
   </Link>
 ))}
 
-        </div>
+        </div> */}
 
         <p className="text-sm text-gray-500 text-center mt-8">
           Published on: {article.datePublished} | Last Updated:{" "}
