@@ -83,7 +83,7 @@ function HomeSeoSection() {
       </section>
 
       {/* ✅ FAQ JSON-LD Schema */}
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -120,7 +120,7 @@ function HomeSeoSection() {
             ],
           }),
         }}
-      />
+      /> */}
     </div>
   )
 }
