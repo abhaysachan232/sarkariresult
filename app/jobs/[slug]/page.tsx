@@ -244,8 +244,7 @@ export default async function JobDetailsPage({
   width="1200"
   height="630"
                 className="w-full h-auto rounded-xl"
-                priority
-                fetchPriority="high"
+loading="lazy" 
 />
 
 </div>

@@ -259,7 +259,7 @@ export default async function Page({
     width={1200}
     height={630}
     sizes="100vw"
-    priority
+   loading="lazy" 
     className="w-full h-auto rounded-xl"
   />
 </div>
