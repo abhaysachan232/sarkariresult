@@ -81,8 +81,7 @@ function HomeSeoSection() {
           </div>
         </div>
       </section>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
-     ></script>
+
       {/* ✅ FAQ JSON-LD Schema */}
       {/* <script
         type="application/ld+json"
@@ -135,7 +134,10 @@ export default function RootLayout({
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head><meta name="google-adsense-account" content="ca-pub-4860335301065142"/></head>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
+     crossorigin="anonymous"></script>
+        <meta name="google-adsense-account" content="ca-pub-4860335301065142" /></head>
       <body className={inter.className}>
         {/* Google Analytics */}
         <Script
@@ -173,7 +175,8 @@ export default function RootLayout({
 
           <Footer />
         </ThemeProvider>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
+     ></script>
         <script
           async
           type="application/javascript"
