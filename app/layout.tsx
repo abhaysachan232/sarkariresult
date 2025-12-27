@@ -148,6 +148,12 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+  <Script
+    async
+    strategy="afterInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
+    crossOrigin="anonymous"
+  />
 
         <ThemeProvider
           attribute="class"
