@@ -81,7 +81,8 @@ function HomeSeoSection() {
           </div>
         </div>
       </section>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
+     ></script>
       {/* ✅ FAQ JSON-LD Schema */}
       {/* <script
         type="application/ld+json"
