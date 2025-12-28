@@ -200,9 +200,7 @@ export default async function JobDetailsPage({
       allowedAttributes: {},
     }),
     image: [
-      `https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-        job.title
-      )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`,
+      `https://sarkariresult.rest/og/jobs/${job.slug}.webp`,
     ],
     datePublished: job.date,
     dateModified: job.updatedon || job.date,
@@ -546,11 +544,7 @@ loading="lazy"
                     <>
                       <div className="w-16 h-16 relative flex-shrink-0">
                         <Image
-                          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-                            job.title
-                          )}&footerText=${encodeURIComponent(
-                            job.organization
-                          )}&type=minimal`}
+                          src={`https://sarkariresult.rest/og/jobs/${rj.slug}.webp`}
                           alt={rj.title}
                           fill
                           className="object-cover rounded"
