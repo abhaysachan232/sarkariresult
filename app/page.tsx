@@ -2,7 +2,7 @@ import Middle from "@/components/Middle";
 import { Metadata } from "next";
 import { headers } from "next/headers";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/next";
+// import { Analytics } from "@vercel/analytics/next";
 import ClientOnly from "@/components/ClientOnly";
 
 const STATE_LINKS = [
@@ -25,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const url = `${proto}://${host}`;
 
   return {
-    title: "Sarkari Result - Latest Government Jobs, Results, Admit Cards",
+    title: `Sarkari Result ${new Date().getFullYear()} | Latest Govt Jobs, Results, Admit Card`,
     description:
       "Sarkari Result: Latest government jobs, admit cards, exam results, answer keys, recruitment notifications, and online forms updates.",
     keywords:
@@ -48,9 +48,12 @@ export default async function Home() {
       {/* Title / H1 */}
       <header className="text-center pt-4">
         <h1 className="text-2xl font-bold text-primary">
-          Sarkari Result – Latest Govt Jobs, Results, Admit Cards
+          Sarkari Result {new Date().getFullYear()}
+
         </h1>
-        <Analytics />
+        <h2 className="text-xl font-bold text-primary">Latest Government Jobs, Results, Admit Cards & Answer Keys
+</h2>
+        {/* <Analytics /> */}
       </header>
 
       {/* Main Job Listings (Top Priority for SEO) */}

@@ -275,12 +275,12 @@ const relatedArticles = articles
             {article.title}
           </h1>
           <p className="text-gray-700 text-lg md:text-xl">{article.description}</p>
-          <Link
+          {/* <Link
             href={article.apply}
             className="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
           >
             Apply Now
-          </Link>
+          </Link> */}
         </div>
 
                 <div className="bg-gray-100 p-6 rounded-lg space-y-3">
@@ -293,7 +293,7 @@ const relatedArticles = articles
     href={`/article/${art.slug}`}
     className="text-blue-700 hover:underline block"
   >
-    {art.title}
+    Apply Online – {art.title}
   </Link>
 ))}
 

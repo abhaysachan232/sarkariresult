@@ -21,11 +21,11 @@ function HomeSeoSection() {
     alignItems: "center",
     justifyContent: "center",
   }}>
-        <h1 className="text-2xl font-bold mb-3 leading-tight" style={{ contentVisibility: "auto" }}>
-          Welcome to www SarkariResult com – Your Trusted Source for Sarkari Jobs
-        </h1>
+        <h2 className="text-xl font-bold mb-3 leading-tight" style={{ contentVisibility: "auto" }}>
+          Sarkari Result {new Date().getFullYear()} provides latest government job updates...
+        </h2>
         <p className="text-gray-700 leading-relaxed">
-          www SarkariResult com ek reliable platform hai jahan par aapko milte hain latest{" "}
+          www SarkariResult rest ek reliable platform hai jahan par aapko milte hain latest{" "}
           <strong>Sarkari Result</strong>, <strong>Admit Card</strong>,{" "}
           <strong>Answer Key</strong> aur Government Job updates. Chahe aap{" "}
           <strong>SSC CGL Answer Key</strong>, <strong>OFSS Bihar</strong> admission,
