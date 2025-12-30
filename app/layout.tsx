@@ -182,6 +182,13 @@ export default function RootLayout({
           type="application/javascript"
           src="https://news.google.com/swg/js/v1/swg-basic.js"
         ></script>
+<script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+<script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
       </body>
     </html>
   )
