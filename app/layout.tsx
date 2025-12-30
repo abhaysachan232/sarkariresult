@@ -137,11 +137,6 @@ export default function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
           crossOrigin="anonymous"></script>
-        
-         <script
-    src="https://g.ezoic.net/ezoic/ezoads.js?publisher=1XXXXX"
-    async
-  ></script>
         <meta name="google-adsense-account" content="ca-pub-4860335301065142" /></head>
       <body className={inter.className}>
         {/* Google Analytics */}
@@ -187,8 +182,6 @@ export default function RootLayout({
           type="application/javascript"
           src="https://news.google.com/swg/js/v1/swg-basic.js"
         ></script>
-
-
       </body>
     </html>
   )
