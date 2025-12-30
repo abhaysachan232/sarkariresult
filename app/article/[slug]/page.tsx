@@ -284,7 +284,7 @@ const relatedArticles = articles
         </div>
 
                 <div className="bg-gray-100 p-6 rounded-lg space-y-3">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          <h2 className="text-2xl text-center font-bold text-gray-900 mb-2">
             Related Articles
           </h2>
 {relatedArticles.map((art) => (
