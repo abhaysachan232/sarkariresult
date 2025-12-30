@@ -1,2 +1,3 @@
 google.com, pub-4860335301065142, DIRECT, f08c47fec0942fa0
 
+/ads.txt > https://srv.adstxtmanager.com/19390/sarkariresult.rest
