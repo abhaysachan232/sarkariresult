@@ -3,8 +3,6 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 import Link from "next/link";
 // import { Analytics } from "@vercel/analytics/next";
-import ClientOnly from "@/components/ClientOnly";
-import AdsterraNative from "@/components/AdsterraNative";
 
 const STATE_LINKS = [
   { name: "UP Govt Jobs", slug: "/state/uttar-pradesh" },
@@ -56,9 +54,7 @@ export default async function Home() {
 </h2>
         {/* <Analytics /> */}
       </header>
-<ClientOnly>
-  <AdsterraNative />
-</ClientOnly>
+
       {/* Main Job Listings (Top Priority for SEO) */}
       <main className="mt-4">
         <Middle />

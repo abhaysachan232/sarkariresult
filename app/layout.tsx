@@ -6,7 +6,7 @@ import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
 import Script from "next/script"
 import './globals.css'
-
+import AdcashAutoTag from "@/components/adcash"
 const inter = Inter({ subsets: ["latin"], display: "swap", preload: true, })
 
 const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
@@ -138,7 +138,6 @@ export default function RootLayout({
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
           crossOrigin="anonymous"></script>
         <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
-                <script src="https://pl28377647.effectivegatecpm.com/81/5f/5e/815f5e098f4de110e8e800c104a19cb9.js"></script>
 
       </head>
       <body className={inter.className}>
@@ -177,6 +176,7 @@ export default function RootLayout({
           </main>
 
           <Footer />
+           <AdcashAutoTag />
         </ThemeProvider>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
      ></script>
@@ -185,7 +185,8 @@ export default function RootLayout({
           type="application/javascript"
           src="https://news.google.com/swg/js/v1/swg-basic.js"
         ></script>
-      
+
+
       </body>
     </html>
   )
