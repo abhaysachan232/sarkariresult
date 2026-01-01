@@ -16,6 +16,7 @@ import Faq from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
 import ClientOnly from "@/components/ClientOnly";
 import AdsterraBanner468 from "@/components/Adsterra468";
+import AdsterraNative from "@/components/AdsterraNative";
 
 export async function generateMetadata({
   params,
@@ -302,8 +303,8 @@ loading="lazy"
             </div>
           </div>
         </section>
-<ClientOnly>
-  <AdsterraBanner468 />
+     <ClientOnly>
+  <AdsterraNative />
 </ClientOnly>
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -577,6 +578,7 @@ loading="lazy"
             )}
           </aside>
         </section>
+
       </article>
     </>
   );
