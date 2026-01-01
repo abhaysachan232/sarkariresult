@@ -14,8 +14,6 @@ import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
 import Faq from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
-import ClientOnly from "@/components/ClientOnly";
-import AdsterraNative from "@/components/AdsterraNative";
 
 export async function generateMetadata({
   params,
@@ -302,9 +300,7 @@ loading="lazy"
             </div>
           </div>
         </section>
-     <ClientOnly>
-  <AdsterraNative />
-</ClientOnly>
+
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column */}
