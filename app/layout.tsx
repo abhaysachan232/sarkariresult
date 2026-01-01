@@ -6,7 +6,6 @@ import Navbar from "@/components/nav"
 import Footer from "@/components/Footer"
 import Script from "next/script"
 import './globals.css'
-import AdcashAutoTag from "@/components/adcash"
 const inter = Inter({ subsets: ["latin"], display: "swap", preload: true, })
 
 const GA_MEASUREMENT_ID = "G-BV07YKNY9Z"
@@ -139,6 +138,7 @@ export default function RootLayout({
           crossOrigin="anonymous"></script>
         <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
 
+
       </head>
       <body className={inter.className}>
         {/* Google Analytics */}
@@ -176,7 +176,7 @@ export default function RootLayout({
           </main>
 
           <Footer />
-           <AdcashAutoTag />
+           {/* <AdcashAutoTag /> */}
         </ThemeProvider>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
      ></script>
