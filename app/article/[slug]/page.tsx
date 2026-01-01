@@ -261,7 +261,7 @@ const relatedArticles = articles
       <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
         <div className="text-center mb-8">
         <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
-  <Image
+  {/* <Image
     src={`/og/jobs/${article.slug}.webp`}
     alt={article.title}
     width={1200}
@@ -269,7 +269,7 @@ const relatedArticles = articles
     sizes="100vw"
    loading="lazy" 
     className="w-full h-auto rounded-xl"
-  />
+  /> */}
 </div>
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">
             {article.title}

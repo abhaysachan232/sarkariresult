@@ -137,7 +137,10 @@ export default function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
           crossOrigin="anonymous"></script>
-        <meta name="google-adsense-account" content="ca-pub-4860335301065142" /></head>
+        <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
+                <script src="https://pl28377647.effectivegatecpm.com/81/5f/5e/815f5e098f4de110e8e800c104a19cb9.js"></script>
+
+      </head>
       <body className={inter.className}>
         {/* Google Analytics */}
         <Script

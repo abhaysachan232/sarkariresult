@@ -14,6 +14,8 @@ import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
 import Faq from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
+import ClientOnly from "@/components/ClientOnly";
+import AdsterraBanner468 from "@/components/Adsterra468";
 
 export async function generateMetadata({
   params,
@@ -236,14 +238,14 @@ export default async function JobDetailsPage({
         >
           <div className="container max-w-5xl mx-auto px-4">
         <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
-<Image
+{/* <Image
   src={`/og/jobs/${job.slug}.webp`}
   alt={job.title}
   width="1200"
   height="630"
                 className="w-full h-auto rounded-xl"
 loading="lazy" 
-/>
+/> */}
 
 </div>
 
@@ -300,7 +302,9 @@ loading="lazy"
             </div>
           </div>
         </section>
-
+<ClientOnly>
+  <AdsterraBanner468 />
+</ClientOnly>
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column */}
@@ -346,7 +350,9 @@ loading="lazy"
                 </tbody>
               </table>
             </div>
-
+<ClientOnly>
+  <AdsterraBanner468 />
+</ClientOnly>
             <ShareButtons
               url={`https://sarkariresult.rest/jobs/${slug}`}
               title={job.title}
@@ -368,6 +374,9 @@ loading="lazy"
                 </tbody>
               </table>
             </div>
+            <ClientOnly>
+  <AdsterraBanner468 />
+</ClientOnly>
             {/* Description */}
             <div className="prose dark:prose-invert max-w-none space-y-6">
               <div dangerouslySetInnerHTML={{ __html: safeDescription }} />
