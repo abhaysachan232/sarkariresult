@@ -15,7 +15,6 @@ import ShareButtons from "../../../components/sharebtn";
 import Faq from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
 import ClientOnly from "@/components/ClientOnly";
-import AdsterraBanner468 from "@/components/Adsterra468";
 import AdsterraNative from "@/components/AdsterraNative";
 
 export async function generateMetadata({
@@ -351,9 +350,7 @@ loading="lazy"
                 </tbody>
               </table>
             </div>
-<ClientOnly>
-  <AdsterraBanner468 />
-</ClientOnly>
+
             <ShareButtons
               url={`https://sarkariresult.rest/jobs/${slug}`}
               title={job.title}
@@ -375,9 +372,6 @@ loading="lazy"
                 </tbody>
               </table>
             </div>
-            <ClientOnly>
-  <AdsterraBanner468 />
-</ClientOnly>
             {/* Description */}
             <div className="prose dark:prose-invert max-w-none space-y-6">
               <div dangerouslySetInnerHTML={{ __html: safeDescription }} />
