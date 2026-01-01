@@ -185,6 +185,7 @@ export default function RootLayout({
           type="application/javascript"
           src="https://news.google.com/swg/js/v1/swg-basic.js"
         ></script>
+      
       </body>
     </html>
   )
