@@ -137,3 +137,4 @@ function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
 /* ================= RUN ================= */
 generateImages().catch(console.error);
 //   "prebuild": "node scripts/generate-job-images.js", 
+//  "prebuild": "node scripts/generate-job-images.js",
