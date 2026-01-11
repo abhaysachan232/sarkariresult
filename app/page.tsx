@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { headers } from "next/headers";
 import Link from "next/link";
 // import { Analytics } from "@vercel/analytics/next";
+import SearchBox from "@/components/SearchBox";
 
 const STATE_LINKS = [
   { name: "UP Govt Jobs", slug: "/state/uttar-pradesh" },
@@ -29,16 +30,32 @@ export async function generateMetadata(): Promise<Metadata> {
       "Sarkari Result: Latest government jobs, admit cards, exam results, answer keys, recruitment notifications, and online forms updates.",
     keywords:
       "Sarkari Result, Government Jobs, Sarkari Naukri, Latest Jobs, Admit Card, Results, Online Form",
+
     alternates: { canonical: url },
+
     icons: {
       icon: "/fevicons/favicon.ico",
       shortcut: "/fevicons/icon1.png",
-      other: [
-        { rel: "manifest", url: "/fevicons/manifest.json" }
-      ]
+      other: [{ rel: "manifest", url: "/fevicons/manifest.json" }]
     },
+
+    /* ✅ WebSite + SearchBox Schema */
+    other: {
+      "application/ld+json": JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "SarkariResult.Rest",
+        "url": url,
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": `${url}/search?q={search_term_string}`,
+          "query-input": "required name=search_term_string"
+        }
+      })
+    }
   };
 }
+
 
 export default async function Home() {
   return (
@@ -54,7 +71,9 @@ export default async function Home() {
 </h2>
         {/* <Analytics /> */}
       </header>
-
+<div className="py-6">
+      <SearchBox />
+    </div>
       {/* Main Job Listings (Top Priority for SEO) */}
       <main className="mt-4">
         <Middle />
@@ -100,6 +119,7 @@ export default async function Home() {
           with easy online apply links.
         </p>
       </footer>
+
 
     </div>
   );
