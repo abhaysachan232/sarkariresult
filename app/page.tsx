@@ -40,19 +40,19 @@ export async function generateMetadata(): Promise<Metadata> {
     },
 
     /* ✅ WebSite + SearchBox Schema */
-    other: {
-      "application/ld+json": JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "SarkariResult.Rest",
-        "url": url,
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": `${url}/search?q={search_term_string}`,
-          "query-input": "required name=search_term_string"
-        }
-      })
-    }
+    // other: {
+    //   "application/ld+json": JSON.stringify({
+    //     "@context": "https://schema.org",
+    //     "@type": "WebSite",
+    //     "name": "SarkariResult.Rest",
+    //     "url": url,
+    //     "potentialAction": {
+    //       "@type": "SearchAction",
+    //       "target": `${url}/search?q={search_term_string}`,
+    //       "query-input": "required name=search_term_string"
+    //     }
+    //   })
+    // }
   };
 }
 

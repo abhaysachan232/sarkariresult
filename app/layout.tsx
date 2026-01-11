@@ -136,6 +136,23 @@ export default function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
           crossOrigin="anonymous"></script>
+        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "SarkariResult.Rest",
+              "url": "https://sarkariresult.rest",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": `https://sarkariresult.rest/search?q={search_term_string}`,
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
         <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
 
       </head>
