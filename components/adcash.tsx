@@ -20,7 +20,7 @@ export default function AdcashAutoTag() {
         {`
           if (typeof aclib !== "undefined") {
             aclib.runAutoTag({
-              zoneId: '10807498'
+              zoneId: '3k379dy1qe'
             });
           }
         `}
