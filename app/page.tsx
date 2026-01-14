@@ -4,7 +4,6 @@ import { headers } from "next/headers";
 import Link from "next/link";
 // import { Analytics } from "@vercel/analytics/next";
 import SearchBox from "@/components/SearchBox";
-import AdcashAutoTag from "@/components/adcash";
 
 const STATE_LINKS = [
   { name: "UP Govt Jobs", slug: "/state/uttar-pradesh" },
@@ -110,7 +109,7 @@ export default async function Home() {
           </div>
         </div>
       </section>
-      <AdcashAutoTag/>
+
       {/* Small SEO Description */}
       <footer className="px-4 mt-12 pb-10 text-center text-sm text-muted-foreground">
         <p className="max-w-3xl mx-auto leading-relaxed">
