@@ -5,7 +5,7 @@ import Navbar from "@/components/nav";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 import "./globals.css";
-import AdcashAutoTag from "@/components/adcash";
+// import AdcashAutoTag from "@/components/adcash";
 const inter = Inter({ subsets: ["latin"], display: "swap", preload: true });
 
 
@@ -191,7 +191,7 @@ export default function RootLayout({
           <Footer />
           {/* <AdcashAutoTag /> */}
         </ThemeProvider>
-        <AdcashAutoTag/>
+        {/* <AdcashAutoTag/> */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
