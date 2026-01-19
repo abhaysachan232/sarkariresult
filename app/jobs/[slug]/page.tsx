@@ -12,9 +12,8 @@ import Link from "next/link";
 import datas from "../../../public/jobs.json";
 import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
-import Faq from "../../../components/faq";
-import { getShortTitle } from "@/components/utils/getShortTitle";
 import JobFAQFooter from "../../../components/faq";
+import { getShortTitle } from "@/components/utils/getShortTitle";
 
 export async function generateMetadata({
   params,
@@ -231,244 +230,173 @@ export default async function JobDetailsPage({
 
       <article className="min-h-screen">
         {/* Hero Banner */}
-        <section
-          className="bg-gradient-to-r from-gray-900 via-slate-800 to-indigo-900
- text-white py-12 md:py-16"
-        >
-          <div className="container max-w-5xl mx-auto px-4">
-        <div className="w-full mb-6 rounded-xl overflow-hidden shadow-lg">
-{/* <Image
-  src={`/og/jobs/${job.slug}.webp`}
-  alt={job.title}
-  width="1200"
-  height="630"
-                className="w-full h-auto rounded-xl"
-loading="lazy" 
-/> */}
+{/* ===== SarkariResult Style Top Description ===== */}
+<section className="bg-white border border-gray-300 rounded-md p-5 space-y-4 text-[17px] leading-relaxed">
+  {/* TITLE */}
+  <h1 className="text-blue-800 font-extrabold text-2xl border-b pb-2">
+    {job.title}
+  </h1>
 
-</div>
+  {/* POST DATE */}
+  <p className="text-red-600 font-bold">
+    Post Date : {job.date}
+  </p>
+
+  {/* MAIN DESCRIPTION */}
+  <p>
+    <b className="text-blue-700">{job.organization}</b> Has Released A
+    Notification On Its Official Website For The Recruitment Of{" "}
+    <b>{job.title}</b> Post. This Recruitment Is For{" "}
+    <b className="text-green-700">
+      <span dangerouslySetInnerHTML={{ __html: safePost || "—" }} />
+    </b>{" "}
+    Positions.
+  </p>
+
+  <p>
+    The Online Application Form Has Started On{" "}
+    <b className="text-black">
+      {job.importantDates?.["Online Apply Start Date"]}
+    </b>{" "}
+    And Candidates Can Apply Till{" "}
+    <b className="text-red-700">
+      {job.importantDates?.["Online Apply Last Date"]}
+    </b>.
+  </p>
+  {/* AGE INFO HIGHLIGHT */}
+  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-3">
+    <p>
+      <b>Minimum Age Required :</b>{" "}
+      <span
+        className="font-bold"
+        dangerouslySetInnerHTML={{ __html: safeAge }}
+      />
+    </p>
+    <p className="text-sm text-gray-700 mt-1">
+      Complete eligibility details are mentioned below in the notification.
+    </p>
+  </div>
+</section>
 
 
-            <h1
-              className="text-3xl md:text-5xl font-extrabold mb-3"
-              dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
-            />
-            <p className="text-lg md:text-xl font-medium">{job.organization}</p>
-            <div className="flex flex-wrap gap-2 mt-4">
-              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
-                {job.category}
-              </span>
-              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
-                {job.Type}
-              </span>
-
-              {job.Post && (
-                <span
-                  className="px-3 py-1 text-sm bg-white/20 rounded-full"
-                  dangerouslySetInnerHTML={{
-                    __html: `Vacancies: ${safePost}`,
-                  }}
-                />
-              )}
-            </div>
-
-            {/* <div className="mt-6 flex flex-wrap gap-3">
-              {Object.keys(job.links || {}).length === 0 && (
-                <span className="px-4 py-2 rounded-lg bg-gray-300 text-gray-700 font-semibold">
-                  No Action Links Available
-                </span>
-              )}
-
-              {Object.entries(job.links || {}).map(([key, value]) => (
-                <a
-                  key={key}
-                  href={String(value)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg bg-white text-blue-700 font-semibold border border-white hover:bg-blue-100"
-                >
-                  {`${
-                    key === "notification"
-                      ? "📄"
-                      : key === "apply"
-                      ? "📝"
-                      : key === "admitCard"
-                      ? "🎫"
-                      : "✅"
-                  } ${key.toString().toUpperCase()}`}
-                </a>
-              ))}
-            </div> */}
-          </div>
-        </section>
 
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column */}
           <main className="lg:col-span-2 space-y-10">
             {/* Eligibility Table */}
-            <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
-              <h2 className="text-xl font-bold mb-4">Eligibility Criteria</h2>
-              <table className="table-auto w-full text-sm border-collapse border border-gray-200">
-                <tbody>
-                  <tr className="border-b">
-                    <td className="px-4 py-2 font-medium">Education</td>
-                    <td className="px-4 py-2">
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: safeEligibility || "Not specified",
-                        }}
-                      />
-                    </td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="px-4 py-2 font-medium">Application Fee</td>
-                    <td className="px-4 py-2">
-                      {safeApplicationFee ? (
-                        <ul className="list-disc ml-5">
-                          {Object.entries(safeApplicationFee).map(
-                            ([key, value]) => (
-                              <li key={key}>
-                                {key}:{" "}
-                                <span
-                                  dangerouslySetInnerHTML={{
-                                    __html: String(value),
-                                  }}
-                                />
-                              </li>
-                            )
-                          )}
-                        </ul>
-                      ) : (
-                        "No fee"
-                      )}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+<table className="w-full border mt-6 text-[16px]">
+  <thead>
+    <tr className="bg-[#6b0033] text-white">
+      <th className="w-1/2 p-2 border">Important Dates</th>
+      <th className="w-1/2 p-2 border">Application Fee</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="align-top p-3 border">
+        <ul className="list-disc ml-5 space-y-1">
+          {Object.entries(job.importantDates || {}).map(([k, v]) => (
+            <li key={k}>
+              <b>{k}</b> : {String(v)}
+            </li>
+          ))}
+        </ul>
+      </td>
 
-            <ShareButtons
-              url={`https://sarkariresult.rest/jobs/${slug}`}
-              title={job.title}
-            />
-
-            {/* Important Dates */}
-            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <Calendar className="h-5 w-5 text-blue-600" /> Important Dates
-              </h2>
-              <table className="table-auto w-full text-sm border-collapse border border-gray-200">
-                <tbody>
-                  {Object.entries(job.importantDates).map(([key, value]) => (
-                    <tr key={key} className="border-b">
-                      <td className="px-4 py-2 font-medium">{key}</td>
-                      <td className="px-4 py-2">{String(value)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            {/* Description */}
-            <div className="prose dark:prose-invert max-w-none space-y-6">
-              <div dangerouslySetInnerHTML={{ __html: safeDescription }} />
-
-              <h2>
-                <b>About {job.organization}</b>
-              </h2>
-              <p>
-                <b>
-                  <i>{job.organization}</i>
-                </b>{" "}
-                is one of the most trusted recruitment bodies...
-              </p>
-
-              <h2>
-                <b>About the {job.title}</b>
-              </h2>
-              <p>
-                The <b>{job.title}</b> notification released by{" "}
-                <b>{job.organization}</b> ...
-              </p>
-
-              <h2>
-                <b>Key Highlights of {job.title}</b>
-              </h2>
-              <ul className="list-disc list-inside space-y-2">
-                <li>
-                  <b>Organization:</b> {job.organization}
-                </li>
-                <li>
-                  <b>Post Name:</b> {job.title}
-                </li>
-                <li>
-                  <b>Total Vacancies:</b>{" "}
-                  <span dangerouslySetInnerHTML={{ __html: safePost }} />
-                </li>
-                <li>
-                  <b>Salary:</b> {job.salary}
-                </li>
-                <li>
-                  <b>Age Limit:</b>{" "}
-                  <span
-                    dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
-                  />
-                </li>
-
-                {Object.entries(job.importantDates).map(([key, value]) => {
-                  return (
-                    <li key={key}>
-                      <b>{key}</b> {String(value)}
-                    </li>
-                  );
-                })}
-                <li>
-                  <b>Official Website:</b> {job.links?.official ?? "N/A"}
-                </li>
-              </ul>
-
-              <h2>
-                <b>Eligibility Criteria</b>
-              </h2>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: safeEligibility || "<p>Not specified</p>",
-                }}
-              />
-
-              {/* ...rest remains mostly the same. */}
-            </div>
-            {/* Job Overview Table */}
-            <div className="rounded-xl border bg-white dark:bg-card shadow p-6">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <FileText className="h-5 w-5 text-blue-600" /> Job Overview
-              </h2>
-              <table className="table-auto w-full text-sm border-collapse border border-gray-200">
-                <tbody>
-                  <tr className="border-b">
-                    <td className="px-4 py-2 font-medium">Location</td>
-                    <td className="px-4 py-2">{job.location}</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="px-4 py-2 font-medium">Posted</td>
-                    <td className="px-4 py-2">{job.date}</td>
-                  </tr>
-                  <tr className="border-b">
-                    <td className="px-4 py-2 font-medium">Age</td>
-                    <td className="px-4 py-2">
-                      <span
-                        dangerouslySetInnerHTML={{ __html: safeAge || "N/A" }}
-                      />
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-4 py-2 font-medium">Salary</td>
-                    <td className="px-4 py-2">₹{job.salary ?? "N/A"}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
+      <td className="align-top p-3 border">
+        {safeApplicationFee ? (
+          <ul className="list-disc ml-5 space-y-1">
+            {Object.entries(safeApplicationFee).map(([k, v]) => (
+              <li key={k}>
+                <b>{k}</b> : {v}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          "No Fee"
+        )}
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table className="w-full border mt-6 text-[16px]">
+  <thead>
+    <tr>
+      <th className="bg-green-700 text-white p-2 border w-3/4">
+        Age Limit As On Cutoff Date
+      </th>
+      <th className="bg-orange-600 text-white p-2 border w-1/4">
+        Total Post
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="p-3 border">
+        <ul className="list-disc ml-5 space-y-1">
+          <li dangerouslySetInnerHTML={{ __html: safeAge }} />
+          <li>Age Relaxation As Per Rules</li>
+        </ul>
+      </td>
+      <td className="p-3 border text-center font-bold text-xl">
+        <span dangerouslySetInnerHTML={{ __html: safePost }} />
+      </td>
+    </tr>
+  </tbody>
+            </table>
+            <table className="w-full border mt-6 text-[16px]">
+  <thead>
+    <tr className="bg-[#000066] text-white">
+      <th className="p-2 border">Vacancy Details & Education Qualification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="p-3 border">
+        <div dangerouslySetInnerHTML={{ __html: safeEligibility }} />
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table className="w-full border mt-6 text-[16px]">
+  <thead>
+    <tr className="bg-[#000066] text-white">
+      <th className="p-2 border">How To Fill Online Form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="p-3 border">
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Read Full Notification Carefully</li>
+          <li>Fill Application Before Last Date</li>
+          <li>Upload Required Documents</li>
+          <li>Take Printout Of Final Submitted Form</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table className="w-full border mt-6 text-[16px]">
+  <thead>
+    <tr className="bg-[#000066] text-white">
+      <th className="p-2 border">Mode Of Selection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="p-3 border">
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Written Exam</li>
+          <li>Physical Test</li>
+          <li>Document Verification</li>
+          <li>Medical Examination</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
             {job.content && (
