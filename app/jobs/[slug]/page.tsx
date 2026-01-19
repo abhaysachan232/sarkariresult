@@ -1,6 +1,8 @@
 // app/job/[slug]/page.tsx
 import sanitizeHtml from "sanitize-html";
 import Image from "next/image";
+import FluidAd from "@/components/fluidad";
+import InArticleAd from "@/components/inarticle";
 import {
   Calendar,
   MapPin,
@@ -28,7 +30,7 @@ export async function generateMetadata({
     ...job,
     applicationFee: job.applicationFee
       ? Object.fromEntries(
-          Object.entries(job.applicationFee).map(([k, v]) => [k, String(v)])
+          Object.entries(job.applicationFee).map(([k, v]) => [k, String(v)]),
         )
       : undefined,
   }));
@@ -81,7 +83,7 @@ export default async function JobDetailsPage({
     ...job,
     applicationFee: job.applicationFee
       ? Object.fromEntries(
-          Object.entries(job.applicationFee).map(([k, v]) => [k, String(v)])
+          Object.entries(job.applicationFee).map(([k, v]) => [k, String(v)]),
         )
       : undefined,
   }));
@@ -140,7 +142,7 @@ export default async function JobDetailsPage({
         Object.entries(job.applicationFee).map(([k, v]) => [
           k,
           sanitizeHtml(String(v)),
-        ])
+        ]),
       )
     : undefined;
 
@@ -199,9 +201,7 @@ export default async function JobDetailsPage({
       allowedTags: [],
       allowedAttributes: {},
     }),
-    image: [
-      `https://sarkariresult.rest/og/jobs/${job.slug}.webp`,
-    ],
+    image: [`https://sarkariresult.rest/og/jobs/${job.slug}.webp`],
     datePublished: job.date,
     dateModified: job.updatedon || job.date,
     author: {
@@ -230,174 +230,181 @@ export default async function JobDetailsPage({
 
       <article className="min-h-screen">
         {/* Hero Banner */}
-{/* ===== SarkariResult Style Top Description ===== */}
-<section className="bg-white border border-gray-300 rounded-md p-5 space-y-4 text-[17px] leading-relaxed">
-  {/* TITLE */}
-  <h1 className="text-blue-800 font-extrabold text-2xl border-b pb-2">
-    {job.title}
-  </h1>
+        {/* ===== SarkariResult Style Top Description ===== */}
+        <section className="bg-white border border-gray-300 rounded-md p-5 space-y-4 text-[17px] leading-relaxed">
+          {/* TITLE */}
+          <h1 className="text-blue-800 font-extrabold text-2xl border-b pb-2">
+            {job.title}
+          </h1>
 
-  {/* POST DATE */}
-  <p className="text-red-600 font-bold">
-    Post Date : {job.date}
-  </p>
+          {/* POST DATE */}
+          <p className="text-red-600 font-bold">Post Date : {job.date}</p>
 
-  {/* MAIN DESCRIPTION */}
-  <p>
-    <b className="text-blue-700">{job.organization}</b> Has Released A
-    Notification On Its Official Website For The Recruitment Of{" "}
-    <b>{job.title}</b> Post. This Recruitment Is For{" "}
-    <b className="text-green-700">
-      <span dangerouslySetInnerHTML={{ __html: safePost || "—" }} />
-    </b>{" "}
-    Positions.
-  </p>
+          {/* MAIN DESCRIPTION */}
+          <p>
+            <b className="text-blue-700">{job.organization}</b> Has Released A
+            Notification On Its Official Website For The Recruitment Of{" "}
+            <b>{job.title}</b> Post. This Recruitment Is For{" "}
+            <b className="text-green-700">
+              <span dangerouslySetInnerHTML={{ __html: safePost || "—" }} />
+            </b>{" "}
+            Positions.
+          </p>
 
-  <p>
-    The Online Application Form Has Started On{" "}
-    <b className="text-black">
-      {job.importantDates?.["Online Apply Start Date"]}
-    </b>{" "}
-    And Candidates Can Apply Till{" "}
-    <b className="text-red-700">
-      {job.importantDates?.["Online Apply Last Date"]}
-    </b>.
-  </p>
-  {/* AGE INFO HIGHLIGHT */}
-  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-3">
-    <p>
-      <b>Minimum Age Required :</b>{" "}
-      <span
-        className="font-bold"
-        dangerouslySetInnerHTML={{ __html: safeAge }}
-      />
-    </p>
-    <p className="text-sm text-gray-700 mt-1">
-      Complete eligibility details are mentioned below in the notification.
-    </p>
-  </div>
-</section>
-
-
-
+          <p>
+            The Online Application Form Has Started On{" "}
+            <b className="text-black">
+              {job.importantDates?.["Online Apply Start Date"]}
+            </b>{" "}
+            And Candidates Can Apply Till{" "}
+            <b className="text-red-700">
+              {job.importantDates?.["Online Apply Last Date"]}
+            </b>
+            .
+          </p>
+          {/* AGE INFO HIGHLIGHT */}
+          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-3">
+            <p>
+              <b>Minimum Age Required :</b>{" "}
+              <span
+                className="font-bold"
+                dangerouslySetInnerHTML={{ __html: safeAge }}
+              />
+            </p>
+            <p className="text-sm text-gray-700 mt-1">
+              Complete eligibility details are mentioned below in the
+              notification.
+            </p>
+          </div>
+        </section>
+<FluidAd />
         {/* Main content */}
         <section className="container max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column */}
           <main className="lg:col-span-2 space-y-10">
             {/* Eligibility Table */}
-<table className="w-full border mt-6 text-[16px]">
-  <thead>
-    <tr className="bg-[#6b0033] text-white">
-      <th className="w-1/2 p-2 border">Important Dates</th>
-      <th className="w-1/2 p-2 border">Application Fee</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="align-top p-3 border">
-        <ul className="list-disc ml-5 space-y-1">
-          {Object.entries(job.importantDates || {}).map(([k, v]) => (
-            <li key={k}>
-              <b>{k}</b> : {String(v)}
-            </li>
-          ))}
-        </ul>
-      </td>
+            <table className="w-full border mt-6 text-[16px]">
+              <thead>
+                <tr className="bg-[#6b0033] text-white">
+                  <th className="w-1/2 p-2 border">Important Dates</th>
+                  <th className="w-1/2 p-2 border">Application Fee</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="align-top p-3 border">
+                    <ul className="list-disc ml-5 space-y-1">
+                      {Object.entries(job.importantDates || {}).map(
+                        ([k, v]) => (
+                          <li key={k}>
+                            <b>{k}</b> : {String(v)}
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  </td>
 
-      <td className="align-top p-3 border">
-        {safeApplicationFee ? (
-          <ul className="list-disc ml-5 space-y-1">
-            {Object.entries(safeApplicationFee).map(([k, v]) => (
-              <li key={k}>
-                <b>{k}</b> : {v}
-              </li>
-            ))}
-          </ul>
-        ) : (
-          "No Fee"
-        )}
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table className="w-full border mt-6 text-[16px]">
-  <thead>
-    <tr>
-      <th className="bg-green-700 text-white p-2 border w-3/4">
-        Age Limit As On Cutoff Date
-      </th>
-      <th className="bg-orange-600 text-white p-2 border w-1/4">
-        Total Post
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="p-3 border">
-        <ul className="list-disc ml-5 space-y-1">
-          <li dangerouslySetInnerHTML={{ __html: safeAge }} />
-          <li>Age Relaxation As Per Rules</li>
-        </ul>
-      </td>
-      <td className="p-3 border text-center font-bold text-xl">
-        <span dangerouslySetInnerHTML={{ __html: safePost }} />
-      </td>
-    </tr>
-  </tbody>
+                  <td className="align-top p-3 border">
+                    {safeApplicationFee ? (
+                      <ul className="list-disc ml-5 space-y-1">
+                        {Object.entries(safeApplicationFee).map(([k, v]) => (
+                          <li key={k}>
+                            <b>{k}</b> : {v}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      "No Fee"
+                    )}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <FluidAd />
+            <table className="w-full border mt-6 text-[16px]">
+              <thead>
+                <tr>
+                  <th className="bg-green-700 text-white p-2 border w-3/4">
+                    Age Limit As On Cutoff Date
+                  </th>
+                  <th className="bg-orange-600 text-white p-2 border w-1/4">
+                    Total Post
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-3 border">
+                    <ul className="list-disc ml-5 space-y-1">
+                      <li dangerouslySetInnerHTML={{ __html: safeAge }} />
+                      <li>Age Relaxation As Per Rules</li>
+                    </ul>
+                  </td>
+                  <td className="p-3 border text-center font-bold text-xl">
+                    <span dangerouslySetInnerHTML={{ __html: safePost }} />
+                  </td>
+                </tr>
+              </tbody>
             </table>
             <table className="w-full border mt-6 text-[16px]">
-  <thead>
-    <tr className="bg-[#000066] text-white">
-      <th className="p-2 border">Vacancy Details & Education Qualification</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="p-3 border">
-        <div dangerouslySetInnerHTML={{ __html: safeEligibility }} />
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table className="w-full border mt-6 text-[16px]">
-  <thead>
-    <tr className="bg-[#000066] text-white">
-      <th className="p-2 border">How To Fill Online Form</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="p-3 border">
-        <ul className="list-disc ml-5 space-y-1">
-          <li>Read Full Notification Carefully</li>
-          <li>Fill Application Before Last Date</li>
-          <li>Upload Required Documents</li>
-          <li>Take Printout Of Final Submitted Form</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<table className="w-full border mt-6 text-[16px]">
-  <thead>
-    <tr className="bg-[#000066] text-white">
-      <th className="p-2 border">Mode Of Selection</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td className="p-3 border">
-        <ul className="list-disc ml-5 space-y-1">
-          <li>Written Exam</li>
-          <li>Physical Test</li>
-          <li>Document Verification</li>
-          <li>Medical Examination</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+              <thead>
+                <tr className="bg-[#000066] text-white">
+                  <th className="p-2 border">
+                    Vacancy Details & Education Qualification
+                  </th>
+                </tr>
+              </thead>
 
+              <tbody>
+                <tr>
+                  <td className="p-3 border">
+                    <div
+                      dangerouslySetInnerHTML={{ __html: safeEligibility }}
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <InArticleAd />
+            <table className="w-full border mt-6 text-[16px]">
+              <thead>
+                <tr className="bg-[#000066] text-white">
+                  <th className="p-2 border">How To Fill Online Form</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-3 border">
+                    <ul className="list-disc ml-5 space-y-1">
+                      <li>Read Full Notification Carefully</li>
+                      <li>Fill Application Before Last Date</li>
+                      <li>Upload Required Documents</li>
+                      <li>Take Printout Of Final Submitted Form</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table className="w-full border mt-6 text-[16px]">
+              <thead>
+                <tr className="bg-[#000066] text-white">
+                  <th className="p-2 border">Mode Of Selection</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-3 border">
+                    <ul className="list-disc ml-5 space-y-1">
+                      <li>Written Exam</li>
+                      <li>Physical Test</li>
+                      <li>Document Verification</li>
+                      <li>Medical Examination</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
             {job.content && (
               <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
@@ -424,7 +431,7 @@ export default async function JobDetailsPage({
                               {section.body.map(
                                 (point: string, idx: number) => (
                                   <li key={idx}>{point}</li>
-                                )
+                                ),
                               )}
                             </ul>
                           ) : null)}
@@ -434,73 +441,74 @@ export default async function JobDetailsPage({
                 )}
               </div>
             )}
-<div className="rounded-xl border bg-[#fff4a3] shadow overflow-hidden">
-  <h2 className="text-center font-extrabold text-red-600 text-lg py-3 border-b">
-    SOME USEFUL IMPORTANT LINKS
-  </h2>
+            <div className="rounded-xl border bg-[#fff4a3] shadow overflow-hidden">
+              <h2 className="text-center font-extrabold text-red-600 text-lg py-3 border-b">
+                SOME USEFUL IMPORTANT LINKS
+              </h2>
 
-  <table className="w-full border-collapse text-base">
-    <tbody>
-      {Object.entries(job.links || {}).map(([key, value]) => {
-        if (!value) return null;
+              <table className="w-full border-collapse text-base">
+                <tbody>
+                  {Object.entries(job.links || {}).map(([key, value]) => {
+                    if (!value) return null;
 
-        const labelMap: Record<string, string> = {
-          apply: "Apply Online",
-          notification: "Official Notification",
-          official: "Official Website",
-          admitCard: "Admit Card",
-          result: "Result",
-          answerKey: "Answer Key",
-        };
+                    const labelMap: Record<string, string> = {
+                      apply: "Apply Online",
+                      notification: "Official Notification",
+                      official: "Official Website",
+                      admitCard: "Admit Card",
+                      result: "Result",
+                      answerKey: "Answer Key",
+                    };
 
-        return (
-          <tr key={key} className="border-b last:border-b-0">
-            {/* LEFT COLUMN */}
-            <td className="w-1/2 text-center font-bold py-4 border-r">
-              {labelMap[key] ?? key.toUpperCase()}
-            </td>
+                    return (
+                      <tr key={key} className="border-b last:border-b-0">
+                        {/* LEFT COLUMN */}
+                        <td className="w-1/2 text-center font-bold py-4 border-r">
+                          {labelMap[key] ?? key.toUpperCase()}
+                        </td>
 
-            {/* RIGHT COLUMN */}
-            <td className="w-1/2 text-center py-4">
-              <a
-                href={String(value)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-700 font-bold hover:underline"
-              >
-                Click Here
-              </a>
-            </td>
-          </tr>
-        );
-      })}
-    </tbody>
-  </table>
-</div>
+                        {/* RIGHT COLUMN */}
+                        <td className="w-1/2 text-center py-4">
+                          <a
+                            href={String(value)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-700 font-bold hover:underline"
+                          >
+                            Click Here
+                          </a>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
 
-<JobFAQFooter
-  faqs={[
-    {
-      question: `${job.title} apply online kab se start hai?`,
-      answer: `Is recruitment ke liye apply online dates official notification ke according hongi.`,
-    },
-    {
-      question: `${job.title} age limit kya hai?`,
-      answer: job.age || "Age limit notification ke anusaar hogi.",
-    },
-    {
-      question: `${job.organization} selection process kya hai?`,
-      answer:
-        job.selectionProcess ||
-        "Selection process written exam, physical test aur document verification par adharit hota hai.",
-    },
-    {
-      question: `${job.title} official website kya hai?`,
-      answer: job.links?.official || "Official website notification me di gayi hoti hai.",
-    },
-  ]}
-/>
-
+            <JobFAQFooter
+              faqs={[
+                {
+                  question: `${job.title} apply online kab se start hai?`,
+                  answer: `Is recruitment ke liye apply online dates official notification ke according hongi.`,
+                },
+                {
+                  question: `${job.title} age limit kya hai?`,
+                  answer: job.age || "Age limit notification ke anusaar hogi.",
+                },
+                {
+                  question: `${job.organization} selection process kya hai?`,
+                  answer:
+                    job.selectionProcess ||
+                    "Selection process written exam, physical test aur document verification par adharit hota hai.",
+                },
+                {
+                  question: `${job.title} official website kya hai?`,
+                  answer:
+                    job.links?.official ||
+                    "Official website notification me di gayi hoti hai.",
+                },
+              ]}
+            />
           </main>
 
           {/* Right Sidebar */}
@@ -543,7 +551,7 @@ export default async function JobDetailsPage({
                       <div className="w-16 h-16 relative flex-shrink-0">
                         <Image
                           src={`https://sarkariresult.rest/og/jobs/${rj.slug}.webp`}
-                          alt={rj.title}                         
+                          alt={rj.title}
                           className="object-cover rounded"
                           width={1200}
                           height={600}
@@ -565,7 +573,6 @@ export default async function JobDetailsPage({
             )}
           </aside>
         </section>
-
       </article>
     </>
   );

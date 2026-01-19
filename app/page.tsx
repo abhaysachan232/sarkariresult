@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import Link from "next/link";
 // import { Analytics } from "@vercel/analytics/next";
 import SearchBox from "@/components/SearchBox";
+import Disadunit from "@/components/disadunit";
 
 const STATE_LINKS = [
   { name: "UP Govt Jobs", slug: "/state/uttar-pradesh" },
@@ -72,13 +73,15 @@ export default async function Home() {
         {/* <Analytics /> */}
       </header>
 <div className="py-6">
-      <SearchBox />
-    </div>
+        <SearchBox />
+        <Disadunit/>
+      </div>
+      
       {/* Main Job Listings (Top Priority for SEO) */}
       <main className="mt-4">
         <Middle />
       </main>
-
+ <Disadunit/>
       {/* Quick Category Links */}
       <section className="mt-6 px-4 text-center">
         <h2 className="text-xl font-semibold mb-3">Explore Top Categories</h2>
@@ -90,7 +93,7 @@ export default async function Home() {
           {/* <Link href="/railway-jobs" className="hover:underline text-blue-600">Railway Jobs</Link> */}
         </nav>
       </section>
-
+ <Disadunit/>
       {/* State Wise Jobs Section */}
       <section className="mt-10 px-4">
         <div className="max-w-6xl mx-auto">
