@@ -14,6 +14,7 @@ import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
 import Faq from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
+import JobFAQFooter from "../../../components/faq";
 
 export async function generateMetadata({
   params,
@@ -271,7 +272,7 @@ loading="lazy"
               )}
             </div>
 
-            <div className="mt-6 flex flex-wrap gap-3">
+            {/* <div className="mt-6 flex flex-wrap gap-3">
               {Object.keys(job.links || {}).length === 0 && (
                 <span className="px-4 py-2 rounded-lg bg-gray-300 text-gray-700 font-semibold">
                   No Action Links Available
@@ -297,7 +298,7 @@ loading="lazy"
                   } ${key.toString().toUpperCase()}`}
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -467,6 +468,9 @@ loading="lazy"
                 </tbody>
               </table>
             </div>
+
+
+
             {job.content && (
               <div className="rounded-xl border bg-white dark:bg-card shadow p-6 space-y-3">
                 {Array.isArray(job.content) && job.content.length > 0 && (
@@ -502,7 +506,73 @@ loading="lazy"
                 )}
               </div>
             )}
-            <Faq />
+<div className="rounded-xl border bg-[#fff4a3] shadow overflow-hidden">
+  <h2 className="text-center font-extrabold text-red-600 text-lg py-3 border-b">
+    SOME USEFUL IMPORTANT LINKS
+  </h2>
+
+  <table className="w-full border-collapse text-base">
+    <tbody>
+      {Object.entries(job.links || {}).map(([key, value]) => {
+        if (!value) return null;
+
+        const labelMap: Record<string, string> = {
+          apply: "Apply Online",
+          notification: "Official Notification",
+          official: "Official Website",
+          admitCard: "Admit Card",
+          result: "Result",
+          answerKey: "Answer Key",
+        };
+
+        return (
+          <tr key={key} className="border-b last:border-b-0">
+            {/* LEFT COLUMN */}
+            <td className="w-1/2 text-center font-bold py-4 border-r">
+              {labelMap[key] ?? key.toUpperCase()}
+            </td>
+
+            {/* RIGHT COLUMN */}
+            <td className="w-1/2 text-center py-4">
+              <a
+                href={String(value)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700 font-bold hover:underline"
+              >
+                Click Here
+              </a>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+<JobFAQFooter
+  faqs={[
+    {
+      question: `${job.title} apply online kab se start hai?`,
+      answer: `Is recruitment ke liye apply online dates official notification ke according hongi.`,
+    },
+    {
+      question: `${job.title} age limit kya hai?`,
+      answer: job.age || "Age limit notification ke anusaar hogi.",
+    },
+    {
+      question: `${job.organization} selection process kya hai?`,
+      answer:
+        job.selectionProcess ||
+        "Selection process written exam, physical test aur document verification par adharit hota hai.",
+    },
+    {
+      question: `${job.title} official website kya hai?`,
+      answer: job.links?.official || "Official website notification me di gayi hoti hai.",
+    },
+  ]}
+/>
+
           </main>
 
           {/* Right Sidebar */}
@@ -541,12 +611,11 @@ loading="lazy"
                 </h2>
                 <ul className="list-disc list-inside space-y-2">
                   {relatedJobs.map((rj) => (
-                    <>
+                    <li key={rj.id}>
                       <div className="w-16 h-16 relative flex-shrink-0">
                         <Image
                           src={`https://sarkariresult.rest/og/jobs/${rj.slug}.webp`}
-                          alt={rj.title}
-                          fill
+                          alt={rj.title}                         
                           className="object-cover rounded"
                           width={1200}
                           height={600}
@@ -561,7 +630,7 @@ loading="lazy"
                           {rj.title}
                         </Link>
                       </li>
-                    </>
+                    </li>
                   ))}
                 </ul>
               </div>
