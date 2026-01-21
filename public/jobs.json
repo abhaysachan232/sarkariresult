@@ -3203,8 +3203,90 @@
   "category": "latest-jobs",
   "year": "2026",
   "Type": "Sarkari Result",
-
+  "minimumAge": "18 Years",
+  "age": "18 Years to 26 Years",
   "description": "UP Police Constable Recruitment 2026 notification Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) ke dwara jaari kiya gaya hai. Is bharti ke madhyam se Constable ke total 32679 padon par niyukti ki jayegi. Eligible male aur female candidates online apply kar sakte hain. Is article me important dates, application fee, age limit, category wise vacancy, eligibility criteria, selection process aur apply online process ki poori jankari di gayi hai.",
+  "posts": [
+  {
+    "postName": "Constable Civil Police (Male/Female)",
+    "general": 4191,
+    "ews": 1046,
+    "obc": 2826,
+    "sc": 2198,
+    "st": 208,
+    "total": 10469,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  },
+  {
+    "postName": "Constable PAC / Armed Police Male Only",
+    "general": 6060,
+    "ews": 1512,
+    "obc": 4083,
+    "sc": 3176,
+    "st": 300,
+    "total": 15131,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  },
+  {
+    "postName": "Constable Special Force Battalion Male Only",
+    "general": 538,
+    "ews": 134,
+    "obc": 362,
+    "sc": 281,
+    "st": 26,
+    "total": 1341,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  },
+  {
+    "postName": "Constable Female Battalion (Lucknow, Badaun & Gorakhpur)",
+    "general": 916,
+    "ews": 228,
+    "obc": 615,
+    "sc": 478,
+    "st": 45,
+    "total": 2282,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  },
+  {
+    "postName": "Constable Horseman Male Only",
+    "general": 30,
+    "ews": 7,
+    "obc": 19,
+    "sc": 14,
+    "st": 1,
+    "total": 71,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  },
+  {
+    "postName": "Jail Warden Male",
+    "general": 1314,
+    "ews": 327,
+    "obc": 885,
+    "sc": 688,
+    "st": 65,
+    "total": 3279,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  },
+  {
+    "postName": "Jail Warden Female",
+    "general": 44,
+    "ews": 10,
+    "obc": 28,
+    "sc": 22,
+    "st": 2,
+    "total": 106,
+      "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."]
+
+  }
+]
+,
+  "totalPost": 37379,
 
   "importantDates": {
     "Apply Start": "31 December 2025",
@@ -3216,7 +3298,7 @@
     "Result Date": "Will Be Updated Soon"
   },
 
-  "eligibility": "UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi.",
+  "eligibility": ["UP Police Constable Recruitment 2026 ke liye candidate ka kisi bhi recognized board se 10+2 (Intermediate) pass hona anivarya hai. Age limit 18 se 22 years (Male) aur 18 se 25 years (Female) rakhi gayi hai. Reserved category candidates ko UP Police rules ke anusar age relaxation di jayegi."],
 
   "applicationFee": {
     "General / EWS / OBC": "500/-",
