@@ -345,7 +345,7 @@ export default async function JobDetailsPage({
                 <ul className="list-disc ml-5 space-y-1">
                   {Object.entries(job.applicationFee).map(([k, v]) => (
                     <li key={k}>
-                      <b>{k}</b> : {v}
+                      <b>{k}</b> : {String(v)}
                     </li>
                   ))}
                 </ul>
