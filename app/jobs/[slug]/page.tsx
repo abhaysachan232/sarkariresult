@@ -492,7 +492,7 @@ export default async function JobDetailsPage({
               <p>{section.body}</p>
             ) : (
               <ul className="list-disc ml-5 space-y-1">
-                {section.body.map((p, idx) => (
+                {section.body.map((p:any, idx:any) => (
                   <li key={idx}>{p}</li>
                 ))}
               </ul>
