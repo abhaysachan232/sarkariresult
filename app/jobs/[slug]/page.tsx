@@ -541,7 +541,7 @@ export default async function JobDetailsPage({
     <ul className="list-disc ml-5 space-y-1">
       {relatedJobs.map((rj) => (
         <li key={rj.id}>
-          <Link href={`/jobs/${rj.slug}`} className="text-blue-600 hover:underline">
+          <Link href={`/jobs/${rj.setPath}`} className="text-blue-600 hover:underline">
             {rj.title}
           </Link>
         </li>
