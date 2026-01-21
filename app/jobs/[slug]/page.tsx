@@ -292,7 +292,7 @@ export default async function JobDetailsPage({
                 </b>
               </p>
 
-              <p className="mt-2">
+              {/* <p className="mt-2">
                 Online Apply Start :
                 <b> {job.importantDates?.["Apply Start"]}</b> |
                 Last Date :
@@ -300,7 +300,7 @@ export default async function JobDetailsPage({
                   {" "}
                   {job.importantDates?.["Last Date to Apply"]}
                 </b>
-              </p>
+              </p> */}
 
               <p className="mt-2">
                 <b>Minimum Age Required :</b>{" "}
