@@ -443,6 +443,38 @@ export default async function JobDetailsPage({
       <div className="my-4 text-center">
         <FluidAd />
       </div>
+{job.howToApply && (
+  <table className="w-full border-collapse border border-gray-400 mt-2">
+    <thead>
+      <tr>
+        <th className="bg-[#000066] text-white border p-2">
+          How to Apply
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="p-3 border">
+          {Array.isArray(job.howToApply) ? (
+            <ul className="list-disc ml-5 space-y-1">
+              {job.howToApply.map((step: any, i: number) => (
+                <li
+                  key={i}
+                  dangerouslySetInnerHTML={{ __html: String(step) }}
+                />
+              ))}
+            </ul>
+          ) : (
+            <div
+              className="space-y-1"
+              dangerouslySetInnerHTML={{ __html: job.howToApply }}
+            />
+          )}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+)}
 
       {/* ================= IMPORTANT LINKS ================= */}
       <table className="w-full border-collapse border border-gray-400">
@@ -452,7 +484,7 @@ export default async function JobDetailsPage({
               SOME USEFUL IMPORTANT LINKS
             </th>
           </tr>
-        </thead>
+          </thead>
         <tbody>
           {Object.entries(job.links || {}).map(([k, v]) => (
             <tr key={k}>
