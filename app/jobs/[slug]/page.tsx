@@ -535,6 +535,20 @@ export default async function JobDetailsPage({
     </table>
   ))}
 
+{relatedJobs.length > 0 && (
+  <div className="mt-6 border p-4 bg-gray-50">
+    <h3 className="font-bold mb-2">You May Also Like</h3>
+    <ul className="list-disc ml-5 space-y-1">
+      {relatedJobs.map((rj) => (
+        <li key={rj.id}>
+          <Link href={`/jobs/${rj.slug}`} className="text-blue-600 hover:underline">
+            {rj.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
 
 </article>
 
