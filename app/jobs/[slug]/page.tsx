@@ -246,19 +246,65 @@ export default async function JobDetailsPage({
           __html: JSON.stringify([jobPostingSchema, newsSchema]),
         }}
       />
+      <article className="w-full md:max-w-[80%] mx-auto px-4">
+        {/* Hero Banner */}
+        <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
+          <div className="container max-w-5xl mx-auto px-4">
 
-<article className="max-w-5xl mx-auto my-4 border border-gray-400 text-[16px] leading-relaxed">
-   {/* ================= TOP HEADER ================= */}
+            {/* <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
+              <Image
+                src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+      job.title
+    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
+                alt={job.title}
+                fill
+                className="w-full h-64 md:h-96 object-cover rounded"
+                sizes="(max-width: 768px) 100vw, 1200px"
+                unoptimized                
+              />
+            </div> */}
+            
+            <h1
+              className="text-3xl md:text-5xl font-extrabold mb-3"
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
+            />
+            <p className="text-lg md:text-xl font-medium">{job.organization}</p>
+            <div className="flex flex-wrap gap-2 mt-4">
+              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+                {job.category}
+              </span>
+              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+                {job.Type}
+              </span>
+
+              {job.Post && (
+                <span
+                  className="px-3 py-1 text-sm bg-white/20 rounded-full"
+                  dangerouslySetInnerHTML={{ __html: `Vacancies: ${safePost}` }}
+                />
+              )}
+            </div>
+
+
+          </div>
+        </section>
+
+        <ShareButtons
+          url={`https://sarkariresult.rest/jobs/${slug}`}
+          title={job.title}
+        />
+
+        {/* Main content */}
       <table className="w-full border-collapse border border-gray-400 text-center">
         <tbody>
           <tr>
             <td className="p-3">
-              <h1 className="text-fuchsia-600 font-bold text-xl">
+              <h2 className="text-fuchsia-600 font-bold text-xl">
                 {job.organization}
-              </h1>
-              <h2 className="text-green-700 font-bold text-lg">
-                {job.title}
               </h2>
+              <h3 className="text-green-700 font-bold text-lg">
+                {job.title}
+              </h3>
               <p className="text-red-600 font-bold">
                 {job.advtNo || "Short Details of Notification"}
               </p>
@@ -269,8 +315,10 @@ export default async function JobDetailsPage({
           </tr>
         </tbody>
       </table>
-
-      {/* ================= TOP AD ================= */}
+      <div className="my-3 text-center">
+        <FluidAd />
+        </div>
+              {/* ================= TOP AD ================= */}
       <div className="my-3 text-center">
         <FluidAd />
       </div>
@@ -549,8 +597,49 @@ export default async function JobDetailsPage({
     </ul>
   </div>
 )}
+          {/* Right Sidebar */}
+          <aside className="lg:col-span-1 space-y-6">
+            <ShareButtons
+              url={`https://sarkariresult.rest/jobs/${slug}`}
+              title={job.title}
+            />
 
-</article>
+            {/* Related Jobs */}
+            {relatedJobs.length > 0 && (
+              <div className="rounded-xl border bg-white shadow p-6">
+                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                  📰 Related Jobs
+                </h2>
+              <ul className="list-disc list-inside space-y-4">
+  {relatedJobs.map((rj) => (
+    <li key={rj.id} className="flex items-center gap-3">
+      <div className="w-16 h-16 relative flex-shrink-0">
+        <Image
+          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
+            rj.title
+          )}&footerText=${encodeURIComponent(rj.organization)}&type=minimal`}
+          alt={rj.title}
+          fill
+          className="object-cover rounded"
+          unoptimized
+        />
+      </div>
+
+      <Link
+        href={`/jobs/${rj.setPath.split(" ").join("-")}`}
+        className="text-blue-600 hover:underline"
+      >
+        {rj.title}
+      </Link>
+    </li>
+  ))}
+</ul>
+
+              </div>
+            )}
+          </aside>
+      
+      </article>
 
     </>
   );
