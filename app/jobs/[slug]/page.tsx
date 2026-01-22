@@ -246,400 +246,244 @@ export default async function JobDetailsPage({
           __html: JSON.stringify([jobPostingSchema, newsSchema]),
         }}
       />
-      <article className="w-full md:max-w-[80%] mx-auto px-4">
-        {/* Hero Banner */}
-        <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
-          <div className="container max-w-5xl mx-auto px-4">
+<article className="w-full md:max-w-[80%] mx-auto px-4">
+  {/* ================= HERO ================= */}
+  <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
+    <div className="container max-w-5xl mx-auto px-4">
+      <h1
+        className="text-3xl md:text-5xl font-extrabold mb-3"
+        dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
+      />
+      <p className="text-lg md:text-xl font-medium">
+        {job.organization} Recruitment | Apply Online
+      </p>
 
-            {/* <div className="w-full h-64 md:h-96 mb-6 rounded-xl overflow-hidden shadow-lg relative">
-              <Image
-                src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-      job.title
-    )}&footerText=${encodeURIComponent(job.organization)}&type=minimal`}
-                alt={job.title}
-                fill
-                className="w-full h-64 md:h-96 object-cover rounded"
-                sizes="(max-width: 768px) 100vw, 1200px"
-                unoptimized                
-              />
-            </div> */}
-            
-            <h1
-              className="text-3xl md:text-5xl font-extrabold mb-3"
-              dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
-            />
-            <p className="text-lg md:text-xl font-medium">{job.organization}</p>
-            <div className="flex flex-wrap gap-2 mt-4">
-              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
-                {job.category}
-              </span>
-              <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
-                {job.Type}
-              </span>
-
-              {job.Post && (
-                <span
-                  className="px-3 py-1 text-sm bg-white/20 rounded-full"
-                  dangerouslySetInnerHTML={{ __html: `Vacancies: ${safePost}` }}
-                />
-              )}
-            </div>
-
-
-          </div>
-        </section>
-
-        <ShareButtons
-          url={`https://sarkariresult.rest/jobs/${slug}`}
-          title={job.title}
-        />
-
-        {/* Main content */}
-      <table className="w-full border-collapse border border-gray-400 text-center">
-        <tbody>
-          <tr>
-            <td className="p-3">
-              <h2 className="text-fuchsia-600 font-bold text-xl">
-                {job.organization}
-              </h2>
-              <h3 className="text-green-700 font-bold text-lg">
-                {job.title}
-              </h3>
-              <p className="text-red-600 font-bold">
-                {job.advtNo || "Short Details of Notification"}
-              </p>
-              <p className="text-red-700 font-bold">
-                WWW.SARKARIRESULT.REST
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div className="my-3 text-center">
-        <FluidAd />
-        </div>
-              {/* ================= TOP AD ================= */}
-      <div className="my-3 text-center">
-        <FluidAd />
+      <div className="flex flex-wrap gap-2 mt-4">
+        <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+          {job.category}
+        </span>
+        <span className="px-3 py-1 text-sm bg-white/20 rounded-full">
+          {job.Type}
+        </span>
+        {job.Post && (
+          <span
+            className="px-3 py-1 text-sm bg-white/20 rounded-full"
+            dangerouslySetInnerHTML={{ __html: `Total Vacancies: ${safePost}` }}
+          />
+        )}
       </div>
+    </div>
+  </section>
 
-      {/* ================= BASIC INFO ================= */}
-      <table className="w-full border-collapse border border-gray-400">
-        <tbody>
-          <tr>
-            <td className="p-3">
-              <p className="text-red-600 font-bold">
-                Post Date : {job.date}
-              </p>
+  <ShareButtons
+    url={`https://sarkariresult.rest/jobs/${slug}`}
+    title={job.title}
+  />
 
-              <p className="mt-2">
-                <b className="text-blue-700">{job.organization}</b> has released
-                notification for <b>{job.title}</b>. Total Posts :
-                <b className="text-green-700">
-                  <span dangerouslySetInnerHTML={{ __html:safePost? `${safePost } post`:''}} />
-                </b>
-              </p>
-
-              {/* <p className="mt-2">
-                Online Apply Start :
-                <b> {job.importantDates?.["Apply Start"]}</b> |
-                Last Date :
-                <b className="text-red-600">
-                  {" "}
-                  {job.importantDates?.["Last Date to Apply"]}
-                </b>
-              </p> */}
-
-              <p className="mt-2">
-                <b>Minimum Age Required :</b>{" "}
-                <span dangerouslySetInnerHTML={{ __html: safeminimumAge }} />
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      {/* ================= IN ARTICLE AD ================= */}
-      <div className="my-4">
-        <InArticleAd />
-      </div>
-
-      {/* ================= IMPORTANT DATES + FEE ================= */}
-      <table className="w-full border-collapse border border-gray-400">
-        <thead>
-          <tr>
-            <th className="bg-[#6b0033] text-white border p-2 w-1/2">
-              Important Dates
-            </th>
-            <th className="bg-[#6b0033] text-white border p-2 w-1/2">
-              Application Fee
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="align-top p-3 border">
-              <ul className="list-disc ml-5 space-y-1">
-                {Object.entries(job.importantDates || {}).map(([k, v]) => (
-                  <li key={k}>
-                    <b>{k}</b> : {String(v)}
-                  </li>
-                ))}
-              </ul>
-            </td>
-
-            <td className="align-top p-3 border">
-              {job.applicationFee ? (
-                <ul className="list-disc ml-5 space-y-1">
-                  {Object.entries(job.applicationFee).map(([k, v]) => (
-                    <li key={k}>
-                      <b>{k}</b> : {String(v)}
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                "No Fee"
-              )}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div className="my-4 text-center">
-        <FluidAd />
-      </div>
-
-      {/* ================= AGE + TOTAL POST ================= */}
-      <table className="w-full border-collapse border border-gray-400">
-        <thead>
-          <tr>
-            <th className="bg-green-700 text-white border p-2 w-3/4">
-              Age Limit (As on Cutoff Date)
-            </th>
-            <th className="bg-orange-600 text-white border p-2 w-1/4">
-              Total Post
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="p-3 border">
-              <ul className="list-disc ml-5">
-                <li dangerouslySetInnerHTML={{ __html: safeAge }} />
-                <li>Age Relaxation As Per Rules</li>
-              </ul>
-            </td>
-            <td className="p-3 border text-center font-bold text-xl">
-              <span dangerouslySetInnerHTML={{ __html:safePost? `${safePost } post`:''}} />
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      {/* ================= POST WISE VACANCY ================= */}
-{/* ================= POST WISE VACANCY (100% DYNAMIC) ================= */}
-{job.posts && job.posts.length > 0 && (
-  <table className="w-full border-collapse border border-gray-400 mt-4 text-[16px]">
-    <thead>
-      {/* TABLE TITLE */}
-      <tr>
-        <th
-          colSpan={Object.keys(job.posts[0]).length}
-          className="border p-3 text-center font-bold text-lg"
-        >
-          <span className="text-fuchsia-600">{job.title}</span> :
-          <span className="text-green-700"> Vacancy Details</span>
-        </th>
-      </tr>
-
-      {/* DYNAMIC HEADERS */}
-      <tr className="bg-gray-100">
-        {Object.entries(job.posts[0]).map(([key]) => (
-          <th key={key} className="border p-2 capitalize">
-            {key}
-          </th>
-        ))}
-      </tr>
-    </thead>
-
+  {/* ================= HEADER TABLE ================= */}
+  <table className="w-full border-collapse border border-gray-400 text-center">
     <tbody>
-      {job.posts.map((post:any, rowIndex:any) => (
-        <tr key={rowIndex}>
-          {Object.entries(post).map(([key, value]) => (
-            <td
-              key={key}
-              className={`border p-2 ${
-                key === "postName"
-                  ? "font-bold text-center"
-                  : typeof value === "number"
-                  ? "text-center"
-                  : ""
-              }`}
-            >
-              {/* ARRAY → BULLET LIST (eligibility) */}
-              {renderCellValue(value)}
-            </td>
-          ))}
-        </tr>
-      ))}
+      <tr>
+        <td className="p-3">
+          <h2 className="text-fuchsia-600 font-bold text-xl">
+            {job.organization}
+          </h2>
+          <h3 className="text-green-700 font-bold text-lg">
+            {job.title}
+          </h3>
+          <p className="text-red-600 font-bold">
+            {job.advtNo || "Official Recruitment Notification"}
+          </p>
+          <p className="text-red-700 font-bold">
+            WWW.SARKARIRESULT.REST
+          </p>
+        </td>
+      </tr>
     </tbody>
   </table>
-)}
 
+  {/* ================= TOP ADS ================= */}
+  <div className="my-3 text-center"><FluidAd /></div>
+  <div className="my-3 text-center"><FluidAd /></div>
 
-      {/* ================= FINAL AD ================= */}
-      <div className="my-4 text-center">
-        <FluidAd />
-      </div>
-{job.howToApply && (
-  <table className="w-full border-collapse border border-gray-400 mt-2">
+  {/* ================= BASIC INFO ================= */}
+  <table className="w-full border-collapse border border-gray-400">
+    <tbody>
+      <tr>
+        <td className="p-3">
+          <p className="text-red-600 font-bold">
+            Recruitment Post Date : {job.date}
+          </p>
+
+          <p className="mt-2">
+            <b className="text-blue-700">{job.organization}</b> has released an
+            <b> official recruitment notification</b> for{" "}
+            <b>{job.title}</b> posts. Total Vacancies :
+            <b className="text-green-700">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: safePost ? ` ${safePost} posts` : "",
+                }}
+              />
+            </b>
+          </p>
+
+          <p className="mt-2">
+            <b>Minimum Age Eligibility :</b>{" "}
+            <span dangerouslySetInnerHTML={{ __html: safeminimumAge }} />
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  {/* ================= IN-ARTICLE AD ================= */}
+  <div className="my-4"><InArticleAd /></div>
+
+  {/* ================= DATES + FEE ================= */}
+  <table className="w-full border-collapse border border-gray-400">
     <thead>
       <tr>
-        <th className="bg-[#000066] text-white border p-2">
-          How to Apply
+        <th className="bg-[#6b0033] text-white border p-2 w-1/2">
+          Recruitment Important Dates
+        </th>
+        <th className="bg-[#6b0033] text-white border p-2 w-1/2">
+          Recruitment Application Fee
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="align-top p-3 border">
+          <ul className="list-disc ml-5 space-y-1">
+            {Object.entries(job.importantDates || {}).map(([k, v]) => (
+              <li key={k}>
+                <b>{k}</b> : {String(v)}
+              </li>
+            ))}
+          </ul>
+        </td>
+
+        <td className="align-top p-3 border">
+          {job.applicationFee ? (
+            <ul className="list-disc ml-5 space-y-1">
+              {Object.entries(job.applicationFee).map(([k, v]) => (
+                <li key={k}>
+                  <b>{k}</b> : {String(v)}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            "No Recruitment Fee"
+          )}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div className="my-4 text-center"><FluidAd /></div>
+
+  {/* ================= AGE + POST ================= */}
+  <table className="w-full border-collapse border border-gray-400">
+    <thead>
+      <tr>
+        <th className="bg-green-700 text-white border p-2 w-3/4">
+          Age Limit & Eligibility (As per Recruitment Rules)
+        </th>
+        <th className="bg-orange-600 text-white border p-2 w-1/4">
+          Total Vacancies
         </th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td className="p-3 border">
-          {Array.isArray(job.howToApply) ? (
-            <ul className="list-disc ml-5 space-y-1">
-              {job.howToApply.map((step: any, i: number) => (
-                <li
-                  key={i}
-                  dangerouslySetInnerHTML={{ __html: String(step) }}
-                />
-              ))}
-            </ul>
-          ) : (
-            <div
-              className="space-y-1"
-              dangerouslySetInnerHTML={{ __html: job.howToApply }}
-            />
-          )}
+          <ul className="list-disc ml-5">
+            <li dangerouslySetInnerHTML={{ __html: safeAge }} />
+            <li>Age Relaxation As Per Recruitment Rules</li>
+          </ul>
+        </td>
+        <td className="p-3 border text-center font-bold text-xl">
+          <span
+            dangerouslySetInnerHTML={{
+              __html: safePost ? `${safePost} posts` : "",
+            }}
+          />
         </td>
       </tr>
     </tbody>
   </table>
-)}
 
-      {/* ================= IMPORTANT LINKS ================= */}
-      <table className="w-full border-collapse border border-gray-400">
-        <thead>
-          <tr>
-            <th colSpan={2} className="bg-yellow-300 text-red-700 border p-2">
-              SOME USEFUL IMPORTANT LINKS
-            </th>
-          </tr>
-          </thead>
-        <tbody>
-          {Object.entries(job.links || {}).map(([k, v]) => (
-            <tr key={k}>
-              <td className="border p-3 text-center font-bold w-1/2">
-                {k.toUpperCase()}
-              </td>
-              <td className="border p-3 text-center w-1/2">
-                <a
-                  href={String(v)}
-                  target="_blank"
-                  className="text-blue-700 font-bold underline"
-                >
-                  Click Here
-                </a>
-              </td>
-            </tr>
+  {/* ================= VACANCY DETAILS ================= */}
+  {job.posts && job.posts.length > 0 && (
+    <table className="w-full border-collapse border border-gray-400 mt-4 text-[16px]">
+      <thead>
+        <tr>
+          <th
+            colSpan={Object.keys(job.posts[0]).length}
+            className="border p-3 text-center font-bold text-lg"
+          >
+            <span className="text-fuchsia-600">{job.title}</span> :
+            <span className="text-green-700">
+              {" "}Recruitment Vacancy Details
+            </span>
+          </th>
+        </tr>
+        <tr className="bg-gray-100">
+          {Object.entries(job.posts[0]).map(([key]) => (
+            <th key={key} className="border p-2 capitalize">{key}</th>
           ))}
-        </tbody>
-      </table>
-  {/* ================= CONTENT SECTIONS ================= */}
-  {job.content?.map((section:any, i:any) => (
-    <table
-      key={i}
-      className="w-full border-collapse border border-gray-400 mt-2"
-    >
+        </tr>
+      </thead>
+      <tbody>
+        {job.posts.map((post:any, i:any) => (
+          <tr key={i}>
+            {Object.entries(post).map(([k, v]) => (
+              <td key={k} className="border p-2">
+                {renderCellValue(v)}
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+
+  <div className="my-4 text-center"><FluidAd /></div>
+
+  {/* ================= HOW TO APPLY ================= */}
+  {job.howToApply && (
+    <table className="w-full border-collapse border border-gray-400 mt-2">
       <thead>
         <tr>
           <th className="bg-[#000066] text-white border p-2">
-            {section.heading}
+            How to Apply Online for Recruitment
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td className="p-3 border">
-            {typeof section.body === "string" ? (
-              <p>{section.body}</p>
-            ) : (
+            {Array.isArray(job.howToApply) ? (
               <ul className="list-disc ml-5 space-y-1">
-                {section.body.map((p:any, idx:any) => (
-                  <li key={idx}>{p}</li>
+                {job.howToApply.map((s:any,i:number)=>(
+                  <li key={i} dangerouslySetInnerHTML={{__html:String(s)}}/>
                 ))}
               </ul>
+            ) : (
+              <div dangerouslySetInnerHTML={{__html:job.howToApply}}/>
             )}
+            <p className="mt-2 font-semibold">
+              Candidates seeking a <b>government job opportunity</b> can
+              <b> apply online</b> through the official recruitment portal.
+            </p>
           </td>
         </tr>
       </tbody>
     </table>
-  ))}
+  )}
+</article>
 
-{relatedJobs.length > 0 && (
-  <div className="mt-6 border p-4 bg-gray-50">
-    <h3 className="font-bold mb-2">You May Also Like</h3>
-    <ul className="list-disc ml-5 space-y-1">
-      {relatedJobs.map((rj) => (
-        <li key={rj.id}>
-          <Link href={`/jobs/${rj.setPath}`} className="text-blue-600 hover:underline">
-            {rj.title}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </div>
-)}
-          {/* Right Sidebar */}
-          <aside className="lg:col-span-1 space-y-6">
-            <ShareButtons
-              url={`https://sarkariresult.rest/jobs/${slug}`}
-              title={job.title}
-            />
-
-            {/* Related Jobs */}
-            {relatedJobs.length > 0 && (
-              <div className="rounded-xl border bg-white shadow p-6">
-                <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                  📰 Related Jobs
-                </h2>
-              <ul className="list-disc list-inside space-y-4">
-  {relatedJobs.map((rj) => (
-    <li key={rj.id} className="flex items-center gap-3">
-      <div className="w-16 h-16 relative flex-shrink-0">
-        <Image
-          src={`https://sarkariresult.rest/api/og?title=${encodeURIComponent(
-            rj.title
-          )}&footerText=${encodeURIComponent(rj.organization)}&type=minimal`}
-          alt={rj.title}
-          fill
-          className="object-cover rounded"
-          unoptimized
-        />
-      </div>
-
-      <Link
-        href={`/jobs/${rj.setPath.split(" ").join("-")}`}
-        className="text-blue-600 hover:underline"
-      >
-        {rj.title}
-      </Link>
-    </li>
-  ))}
-</ul>
-
-              </div>
-            )}
-          </aside>
-      
-      </article>
 
     </>
   );
