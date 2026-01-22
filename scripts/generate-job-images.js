@@ -3,9 +3,9 @@ const path = require("path");
 const sharp = require("sharp");
 const { createCanvas,loadImage } = require("canvas");
 // 🔹 Job data (slug + title required)
-const job = require("../public/jobs.json");
+
 const articles = require("../public/articles.json");
-const jobs = [...job, ...articles]
+const jobs = [...articles]
 
 const WIDTH = 1200;
 const HEIGHT = 630;
@@ -90,7 +90,7 @@ ctx.drawImage(todoIcon, ICON_X, ICON_Y, ICON_SIZE, ICON_SIZE);
     /* ================= FOOTER ================= */
     ctx.font = "bold 36px sans-serif";
     ctx.fillStyle = "#fde68a";
-    ctx.fillText("sarkariresult.rest", 380, 540);
+    ctx.fillText("education.sarkariresult.rest", 380, 540);
 
     /* ================= SAVE WEBP ================= */
     const buffer = canvas.toBuffer("image/png");

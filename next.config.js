@@ -11,7 +11,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "sarkariresult.rest",
+        hostname: "education.sarkariresult.rest",
         pathname: "/api/job-image/**",
       },
     ],

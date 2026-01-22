@@ -80,15 +80,15 @@ export async function generateMetadata({
     title:job.seo?job.seo.meta_title: `${shortTitle}`,
     description: job.seo?job.seo.meta_description: job.description,
     keywords: job.seo?job.seo.meta_keywords:`${job.title}, ${job.category}, ${job.organization}, Sarkari Naukri, Sarkari Result, Government Jobs`,
-    alternates: { canonical: `https://sarkariresult.rest/article/${slug}` },
+    alternates: { canonical: `https://education.sarkariresult.rest/article/${slug}` },
     openGraph: {
       title: job.seo?job.seo.og_title:job.title,
       description: job.seo?job.seo.og_description:job.description,
-      url: `https://sarkariresult.rest/article/${slug}`,
+      url: `https://education.sarkariresult.rest/article/${slug}`,
       type: "article",
       images: [
         {
-          url: `https://sarkariresult.rest/og/jobs/${job.slug}.webp`,
+          url: `https://education.sarkariresult.rest/og/jobs/${job.slug}.webp`,
           width: 1200,
           height: 630,
         },
@@ -98,7 +98,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: job.seo?job.seo.twitter_title:job.title,
       description: job.seo?job.seo.twitter_description:job.description,
-      images: [`https://sarkariresult.rest/og/jobs/${job.slug}.webp`],
+      images: [`https://education.sarkariresult.rest/og/jobs/${job.slug}.webp`],
     },
   };
 }
@@ -158,25 +158,25 @@ export default async function Page({
       "@type": "NewsArticle",
       "headline": article.title,
       "description": article.description,
-      "image": [`https://sarkariresult.rest/og/jobs/${article.slug}.webp`],
+      "image": [`https://education.sarkariresult.rest/og/jobs/${article.slug}.webp`],
       "datePublished": article.datePublished,
       "dateModified": article.dateModified,
       "author": {
         "@type": "Person",
         "name": "Abhay Sachan",
-        "url": "https://sarkariresult.rest",
+        "url": "https://education.sarkariresult.rest",
       },
       "publisher": {
         "@type": "Organization",
         "name": "Sarkari Result",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://sarkariresult.rest/logo.png",
+          "url": "https://education.sarkariresult.rest/logo.png",
         },
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `https://sarkariresult.rest/article/${article.slug}`,
+        "@id": `https://education.sarkariresult.rest/article/${article.slug}`,
       },
       "articleSection": "Government Jobs",
       "keywords": article.seo?.meta_keywords || "Sarkari Result, Government Jobs, Sarkari Naukri",
@@ -224,13 +224,13 @@ export default async function Page({
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://sarkariresult.rest/",
+          "item": "https://education.sarkariresult.rest/",
         },       
         {
           "@type": "ListItem",
           "position": 2,
           "name": article.title,
-          "item": `https://sarkariresult.rest/article/${article.slug}`,
+          "item": `https://education.sarkariresult.rest/article/${article.slug}`,
         },
       ],
     },

@@ -1,11 +1,11 @@
 export const metadata = {
   title: "Privacy Policy Sarkari Result",
   description:
-    "Read the Privacy Policy of SarkariResult.rest to understand how we collect, use, and protect your personal information while providing government job updates, results, and admit cards in India.",
+    "Read the Privacy Policy of education.sarkariresult.rest to understand how we collect, use, and protect your personal information while providing government job updates, results, and admit cards in India.",
   keywords:
-    "Sarkari Result Privacy Policy, SarkariResult.rest, Data Protection, Personal Information, Cookies Policy, Sarkari Naukri, Govt Job Portal India, Online Privacy, Data Security",
+    "Sarkari Result Privacy Policy, education.sarkariresult.rest, Data Protection, Personal Information, Cookies Policy, Sarkari Naukri, Govt Job Portal India, Online Privacy, Data Security",
   alternates: {
-    canonical: "https://sarkariresult.rest/privacy-policy",
+    canonical: "https://education.sarkariresult.rest/privacy-policy",
   },
 };
 
@@ -13,17 +13,17 @@ export default function PrivacyPolicy() {
   return (
     <div className="container mx-auto p-6 space-y-8 text-gray-800">
       <h1 className="text-4xl font-bold text-center mb-6">
-        Privacy Policy – SarkariResult.rest
+        Privacy Policy – education.sarkariresult.rest
       </h1>
 
       <p className="text-lg leading-relaxed">
-        Welcome to <strong>SarkariResult.rest</strong>, your trusted platform
+        Welcome to <strong>education.sarkariresult.rest</strong>, your trusted platform
         for the latest updates on government job notifications, exam results,
         admit cards, answer keys, and career-related information across India.
         Protecting your privacy is our top priority. This Privacy Policy
         explains how we collect, use, and safeguard your personal and
         non-personal information while you access or use our website. By using
-        <strong> SarkariResult.rest</strong>, you agree to the practices
+        <strong> education.sarkariresult.rest</strong>, you agree to the practices
         described in this policy.
       </p>
 
@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
       </h2>
       <p>
         This Privacy Policy applies to all visitors, users, and subscribers of
-        SarkariResult.rest. It covers the information collected through our
+        education.sarkariresult.rest. It covers the information collected through our
         website, contact forms, subscription services, and interactive features
         that we operate. We strictly follow privacy norms applicable within
         India and ensure that your data remains protected and never misused.
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
         2. Information We Collect
       </h2>
       <p>
-        SarkariResult.rest collects limited information required to enhance your
+        education.sarkariresult.rest collects limited information required to enhance your
         browsing experience and provide relevant updates. The types of data we
         may collect include:
       </p>
@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
         5. Use of Third-Party Services
       </h2>
       <p>
-        SarkariResult.rest uses third-party analytics and advertising tools to
+        education.sarkariresult.rest uses third-party analytics and advertising tools to
         monitor site traffic and display relevant advertisements. Some of these
         services include:
       </p>
@@ -126,7 +126,7 @@ export default function PrivacyPolicy() {
         6. Data Protection and Security
       </h2>
       <p>
-        Your privacy is extremely important to us. SarkariResult.rest uses
+        Your privacy is extremely important to us. education.sarkariresult.rest uses
         secure server environments, SSL encryption, and limited access control
         to protect user data. While we take all possible precautions, users are
         advised to avoid sharing sensitive personal information through
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
         7. Links to External Websites
       </h2>
       <p>
-        SarkariResult.rest may include links to external or government websites
+        education.sarkariresult.rest may include links to external or government websites
         for reference. We are not responsible for the content, privacy, or data
         handling practices of such external websites. You are encouraged to read
         the privacy policy of each linked website separately before sharing any
@@ -150,7 +150,7 @@ export default function PrivacyPolicy() {
       <p>
         To maintain free access to our content, we display ads through verified
         ad networks such as Google AdSense. These ads may use cookies to show
-        content based on your browsing interests. SarkariResult.rest does not
+        content based on your browsing interests. education.sarkariresult.rest does not
         control or store the personal data collected by advertisers.
       </p>
       <p>
@@ -161,7 +161,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="text-2xl font-semibold mt-10">9. Children's Privacy</h2>
       <p>
-        SarkariResult.rest is intended for users aged 13 and above. We do not
+        education.sarkariresult.rest is intended for users aged 13 and above. We do not
         knowingly collect personal data from children. If you are a parent or
         guardian and believe that your child has shared personal data with us,
         please contact us immediately so we can remove the data promptly.
@@ -200,7 +200,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="text-2xl font-semibold mt-10">13. Your Consent</h2>
       <p>
-        By visiting and using <strong>SarkariResult.rest</strong>, you consent to
+        By visiting and using <strong>education.sarkariresult.rest</strong>, you consent to
         this Privacy Policy and agree to our terms of information collection and
         use as described above.
       </p>
@@ -213,10 +213,10 @@ export default function PrivacyPolicy() {
       <p className="mt-2">
         📧 <strong>Email:</strong>{" "}
         <a
-          href="mailto:support@sarkariresult.rest"
+          href="mailto:support@education.sarkariresult.rest"
           className="text-blue-600 hover:underline"
         >
-          support@sarkariresult.rest
+          support@education.sarkariresult.rest
         </a>
         <br />
         📞 <strong>Mobile:</strong> 9580311217
@@ -228,7 +228,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="text-2xl font-semibold mt-10">15. Summary</h2>
       <p>
-        SarkariResult.rest believes in transparency, safety, and respect for
+        education.sarkariresult.rest believes in transparency, safety, and respect for
         user privacy. We collect only the data necessary to enhance your
         experience and deliver accurate, timely updates about government
         recruitments, results, and notifications. We never sell, rent, or share

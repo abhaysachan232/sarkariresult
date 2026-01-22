@@ -1,11 +1,11 @@
 export const metadata = {
   title: "Terms & Conditions Sarkari Result",
   description:
-    "Read the official Terms and Conditions of SarkariResult.rest. Learn about our rules, disclaimer, content use, advertisement policy, and user responsibilities while using the Sarkari Result website for Sarkari Jobs, Admit Cards, and Results updates.",
+    "Read the official Terms and Conditions of education.sarkariresult.rest. Learn about our rules, disclaimer, content use, advertisement policy, and user responsibilities while using the Sarkari Result website for Sarkari Jobs, Admit Cards, and Results updates.",
   keywords:
-    "Sarkari Result Terms and Conditions, SarkariResult.rest Policy, SarkariResult Disclaimer, Sarkari Job Portal Legal Rules, Indian Government Job Portal Terms",
+    "Sarkari Result Terms and Conditions, education.sarkariresult.rest Policy, SarkariResult Disclaimer, Sarkari Job Portal Legal Rules, Indian Government Job Portal Terms",
   alternates: {
-    canonical: "https://sarkariresult.rest/terms",
+    canonical: "https://education.sarkariresult.rest/terms",
   },
 };
 
@@ -17,7 +17,7 @@ export default function Terms() {
       </h1>
 
       <p>
-        Welcome to <strong>SarkariResult.rest</strong>, India’s trusted portal for all Sarkari Exam updates including Government Job
+        Welcome to <strong>education.sarkariresult.rest</strong>, India’s trusted portal for all Sarkari Exam updates including Government Job
         Notifications, Admit Cards, Results, Answer Keys, and other employment-related information. By accessing this website, you agree
         to be legally bound by the Terms and Conditions mentioned below. These terms are designed to ensure a transparent, secure, and
         reliable user experience for all visitors and subscribers.
@@ -31,7 +31,7 @@ export default function Terms() {
 
       <h2 className="text-2xl font-semibold mt-8">1. Acceptance of Terms</h2>
       <p>
-        By using <strong>SarkariResult.rest</strong>, you confirm that you have read, understood, and accepted these Terms & Conditions.
+        By using <strong>education.sarkariresult.rest</strong>, you confirm that you have read, understood, and accepted these Terms & Conditions.
         Sarkari Result reserves the right to revise, modify, or update any part of these terms at any time without prior notice. Users
         are advised to review this page periodically to stay informed of any updates. Continued use of the website after modifications
         implies your acceptance of the updated terms.
@@ -39,7 +39,7 @@ export default function Terms() {
 
       <h2 className="text-2xl font-semibold mt-8">2. Purpose of Sarkari Result</h2>
       <p>
-        The main goal of <strong>SarkariResult.rest</strong> is to provide the latest and most accurate information about government jobs,
+        The main goal of <strong>education.sarkariresult.rest</strong> is to provide the latest and most accurate information about government jobs,
         exams, admit cards, results, and answer keys from trusted official sources. However, we are not a government agency or affiliated
         with any government department. All information provided here is for educational and informational purposes only.
       </p>
@@ -53,7 +53,7 @@ export default function Terms() {
 
       <h2 className="text-2xl font-semibold mt-8">4. Intellectual Property Rights</h2>
       <p>
-        All design elements, logos, graphics, articles, and code used in <strong>SarkariResult.rest</strong> are protected under applicable
+        All design elements, logos, graphics, articles, and code used in <strong>education.sarkariresult.rest</strong> are protected under applicable
         intellectual property and copyright laws. You are not permitted to copy, distribute, or use any part of this website’s content
         for commercial purposes without prior written consent from the administrators of Sarkari Result.
       </p>
@@ -68,14 +68,14 @@ export default function Terms() {
           Users should not post or transmit any material that is defamatory, obscene, abusive, or violates the rights of others.
         </li>
         <li>
-          Any misuse of the data or services provided by <strong>SarkariResult.rest</strong> will result in permanent restriction of
+          Any misuse of the data or services provided by <strong>education.sarkariresult.rest</strong> will result in permanent restriction of
           access and potential legal action.
         </li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-8">6. Accuracy and Reliability</h2>
       <p>
-        While we strive for 100% accuracy in publishing information, <strong>SarkariResult.rest</strong> does not take responsibility for
+        While we strive for 100% accuracy in publishing information, <strong>education.sarkariresult.rest</strong> does not take responsibility for
         any errors or omissions. The website is intended to assist job seekers by providing summarized and easy-to-read updates. However,
         the final verification should always be done through the official government website or notification document.
       </p>
@@ -89,7 +89,7 @@ export default function Terms() {
 
       <h2 className="text-2xl font-semibold mt-8">8. Advertisement Policy</h2>
       <p>
-        <strong>SarkariResult.rest</strong> may display third-party advertisements via Google AdSense or similar platforms. These
+        <strong>education.sarkariresult.rest</strong> may display third-party advertisements via Google AdSense or similar platforms. These
         advertisements may use cookies or similar technologies to display relevant ads based on your browsing activity. We do not control
         the data collected by third-party advertisers and recommend that you review their privacy policies for more details.
       </p>
@@ -130,7 +130,7 @@ export default function Terms() {
       <h2 className="text-2xl font-semibold mt-8">13. Termination of Access</h2>
       <p>
         We reserve the right to restrict or terminate user access at our discretion if any user violates these terms or engages in
-        activities that may harm the credibility, functionality, or reputation of SarkariResult.rest.
+        activities that may harm the credibility, functionality, or reputation of education.sarkariresult.rest.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8">14. Disclaimer</h2>
@@ -153,8 +153,8 @@ export default function Terms() {
       <ul className="pl-6 space-y-2">
         <li>
           📧 <strong>Email:</strong>{" "}
-          <a href="mailto:support@sarkariresult.rest" className="text-blue-600 hover:underline">
-            support@sarkariresult.rest
+          <a href="mailto:support@education.sarkariresult.rest" className="text-blue-600 hover:underline">
+            support@education.sarkariresult.rest
           </a>
         </li>
         <li>
@@ -164,7 +164,7 @@ export default function Terms() {
 
       <p className="text-gray-600 mt-6">
         Last Updated: <strong>October 2025</strong> <br />
-        © {new Date().getFullYear()} <strong>SarkariResult.rest</strong> — All Rights Reserved.
+        © {new Date().getFullYear()} <strong>education.sarkariresult.rest</strong> — All Rights Reserved.
       </p>
     </div>
   );

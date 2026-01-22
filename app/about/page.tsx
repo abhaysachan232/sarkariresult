@@ -5,7 +5,7 @@ export const metadata = {
   keywords:
     "Sarkari Result, about sarkari result, government jobs in india, sarkari naukri portal, sarkari exams, govt results, job notifications, latest sarkari jobs",
   alternates: {
-    canonical: "https://sarkariresult.rest/about",
+    canonical: "https://education.sarkariresult.rest/about",
   },
 };
 

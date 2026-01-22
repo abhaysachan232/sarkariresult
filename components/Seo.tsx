@@ -14,7 +14,7 @@ export default function Seo({ title, description, keywords, url, image }: SeoPro
     <NextSeo
       title={title}
       description={description}
-      canonical={`https://sarkariresult.rest/jobs/${url}`}
+      canonical={`https://education.sarkariresult.rest/jobs/${url}`}
       additionalMetaTags={
         keywords
           ? [

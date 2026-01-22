@@ -9,13 +9,13 @@ export const metadata = {
   keywords:
     "sarkari result disclaimer, information disclaimer, sarkari naukri accuracy policy, government job site disclaimer, official notification disclaimer, sarkariresult rest",
   alternates: {
-    canonical: "https://sarkariresult.rest/disclaimer",
+    canonical: "https://education.sarkariresult.rest/disclaimer",
   },
   openGraph: {
     title: "Sarkari Result Disclaimer | Authenticity & Responsibility Policy",
     description:
       "Sarkari Result provides verified government job updates from official sources. Read our disclaimer to understand data accuracy, liability limits, and fair usage terms.",
-    url: "https://sarkariresult.rest/disclaimer",
+    url: "https://education.sarkariresult.rest/disclaimer",
     siteName: "Sarkari Result",
     type: "website",
     locale: "en_IN",
