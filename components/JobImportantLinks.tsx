@@ -8,7 +8,7 @@ export default function JobImportantLinks({ links }: JobImportantLinksProps) {
   if (!links || Object.keys(links).length === 0) return null;
 
   return (
-    <section className="mt-12">
+    <section className="w-full border-collapse border border-gray-400 mt-2">
       <h2 className="text-2xl font-bold mb-4 text-center">
         Important Links
       </h2>
