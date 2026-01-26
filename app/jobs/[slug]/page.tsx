@@ -481,7 +481,95 @@ export default async function JobDetailsPage({
         </tr>
       </tbody>
     </table>
-  )}
+        )}
+          {job.howToApply && (
+    <table className="w-full border-collapse border border-gray-400 mt-2">
+      <thead>
+        <tr>
+          <th className="bg-[#000066] text-white border p-2">
+            How to Apply Online for Recruitment
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="p-3 border">
+            {Array.isArray(job.howToApply) ? (
+              <ul className="list-disc ml-5 space-y-1">
+                {job.howToApply.map((s:any,i:number)=>(
+                  <li key={i} dangerouslySetInnerHTML={{__html:String(s)}}/>
+                ))}
+              </ul>
+            ) : (
+              <div dangerouslySetInnerHTML={{__html:job.howToApply}}/>
+            )}
+            <p className="mt-2 font-semibold">
+              Candidates seeking a <b>government job opportunity</b> can
+              <b> apply online</b> through the official recruitment portal.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+        )}
+<div className="space-y-6">
+          {job.content.map((section: any, index: number) => (
+    
+                <table className="w-full border-collapse border border-gray-400 mt-2">
+      <thead>
+        <tr>
+          <th className="bg-[#000066] text-white border p-2">
+             <h2 className="text-lg font-semibold">
+      {section.heading}
+     </h2>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="p-3 border">
+        {Array.isArray(section.body) ? (
+        <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          {section.body.map((item: string, i: number) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-gray-700 leading-relaxed">
+          {section.body}
+        </p>
+      )}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+            
+            
+    // <div
+    //   key={index}
+    //   className="border rounded-lg p-4 bg-white shadow-sm"
+    // >
+    //   {/* Heading */}
+    //   <h2 className="text-lg font-semibold mb-3 text-gray-800">
+    //     {section.heading}
+    //   </h2>
+
+    //   {/* Body */}
+    //   {Array.isArray(section.body) ? (
+    //     <ul className="list-disc pl-5 space-y-1 text-gray-700">
+    //       {section.body.map((item: string, i: number) => (
+    //         <li key={i}>{item}</li>
+    //       ))}
+    //     </ul>
+    //   ) : (
+    //     <p className="text-gray-700 leading-relaxed">
+    //       {section.body}
+    //     </p>
+    //   )}
+    // </div>
+  ))}
+</div>
+
 </article>
 
 
