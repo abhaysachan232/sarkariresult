@@ -19,6 +19,18 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
+                {menuItems.map((link) => (
+                  <li key={link.name}>
+                    <Link  href={`${link.href}`} className="text-sm hover:underline">
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4"></h3>
+              <ul className="space-y-2">
                 {["about", "contact", "disclaimer", "faq", "privacy-policy","terms-conditions"].map((portal) => (
                   <li key={portal}>
                     <Link  href={`/${portal}`} className="text-sm hover:underline">
@@ -60,7 +72,7 @@ export default function Footer() {
           </div>
           <div className="mt-8 border-t pt-8 text-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Sarkari Result – education.sarkariresult.rest | All rights reserved
+              © {new Date().getFullYear()} Sarkari Result – SarkariResult.rest | All rights reserved
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 
 // ✅ Your real JSON files
+import jobsData from "../../public/jobs.json";
 import articlesData from "../../public/articles.json";
 
 type FilterType = "all" | "jobs" | "articles";
@@ -16,7 +17,12 @@ export default function SearchPage() {
   const [filter, setFilter] = useState<FilterType>("all");
 
   /* 🔵 JOB SEARCH – ONLY TITLE */
- 
+  const jobResults = useMemo(() => {
+    if (!query) return [];
+    return jobsData.filter((job: any) =>
+      job.title?.toLowerCase().includes(query)
+    );
+  }, [query]);
 
   /* 🟢 ARTICLE SEARCH – ONLY TITLE */
   const articleResults = useMemo(() => {
@@ -26,7 +32,7 @@ export default function SearchPage() {
     );
   }, [query]);
 
-  const totalResults =  articleResults.length;
+  const totalResults = jobResults.length + articleResults.length;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
@@ -44,7 +50,11 @@ export default function SearchPage() {
           active={filter === "all"}
           onClick={() => setFilter("all")}
         />
-
+        <FilterBtn
+          label={`Jobs (${jobResults.length})`}
+          active={filter === "jobs"}
+          onClick={() => setFilter("jobs")}
+        />
         <FilterBtn
           label={`Articles (${articleResults.length})`}
           active={filter === "articles"}
@@ -53,8 +63,28 @@ export default function SearchPage() {
       </div>
 
       {/* 🔵 JOB RESULTS */}
-      
-
+      {(filter === "all" || filter === "jobs") && jobResults.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-lg font-semibold mb-3">Jobs & Notifications</h2>
+          <ul className="space-y-3">
+            {jobResults.map((job: any) => (
+              <li key={job.id} className="border p-3 rounded">
+                <Link
+                  href={`/jobs/${job.setPath.split(" ").join("-")}`}
+                  className="text-blue-600 font-medium hover:underline"
+                >
+                  {job.title}
+                </Link>
+                {job.organization && (
+                  <p className="text-sm text-gray-500">
+                    {job.organization}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* 🟢 ARTICLE RESULTS */}
       {(filter === "all" || filter === "articles") && articleResults.length > 0 && (

@@ -1,40 +1,84 @@
 
-'use client';
-
-
-import NewsMarquee from "./news-marquee";
-
-import { Button } from "./ui/button";
-import LiveTicker from "./live-ticker";
-import JobCard from "./job-card";
+import NewsMarquee from "@/components/news-marquee";
+import { Search } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Mic } from "lucide-react";
+import LiveTicker from "@/components/live-ticker";
+import JobCard from "@/components/job-card";
 import Link from "next/link";
+import datas from '../../public/jobs.json';
+import { Metadata } from "next";
+import { headers } from "next/headers";
+import article from "../../public/articles.json"
 
-import jobs from '../public/jobs.json';
-import datas from "../public/articles.json";
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers();
+  const host = headersList.get("host") ?? "sarkariresult.rest";
+  const proto = headersList.get("x-forwarded-proto") || "https";
+  const url = `${proto}://${host}`;
 
-export default async function Middle() {
+  return {
+    title: "SarkariResult - Latest Government Jobs, Results, Admit Cards",
+    description:
+      "Find latest government jobs, results, admit cards, answer keys and more at SarkariResult.rest",
+    keywords: "Sarkari Result, Sarkari Naukri, Government Jobs, Admit Cards, Results",
+    alternates: { canonical: url },
+    openGraph: {
+      title: "SarkariResult - Government Jobs Portal",
+      description:
+        "Find latest government jobs, results, admit cards, answer keys and more.",
+      url: url,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "SarkariResult - Government Jobs Portal",
+      description:
+        "Find latest government jobs, results, admit cards, answer keys and more.",
+    },
+  };
+}
 
-  const baseUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : "http://localhost:3000";     
+type Params = { category: string };
 
-
-    // console.log(baseUrl);
-    
-  
-
-  const data = jobs
-
+export default async function Middle({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
     const menuItems:any = [    
-      { name: "Admit Card", href: "admit-card" ,target:'_blank'},
-      { name: "Results", href: "results" ,target:'_blank'},
-      { name: "Latest Jobs", href: "latest-jobs",target:'_blank' },
+    { name: "Latest Jobs", href: "latest-jobs",target:'_blank' },
+    { name: "Results", href: "results" ,target:'_blank'},
+    { name: "Admit Card", href: "admit-card" ,target:'_blank'},
     { name: "Answer Key", href: "answer-key" ,target:'_blank'},
     { name: "Syllabus", href: "syllabus",target:'_blank' },
     { name: "Admission", href: "admission" ,target:'_blank'},
     { name: "Certificate Verification", href: "certificate-verification",target:'_blank' },
     { name: "Important", href: "important",target:'_blank' }
   ]
+
+
+  const { category: selectedCategory } = await params;
+  if (!selectedCategory || selectedCategory === "favicon.ico") return null;
+
+
+
+
+
+  type Job = {
+    category: string;
+    [key: string]: any;
+  };
+
+  // You need to define selectedCategory or use 'category' from params
+
+  // const jobs: Job[] = datas;
+  const data = selectedCategory=='home'?datas: datas.filter((job: Job) => job.category ===selectedCategory);
+  console.log(data,selectedCategory,datas);
+ const selCtegory =selectedCategory=='home'?menuItems: menuItems.filter((item: any) => item.href === selectedCategory);
+  
+
   return (
 <>
       <main className="container py-6">
@@ -71,7 +115,7 @@ export default async function Middle() {
         {/* <CategoryFilter /> */}
 
         {/* Main Content Tabs */}
-<JobCard data={data} selection={menuItems} category={""}/>
+<JobCard data={data} selection={selCtegory} category={selectedCategory}/>
 
         {/* Trending News Section */}
         <section className="mt-12">
@@ -82,7 +126,7 @@ export default async function Middle() {
             </Link>
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {datas.map((item, i) => (
+            {article.slice(-3).map((item, i) => (
               <div key={i} className="rounded-lg border p-4 shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-xs font-medium text-blue-600 mb-2">
                 {item.Type}

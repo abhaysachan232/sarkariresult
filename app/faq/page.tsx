@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "Sarkari Result FAQs, Sarkari Naukri Questions, Sarkari Exam Help, Govt Job Guide, Admit Card Download, Result Checking, SarkariResult Info, Sarkari Update, Online Form Help",
   alternates: {
-    canonical: "https://education.sarkariresult.rest/faqs",
+    canonical: "https://sarkariresult.rest/faqs",
   },
 };
 
