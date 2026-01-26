@@ -146,15 +146,17 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
           crossOrigin="anonymous"
         ></script>
 
+        <script  src="/resizer.js"></script>
         <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
       </head>
-      <body className={inter.className}>
+      <body id="app-scale" className={inter.className}>
         {/* Google Analytics */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
@@ -181,15 +183,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
-          {/* <SwgLoginButton /> */}
+     
+            <Navbar />
+            {/* <SwgLoginButton /> */}
 
-          <main style={{ flex: 1, padding: "20px" }}>
-            {children}
-            <HomeSeoSection />
-          </main>
+            <main style={{ flex: 1, padding: "20px" }}>
+              {children}
+              <HomeSeoSection />
+            </main>
 
-          <Footer />
+            <Footer />
           {/* <AdcashAutoTag /> */}
         </ThemeProvider>
         {/* <AdcashAutoTag/> */}
