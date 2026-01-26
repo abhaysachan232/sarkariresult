@@ -302,6 +302,8 @@ export default async function JobDetailsPage({
     </tbody>
   </table>
 
+        
+
   {/* ================= TOP ADS ================= */}
   <div className="my-3 text-center"><FluidAd /></div>
   <div className="my-3 text-center"><FluidAd /></div>
@@ -413,7 +415,20 @@ export default async function JobDetailsPage({
       </tr>
     </tbody>
   </table>
-
+{relatedJobs.length > 0 && (
+  <div className="mt-6 border p-4 bg-gray-50">
+    <h3 className="font-bold mb-2">You May Also Like</h3>
+    <ul className="list-disc ml-5 space-y-1">
+      {relatedJobs.map((rj) => (
+        <li key={rj.id}>
+          <Link href={`/jobs/${rj.setPath}`} className="text-blue-600 hover:underline">
+            {rj.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
   {/* ================= VACANCY DETAILS ================= */}
   {job.posts && job.posts.length > 0 && (
     <table className="w-full border-collapse border border-gray-400 mt-4 text-[16px]">
@@ -516,6 +531,8 @@ export default async function JobDetailsPage({
             
   ))}
 </div>
+
+</article>
 {relatedJobs.length > 0 && (
   <div className="mt-6 border p-4 bg-gray-50">
     <h3 className="font-bold mb-2">You May Also Like</h3>
@@ -530,8 +547,6 @@ export default async function JobDetailsPage({
     </ul>
   </div>
 )}
-</article>
-
 
     </>
   );
