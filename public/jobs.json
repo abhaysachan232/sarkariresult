@@ -4405,41 +4405,82 @@
   },
 
   "updatedon": "2026-01-26"
-}
-,
+},
 {
-  "id": 101,
-  "title": "Navy ICNET 01/2026 Re Exam Admit Card Download, Exam Date",
-  "setPath": "navy-icnet-01-2026-re-exam-admit-card",
-  "slug": "navy-icnet-01-2026-re-exam-admit-card-download",
+  "id": 67,
+  "title": "Navy ICNET 01/2025 Re Exam Admit Card Download, Exam Date",
+  "setPath": "navy-icnet-01-2025-re-exam-admit-card",
+  "slug": "navy-icnet-01-2025-re-exam-admit-card-download",
   "organization": "Indian Navy",
   "date": "2026-01-26",
   "location": "India",
   "state": "All India",
   "type": "admit-card",
   "category": "admit-card",
-  "year": "2026",
+  "year": "2025",
   "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
 
-  "description": "Navy ICNET 01/2026 Re Exam Admit Card Indian Navy ke dwara jari kar diya gaya hai. Candidates apna admit card online download kar sakte hain.",
+  "description": "Navy ICNET 01/2025 Re Exam Admit Card Indian Navy ke dwara release kar diya gaya hai. Re-exam me shamil hone wale candidates apna admit card online download kar sakte hain.",
 
-  "content": [
-    {
-      "heading": "Navy ICNET 01/2026 Re Exam Admit Card Download",
-      "body": "Indian Navy ne ICNET 01/2026 Re Examination ke liye admit card release kar diya hai. Admit card me exam date, city aur reporting time mention hai."
-    }
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Admit Card Release": "January 2025",
+    "Re Exam Date": "As Per Schedule"
+  },
+
+  "eligibility": [
+    "Only those candidates who applied for ICNET 01/2025",
+    "Candidates eligible for re-examination"
+  ],
+
+  "applicationFee": {
+    "Admit Card Fee": "No Fee"
+  },
+
+  "jobLocation": "India",
+
+  "howToApply": [
+    "Indian Navy official website par visit karein",
+    "ICNET 01/2025 Re Exam Admit Card link open karein",
+    "Login details enter karein",
+    "Admit Card download karke print lein"
   ],
 
   "links": {
-    "Download Admit Card": "https://incet.cbt-exam.in/incetcycle3/login/user",
-    "Official Website": "https://www.joinindiannavy.gov.in"
+    "Admit Card Download": "https://incet.cbt-exam.in/incetcycle3/login/user"
   },
 
-  "updatedon": "2025-01-26"
+  "content": [
+    {
+      "heading": "Navy ICNET 01/2025 Re Exam Admit Card – Overview",
+      "body": "Indian Navy ne ICNET 01/2025 Re Examination ke liye Admit Card jari kar diya hai. Admit card exam entry ke liye mandatory document hai."
+    },
+    {
+      "heading": "How to Download Navy ICNET Re Exam Admit Card",
+      "body": [
+        "joinindiannavy.gov.in par visit karein",
+        "Re Exam Admit Card link par click karein",
+        "Registration details fill karein",
+        "Admit Card download aur print karein"
+      ]
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "Navy ICNET 01/2025 Re Exam Admit Card Download",
+    "metaDescription": "Navy ICNET 01/2025 Re Exam Admit Card download link, exam date and instructions.",
+    "keywords": "Navy ICNET Re Exam Admit Card 2025, ICNET Admit Card Download"
+  },
+
+  "updatedon": "2026-01-26"
 }
 ,
 {
-  "id": 102,
+  "id": 68,
   "title": "MHA IB MTS Admit Card 2026 Download, Exam Date & City",
   "setPath": "mha-ib-mts-admit-card-2026",
   "slug": "mha-ib-mts-admit-card-2026-download",
@@ -4451,194 +4492,336 @@
   "category": "admit-card",
   "year": "2026",
   "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
 
-  "description": "MHA IB MTS Admit Card 2026 Intelligence Bureau dwara jari kiya jayega. Registered candidates exam se pehle admit card download kar sakte hain.",
+  "description": "MHA IB MTS Admit Card 2026 Intelligence Bureau dwara exam se pehle release kiya jayega. Registered candidates apna admit card online download kar sakte hain.",
 
-  "content": [
-  {
-    "heading": "Navy ICNET 01/2025 Re Exam Admit Card – Overview",
-    "body": "Indian Navy ne ICNET 01/2025 Re Examination ke liye Admit Card release kar diya hai. Jin candidates ka exam re-schedule kiya gaya tha, wo ab apna admit card official website se download kar sakte hain. Admit card exam me entry ke liye mandatory document hai."
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Admit Card Release": "February 2026",
+    "Exam Date": "As Per Schedule"
   },
-  {
-    "heading": "Navy ICNET Re Exam Admit Card Download Process",
-    "body": [
-      "Official website joinindiannavy.gov.in par visit karein",
-      "ICNET 01/2025 Re Exam Admit Card link par click karein",
-      "Registration ID aur Date of Birth enter karein",
-      "Admit Card download karke printout nikal lein"
-    ]
+
+  "eligibility": [
+    "Only registered candidates for IB MTS Exam 2026"
+  ],
+
+  "applicationFee": {
+    "Admit Card Fee": "No Fee"
   },
-  {
-    "heading": "Details Mentioned on Navy ICNET Admit Card",
-    "body": [
-      "Candidate Name & Roll Number",
-      "Exam Date & Reporting Time",
-      "Exam City & Center Address",
-      "Important Exam Instructions"
-    ]
-  }
-]
-,
+
+  "jobLocation": "India",
+
+  "howToApply": [
+    "MHA / IB official website par visit karein",
+    "IB MTS Admit Card 2026 link open karein",
+    "Login credentials enter karein",
+    "Admit Card download karein"
+  ],
 
   "links": {
-    "Download Admit Card": "https://cdn.digialm.com/EForms/configuredHtml/1258/96684/login.html",
-    "Official Website": "https://www.mha.gov.in"
+    "Download Admit Card": "https://cdn.digialm.com/EForms/configuredHtml/1258/96684/login.html"
+  },
+
+  "content": [
+    {
+      "heading": "MHA IB MTS Admit Card 2026 – Latest Update",
+      "body": "IB MTS Exam 2026 ke liye Admit Card official website par online mode me jari kiya jayega."
+    },
+    {
+      "heading": "IB MTS Admit Card Download Process",
+      "body": [
+        "Official website open karein",
+        "Admit Card link par click karein",
+        "Login details fill karein",
+        "Admit Card download karein"
+      ]
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "MHA IB MTS Admit Card 2026 Download",
+    "metaDescription": "MHA IB MTS Admit Card 2026 exam date, city details and download link.",
+    "keywords": "IB MTS Admit Card 2026, MHA IB Admit Card"
   },
 
   "updatedon": "2026-01-26"
 }
 ,
 {
-  "id": 104,
-  "title": "UPPSC RO ARO 2023 Mains Admit Card Download",
-  "setPath": "uppsc-ro-aro-2023-mains-admit-card",
-  "slug": "uppsc-ro-aro-2023-mains-admit-card-download",
-  "organization": "Uttar Pradesh Public Service Commission",
-  "date": "2025-01-15",
-  "location": "Uttar Pradesh",
-  "state": "Uttar Pradesh",
-  "type": "admit-card",
-  "category": "admit-card",
-  "year": "2023",
-  "Type": "Sarkari Result",
-
-  "description": "UPPSC RO ARO 2023 Mains Admit Card official website par jari kar diya gaya hai. Candidates apna admit card online download kar sakte hain.",
-
-  "content": [
-  {
-    "heading": "UPPSC RO ARO 2023 Mains Admit Card – Update",
-    "body": "Uttar Pradesh Public Service Commission ne RO / ARO 2023 Mains Examination ke liye Admit Card jari kar diya hai. Qualified candidates apna admit card online download kar sakte hain."
-  },
-  {
-    "heading": "Steps to Download UPPSC RO ARO Mains Admit Card",
-    "body": [
-      "uppsc.up.nic.in par visit karein",
-      "RO / ARO Mains Admit Card link par click karein",
-      "Registration Details fill karein",
-      "Admit Card download karke print karein"
-    ]
-  },
-  {
-    "heading": "UPPSC Mains Exam Guidelines",
-    "body": [
-      "Exam center par original admit card le jana zaroori hai",
-      "ID proof ke bina entry nahi milegi",
-      "Electronic gadgets allowed nahi hain"
-    ]
-  }
-]
-
-,
-
-  "links": {
-    "Download Admit Card": "https://uppsc.up.nic.in/CandidatePages/AdmitCard/AdmitCard_New.aspx?/8bFzGHgwwRR/Zwnh8NoLK7QajXSPv75877/5uYHtljQeO5Fmx3QxsBAWnkV4JUBsRmcByAxlg9+MykABE2ZPJ3aAaK3IsMe6/vK2C0WrCV0+80T6pgx/lOFPMmIMUt2lIGad1IZiNZk1r91TZvPRg==",
-    "Official Website": "https://uppsc.up.nic.in"
-  },
-
-  "updatedon": "2025-01-15"
-}
-,
-{
-  "id": 105,
-  "title": "IBPS RRB 14th Officer Scale I II III Interview Letter Download",
-  "setPath": "ibps-rrb-14th-officer-interview-letter",
-  "slug": "ibps-rrb-14th-officer-interview-letter-download",
-  "organization": "Institute of Banking Personnel Selection (IBPS)",
-  "date": "2026-01-10",
-  "location": "India",
-  "state": "All India",
-  "type": "interview-letter",
-  "category": "interview-letter",
-  "year": "2026",
-  "Type": "Sarkari Result",
-
-  "description": "IBPS RRB 14th Officer Scale I, II, III Interview Letter candidates ke liye available hai. Interview call letter online download kiya ja sakta hai.",
-
-  "content": [
-  {
-    "heading": "IBPS RRB 14th Officer Interview Letter – Overview",
-    "body": "IBPS ne RRB 14th Officer Scale I, II aur III ke liye Interview Call Letter release kar diya hai. Shortlisted candidates apna interview letter online download kar sakte hain."
-  },
-  {
-    "heading": "How to Download IBPS RRB Interview Letter",
-    "body": [
-      "ibps.in website open karein",
-      "CRP RRB Interview Call Letter link par click karein",
-      "Registration Number aur Password enter karein",
-      "Interview Letter download karein"
-    ]
-  },
-  {
-    "heading": "Details Mentioned on Interview Letter",
-    "body": [
-      "Interview Date & Time",
-      "Interview Venue Address",
-      "Documents Required for Interview"
-    ]
-  }
-]
-,
-
-  "links": {
-    "Download Admit Card": "https://ibpsreg.ibps.in/rrbxivaug25/oecla_jan26/login.php?appid=c0c6661a4727c404664bc866dcd37019",
-    "Official Website": "https://www.ibps.in"
-  },
-
-  "updatedon": "2026-01-10"
-}
-,
-
-{
-  "id": 107,
-  "title": "CTET February 2026 Exam City Details Check Online",
-  "setPath": "ctet-february-2026-exam-city",
-  "slug": "ctet-february-2026-exam-city-details",
-  "organization": "Central Board of Secondary Education (CBSE)",
-  "date": "2026-02-01",
+  "id": 69,
+  "title": "Railway RRB Group D Exam City Details 2026 Check Online",
+  "setPath": "railway-rrb-group-d-exam-city-2026",
+  "slug": "railway-rrb-group-d-exam-city-details-2026",
+  "organization": "Railway Recruitment Board (RRB)",
+  "date": "2026-01-26",
   "location": "India",
   "state": "All India",
   "type": "exam-city",
   "category": "exam-city",
   "year": "2026",
   "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
 
-  "description": "CTET February 2026 Exam City Details CBSE ke dwara release kar di gayi hain. Candidates exam city slip online check kar sakte hain.",
+  "description": "Railway RRB Group D Exam City Details 2026 Railway Recruitment Board ke dwara jari ki jayengi. Candidates apni exam city intimation slip online check kar sakte hain.",
 
-  "content": [
-  {
-    "heading": "CTET February 2026 Exam City Slip – Information",
-    "body": "Central Board of Secondary Education dwara CTET February 2026 Exam City Slip release ki ja rahi hai. Candidates apni exam city online check kar sakte hain."
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Exam City Release": "February 2026",
+    "Exam Date": "As Per Schedule"
   },
-  {
-    "heading": "Steps to Check CTET Exam City 2026",
-    "body": [
-      "ctet.nic.in website par visit karein",
-      "Exam City Intimation link par click karein",
-      "Application Number aur DOB enter karein",
-      "Exam City Details screen par dekhein"
-    ]
+
+  "eligibility": [
+    "Only registered candidates for RRB Group D Exam 2026"
+  ],
+
+  "applicationFee": {
+    "Exam City Slip Fee": "No Fee"
   },
-  {
-    "heading": "CTET Exam City Slip Important Notes",
-    "body": [
-      "City slip sirf intimation ke liye hoti hai",
-      "Final exam center Admit Card me milega",
-      "Travel planning ke liye city slip useful hai"
-    ]
-  }
-]
-,
+
+  "jobLocation": "India",
+
+  "howToApply": [
+    "Apne respective RRB ki website par visit karein",
+    "Group D Exam City link open karein",
+    "Registration Number aur DOB enter karein",
+    "Exam City Details check karein"
+  ],
 
   "links": {
-    "Check Exam City": "https://examinationservices.nic.in/examsysctet/downloadadmitcard/frmAuthforCity.aspx?enc=Ei4cajBkK1gZSfgr53ImFfEytN2I3LFrLvNrMJcZJNnNSHx65TqX61g0R7v8Uf2m",
-    "Official Website": "https://ctet.nic.in"
+    "Download Exam City Details": "https://rrb.digialm.com/EForms/configuredHtml/33015/96410/login.html"
   },
 
-  "updatedon": "2026-02-01"
+  "content": [
+    {
+      "heading": "RRB Group D Exam City Details 2026 – Overview",
+      "body": "RRB Group D Exam City Slip 2026 candidates ko exam city ki jankari dene ke liye jari ki jati hai. Yeh admit card nahi hoti."
+    },
+    {
+      "heading": "How to Check RRB Group D Exam City",
+      "body": [
+        "RRB official website open karein",
+        "Exam City Intimation link par click karein",
+        "Login details fill karein",
+        "Exam City screen par dekhein"
+      ]
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "RRB Group D Exam City Details 2026 Check Online",
+    "metaDescription": "Railway RRB Group D Exam City Slip 2026 check online, exam date and instructions.",
+    "keywords": "RRB Group D Exam City 2026, Railway Group D City Slip"
+  },
+
+  "updatedon": "2026-01-26"
 }
 ,
 {
-  "id": 108,
+  "id": 70,
+  "title": "UPPSC RO ARO 2023 Mains Admit Card Download",
+  "setPath": "uppsc-ro-aro-2023-mains-admit-card",
+  "slug": "uppsc-ro-aro-2023-mains-admit-card-download",
+  "organization": "Uttar Pradesh Public Service Commission",
+  "date": "2026-01-26",
+  "location": "Uttar Pradesh",
+  "state": "Uttar Pradesh",
+  "type": "admit-card",
+  "category": "admit-card",
+  "year": "2023",
+  "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
+
+  "description": "UPPSC RO / ARO 2023 Mains Admit Card official website par jari kar diya gaya hai. Qualified candidates apna admit card online download kar sakte hain.",
+
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Admit Card Release": "February 2025",
+    "Mains Exam Date": "As Per Schedule"
+  },
+
+  "eligibility": [
+    "Only candidates qualified in RO / ARO Pre Exam"
+  ],
+
+  "applicationFee": {
+    "Admit Card Fee": "No Fee"
+  },
+
+  "jobLocation": "Uttar Pradesh",
+
+  "howToApply": [
+    "UPPSC official website par visit karein",
+    "RO / ARO Mains Admit Card link open karein",
+    "Registration details fill karein",
+    "Admit Card download karein"
+  ],
+
+  "links": {
+    "Download Admit Card": "https://uppsc.up.nic.in/CandidatePages/AdmitCard/AdmitCard_New.aspx?/8bFzGHgwwRR/Zwnh8NoLK7QajXSPv75877/5uYHtljQeO5Fmx3QxsBAWnkV4JUBsRmcByAxlg9+MykABE2ZPJ3aAaK3IsMe6/vK2C0WrCV0+80T6pgx/lOFPMmIMUt2lIGad1IZiNZk1r91TZvPRg=="
+  },
+
+  "content": [
+    {
+      "heading": "UPPSC RO ARO 2023 Mains Admit Card – Overview",
+      "body": "UPPSC RO / ARO 2023 Mains Examination ke liye admit card jari kar diya gaya hai. Admit card exam entry ke liye mandatory hai."
+    },
+    {
+      "heading": "How to Download UPPSC RO ARO Mains Admit Card",
+      "body": [
+        "uppsc.up.nic.in par visit karein",
+        "Mains Admit Card link par click karein",
+        "Login details fill karein",
+        "Admit Card print karein"
+      ]
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "UPPSC RO ARO 2023 Mains Admit Card Download",
+    "metaDescription": "UPPSC RO ARO 2023 Mains Admit Card download link and exam instructions.",
+    "keywords": "UPPSC RO ARO Mains Admit Card 2023"
+  },
+
+  "updatedon": "2025-02-01"
+}
+,
+{
+  "id": 71,
+  "title": "IBPS RRB 14th Office Assistant Mains Admit Card Download",
+  "setPath": "ibps-rrb-14th-office-assistant-mains-admit-card",
+  "slug": "ibps-rrb-14th-office-assistant-mains-admit-card-download",
+  "organization": "Institute of Banking Personnel Selection (IBPS)",
+  "date": "2026-01-26",
+  "location": "India",
+  "state": "All India",
+  "type": "admit-card",
+  "category": "admit-card",
+  "year": "2026",
+  "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
+
+  "description": "IBPS RRB 14th Office Assistant Mains Exam ke liye Admit Card jari kar diya gaya hai.",
+
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Admit Card Release": "February 2026",
+    "Mains Exam Date": "As Per Schedule"
+  },
+
+  "eligibility": [
+    "Candidates qualified in Office Assistant Pre Exam"
+  ],
+
+  "applicationFee": {
+    "Admit Card Fee": "No Fee"
+  },
+
+  "jobLocation": "India",
+
+  "howToApply": [
+    "ibps.in website par visit karein",
+    "Office Assistant Mains Admit Card link open karein",
+    "Login details fill karein",
+    "Admit Card download karein"
+  ],
+
+  "links": {
+    "Official Website": "https://ibpsreg.ibps.in/rrbxivaug25/oecla_jan26/login.php?appid=c0c6661a4727c404664bc866dcd37019"
+  },
+
+  "content": [
+    {
+      "heading": "IBPS RRB Office Assistant Mains Admit Card – Overview",
+      "body": "IBPS RRB Office Assistant Mains Admit Card exam entry ke liye mandatory hai."
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "IBPS RRB Office Assistant Mains Admit Card Download",
+    "metaDescription": "IBPS RRB 14th Office Assistant Mains Admit Card download.",
+    "keywords": "IBPS RRB Office Assistant Mains Admit Card"
+  },
+
+  "updatedon": "2026-01-26"
+}
+,{
+  "id": 72,
+  "title": "CTET February 2026 Exam City Details Check Online",
+  "setPath": "ctet-february-2026-exam-city",
+  "slug": "ctet-february-2026-exam-city-details",
+  "organization": "Central Board of Secondary Education (CBSE)",
+  "date": "2026-01-26",
+  "location": "India",
+  "state": "All India",
+  "type": "exam-city",
+  "category": "exam-city",
+  "year": "2026",
+  "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
+
+  "description": "CTET February 2026 Exam City Details CBSE ke dwara release ki jayengi.",
+
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Exam City Release": "February 2026",
+    "CTET Exam Date": "As Per Schedule"
+  },
+
+  "eligibility": [
+    "Registered candidates for CTET February 2026"
+  ],
+
+  "applicationFee": {
+    "Exam City Slip Fee": "No Fee"
+  },
+
+  "jobLocation": "India",
+
+  "howToApply": [
+    "ctet.nic.in par visit karein",
+    "Exam City Slip link open karein",
+    "Application details fill karein",
+    "Exam City check karein"
+  ],
+
+  "links": {
+    "Exam City Details": "https://examinationservices.nic.in/examsysctet/downloadadmitcard/frmAuthforCity.aspx?enc=Ei4cajBkK1gZSfgr53ImFfEytN2I3LFrLvNrMJcZJNnNSHx65TqX61g0R7v8Uf2m"
+  },
+
+  "content": [
+    {
+      "heading": "CTET February 2026 Exam City – Overview",
+      "body": "CTET Exam City Slip candidates ko exam city ki advance jankari deti hai."
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "CTET February 2026 Exam City Details",
+    "metaDescription": "CTET February 2026 exam city slip check online.",
+    "keywords": "CTET Exam City 2026"
+  },
+
+  "updatedon": "2026-02-05"
+}
+,
+{
+  "id": 73,
   "title": "MPESB Group 2 Sub Group 3 Admit Card 2026 Download",
   "setPath": "mpesb-group-2-sub-group-3-admit-card-2026",
   "slug": "mpesb-group-2-sub-group-3-admit-card-2026-download",
@@ -4650,41 +4833,121 @@
   "category": "admit-card",
   "year": "2026",
   "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
 
-  "description": "MPESB Group 2 Sub Group 3 Admit Card 2026 exam ke liye release kar diya gaya hai. Candidates apna admit card online download kar sakte hain.",
+  "description": "MPESB Group 2 Sub Group 3 Admit Card 2026 exam ke liye jari kar diya gaya hai.",
 
-  "content": [
-  {
-    "heading": "MPESB Group 2 Sub Group 3 Admit Card 2026 – Notice",
-    "body": "Madhya Pradesh Employee Selection Board ne Group 2 Sub Group 3 Exam 2026 ke liye Admit Card release kar diya hai. Candidates apna admit card online download kar sakte hain."
+  "posts": ["as per notification"],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "Admit Card Release": "February 2026",
+    "Exam Date": "As Per Schedule"
   },
-  {
-    "heading": "How to Download MPESB Admit Card",
-    "body": [
-      "esb.mp.gov.in website open karein",
-      "Group 2 Sub Group 3 Admit Card link par click karein",
-      "Application Number aur DOB enter karein",
-      "Admit Card download karke print karein"
-    ]
+
+  "eligibility": [
+    "Registered candidates for MPESB Group 2 Sub Group 3 Exam"
+  ],
+
+  "applicationFee": {
+    "Admit Card Fee": "No Fee"
   },
-  {
-    "heading": "MPESB Exam Instructions",
-    "body": [
-      "Admit Card aur ID proof sath le jana anivarya",
-      "Exam center par late entry allowed nahi",
-      "Exam instructions ka palan karein"
-    ]
-  }
-]
-,
+
+  "jobLocation": "Madhya Pradesh",
+
+  "howToApply": [
+    "esb.mp.gov.in par visit karein",
+    "Admit Card link open karein",
+    "Application Number aur DOB enter karein",
+    "Admit Card download karein"
+  ],
 
   "links": {
-    "Download Admit Card": "https://esb.mp.gov.in/tacs/tac_2025/GROUP_2_SG3_TAC25/default_tac.htm",
-    "Official Website": "https://esb.mp.gov.in"
+    "admitCard Download": "https://esb.mp.gov.in/tacs/tac_2025/GROUP_2_SG3_TAC25/default_tac.htm"
+  },
+
+  "content": [
+    {
+      "heading": "MPESB Group 2 Sub Group 3 Admit Card – Overview",
+      "body": "MPESB Admit Card exam hall me entry ke liye mandatory document hai."
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "MPESB Group 2 Sub Group 3 Admit Card 2026 Download",
+    "metaDescription": "MPESB Group 2 Sub Group 3 Admit Card download.",
+    "keywords": "MPESB Group 2 Admit Card 2026"
+  },
+
+  "updatedon": "2026-02-08"
+}
+,
+{
+  "id": 74,
+  "title": "Bihar Police BPSSC Enforcement SI PET Admit Card 2026 Download",
+  "setPath": "bihar-police-bpssc-enforcement-si-pet-admit-card-2026",
+  "slug": "bihar-police-bpssc-enforcement-si-pet-admit-card-2026-download",
+  "organization": "Bihar Police Subordinate Services Commission (BPSSC)",
+  "date": "2026-01-26",
+  "location": "Bihar",
+  "state": "Bihar",
+  "type": "admit-card",
+  "category": "admit-card",
+  "year": "2026",
+  "Type": "Sarkari Result",
+  "minimumAge": "Not Applicable",
+  "age": "Not Applicable",
+
+  "description": "Bihar Police BPSSC Enforcement Sub Inspector PET Admit Card 2026 physical test ke liye jari kar diya gaya hai.",
+
+  "posts": [],
+  "totalPost": "Not Applicable",
+
+  "importantDates": {
+    "PET Admit Card Release": "February 2026",
+    "PET Date": "As Per Schedule"
+  },
+
+  "eligibility": [
+    "Candidates qualified in written examination"
+  ],
+
+  "applicationFee": {
+    "PET Admit Card Fee": "No Fee"
+  },
+
+  "jobLocation": "Bihar",
+
+  "howToApply": [
+    "bpssc.bihar.gov.in par visit karein",
+    "Enforcement SI PET Admit Card link open karein",
+    "Login details fill karein",
+    "Admit Card download karein"
+  ],
+
+  "links": {
+    "admitCard Download": "https://apply-bpssc.com/bpssc_petadmit_325v1/applicationIndex",
+    "Exam PDF":"https://bpssc.bihar.gov.in/Notices/Notice%20E-Admit%20Card%20on%20website%201.pdf"
+  },
+
+  "content": [
+    {
+      "heading": "Bihar Police Enforcement SI PET Admit Card – Overview",
+      "body": "BPSSC Enforcement SI PET Admit Card physical test ke liye mandatory document hai."
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "Bihar Police Enforcement SI PET Admit Card 2026 Download",
+    "metaDescription": "Bihar Police BPSSC Enforcement SI PET Admit Card 2026 download.",
+    "keywords": "BPSSC Enforcement SI PET Admit Card 2026"
   },
 
   "updatedon": "2026-01-26"
 }
+
+
 
 
 
