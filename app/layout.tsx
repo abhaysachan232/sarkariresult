@@ -1,151 +1,113 @@
 import type React from "react";
 import { Inter } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
+
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/nav";
 import Footer from "@/components/Footer";
-import Script from "next/script";
-import "./globals.css";
-// import AdcashAutoTag from "@/components/adcash";
-// import MonetagAd from "@/components/monetagad";
-const inter = Inter({ subsets: ["latin"], display: "swap", preload: true });
 
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  preload: true,
+});
 
 const GA_MEASUREMENT_ID = "G-BV07YKNY9Z";
 
-// ✅ SEO Intro + FAQ Section Component
+/* =========================
+   SEO + CONTENT BOOST BLOCK
+   ========================= */
 function HomeSeoSection() {
   return (
-    <div className="min-h-[220px] flex flex-col justify-center">
-      <section
-        style={{
-          minHeight: "240px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <h2
-          className="text-xl font-bold mb-3 leading-tight"
-          style={{ contentVisibility: "auto" }}
-        >
-          Sarkari Result {new Date().getFullYear()} provides latest government
-          job updates...
+    <section className="mt-10 bg-white rounded border p-5 space-y-6">
+      <div>
+        <h2 className="text-xl font-bold mb-2">
+          Sarkari Result {new Date().getFullYear()} – Latest Government Jobs
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          www SarkariResult rest ek reliable platform hai jahan par aapko milte
-          hain latest <strong>Sarkari Result</strong>,{" "}
-          <strong>Admit Card</strong>, <strong>Answer Key</strong> aur
-          Government Job updates. Chahe aap <strong>SSC CGL Answer Key</strong>,{" "}
-          <strong>OFSS Bihar</strong> admission, ya kisi bhi government vacancy
-          ke results dekh rahe ho — <strong>sarkariresult.rest</strong> par
-          aapko sab kuch ek hi jagah par milta hai. Sarkari Com jaise trusted
-          portals ke comparison me, ye site fast, updated aur verified
-          notifications provide karti hai.
+          <strong>education.sarkariresult.rest</strong> India ka fast aur trusted portal
+          hai jahan aapko milte hain latest{" "}
+          <strong>Sarkari Result</strong>,{" "}
+          <strong>Government Jobs</strong>,{" "}
+          <strong>Admit Card</strong>,{" "}
+          <strong>Answer Key</strong> aur exam notifications.
+          <br />
+          <br />
+          Agar aap <strong>SSC</strong>, <strong>Railway</strong>,{" "}
+          <strong>UP Police</strong>, <strong>Bank</strong> ya kisi bhi
+          government vacancy ki search me ho, to yeh platform aapke liye
+          perfect hai.
         </p>
-      </section>
+      </div>
 
-      <section>
-        <h2 className="text-xl font-semibold mb-2">
-          Why Choose SarkariResult.Rest?
-        </h2>
-        <ul className="list-disc text-left inline-block text-gray-700">
-          <li>Fastest government job updates in India</li>
-          <li>Regularly verified official notifications</li>
-          <li>Free access to admit cards, results, and syllabus</li>
-          <li>Trusted alternative of www sarkariresult com & sarkari com</li>
+      <div>
+        <h3 className="text-lg font-semibold mb-2">
+          Why education.sarkariresult.rest?
+        </h3>
+        <ul className="list-disc ml-5 text-gray-700 space-y-1">
+          <li>Fastest government job updates</li>
+          <li>Verified official notifications</li>
+          <li>Free admit card & result access</li>
+          <li>High-speed lightweight website</li>
+          <li>Best alternative of SarkariResult.com</li>
         </ul>
-      </section>
+      </div>
 
-      {/* ✅ FAQ Section */}
-      <section className="text-left mt-10">
-        <h2 className="text-xl font-bold mb-4">FAQs - Sarkari Result Rest</h2>
-        <div className="space-y-4">
+      {/* FAQ */}
+      <div>
+        <h3 className="text-lg font-bold mb-3">
+          FAQs – Sarkari Result Rest
+        </h3>
+
+        <div className="space-y-4 text-gray-700">
           <div>
-            <h3 className="font-semibold">
-              Q1. Kya www SarkariResult com aur sarkariresult.rest ek hi site
-              hai?
-            </h3>
+            <p className="font-semibold">
+              Q. Kya education.sarkariresult.rest official site hai?
+            </p>
             <p>
-              Nahi, dono alag platforms hain.{" "}
-              <strong>SarkariResult.rest</strong> ek updated aur fast portal hai
-              jahan aapko latest jobs aur results milte hain, jabki www
-              SarkariResult com ek purana portal hai.
+              Yeh ek independent platform hai jo verified government updates
+              fast provide karta hai.
             </p>
           </div>
+
           <div>
-            <h3 className="font-semibold">
-              Q2. SarkariResult.rest par kaun kaun si information milti hai?
-            </h3>
+            <p className="font-semibold">
+              Q. Yahan kaun-kaun se results milte hain?
+            </p>
             <p>
-              Yahan aapko Government Jobs, Admit Cards, Sarkari Exams, Answer
-              Keys, aur Result updates milte hain – bilkul free me.
+              SSC, Railway, Bank, Police, Army, Admission aur sabhi major
+              government exams ke results.
             </p>
           </div>
+
           <div>
-            <h3 className="font-semibold">
-              Q3. Kya SarkariResult.rest par SSC aur OFSS Bihar updates milte
-              hain?
-            </h3>
+            <p className="font-semibold">
+              Q. Kya yeh SarkariResult.com se better hai?
+            </p>
             <p>
-              Haan, aapko yahan <strong>SSC CGL Answer Key</strong> se lekar{" "}
-              <strong>OFSS Bihar Admission</strong> tak sabhi government
-              notifications time par milte hain.
+              Speed, mobile experience aur clean layout ki wajah se users
+              isse zyada prefer kar rahe hain.
             </p>
           </div>
         </div>
-      </section>
-
-      {/* ✅ FAQ JSON-LD Schema */}
-      {/* <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Kya www SarkariResult com aur sarkariresult.rest ek hi site hai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text":
-                    "Nahi, dono alag platforms hain. SarkariResult.rest ek updated aur fast portal hai jahan aapko latest jobs aur results milte hain.",
-                },
-              },
-              {
-                "@type": "Question",
-                "name": "SarkariResult.rest par kaun kaun si information milti hai?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text":
-                    "SarkariResult.rest par aapko Government Jobs, Admit Cards, Sarkari Exams, Answer Keys aur Result updates milte hain.",
-                },
-              },
-              {
-                "@type": "Question",
-                "name": "Kya SarkariResult.rest par SSC aur OFSS Bihar updates milte hain?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text":
-                    "Haan, yahan SSC CGL Answer Key se lekar OFSS Bihar Admission tak sabhi notifications milte hain.",
-                },
-              },
-            ],
-          }),
-        }}
-      /> */}
-    </div>
+      </div>
+    </section>
   );
 }
 
+/* =========================
+   ROOT LAYOUT
+   ========================= */
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+<<<<<<< HEAD
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
           async
@@ -157,19 +119,31 @@ export default function RootLayout({
         <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
       </head>
       <body id="app-scale" className={inter.className}>
+=======
+        {/* Adsense */}
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-4860335301065142"
+        />
+      </head>
+
+      <body className={`${inter.className} bg-gray-100`}>
+>>>>>>> 6c2832855b05f77384ddfd83633223cd4b51191a
         {/* Google Analytics */}
-        <Script
+        {/* <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        /> */}
+        {/* <Script id="ga-script" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
-        </Script>
+        </Script> */}
+
+        {/* Adsense Loader */}
         <Script
           async
           strategy="afterInteractive"
@@ -183,6 +157,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+<<<<<<< HEAD
      
             <Navbar />
             {/* <SwgLoginButton /> */}
@@ -194,29 +169,32 @@ export default function RootLayout({
 
             <Footer />
           {/* <AdcashAutoTag /> */}
+=======
+          <Navbar />
+
+          {/* MAIN CONTENT */}
+          <main className="max-w-6xl mx-auto px-3 py-4">
+            {children}
+            <HomeSeoSection />
+          </main>
+
+          <Footer />
+>>>>>>> 6c2832855b05f77384ddfd83633223cd4b51191a
         </ThemeProvider>
-        {/* <AdcashAutoTag/> */}
-        {/* <MonetagAd /> */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
-        ></script>
-        <script
-          async
-          type="application/javascript"
-          src="https://news.google.com/swg/js/v1/swg-basic.js"
-        ></script>
+
+        {/* Website Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "SarkariResult.Rest",
-              url: "https://sarkariresult.rest",
+              name: "education.sarkariresult.rest",
+              url: "https://education.sarkariresult.rest",
               potentialAction: {
                 "@type": "SearchAction",
-                target: `https://sarkariresult.rest/search?q={search_term_string}`,
+                target:
+                  "https://education.sarkariresult.rest/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
             }),

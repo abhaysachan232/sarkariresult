@@ -17,7 +17,7 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:support@sarkariresult.rest?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:support@education.sarkariresult.rest?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`;
     window.location.href = mailtoLink;
@@ -34,11 +34,11 @@ export default function Contact() {
           "mainEntity": {
             "@type": "Organization",
             "name": "Sarkari Result",
-            "url": "https://sarkariresult.rest",
-            "logo": "https://sarkariresult.rest/logo.png",
+            "url": "https://education.sarkariresult.rest",
+            "logo": "https://education.sarkariresult.rest/logo.png",
             "contactPoint": {
               "@type": "ContactPoint",
-              "email": "support@sarkariresult.rest",
+              "email": "support@education.sarkariresult.rest",
               "telephone": "+91-9580311217",
               "contactType": "customer support",
               "areaServed": "IN",
@@ -61,7 +61,7 @@ export default function Contact() {
       <div className="max-w-2xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md space-y-3">
         <h2 className="text-2xl font-semibold text-blue-800 mb-4">📞 Contact Information</h2>
         <p><strong>Mobile:</strong> <a href="tel:9580311217" className="text-blue-600 hover:underline">9580311217</a></p>
-        <p><strong>Email:</strong> <a href="mailto:support@sarkariresult.rest" className="text-blue-600 hover:underline">support@sarkariresult.rest</a></p>
+        <p><strong>Email:</strong> <a href="mailto:support@education.sarkariresult.rest" className="text-blue-600 hover:underline">support@education.sarkariresult.rest</a></p>
         <p><strong>Office Hours:</strong> Monday to Saturday — 10:00 AM to 6:00 PM</p>
         <p><strong>Response Time:</strong> 24–48 working hours</p>
       </div>
@@ -71,7 +71,7 @@ export default function Contact() {
         <h2 className="text-2xl font-semibold text-blue-900 mb-4">✉️ Send Us a Message</h2>
         {submitted && (
           <p className="text-green-600 mb-4">
-            Your email client should open now. You can send your message to support@sarkariresult.rest.
+            Your email client should open now. You can send your message to support@education.sarkariresult.rest.
           </p>
         )}
         <form onSubmit={handleSubmit} className="space-y-4">

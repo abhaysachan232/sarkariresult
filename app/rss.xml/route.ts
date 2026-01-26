@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import datas from "../../public/jobs.json";
 import articles from "../../public/articles.json";
 
 export const runtime = "nodejs";
@@ -20,7 +19,7 @@ type Article = {
 
 export async function GET() {
   try {
-    const siteUrl = "https://sarkariresult.rest";
+    const siteUrl = "https://education.sarkariresult.rest";
 
     // Clean HTML tags from description
     const cleanText = (str: string = "") =>
@@ -50,25 +49,6 @@ export async function GET() {
     <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${siteUrl}/rss.xml" rel="self" type="application/rss+xml" />
-
-    ${jobs
-      .map(
-        (job) => `
-      <item>
-        <title><![CDATA[${job.title}]]></title>
-        <link>${siteUrl}/jobs/${job.setPath
-          .split(" ")
-          .join("-")
-          }</link>
-        <description><![CDATA[${job.description}]]></description>
-        <pubDate>${new Date(job.updatedon).toUTCString()}</pubDate>
-        <guid>${siteUrl}/jobs/${job.setPath
-          .split(" ")
-          .join("-")
-          }</guid>
-      </item>`
-      )
-      .join("")}
 
     ${articleData
       .map(

@@ -1,20 +1,10 @@
 // app/job/[slug]/page.tsx
 import sanitizeHtml from "sanitize-html";
-import Image from "next/image";
 import FluidAd from "@/components/fluidad";
 import InArticleAd from "@/components/inarticle";
-import {
-  Calendar,
-  MapPin,
-  FileText,
-  UserCheck,
-  CheckCircle,
-} from "lucide-react";
-import Link from "next/link";
 import datas from "../../../public/jobs.json";
 import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
-import JobFAQFooter from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
 
 export async function generateMetadata({
