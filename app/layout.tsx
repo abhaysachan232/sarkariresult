@@ -107,19 +107,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-<<<<<<< HEAD
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
-          crossOrigin="anonymous"
-        ></script>
-
-        <script  src="/resizer.js"></script>
-        <meta name="google-adsense-account" content="ca-pub-4860335301065142" />
-      </head>
-      <body id="app-scale" className={inter.className}>
-=======
         {/* Adsense */}
         <meta
           name="google-adsense-account"
@@ -128,7 +115,6 @@ export default function RootLayout({
       </head>
 
       <body className={`${inter.className} bg-gray-100`}>
->>>>>>> 6c2832855b05f77384ddfd83633223cd4b51191a
         {/* Google Analytics */}
         {/* <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
@@ -157,19 +143,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-<<<<<<< HEAD
-     
-            <Navbar />
-            {/* <SwgLoginButton /> */}
-
-            <main style={{ flex: 1, padding: "20px" }}>
-              {children}
-              <HomeSeoSection />
-            </main>
-
-            <Footer />
-          {/* <AdcashAutoTag /> */}
-=======
           <Navbar />
 
           {/* MAIN CONTENT */}
@@ -179,7 +152,6 @@ export default function RootLayout({
           </main>
 
           <Footer />
->>>>>>> 6c2832855b05f77384ddfd83633223cd4b51191a
         </ThemeProvider>
 
         {/* Website Schema */}
