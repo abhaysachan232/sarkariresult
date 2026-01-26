@@ -499,7 +499,8 @@ export default async function JobDetailsPage({
       </tbody>
     </table>
         )}
-<div className="space-y-6">
+        {job.content &&
+          (<div className="space-y-6">
           {job.content.map((section: any, index: number) => (
     
                 <table className="w-full border-collapse border border-gray-400 mt-2">
@@ -532,7 +533,7 @@ export default async function JobDetailsPage({
     </table>           
             
   ))}
-</div>
+</div>)}
 <JobFAQFooter
   faqs={generateJobFAQs({
     title: job.title,
