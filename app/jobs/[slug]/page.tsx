@@ -3,6 +3,7 @@ import sanitizeHtml from "sanitize-html";
 import Image from "next/image";
 import FluidAd from "@/components/fluidad";
 import InArticleAd from "@/components/inarticle";
+
 import {
   Calendar,
   MapPin,
@@ -16,6 +17,7 @@ import NotFound from "../../not-found";
 import ShareButtons from "../../../components/sharebtn";
 import JobFAQFooter from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
+import { generateJobFAQs } from "@/components/utils/generateFAQs";
 
 export async function generateMetadata({
   params,
@@ -531,7 +533,13 @@ export default async function JobDetailsPage({
             
   ))}
 </div>
-
+<JobFAQFooter
+  faqs={generateJobFAQs({
+    title: job.title,
+    organization: job.organization,
+    type: job.type
+  })}
+/>
 </article>
 {relatedJobs.length > 0 && (
   <div className="mt-6 border p-4 bg-gray-50">
