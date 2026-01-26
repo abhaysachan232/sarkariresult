@@ -18,7 +18,7 @@ import ShareButtons from "../../../components/sharebtn";
 import JobFAQFooter from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
 import { generateJobFAQs } from "@/components/utils/generateFAQs";
-
+import JobImportantLinks from "@/components/JobImportantLinks";
 export async function generateMetadata({
   params,
 }: {
@@ -466,7 +466,9 @@ export default async function JobDetailsPage({
     </table>
   )}
 
-  <div className="my-4 text-center"><FluidAd /></div>
+        <div className="my-4 text-center"><FluidAd /></div>
+        
+
 
   {/* ================= HOW TO APPLY ================= */}
   {job.howToApply && (
@@ -499,6 +501,8 @@ export default async function JobDetailsPage({
       </tbody>
     </table>
         )}
+
+        <JobImportantLinks links={job.links} />
         {job.content &&
           (<div className="space-y-6">
           {job.content.map((section: any, index: number) => (
