@@ -519,40 +519,55 @@ export default async function JobDetailsPage({
           </table>
         )}
 {job.links && (
-  <table className="w-full border-collapse border border-gray-400 mt-4">
+  <table className="w-full border-collapse border border-gray-500 mt-4">
     <thead>
       <tr>
-        <th className="bg-[#000066] text-white border p-2">
-          Important Links
+        <th
+          colSpan={2}
+          className="bg-[#000066] text-white border p-2"
+        >
+          Some Useful Important Links
         </th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td className="p-3 border">
-          <ul className="list-disc ml-5 space-y-2">
-            {Object.entries(job.links).map(([label, url], i) => (
-              <li key={i}>
-                <span className="font-medium">{label}:</span>{" "}
-                <a
-                  href={String(url)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 font-semibold hover:underline"
-                >
-                  Click Here
-                </a>
-              </li>
-            ))}
-          </ul>
 
-          <p className="mt-3 font-semibold">
-            Candidates are advised to use only the{" "}
-            <b>official links</b> provided above to avoid any fraud or
-            misinformation.
-          </p>
-        </td>
-      </tr>
+    <tbody>
+      {Object.entries(job.links).map(([label, url], i) => {
+        const isApply = label.toLowerCase().includes("apply");
+        const isNotification =
+          label.toLowerCase().includes("notification") ||
+          label.toLowerCase().includes("pdf");
+        const isOfficial = label.toLowerCase().includes("official");
+
+        return (
+          <tr key={i}>
+            {/* LEFT COLUMN */}
+            <td className="border border-gray-500 p-3 text-center font-bold text-lg">
+              <span
+                className={
+                  isApply || isNotification || isOfficial
+                    ? "text-pink-600"
+                    : "text-teal-700"
+                }
+              >
+                {label}
+              </span>
+            </td>
+
+            {/* RIGHT COLUMN */}
+            <td className="border border-gray-500 p-3 text-center text-lg font-bold">
+              <a
+                href={String(url)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700 hover:underline"
+              >
+                Click Here
+              </a>
+            </td>
+          </tr>
+        );
+      })}
     </tbody>
   </table>
 )}
