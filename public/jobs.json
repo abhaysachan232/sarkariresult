@@ -3015,16 +3015,36 @@
   "year": "2025",
   "Type": "Sarkari Result",
   "description": "UPSSSC Lekhpal Recruitment 2026 [7994 Posts] Apply Online: Uttar Pradesh Subordinate Services Selection Commission ne Lekhpal ke 7994 पदों पर भर्ती के लिए official notification जारी कर दिया है. Eligible candidates UPSSSC की official website से online apply कर सकते हैं. Eligibility, PET requirement, important dates, selection process, exam pattern और apply process की पूरी जानकारी नीचे दी गई है.",
+  "minimumAge": "20 Years",
+  "age": "Minimum Age : 18 Years<br/>Maximum Age : 40 Years<br/>Age Relaxation Extra as per UPSSSC UP  Advertisement No.-02-Exam/2025, UP Lekhpal Main Examination 2025",
+   "expiredDate": "2026-02-27",
+   "eligibility": [
+     "Candidate must have a Bachelor Degree from recognized university",
+     "Both male and female candidates are eligible",
+     "Final eligibility as per BPSSC notification"
+   ],
+   "totalPost": "7994",
+  "posts": [
+    {
+      "postName": "Lekhpal",
+      "total": "7794",
+      "eligibility": [
+        "UPSSSC PET 2025 Score Card.",
+        "10+2 Intermediate Exam Passed",
+        "More Details Read the Notification."
+      ]
+    }
 
+  ],
   "importantDates": {
     "Notification Date": "2025-12-16",
     "Apply Start": "2025-12-29",
     "Last Date to Apply": "2026-01-28",
     "Fee Payment Last Date": "2026-01-28",
+    "Correction Last Date": "2026-02-04",
     "Exam Date": "To Be Announced"
   },
 
-  "eligibility": "PET 2025 Qualified candidates required. Minimum qualification: Class 10th / 12th (as per official notification). Age limit 18–40 years (Age relaxation as per UP government rules).",
 
   "applicationFee": {
     "General / OBC": "25/-",
@@ -4275,8 +4295,18 @@
   "age": "20 Years to 37 Years",
    "expiredDate": "2026-02-27",
 
+   "eligibility": [
+     "Candidate must have a Bachelor Degree from recognized university",
+     "Both male and female candidates are eligible",
+     "Final eligibility as per BPSSC notification"
+   ],
+   "totalPost": "78",
   "description": "Bihar Police SI Prohibition Recruitment 2026 notification Bihar Police Subordinate Services Commission (BPSSC) ke dwara jaari kiya gaya hai. Is bharti ke through Sub Inspector Prohibition ke 78 pad bhare jayenge. Eligible candidates online apply kar sakte hain. Is article me important dates, application fee, eligibility, vacancy details, selection process aur physical criteria ki poori jankari di gayi hai.",
-
+  "applicationFee": {
+    "General / OBC / EWS": "700/-",
+    "SC / ST / Female": "400/-",
+    "Payment Mode": "Pay the Examination Fee Through Debit Card, Credit Card or Net Banking"
+  },
   "posts": [
     {
       "postName": "Sub Inspector Prohibition",
@@ -4289,7 +4319,6 @@
     }
   ],
 
-  "totalPost": "78",
 
   "importantDates": {
     "Application Begin": "27/01/2026",
@@ -4300,17 +4329,8 @@
     "Admit Card Available": "Before Exam"
   },
 
-  "eligibility": [
-    "Candidate must have a Bachelor Degree from recognized university",
-    "Both male and female candidates are eligible",
-    "Final eligibility as per BPSSC notification"
-  ],
 
-  "applicationFee": {
-    "General / OBC / EWS": "700/-",
-    "SC / ST / Female": "400/-",
-    "Payment Mode": "Pay the Examination Fee Through Debit Card, Credit Card or Net Banking"
-  },
+
 
   "jobLocation": "Bihar",
 
