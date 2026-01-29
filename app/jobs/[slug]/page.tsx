@@ -168,52 +168,78 @@ export default async function JobDetailsPage({
     return value ? String(value) : "";
   };
   // Structured data schema: remove HTML tags from description for schema
-  const jobPostingSchema = {
-    "@context": "https://schema.org/",
-    "@type": "JobPosting",
-    title: job.title,
-    description: sanitizeHtml(String(job.description || ""), {
-      allowedTags: [],
-      allowedAttributes: {},
-    }),
-    datePosted: job.date,
-    validThrough: job.importantDates?.lastDate || null,
-    author: {
-      "@type": "Person",
-      name: "Abhay Sachan",
-      url: "https://sarkariresult.rest",
-    },
-    employmentType: job.type,
-    hiringOrganization: {
-      "@type": "Organization",
-      name: job.organization,
-      sameAs: job.links?.official || undefined,
-      logo: job.image || undefined,
-    },
-    jobLocation: {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: job.streetAddress || "", // added
-        addressLocality: job.addressLocality || "", // existing
-        addressRegion: job.addressRegion || "", // added
-        postalCode: job.postalCode || "", // added
-        addressCountry: job.addressCountry || "IN", // added default to IN
+
+const isExpired =
+  job.importantDates?.lastDate &&
+  new Date(job.importantDates.lastDate) < new Date();
+
+const jobPostingSchema =  {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+
+      /* ================= CORE ================= */
+      title: job.title,
+      description: sanitizeHtml(String(job.description || ""), {
+        allowedTags: [],
+        allowedAttributes: {},
+      }),
+      url: `https://sarkariresult.rest/jobs/${slug}`,
+
+      /* ================= DATES ================= */
+
+      // 🔹 Posting date (jab job pehli baar publish hui)
+      datePosted: job.postingDate
+        ? new Date(job.postingDate).toISOString()
+        : new Date(job.date).toISOString(),
+
+      // 🔹 Modified date (jab job last time update hui)
+      dateModified: job.modifiedDate
+        ? new Date(job.modifiedDate).toISOString()
+        : new Date(job.updatedon).toISOString(),
+
+      // 🔹 Expiry date
+validThrough: job.importantDates?.expiredDate
+  ? new Date(job.importantDates.expiredDate).toISOString()
+  : new Date("2026-01-29T23:59:59+05:30").toISOString(),
+
+
+      /* ================= JOB DETAILS ================= */
+      employmentType: job.type,
+
+      hiringOrganization: {
+        "@type": "Organization",
+        name: job.organization,
+        sameAs: job.links?.official || undefined,
+        logo: job.image || undefined,
       },
-    },
-    baseSalary: job.salary
-      ? {
-          "@type": "MonetaryAmount",
-          currency: "INR",
-          value: {
-            "@type": "QuantitativeValue",
-            value: Number(String(job.salary).replace(/[^0-9]/g, "")) || 0,
-            unitText: "Monthly",
-          },
-        }
-      : undefined,
-    url: `https://sarkariresult.rest/jobs/${slug}`,
-  };
+
+      jobLocation: {
+        "@type": "Place",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: job.streetAddress || "",
+          addressLocality: job.addressLocality || "",
+          addressRegion: job.addressRegion || "",
+          postalCode: job.postalCode || "",
+          addressCountry: job.addressCountry || "IN",
+        },
+      },
+
+      baseSalary: job.salary
+        ? {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+              "@type": "QuantitativeValue",
+              value:
+                Number(String(job.salary).replace(/[^0-9]/g, "")) || 0,
+              unitText: "Monthly",
+            },
+          }
+        : undefined,
+    };
+
+
   const newsSchema = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",

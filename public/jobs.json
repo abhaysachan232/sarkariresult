@@ -3150,6 +3150,7 @@
   "Type": "Sarkari Result",
 
   "description": "UP Police SI Confidential, ASI Clerk & ASI Accounts Recruitment 2025 notification Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB) ke dwara jaari kiya gaya hai. Is bharti ke through SI Confidential, Assistant Sub Inspector (Clerk) aur Assistant Sub Inspector (Accounts) ke padon par recruitment ki jayegi. Eligible male aur female candidates online apply kar sakte hain. Is article me eligibility criteria, age limit, vacancy details, selection process, exam pattern, syllabus aur apply online process ki complete jankari di gayi hai.",
+"expiredDate": "2026-01-19",
 
   "importantDates": {
     "Apply Start": "20 December 2025",
@@ -3351,6 +3352,7 @@
 ]
 ,
   "totalPost": 37379,
+"expiredDate": "2026-01-30",
 
   "importantDates": {
     "Apply Start": "31 December 2025",
@@ -3487,6 +3489,7 @@
     "Admit Card": "24 November 2025 (Available Now)",
     "Result Date": "Will Be Updated Soon"
   },
+"expiredDate": "2025-03-01",
 
   "eligibility": "RRB Group D Recruitment 2025 ke liye candidate ka minimum 10th pass ya ITI pass hona anivarya hai. Minimum age 18 years aur maximum age 36 years (01 July 2025 ke anusaar) rakhi gayi hai. Reserved category candidates ko RRB rules ke anusar age relaxation di jayegi.",
 
@@ -3616,6 +3619,7 @@
   ],
 
   "totalPost": "N/A",
+"expiredDate": "2026-02-29",
 
   "importantDates": {
     "Apply Start": "15 January 2026",
@@ -3734,6 +3738,7 @@
   ],
 
   "totalPost": 1180,
+"expiredDate": "2026-01-31",
 
   "importantDates": {
    "Application Begin" : "17/01/2026",
@@ -3862,6 +3867,7 @@
   ],
 
   "totalPost": "Not Mentioned",
+"expiredDate": "2026-02-01",
 
   "importantDates": {
     "Application Begin" : "17/01/2026",
@@ -3992,7 +3998,7 @@
   ],
 
   "totalPost": "804",
-
+"expiredDate": "2026-02-25",
   "importantDates": {
     "Application Begin": "27/01/2026",
     "Last Date for Apply Online": "25/02/2026",
@@ -4141,7 +4147,7 @@
   ],
 
   "totalPost": "5500",
-
+"expiredDate": "2026-02-31",
   "importantDates": {
     "Application Begin": "11/01/2026",
     "Last Date for Apply Online": "31/01/2026",
@@ -4267,6 +4273,7 @@
   "Type": "Sarkari Result",
   "minimumAge": "20 Years",
   "age": "20 Years to 37 Years",
+   "expiredDate": "2026-02-27",
 
   "description": "Bihar Police SI Prohibition Recruitment 2026 notification Bihar Police Subordinate Services Commission (BPSSC) ke dwara jaari kiya gaya hai. Is bharti ke through Sub Inspector Prohibition ke 78 pad bhare jayenge. Eligible candidates online apply kar sakte hain. Is article me important dates, application fee, eligibility, vacancy details, selection process aur physical criteria ki poori jankari di gayi hai.",
 
@@ -4421,6 +4428,7 @@
   "Type": "Sarkari Result",
   "minimumAge": "Not Applicable",
   "age": "Not Applicable",
+   "expiredDate": "2026-02-06",
 
   "description": "Navy ICNET 01/2025 Re Exam Admit Card Indian Navy ke dwara release kar diya gaya hai. Re-exam me shamil hone wale candidates apna admit card online download kar sakte hain.",
 
@@ -4494,7 +4502,7 @@
   "Type": "Sarkari Result",
   "minimumAge": "Not Applicable",
   "age": "Not Applicable",
-
+  "expiredDate": "2026-02-06",
   "description": "MHA IB MTS Admit Card 2026 Intelligence Bureau dwara exam se pehle release kiya jayega. Registered candidates apna admit card online download kar sakte hain.",
 
   "posts": ["as per notification"],
