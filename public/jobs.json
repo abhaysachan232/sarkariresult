@@ -4976,7 +4976,7 @@
 
 ,
 {
-  "id": 101,
+  "id": 76,
   "title": "PNB Apprentice Recruitment 2026 Apply Online [5138 Posts]",
   "setPath": "pnb-apprentice-recruitment-2026-apply-online",
   "slug": "pnb-apprentice-recruitment-2026-5138-post-apply-online",
@@ -4984,8 +4984,8 @@
   "date": "2026-02-06",
   "location": "All India",
   "state": "All States",
-  "type": "latest-job",
-  "category": "bank-jobs",
+ "type": "latest-job",
+  "category": "latest-jobs",
   "year": "2026",
   "Type": "Sarkari Result",
   "description": "PNB Apprentice Recruitment 2026 notification has been released by Punjab National Bank for 5138 Apprentice posts across India. Eligible candidates with a graduation degree can apply online. Check important dates, eligibility, age limit, selection process, salary, exam details and how to apply online.",
@@ -5102,7 +5102,277 @@
   },
 
   "updatedOn": "2026-01-02"
+},
+{
+  "id": 77,
+  "title": "RBI Non CSG Various Post Recruitment 2026 Apply Online [21 Posts]",
+  "setPath": "rbi-non-csg-various-post-recruitment-2026",
+  "slug": "rbi-non-csg-various-post-2026-apply-online",
+  "organization": "Reserve Bank of India (RBI)",
+  "date": "2026-02-08",
+  "location": "All India",
+  "state": "All India",
+ "type": "latest-job",
+  "category": "latest-jobs",
+  "year": "2026",
+  "Type": "Sarkari Result",
+  "description": "Reserve Bank of India (RBI) has released the Non-CSG Various Post Recruitment 2026 notification. A total of 21 posts including Legal Officer, Manager and Assistant Manager are available. Eligible candidates can apply online. Check eligibility, age limit, application fee, selection process and other details.",
+  "totalPost": "21",
+
+  "importantDates": {
+    "Application Begin": "06/02/2026",
+    "Last Date for Apply Online": "26/02/2026",
+    "Last Date for Fee Payment": "26/02/2026",
+    "Exam Date": "As per Schedule",
+    "Admit Card Available": "Before Exam"
+  },
+
+  "applicationFee": {
+    "General / OBC / EWS": "₹600/-",
+    "SC / ST / PH": "₹100/-",
+    "Payment Mode": "Debit Card / Credit Card / Net Banking"
+  },
+
+  "ageLimit": {
+    "Age Limit As On": "01/01/2026",
+    "Age Details": "Post Wise Age Limit",
+    "Age Relaxation": "Extra as per RBI Recruitment Rules"
+  },
+
+  "posts": [
+    {
+      "postName": "Legal Officer (Grade B)",
+      "total": "02",
+      "ageLimit": "21–32 Years",
+      "eligibility": [
+        "Bachelor Degree in Law (LLB)",
+        "Minimum 50% Marks",
+        "Experience as per RBI rules"
+      ]
+    },
+    {
+      "postName": "Manager (Technical – Civil)",
+      "total": "01",
+      "ageLimit": "21–35 Years",
+      "eligibility": [
+        "Bachelor Degree in Civil Engineering",
+        "Minimum 60% Marks",
+        "2 Years Relevant Experience"
+      ]
+    },
+    {
+      "postName": "Manager (Technical – Electrical)",
+      "total": "01",
+      "ageLimit": "21–35 Years",
+      "eligibility": [
+        "Bachelor Degree in Electrical Engineering",
+        "Minimum 60% Marks",
+        "2 Years Relevant Experience"
+      ]
+    },
+    {
+      "postName": "Assistant Manager (Rajbhasha)",
+      "total": "04",
+      "ageLimit": "21–30 Years",
+      "eligibility": [
+        "Master Degree in Hindi / Sanskrit / English",
+        "English as Subject at Degree Level"
+      ]
+    },
+    {
+      "postName": "Assistant Manager (Protocol & Security)",
+      "total": "13",
+      "ageLimit": "25–40 Years",
+      "eligibility": [
+        "Bachelor Degree in Any Stream",
+        "Experience in Protocol / Security Services"
+      ]
+    }
+  ],
+
+  "selectionProcess": [
+    "Online / Written Examination",
+    "Interview",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  "jobLocation": "Across India",
+
+  "howToApply": "1. Visit Reserve Bank of India official website.\n2. Click on RBI Non CSG Various Post Recruitment 2026 link.\n3. Register yourself and login.\n4. Fill the application form carefully.\n5. Upload required documents.\n6. Pay application fee online.\n7. Submit the form and take printout.",
+
+  "links": {
+    "Apply Online": "https://www.rbi.org.in",
+    "Official Notification": "https://www.rbi.org.in"
+  },
+
+  "content": [
+    {
+      "heading": "RBI Non CSG Various Post Recruitment 2026 – Overview",
+      "body": "Reserve Bank of India (RBI) has published the Non-CSG Various Post Recruitment 2026 notification for 21 posts. These recruitments are conducted for specialized and technical positions outside the clerical and general service cadre. This recruitment offers an excellent opportunity for experienced and qualified professionals to work with India’s central bank."
+    },
+    {
+      "heading": "RBI Non CSG Recruitment 2026 – Important Dates",
+      "body": "The online application process starts from 08 February 2026 and the last date to apply online and pay the application fee is 28 February 2026. Candidates are advised to complete the application process well before the last date to avoid technical issues."
+    },
+    {
+      "heading": "RBI Non CSG Recruitment 2026 – Application Fee",
+      "body": "Candidates belonging to General, OBC and EWS categories are required to pay an application fee of ₹600/-. Candidates from SC, ST and PH categories need to pay ₹100/- only. The fee must be paid online through debit card, credit card or net banking."
+    },
+    {
+      "heading": "RBI Non CSG Recruitment 2026 – Age Limit",
+      "body": "The age limit varies post-wise. The minimum age is 21 years, while the maximum age ranges up to 40 years depending on the post. Age relaxation will be provided to reserved category candidates as per RBI recruitment rules."
+    },
+    {
+      "heading": "RBI Non CSG Recruitment 2026 – Vacancy Details",
+      "body": "A total of 21 posts are available under RBI Non CSG Recruitment 2026. These include Legal Officer, Manager (Technical), and Assistant Manager posts. Vacancy distribution is as per the official notification."
+    },
+    {
+      "heading": "RBI Non CSG Recruitment 2026 – Selection Process",
+      "body": "The selection process consists of a written examination followed by an interview. Shortlisted candidates will be called for document verification and medical examination. Final selection will be based on overall performance."
+    },
+    {
+      "heading": "Why Join RBI as a Non-CSG Officer?",
+      "body": "Working with RBI provides job security, attractive salary, professional growth, and an opportunity to contribute to India’s financial system. Non-CSG posts are prestigious and offer long-term career stability."
+    },
+    {
+      "heading": "RBI Non CSG Recruitment 2026 – Final Note",
+      "body": "Candidates who meet the eligibility criteria should not miss this opportunity. Carefully read the official notification and apply online before the last date."
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "RBI Non CSG Recruitment 2026 Apply Online for 21 Posts",
+    "metaDescription": "RBI Non CSG Various Post Recruitment 2026: Check important dates, application fee, age limit, eligibility and apply online.",
+    "keywords": "RBI Non CSG Recruitment 2026, RBI Various Post Vacancy 2026, RBI Apply Online, RBI Bank Jobs"
+  },
+
+  "updatedOn": "2026-02-06"
 }
+,
+{
+  "id": 78,
+  "title": "MPPSC State Service Exam SSE Recruitment 2026 Apply Online [158 Posts]",
+  "setPath": "mppsc-state-service-exam-sse-2026",
+  "slug": "mppsc-sse-recruitment-2026-158-post-apply-online",
+  "organization": "Madhya Pradesh Public Service Commission (MPPSC)",
+  "date": "2026-02-06",
+  "location": "Madhya Pradesh",
+  "state": "Madhya Pradesh",
+ "type": "latest-job",
+  "category": "latest-jobs",
+  "year": "2026",
+  "Type": "Sarkari Result",
+  "description": "MPPSC State Service Exam SSE Recruitment 2026 notification has been released for 158 posts. Eligible candidates can apply online for State Administrative Service, Deputy Collector, DSP and other posts. Check important dates, eligibility, age limit, application fee, exam pattern and selection process.",
+  "totalPost": "158",
+
+  "importantDates": {
+    "Application Begin": "10/01/2026",
+    "Last Date for Apply Online": "08/02/2026",
+    "Last Date for Fee Payment": "08/02/2026",
+    "Correction Last Date": "12/02/2026",
+    "Pre Exam Date": "As per Schedule",
+    "Admit Card Available": "Before Exam"
+  },
+
+  "applicationFee": {
+    "General / Other State": "₹500/-",
+    "MP Reserved Category": "₹250/-",
+    "Portal Fee": "₹40/-",
+    "Correction Charge": "₹50/-",
+    "Payment Mode": "Debit Card / Credit Card / Net Banking / UPI"
+  },
+
+  "ageLimit": {
+    "Minimum Age": "21 Years",
+    "Maximum Age": "33 Years",
+    "Age Calculation Date": "01/01/2026",
+    "Age Relaxation": "Extra as per MPPSC SSE Recruitment Rules"
+  },
+
+  "posts": [
+    { "postName": "State Administrative Service (SAS)", "total": "17" },
+    { "postName": "Deputy Collector", "total": "15" },
+    { "postName": "Deputy Superintendent of Police (DSP)", "total": "22" },
+    { "postName": "Commercial Tax Officer", "total": "07" },
+    { "postName": "Chief Municipal Officer (CMO)", "total": "04" },
+    { "postName": "Naib Tehsildar", "total": "10" },
+    { "postName": "District Excise Officer", "total": "03" },
+    { "postName": "Assistant Director", "total": "02" },
+    { "postName": "Other State Services", "total": "78" }
+  ],
+
+  "eligibility": [
+    "Bachelor Degree in any discipline from a recognized university in India",
+    "Candidates must fulfill physical standards for uniformed posts",
+    "Final eligibility as per MPPSC SSE official notification"
+  ],
+
+  "selectionProcess": [
+    "Preliminary Examination",
+    "Main Examination",
+    "Interview",
+    "Document Verification",
+    "Medical Examination"
+  ],
+
+  "jobLocation": "Madhya Pradesh",
+
+  "howToApply": "1. Visit MPPSC official website.\n2. Click on State Service Exam SSE 2026 Apply Online link.\n3. Register using basic details.\n4. Fill application form carefully.\n5. Upload photo & signature.\n6. Pay application fee online.\n7. Submit form and take printout.",
+
+  "links": {
+    "Apply Online": "https://mppsc.mp.gov.in",
+    "Official Notification": "https://mppsc.mp.gov.in"
+  },
+
+  "content": [
+    {
+      "heading": "MPPSC State Service Exam SSE Recruitment 2026 – Overview",
+      "body": "Madhya Pradesh Public Service Commission (MPPSC) has released the State Service Exam SSE Recruitment 2026 notification for a total of 158 posts. This recruitment is conducted to appoint officers in various administrative, revenue, police and departmental services of Madhya Pradesh Government. MPPSC SSE is one of the most prestigious state-level examinations."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Important Dates",
+      "body": "The online application process starts from 10 January 2026 and the last date to apply online is 08 February 2026. Candidates must ensure fee payment is completed before the deadline. Correction facility will be available till 12 February 2026."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Application Fee Details",
+      "body": "General and other state candidates are required to pay ₹500/- as application fee. Reserved category candidates of Madhya Pradesh need to pay ₹250/- only. An additional portal fee of ₹40/- is applicable. Payment must be made online."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Age Limit & Relaxation",
+      "body": "The minimum age for MPPSC SSE 2026 is 21 years and the maximum age is 33 years as on 01 January 2026. Age relaxation will be provided to reserved categories as per Madhya Pradesh Government rules."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Vacancy Details",
+      "body": "A total of 158 posts are announced under MPPSC State Service Exam 2026. These include Deputy Collector, DSP, State Administrative Service, Naib Tehsildar and other gazetted posts."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Selection Process",
+      "body": "The selection process consists of Preliminary Examination, Main Examination and Interview. Candidates who qualify the prelims will be eligible for mains. Final merit list will be prepared after interview and document verification."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Exam Pattern",
+      "body": "The preliminary examination is objective in nature and acts as a screening test. The main examination is descriptive and tests in-depth knowledge of subjects. Interview assesses personality, leadership and administrative aptitude."
+    },
+    {
+      "heading": "Why Choose MPPSC State Services?",
+      "body": "MPPSC State Services offer power, prestige, job security and an opportunity to directly contribute to governance and public administration in Madhya Pradesh."
+    },
+    {
+      "heading": "MPPSC SSE 2026 – Final Words",
+      "body": "MPPSC SSE Recruitment 2026 is a golden opportunity for aspirants aiming for state administrative services. Candidates should apply early and start preparation strategically."
+    }
+  ],
+
+  "seo": {
+    "metaTitle": "MPPSC State Service Exam SSE Recruitment 2026 Apply Online",
+    "metaDescription": "MPPSC SSE Recruitment 2026 notification released for 158 posts. Check dates, fee, eligibility, age limit, exam pattern and apply online.",
+    "keywords": "MPPSC SSE Recruitment 2026, MPPSC State Service Exam 2026, MPPSC Apply Online, MPPSC Vacancy 2026"
+  },
+
+  "updatedOn": "2026-01-10"
+}
+
 
 
 
