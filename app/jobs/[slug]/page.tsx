@@ -172,6 +172,7 @@ export default async function JobDetailsPage({
 const isExpired =
   job.importantDates?.lastDate &&
   new Date(job.importantDates.lastDate) < new Date();
+console.log(job.updatedon);
 
 const jobPostingSchema =  {
       "@context": "https://schema.org/",
@@ -195,12 +196,14 @@ const jobPostingSchema =  {
       // 🔹 Modified date (jab job last time update hui)
       dateModified: job.modifiedDate
         ? new Date(job.modifiedDate).toISOString()
-        : new Date(job.updatedon).toISOString(),
+    : new Date(job.updatedon).toISOString(),
+     
+      
 
       // 🔹 Expiry date
 validThrough: job.importantDates?.expiredDate
   ? new Date(job.importantDates.expiredDate).toISOString()
-  : new Date("2026-01-29T23:59:59+05:30").toISOString(),
+  : new Date("2027-01-29T23:59:59+05:30").toISOString(),
 
 
       /* ================= JOB DETAILS ================= */
