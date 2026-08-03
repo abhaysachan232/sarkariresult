@@ -3,6 +3,9 @@ import sanitizeHtml from "sanitize-html";
 import Image from "next/image";
 import FluidAd from "@/components/fluidad";
 import InArticleAd from "@/components/inarticle";
+import ArticleHero from "./components/ArticleHero";
+import Breadcrumb from "./components/Breadcrumb";
+// import KeyHighlights from "./components/KeyHighlights";
 
 import {
   Calendar,
@@ -19,14 +22,23 @@ import JobFAQFooter from "../../../components/faq";
 import { getShortTitle } from "@/components/utils/getShortTitle";
 import { generateJobFAQs } from "@/components/utils/generateFAQs";
 // import JobImportantLinks from "@/components/JobImportantLinks";
+
+type JobType = {
+  slug: string;
+  title: string;
+  description: string;
+  apply?: string;
+  setPath: string;
+  id: number;
+  [key: string]: any;
+};
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-
-  type JobType = { /* ...same as before... */ [key: string]: any };
 
   const jobs: JobType[] = datas.map((job: any) => ({
     ...job,
@@ -78,8 +90,6 @@ export default async function JobDetailsPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-
-  type JobType = { /* ...same shape... */ [key: string]: any };
 
   // Map and normalize data
   const jobs: JobType[] = datas.map((job: any) => ({
@@ -277,22 +287,25 @@ validThrough: job.importantDates?.expiredDate
           __html: JSON.stringify([jobPostingSchema, newsSchema]),
         }}
       />
+      <Breadcrumb title={job.title} />
       <article className="w-full md:max-w-[80%] mx-auto px-4">
         {/* ================= HERO ================= */}
-        <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
+        {/* <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12 md:py-16">
           <div className="container max-w-5xl mx-auto px-4">
             <h1
               className="text-3xl md:text-5xl font-extrabold mb-3"
               dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
             />
             <Image
-  src={`/og/jobs/${job.slug}.webp`}
-  alt={job.title}
-  width={1200}
-  height={630}
-  priority
-  className="w-full h-auto rounded-xl"
-/>
+              src={`/og/jobs/${job.slug}.webp`}
+              alt={job.title}
+              width={1200}
+              height={630}
+              priority
+              fetchPriority="high"
+              sizes="100vw"
+              className="w-full h-auto rounded-xl"
+            />
             <p className="text-lg md:text-xl font-medium">
               {job.organization} Recruitment | Apply Online
             </p>
@@ -314,7 +327,10 @@ validThrough: job.importantDates?.expiredDate
               )}
             </div>
           </div>
-        </section>
+        </section> */}
+        <ArticleHero
+      article={job}
+    />
 
         <ShareButtons
           url={`https://sarkariresult.rest/jobs/${slug}`}
