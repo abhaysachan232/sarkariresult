@@ -63,7 +63,9 @@ export async function GET() {
     }));
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
       <loc>https://sarkariresult.rest</loc>
       <lastmod>${new Date().toISOString().split("T")[0]}</lastmod>
@@ -98,29 +100,48 @@ export async function GET() {
     </url>`
   ).join("")}
 
-  ${jobs
-    .map((job) => {
-      const lastmod = new Date(job.updatedon).toISOString().split("T")[0];
-      return `
+${jobs
+  .map((job) => {
+    const lastmod = new Date(job.updatedon).toISOString().split("T")[0];
+    const slug = job.setPath.split(" ").join("-").toLowerCase();
+
+    return `
     <url>
-      <loc>https://sarkariresult.rest/jobs/${job.setPath
-        .split(" ")
-        .join("-")}</loc>
+      <loc>https://sarkariresult.rest/jobs/${slug}</loc>
+
       <lastmod>${lastmod}</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.9</priority>
-    </url>`;
-    })
-    .join("")}
 
-  ${Articl.map((job) => {
-    const lastmod = new Date(job.updatedAt).toISOString().split("T")[0];
-    return `
-    <url>
-      <loc>https://sarkariresult.rest/article/${job.slug}</loc>
-      <lastmod>${lastmod}</lastmod>
+      <image:image>
+        <image:loc>
+          https://sarkariresult.rest/og/jobs/${slug}.webp
+        </image:loc>
+        <image:title><![CDATA[${job.title}]]></image:title>
+      </image:image>
+
     </url>`;
-  }).join("")}
+  })
+  .join("")}
+
+${Articl.map((job) => {
+  const lastmod = new Date(job.updatedAt).toISOString().split("T")[0];
+
+  return `
+  <url>
+    <loc>https://sarkariresult.rest/article/${job.slug}</loc>
+
+    <lastmod>${lastmod}</lastmod>
+
+    <image:image>
+      <image:loc>
+        https://sarkariresult.rest/og/jobs/${job.slug}.webp
+      </image:loc>
+      <image:title><![CDATA[${job.title}]]></image:title>
+    </image:image>
+
+  </url>`;
+}).join("")}
 
   ${[
     "about",

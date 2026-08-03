@@ -285,6 +285,14 @@ validThrough: job.importantDates?.expiredDate
               className="text-3xl md:text-5xl font-extrabold mb-3"
               dangerouslySetInnerHTML={{ __html: sanitizeHtml(job.title) }}
             />
+            <Image
+  src={`/og/jobs/${job.slug}.webp`}
+  alt={job.title}
+  width={1200}
+  height={630}
+  priority
+  className="w-full h-auto rounded-xl"
+/>
             <p className="text-lg md:text-xl font-medium">
               {job.organization} Recruitment | Apply Online
             </p>

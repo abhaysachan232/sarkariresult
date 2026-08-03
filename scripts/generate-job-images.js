@@ -1,140 +1,164 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const { createCanvas,loadImage } = require("canvas");
-// 🔹 Job data (slug + title required)
-const job = require("../public/jobs.json");
-const articles = require("../public/articles.json");
-const jobs = [...job, ...articles]
 
+const jobs = [
+  ...require("../public/jobs.json"),
+  ...require("../public/articles.json"),
+];
+const favicon = fs.readFileSync(
+  path.join(process.cwd(), "public/fevicons/icon1.png")
+);
+
+const faviconBase64 = favicon.toString("base64");
 const WIDTH = 1200;
 const HEIGHT = 630;
 
 const OUTPUT_DIR = path.join(process.cwd(), "public/og/jobs");
 
-async function generateImages() {
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+const gradients = [
+  ["#2563eb", "#6d28d9"],
+  ["#0f766e", "#2563eb"],
+  ["#7c3aed", "#db2777"],
+  ["#0ea5e9", "#0284c7"],
+  ["#16a34a", "#15803d"],
+];
+
+function escapeXML(str = "") {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function wrapTitle(text, maxChars = 28) {
+  const words = text.split(" ");
+
+  const lines = [];
+  let line = "";
+
+  for (const word of words) {
+    if ((line + " " + word).trim().length > maxChars) {
+      lines.push(line.trim());
+      line = word;
+    } else {
+      line += " " + word;
+    }
   }
 
-  for (const job of jobs) {
-    const canvas = createCanvas(WIDTH, HEIGHT);
-    const ctx = canvas.getContext("2d");
+  if (line.trim()) lines.push(line.trim());
 
-    /* ================= BACKGROUND ================= */
-    const gradient = ctx.createLinearGradient(0, 0, WIDTH, HEIGHT);
-    gradient.addColorStop(0, "#2563eb"); // blue
-    gradient.addColorStop(1, "#6d28d9"); // purple
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  return lines.slice(0, 3);
+}
 
-    /* ================= NEW BADGE ================= */
-    ctx.fillStyle = "#facc15";
-    drawRoundRect(ctx, 480, 40, 240, 70, 40);
-    ctx.fill();
+function fontSize(lines) {
+  if (lines.length === 1) return 64;
+  if (lines.length === 2) return 58;
+  return 50;
+}
 
-    ctx.fillStyle = "#000";
-    ctx.font = "bold 36px sans-serif";
-    ctx.textAlign = "center";
-    ctx.fillText("NEW", 600, 90);
+function svg(job, colors) {
+  const lines = wrapTitle(job.title);
+  const size = fontSize(lines);
 
-    /* ================= LEFT ICON CARD ================= */
-// Background card
-const CARD_X = 90;
-const CARD_Y = 190;
-const CARD_W = 230;
-const CARD_H = 300;
+  return `
+<svg xmlns="http://www.w3.org/2000/svg"
+width="${WIDTH}"
+height="${HEIGHT}"
+viewBox="0 0 ${WIDTH} ${HEIGHT}">
 
-ctx.fillStyle = "rgba(255,255,255,0.15)";
-drawRoundRect(ctx, CARD_X, CARD_Y, CARD_W, CARD_H, 26);
-ctx.fill();
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="${colors[0]}"/>
+<stop offset="100%" stop-color="${colors[1]}"/>
+</linearGradient>
+</defs>
 
-// ✅ TO-DO / CHECKLIST ICON
-const todoIcon = await loadImage(
-  path.join(process.cwd(), "public/todo.png")
-);
+<rect width="100%" height="100%" fill="url(#bg)"/>
 
+<!-- Top Center Logo -->
+<image
+href="data:image/png;base64,${faviconBase64}"
+x="550"
+y="30"
+width="100"
+height="100"/>
 
-// 🔥 Icon sizing (NOT compact)
-const ICON_SIZE = 180; // ideal size (150 was too small)
+${lines
+  .map(
+    (line, i) => `
+<text
+x="600"
+y="${190 + i * (size + 20)}"
+text-anchor="middle"
+font-size="${size}"
+font-family="Arial"
+font-weight="700"
+fill="#fff">
+${escapeXML(line)}
+</text>`
+  )
+  .join("")}
 
-// Auto-center icon inside card
-const ICON_X = CARD_X + (CARD_W - ICON_SIZE) / 2;
-const ICON_Y = CARD_Y + (CARD_H - ICON_SIZE) / 2;
+<!-- Last Date -->
+<text
+x="600"
+y="500"
+text-anchor="middle"
+font-size="34"
+font-family="Arial"
+fill="#fde68a">
+${escapeXML(job.lastDate || "")}
+</text>
 
-ctx.drawImage(todoIcon, ICON_X, ICON_Y, ICON_SIZE, ICON_SIZE);
+<!-- Website -->
+<text
+x="600"
+y="585"
+text-anchor="middle"
+font-size="32"
+font-family="Arial"
+font-weight="700"
+fill="#ffffff"
+opacity=".9">
+sarkariresult.rest
+</text>
 
+</svg>
+`;
+}
 
-    /* ================= JOB TITLE ================= */
-    ctx.textAlign = "left";
-    ctx.fillStyle = "#ffffff";
+async function generate() {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
-    let fontSize = 62;
-    ctx.font = `bold ${fontSize}px sans-serif`;
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i];
 
-    // 🔥 Auto-shrink font for long titles
-    while (ctx.measureText(job.title).width > 700 && fontSize > 44) {
-      fontSize -= 2;
-      ctx.font = `bold ${fontSize}px sans-serif`;
-    }
-
-    wrapText(
-      ctx,
-      job.title,
-      380,        // X
-      260,        // Y
-      700,        // Max width
-      fontSize + 12
+    const outputFile = path.join(
+      OUTPUT_DIR,
+      `${job.slug}.webp`
     );
 
-    /* ================= FOOTER ================= */
-    ctx.font = "bold 36px sans-serif";
-    ctx.fillStyle = "#fde68a";
-    ctx.fillText("sarkariresult.rest", 380, 540);
+    // 👇 Image already exists → Skip
+    if (fs.existsSync(outputFile)) {
+      console.log(`⏭️ Skipped: ${job.slug}.webp`);
+      continue;
+    }
 
-    /* ================= SAVE WEBP ================= */
-    const buffer = canvas.toBuffer("image/png");
+    const colors = gradients[i % gradients.length];
 
-    await sharp(buffer)
-      .webp({ quality: 82 })
-      .toFile(path.join(OUTPUT_DIR, `${job.slug}.webp`));
+    const image = svg(job, colors);
+
+    await sharp(Buffer.from(image))
+      .webp({
+        quality: 85,
+      })
+      .toFile(outputFile);
 
     console.log(`✅ Generated: ${job.slug}.webp`);
   }
 }
 
-/* ================= HELPERS ================= */
-
-function drawRoundRect(ctx, x, y, w, h, r) {
-  ctx.beginPath();
-  ctx.moveTo(x + r, y);
-  ctx.arcTo(x + w, y, x + w, y + h, r);
-  ctx.arcTo(x + w, y + h, x, y + h, r);
-  ctx.arcTo(x, y + h, x, y, r);
-  ctx.arcTo(x, y, x + w, y, r);
-  ctx.closePath();
-}
-
-function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
-  const words = text.split(" ");
-  let line = "";
-
-  for (let i = 0; i < words.length; i++) {
-    const testLine = line + words[i] + " ";
-    const metrics = ctx.measureText(testLine);
-
-    if (metrics.width > maxWidth && i > 0) {
-      ctx.fillText(line, x, y);
-      line = words[i] + " ";
-      y += lineHeight;
-    } else {
-      line = testLine;
-    }
-  }
-  ctx.fillText(line, x, y);
-}
-
-/* ================= RUN ================= */
-generateImages().catch(console.error);
-//   "prebuild": "node scripts/generate-job-images.js", 
-//  "prebuild": "node scripts/generate-job-images.js",
+generate().catch(console.error);
