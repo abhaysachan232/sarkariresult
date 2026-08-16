@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-16T16:10:57.442Z",
+    "checkedAt": "2026-08-16T16:44:52.487Z",
     "links": [
       {
         "text": "NTA CSIR UGC NET June Answer Key 2026 – Out",
@@ -399,10 +399,6 @@
         "href": "https://sarkariresult.com.cm/iim-cat-2026/"
       },
       {
-        "text": "jobs",
-        "href": "https://sarkariresult.com.cm/#"
-      },
-      {
         "text": "Bharat Result",
         "href": "http://sarkariresult.com.cm/result/"
       },
@@ -473,6 +469,56 @@
         "jobId": 90,
         "slug": "rssb-nhm-rajmes-final-result-2026-out-notification-eligibility-important-dates",
         "processedAt": "2026-08-16T16:10:57.441Z"
+      },
+      "https://sarkariresult.com.cm/rssb-junior-technical-assistant-jta-result-2025/": {
+        "jobId": 91,
+        "slug": "rssb-junior-technical-assistant-jta-final-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:35:11.751Z"
+      },
+      "https://sarkariresult.com.cm/rssb-ayush-officer-2026/": {
+        "jobId": 92,
+        "slug": "rssb-ayush-officer-final-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:36:11.616Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-assistant-accountant-mains-result-2025/": {
+        "jobId": 93,
+        "slug": "upsssc-assistant-accountant-mains-result-2025-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:37:14.618Z"
+      },
+      "https://sarkariresult.com.cm/cbse-12th-result-2026/": {
+        "jobId": 94,
+        "slug": "cbse-12th-compartment-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:38:09.331Z"
+      },
+      "https://sarkariresult.com.cm/bihar-police-bpssc-si-prohibition-2026/": {
+        "jobId": 95,
+        "slug": "bihar-police-bpssc-si-prohibition-pre-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:39:07.236Z"
+      },
+      "https://sarkariresult.com.cm/bpssc-havildar-instructor-2026/": {
+        "jobId": 96,
+        "slug": "bihar-police-bpssc-havildar-instructor-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:40:18.247Z"
+      },
+      "https://sarkariresult.com.cm/bihar-police-bpssc-asi-operation-2026/": {
+        "jobId": 97,
+        "slug": "bihar-police-bpssc-asi-operation-pre-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:41:25.352Z"
+      },
+      "https://sarkariresult.com.cm/hpsc-pgt-computer-science-2026/": {
+        "jobId": 98,
+        "slug": "hpsc-pgt-computer-science-final-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:42:19.617Z"
+      },
+      "https://sarkariresult.com.cm/aiims-cre-5th-group-b-c-2026/": {
+        "jobId": 99,
+        "slug": "aiims-cre-5th-group-b-c-result-2026-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:43:19.231Z"
+      },
+      "https://sarkariresult.com.cm/dcece-bihar-polytechnic-2026/": {
+        "jobId": 100,
+        "slug": "bihar-dcece-polytechnic-2026-1st-round-allotment-result-out-notification-eligibility-important-dates",
+        "processedAt": "2026-08-16T16:44:52.486Z"
       }
     }
   }
