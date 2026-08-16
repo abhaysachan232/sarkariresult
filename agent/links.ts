@@ -1,6 +1,6 @@
 import type { Page } from "playwright";
 
-const CONTENT_KEYWORDS = [
+const KEYWORDS = [
   "recruitment",
   "vacancy",
   "notification",
@@ -9,7 +9,7 @@ const CONTENT_KEYWORDS = [
   "admit card",
   "result",
   "answer key",
-  "exam",
+  "exam date",
   "syllabus",
   "scholarship",
   "teacher",
@@ -22,14 +22,14 @@ const CONTENT_KEYWORDS = [
   "apprentice",
   "bharti",
   "job",
-  "recruitment 2026",
+  "form",
 ];
 
-const IGNORE_KEYWORDS = [
+const IGNORE = [
   "home",
   "contact",
-  "privacy",
   "about",
+  "privacy",
   "disclaimer",
   "youtube",
   "instagram",
@@ -39,7 +39,7 @@ const IGNORE_KEYWORDS = [
   "apple app",
 ];
 
-function normalizeText(text: string) {
+function normalize(text: string) {
   return text
     .replace(/\s+/g, " ")
     .trim();
@@ -49,45 +49,57 @@ function isPdf(url: string) {
   return /\.pdf(?:$|\?)/i.test(url);
 }
 
-function looksRelevant(text: string) {
+function isRelevantText(text: string) {
   const value = text.toLowerCase();
 
   if (
-    IGNORE_KEYWORDS.some((x) =>
-      value.includes(x)
+    IGNORE.some((item) =>
+      value.includes(item)
     )
   ) {
     return false;
   }
 
-  return CONTENT_KEYWORDS.some((x) =>
-    value.includes(x)
+  return KEYWORDS.some((keyword) =>
+    value.includes(keyword)
   );
 }
 
-function isBlueColor(color: string) {
-  const rgb = color.match(/\d+/g);
+function isBlue(color: string) {
+  const numbers =
+    color.match(/\d+/g);
 
-  if (!rgb || rgb.length < 3) {
+  if (!numbers || numbers.length < 3) {
     return false;
   }
 
   const [r, g, b] =
-    rgb.slice(0, 3).map(Number);
+    numbers.slice(0, 3).map(Number);
 
-  // Blue-ish color detection.
   return (
     b > 80 &&
-    b > r * 1.15 &&
-    b > g * 1.05
+    b > r * 1.1 &&
+    b >= g
   );
+}
+
+export async function openHomepage(
+  page: Page,
+  url: string
+) {
+  await page.goto(url, {
+    waitUntil: "domcontentloaded",
+    timeout: 60000,
+  });
+
+  await page.waitForTimeout(1500);
 }
 
 export async function getContentLinks(
   page: Page,
   sourceHost: string
 ) {
-  const links =
+  const raw =
     await page.locator("a").evaluateAll(
       (anchors) =>
         anchors.map((element) => {
@@ -105,20 +117,25 @@ export async function getContentLinks(
         })
     );
 
-  const result: {
+  const links: {
     text: string;
     href: string;
   }[] = [];
 
-  for (const link of links) {
-    const text = normalizeText(link.text);
-    const href = link.href;
+  for (const item of raw) {
+    const text =
+      normalize(item.text);
+
+    const href =
+      item.href;
 
     if (!text || !href) continue;
 
     if (isPdf(href)) continue;
 
-    if (!looksRelevant(text)) continue;
+    if (!isRelevantText(text)) {
+      continue;
+    }
 
     let url: URL;
 
@@ -128,41 +145,31 @@ export async function getContentLinks(
       continue;
     }
 
-    if (url.hostname !== sourceHost) {
+    if (
+      url.hostname !== sourceHost
+    ) {
       continue;
     }
 
-    if (!isBlueColor(link.color)) {
+    if (!isBlue(item.color)) {
       continue;
     }
 
-    result.push({
+    links.push({
       text,
-      href,
+      href: url.href,
     });
   }
 
   const unique =
-    new Map<string, {
-      text: string;
-      href: string;
-    }>();
+    new Map<
+      string,
+      { text: string; href: string }
+    >();
 
-  for (const link of result) {
+  for (const link of links) {
     unique.set(link.href, link);
   }
 
-  return Array.from(unique.values());
-}
-
-export async function openHomepage(
-  page: Page,
-  url: string
-) {
-  await page.goto(url, {
-    waitUntil: "domcontentloaded",
-    timeout: 60000,
-  });
-
-  await page.waitForTimeout(1500);
+  return [...unique.values()];
 }

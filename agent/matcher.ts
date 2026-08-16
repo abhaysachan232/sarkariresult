@@ -2,128 +2,57 @@ function normalize(
   value: unknown
 ) {
   return String(value ?? "")
+    .replace(/<[^>]*>/g, "")
     .toLowerCase()
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function getField(
-  object: any,
-  names: string[]
+export function findJobById(
+  jobs: any[],
+  id: number | string
 ) {
-  if (
-    !object ||
-    typeof object !== "object"
-  ) {
-    return "";
-  }
-
-  for (const key of Object.keys(object)) {
-    const normalizedKey =
-      key
-        .toLowerCase()
-        .replace(
-          /[\s_-]/g,
-          ""
-        );
-
-    if (
-      names.includes(
-        normalizedKey
-      )
-    ) {
-      return object[key];
-    }
-  }
-
-  return "";
+  return jobs.findIndex(
+    (job) =>
+      String(job?.id) ===
+      String(id)
+  );
 }
 
 export function findExistingJob(
   jobs: any[],
   candidate: any
 ) {
-  const candidateUrl =
-    normalize(
-      getField(candidate, [
-        "url",
-        "sourceurl",
-        "officialurl",
-        "officialwebsite",
-      ])
-    );
-
   const candidateTitle =
     normalize(
-      getField(candidate, [
-        "title",
-        "jobtitle",
-        "postname",
-        "name",
-      ])
+      candidate?.title
     );
 
-  const candidateOrganization =
+  const candidateOrg =
     normalize(
-      getField(candidate, [
-        "organization",
-        "organisation",
-        "department",
-        "company",
-      ])
+      candidate?.organization
     );
+
+  if (
+    !candidateTitle
+  ) {
+    return -1;
+  }
 
   return jobs.findIndex(
     (job) => {
-      const jobUrl =
+      const title =
+        normalize(job?.title);
+
+      const organization =
         normalize(
-          getField(job, [
-            "url",
-            "sourceurl",
-            "officialurl",
-            "officialwebsite",
-          ])
+          job?.organization
         );
 
-      const jobTitle =
-        normalize(
-          getField(job, [
-            "title",
-            "jobtitle",
-            "postname",
-            "name",
-          ])
-        );
-
-      const jobOrganization =
-        normalize(
-          getField(job, [
-            "organization",
-            "organisation",
-            "department",
-            "company",
-          ])
-        );
-
-      // URL सबसे मजबूत match
       if (
-        candidateUrl &&
-        jobUrl &&
-        candidateUrl === jobUrl
-      ) {
-        return true;
-      }
-
-      // Title + organization
-      if (
-        candidateTitle &&
-        jobTitle &&
-        candidateOrganization &&
-        jobOrganization &&
-        candidateTitle ===
-          jobTitle &&
-        candidateOrganization ===
-          jobOrganization
+        title === candidateTitle &&
+        candidateOrg &&
+        organization === candidateOrg
       ) {
         return true;
       }

@@ -14,7 +14,7 @@ export async function readJobs(
 
   if (!Array.isArray(jobs)) {
     throw new Error(
-      "jobs.json must contain an array"
+      "jobs.json must be an array"
     );
   }
 
@@ -36,7 +36,12 @@ export async function saveJobs(
   );
 }
 
-export function getTemplate(
+/**
+ * IMPORTANT:
+ * New object ka template
+ * ALWAYS last object hoga.
+ */
+export function getLastJobTemplate(
   jobs: any[]
 ) {
   if (!jobs.length) {
@@ -45,64 +50,151 @@ export function getTemplate(
     );
   }
 
-  return jobs[0];
+  return structuredClone(
+    jobs[jobs.length - 1]
+  );
 }
 
-function getKeys(
-  object: Record<string, unknown>
-) {
-  return Object.keys(object).sort();
-}
-
-export function validateExactKeys(
-  template: any,
-  candidate: any
+export function getKeys(
+  value: any
 ) {
   if (
-    !template ||
+    !value ||
+    typeof value !== "object"
+  ) {
+    return [];
+  }
+
+  return Object.keys(value);
+}
+
+/**
+ * Recursive structure validation.
+ * Koi key add/delete nahi ho sakti.
+ */
+export function validateExactStructure(
+  template: any,
+  candidate: any,
+  currentPath = "root"
+): {
+  valid: boolean;
+  reason?: string;
+} {
+  if (
+    template === null ||
     typeof template !== "object"
   ) {
     return {
-      valid: false,
-      reason:
-        "Invalid template",
+      valid: true,
     };
   }
 
   if (
-    !candidate ||
+    candidate === null ||
     typeof candidate !== "object"
   ) {
     return {
       valid: false,
       reason:
-        "AI did not return an object",
+        `${currentPath} must be an object/array`,
+    };
+  }
+
+  if (Array.isArray(template)) {
+    if (!Array.isArray(candidate)) {
+      return {
+        valid: false,
+        reason:
+          `${currentPath} must be an array`,
+      };
+    }
+
+    if (
+      template.length > 0 &&
+      candidate.length > 0
+    ) {
+      return validateExactStructure(
+        template[0],
+        candidate[0],
+        `${currentPath}[0]`
+      );
+    }
+
+    return {
+      valid: true,
+    };
+  }
+
+  if (Array.isArray(candidate)) {
+    return {
+      valid: false,
+      reason:
+        `${currentPath} cannot be an array`,
     };
   }
 
   const templateKeys =
-    getKeys(template);
+    Object.keys(template).sort();
 
   const candidateKeys =
-    getKeys(candidate);
+    Object.keys(candidate).sort();
 
   if (
-    JSON.stringify(
-      templateKeys
-    ) !==
-    JSON.stringify(
-      candidateKeys
-    )
+    JSON.stringify(templateKeys) !==
+    JSON.stringify(candidateKeys)
   ) {
     return {
       valid: false,
       reason:
-        "JSON keys do not match template",
+        `${currentPath} keys mismatch`,
     };
+  }
+
+  for (const key of templateKeys) {
+    const result =
+      validateExactStructure(
+        template[key],
+        candidate[key],
+        `${currentPath}.${key}`
+      );
+
+    if (!result.valid) {
+      return result;
+    }
   }
 
   return {
     valid: true,
-    reason: "",
   };
+}
+
+/**
+ * Maximum existing ID + 1
+ */
+export function getNextId(
+  jobs: any[]
+) {
+  const ids =
+    jobs
+      .map((job) =>
+        Number(job?.id)
+      )
+      .filter(Number.isFinite);
+
+  if (!ids.length) {
+    return 1;
+  }
+
+  return Math.max(...ids) + 1;
+}
+
+export function makeSlug(
+  title: string
+) {
+  return title
+    .toLowerCase()
+    .trim()
+    .replace(/<[^>]*>/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }

@@ -19,7 +19,7 @@ export async function getBrowser() {
 export async function createPage(): Promise<Page> {
   const browser = await getBrowser();
 
-  const page = await browser.newPage({
+  return browser.newPage({
     viewport: {
       width: 1366,
       height: 768,
@@ -27,8 +27,6 @@ export async function createPage(): Promise<Page> {
     userAgent:
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36",
   });
-
-  return page;
 }
 
 export async function closeBrowser() {

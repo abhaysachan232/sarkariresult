@@ -1,9 +1,13 @@
-import {
-  runAgent,
-} from "../agent/run";
+import { runAgent } from "../agent/run";
 
 runAgent()
-  .then(() => {
+  .then((result) => {
+    console.log(
+      "Agent completed successfully."
+    );
+
+    console.log(result);
+
     process.exit(0);
   })
   .catch((error) => {

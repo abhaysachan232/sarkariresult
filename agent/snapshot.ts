@@ -2,146 +2,184 @@ import fs from "fs/promises";
 import path from "path";
 import crypto from "crypto";
 
-type Link = {
+export type SourceLink = {
   text: string;
   href: string;
 };
 
-type SourceSnapshot = {
-  checkedAt: string;
-  links: Link[];
+type ProcessedJob = {
+  jobId: number | string;
+  slug: string;
 };
 
-type SnapshotData = Record<
-  string,
-  SourceSnapshot
->;
+type SourceState = {
+  checkedAt: string;
+  links: SourceLink[];
+  processed: Record<string, ProcessedJob>;
+};
 
-async function ensureSnapshotFile(
-  file: string
-) {
-  await fs.mkdir(
-    path.dirname(file),
-    {
-      recursive: true,
-    }
-  );
+type SnapshotData = Record<string, SourceState>;
 
-  try {
-    await fs.access(file);
-  } catch {
-    await fs.writeFile(
-      file,
-      "{}",
-      "utf8"
-    );
-  }
+function hashLink(link: SourceLink) {
+  return crypto
+    .createHash("sha256")
+    .update(`${link.href}|${link.text}`)
+    .digest("hex");
 }
 
 async function readSnapshot(
   file: string
 ): Promise<SnapshotData> {
-  await ensureSnapshotFile(file);
+  await fs.mkdir(path.dirname(file), {
+    recursive: true,
+  });
 
-  const text =
-    await fs.readFile(
-      file,
-      "utf8"
-    );
+  try {
+    const text = await fs.readFile(file, "utf8");
 
-  return JSON.parse(text);
+    return JSON.parse(text);
+  } catch {
+    return {};
+  }
 }
 
-function hashLink(link: Link) {
-  return crypto
-    .createHash("sha256")
-    .update(
-      `${link.href}|${link.text}`
-    )
-    .digest("hex");
+async function saveSnapshot(
+  file: string,
+  data: SnapshotData
+) {
+  await fs.mkdir(path.dirname(file), {
+    recursive: true,
+  });
+
+  await fs.writeFile(
+    file,
+    JSON.stringify(data, null, 2),
+    "utf8"
+  );
 }
 
+/**
+ * Homepage ke current links ko
+ * previous snapshot se compare karta hai.
+ *
+ * First run:
+ * - current links save honge
+ * - koi link process nahi hoga
+ *
+ * Next runs:
+ * - NEW link detect hoga
+ * - text changed hua to CHANGED detect hoga
+ */
 export async function detectChanges(
   file: string,
   sourceId: string,
-  currentLinks: Link[]
+  currentLinks: SourceLink[]
 ) {
-  const snapshots =
-    await readSnapshot(file);
+  const snapshot = await readSnapshot(file);
 
-  const previous =
-    snapshots[sourceId];
+  const previous = snapshot[sourceId];
 
-  // First run:
-  // केवल snapshot बनाओ.
+  // First run
   if (!previous) {
-    snapshots[sourceId] = {
-      checkedAt:
-        new Date().toISOString(),
+    snapshot[sourceId] = {
+      checkedAt: new Date().toISOString(),
       links: currentLinks,
+      processed: {},
     };
 
-    await fs.writeFile(
-      file,
-      JSON.stringify(
-        snapshots,
-        null,
-        2
-      ),
-      "utf8"
-    );
+    await saveSnapshot(file, snapshot);
 
     return {
       firstRun: true,
-      changed: [],
+      changed: [] as SourceLink[],
     };
   }
 
-  const oldMap =
-    new Map<string, string>();
+  const previousHashes = new Map<string, string>();
 
-  for (const link of previous.links) {
-    oldMap.set(
+  for (const link of previous.links || []) {
+    previousHashes.set(
       link.href,
       hashLink(link)
     );
   }
 
-  const changed: Link[] = [];
+  const changed: SourceLink[] = [];
 
   for (const link of currentLinks) {
-    const currentHash =
-      hashLink(link);
+    const currentHash = hashLink(link);
+    const previousHash =
+      previousHashes.get(link.href);
 
-    const oldHash =
-      oldMap.get(link.href);
+    // New link
+    if (!previousHash) {
+      changed.push(link);
+      continue;
+    }
 
-    if (
-      !oldHash ||
-      oldHash !== currentHash
-    ) {
+    // Existing URL but link text changed
+    if (previousHash !== currentHash) {
       changed.push(link);
     }
   }
 
-  snapshots[sourceId] = {
-    checkedAt:
-      new Date().toISOString(),
+  snapshot[sourceId] = {
+    checkedAt: new Date().toISOString(),
     links: currentLinks,
+
+    // Existing processed mapping preserve rahegi
+    processed: previous.processed || {},
   };
 
-  await fs.writeFile(
-    file,
-    JSON.stringify(
-      snapshots,
-      null,
-      2
-    ),
-    "utf8"
-  );
+  await saveSnapshot(file, snapshot);
 
   return {
     firstRun: false,
     changed,
   };
+}
+
+/**
+ * Process hone ke baad source URL ko
+ * jobs.json ke object se map karta hai.
+ */
+export async function saveProcessedJob(
+  file: string,
+  sourceId: string,
+  href: string,
+  jobId: number | string,
+  slug: string
+) {
+  const snapshot = await readSnapshot(file);
+
+  if (!snapshot[sourceId]) {
+    snapshot[sourceId] = {
+      checkedAt: new Date().toISOString(),
+      links: [],
+      processed: {},
+    };
+  }
+
+  snapshot[sourceId].processed[href] = {
+    jobId,
+    slug,
+  };
+
+  await saveSnapshot(file, snapshot);
+}
+
+/**
+ * Check karta hai ki source URL pehle process hua hai ya nahi.
+ */
+export async function getProcessedJob(
+  file: string,
+  sourceId: string,
+  href: string
+) {
+  const snapshot = await readSnapshot(file);
+
+  return (
+    snapshot[sourceId]?.processed?.[href] ||
+    null
+  );
 }

@@ -14,15 +14,13 @@ export const CONFIG = {
 
   jobsFile: "public/jobs.json",
 
-  snapshotFile: "data/source-snapshot.json",
+  snapshotFile: "public/source-snapshot.json",
 
   hfModel:
     process.env.HF_MODEL ||
     "Qwen/Qwen3-4B-Instruct-2507",
 
-  maxContentLength: 60000,
+  maxContentLength: 70000,
 
-  // पहली run में सिर्फ snapshot बनेगा
-  // existing links process नहीं होंगे.
   processFirstRun: false,
 };

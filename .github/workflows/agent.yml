@@ -16,10 +16,10 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -28,16 +28,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Chromium
+      - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Run AI Agent
+      - name: Run Agent
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HF_MODEL: ${{ secrets.HF_MODEL }}
         run: npm run agent
 
-      - name: Check for changes
+      - name: Check changes
         id: changes
         run: |
           if git diff --quiet; then
@@ -46,7 +46,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Save updated files
+      - name: Save changes
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "SarkariResult Agent"
