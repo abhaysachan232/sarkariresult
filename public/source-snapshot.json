@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-16T17:45:02.623Z",
+    "checkedAt": "2026-08-16T21:09:24.073Z",
     "links": [
       {
         "text": "NTA CSIR UGC NET June Answer Key 2026 – Out",
@@ -623,6 +623,26 @@
         "jobId": 120,
         "slug": "ssc-stenographer-exam-date-2026",
         "processedAt": "2026-08-16T17:45:02.622Z"
+      },
+      "https://sarkariresult.com.cm/ssc-jht-2026/": {
+        "jobId": 121,
+        "slug": "ssc-combined-hindi-translators-jht-exam-date-2026",
+        "processedAt": "2026-08-16T20:57:30.224Z"
+      },
+      "https://sarkariresult.com.cm/neet-pg-2026/": {
+        "jobId": 122,
+        "slug": "neet-pg-exam-city-details-2026",
+        "processedAt": "2026-08-16T20:58:27.046Z"
+      },
+      "https://sarkariresult.com.cm/bsnl-junior-telecom-officer-jto-2026/": {
+        "jobId": 123,
+        "slug": "bsnl-junior-telecom-officer-jto-exam-city-details-2026",
+        "processedAt": "2026-08-16T20:59:35.115Z"
+      },
+      "https://sarkariresult.com.cm/up-police-constable-2026/": {
+        "jobId": 124,
+        "slug": "up-police-constable-dv-pst-admit-card-2026",
+        "processedAt": "2026-08-16T21:09:15.362Z"
       }
     }
   }
