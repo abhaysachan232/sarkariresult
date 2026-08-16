@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-16T16:44:52.487Z",
+    "checkedAt": "2026-08-16T17:25:53.945Z",
     "links": [
       {
         "text": "NTA CSIR UGC NET June Answer Key 2026 – Out",
@@ -399,6 +399,10 @@
         "href": "https://sarkariresult.com.cm/iim-cat-2026/"
       },
       {
+        "text": "jobs",
+        "href": "https://sarkariresult.com.cm/#"
+      },
+      {
         "text": "Bharat Result",
         "href": "http://sarkariresult.com.cm/result/"
       },
@@ -519,6 +523,56 @@
         "jobId": 100,
         "slug": "bihar-dcece-polytechnic-2026-1st-round-allotment-result-out-notification-eligibility-important-dates",
         "processedAt": "2026-08-16T16:44:52.486Z"
+      },
+      "https://sarkariresult.com.cm/#": {
+        "jobId": 101,
+        "slug": "bihar-dcece-pe-2026-pm-pmm-1st-round-allotment-result-out",
+        "processedAt": "2026-08-16T17:15:14.401Z"
+      },
+      "https://sarkariresult.com.cm/afcat-02-2026/": {
+        "jobId": 102,
+        "slug": "afcat-02-2026-answer-key-out",
+        "processedAt": "2026-08-16T17:16:27.912Z"
+      },
+      "https://sarkariresult.com.cm/bcece-admission-2026/": {
+        "jobId": 103,
+        "slug": "bcece-2nd-round-allotment-result-2026-out",
+        "processedAt": "2026-08-16T17:17:34.168Z"
+      },
+      "https://sarkariresult.com.cm/bpsc-dso-ad-mains-admit-card-2026/": {
+        "jobId": 104,
+        "slug": "bpsc-dso-ad-mains-result-2026-out",
+        "processedAt": "2026-08-16T17:18:42.838Z"
+      },
+      "https://sarkariresult.com.cm/bpsc-aso-mains-2026/": {
+        "jobId": 105,
+        "slug": "bpsc-aso-mains-result-2026-out",
+        "processedAt": "2026-08-16T17:19:49.293Z"
+      },
+      "https://sarkariresult.com.cm/ibps-po-mt-xvi-2026/": {
+        "jobId": 106,
+        "slug": "ibps-po-mt-xvi-pre-admit-card-2026-out",
+        "processedAt": "2026-08-16T17:20:52.479Z"
+      },
+      "https://sarkariresult.com.cm/bpsc-72nd-pre-2026/": {
+        "jobId": 107,
+        "slug": "bihar-bpsc-72nd-pre-exam-date-2026-released",
+        "processedAt": "2026-08-16T17:22:02.464Z"
+      },
+      "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/": {
+        "jobId": 108,
+        "slug": "railway-rrb-group-d-level-1-recruitment-2026-exam-city-admit-card-released",
+        "processedAt": "2026-08-16T17:23:25.140Z"
+      },
+      "https://sarkariresult.com.cm/upsc-civil-services-ias-ifs-2026/": {
+        "jobId": 109,
+        "slug": "upsc-civil-services-ias-mains-admit-card-2026-released",
+        "processedAt": "2026-08-16T17:24:42.247Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-lower-pcs-2026/": {
+        "jobId": 110,
+        "slug": "upsssc-lower-pcs-exam-city-details-2026-released",
+        "processedAt": "2026-08-16T17:25:53.944Z"
       }
     }
   }
