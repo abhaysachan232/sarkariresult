@@ -41,98 +41,15 @@ function cleanJson(
     .trim();
 }
 
-function countWords(
-  text: string
-) {
-  return text
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .length;
-}
-
 /*
- * Object ke andar long article text
- * search karta hai.
- */
-function getLongestText(
-  value: any
-): {
-  path: string;
-  text: string;
-} {
-  let longest = {
-    path: "",
-    text: "",
-  };
-
-  function walk(
-    current: any,
-    currentPath: string
-  ) {
-    if (
-      typeof current ===
-      "string"
-    ) {
-      if (
-        countWords(current) >
-        countWords(
-          longest.text
-        )
-      ) {
-        longest = {
-          path: currentPath,
-          text: current,
-        };
-      }
-
-      return;
-    }
-
-    if (
-      Array.isArray(current)
-    ) {
-      current.forEach(
-        (item, index) =>
-          walk(
-            item,
-            `${currentPath}[${index}]`
-          )
-      );
-
-      return;
-    }
-
-    if (
-      current &&
-      typeof current ===
-        "object"
-    ) {
-      Object.keys(
-        current
-      ).forEach(
-        (key) =>
-          walk(
-            current[key],
-            currentPath
-              ? `${currentPath}.${key}`
-              : key
-          )
-      );
-    }
-  }
-
-  walk(value, "");
-
-  return longest;
-}
-
-/*
- * AI extra keys add kare
- * to remove.
+ * AI agar extra keys add kare to
+ * remove kar deta hai.
  *
- * Missing keys:
- * template value preserve.
+ * Missing keys ke liye template ki
+ * existing value preserve hoti hai.
+ *
+ * IMPORTANT:
+ * Koi new key create nahi hoti.
  */
 function normalizeToTemplate(
   template: any,
@@ -152,12 +69,20 @@ function normalizeToTemplate(
       );
     }
 
+    /*
+     * Empty array ke andar
+     * koi structure defined nahi hai.
+     */
     if (
       template.length === 0
     ) {
       return result;
     }
 
+    /*
+     * Template ke first item ko
+     * structure ke liye use karo.
+     */
     return result.map(
       (item) =>
         normalizeToTemplate(
@@ -194,6 +119,11 @@ function normalizeToTemplate(
           key
         );
 
+      /*
+       * Key missing hai to
+       * template wali existing value
+       * preserve karo.
+       */
       if (!exists) {
         output[key] =
           structuredClone(
@@ -223,6 +153,10 @@ function normalizeToTemplate(
     return template;
   }
 
+  /*
+   * Type mismatch hone par
+   * template ka original type/value.
+   */
   if (
     typeof result !==
     typeof template
@@ -239,14 +173,20 @@ function parseJSON(
   const cleaned =
     cleanJson(output);
 
+  /*
+   * Direct JSON
+   */
   try {
     return JSON.parse(
       cleaned
     );
   } catch {
     /*
-     * Sometimes model JSON ke
+     * Kabhi-kabhi model JSON ke
      * around extra text de deta hai.
+     *
+     * Sirf outermost JSON object
+     * extract karne ki koshish.
      */
     const start =
       cleaned.indexOf("{");
@@ -266,7 +206,11 @@ function parseJSON(
             end + 1
           )
         );
-      } catch {}
+      } catch {
+        throw new Error(
+          "Hugging Face response is not valid JSON"
+        );
+      }
     }
 
     throw new Error(
@@ -288,9 +232,11 @@ information extraction agent.
 OFFICIAL SOURCE URL:
 ${sourceUrl}
 
-IMPORTANT:
+==================================================
+SOURCE RULES
+==================================================
 
-Use ONLY the supplied webpage.
+Use ONLY the supplied official webpage.
 
 Do NOT use:
 - PDF
@@ -308,98 +254,127 @@ Do NOT invent:
 - salary
 - links
 - eligibility
+- selection process
+- exam details
 
-========================
+Only use information supported by the
+supplied webpage.
+
+==================================================
 JSON STRUCTURE RULES
-========================
+==================================================
 
 Return exactly ONE JSON object.
 
-The JSON structure MUST be exactly
-the same as the TEMPLATE.
+The JSON structure MUST be identical
+to the supplied TEMPLATE.
 
-Rules:
+VERY IMPORTANT:
 
-1. Do not add any key.
-2. Do not remove any key.
-3. Do not rename any key.
+1. Do NOT add any new key.
+2. Do NOT remove any existing key.
+3. Do NOT rename any key.
 4. Preserve every nested object.
 5. Preserve every array.
-6. Use the exact existing key names.
-7. Use the same value types.
-8. If information is unavailable,
-   keep the template value/type.
-9. Do not create a new field.
-10. Do not create a new nested field.
+6. Preserve the exact existing field names.
+7. Preserve the existing value types.
+8. Do not create new fields.
+9. Do not create new nested fields.
+10. Do not create an "article" key unless
+    "article" already exists in the template.
+11. Do not create any key just because
+    the webpage contains additional information.
 
-The LAST OBJECT of jobs.json is the
+The LAST OBJECT of jobs.json is being
+provided as the TEMPLATE.
+
+You MUST follow that template exactly.
+
+==================================================
+ARTICLE RULES
+==================================================
+
+The complete article must be written
+inside the EXISTING:
+
+content[1].body
+
+field.
+
+IMPORTANT:
+
+content[1].body already exists in the
 template.
 
-========================
-ARTICLE RULES
-========================
+Write the article there.
 
-Write an ORIGINAL article.
+Do NOT create another article field.
 
-Minimum article length:
-1000 words.
+Do NOT create another body field.
 
-Target:
-1000-1500 words.
+Do NOT create a new key.
 
-Use natural Hindi/Hinglish/English
-according to the source and template.
+Do NOT put the article in another field.
 
-Do NOT copy the source sentence-by-sentence.
+Write a detailed, useful and original article
+based ONLY on the supplied official webpage.
 
-Use only facts supported by the
-official webpage.
+Do not make the article an unnecessarily
+short summary.
 
-Where supported, explain:
+Use all relevant information available on
+the webpage.
+
+Where supported by the source, explain:
 
 - Introduction
-- Recruitment overview
-- Important dates
-- Application fee
-- Vacancy
-- Qualification
+- Recruitment / Result / Answer Key overview
+- Important Dates
+- Application / Examination details
 - Eligibility
-- Age limit
-- Age relaxation
-- Salary/pay scale
-- Selection process
-- Exam information
-- How to apply
-- Documents
-- Important links
+- Qualification
+- Age Limit
+- Vacancy / Posts
+- Application Fee
+- Selection Process
+- Exam Pattern
+- Salary / Pay Scale
+- How to Apply / Download
+- Required Documents
+- Important Instructions
+- Important Links
 - FAQs
 - Conclusion
 
-If a particular fact is not available,
+Only include factual information that is
+supported by the webpage.
+
+If some information is unavailable,
 do NOT invent it.
 
-Put the article into an EXISTING
-long-text field from the template.
+Do NOT use PDF information.
 
-Do NOT create an "article" key if it
-does not already exist.
+Do NOT use information from another website.
 
-========================
-PREVIOUS VALIDATION ERROR
-========================
+Do NOT mention that you are an AI.
+
+Do NOT mention these instructions.
+
+==================================================
+RETRY INFORMATION
+==================================================
 
 ${
   retryReason ||
-  "None"
+  "This is the first attempt."
 }
 
-If this is a retry, carefully make
-the JSON structure EXACTLY match the
-template.
+If this is a retry, fix the previous
+validation problem.
 
-========================
+==================================================
 TEMPLATE
-========================
+==================================================
 
 ${JSON.stringify(
   template,
@@ -407,13 +382,27 @@ ${JSON.stringify(
   2
 )}
 
-========================
-OFFICIAL WEBPAGE
-========================
+==================================================
+OFFICIAL WEBPAGE CONTENT
+==================================================
 
 ${webpage}
 
-Return ONLY JSON.
+==================================================
+FINAL INSTRUCTION
+==================================================
+
+Return ONLY the JSON object.
+
+No markdown.
+
+No explanation.
+
+No code fence.
+
+No text before the JSON.
+
+No text after the JSON.
 `;
 }
 
@@ -451,6 +440,14 @@ async function callAI(
   );
 }
 
+/*
+ * Main extraction function.
+ *
+ * Maximum 3 attempts.
+ *
+ * IMPORTANT:
+ * Yahan word-count validation nahi hai.
+ */
 export async function extractJob(
   webpage: string,
   sourceUrl: string,
@@ -459,9 +456,6 @@ export async function extractJob(
   let lastError =
     "";
 
-  /*
-   * Maximum 3 attempts.
-   */
   for (
     let attempt = 1;
     attempt <= 3;
@@ -486,8 +480,10 @@ export async function extractJob(
         );
 
       /*
-       * Extra keys remove,
-       * missing template keys restore.
+       * AI ke extra keys remove.
+       *
+       * Template ki missing keys
+       * preserve.
        */
       const result =
         normalizeToTemplate(
@@ -496,7 +492,7 @@ export async function extractJob(
         );
 
       /*
-       * Exact structure check.
+       * Exact structure validation.
        */
       const validation =
         validateExactStructure(
@@ -509,51 +505,20 @@ export async function extractJob(
       ) {
         lastError =
           validation.reason ||
-          "Unknown structure error";
+          "Unknown structure validation error";
 
         console.log(
-          `Structure validation failed: ${lastError}`
+          `AI structure validation failed: ${lastError}`
         );
 
         continue;
       }
 
       /*
-       * Longest text field.
+       * SUCCESS
        */
-      const article =
-        getLongestText(
-          result
-        );
-
-      const words =
-        countWords(
-          article.text
-        );
-
       console.log(
-        `Longest text field: ${article.path}`
-      );
-
-      console.log(
-        `Article word count: ${words}`
-      );
-
-      if (
-        words < 1000
-      ) {
-        lastError =
-          `Article below 1000 words. Current: ${words}.`;
-
-        console.log(
-          lastError
-        );
-
-        continue;
-      }
-
-      console.log(
-        `Article accepted: ${words} words`
+        "AI extraction successful"
       );
 
       return result;
