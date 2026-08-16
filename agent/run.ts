@@ -27,6 +27,7 @@ import {
   validateExactStructure,
   getNextId,
   makeSlug,
+  setTypeAndCategory,
 } from "./json";
 
 import {
@@ -41,139 +42,359 @@ import {
 import { CONFIG } from "./config";
 
 /*
- * Homepage se actual link click karta hai.
- *
- * PDF ko intentionally ignore karta hai.
- */
+==================================================
+SOURCE DOMAIN
+==================================================
+*/
+
+const SOURCE_DOMAIN =
+  "sarkariresult.com.cm";
+
+/*
+==================================================
+REMOVE SOURCE DOMAIN FROM TEXT
+==================================================
+*/
+
+function removeSourceDomainFromString(
+  value: string
+) {
+  let result = value;
+
+  /*
+   * Full source URLs
+   */
+  result = result.replace(
+    /https?:\/\/(?:www\.)?sarkariresult\.com\.cm[^\s"'<>)]*/gi,
+    ""
+  );
+
+  /*
+   * Domain only
+   */
+  result = result.replace(
+    /\b(?:www\.)?sarkariresult\.com\.cm\b/gi,
+    ""
+  );
+
+  /*
+   * Brand names
+   */
+  result = result.replace(
+    /\bSarkari\s*Result(?:\.com\.cm)?\b/gi,
+    ""
+  );
+
+  result = result.replace(
+    /\bSarkariResult(?:\.com\.cm)?\b/gi,
+    ""
+  );
+
+  /*
+   * Source attribution
+   */
+  result = result.replace(
+    /\bSource\s*:\s*/gi,
+    ""
+  );
+
+  result = result.replace(
+    /\bAccording\s+to\s+Sarkari\s*Result\b/gi,
+    ""
+  );
+
+  result = result.replace(
+    /\bAs\s+per\s+Sarkari\s*Result\b/gi,
+    ""
+  );
+
+  /*
+   * Extra spaces
+   */
+  result = result.replace(
+    /[ \t]{2,}/g,
+    " "
+  );
+
+  return result.trim();
+}
+
+/*
+==================================================
+RECURSIVE SOURCE CLEANUP
+==================================================
+*/
+
+function removeSourceReferences(
+  value: any
+): any {
+  if (
+    typeof value === "string"
+  ) {
+    return removeSourceDomainFromString(
+      value
+    );
+  }
+
+  if (
+    Array.isArray(value)
+  ) {
+    return value.map(
+      (item) =>
+        removeSourceReferences(
+          item
+        )
+    );
+  }
+
+  if (
+    value &&
+    typeof value === "object"
+  ) {
+    const output: any = {};
+
+    for (
+      const key of Object.keys(
+        value
+      )
+    ) {
+      output[key] =
+        removeSourceReferences(
+          value[key]
+        );
+    }
+
+    return output;
+  }
+
+  return value;
+}
+
+/*
+==================================================
+CHECK SOURCE DOMAIN URL
+==================================================
+*/
+
+function isSourceDomainUrl(
+  value: string
+) {
+  try {
+    const url =
+      new URL(value);
+
+    const hostname =
+      url.hostname
+        .toLowerCase()
+        .replace(
+          /^www\./,
+          ""
+        );
+
+    return (
+      hostname ===
+      SOURCE_DOMAIN
+    );
+  } catch {
+    return false;
+  }
+}
+
+/*
+==================================================
+REMOVE SOURCE LINKS
+==================================================
+
+Only sarkariresult.com.cm links are removed.
+
+Official government links are preserved.
+==================================================
+*/
+
+function removeSourceLinks(
+  value: any
+): any {
+  if (
+    Array.isArray(value)
+  ) {
+    return value
+      .filter((item) => {
+        /*
+         * String URL
+         */
+        if (
+          typeof item === "string"
+        ) {
+          const trimmed =
+            item.trim();
+
+          if (
+            /^https?:\/\//i.test(
+              trimmed
+            )
+          ) {
+            return !isSourceDomainUrl(
+              trimmed
+            );
+          }
+
+          return true;
+        }
+
+        /*
+         * Link object
+         */
+        if (
+          item &&
+          typeof item === "object"
+        ) {
+          const linkFields = [
+            "href",
+            "url",
+            "link",
+            "applyLink",
+            "officialLink",
+          ];
+
+          for (
+            const field of linkFields
+          ) {
+            if (
+              typeof item[field] ===
+                "string" &&
+              isSourceDomainUrl(
+                item[field]
+              )
+            ) {
+              return false;
+            }
+          }
+        }
+
+        return true;
+      })
+      .map(
+        (item) =>
+          removeSourceLinks(
+            item
+          )
+      );
+  }
+
+  if (
+    value &&
+    typeof value === "object"
+  ) {
+    const output: any = {};
+
+    for (
+      const key of Object.keys(
+        value
+      )
+    ) {
+      output[key] =
+        removeSourceLinks(
+          value[key]
+        );
+    }
+
+    return output;
+  }
+
+  return value;
+}
+
+/*
+==================================================
+FINAL CLEANUP
+==================================================
+*/
+
+function cleanGeneratedJob(
+  job: any
+) {
+  let cleaned =
+    removeSourceReferences(
+      job
+    );
+
+  cleaned =
+    removeSourceLinks(
+      cleaned
+    );
+
+  return cleaned;
+}
+
+/*
+==================================================
+CLICK CHANGED LINK
+==================================================
+
+Homepage par jo blue link mila tha,
+usi URL ko open karta hai.
+
+PDF ko intentionally skip karta hai.
+==================================================
+*/
+
 async function clickChangedLink(
   page: Page,
   href: string
 ) {
+  /*
+   * PDF skip
+   */
   if (
     /\.pdf(?:$|\?)/i.test(
       href
     )
   ) {
     throw new Error(
-      "PDF link ignored"
+      "PDF links are not allowed"
     );
   }
 
-  const homepageUrl =
-    page.url();
+  /*
+   * Absolute URL
+   */
+  const targetUrl =
+    new URL(
+      href
+    ).href;
 
-  const target =
-    new URL(href).href;
-
-  const link =
-    page
-      .locator(
-        `a[href="${target}"]`
-      )
-      .first();
-
-  if (
-    await link.count() === 0
-  ) {
-    throw new Error(
-      `Link not found on homepage: ${target}`
-    );
-  }
-
-  await link.scrollIntoViewIfNeeded();
-
-  const popupPromise =
-    page
-      .context()
-      .waitForEvent(
-        "page",
-        {
-          timeout: 3000,
-        }
-      )
-      .catch(
-        () => null
-      );
-
-  try {
-    await link.click({
-      timeout: 30000,
-    });
-  } catch {
-    throw new Error(
-      `Unable to click link: ${target}`
-    );
-  }
-
-  const popup =
-    await popupPromise;
-
-  const detailPage =
-    popup || page;
-
-  await detailPage.waitForLoadState(
-    "domcontentloaded",
+  /*
+   * Homepage/current page se
+   * target URL open.
+   */
+  await page.goto(
+    targetUrl,
     {
-      timeout: 30000,
+      waitUntil:
+        "domcontentloaded",
+      timeout: 60000,
     }
   );
-
-  await detailPage.waitForTimeout(
-    1000
-  );
-
-  const finalUrl =
-    detailPage.url();
 
   /*
-   * PDF destination भी ignore.
+   * Additional wait so dynamically
+   * rendered content can appear.
    */
-  if (
-    /\.pdf(?:$|\?)/i.test(
-      finalUrl
-    )
-  ) {
-    if (popup) {
-      await popup.close();
-    }
+  await page.waitForTimeout(
+    1500
+  );
 
-    throw new Error(
-      "Destination is PDF. Ignored."
-    );
-  }
-
+  /*
+   * Body text.
+   */
   const content =
-    await detailPage
-      .locator("body")
-      .innerText();
-
-  const title =
-    await detailPage.title();
-
-  /*
-   * Agar same page tha to homepage
-   * par वापस जाओ.
-   */
-  if (popup) {
-    await popup.close();
-  } else {
-    await page.goto(
-      homepageUrl,
-      {
-        waitUntil:
-          "domcontentloaded",
-        timeout: 30000,
-      }
-    );
-
-    await page.waitForTimeout(
-      500
-    );
-  }
+    await page.locator(
+      "body"
+    ).innerText();
 
   return {
-    title,
-    url: finalUrl,
+    url:
+      page.url(),
 
     content:
       content
@@ -186,12 +407,11 @@ async function clickChangedLink(
 }
 
 /*
- * New object ke identity fields
- * sirf tab modify honge jab
- * wo LAST OBJECT mein already exist hon.
- *
- * Koi new key add nahi hogi.
- */
+==================================================
+GENERATED METADATA
+==================================================
+*/
+
 function applyGeneratedMetadata(
   candidate: any,
   template: any,
@@ -203,9 +423,12 @@ function applyGeneratedMetadata(
   const title =
     String(
       candidate?.title ||
-      "government-job"
+        "government-job"
     );
 
+  /*
+   * ID
+   */
   if (
     Object.prototype.hasOwnProperty.call(
       template,
@@ -216,6 +439,9 @@ function applyGeneratedMetadata(
       nextId;
   }
 
+  /*
+   * Slug
+   */
   if (
     Object.prototype.hasOwnProperty.call(
       template,
@@ -226,6 +452,9 @@ function applyGeneratedMetadata(
       makeSlug(title);
   }
 
+  /*
+   * Date/update field
+   */
   if (
     Object.prototype.hasOwnProperty.call(
       template,
@@ -235,15 +464,21 @@ function applyGeneratedMetadata(
     candidate.updatedon =
       new Date()
         .toISOString()
-        .slice(0, 10);
+        .slice(
+          0,
+          10
+        );
   }
 
   return candidate;
 }
 
 /*
- * Main Agent
- */
+==================================================
+MAIN AGENT
+==================================================
+*/
+
 export async function runAgent() {
   const jobsFile =
     path.resolve(
@@ -268,14 +503,19 @@ export async function runAgent() {
   };
 
   try {
+    /*
+    ==================================================
+    PROCESS EVERY CONFIGURED SOURCE
+    ==================================================
+    */
+
     for (
-      const source of CONFIG.sources
+      const source of
+        CONFIG.sources
     ) {
       result.sourcesChecked++;
 
-      console.log(
-        ""
-      );
+      console.log("");
 
       console.log(
         `========== ${source.name} ==========`
@@ -286,11 +526,11 @@ export async function runAgent() {
 
       try {
         /*
-         * ============================
-         * STEP 1
-         * Homepage open
-         * ============================
-         */
+        ==============================================
+        1. OPEN HOMEPAGE
+        ==============================================
+        */
+
         await openHomepage(
           page,
           source.url
@@ -302,11 +542,11 @@ export async function runAgent() {
           ).hostname;
 
         /*
-         * ============================
-         * STEP 2
-         * Blue relevant links
-         * ============================
-         */
+        ==============================================
+        2. FIND BLUE LINKS
+        ==============================================
+        */
+
         const currentLinks =
           await getContentLinks(
             page,
@@ -321,11 +561,11 @@ export async function runAgent() {
         );
 
         /*
-         * ============================
-         * STEP 3
-         * Detect NEW/CHANGED
-         * ============================
-         */
+        ==============================================
+        3. DETECT NEW / CHANGED LINKS
+        ==============================================
+        */
+
         const changes =
           await detectChanges(
             snapshotFile,
@@ -334,12 +574,11 @@ export async function runAgent() {
           );
 
         /*
-         * First ever run:
-         *
-         * Snapshot create.
-         * Us run mein articles process
-         * nahi honge.
-         */
+        ==============================================
+        FIRST RUN
+        ==============================================
+        */
+
         if (
           changes.firstRun
         ) {
@@ -348,7 +587,7 @@ export async function runAgent() {
           );
 
           console.log(
-            "Existing links will be processed from the next run."
+            "Existing links will be processed from next run."
           );
 
           continue;
@@ -362,15 +601,11 @@ export async function runAgent() {
         );
 
         /*
-         * ============================
-         * STEP 4
-         * Existing snapshot ke
-         * unprocessed links
-         *
-         * Tumhare 94 links yahan
-         * se 10-10 karke aayenge.
-         * ============================
-         */
+        ==============================================
+        4. OLD UNPROCESSED LINKS
+        ==============================================
+        */
+
         const unprocessed =
           await getUnprocessedLinks(
             snapshotFile,
@@ -386,17 +621,11 @@ export async function runAgent() {
         );
 
         /*
-         * ============================
-         * STEP 5
-         * NEW/CHANGED + OLD
-         * UNPROCESSED
-         *
-         * Duplicate remove.
-         * Batch limit 10.
-         *
-         * NEW/CHANGED links ko priority.
-         * ============================
-         */
+        ==============================================
+        5. COMBINE LINKS
+        ==============================================
+        */
+
         const combined =
           new Map<
             string,
@@ -404,7 +633,7 @@ export async function runAgent() {
           >();
 
         /*
-         * Pehle new/changed.
+         * New/changed first.
          */
         for (
           const link of
@@ -417,7 +646,7 @@ export async function runAgent() {
         }
 
         /*
-         * Phir old unprocessed.
+         * Old unprocessed after that.
          */
         for (
           const link of
@@ -448,27 +677,28 @@ export async function runAgent() {
         );
 
         /*
-         * ============================
-         * STEP 6
-         * Process sequentially
-         * ============================
-         */
+        ==============================================
+        6. PROCESS EACH LINK
+        ==============================================
+        */
+
         for (
           const link of
             linksToProcess
         ) {
           try {
-            console.log(
-              ""
-            );
+            console.log("");
 
             console.log(
               `NEW/CHANGED LINK: ${link.text}`
             );
 
             /*
-             * PDF ignore.
-             */
+            ==========================================
+            SKIP PDF
+            ==========================================
+            */
+
             if (
               /\.pdf(?:$|\?)/i.test(
                 link.href
@@ -484,24 +714,16 @@ export async function runAgent() {
             }
 
             /*
-             * ============================
-             * CLICK LINK
-             * ============================
-             */
+            ==========================================
+            OPEN PAGE
+            ==========================================
+            */
+
             const detail =
               await clickChangedLink(
                 page,
                 link.href
               );
-
-            if (
-              !detail.content ||
-              detail.content.length < 100
-            ) {
-              throw new Error(
-                "Detail page content is too short"
-              );
-            }
 
             console.log(
               `Opened: ${detail.url}`
@@ -512,33 +734,48 @@ export async function runAgent() {
             );
 
             /*
-             * ============================
-             * READ CURRENT jobs.json
-             *
-             * Har article ke liye
-             * fresh jobs.json read.
-             * ============================
-             */
+            ==========================================
+            CONTENT CHECK
+            ==========================================
+            */
+
+            if (
+              detail.content.length <
+              100
+            ) {
+              throw new Error(
+                "Detail page content is too short"
+              );
+            }
+
+            /*
+            ==========================================
+            READ CURRENT JOBS.JSON
+            ==========================================
+            */
+
             const jobs =
               await readJobs(
                 jobsFile
               );
 
             /*
-             * ============================
-             * LAST OBJECT TEMPLATE
-             * ============================
-             */
+            ==========================================
+            LAST OBJECT = TEMPLATE
+            ==========================================
+            */
+
             const template =
               getLastJobTemplate(
                 jobs
               );
 
             /*
-             * ============================
-             * Check mapping
-             * ============================
-             */
+            ==========================================
+            CHECK SNAPSHOT MAPPING
+            ==========================================
+            */
+
             const mapped =
               await getProcessedJob(
                 snapshotFile,
@@ -549,7 +786,9 @@ export async function runAgent() {
             let existingIndex =
               -1;
 
-            if (mapped) {
+            if (
+              mapped
+            ) {
               existingIndex =
                 findJobById(
                   jobs,
@@ -558,11 +797,12 @@ export async function runAgent() {
             }
 
             /*
-             * ============================
-             * AI
-             * ============================
-             */
-            const candidate =
+            ==========================================
+            AI EXTRACTION
+            ==========================================
+            */
+
+            let candidate =
               await extractJob(
                 detail.content.slice(
                   0,
@@ -573,11 +813,22 @@ export async function runAgent() {
               );
 
             /*
-             * Agar mapping se existing
-             * object nahi mila to
-             * title + organization se
-             * search.
-             */
+            ==========================================
+            REMOVE SOURCE BRANDING
+            ==========================================
+            */
+
+            candidate =
+              cleanGeneratedJob(
+                candidate
+              );
+
+            /*
+            ==========================================
+            TRY TITLE / ORGANIZATION MATCH
+            ==========================================
+            */
+
             if (
               existingIndex === -1
             ) {
@@ -589,10 +840,11 @@ export async function runAgent() {
             }
 
             /*
-             * ============================
-             * UPDATE EXISTING
-             * ============================
-             */
+            ==========================================
+            UPDATE EXISTING JOB
+            ==========================================
+            */
+
             if (
               existingIndex !== -1
             ) {
@@ -601,6 +853,9 @@ export async function runAgent() {
                   existingIndex
                 ];
 
+              /*
+              Structure check.
+              */
               const validation =
                 validateExactStructure(
                   existing,
@@ -616,8 +871,8 @@ export async function runAgent() {
               }
 
               /*
-               * Existing identity preserve.
-               */
+              Preserve ID.
+              */
               if (
                 Object.prototype.hasOwnProperty.call(
                   existing,
@@ -628,6 +883,9 @@ export async function runAgent() {
                   existing.id;
               }
 
+              /*
+              Preserve slug.
+              */
               if (
                 Object.prototype.hasOwnProperty.call(
                   existing,
@@ -638,6 +896,9 @@ export async function runAgent() {
                   existing.slug;
               }
 
+              /*
+              Preserve setPath.
+              */
               if (
                 Object.prototype.hasOwnProperty.call(
                   existing,
@@ -648,6 +909,9 @@ export async function runAgent() {
                   existing.setPath;
               }
 
+              /*
+              Updated date.
+              */
               if (
                 Object.prototype.hasOwnProperty.call(
                   existing,
@@ -657,12 +921,40 @@ export async function runAgent() {
                 candidate.updatedon =
                   new Date()
                     .toISOString()
-                    .slice(0, 10);
+                    .slice(
+                      0,
+                      10
+                    );
               }
 
               /*
-               * Final structure check.
-               */
+              ======================================
+              TYPE + CATEGORY
+              ======================================
+              */
+
+              setTypeAndCategory(
+                candidate,
+                existing
+              );
+
+              /*
+              ======================================
+              FINAL SOURCE CLEANUP
+              ======================================
+              */
+
+              candidate =
+                cleanGeneratedJob(
+                  candidate
+                );
+
+              /*
+              ======================================
+              FINAL STRUCTURE CHECK
+              ======================================
+              */
+
               const finalValidation =
                 validateExactStructure(
                   existing,
@@ -677,6 +969,12 @@ export async function runAgent() {
                 );
               }
 
+              /*
+              ======================================
+              SAVE
+              ======================================
+              */
+
               jobs[
                 existingIndex
               ] = candidate;
@@ -687,8 +985,9 @@ export async function runAgent() {
               );
 
               /*
-               * Mark successful.
-               */
+              Mark processed only
+              after successful save.
+              */
               await saveProcessedJob(
                 snapshotFile,
                 source.id,
@@ -708,16 +1007,11 @@ export async function runAgent() {
             }
 
             /*
-             * ============================
-             * NEW OBJECT
-             * ============================
-             */
+            ==========================================
+            NEW JOB
+            ==========================================
+            */
 
-            /*
-             * Template ke exact structure
-             * mein candidate already
-             * normalize ho chuka hai.
-             */
             const validation =
               validateExactStructure(
                 template,
@@ -733,9 +1027,8 @@ export async function runAgent() {
             }
 
             /*
-             * Metadata:
-             * sirf existing keys mein.
-             */
+            Metadata.
+            */
             const newJob =
               applyGeneratedMetadata(
                 candidate,
@@ -744,12 +1037,37 @@ export async function runAgent() {
               );
 
             /*
-             * Final exact structure.
-             */
+            ==========================================
+            TYPE + CATEGORY
+            ==========================================
+            */
+
+            setTypeAndCategory(
+              newJob,
+              template
+            );
+
+            /*
+            ==========================================
+            FINAL CLEANUP
+            ==========================================
+            */
+
+            const finalJob =
+              cleanGeneratedJob(
+                newJob
+              );
+
+            /*
+            ==========================================
+            FINAL STRUCTURE VALIDATION
+            ==========================================
+            */
+
             const finalValidation =
               validateExactStructure(
                 template,
-                newJob
+                finalJob
               );
 
             if (
@@ -761,12 +1079,13 @@ export async function runAgent() {
             }
 
             /*
-             * ============================
-             * PUSH NEW OBJECT
-             * ============================
-             */
+            ==========================================
+            ADD TO JOBS.JSON
+            ==========================================
+            */
+
             jobs.push(
-              newJob
+              finalJob
             );
 
             await saveJobs(
@@ -775,34 +1094,35 @@ export async function runAgent() {
             );
 
             /*
-             * Successful mapping.
-             */
+            ==========================================
+            MARK PROCESSED
+            ==========================================
+            */
+
             await saveProcessedJob(
               snapshotFile,
               source.id,
               link.href,
-              newJob.id,
-              newJob.slug || ""
+              finalJob.id,
+              finalJob.slug || ""
             );
 
             result.newJobs++;
             result.processedThisRun++;
 
             console.log(
-              `NEW: ${newJob.title}`
+              `NEW: ${finalJob.title}`
             );
           } catch (
             error: any
           ) {
             /*
-             * IMPORTANT:
-             *
-             * Failed link ko processed
-             * mark nahi karenge.
-             *
-             * Isliye next run mein
-             * automatically retry hoga.
-             */
+            IMPORTANT:
+            Failed link ko processed nahi
+            mark karna.
+            Next run mein retry hoga.
+            */
+
             const message =
               error?.message ||
               "Unknown error";
@@ -818,15 +1138,11 @@ export async function runAgent() {
         }
 
         /*
-         * ============================
-         * STEP 7
-         *
-         * Homepage snapshot update.
-         *
-         * Processed mappings preserve
-         * rahengi.
-         * ============================
-         */
+        ==============================================
+        UPDATE HOMEPAGE SNAPSHOT
+        ==============================================
+        */
+
         await markSuccessfulRun(
           snapshotFile,
           source.id,
@@ -858,9 +1174,13 @@ export async function runAgent() {
     await closeBrowser();
   }
 
-  console.log(
-    ""
-  );
+  /*
+  ==============================================
+  FINAL RESULT
+  ==============================================
+  */
+
+  console.log("");
 
   console.log(
     "========== AGENT RESULT =========="

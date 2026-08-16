@@ -37,8 +37,6 @@ export async function saveJobs(
 }
 
 /*
- * IMPORTANT:
- *
  * New object ka template
  * hamesha jobs.json ke LAST OBJECT
  * se banega.
@@ -58,7 +56,9 @@ export function getLastJobTemplate(
 }
 
 /*
- * Exact structure validation.
+ * Exact JSON structure validation.
+ *
+ * Koi key add/delete/rename nahi honi chahiye.
  */
 export function validateExactStructure(
   template: any,
@@ -117,8 +117,7 @@ export function validateExactStructure(
     }
 
     /*
-     * Empty template array.
-     * Iske andar keys define nahi hain.
+     * Empty array.
      */
     if (
       template.length === 0
@@ -129,8 +128,9 @@ export function validateExactStructure(
     }
 
     /*
-     * Array objects ka structure
-     * first template item se validate.
+     * Array ke har object ko
+     * template ke first object se
+     * validate karo.
      */
     for (
       let i = 0;
@@ -158,9 +158,9 @@ export function validateExactStructure(
    * Object
    */
   if (
-    Array.isArray(candidate) ||
     candidate === null ||
-    typeof candidate !== "object"
+    typeof candidate !== "object" ||
+    Array.isArray(candidate)
   ) {
     return {
       valid: false,
@@ -214,6 +214,9 @@ export function validateExactStructure(
   };
 }
 
+/*
+ * Next ID generate karta hai.
+ */
 export function getNextId(
   jobs: any[]
 ) {
@@ -235,6 +238,9 @@ export function getNextId(
   );
 }
 
+/*
+ * Slug generate karta hai.
+ */
 export function makeSlug(
   title: string
 ) {
@@ -252,4 +258,175 @@ export function makeSlug(
     .replace(
       /^-+|-+$/g,
       "");
+}
+
+/*
+ * =====================================================
+ * TYPE + CATEGORY AUTO DETECTION
+ * =====================================================
+ *
+ * Default:
+ *
+ * type     = latest-job
+ * category = latest-jobs
+ *
+ * Title ke keyword ke basis par override hoga.
+ */
+export function setTypeAndCategory(
+  job: any,
+  template: any
+) {
+  const title =
+    String(
+      job?.title || ""
+    )
+      .toLowerCase()
+      .replace(
+        /[-_/]+/g,
+        " "
+      )
+      .replace(
+        /\s+/g,
+        " "
+      )
+      .trim();
+
+  /*
+   * DEFAULT
+   *
+   * Agar koi special keyword nahi mila
+   * to ye values rahengi.
+   */
+  let type =
+    "latest-job";
+
+  let category =
+    "latest-jobs";
+
+  /*
+   * =================================================
+   * PRIORITY 1: ANSWER KEY
+   * =================================================
+   *
+   * "Answer Key"
+   * "AnswerKey"
+   * "Answer-Key"
+   */
+  if (
+    /\banswer\s*key\b/i.test(
+      title
+    ) ||
+    /\banswerkey\b/i.test(
+      title
+    )
+  ) {
+    type =
+      "answer-key";
+
+    category =
+      "answer-key";
+  }
+
+  /*
+   * =================================================
+   * PRIORITY 2: ADMIT CARD
+   * =================================================
+   */
+  else if (
+    /\badmit\s*card\b/i.test(
+      title
+    ) ||
+    /\badmitcard\b/i.test(
+      title
+    )
+  ) {
+    type =
+      "admit-card";
+
+    category =
+      "admit-card";
+  }
+
+  /*
+   * =================================================
+   * PRIORITY 3: RESULT
+   * =================================================
+   */
+  else if (
+    /\bresult\b/i.test(
+      title
+    ) ||
+    /\bresults\b/i.test(
+      title
+    )
+  ) {
+    type =
+      "result";
+
+    category =
+      "results";
+  }
+
+  /*
+   * =================================================
+   * PRIORITY 4: ADMISSION
+   * =================================================
+   */
+  else if (
+    /\badmission\b/i.test(
+      title
+    )
+  ) {
+    type =
+      "admission";
+
+    category =
+      "admission";
+  }
+
+  /*
+   * =================================================
+   * PRIORITY 5: IMPORTANT
+   * =================================================
+   */
+  else if (
+    /\bimportant\b/i.test(
+      title
+    )
+  ) {
+    type =
+      "important";
+
+    category =
+      "important";
+  }
+
+  /*
+   * =================================================
+   * Existing keys ko hi update karo.
+   *
+   * New key create nahi hogi.
+   * =================================================
+   */
+  if (
+    Object.prototype.hasOwnProperty.call(
+      template,
+      "type"
+    )
+  ) {
+    job.type =
+      type;
+  }
+
+  if (
+    Object.prototype.hasOwnProperty.call(
+      template,
+      "category"
+    )
+  ) {
+    job.category =
+      category;
+  }
+
+  return job;
 }

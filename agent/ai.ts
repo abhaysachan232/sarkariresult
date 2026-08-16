@@ -42,14 +42,10 @@ function cleanJson(
 }
 
 /*
- * AI agar extra keys add kare to
- * remove kar deta hai.
+ * AI ke extra keys remove karta hai.
  *
- * Missing keys ke liye template ki
- * existing value preserve hoti hai.
- *
- * IMPORTANT:
- * Koi new key create nahi hoti.
+ * Template ki missing keys preserve
+ * karta hai.
  */
 function normalizeToTemplate(
   template: any,
@@ -69,20 +65,12 @@ function normalizeToTemplate(
       );
     }
 
-    /*
-     * Empty array ke andar
-     * koi structure defined nahi hai.
-     */
     if (
       template.length === 0
     ) {
       return result;
     }
 
-    /*
-     * Template ke first item ko
-     * structure ke liye use karo.
-     */
     return result.map(
       (item) =>
         normalizeToTemplate(
@@ -97,8 +85,7 @@ function normalizeToTemplate(
    */
   if (
     template !== null &&
-    typeof template ===
-      "object"
+    typeof template === "object"
   ) {
     const output: any = {};
 
@@ -119,11 +106,6 @@ function normalizeToTemplate(
           key
         );
 
-      /*
-       * Key missing hai to
-       * template wali existing value
-       * preserve karo.
-       */
       if (!exists) {
         output[key] =
           structuredClone(
@@ -153,10 +135,6 @@ function normalizeToTemplate(
     return template;
   }
 
-  /*
-   * Type mismatch hone par
-   * template ka original type/value.
-   */
   if (
     typeof result !==
     typeof template
@@ -173,21 +151,11 @@ function parseJSON(
   const cleaned =
     cleanJson(output);
 
-  /*
-   * Direct JSON
-   */
   try {
     return JSON.parse(
       cleaned
     );
   } catch {
-    /*
-     * Kabhi-kabhi model JSON ke
-     * around extra text de deta hai.
-     *
-     * Sirf outermost JSON object
-     * extract karne ki koshish.
-     */
     const start =
       cleaned.indexOf("{");
 
@@ -206,11 +174,7 @@ function parseJSON(
             end + 1
           )
         );
-      } catch {
-        throw new Error(
-          "Hugging Face response is not valid JSON"
-        );
-      }
+      } catch {}
     }
 
     throw new Error(
@@ -240,7 +204,7 @@ Use ONLY the supplied official webpage.
 
 Do NOT use:
 - PDF
-- other websites
+- another website
 - external knowledge
 - guesses
 - assumptions
@@ -261,6 +225,69 @@ Only use information supported by the
 supplied webpage.
 
 ==================================================
+SOURCE WEBSITE BRANDING RULE
+==================================================
+
+The source website is ONLY being used
+as a source of information.
+
+NEVER mention the source website in the
+generated content.
+
+NEVER write:
+
+sarkariresult.com.cm
+
+SarkariResult.com.cm
+
+Sarkari Result
+
+SarkariResult
+
+NEVER write sentences such as:
+
+"According to SarkariResult..."
+
+"As per SarkariResult..."
+
+"Visit SarkariResult..."
+
+"Source: SarkariResult..."
+
+"Read more on SarkariResult..."
+
+Do NOT put the source website URL into
+the article.
+
+Do NOT create links pointing to the
+source website.
+
+The destination website should contain
+original content without source-site
+branding.
+
+IMPORTANT:
+
+Actual official links found on the
+webpage MAY be retained when they are
+genuine official links for:
+
+- application
+- registration
+- result
+- admit card
+- answer key
+- official notification
+- official website
+
+Examples of legitimate official domains
+may include government or examination
+organization domains.
+
+Do NOT replace an official link with
+the source website link.
+
+==================================================
 JSON STRUCTURE RULES
 ==================================================
 
@@ -269,68 +296,58 @@ Return exactly ONE JSON object.
 The JSON structure MUST be identical
 to the supplied TEMPLATE.
 
-VERY IMPORTANT:
+Rules:
 
 1. Do NOT add any new key.
 2. Do NOT remove any existing key.
 3. Do NOT rename any key.
-4. Preserve every nested object.
-5. Preserve every array.
-6. Preserve the exact existing field names.
-7. Preserve the existing value types.
+4. Preserve nested objects.
+5. Preserve arrays.
+6. Preserve exact field names.
+7. Preserve existing value types.
 8. Do not create new fields.
 9. Do not create new nested fields.
 10. Do not create an "article" key unless
-    "article" already exists in the template.
-11. Do not create any key just because
-    the webpage contains additional information.
+    it already exists in the template.
 
-The LAST OBJECT of jobs.json is being
-provided as the TEMPLATE.
+The LAST OBJECT of jobs.json is the
+TEMPLATE.
 
-You MUST follow that template exactly.
+Follow it exactly.
 
 ==================================================
 ARTICLE RULES
 ==================================================
 
 The complete article must be written
-inside the EXISTING:
+inside the existing:
 
 content[1].body
 
 field.
 
-IMPORTANT:
-
-content[1].body already exists in the
-template.
-
-Write the article there.
+This field already exists in the template.
 
 Do NOT create another article field.
 
 Do NOT create another body field.
 
-Do NOT create a new key.
-
 Do NOT put the article in another field.
 
-Write a detailed, useful and original article
-based ONLY on the supplied official webpage.
+Write detailed and useful original content
+based ONLY on the supplied webpage.
 
-Do not make the article an unnecessarily
-short summary.
+Do not make it an unnecessarily short
+summary.
 
-Use all relevant information available on
-the webpage.
+Use all relevant factual information
+available on the webpage.
 
-Where supported by the source, explain:
+Where supported, explain:
 
 - Introduction
 - Recruitment / Result / Answer Key overview
 - Important Dates
-- Application / Examination details
 - Eligibility
 - Qualification
 - Age Limit
@@ -346,15 +363,16 @@ Where supported by the source, explain:
 - FAQs
 - Conclusion
 
-Only include factual information that is
-supported by the webpage.
+Only include information supported by
+the webpage.
 
-If some information is unavailable,
-do NOT invent it.
+If a detail is unavailable, do NOT invent it.
 
 Do NOT use PDF information.
 
-Do NOT use information from another website.
+Do NOT use another website.
+
+Do NOT mention the source website.
 
 Do NOT mention that you are an AI.
 
@@ -396,13 +414,13 @@ Return ONLY the JSON object.
 
 No markdown.
 
-No explanation.
-
 No code fence.
 
-No text before the JSON.
+No explanation.
 
-No text after the JSON.
+No text before JSON.
+
+No text after JSON.
 `;
 }
 
@@ -441,12 +459,11 @@ async function callAI(
 }
 
 /*
- * Main extraction function.
+ * Main AI extraction.
+ *
+ * No word-count validation.
  *
  * Maximum 3 attempts.
- *
- * IMPORTANT:
- * Yahan word-count validation nahi hai.
  */
 export async function extractJob(
   webpage: string,
@@ -480,10 +497,9 @@ export async function extractJob(
         );
 
       /*
-       * AI ke extra keys remove.
+       * Extra keys remove.
        *
-       * Template ki missing keys
-       * preserve.
+       * Missing keys restore from template.
        */
       const result =
         normalizeToTemplate(
@@ -514,9 +530,6 @@ export async function extractJob(
         continue;
       }
 
-      /*
-       * SUCCESS
-       */
       console.log(
         "AI extraction successful"
       );
