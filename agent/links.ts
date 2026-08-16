@@ -9,7 +9,7 @@ const KEYWORDS = [
   "admit card",
   "result",
   "answer key",
-  "exam date",
+  "exam",
   "syllabus",
   "scholarship",
   "teacher",
@@ -39,18 +39,32 @@ const IGNORE = [
   "apple app",
 ];
 
-function normalize(text: string) {
+type SourceLink = {
+  text: string;
+  href: string;
+};
+
+function normalize(
+  text: string
+) {
   return text
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function isPdf(url: string) {
-  return /\.pdf(?:$|\?)/i.test(url);
+function isPdf(
+  url: string
+) {
+  return /\.pdf(?:$|\?)/i.test(
+    url
+  );
 }
 
-function isRelevantText(text: string) {
-  const value = text.toLowerCase();
+function isRelevant(
+  text: string
+) {
+  const value =
+    text.toLowerCase();
 
   if (
     IGNORE.some((item) =>
@@ -60,21 +74,33 @@ function isRelevantText(text: string) {
     return false;
   }
 
-  return KEYWORDS.some((keyword) =>
-    value.includes(keyword)
+  return KEYWORDS.some(
+    (keyword) =>
+      value.includes(keyword)
   );
 }
 
-function isBlue(color: string) {
-  const numbers =
+function isBlue(
+  color: string
+) {
+  const values =
     color.match(/\d+/g);
 
-  if (!numbers || numbers.length < 3) {
+  if (
+    !values ||
+    values.length < 3
+  ) {
     return false;
   }
 
-  const [r, g, b] =
-    numbers.slice(0, 3).map(Number);
+  const [
+    r,
+    g,
+    b,
+  ] =
+    values
+      .slice(0, 3)
+      .map(Number);
 
   return (
     b > 80 &&
@@ -87,12 +113,18 @@ export async function openHomepage(
   page: Page,
   url: string
 ) {
-  await page.goto(url, {
-    waitUntil: "domcontentloaded",
-    timeout: 60000,
-  });
+  await page.goto(
+    url,
+    {
+      waitUntil:
+        "domcontentloaded",
+      timeout: 30000,
+    }
+  );
 
-  await page.waitForTimeout(1500);
+  await page.waitForTimeout(
+    1000
+  );
 }
 
 export async function getContentLinks(
@@ -100,58 +132,85 @@ export async function getContentLinks(
   sourceHost: string
 ) {
   const raw =
-    await page.locator("a").evaluateAll(
-      (anchors) =>
-        anchors.map((element) => {
-          const a =
-            element as HTMLAnchorElement;
+    await page
+      .locator("a")
+      .evaluateAll(
+        (anchors) =>
+          anchors.map(
+            (element) => {
+              const a =
+                element as HTMLAnchorElement;
 
-          const style =
-            window.getComputedStyle(a);
+              const style =
+                window.getComputedStyle(
+                  a
+                );
 
-          return {
-            text: a.textContent || "",
-            href: a.href,
-            color: style.color,
-          };
-        })
-    );
+              return {
+                text:
+                  a.textContent ||
+                  "",
+                href:
+                  a.href,
+                color:
+                  style.color,
+              };
+            }
+          )
+      );
 
-  const links: {
-    text: string;
-    href: string;
-  }[] = [];
+  const links: SourceLink[] = [];
 
-  for (const item of raw) {
+  for (
+    const item of raw
+  ) {
     const text =
-      normalize(item.text);
+      normalize(
+        item.text
+      );
 
-    const href =
-      item.href;
+    if (
+      !text ||
+      !item.href
+    ) {
+      continue;
+    }
 
-    if (!text || !href) continue;
+    if (
+      isPdf(item.href)
+    ) {
+      continue;
+    }
 
-    if (isPdf(href)) continue;
-
-    if (!isRelevantText(text)) {
+    if (
+      !isRelevant(text)
+    ) {
       continue;
     }
 
     let url: URL;
 
     try {
-      url = new URL(href);
+      url =
+        new URL(
+          item.href
+        );
     } catch {
       continue;
     }
 
     if (
-      url.hostname !== sourceHost
+      url.hostname !==
+      sourceHost
     ) {
       continue;
     }
 
-    if (!isBlue(item.color)) {
+    if (
+      !isBlue(
+        item.color
+      )
+    ) {
       continue;
     }
 
@@ -164,12 +223,19 @@ export async function getContentLinks(
   const unique =
     new Map<
       string,
-      { text: string; href: string }
+      SourceLink
     >();
 
-  for (const link of links) {
-    unique.set(link.href, link);
+  for (
+    const link of links
+  ) {
+    unique.set(
+      link.href,
+      link
+    );
   }
 
-  return [...unique.values()];
+  return [
+    ...unique.values(),
+  ];
 }

@@ -36,10 +36,10 @@ export async function saveJobs(
   );
 }
 
-/**
- * IMPORTANT:
- * New object ka template
- * ALWAYS last object hoga.
+/*
+ * NEW POST TEMPLATE
+ *
+ * ALWAYS LAST OBJECT.
  */
 export function getLastJobTemplate(
   jobs: any[]
@@ -55,23 +55,6 @@ export function getLastJobTemplate(
   );
 }
 
-export function getKeys(
-  value: any
-) {
-  if (
-    !value ||
-    typeof value !== "object"
-  ) {
-    return [];
-  }
-
-  return Object.keys(value);
-}
-
-/**
- * Recursive structure validation.
- * Koi key add/delete nahi ho sakti.
- */
 export function validateExactStructure(
   template: any,
   candidate: any,
@@ -96,7 +79,7 @@ export function validateExactStructure(
     return {
       valid: false,
       reason:
-        `${currentPath} must be an object/array`,
+        `${currentPath} must be object/array`,
     };
   }
 
@@ -105,7 +88,7 @@ export function validateExactStructure(
       return {
         valid: false,
         reason:
-          `${currentPath} must be an array`,
+          `${currentPath} must be array`,
       };
     }
 
@@ -129,7 +112,7 @@ export function validateExactStructure(
     return {
       valid: false,
       reason:
-        `${currentPath} cannot be an array`,
+        `${currentPath} cannot be array`,
     };
   }
 
@@ -150,7 +133,9 @@ export function validateExactStructure(
     };
   }
 
-  for (const key of templateKeys) {
+  for (
+    const key of templateKeys
+  ) {
     const result =
       validateExactStructure(
         template[key],
@@ -168,9 +153,6 @@ export function validateExactStructure(
   };
 }
 
-/**
- * Maximum existing ID + 1
- */
 export function getNextId(
   jobs: any[]
 ) {

@@ -6,19 +6,25 @@ import {
   validateExactStructure,
 } from "./json";
 
-const token = process.env.HF_TOKEN;
+const token =
+  process.env.HF_TOKEN;
 
 if (!token) {
-  throw new Error("HF_TOKEN is missing");
+  throw new Error(
+    "HF_TOKEN is missing"
+  );
 }
 
-const hf = new InferenceClient(token);
+const hf =
+  new InferenceClient(token);
 
 const MODEL =
   process.env.HF_MODEL ||
   "Qwen/Qwen3-4B-Instruct-2507";
 
-function cleanJson(text: string) {
+function cleanJson(
+  text: string
+) {
   return text
     .replace(/^```json\s*/i, "")
     .replace(/^```\s*/i, "")
@@ -26,7 +32,9 @@ function cleanJson(text: string) {
     .trim();
 }
 
-function countWords(text: string) {
+function countWords(
+  text: string
+) {
   return text
     .trim()
     .split(/\s+/)
@@ -34,14 +42,21 @@ function countWords(text: string) {
     .length;
 }
 
-function extractText(value: any): string {
-  if (typeof value === "string") {
+function extractText(
+  value: any
+): string {
+  if (
+    typeof value ===
+    "string"
+  ) {
     return value;
   }
 
-  if (Array.isArray(value)) {
+  if (
+    Array.isArray(value)
+  ) {
     return value
-      .map((item) => extractText(item))
+      .map(extractText)
       .join(" ");
   }
 
@@ -50,18 +65,132 @@ function extractText(value: any): string {
     typeof value === "object"
   ) {
     return Object.values(value)
-      .map((item) => extractText(item))
+      .map(extractText)
       .join(" ");
   }
 
   return "";
 }
 
-function parseJSON(output: string) {
-  const cleaned = cleanJson(output);
+/**
+ * AI ke returned object ko
+ * LAST OBJECT ke exact structure
+ * mein convert karta hai.
+ *
+ * AI koi extra key de:
+ * -> ignore
+ *
+ * AI key miss kare:
+ * -> template value
+ *
+ * Nested object bhi preserve hota hai.
+ */
+function normalizeToTemplate(
+  template: any,
+  result: any
+): any {
+  if (
+    Array.isArray(template)
+  ) {
+    if (
+      !Array.isArray(result)
+    ) {
+      return structuredClone(
+        template
+      );
+    }
+
+    if (
+      template.length === 0
+    ) {
+      return result;
+    }
+
+    return result.map(
+      (item, index) =>
+        normalizeToTemplate(
+          template[
+            Math.min(
+              index,
+              template.length - 1
+            )
+          ],
+          item
+        )
+    );
+  }
+
+  if (
+    template !== null &&
+    typeof template === "object"
+  ) {
+    const output: any = {};
+
+    for (
+      const key of Object.keys(
+        template
+      )
+    ) {
+      const templateValue =
+        template[key];
+
+      const resultValue =
+        result &&
+        typeof result === "object" &&
+        !Array.isArray(result) &&
+        Object.prototype.hasOwnProperty.call(
+          result,
+          key
+        )
+          ? result[key]
+          : undefined;
+
+      if (
+        resultValue === undefined
+      ) {
+        output[key] =
+          structuredClone(
+            templateValue
+          );
+      } else {
+        output[key] =
+          normalizeToTemplate(
+            templateValue,
+            resultValue
+          );
+      }
+    }
+
+    return output;
+  }
+
+  if (
+    result === null ||
+    result === undefined
+  ) {
+    return template;
+  }
+
+  if (
+    typeof result !==
+    typeof template
+  ) {
+    return template;
+  }
+
+  return result;
+}
+
+function parseJSON(
+  output: string
+) {
+  const cleaned =
+    cleanJson(output);
 
   try {
-    return JSON.parse(cleaned);
+    return JSON.parse(
+      cleaned
+    );
   } catch {
     throw new Error(
       "Hugging Face response is not valid JSON"
@@ -76,68 +205,52 @@ async function generateJob(
 ) {
   const prompt = `
 You are an expert government recruitment
-data extraction and article writing agent.
+information extraction and original article
+writing agent.
 
-SOURCE URL:
+OFFICIAL SOURCE:
 ${sourceUrl}
 
-==================================================
-SOURCE RULES
-==================================================
+RULES:
 
-Use ONLY the supplied webpage content.
+1. Use ONLY supplied webpage content.
+2. Do NOT use another website.
+3. Do NOT use PDF content.
+4. Do NOT invent facts.
+5. Do NOT guess facts.
+6. Do NOT guess dates.
+7. Do NOT guess vacancies.
+8. Do NOT guess fees.
+9. Do NOT guess eligibility.
+10. Do NOT guess salary.
+11. Do NOT invent links.
 
-Do NOT:
-- use any other website
-- use PDF content
-- invent facts
-- guess facts
-- invent dates
-- invent vacancies
-- invent fees
-- invent eligibility
-- invent salary
-- invent links
-
-If a fact is not present in the webpage,
-do not invent it.
-
-==================================================
-JSON RULES
-==================================================
+JSON RULES:
 
 Return exactly ONE JSON object.
 
-The returned object MUST have exactly
-the same structure as TEMPLATE.
+The object must follow the TEMPLATE.
 
-You MUST:
+Do not add keys.
+Do not remove keys.
+Do not rename keys.
 
-- keep every key
-- never add a key
-- never remove a key
-- never rename a key
-- preserve nested objects
-- preserve arrays
-- preserve data types
+ARTICLE RULES:
 
-==================================================
-ARTICLE RULES
-==================================================
+Write an ORIGINAL article.
 
-Create a completely ORIGINAL article.
+Minimum:
+1000 words.
 
-Minimum length: 1000 words.
+Target:
+1000-1500 words.
 
-Target length: 1000-1500 words.
+Do not copy sentences or paragraphs
+from the source.
 
-The article must NOT copy sentences
-or paragraphs from the source.
+Use original wording.
 
-Rewrite the information naturally.
-
-The article should cover, when information
-exists in the source:
+Cover information where available:
 
 - Introduction
 - Recruitment overview
@@ -156,16 +269,10 @@ exists in the source:
 - FAQs
 - Conclusion
 
-Do NOT repeat meaningless text just
-to reach 1000 words.
+Never invent information just to reach
+1000 words.
 
-Do NOT fabricate information.
-
-Do NOT mention AI.
-
-==================================================
-TEMPLATE
-==================================================
+TEMPLATE:
 
 ${JSON.stringify(
   template,
@@ -173,9 +280,7 @@ ${JSON.stringify(
   2
 )}
 
-==================================================
-WEBPAGE
-==================================================
+WEBPAGE CONTENT:
 
 ${webpage}
 `;
@@ -206,69 +311,9 @@ ${webpage}
     );
   }
 
-  return parseJSON(output);
-}
-
-async function expandArticle(
-  job: any,
-  currentWords: number
-) {
-  const articleText =
-    extractText(job.content);
-
-  const prompt = `
-You are editing a government recruitment
-article.
-
-The current article contains approximately
-${currentWords} words.
-
-Rewrite/expand it to at least 1000 words.
-
-IMPORTANT:
-
-1. Do not invent facts.
-2. Do not add unsupported information.
-3. Keep all existing factual information.
-4. Do not copy source wording.
-5. Use original wording.
-6. Do not remove important information.
-7. Return ONLY the updated article content.
-8. Minimum 1000 words.
-9. Do not mention AI.
-
-CURRENT ARTICLE:
-
-${articleText}
-`;
-
-  const response =
-    await hf.chatCompletion({
-      model: MODEL,
-
-      messages: [
-        {
-          role: "user",
-          content: prompt,
-        },
-      ],
-
-      max_tokens: 10000,
-
-      temperature: 0.2,
-    });
-
-  const output =
-    response.choices?.[0]
-      ?.message?.content;
-
-  if (!output) {
-    throw new Error(
-      "Article expansion returned empty response"
-    );
-  }
-
-  return output.trim();
+  return parseJSON(
+    output
+  );
 }
 
 export async function extractJob(
@@ -276,7 +321,7 @@ export async function extractJob(
   sourceUrl: string,
   template: any
 ) {
-  let result =
+  const rawResult =
     await generateJob(
       webpage,
       sourceUrl,
@@ -284,9 +329,19 @@ export async function extractJob(
     );
 
   /*
-   * Exact JSON structure check
+   * Force AI result into
+   * LAST OBJECT structure.
    */
-  let validation =
+  const result =
+    normalizeToTemplate(
+      template,
+      rawResult
+    );
+
+  /*
+   * Exact structure validation.
+   */
+  const validation =
     validateExactStructure(
       template,
       result
@@ -299,88 +354,23 @@ export async function extractJob(
   }
 
   /*
-   * Article word count
+   * Article validation.
    */
-  let article =
-    extractText(result.content);
+  const article =
+    extractText(
+      result.content
+    );
 
-  let words =
+  const words =
     countWords(article);
 
   console.log(
-    `Initial article word count: ${words}`
+    `Article word count: ${words}`
   );
 
-  /*
-   * If article is below 1000 words,
-   * ask AI to expand it.
-   */
-  if (words < 1000) {
-    console.log(
-      "Article below 1000 words. Expanding..."
-    );
-
-    const expanded =
-      await expandArticle(
-        result,
-        words
-      );
-
-    /*
-     * IMPORTANT:
-     * Existing content structure must
-     * remain unchanged.
-     *
-     * For simple string content:
-     */
-    if (
-      typeof result.content ===
-      "string"
-    ) {
-      result.content =
-        expanded;
-    } else {
-      /*
-       * For array/object content,
-       * we do not blindly replace it.
-       */
-      throw new Error(
-        "content is not a string; content mapping must match the jobs.json structure"
-      );
-    }
-
-    article =
-      extractText(result.content);
-
-    words =
-      countWords(article);
-
-    console.log(
-      `Expanded article word count: ${words}`
-    );
-  }
-
-  /*
-   * Final hard check
-   */
   if (words < 1000) {
     throw new Error(
-      `Article is still below 1000 words: ${words}`
-    );
-  }
-
-  /*
-   * Final exact structure check
-   */
-  validation =
-    validateExactStructure(
-      template,
-      result
-    );
-
-  if (!validation.valid) {
-    throw new Error(
-      `Final structure validation failed: ${validation.reason}`
+      `Article is below 1000 words: ${words}`
     );
   }
 

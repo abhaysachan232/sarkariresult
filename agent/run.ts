@@ -15,6 +15,7 @@ import {
   detectChanges,
   saveProcessedJob,
   getProcessedJob,
+  markSuccessfulRun,
 } from "./snapshot";
 
 import {
@@ -42,75 +43,80 @@ async function clickChangedLink(
   href: string
 ) {
   if (
-    /\.pdf(?:$|\?)/i.test(href)
+    /\.pdf(?:$|\?)/i.test(
+      href
+    )
   ) {
     throw new Error(
       "PDF link ignored"
     );
   }
 
+  const homepageUrl =
+    page.url();
+
   const target =
     new URL(href).href;
 
   const link =
-    page.locator(
-      `a[href="${target}"]`
-    ).first();
+    page
+      .locator(
+        `a[href="${target}"]`
+      )
+      .first();
 
   if (
     await link.count() === 0
   ) {
     throw new Error(
-      `Link not found on homepage: ${target}`
+      `Link not found: ${target}`
     );
   }
 
   await link.scrollIntoViewIfNeeded();
 
-  const currentUrl =
-    page.url();
-
-  let newPage:
+  let popup:
     | Page
     | null = null;
 
-  try {
-    const popupPromise =
-      page
-        .context()
-        .waitForEvent(
-          "page",
-          {
-            timeout: 3000,
-          }
-        )
-        .catch(() => null);
+  const popupPromise =
+    page
+      .context()
+      .waitForEvent(
+        "page",
+        {
+          timeout: 3000,
+        }
+      )
+      .catch(
+        () => null
+      );
 
+  try {
     await link.click({
       timeout: 30000,
     });
-
-    newPage =
-      await popupPromise;
-  } catch {
-    // click may navigate normally
+  } catch (error) {
+    throw new Error(
+      `Unable to click link: ${target}`
+    );
   }
+
+  popup =
+    await popupPromise;
 
   const detailPage =
-    newPage || page;
+    popup || page;
 
-  if (newPage) {
-    await newPage.waitForLoadState(
-      "domcontentloaded"
-    );
-  } else {
-    await page.waitForLoadState(
-      "domcontentloaded"
-    );
-  }
+  await detailPage.waitForLoadState(
+    "domcontentloaded",
+    {
+      timeout: 30000,
+    }
+  );
 
   await detailPage.waitForTimeout(
-    1200
+    1000
   );
 
   const finalUrl =
@@ -121,8 +127,8 @@ async function clickChangedLink(
       finalUrl
     )
   ) {
-    if (newPage) {
-      await newPage.close();
+    if (popup) {
+      await popup.close();
     }
 
     throw new Error(
@@ -130,28 +136,24 @@ async function clickChangedLink(
     );
   }
 
-  const title =
-    await detailPage.title();
-
   const content =
     await detailPage
       .locator("body")
       .innerText();
 
-  // If normal same-tab navigation happened,
-  // return page to homepage before next link.
-  if (!newPage) {
+  const title =
+    await detailPage.title();
+
+  if (popup) {
+    await popup.close();
+  } else {
     await page.goto(
-      currentUrl,
+      homepageUrl,
       {
         waitUntil:
           "domcontentloaded",
-        timeout: 60000,
+        timeout: 30000,
       }
-    );
-
-    await page.waitForTimeout(
-      500
     );
   }
 
@@ -160,15 +162,17 @@ async function clickChangedLink(
     url: finalUrl,
     content:
       content
-        .replace(/\s+/g, " ")
+        .replace(
+          /\s+/g,
+          " "
+        )
         .trim(),
   };
 }
 
 function applyGeneratedMetadata(
   candidate: any,
-  jobs: any[],
-  sourceUrl: string
+  jobs: any[]
 ) {
   const nextId =
     getNextId(jobs);
@@ -176,18 +180,14 @@ function applyGeneratedMetadata(
   const title =
     String(
       candidate?.title ||
-      candidate?.setPath ||
       "government-job"
     );
 
-  candidate.id = nextId;
+  candidate.id =
+    nextId;
 
   candidate.slug =
     makeSlug(title);
-
-  candidate.setPath =
-    candidate.setPath ||
-    title;
 
   candidate.updatedon =
     new Date()
@@ -229,7 +229,7 @@ export async function runAgent() {
 
       try {
         console.log(
-          `\n========== ${source.name} ==========`
+          `========== ${source.name} ==========`
         );
 
         await openHomepage(
@@ -266,7 +266,11 @@ export async function runAgent() {
           changes.firstRun
         ) {
           console.log(
-            "First run: snapshot created. No links processed."
+            "FIRST RUN: baseline snapshot created."
+          );
+
+          console.log(
+            "No existing links will be processed."
           );
 
           continue;
@@ -279,15 +283,21 @@ export async function runAgent() {
           `Changed/New links: ${changes.changed.length}`
         );
 
+        /*
+         * IMPORTANT:
+         *
+         * Process sequentially.
+         * This prevents many simultaneous
+         * HF requests.
+         */
         for (
           const link of changes.changed
         ) {
           try {
             console.log(
-              `\nNEW/CHANGED LINK: ${link.text}`
+              `NEW/CHANGED LINK: ${link.text}`
             );
 
-            // PDF completely disabled.
             if (
               /\.pdf(?:$|\?)/i.test(
                 link.href
@@ -317,22 +327,19 @@ export async function runAgent() {
               );
 
             /*
-             * NEW OBJECT:
-             * ALWAYS LAST OBJECT TEMPLATE
+             * NEW TEMPLATE:
+             *
+             * ALWAYS LAST OBJECT.
              */
-            const newTemplate =
+            const template =
               getLastJobTemplate(
                 jobs
               );
 
             /*
-             * Existing URL mapping.
-             *
-             * If this homepage link was
-             * previously processed, use
-             * the mapped job ID.
+             * Existing source mapping.
              */
-            const mappedJob =
+            const mapped =
               await getProcessedJob(
                 snapshotFile,
                 source.id,
@@ -342,18 +349,16 @@ export async function runAgent() {
             let existingIndex =
               -1;
 
-            if (mappedJob) {
+            if (mapped) {
               existingIndex =
                 findJobById(
                   jobs,
-                  mappedJob.jobId
+                  mapped.jobId
                 );
             }
 
             /*
-             * If no URL mapping exists,
-             * AI extracts candidate from
-             * LAST OBJECT structure.
+             * AI extraction + article.
              */
             const candidate =
               await extractJob(
@@ -362,12 +367,13 @@ export async function runAgent() {
                   CONFIG.maxContentLength
                 ),
                 detail.url,
-                newTemplate
+                template
               );
 
             /*
-             * Try title + organization
-             * only if URL mapping didn't find it.
+             * If URL mapping didn't find
+             * existing job, title+organization
+             * matching.
              */
             if (
               existingIndex === -1
@@ -380,26 +386,21 @@ export async function runAgent() {
             }
 
             /*
-             * UPDATE
+             * =========================
+             * UPDATE EXISTING
+             * =========================
              */
             if (
               existingIndex !== -1
             ) {
-              /*
-               * IMPORTANT:
-               * Existing object's own
-               * structure is preserved.
-               *
-               * AI output is accepted only
-               * if it has exactly the same
-               * structure as the existing job.
-               */
-              const existingJob =
-                jobs[existingIndex];
+              const existing =
+                jobs[
+                  existingIndex
+                ];
 
               const validation =
                 validateExactStructure(
-                  existingJob,
+                  existing,
                   candidate
                 );
 
@@ -412,24 +413,25 @@ export async function runAgent() {
               }
 
               /*
-               * Preserve ID and slug.
+               * Existing identity preserve.
                */
               candidate.id =
-                existingJob.id;
+                existing.id;
 
               candidate.slug =
-                existingJob.slug;
+                existing.slug;
 
               candidate.setPath =
-                existingJob.setPath;
+                existing.setPath;
 
               candidate.updatedon =
                 new Date()
                   .toISOString()
                   .slice(0, 10);
 
-              jobs[existingIndex] =
-                candidate;
+              jobs[
+                existingIndex
+              ] = candidate;
 
               await saveJobs(
                 jobsFile,
@@ -440,8 +442,8 @@ export async function runAgent() {
                 snapshotFile,
                 source.id,
                 link.href,
-                existingJob.id,
-                existingJob.slug || ""
+                existing.id,
+                existing.slug || ""
               );
 
               result.updatedJobs++;
@@ -450,18 +452,29 @@ export async function runAgent() {
                 `UPDATED: ${candidate.title}`
               );
 
+              /*
+               * Mark this homepage state
+               * as successful only after
+               * processing.
+               */
+              await markSuccessfulRun(
+                snapshotFile,
+                source.id,
+                links
+              );
+
               continue;
             }
 
             /*
-             * NEW
-             *
-             * Candidate MUST match
-             * LAST OBJECT structure.
+             * =========================
+             * NEW OBJECT
+             * =========================
              */
+
             const validation =
               validateExactStructure(
-                newTemplate,
+                template,
                 candidate
               );
 
@@ -476,18 +489,12 @@ export async function runAgent() {
             const newJob =
               applyGeneratedMetadata(
                 candidate,
-                jobs,
-                detail.url
+                jobs
               );
 
-            /*
-             * Ensure generated object
-             * still has exact last-object
-             * structure.
-             */
             const finalValidation =
               validateExactStructure(
-                newTemplate,
+                template,
                 newJob
               );
 
@@ -495,11 +502,13 @@ export async function runAgent() {
               !finalValidation.valid
             ) {
               throw new Error(
-                `Final NEW structure mismatch: ${finalValidation.reason}`
+                `Final structure mismatch: ${finalValidation.reason}`
               );
             }
 
-            jobs.push(newJob);
+            jobs.push(
+              newJob
+            );
 
             await saveJobs(
               jobsFile,
@@ -519,13 +528,30 @@ export async function runAgent() {
             console.log(
               `NEW: ${newJob.title}`
             );
+
+            /*
+             * Only after successful processing
+             * update homepage snapshot.
+             */
+            await markSuccessfulRun(
+              snapshotFile,
+              source.id,
+              links
+            );
           } catch (error: any) {
+            /*
+             * IMPORTANT:
+             * Do NOT mark this link successful.
+             *
+             * Therefore it can be retried
+             * on next run.
+             */
             result.errors.push(
               `${source.name} | ${link.href} | ${error.message}`
             );
 
             console.error(
-              error
+              `ERROR: ${error.message}`
             );
           }
         }
@@ -546,7 +572,7 @@ export async function runAgent() {
   }
 
   console.log(
-    "\n========== AGENT RESULT =========="
+    "========== AGENT RESULT =========="
   );
 
   console.log(

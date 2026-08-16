@@ -35,7 +35,14 @@ async function readSnapshot(
   });
 
   try {
-    const text = await fs.readFile(file, "utf8");
+    const text = await fs.readFile(
+      file,
+      "utf8"
+    );
+
+    if (!text.trim()) {
+      return {};
+    }
 
     return JSON.parse(text);
   } catch {
@@ -58,36 +65,41 @@ async function saveSnapshot(
   );
 }
 
-/**
- * Homepage ke current links ko
- * previous snapshot se compare karta hai.
- *
- * First run:
- * - current links save honge
- * - koi link process nahi hoga
- *
- * Next runs:
- * - NEW link detect hoga
- * - text changed hua to CHANGED detect hoga
- */
 export async function detectChanges(
   file: string,
   sourceId: string,
   currentLinks: SourceLink[]
 ) {
-  const snapshot = await readSnapshot(file);
+  const snapshot =
+    await readSnapshot(file);
 
-  const previous = snapshot[sourceId];
+  const previous =
+    snapshot[sourceId];
 
-  // First run
-  if (!previous) {
+  /*
+   * FIRST RUN
+   *
+   * Existing homepage links become baseline.
+   * Nothing gets processed.
+   */
+  if (
+    !previous ||
+    !previous.checkedAt
+  ) {
     snapshot[sourceId] = {
-      checkedAt: new Date().toISOString(),
+      checkedAt:
+        new Date().toISOString(),
+
       links: currentLinks,
-      processed: {},
+
+      processed:
+        previous?.processed || {},
     };
 
-    await saveSnapshot(file, snapshot);
+    await saveSnapshot(
+      file,
+      snapshot
+    );
 
     return {
       firstRun: true,
@@ -95,9 +107,12 @@ export async function detectChanges(
     };
   }
 
-  const previousHashes = new Map<string, string>();
+  const previousHashes =
+    new Map<string, string>();
 
-  for (const link of previous.links || []) {
+  for (
+    const link of previous.links || []
+  ) {
     previousHashes.set(
       link.href,
       hashLink(link)
@@ -106,32 +121,45 @@ export async function detectChanges(
 
   const changed: SourceLink[] = [];
 
-  for (const link of currentLinks) {
-    const currentHash = hashLink(link);
-    const previousHash =
-      previousHashes.get(link.href);
+  for (
+    const link of currentLinks
+  ) {
+    const currentHash =
+      hashLink(link);
 
-    // New link
+    const previousHash =
+      previousHashes.get(
+        link.href
+      );
+
+    /*
+     * New link
+     */
     if (!previousHash) {
       changed.push(link);
       continue;
     }
 
-    // Existing URL but link text changed
-    if (previousHash !== currentHash) {
+    /*
+     * Existing URL but text changed
+     */
+    if (
+      previousHash !==
+      currentHash
+    ) {
       changed.push(link);
     }
   }
 
-  snapshot[sourceId] = {
-    checkedAt: new Date().toISOString(),
-    links: currentLinks,
-
-    // Existing processed mapping preserve rahegi
-    processed: previous.processed || {},
-  };
-
-  await saveSnapshot(file, snapshot);
+  /*
+   * IMPORTANT:
+   *
+   * We DON'T immediately overwrite
+   * the previous links here.
+   *
+   * run.ts will update snapshot only
+   * after successful processing.
+   */
 
   return {
     firstRun: false,
@@ -140,8 +168,38 @@ export async function detectChanges(
 }
 
 /**
- * Process hone ke baad source URL ko
- * jobs.json ke object se map karta hai.
+ * Successful processing ke baad
+ * homepage state save karta hai.
+ */
+export async function markSuccessfulRun(
+  file: string,
+  sourceId: string,
+  currentLinks: SourceLink[]
+) {
+  const snapshot =
+    await readSnapshot(file);
+
+  const previous =
+    snapshot[sourceId];
+
+  snapshot[sourceId] = {
+    checkedAt:
+      new Date().toISOString(),
+
+    links: currentLinks,
+
+    processed:
+      previous?.processed || {},
+  };
+
+  await saveSnapshot(
+    file,
+    snapshot
+  );
+}
+
+/**
+ * Source URL → jobs.json object mapping
  */
 export async function saveProcessedJob(
   file: string,
@@ -150,11 +208,12 @@ export async function saveProcessedJob(
   jobId: number | string,
   slug: string
 ) {
-  const snapshot = await readSnapshot(file);
+  const snapshot =
+    await readSnapshot(file);
 
   if (!snapshot[sourceId]) {
     snapshot[sourceId] = {
-      checkedAt: new Date().toISOString(),
+      checkedAt: "",
       links: [],
       processed: {},
     };
@@ -165,21 +224,23 @@ export async function saveProcessedJob(
     slug,
   };
 
-  await saveSnapshot(file, snapshot);
+  await saveSnapshot(
+    file,
+    snapshot
+  );
 }
 
-/**
- * Check karta hai ki source URL pehle process hua hai ya nahi.
- */
 export async function getProcessedJob(
   file: string,
   sourceId: string,
   href: string
 ) {
-  const snapshot = await readSnapshot(file);
+  const snapshot =
+    await readSnapshot(file);
 
   return (
-    snapshot[sourceId]?.processed?.[href] ||
+    snapshot[sourceId]
+      ?.processed?.[href] ||
     null
   );
 }

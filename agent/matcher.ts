@@ -1,10 +1,18 @@
 function normalize(
   value: unknown
 ) {
-  return String(value ?? "")
-    .replace(/<[^>]*>/g, "")
+  return String(
+    value ?? ""
+  )
+    .replace(
+      /<[^>]*>/g,
+      ""
+    )
     .toLowerCase()
-    .replace(/\s+/g, " ")
+    .replace(
+      /\s+/g,
+      " "
+    )
     .trim();
 }
 
@@ -23,41 +31,30 @@ export function findExistingJob(
   jobs: any[],
   candidate: any
 ) {
-  const candidateTitle =
+  const title =
     normalize(
       candidate?.title
     );
 
-  const candidateOrg =
+  const organization =
     normalize(
       candidate?.organization
     );
 
-  if (
-    !candidateTitle
-  ) {
+  if (!title) {
     return -1;
   }
 
   return jobs.findIndex(
     (job) => {
-      const title =
-        normalize(job?.title);
-
-      const organization =
+      return (
+        normalize(
+          job?.title
+        ) === title &&
         normalize(
           job?.organization
-        );
-
-      if (
-        title === candidateTitle &&
-        candidateOrg &&
-        organization === candidateOrg
-      ) {
-        return true;
-      }
-
-      return false;
+        ) === organization
+      );
     }
   );
 }

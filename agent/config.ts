@@ -1,11 +1,6 @@
 export const CONFIG = {
   sources: [
     {
-      id: "sarkariresult-com",
-      name: "sarkariresult.com",
-      url: "https://sarkariresult.com/",
-    },
-    {
       id: "sarkariresult-com-cm",
       name: "sarkariresult.com.cm",
       url: "https://sarkariresult.com.cm/",
