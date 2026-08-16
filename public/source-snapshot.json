@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-16T17:25:53.945Z",
+    "checkedAt": "2026-08-16T17:45:02.623Z",
     "links": [
       {
         "text": "NTA CSIR UGC NET June Answer Key 2026 – Out",
@@ -573,6 +573,56 @@
         "jobId": 110,
         "slug": "upsssc-lower-pcs-exam-city-details-2026-released",
         "processedAt": "2026-08-16T17:25:53.944Z"
+      },
+      "https://sarkariresult.com.cm/bpsc-exam-calendar-2026/": {
+        "jobId": 111,
+        "slug": "bpsc-exam-calendar-2026-released",
+        "processedAt": "2026-08-16T17:34:23.559Z"
+      },
+      "https://sarkariresult.com.cm/bhu-school-teacher-tgt-pgt-prt-principal-2026/": {
+        "jobId": 112,
+        "slug": "bhu-school-teacher-tgt-pgt-prt-principal-exam-date-2026",
+        "processedAt": "2026-08-16T17:35:31.878Z"
+      },
+      "https://sarkariresult.com.cm/uppsc-computer-assistant-2026/": {
+        "jobId": 113,
+        "slug": "uppsc-computer-assistant-typing-test-admit-card-2026",
+        "processedAt": "2026-08-16T17:36:35.328Z"
+      },
+      "https://sarkariresult.com.cm/nta-aiapget-2026/": {
+        "jobId": 114,
+        "slug": "nta-aiapget-exam-city-details-2026",
+        "processedAt": "2026-08-16T17:37:38.336Z"
+      },
+      "https://sarkariresult.com.cm/allahabad-high-court-research-associates-2026/": {
+        "jobId": 115,
+        "slug": "allahabad-high-court-research-associates-admit-card-2026",
+        "processedAt": "2026-08-16T17:38:38.191Z"
+      },
+      "https://sarkariresult.com.cm/rssb-computer-instructor-2026/": {
+        "jobId": 116,
+        "slug": "rssb-computer-instructor-exam-city-details-2026",
+        "processedAt": "2026-08-16T17:40:06.654Z"
+      },
+      "https://sarkariresult.com.cm/sbi-manager-2026/": {
+        "jobId": 117,
+        "slug": "sbi-assistant-manager-law-deputy-manager-law-admit-card-2026",
+        "processedAt": "2026-08-16T17:41:25.990Z"
+      },
+      "https://sarkariresult.com.cm/upsc-cds-2-2026/": {
+        "jobId": 118,
+        "slug": "upsc-cds-ii-exam-schedule-2026",
+        "processedAt": "2026-08-16T17:42:37.556Z"
+      },
+      "https://sarkariresult.com.cm/upsc-nda-2-2026/": {
+        "jobId": 119,
+        "slug": "upsc-nda-ii-exam-schedule-2026",
+        "processedAt": "2026-08-16T17:43:58.362Z"
+      },
+      "https://sarkariresult.com.cm/ssc-stenographer-2026/": {
+        "jobId": 120,
+        "slug": "ssc-stenographer-exam-date-2026",
+        "processedAt": "2026-08-16T17:45:02.622Z"
       }
     }
   }
