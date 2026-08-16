@@ -1,11 +1,13 @@
 // app/job/[slug]/page.tsx
 import sanitizeHtml from "sanitize-html";
 import Image from "next/image";
-import FluidAd from "@/components/fluidad";
-import InArticleAd from "@/components/inarticle";
+
 import ArticleHero from "./components/ArticleHero";
 import Breadcrumb from "./components/Breadcrumb";
 // import KeyHighlights from "./components/KeyHighlights";
+import TopLevelAd from "@/components/ads/topLevelad";
+import InArticleAd from "@/components/ads/InArticleAd";
+import BottomBanner from "@/components/ads/BottomBanner";
 
 import {
   Calendar,
@@ -356,13 +358,13 @@ validThrough: job.importantDates?.expiredDate
             </tr>
           </tbody>
         </table>
-
+<TopLevelAd instance="1" />
         {/* ================= TOP ADS ================= */}
         <div className="my-3 text-center">
-          <FluidAd />
+
         </div>
         <div className="my-3 text-center">
-          <FluidAd />
+
         </div>
 
         {/* ================= BASIC INFO ================= */}
@@ -396,10 +398,10 @@ validThrough: job.importantDates?.expiredDate
             </tr>
           </tbody>
         </table>
-
+<InArticleAd instance="1" />
         {/* ================= IN-ARTICLE AD ================= */}
         <div className="my-4">
-          <InArticleAd />
+      
         </div>
 
         {/* ================= DATES + FEE ================= */}
@@ -444,7 +446,7 @@ validThrough: job.importantDates?.expiredDate
         </table>
 
         <div className="my-4 text-center">
-          <FluidAd />
+
         </div>
 
         {/* ================= AGE + POST ================= */}
@@ -477,6 +479,7 @@ validThrough: job.importantDates?.expiredDate
             </tr>
           </tbody>
         </table>
+        <TopLevelAd instance="2" />
         {relatedJobs.length > 0 && (
           <div className="mt-6 border p-4 bg-gray-50">
             <h3 className="font-bold mb-2">You May Also Like</h3>
@@ -531,9 +534,10 @@ validThrough: job.importantDates?.expiredDate
             </tbody>
           </table>
         )}
+        <InArticleAd instance="2" />
 
         <div className="my-4 text-center">
-          <FluidAd />
+       
         </div>
 
         {/* ================= HOW TO APPLY ================= */}
@@ -571,6 +575,7 @@ validThrough: job.importantDates?.expiredDate
             </tbody>
           </table>
         )}
+        <TopLevelAd instance="3" />
 {job.links && (
   <table className="w-full border-collapse border border-gray-500 mt-4">
     <thead>
@@ -624,7 +629,7 @@ validThrough: job.importantDates?.expiredDate
     </tbody>
   </table>
 )}
-
+<InArticleAd instance="3" />
         {job.content && (
           <div className="space-y-6">
             {job.content.map((section: any, index: number) => (
@@ -659,6 +664,7 @@ validThrough: job.importantDates?.expiredDate
             ))}
           </div>
         )}
+        <BottomBanner instance="1" />
         <JobFAQFooter
           faqs={generateJobFAQs({
             title: job.title,
@@ -684,6 +690,7 @@ validThrough: job.importantDates?.expiredDate
           </ul>
         </div>
       )}
+      <BottomBanner instance="2" />
     </>
   );
 }

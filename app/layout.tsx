@@ -194,6 +194,11 @@ export default function RootLayout({
         </ThemeProvider>
         {/* <AdcashAutoTag/> */}
         {/* <MonetagAd /> */}
+
+         <Script
+    src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    strategy="afterInteractive"
+  />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4860335301065142"
