@@ -1,5 +1,10 @@
 import type { Page } from "playwright";
 
+export type SourceLink = {
+  text: string;
+  href: string;
+};
+
 const KEYWORDS = [
   "recruitment",
   "vacancy",
@@ -39,16 +44,14 @@ const IGNORE = [
   "apple app",
 ];
 
-type SourceLink = {
-  text: string;
-  href: string;
-};
-
 function normalize(
   text: string
 ) {
   return text
-    .replace(/\s+/g, " ")
+    .replace(
+      /\s+/g,
+      " "
+    )
     .trim();
 }
 
@@ -67,8 +70,9 @@ function isRelevant(
     text.toLowerCase();
 
   if (
-    IGNORE.some((item) =>
-      value.includes(item)
+    IGNORE.some(
+      (item) =>
+        value.includes(item)
     )
   ) {
     return false;
@@ -97,10 +101,9 @@ function isBlue(
     r,
     g,
     b,
-  ] =
-    values
-      .slice(0, 3)
-      .map(Number);
+  ] = values
+    .slice(0, 3)
+    .map(Number);
 
   return (
     b > 80 &&
@@ -159,7 +162,8 @@ export async function getContentLinks(
           )
       );
 
-  const links: SourceLink[] = [];
+  const links: SourceLink[] =
+    [];
 
   for (
     const item of raw

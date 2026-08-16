@@ -20,11 +20,11 @@ export async function getBrowser() {
 }
 
 export async function createPage(): Promise<Page> {
-  const browser =
+  const currentBrowser =
     await getBrowser();
 
   const page =
-    await browser.newPage({
+    await currentBrowser.newPage({
       viewport: {
         width: 1366,
         height: 768,
@@ -48,6 +48,7 @@ export async function createPage(): Promise<Page> {
 export async function closeBrowser() {
   if (browser) {
     await browser.close();
+
     browser = null;
   }
 }

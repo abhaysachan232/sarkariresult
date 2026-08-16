@@ -47,13 +47,20 @@ export function findExistingJob(
 
   return jobs.findIndex(
     (job) => {
-      return (
+      const sameTitle =
         normalize(
           job?.title
-        ) === title &&
+        ) === title;
+
+      const sameOrganization =
         normalize(
           job?.organization
-        ) === organization
+        ) ===
+        organization;
+
+      return (
+        sameTitle &&
+        sameOrganization
       );
     }
   );

@@ -14,7 +14,7 @@ export async function readJobs(
 
   if (!Array.isArray(jobs)) {
     throw new Error(
-      "jobs.json must be an array"
+      "jobs.json must contain an array"
     );
   }
 
@@ -37,9 +37,11 @@ export async function saveJobs(
 }
 
 /*
- * NEW POST TEMPLATE
+ * IMPORTANT:
  *
- * ALWAYS LAST OBJECT.
+ * New object ka template
+ * hamesha jobs.json ke LAST OBJECT
+ * se banega.
  */
 export function getLastJobTemplate(
   jobs: any[]
@@ -55,6 +57,9 @@ export function getLastJobTemplate(
   );
 }
 
+/*
+ * Exact structure validation.
+ */
 export function validateExactStructure(
   template: any,
   candidate: any,
@@ -63,28 +68,47 @@ export function validateExactStructure(
   valid: boolean;
   reason?: string;
 } {
+  /*
+   * Primitive
+   */
   if (
     template === null ||
     typeof template !== "object"
   ) {
+    if (
+      candidate === null ||
+      candidate === undefined
+    ) {
+      return {
+        valid: true,
+      };
+    }
+
+    if (
+      typeof candidate !==
+      typeof template
+    ) {
+      return {
+        valid: false,
+        reason:
+          `${currentPath} type mismatch`,
+      };
+    }
+
     return {
       valid: true,
     };
   }
 
+  /*
+   * Array
+   */
   if (
-    candidate === null ||
-    typeof candidate !== "object"
+    Array.isArray(template)
   ) {
-    return {
-      valid: false,
-      reason:
-        `${currentPath} must be object/array`,
-    };
-  }
-
-  if (Array.isArray(template)) {
-    if (!Array.isArray(candidate)) {
+    if (
+      !Array.isArray(candidate)
+    ) {
       return {
         valid: false,
         reason:
@@ -92,15 +116,37 @@ export function validateExactStructure(
       };
     }
 
+    /*
+     * Empty template array.
+     * Iske andar keys define nahi hain.
+     */
     if (
-      template.length > 0 &&
-      candidate.length > 0
+      template.length === 0
     ) {
-      return validateExactStructure(
-        template[0],
-        candidate[0],
-        `${currentPath}[0]`
-      );
+      return {
+        valid: true,
+      };
+    }
+
+    /*
+     * Array objects ka structure
+     * first template item se validate.
+     */
+    for (
+      let i = 0;
+      i < candidate.length;
+      i++
+    ) {
+      const result =
+        validateExactStructure(
+          template[0],
+          candidate[i],
+          `${currentPath}[${i}]`
+        );
+
+      if (!result.valid) {
+        return result;
+      }
     }
 
     return {
@@ -108,23 +154,38 @@ export function validateExactStructure(
     };
   }
 
-  if (Array.isArray(candidate)) {
+  /*
+   * Object
+   */
+  if (
+    Array.isArray(candidate) ||
+    candidate === null ||
+    typeof candidate !== "object"
+  ) {
     return {
       valid: false,
       reason:
-        `${currentPath} cannot be array`,
+        `${currentPath} must be object`,
     };
   }
 
   const templateKeys =
-    Object.keys(template).sort();
+    Object.keys(
+      template
+    ).sort();
 
   const candidateKeys =
-    Object.keys(candidate).sort();
+    Object.keys(
+      candidate
+    ).sort();
 
   if (
-    JSON.stringify(templateKeys) !==
-    JSON.stringify(candidateKeys)
+    JSON.stringify(
+      templateKeys
+    ) !==
+    JSON.stringify(
+      candidateKeys
+    )
   ) {
     return {
       valid: false,
@@ -161,13 +222,17 @@ export function getNextId(
       .map((job) =>
         Number(job?.id)
       )
-      .filter(Number.isFinite);
+      .filter(
+        Number.isFinite
+      );
 
   if (!ids.length) {
     return 1;
   }
 
-  return Math.max(...ids) + 1;
+  return (
+    Math.max(...ids) + 1
+  );
 }
 
 export function makeSlug(
@@ -176,7 +241,15 @@ export function makeSlug(
   return title
     .toLowerCase()
     .trim()
-    .replace(/<[^>]*>/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+    .replace(
+      /<[^>]*>/g,
+      ""
+    )
+    .replace(
+      /[^a-z0-9]+/g,
+      "-"
+    )
+    .replace(
+      /^-+|-+$/g,
+      "");
 }

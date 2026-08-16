@@ -15,7 +15,14 @@ export const CONFIG = {
     process.env.HF_MODEL ||
     "Qwen/Qwen3-4B-Instruct-2507",
 
-  maxContentLength: 70000,
+  /*
+   * Ek GitHub Actions run mein maximum
+   * kitne articles process karne hain.
+   */
+  batchSize: 10,
 
-  processFirstRun: false,
+  /*
+   * Source page se maximum text.
+   */
+  maxContentLength: 70000,
 };

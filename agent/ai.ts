@@ -26,9 +26,18 @@ function cleanJson(
   text: string
 ) {
   return text
-    .replace(/^```json\s*/i, "")
-    .replace(/^```\s*/i, "")
-    .replace(/\s*```$/i, "")
+    .replace(
+      /^```json\s*/i,
+      ""
+    )
+    .replace(
+      /^```\s*/i,
+      ""
+    )
+    .replace(
+      /\s*```$/i,
+      ""
+    )
     .trim();
 }
 
@@ -42,53 +51,96 @@ function countWords(
     .length;
 }
 
-function extractText(
+/*
+ * Object ke andar long article text
+ * search karta hai.
+ */
+function getLongestText(
   value: any
-): string {
-  if (
-    typeof value ===
-    "string"
+): {
+  path: string;
+  text: string;
+} {
+  let longest = {
+    path: "",
+    text: "",
+  };
+
+  function walk(
+    current: any,
+    currentPath: string
   ) {
-    return value;
+    if (
+      typeof current ===
+      "string"
+    ) {
+      if (
+        countWords(current) >
+        countWords(
+          longest.text
+        )
+      ) {
+        longest = {
+          path: currentPath,
+          text: current,
+        };
+      }
+
+      return;
+    }
+
+    if (
+      Array.isArray(current)
+    ) {
+      current.forEach(
+        (item, index) =>
+          walk(
+            item,
+            `${currentPath}[${index}]`
+          )
+      );
+
+      return;
+    }
+
+    if (
+      current &&
+      typeof current ===
+        "object"
+    ) {
+      Object.keys(
+        current
+      ).forEach(
+        (key) =>
+          walk(
+            current[key],
+            currentPath
+              ? `${currentPath}.${key}`
+              : key
+          )
+      );
+    }
   }
 
-  if (
-    Array.isArray(value)
-  ) {
-    return value
-      .map(extractText)
-      .join(" ");
-  }
+  walk(value, "");
 
-  if (
-    value &&
-    typeof value === "object"
-  ) {
-    return Object.values(value)
-      .map(extractText)
-      .join(" ");
-  }
-
-  return "";
+  return longest;
 }
 
-/**
- * AI ke returned object ko
- * LAST OBJECT ke exact structure
- * mein convert karta hai.
+/*
+ * AI extra keys add kare
+ * to remove.
  *
- * AI koi extra key de:
- * -> ignore
- *
- * AI key miss kare:
- * -> template value
- *
- * Nested object bhi preserve hota hai.
+ * Missing keys:
+ * template value preserve.
  */
 function normalizeToTemplate(
   template: any,
   result: any
 ): any {
+  /*
+   * Array
+   */
   if (
     Array.isArray(template)
   ) {
@@ -107,22 +159,21 @@ function normalizeToTemplate(
     }
 
     return result.map(
-      (item, index) =>
+      (item) =>
         normalizeToTemplate(
-          template[
-            Math.min(
-              index,
-              template.length - 1
-            )
-          ],
+          template[0],
           item
         )
     );
   }
 
+  /*
+   * Object
+   */
   if (
     template !== null &&
-    typeof template === "object"
+    typeof template ===
+      "object"
   ) {
     const output: any = {};
 
@@ -131,42 +182,43 @@ function normalizeToTemplate(
         template
       )
     ) {
-      const templateValue =
-        template[key];
-
-      const resultValue =
+      const exists =
         result &&
-        typeof result === "object" &&
-        !Array.isArray(result) &&
+        typeof result ===
+          "object" &&
+        !Array.isArray(
+          result
+        ) &&
         Object.prototype.hasOwnProperty.call(
           result,
           key
-        )
-          ? result[key]
-          : undefined;
+        );
 
-      if (
-        resultValue === undefined
-      ) {
+      if (!exists) {
         output[key] =
           structuredClone(
-            templateValue
+            template[key]
           );
-      } else {
-        output[key] =
-          normalizeToTemplate(
-            templateValue,
-            resultValue
-          );
+
+        continue;
       }
+
+      output[key] =
+        normalizeToTemplate(
+          template[key],
+          result[key]
+        );
     }
 
     return output;
   }
 
+  /*
+   * Primitive
+   */
   if (
-    result === null ||
-    result === undefined
+    result === undefined ||
+    result === null
   ) {
     return template;
   }
@@ -192,87 +244,162 @@ function parseJSON(
       cleaned
     );
   } catch {
+    /*
+     * Sometimes model JSON ke
+     * around extra text de deta hai.
+     */
+    const start =
+      cleaned.indexOf("{");
+
+    const end =
+      cleaned.lastIndexOf("}");
+
+    if (
+      start !== -1 &&
+      end !== -1 &&
+      end > start
+    ) {
+      try {
+        return JSON.parse(
+          cleaned.slice(
+            start,
+            end + 1
+          )
+        );
+      } catch {}
+    }
+
     throw new Error(
       "Hugging Face response is not valid JSON"
     );
   }
 }
 
-async function generateJob(
+function createPrompt(
   webpage: string,
   sourceUrl: string,
-  template: any
+  template: any,
+  retryReason?: string
 ) {
-  const prompt = `
-You are an expert government recruitment
-information extraction and original article
-writing agent.
+  return `
+You are a government recruitment
+information extraction agent.
 
-OFFICIAL SOURCE:
+OFFICIAL SOURCE URL:
 ${sourceUrl}
 
-RULES:
+IMPORTANT:
 
-1. Use ONLY supplied webpage content.
-2. Do NOT use another website.
-3. Do NOT use PDF content.
-4. Do NOT invent facts.
-5. Do NOT guess facts.
-6. Do NOT guess dates.
-7. Do NOT guess vacancies.
-8. Do NOT guess fees.
-9. Do NOT guess eligibility.
-10. Do NOT guess salary.
-11. Do NOT invent links.
+Use ONLY the supplied webpage.
 
-JSON RULES:
+Do NOT use:
+- PDF
+- other websites
+- external knowledge
+- guesses
+- assumptions
+
+Do NOT invent:
+- dates
+- vacancies
+- fees
+- age
+- qualification
+- salary
+- links
+- eligibility
+
+========================
+JSON STRUCTURE RULES
+========================
 
 Return exactly ONE JSON object.
 
-The object must follow the TEMPLATE.
+The JSON structure MUST be exactly
+the same as the TEMPLATE.
 
-Do not add keys.
-Do not remove keys.
-Do not rename keys.
+Rules:
 
-ARTICLE RULES:
+1. Do not add any key.
+2. Do not remove any key.
+3. Do not rename any key.
+4. Preserve every nested object.
+5. Preserve every array.
+6. Use the exact existing key names.
+7. Use the same value types.
+8. If information is unavailable,
+   keep the template value/type.
+9. Do not create a new field.
+10. Do not create a new nested field.
+
+The LAST OBJECT of jobs.json is the
+template.
+
+========================
+ARTICLE RULES
+========================
 
 Write an ORIGINAL article.
 
-Minimum:
+Minimum article length:
 1000 words.
 
 Target:
 1000-1500 words.
 
-Do not copy sentences or paragraphs
-from the source.
+Use natural Hindi/Hinglish/English
+according to the source and template.
 
-Use original wording.
+Do NOT copy the source sentence-by-sentence.
 
-Cover information where available:
+Use only facts supported by the
+official webpage.
+
+Where supported, explain:
 
 - Introduction
 - Recruitment overview
 - Important dates
 - Application fee
-- Vacancy details
-- Educational qualification
+- Vacancy
+- Qualification
 - Eligibility
 - Age limit
 - Age relaxation
 - Salary/pay scale
 - Selection process
+- Exam information
 - How to apply
-- Required documents
+- Documents
 - Important links
 - FAQs
 - Conclusion
 
-Never invent information just to reach
-1000 words.
+If a particular fact is not available,
+do NOT invent it.
 
-TEMPLATE:
+Put the article into an EXISTING
+long-text field from the template.
+
+Do NOT create an "article" key if it
+does not already exist.
+
+========================
+PREVIOUS VALIDATION ERROR
+========================
+
+${
+  retryReason ||
+  "None"
+}
+
+If this is a retry, carefully make
+the JSON structure EXACTLY match the
+template.
+
+========================
+TEMPLATE
+========================
 
 ${JSON.stringify(
   template,
@@ -280,11 +407,19 @@ ${JSON.stringify(
   2
 )}
 
-WEBPAGE CONTENT:
+========================
+OFFICIAL WEBPAGE
+========================
 
 ${webpage}
-`;
 
+Return ONLY JSON.
+`;
+}
+
+async function callAI(
+  prompt: string
+) {
   const response =
     await hf.chatCompletion({
       model: MODEL,
@@ -298,7 +433,7 @@ ${webpage}
 
       max_tokens: 12000,
 
-      temperature: 0.2,
+      temperature: 0.15,
     });
 
   const output =
@@ -321,62 +456,121 @@ export async function extractJob(
   sourceUrl: string,
   template: any
 ) {
-  const rawResult =
-    await generateJob(
-      webpage,
-      sourceUrl,
-      template
-    );
+  let lastError =
+    "";
 
   /*
-   * Force AI result into
-   * LAST OBJECT structure.
+   * Maximum 3 attempts.
    */
-  const result =
-    normalizeToTemplate(
-      template,
-      rawResult
-    );
+  for (
+    let attempt = 1;
+    attempt <= 3;
+    attempt++
+  ) {
+    try {
+      console.log(
+        `AI attempt ${attempt}/3`
+      );
 
-  /*
-   * Exact structure validation.
-   */
-  const validation =
-    validateExactStructure(
-      template,
-      result
-    );
+      const prompt =
+        createPrompt(
+          webpage,
+          sourceUrl,
+          template,
+          lastError
+        );
 
-  if (!validation.valid) {
-    throw new Error(
-      `AI structure validation failed: ${validation.reason}`
-    );
+      const rawResult =
+        await callAI(
+          prompt
+        );
+
+      /*
+       * Extra keys remove,
+       * missing template keys restore.
+       */
+      const result =
+        normalizeToTemplate(
+          template,
+          rawResult
+        );
+
+      /*
+       * Exact structure check.
+       */
+      const validation =
+        validateExactStructure(
+          template,
+          result
+        );
+
+      if (
+        !validation.valid
+      ) {
+        lastError =
+          validation.reason ||
+          "Unknown structure error";
+
+        console.log(
+          `Structure validation failed: ${lastError}`
+        );
+
+        continue;
+      }
+
+      /*
+       * Longest text field.
+       */
+      const article =
+        getLongestText(
+          result
+        );
+
+      const words =
+        countWords(
+          article.text
+        );
+
+      console.log(
+        `Longest text field: ${article.path}`
+      );
+
+      console.log(
+        `Article word count: ${words}`
+      );
+
+      if (
+        words < 1000
+      ) {
+        lastError =
+          `Article below 1000 words. Current: ${words}.`;
+
+        console.log(
+          lastError
+        );
+
+        continue;
+      }
+
+      console.log(
+        `Article accepted: ${words} words`
+      );
+
+      return result;
+    } catch (
+      error: any
+    ) {
+      lastError =
+        error?.message ||
+        "Unknown AI error";
+
+      console.error(
+        `AI attempt ${attempt} failed: ${lastError}`
+      );
+    }
   }
 
-  /*
-   * Article validation.
-   */
-  const article =
-    extractText(
-      result.content
-    );
-
-  const words =
-    countWords(article);
-
-  console.log(
-    `Article word count: ${words}`
+  throw new Error(
+    `AI extraction failed after 3 attempts: ${lastError}`
   );
-
-  if (words < 1000) {
-    throw new Error(
-      `Article is below 1000 words: ${words}`
-    );
-  }
-
-  console.log(
-    `Article accepted: ${words} words`
-  );
-
-  return result;
 }

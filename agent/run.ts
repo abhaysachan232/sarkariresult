@@ -9,10 +9,12 @@ import {
 import {
   openHomepage,
   getContentLinks,
+  type SourceLink,
 } from "./links";
 
 import {
   detectChanges,
+  getUnprocessedLinks,
   saveProcessedJob,
   getProcessedJob,
   markSuccessfulRun,
@@ -38,6 +40,11 @@ import {
 
 import { CONFIG } from "./config";
 
+/*
+ * Homepage se actual link click karta hai.
+ *
+ * PDF ko intentionally ignore karta hai.
+ */
 async function clickChangedLink(
   page: Page,
   href: string
@@ -69,15 +76,11 @@ async function clickChangedLink(
     await link.count() === 0
   ) {
     throw new Error(
-      `Link not found: ${target}`
+      `Link not found on homepage: ${target}`
     );
   }
 
   await link.scrollIntoViewIfNeeded();
-
-  let popup:
-    | Page
-    | null = null;
 
   const popupPromise =
     page
@@ -96,13 +99,13 @@ async function clickChangedLink(
     await link.click({
       timeout: 30000,
     });
-  } catch (error) {
+  } catch {
     throw new Error(
       `Unable to click link: ${target}`
     );
   }
 
-  popup =
+  const popup =
     await popupPromise;
 
   const detailPage =
@@ -122,6 +125,9 @@ async function clickChangedLink(
   const finalUrl =
     detailPage.url();
 
+  /*
+   * PDF destination भी ignore.
+   */
   if (
     /\.pdf(?:$|\?)/i.test(
       finalUrl
@@ -144,6 +150,10 @@ async function clickChangedLink(
   const title =
     await detailPage.title();
 
+  /*
+   * Agar same page tha to homepage
+   * par वापस जाओ.
+   */
   if (popup) {
     await popup.close();
   } else {
@@ -155,11 +165,16 @@ async function clickChangedLink(
         timeout: 30000,
       }
     );
+
+    await page.waitForTimeout(
+      500
+    );
   }
 
   return {
     title,
     url: finalUrl,
+
     content:
       content
         .replace(
@@ -170,8 +185,16 @@ async function clickChangedLink(
   };
 }
 
+/*
+ * New object ke identity fields
+ * sirf tab modify honge jab
+ * wo LAST OBJECT mein already exist hon.
+ *
+ * Koi new key add nahi hogi.
+ */
 function applyGeneratedMetadata(
   candidate: any,
+  template: any,
   jobs: any[]
 ) {
   const nextId =
@@ -183,20 +206,44 @@ function applyGeneratedMetadata(
       "government-job"
     );
 
-  candidate.id =
-    nextId;
+  if (
+    Object.prototype.hasOwnProperty.call(
+      template,
+      "id"
+    )
+  ) {
+    candidate.id =
+      nextId;
+  }
 
-  candidate.slug =
-    makeSlug(title);
+  if (
+    Object.prototype.hasOwnProperty.call(
+      template,
+      "slug"
+    )
+  ) {
+    candidate.slug =
+      makeSlug(title);
+  }
 
-  candidate.updatedon =
-    new Date()
-      .toISOString()
-      .slice(0, 10);
+  if (
+    Object.prototype.hasOwnProperty.call(
+      template,
+      "updatedon"
+    )
+  ) {
+    candidate.updatedon =
+      new Date()
+        .toISOString()
+        .slice(0, 10);
+  }
 
   return candidate;
 }
 
+/*
+ * Main Agent
+ */
 export async function runAgent() {
   const jobsFile =
     path.resolve(
@@ -212,6 +259,8 @@ export async function runAgent() {
     sourcesChecked: 0,
     linksFound: 0,
     changedLinks: 0,
+    oldUnprocessedLinks: 0,
+    processedThisRun: 0,
     newJobs: 0,
     updatedJobs: 0,
     skipped: 0,
@@ -224,14 +273,24 @@ export async function runAgent() {
     ) {
       result.sourcesChecked++;
 
+      console.log(
+        ""
+      );
+
+      console.log(
+        `========== ${source.name} ==========`
+      );
+
       const page =
         await createPage();
 
       try {
-        console.log(
-          `========== ${source.name} ==========`
-        );
-
+        /*
+         * ============================
+         * STEP 1
+         * Homepage open
+         * ============================
+         */
         await openHomepage(
           page,
           source.url
@@ -242,26 +301,45 @@ export async function runAgent() {
             source.url
           ).hostname;
 
-        const links =
+        /*
+         * ============================
+         * STEP 2
+         * Blue relevant links
+         * ============================
+         */
+        const currentLinks =
           await getContentLinks(
             page,
             host
           );
 
         result.linksFound +=
-          links.length;
+          currentLinks.length;
 
         console.log(
-          `Relevant blue links: ${links.length}`
+          `Relevant blue links: ${currentLinks.length}`
         );
 
+        /*
+         * ============================
+         * STEP 3
+         * Detect NEW/CHANGED
+         * ============================
+         */
         const changes =
           await detectChanges(
             snapshotFile,
             source.id,
-            links
+            currentLinks
           );
 
+        /*
+         * First ever run:
+         *
+         * Snapshot create.
+         * Us run mein articles process
+         * nahi honge.
+         */
         if (
           changes.firstRun
         ) {
@@ -270,7 +348,7 @@ export async function runAgent() {
           );
 
           console.log(
-            "No existing links will be processed."
+            "Existing links will be processed from the next run."
           );
 
           continue;
@@ -280,33 +358,136 @@ export async function runAgent() {
           changes.changed.length;
 
         console.log(
-          `Changed/New links: ${changes.changed.length}`
+          `NEW/CHANGED LINKS: ${changes.changed.length}`
         );
 
         /*
-         * IMPORTANT:
+         * ============================
+         * STEP 4
+         * Existing snapshot ke
+         * unprocessed links
          *
-         * Process sequentially.
-         * This prevents many simultaneous
-         * HF requests.
+         * Tumhare 94 links yahan
+         * se 10-10 karke aayenge.
+         * ============================
+         */
+        const unprocessed =
+          await getUnprocessedLinks(
+            snapshotFile,
+            source.id,
+            CONFIG.batchSize
+          );
+
+        result.oldUnprocessedLinks +=
+          unprocessed.length;
+
+        console.log(
+          `OLD UNPROCESSED LINKS: ${unprocessed.length}`
+        );
+
+        /*
+         * ============================
+         * STEP 5
+         * NEW/CHANGED + OLD
+         * UNPROCESSED
+         *
+         * Duplicate remove.
+         * Batch limit 10.
+         *
+         * NEW/CHANGED links ko priority.
+         * ============================
+         */
+        const combined =
+          new Map<
+            string,
+            SourceLink
+          >();
+
+        /*
+         * Pehle new/changed.
          */
         for (
-          const link of changes.changed
+          const link of
+            changes.changed
+        ) {
+          combined.set(
+            link.href,
+            link
+          );
+        }
+
+        /*
+         * Phir old unprocessed.
+         */
+        for (
+          const link of
+            unprocessed
+        ) {
+          if (
+            !combined.has(
+              link.href
+            )
+          ) {
+            combined.set(
+              link.href,
+              link
+            );
+          }
+        }
+
+        const linksToProcess =
+          Array.from(
+            combined.values()
+          ).slice(
+            0,
+            CONFIG.batchSize
+          );
+
+        console.log(
+          `PROCESSING THIS RUN: ${linksToProcess.length}`
+        );
+
+        /*
+         * ============================
+         * STEP 6
+         * Process sequentially
+         * ============================
+         */
+        for (
+          const link of
+            linksToProcess
         ) {
           try {
+            console.log(
+              ""
+            );
+
             console.log(
               `NEW/CHANGED LINK: ${link.text}`
             );
 
+            /*
+             * PDF ignore.
+             */
             if (
               /\.pdf(?:$|\?)/i.test(
                 link.href
               )
             ) {
+              console.log(
+                "SKIPPED PDF"
+              );
+
               result.skipped++;
+
               continue;
             }
 
+            /*
+             * ============================
+             * CLICK LINK
+             * ============================
+             */
             const detail =
               await clickChangedLink(
                 page,
@@ -317,19 +498,36 @@ export async function runAgent() {
               !detail.content ||
               detail.content.length < 100
             ) {
-              result.skipped++;
-              continue;
+              throw new Error(
+                "Detail page content is too short"
+              );
             }
 
+            console.log(
+              `Opened: ${detail.url}`
+            );
+
+            console.log(
+              `Page content length: ${detail.content.length}`
+            );
+
+            /*
+             * ============================
+             * READ CURRENT jobs.json
+             *
+             * Har article ke liye
+             * fresh jobs.json read.
+             * ============================
+             */
             const jobs =
               await readJobs(
                 jobsFile
               );
 
             /*
-             * NEW TEMPLATE:
-             *
-             * ALWAYS LAST OBJECT.
+             * ============================
+             * LAST OBJECT TEMPLATE
+             * ============================
              */
             const template =
               getLastJobTemplate(
@@ -337,7 +535,9 @@ export async function runAgent() {
               );
 
             /*
-             * Existing source mapping.
+             * ============================
+             * Check mapping
+             * ============================
              */
             const mapped =
               await getProcessedJob(
@@ -358,7 +558,9 @@ export async function runAgent() {
             }
 
             /*
-             * AI extraction + article.
+             * ============================
+             * AI
+             * ============================
              */
             const candidate =
               await extractJob(
@@ -371,9 +573,10 @@ export async function runAgent() {
               );
 
             /*
-             * If URL mapping didn't find
-             * existing job, title+organization
-             * matching.
+             * Agar mapping se existing
+             * object nahi mila to
+             * title + organization se
+             * search.
              */
             if (
               existingIndex === -1
@@ -386,9 +589,9 @@ export async function runAgent() {
             }
 
             /*
-             * =========================
+             * ============================
              * UPDATE EXISTING
-             * =========================
+             * ============================
              */
             if (
               existingIndex !== -1
@@ -415,19 +618,64 @@ export async function runAgent() {
               /*
                * Existing identity preserve.
                */
-              candidate.id =
-                existing.id;
+              if (
+                Object.prototype.hasOwnProperty.call(
+                  existing,
+                  "id"
+                )
+              ) {
+                candidate.id =
+                  existing.id;
+              }
 
-              candidate.slug =
-                existing.slug;
+              if (
+                Object.prototype.hasOwnProperty.call(
+                  existing,
+                  "slug"
+                )
+              ) {
+                candidate.slug =
+                  existing.slug;
+              }
 
-              candidate.setPath =
-                existing.setPath;
+              if (
+                Object.prototype.hasOwnProperty.call(
+                  existing,
+                  "setPath"
+                )
+              ) {
+                candidate.setPath =
+                  existing.setPath;
+              }
 
-              candidate.updatedon =
-                new Date()
-                  .toISOString()
-                  .slice(0, 10);
+              if (
+                Object.prototype.hasOwnProperty.call(
+                  existing,
+                  "updatedon"
+                )
+              ) {
+                candidate.updatedon =
+                  new Date()
+                    .toISOString()
+                    .slice(0, 10);
+              }
+
+              /*
+               * Final structure check.
+               */
+              const finalValidation =
+                validateExactStructure(
+                  existing,
+                  candidate
+                );
+
+              if (
+                !finalValidation.valid
+              ) {
+                throw new Error(
+                  `FINAL UPDATE structure mismatch: ${finalValidation.reason}`
+                );
+              }
 
               jobs[
                 existingIndex
@@ -438,6 +686,9 @@ export async function runAgent() {
                 jobs
               );
 
+              /*
+               * Mark successful.
+               */
               await saveProcessedJob(
                 snapshotFile,
                 source.id,
@@ -447,31 +698,26 @@ export async function runAgent() {
               );
 
               result.updatedJobs++;
+              result.processedThisRun++;
 
               console.log(
                 `UPDATED: ${candidate.title}`
-              );
-
-              /*
-               * Mark this homepage state
-               * as successful only after
-               * processing.
-               */
-              await markSuccessfulRun(
-                snapshotFile,
-                source.id,
-                links
               );
 
               continue;
             }
 
             /*
-             * =========================
+             * ============================
              * NEW OBJECT
-             * =========================
+             * ============================
              */
 
+            /*
+             * Template ke exact structure
+             * mein candidate already
+             * normalize ho chuka hai.
+             */
             const validation =
               validateExactStructure(
                 template,
@@ -486,12 +732,20 @@ export async function runAgent() {
               );
             }
 
+            /*
+             * Metadata:
+             * sirf existing keys mein.
+             */
             const newJob =
               applyGeneratedMetadata(
                 candidate,
+                template,
                 jobs
               );
 
+            /*
+             * Final exact structure.
+             */
             const finalValidation =
               validateExactStructure(
                 template,
@@ -502,10 +756,15 @@ export async function runAgent() {
               !finalValidation.valid
             ) {
               throw new Error(
-                `Final structure mismatch: ${finalValidation.reason}`
+                `FINAL NEW structure mismatch: ${finalValidation.reason}`
               );
             }
 
+            /*
+             * ============================
+             * PUSH NEW OBJECT
+             * ============================
+             */
             jobs.push(
               newJob
             );
@@ -515,53 +774,81 @@ export async function runAgent() {
               jobs
             );
 
+            /*
+             * Successful mapping.
+             */
             await saveProcessedJob(
               snapshotFile,
               source.id,
               link.href,
               newJob.id,
-              newJob.slug
+              newJob.slug || ""
             );
 
             result.newJobs++;
+            result.processedThisRun++;
 
             console.log(
               `NEW: ${newJob.title}`
             );
-
-            /*
-             * Only after successful processing
-             * update homepage snapshot.
-             */
-            await markSuccessfulRun(
-              snapshotFile,
-              source.id,
-              links
-            );
-          } catch (error: any) {
+          } catch (
+            error: any
+          ) {
             /*
              * IMPORTANT:
-             * Do NOT mark this link successful.
              *
-             * Therefore it can be retried
-             * on next run.
+             * Failed link ko processed
+             * mark nahi karenge.
+             *
+             * Isliye next run mein
+             * automatically retry hoga.
              */
+            const message =
+              error?.message ||
+              "Unknown error";
+
             result.errors.push(
-              `${source.name} | ${link.href} | ${error.message}`
+              `${source.name} | ${link.href} | ${message}`
             );
 
             console.error(
-              `ERROR: ${error.message}`
+              `ERROR: ${message}`
             );
           }
         }
-      } catch (error: any) {
+
+        /*
+         * ============================
+         * STEP 7
+         *
+         * Homepage snapshot update.
+         *
+         * Processed mappings preserve
+         * rahengi.
+         * ============================
+         */
+        await markSuccessfulRun(
+          snapshotFile,
+          source.id,
+          currentLinks
+        );
+
+        console.log(
+          "Homepage snapshot updated."
+        );
+      } catch (
+        error: any
+      ) {
+        const message =
+          error?.message ||
+          "Unknown source error";
+
         result.errors.push(
-          `${source.name} | ${error.message}`
+          `${source.name} | ${message}`
         );
 
         console.error(
-          error
+          message
         );
       } finally {
         await page.close();
@@ -570,6 +857,10 @@ export async function runAgent() {
   } finally {
     await closeBrowser();
   }
+
+  console.log(
+    ""
+  );
 
   console.log(
     "========== AGENT RESULT =========="
