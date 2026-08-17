@@ -2,7 +2,7 @@ name: SarkariResult Auto Agent
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 */4 * * *"
 
   workflow_dispatch:
 
@@ -13,7 +13,7 @@ jobs:
   agent:
     runs-on: ubuntu-latest
 
-    timeout-minutes: 15
+    timeout-minutes: 45
 
     steps:
       - name: Checkout

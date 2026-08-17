@@ -16,7 +16,9 @@ import {
   detectChanges,
   getUnprocessedLinks,
   saveProcessedJob,
+  saveFailedJob,
   getProcessedJob,
+  isLinkFailed,
   markSuccessfulRun,
 } from "./snapshot";
 
@@ -364,8 +366,7 @@ async function clickChangedLink(
     ).href;
 
   /*
-   * Homepage/current page se
-   * target URL open.
+   * Open detail page.
    */
   await page.goto(
     targetUrl,
@@ -377,34 +378,273 @@ async function clickChangedLink(
   );
 
   /*
-   * Additional wait so dynamically
-   * rendered content can appear.
+   * Wait for dynamically rendered content.
    */
   await page.waitForTimeout(
     1500
   );
 
   /*
-   * Body text.
+   * ==================================================
+   * BODY CONTENT
+   * ==================================================
    */
-  const content =
+  const bodyContent =
     await page.locator(
       "body"
     ).innerText();
+
+  /*
+   * ==================================================
+   * IMPORTANT LINKS TABLE
+   * ==================================================
+   *
+   * Example:
+   *
+   * Download Tier-II Result | Click Here
+   * Check Tier-II Result Notice | Click Here
+   * Download Tier-II Answer Key | Click Here
+   *
+   * Left side ka exact text + right side
+   * ke anchor ka exact href extract hoga.
+   *
+   * sarkariresult.com.cm ke links skip honge.
+   */
+  const importantLinks =
+    await page.locator(
+      "tr"
+    ).evaluateAll(
+      (rows) => {
+        const normalize = (
+          value: string
+        ) =>
+          value
+            .replace(
+              /\s+/g,
+              " "
+            )
+            .trim();
+
+        const isPdf = (
+          url: string
+        ) =>
+          /\.pdf(?:$|\?)/i.test(
+            url
+          );
+
+        const isSourceDomain = (
+          url: string
+        ) => {
+          try {
+            const parsed =
+              new URL(url);
+
+            const hostname =
+              parsed.hostname
+                .toLowerCase()
+                .replace(
+                  /^www\./,
+                  ""
+                );
+
+            return (
+              hostname ===
+              "sarkariresult.com.cm"
+            );
+          } catch {
+            return false;
+          }
+        };
+
+        const result: Array<{
+          text: string;
+          href: string;
+        }> = [];
+
+        for (
+          const row of rows
+        ) {
+          const cells =
+            Array.from(
+              row.querySelectorAll(
+                "td, th"
+              )
+            );
+
+          /*
+           * Important-links rows normally
+           * contain two or more cells:
+           *
+           * [left text] [Click Here]
+           */
+          if (
+            cells.length < 2
+          ) {
+            continue;
+          }
+
+          const label =
+            normalize(
+              cells[0]
+                .textContent || ""
+            );
+
+          if (!label) {
+            continue;
+          }
+
+          /*
+           * First try the right cell.
+           * Then use the row as fallback.
+           */
+          let anchor =
+            cells[1].querySelector(
+              "a"
+            ) as
+              | HTMLAnchorElement
+              | null;
+
+          if (!anchor) {
+            anchor =
+              row.querySelector(
+                "a"
+              ) as
+                | HTMLAnchorElement
+                | null;
+          }
+
+          if (!anchor) {
+            continue;
+          }
+
+          const linkText =
+            normalize(
+              anchor.textContent || ""
+            );
+
+          /*
+           * Only Click Here links.
+           */
+          if (
+            !/click\s*here/i.test(
+              linkText
+            )
+          ) {
+            continue;
+          }
+
+          const linkHref =
+            anchor.href;
+
+          if (!linkHref) {
+            continue;
+          }
+
+          /*
+           * Never include source-site links.
+           */
+          if (
+            isSourceDomain(
+              linkHref
+            )
+          ) {
+            continue;
+          }
+
+          /*
+           * PDF links are skipped.
+           */
+          if (
+            isPdf(
+              linkHref
+            )
+          ) {
+            continue;
+          }
+
+          result.push({
+            text: label,
+            href: linkHref,
+          });
+        }
+
+        /*
+         * Remove duplicate URLs.
+         */
+        const unique =
+          new Map<
+            string,
+            {
+              text: string;
+              href: string;
+            }
+          >();
+
+        for (
+          const item of result
+        ) {
+          if (
+            !unique.has(
+              item.href
+            )
+          ) {
+            unique.set(
+              item.href,
+              item
+            );
+          }
+        }
+
+        return [
+          ...unique.values(),
+        ];
+      }
+    );
+
+  /*
+   * ==================================================
+   * IMPORTANT LINKS FOR AI
+   * ==================================================
+   *
+   * Exact left-side keyword + exact URL.
+   */
+  const importantLinksText =
+    importantLinks.length > 0
+      ? `
+
+IMPORTANT LINKS FROM PAGE
+=========================
+
+${importantLinks
+  .map(
+    (item) =>
+      `${item.text} | ${item.href}`
+  )
+  .join("\n")}
+`
+      : "";
+
+  /*
+   * Keep original body text and append
+   * structured important links separately.
+   *
+   * Do not collapse whitespace here.
+   */
+  const content =
+    `${bodyContent}
+
+${importantLinksText}`.trim();
 
   return {
     url:
       page.url(),
 
-    content:
-      content
-        .replace(
-          /\s+/g,
-          " "
-        )
-        .trim(),
+    content,
+
+    importantLinks,
   };
 }
+
 
 /*
 ==================================================
@@ -609,8 +849,7 @@ export async function runAgent() {
         const unprocessed =
           await getUnprocessedLinks(
             snapshotFile,
-            source.id,
-            CONFIG.batchSize
+            source.id
           );
 
         result.oldUnprocessedLinks +=
@@ -634,11 +873,29 @@ export async function runAgent() {
 
         /*
          * New/changed first.
+         *
+         * Permanently failed links are
+         * never added again.
          */
         for (
           const link of
             changes.changed
         ) {
+          const failed =
+            await isLinkFailed(
+              snapshotFile,
+              source.id,
+              link.href
+            );
+
+          if (failed) {
+            console.log(
+              `PERMANENTLY SKIPPED: ${link.text}`
+            );
+
+            continue;
+          }
+
           combined.set(
             link.href,
             link
@@ -646,7 +903,9 @@ export async function runAgent() {
         }
 
         /*
-         * Old unprocessed after that.
+         * ALL old pending links.
+         *
+         * No batch limit.
          */
         for (
           const link of
@@ -664,12 +923,14 @@ export async function runAgent() {
           }
         }
 
+        /*
+         * Process every eligible link.
+         *
+         * No CONFIG.batchSize limit.
+         */
         const linksToProcess =
           Array.from(
             combined.values()
-          ).slice(
-            0,
-            CONFIG.batchSize
           );
 
         console.log(
@@ -1117,11 +1378,17 @@ export async function runAgent() {
             error: any
           ) {
             /*
-            IMPORTANT:
-            Failed link ko processed nahi
-            mark karna.
-            Next run mein retry hoga.
-            */
+             * IMPORTANT:
+             *
+             * Failed link ko permanently failed
+             * mark karo.
+             *
+             * Next run mein is link ko dobara
+             * kabhi attempt nahi kiya jayega.
+             *
+             * Error hone ke baad bhi next link
+             * processing continue rahegi.
+             */
 
             const message =
               error?.message ||
@@ -1132,8 +1399,37 @@ export async function runAgent() {
             );
 
             console.error(
-              `ERROR: ${message}`
+              `PERMANENTLY FAILED: ${message}`
             );
+
+            try {
+              await saveFailedJob(
+                snapshotFile,
+                source.id,
+                link.href,
+                message
+              );
+
+              console.log(
+                `PERMANENTLY SKIPPED: ${link.href}`
+              );
+            } catch (
+              saveError: any
+            ) {
+              console.error(
+                `Could not save failed status: ${
+                  saveError?.message ||
+                  "Unknown error"
+                }`
+              );
+            }
+
+            /*
+             * Do NOT throw.
+             *
+             * Next link will continue.
+             */
+            continue;
           }
         }
 

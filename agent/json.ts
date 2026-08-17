@@ -361,7 +361,7 @@ export function setTypeAndCategory(
     )
   ) {
     type =
-      "result";
+      "results";
 
     category =
       "results";

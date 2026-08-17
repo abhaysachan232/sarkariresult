@@ -16,12 +16,6 @@ export const CONFIG = {
     "Qwen/Qwen3-4B-Instruct-2507",
 
   /*
-   * Ek GitHub Actions run mein maximum
-   * kitne articles process karne hain.
-   */
-  batchSize: 10,
-
-  /*
    * Source page se maximum text.
    */
   maxContentLength: 70000,

@@ -13,50 +13,63 @@ type ProcessedJob = {
   processedAt?: string;
 };
 
+type FailedJob = {
+  failedAt: string;
+  error: string;
+};
+
 type SourceState = {
   checkedAt: string;
   links: SourceLink[];
+
+  // Successfully processed links
   processed: Record<string, ProcessedJob>;
+
+  // Permanently failed links
+  failed: Record<string, FailedJob>;
 };
 
-type SnapshotData = Record<
-  string,
-  SourceState
->;
+type SnapshotData = Record<string, SourceState>;
 
-function hashLink(
-  link: SourceLink
-) {
+function hashLink(link: SourceLink) {
   return crypto
     .createHash("sha256")
-    .update(
-      `${link.href}|${link.text}`
-    )
+    .update(`${link.href}|${link.text}`)
     .digest("hex");
 }
 
 async function readSnapshot(
   file: string
 ): Promise<SnapshotData> {
-  await fs.mkdir(
-    path.dirname(file),
-    {
-      recursive: true,
-    }
-  );
+  await fs.mkdir(path.dirname(file), {
+    recursive: true,
+  });
 
   try {
-    const text =
-      await fs.readFile(
-        file,
-        "utf8"
-      );
+    const text = await fs.readFile(file, "utf8");
 
     if (!text.trim()) {
       return {};
     }
 
-    return JSON.parse(text);
+    const data = JSON.parse(text);
+
+    // Backward compatibility with old snapshot
+    for (const sourceId of Object.keys(data)) {
+      data[sourceId].processed =
+        data[sourceId].processed || {};
+
+      data[sourceId].failed =
+        data[sourceId].failed || {};
+
+      data[sourceId].links =
+        data[sourceId].links || [];
+
+      data[sourceId].checkedAt =
+        data[sourceId].checkedAt || "";
+    }
+
+    return data;
   } catch {
     return {};
   }
@@ -66,20 +79,13 @@ async function saveSnapshot(
   file: string,
   data: SnapshotData
 ) {
-  await fs.mkdir(
-    path.dirname(file),
-    {
-      recursive: true,
-    }
-  );
+  await fs.mkdir(path.dirname(file), {
+    recursive: true,
+  });
 
   await fs.writeFile(
     file,
-    JSON.stringify(
-      data,
-      null,
-      2
-    ),
+    JSON.stringify(data, null, 2),
     "utf8"
   );
 }
@@ -93,34 +99,31 @@ export async function detectChanges(
   sourceId: string,
   currentLinks: SourceLink[]
 ) {
-  const snapshot =
-    await readSnapshot(file);
+  const snapshot = await readSnapshot(file);
 
-  const previous =
-    snapshot[sourceId];
+  const previous = snapshot[sourceId];
 
   /*
-   * Agar snapshot hi nahi hai
-   * to baseline create karo.
+   * First run:
+   * Baseline create karo.
    */
   if (
     !previous ||
     !previous.checkedAt
   ) {
     snapshot[sourceId] = {
-      checkedAt:
-        new Date().toISOString(),
+      checkedAt: new Date().toISOString(),
 
       links: currentLinks,
 
       processed:
         previous?.processed || {},
+
+      failed:
+        previous?.failed || {},
     };
 
-    await saveSnapshot(
-      file,
-      snapshot
-    );
+    await saveSnapshot(file, snapshot);
 
     return {
       firstRun: true,
@@ -131,10 +134,7 @@ export async function detectChanges(
   const previousHashes =
     new Map<string, string>();
 
-  for (
-    const link of
-      previous.links || []
-  ) {
+  for (const link of previous.links || []) {
     previousHashes.set(
       link.href,
       hashLink(link)
@@ -143,9 +143,7 @@ export async function detectChanges(
 
   const changed: SourceLink[] = [];
 
-  for (
-    const link of currentLinks
-  ) {
+  for (const link of currentLinks) {
     const currentHash =
       hashLink(link);
 
@@ -180,8 +178,7 @@ export async function detectChanges(
 }
 
 /*
- * Snapshot mein successful homepage
- * state save karta hai.
+ * Successful homepage state save karo.
  */
 export async function markSuccessfulRun(
   file: string,
@@ -202,6 +199,9 @@ export async function markSuccessfulRun(
 
     processed:
       previous?.processed || {},
+
+    failed:
+      previous?.failed || {},
   };
 
   await saveSnapshot(
@@ -211,7 +211,7 @@ export async function markSuccessfulRun(
 }
 
 /*
- * Successfully processed link ko mark karta hai.
+ * Successfully processed link ko mark karo.
  */
 export async function saveProcessedJob(
   file: string,
@@ -228,6 +228,7 @@ export async function saveProcessedJob(
       checkedAt: "",
       links: [],
       processed: {},
+      failed: {},
     };
   }
 
@@ -238,6 +239,13 @@ export async function saveProcessedJob(
       new Date().toISOString(),
   };
 
+  /*
+   * Agar pehle failed mark hua tha,
+   * successful processing ke baad
+   * failed entry remove kar do.
+   */
+  delete snapshot[sourceId].failed[href];
+
   await saveSnapshot(
     file,
     snapshot
@@ -245,9 +253,69 @@ export async function saveProcessedJob(
 }
 
 /*
- * Check karta hai ki specific
- * source link already process hua
- * ya nahi.
+ * Failed link ko permanently skip mark karo.
+ *
+ * IMPORTANT:
+ * Ye link future runs mein retry nahi hoga.
+ */
+export async function saveFailedJob(
+  file: string,
+  sourceId: string,
+  href: string,
+  error: string
+) {
+  const snapshot =
+    await readSnapshot(file);
+
+  if (!snapshot[sourceId]) {
+    snapshot[sourceId] = {
+      checkedAt: "",
+      links: [],
+      processed: {},
+      failed: {},
+    };
+  }
+
+  snapshot[sourceId].failed[href] = {
+    failedAt:
+      new Date().toISOString(),
+
+    error:
+      error.slice(0, 2000),
+  };
+
+  /*
+   * Failed link ko processed list se bhi
+   * remove kar do, agar kabhi stale entry ho.
+   */
+  delete snapshot[sourceId].processed[href];
+
+  await saveSnapshot(
+    file,
+    snapshot
+  );
+}
+
+/*
+ * Check karo ki link permanently failed hai.
+ */
+export async function isLinkFailed(
+  file: string,
+  sourceId: string,
+  href: string
+) {
+  const snapshot =
+    await readSnapshot(file);
+
+  return Boolean(
+    snapshot[sourceId]
+      ?.failed?.[href]
+  );
+}
+
+/*
+ * Check karo ki specific source link
+ * successfully process hua ya nahi.
  */
 export async function getProcessedJob(
   file: string,
@@ -265,16 +333,16 @@ export async function getProcessedJob(
 }
 
 /*
- * Existing snapshot ke unprocessed
+ * Existing snapshot ke SAARE pending
  * links return karta hai.
  *
- * Ye tumhare existing 94 links
- * ko 10-10 karke process karega.
+ * Koi batch limit nahi.
+ *
+ * Failed links ko permanently skip karta hai.
  */
 export async function getUnprocessedLinks(
   file: string,
-  sourceId: string,
-  limit: number
+  sourceId: string
 ) {
   const snapshot =
     await readSnapshot(file);
@@ -289,15 +357,25 @@ export async function getUnprocessedLinks(
   const processed =
     source.processed || {};
 
+  const failed =
+    source.failed || {};
+
   return (source.links || [])
-    .filter(
-      (link) =>
-        !processed[
-          link.href
-        ]
-    )
-    .slice(
-      0,
-      limit
-    );
+    .filter((link) => {
+      /*
+       * Successfully processed -> skip
+       */
+      if (processed[link.href]) {
+        return false;
+      }
+
+      /*
+       * Permanently failed -> NEVER retry
+       */
+      if (failed[link.href]) {
+        return false;
+      }
+
+      return true;
+    });
 }
