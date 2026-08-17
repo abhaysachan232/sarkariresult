@@ -316,6 +316,47 @@ TEMPLATE.
 Follow it exactly.
 
 ==================================================
+IMPORTANT LINKS RULES
+==================================================
+
+The supplied webpage content may contain a section
+named:
+
+IMPORTANT LINKS FROM PAGE
+
+Each line has this exact format:
+
+LEFT SIDE LABEL | ACTUAL HREF
+
+For example:
+
+Download Tier-II Result | https://official-domain.example/result
+Download Tier-II Answer Key | https://official-domain.example/answer-key
+
+IMPORTANT:
+
+1. Preserve EVERY supplied important-link row.
+2. Preserve the LEFT SIDE LABEL exactly.
+3. Preserve the ACTUAL HREF exactly.
+4. Put these links into the existing links field
+   or the existing nested link structure of the
+   TEMPLATE, wherever those links belong.
+5. Do NOT replace the actual href with the source
+   webpage URL.
+6. Do NOT replace the label with "Click Here".
+7. The left-side label is the link title/text.
+8. The supplied href is the link URL.
+9. Do NOT invent an href.
+10. Do NOT remove a supplied official link.
+11. Links to sarkariresult.com.cm have already been
+    filtered out and must never be re-created.
+12. If the template has an existing links array,
+    preserve its exact structure and field names.
+13. Do NOT create a new key merely for these links.
+14. Only use keys that already exist in the TEMPLATE.
+
+==================================================
+==================================================
 ARTICLE RULES
 ==================================================
 

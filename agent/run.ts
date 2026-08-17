@@ -344,221 +344,87 @@ async function clickChangedLink(
   page: Page,
   href: string
 ) {
-  /*
-   * PDF skip
-   */
-  if (
-    /\.pdf(?:$|\?)/i.test(
-      href
-    )
-  ) {
-    throw new Error(
-      "PDF links are not allowed"
-    );
+  if (/\\.pdf(?:$|\\?)/i.test(href)) {
+    throw new Error("PDF links are not allowed");
   }
 
-  /*
-   * Absolute URL
-   */
-  const targetUrl =
-    new URL(
-      href
-    ).href;
+  const targetUrl = new URL(href).href;
 
-  /*
-   * Open detail page.
-   */
-  await page.goto(
-    targetUrl,
-    {
-      waitUntil:
-        "domcontentloaded",
-      timeout: 60000,
-    }
-  );
+  await page.goto(targetUrl, {
+    waitUntil: "domcontentloaded",
+    timeout: 60000,
+  });
 
-  /*
-   * Wait for dynamically rendered content.
-   */
-  await page.waitForTimeout(
-    1500
-  );
+  await page.waitForTimeout(1500);
 
-  /*
-   * ==================================================
-   * BODY CONTENT
-   * ==================================================
-   */
   const bodyContent =
-    await page.locator(
-      "body"
-    ).innerText();
+    await page.locator("body").innerText();
 
   /*
-   * ==================================================
-   * IMPORTANT LINKS TABLE
-   * ==================================================
-   *
-   * Example:
-   *
-   * Download Tier-II Result | Click Here
-   * Check Tier-II Result Notice | Click Here
-   * Download Tier-II Answer Key | Click Here
-   *
-   * Left side ka exact text + right side
-   * ke anchor ka exact href extract hoga.
-   *
-   * sarkariresult.com.cm ke links skip honge.
+   * IMPORTANT:
+   * Do not define helper functions inside evaluateAll().
+   * This keeps TypeScript/esbuild helpers out of the
+   * browser context and fixes "__name is not defined".
    */
   const importantLinks =
-    await page.locator(
-      "tr"
-    ).evaluateAll(
-      (rows) => {
-        const normalize = (
-          value: string
-        ) =>
-          value
-            .replace(
-              /\s+/g,
-              " "
-            )
-            .trim();
+    await page.locator("tr").evaluateAll(
+      function (rows) {
+        const result = [];
 
-        const isPdf = (
-          url: string
-        ) =>
-          /\.pdf(?:$|\?)/i.test(
-            url
-          );
+        for (let i = 0; i < rows.length; i++) {
+          const row = rows[i];
+          const cells = row.querySelectorAll("td, th");
 
-        const isSourceDomain = (
-          url: string
-        ) => {
-          try {
-            const parsed =
-              new URL(url);
-
-            const hostname =
-              parsed.hostname
-                .toLowerCase()
-                .replace(
-                  /^www\./,
-                  ""
-                );
-
-            return (
-              hostname ===
-              "sarkariresult.com.cm"
-            );
-          } catch {
-            return false;
-          }
-        };
-
-        const result: Array<{
-          text: string;
-          href: string;
-        }> = [];
-
-        for (
-          const row of rows
-        ) {
-          const cells =
-            Array.from(
-              row.querySelectorAll(
-                "td, th"
-              )
-            );
-
-          /*
-           * Important-links rows normally
-           * contain two or more cells:
-           *
-           * [left text] [Click Here]
-           */
-          if (
-            cells.length < 2
-          ) {
-            continue;
-          }
+          if (cells.length < 2) continue;
 
           const label =
-            normalize(
-              cells[0]
-                .textContent || ""
-            );
+            (cells[0].textContent || "")
+              .replace(/\\s+/g, " ")
+              .trim();
 
-          if (!label) {
-            continue;
-          }
+          if (!label) continue;
 
-          /*
-           * First try the right cell.
-           * Then use the row as fallback.
-           */
-          let anchor =
-            cells[1].querySelector(
-              "a"
-            ) as
-              | HTMLAnchorElement
-              | null;
+          const anchor =
+            cells[1].querySelector("a");
 
-          if (!anchor) {
-            anchor =
-              row.querySelector(
-                "a"
-              ) as
-                | HTMLAnchorElement
-                | null;
-          }
-
-          if (!anchor) {
-            continue;
-          }
+          if (!anchor) continue;
 
           const linkText =
-            normalize(
-              anchor.textContent || ""
-            );
+            (anchor.textContent || "")
+              .replace(/\\s+/g, " ")
+              .trim();
 
-          /*
-           * Only Click Here links.
-           */
-          if (
-            !/click\s*here/i.test(
-              linkText
-            )
-          ) {
+          if (!/click\\s*here/i.test(linkText)) {
             continue;
           }
 
-          const linkHref =
-            anchor.href;
+          const linkHref = anchor.href;
 
-          if (!linkHref) {
-            continue;
-          }
+          if (!linkHref) continue;
 
-          /*
-           * Never include source-site links.
-           */
-          if (
-            isSourceDomain(
-              linkHref
-            )
-          ) {
+          let hostname = "";
+
+          try {
+            hostname =
+              new URL(linkHref)
+                .hostname
+                .toLowerCase()
+                .replace(/^www\\./, "");
+          } catch {
             continue;
           }
 
           /*
-           * PDF links are skipped.
+           * Never keep source-site links.
            */
-          if (
-            isPdf(
-              linkHref
-            )
-          ) {
+          if (hostname === "sarkariresult.com.cm") {
+            continue;
+          }
+
+          /*
+           * Keep existing PDF-skip behaviour.
+           */
+          if (/\\.pdf(?:$|\\?)/i.test(linkHref)) {
             continue;
           }
 
@@ -568,46 +434,10 @@ async function clickChangedLink(
           });
         }
 
-        /*
-         * Remove duplicate URLs.
-         */
-        const unique =
-          new Map<
-            string,
-            {
-              text: string;
-              href: string;
-            }
-          >();
-
-        for (
-          const item of result
-        ) {
-          if (
-            !unique.has(
-              item.href
-            )
-          ) {
-            unique.set(
-              item.href,
-              item
-            );
-          }
-        }
-
-        return [
-          ...unique.values(),
-        ];
+        return result;
       }
     );
 
-  /*
-   * ==================================================
-   * IMPORTANT LINKS FOR AI
-   * ==================================================
-   *
-   * Exact left-side keyword + exact URL.
-   */
   const importantLinksText =
     importantLinks.length > 0
       ? `
@@ -620,27 +450,18 @@ ${importantLinks
     (item) =>
       `${item.text} | ${item.href}`
   )
-  .join("\n")}
+  .join("\\n")}
 `
       : "";
 
-  /*
-   * Keep original body text and append
-   * structured important links separately.
-   *
-   * Do not collapse whitespace here.
-   */
   const content =
     `${bodyContent}
 
 ${importantLinksText}`.trim();
 
   return {
-    url:
-      page.url(),
-
+    url: page.url(),
     content,
-
     importantLinks,
   };
 }

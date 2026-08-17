@@ -15,8 +15,5 @@ export const CONFIG = {
     process.env.HF_MODEL ||
     "Qwen/Qwen3-4B-Instruct-2507",
 
-  /*
-   * Source page se maximum text.
-   */
   maxContentLength: 70000,
 };
