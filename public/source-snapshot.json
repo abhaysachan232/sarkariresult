@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-18T12:56:03.492Z",
+    "checkedAt": "2026-08-18T16:39:38.628Z",
     "links": [
+      {
+        "text": "Bihar Police Prohibition Constable Result 2026",
+        "href": "https://sarkariresult.com.cm/csbc-bihar-prohibition-constable-2026/"
+      },
       {
         "text": "Bihar Police CSBC Constable Operator Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/bihar-police-csbc-constable-operator-2026/"
@@ -95,8 +99,8 @@
         "href": "https://sarkariresult.com.cm/hpsc-pgt-computer-science-2026/"
       },
       {
-        "text": "AIIMS CRE 5th Group B, C Result 2026",
-        "href": "https://sarkariresult.com.cm/aiims-cre-5th-group-b-c-2026/"
+        "text": "NTA AIAPGET Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-aiapget-2026/"
       },
       {
         "text": "NBEMS Group A, B & C Various Post Exam City Details 2026",
@@ -147,10 +151,6 @@
         "href": "https://sarkariresult.com.cm/uppsc-computer-assistant-2026/"
       },
       {
-        "text": "NTA AIAPGET Exam City Details 2026",
-        "href": "https://sarkariresult.com.cm/nta-aiapget-2026/"
-      },
-      {
         "text": "Allahabad High Court Research Associates Admit Card 2026",
         "href": "https://sarkariresult.com.cm/allahabad-high-court-research-associates-2026/"
       },
@@ -195,6 +195,10 @@
         "href": "https://sarkariresult.com.cm/up-police-constable-2026/"
       },
       {
+        "text": "MPESB Group-2 Sub Group-4 Patwari Online Form 2026 – Date Extend",
+        "href": "https://sarkariresult.com.cm/mpesb-group-2-sub-group-4-patwari-2026/"
+      },
+      {
         "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
         "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
@@ -217,10 +221,6 @@
       {
         "text": "MP High Court Assistant Grade III Online Form 2026",
         "href": "https://sarkariresult.com.cm/mp-high-court-assistant-grade-iii-2026/"
-      },
-      {
-        "text": "MPESB Group-2 Sub Group-4 Patwari Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/mpesb-group-2-sub-group-4-patwari-2026/"
       },
       {
         "text": "Railway NFR Apprentice Online Form 2026 (6777 Posts)",
@@ -405,10 +405,6 @@
       {
         "text": "IIM CAT 2026 Online Form – Start",
         "href": "https://sarkariresult.com.cm/iim-cat-2026/"
-      },
-      {
-        "text": "Job",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -929,6 +925,10 @@
       "http://sarkariresult.com.cm/bihar-police-constable-result-2024/": {
         "failedAt": "2026-08-18T08:48:44.217Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+      },
+      "https://sarkariresult.com.cm/csbc-bihar-prohibition-constable-2026/": {
+        "failedAt": "2026-08-18T16:39:38.625Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider"
       }
     }
   }
