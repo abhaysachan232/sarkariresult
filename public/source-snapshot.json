@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-20T04:37:54.510Z",
+    "checkedAt": "2026-08-20T08:50:27.462Z",
     "links": [
+      {
+        "text": "RPSC Rajasthan Police SI Telecom Final Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rpsc-rajasthan-police-si-telecom-2025/"
+      },
+      {
+        "text": "NTA SWAYAM Result / Score Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-swayam-2026/"
+      },
       {
         "text": "Bihar Police Prohibition Constable Result 2026",
         "href": "https://sarkariresult.com.cm/csbc-bihar-prohibition-constable-2026/"
@@ -87,16 +95,16 @@
         "href": "https://sarkariresult.com.cm/bihar-police-bpssc-si-prohibition-2026/"
       },
       {
-        "text": "BPSSC Bihar Police Havildar Instructor Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/bpssc-havildar-instructor-2026/"
-      },
-      {
         "text": "Bihar Police BPSSC ASI (Operation) Pre Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/bihar-police-bpssc-asi-operation-2026/"
       },
       {
-        "text": "HPSC PGT Computer Science Final Result 2026",
-        "href": "https://sarkariresult.com.cm/hpsc-pgt-computer-science-2026/"
+        "text": "NICL Assistant Pre Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/nicl-assistant-2026/"
+      },
+      {
+        "text": "BPSSC Bihar Police Havildar Instructor PET Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/bpssc-havildar-instructor-2026/"
       },
       {
         "text": "UPSSSC Lower PCS Admit Card 2026 – Out",
@@ -187,12 +195,28 @@
         "href": "https://sarkariresult.com.cm/ssc-jht-2026/"
       },
       {
-        "text": "NEET PG Exam City Details 2026",
-        "href": "https://sarkariresult.com.cm/neet-pg-2026/"
+        "text": "UPESSC Principal Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
       },
       {
-        "text": "BSNL Junior Telecom Officer JTO Exam City Details 2026 – Out",
-        "href": "https://sarkariresult.com.cm/bsnl-junior-telecom-officer-jto-2026/"
+        "text": "ISRO Assistant & Junior Personal Assistant Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
+      },
+      {
+        "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts)",
+        "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
+      },
+      {
+        "text": "RPSC Physiotherapist Online Form 2026",
+        "href": "https://sarkariresult.com.cm/rpsc-physiotherapist-2026/"
+      },
+      {
+        "text": "Indian Army NCC Men 125th Course April 2027 Online Form – Last Date Today",
+        "href": "https://sarkariresult.com.cm/indian-army-ncc-125th-course-april-2027/"
+      },
+      {
+        "text": "SKAU Kurukshetra Non Teaching Post Online Form 2026",
+        "href": "https://sarkariresult.com.cm/skau-non-teaching-2026/"
       },
       {
         "text": "RRB Junior Engineer JE Online Form 2026 (4029 Posts)",
@@ -209,14 +233,6 @@
       {
         "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
         "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
-      },
-      {
-        "text": "UPESSC Principal Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
-      },
-      {
-        "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts)",
-        "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
       },
       {
         "text": "MPESB Group-2 Sub Group-4 Patwari Online Form 2026 – Date Extend",
@@ -277,22 +293,6 @@
       {
         "text": "UPSSSC Veterinary Pharmacist Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsssc-veterinary-pharmacist-2026/"
-      },
-      {
-        "text": "ISRO Assistant & Junior Personal Assistant Online Form 2026 – Date Extend",
-        "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
-      },
-      {
-        "text": "GIMS Noida Staff Nurse Online Form 2026",
-        "href": "https://sarkariresult.com.cm/gims-noida-staff-nurse-2026/"
-      },
-      {
-        "text": "UPSSSC Livestock Extension Officer Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-leo-2026/"
-      },
-      {
-        "text": "Railway ICF Apprentice Online Form 2026",
-        "href": "https://sarkariresult.com.cm/railway-icf-apprentice-2026/"
       },
       {
         "text": "NTA ICAR AIEEA PG Ph.D Answer Key 2026",
@@ -499,12 +499,37 @@
       "https://sarkariresult.com.cm/upessc-principal-2026/": {
         "jobId": 136,
         "slug": "upessc-principal-recruitment-2026",
-        "processedAt": "2026-08-19T12:54:00.927Z"
+        "processedAt": "2026-08-20T08:46:50.411Z"
       },
       "https://sarkariresult.com.cm/iit-jam-2027/": {
         "jobId": 137,
         "slug": "iit-jam-2027-admission",
         "processedAt": "2026-08-19T12:54:58.424Z"
+      },
+      "https://sarkariresult.com.cm/rpsc-rajasthan-police-si-telecom-2025/": {
+        "jobId": 138,
+        "slug": "rpsc-rajasthan-police-si-telecom-recruitment-2025",
+        "processedAt": "2026-08-20T08:40:25.287Z"
+      },
+      "https://sarkariresult.com.cm/nicl-assistant-2026/": {
+        "jobId": 139,
+        "slug": "nicl-assistant-recruitment-2026",
+        "processedAt": "2026-08-20T08:45:33.504Z"
+      },
+      "https://sarkariresult.com.cm/rpsc-physiotherapist-2026/": {
+        "jobId": 140,
+        "slug": "rpsc-physiotherapist-recruitment-2026",
+        "processedAt": "2026-08-20T08:47:52.138Z"
+      },
+      "https://sarkariresult.com.cm/indian-army-ncc-125th-course-april-2027/": {
+        "jobId": 141,
+        "slug": "indian-army-ncc-125th-course-april-2027",
+        "processedAt": "2026-08-20T08:49:02.306Z"
+      },
+      "https://sarkariresult.com.cm/skau-non-teaching-2026/": {
+        "jobId": 142,
+        "slug": "skau-kurukshetra-non-teaching-post-recruitment-2026",
+        "processedAt": "2026-08-20T08:50:27.460Z"
       }
     },
     "failed": {
@@ -967,6 +992,10 @@
       "https://sarkariresult.com.cm/csbc-bihar-prohibition-constable-2026/": {
         "failedAt": "2026-08-18T16:39:38.625Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider"
+      },
+      "https://sarkariresult.com.cm/nta-swayam-2026/": {
+        "failedAt": "2026-08-20T08:44:11.880Z",
+        "error": "AI extraction failed after 3 attempts: Hugging Face response is not valid JSON"
       }
     }
   }
