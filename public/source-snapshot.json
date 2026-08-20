@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-20T12:55:38.469Z",
+    "checkedAt": "2026-08-20T16:42:39.559Z",
     "links": [
+      {
+        "text": "UPSSSC Pharmacist Final Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-pharmacist-2026/"
+      },
       {
         "text": "RPSC Rajasthan Police SI Telecom Final Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/rpsc-rajasthan-police-si-telecom-2025/"
@@ -95,8 +99,8 @@
         "href": "https://sarkariresult.com.cm/bihar-police-bpssc-si-prohibition-2026/"
       },
       {
-        "text": "Bihar Police BPSSC ASI (Operation) Pre Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/bihar-police-bpssc-asi-operation-2026/"
+        "text": "IBPS SO XVI Pre Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ibps-so-xvi-2026/"
       },
       {
         "text": "SSC MTS / Havaldar PET / PST Exam Date 2026",
@@ -189,10 +193,6 @@
       {
         "text": "UPSC CDS-II Exam Schedule 2026",
         "href": "https://sarkariresult.com.cm/upsc-cds-2-2026/"
-      },
-      {
-        "text": "UPSC NDA II Exam Schedule 2026",
-        "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
       },
       {
         "text": "UPESSC Principal Online Form 2026 – Last Date Today",
@@ -295,6 +295,14 @@
         "href": "https://sarkariresult.com.cm/upsssc-veterinary-pharmacist-2026/"
       },
       {
+        "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/"
+      },
+      {
+        "text": "UPSSSC UP Pollution Control Board Various Post Final Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-up-pollution-control-board-2026/"
+      },
+      {
         "text": "NTA ICAR AIEEA PG Ph.D Answer Key 2026",
         "href": "https://sarkariresult.com.cm/nta-icar-aieea-pg-and-phd-2026/"
       },
@@ -337,18 +345,6 @@
       {
         "text": "Haryana HTET Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/haryana-htet-2025/"
-      },
-      {
-        "text": "Punjab PSPCL JE Electrical Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/punjab-pspcl-je-electrical-2026/"
-      },
-      {
-        "text": "RRB Ministerial & Isolated Category Answer Key 2026",
-        "href": "https://sarkariresult.com.cm/rrb-ministerial-isolated-category-2026/"
-      },
-      {
-        "text": "Patna High Court Computer Operator-cum-Typist Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/patna-high-court-computer-operator-cum-typist-2026/"
       },
       {
         "text": "Delhi Laxmi Yojana Form 2026",
@@ -544,6 +540,26 @@
         "jobId": 144,
         "slug": "all-india-bar-examination-aibe-xxii-2026",
         "processedAt": "2026-08-20T12:55:38.468Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-pharmacist-2026/": {
+        "jobId": 145,
+        "slug": "upsssc-pharmacist-recruitment-2026",
+        "processedAt": "2026-08-20T16:37:26.842Z"
+      },
+      "https://sarkariresult.com.cm/ibps-so-xvi-2026/": {
+        "jobId": 146,
+        "slug": "ibps-so-xvi-recruitment-2026",
+        "processedAt": "2026-08-20T16:39:08.770Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/": {
+        "jobId": 147,
+        "slug": "upsssc-bcg-technician-recruitment-2024",
+        "processedAt": "2026-08-20T16:40:43.454Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-up-pollution-control-board-2026/": {
+        "jobId": 148,
+        "slug": "upsssc-up-pollution-control-board-various-post-recruitment-2026",
+        "processedAt": "2026-08-20T16:42:39.558Z"
       }
     },
     "failed": {
