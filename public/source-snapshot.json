@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-20T08:50:27.462Z",
+    "checkedAt": "2026-08-20T12:55:38.469Z",
     "links": [
       {
         "text": "RPSC Rajasthan Police SI Telecom Final Result 2026 – Out",
@@ -99,6 +99,14 @@
         "href": "https://sarkariresult.com.cm/bihar-police-bpssc-asi-operation-2026/"
       },
       {
+        "text": "SSC MTS / Havaldar PET / PST Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/ssc-mts-havaldar-2026/"
+      },
+      {
+        "text": "BSNL Junior Telecom Officer JTO Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/bsnl-junior-telecom-officer-jto-2026/"
+      },
+      {
         "text": "NICL Assistant Pre Admit Card 2026",
         "href": "https://sarkariresult.com.cm/nicl-assistant-2026/"
       },
@@ -185,14 +193,6 @@
       {
         "text": "UPSC NDA II Exam Schedule 2026",
         "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
-      },
-      {
-        "text": "SSC Stenographer Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/ssc-stenographer-2026/"
-      },
-      {
-        "text": "SSC Combined Hindi Translators JHT Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/ssc-jht-2026/"
       },
       {
         "text": "UPESSC Principal Online Form 2026 – Last Date Today",
@@ -387,6 +387,10 @@
         "href": "https://sarkariresult.com.cm/up-police-recruitment-calendar-2025-26/"
       },
       {
+        "text": "AIBE 22th Online Form 2026",
+        "href": "https://sarkariresult.com.cm/2026-aibe-22th-aug26/"
+      },
+      {
         "text": "IIT JAM 2027 Online Form",
         "href": "https://sarkariresult.com.cm/iit-jam-2027/"
       },
@@ -530,6 +534,16 @@
         "jobId": 142,
         "slug": "skau-kurukshetra-non-teaching-post-recruitment-2026",
         "processedAt": "2026-08-20T08:50:27.460Z"
+      },
+      "https://sarkariresult.com.cm/ssc-mts-havaldar-2026/": {
+        "jobId": 143,
+        "slug": "ssc-mts-havaldar-recruitment-2026",
+        "processedAt": "2026-08-20T12:52:31.558Z"
+      },
+      "https://sarkariresult.com.cm/2026-aibe-22th-aug26/": {
+        "jobId": 144,
+        "slug": "all-india-bar-examination-aibe-xxii-2026",
+        "processedAt": "2026-08-20T12:55:38.468Z"
       }
     },
     "failed": {
