@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-21T04:39:02.504Z",
+    "checkedAt": "2026-08-21T08:48:52.490Z",
     "links": [
+      {
+        "text": "NEET UG 2026 1st Round Allotment Result – Out",
+        "href": "https://sarkariresult.com.cm/nta-neet-ug-2026/"
+      },
       {
         "text": "UPSSSC Pharmacist Final Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/upsssc-pharmacist-2026/"
@@ -95,8 +99,8 @@
         "href": "https://sarkariresult.com.cm/cbse-12th-result-2026/"
       },
       {
-        "text": "Bihar Police BPSSC SI Prohibition Pre Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/bihar-police-bpssc-si-prohibition-2026/"
+        "text": "Railway RRB Group D Exam City / Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/"
       },
       {
         "text": "IBPS SO XVI Pre Admit Card 2026 – Out",
@@ -137,10 +141,6 @@
       {
         "text": "NBEMS Group A, B & C Various Post Exam City Details 2026",
         "href": "https://sarkariresult.com.cm/nbems-various-post-2026/"
-      },
-      {
-        "text": "Railway RRB Group D Exam City / Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/"
       },
       {
         "text": "IBPS CRP PO MT XVI Pre Admit Card 2026",
@@ -195,19 +195,19 @@
         "href": "https://sarkariresult.com.cm/upsc-cds-2-2026/"
       },
       {
-        "text": "UPESSC Principal Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
+        "text": "UPSSSC PET Online Form 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
       },
       {
-        "text": "ISRO Assistant & Junior Personal Assistant Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
+        "text": "Bank Of Baroda LBO Online Form 2026 (2482 Posts)",
+        "href": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/"
       },
       {
-        "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts)",
+        "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts) – Last Date Today",
         "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
       },
       {
-        "text": "RPSC Physiotherapist Online Form 2026",
+        "text": "RPSC Physiotherapist Online Form 2026 – Last Date Today",
         "href": "https://sarkariresult.com.cm/rpsc-physiotherapist-2026/"
       },
       {
@@ -215,7 +215,7 @@
         "href": "https://sarkariresult.com.cm/indian-army-ncc-125th-course-april-2027/"
       },
       {
-        "text": "SKAU Kurukshetra Non Teaching Post Online Form 2026",
+        "text": "SKAU Kurukshetra Non Teaching Post Online Form 2026 – Last Date Today",
         "href": "https://sarkariresult.com.cm/skau-non-teaching-2026/"
       },
       {
@@ -243,10 +243,6 @@
         "href": "https://sarkariresult.com.cm/rssb-junior-engineer-2026/"
       },
       {
-        "text": "Bank Of Baroda LBO Online Form 2026 (2482 Posts)",
-        "href": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/"
-      },
-      {
         "text": "MPESB Primary and Secondary Teachers MSPSTET Online Form 2026",
         "href": "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/"
       },
@@ -261,10 +257,6 @@
       {
         "text": "Bihar STET Online Form 2026",
         "href": "https://sarkariresult.com.cm/bihar-stet-2026/"
-      },
-      {
-        "text": "UPSSSC PET Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
       },
       {
         "text": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts) – Start",
@@ -293,6 +285,14 @@
       {
         "text": "UPSSSC Veterinary Pharmacist Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsssc-veterinary-pharmacist-2026/"
+      },
+      {
+        "text": "GIMS Noida Staff Nurse Online Form 2026",
+        "href": "https://sarkariresult.com.cm/gims-noida-staff-nurse-2026/"
+      },
+      {
+        "text": "UPSSSC Livestock Extension Officer Online Form 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-leo-2026/"
       },
       {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
@@ -519,17 +519,12 @@
       "https://sarkariresult.com.cm/rpsc-physiotherapist-2026/": {
         "jobId": 140,
         "slug": "rpsc-physiotherapist-recruitment-2026",
-        "processedAt": "2026-08-20T08:47:52.138Z"
+        "processedAt": "2026-08-21T08:48:50.667Z"
       },
       "https://sarkariresult.com.cm/indian-army-ncc-125th-course-april-2027/": {
         "jobId": 141,
         "slug": "indian-army-ncc-125th-course-april-2027",
         "processedAt": "2026-08-20T08:49:02.306Z"
-      },
-      "https://sarkariresult.com.cm/skau-non-teaching-2026/": {
-        "jobId": 142,
-        "slug": "skau-kurukshetra-non-teaching-post-recruitment-2026",
-        "processedAt": "2026-08-20T08:50:27.460Z"
       },
       "https://sarkariresult.com.cm/ssc-mts-havaldar-2026/": {
         "jobId": 143,
@@ -1026,6 +1021,14 @@
       "https://sarkariresult.com.cm/nta-swayam-2026/": {
         "failedAt": "2026-08-20T08:44:11.880Z",
         "error": "AI extraction failed after 3 attempts: Hugging Face response is not valid JSON"
+      },
+      "https://sarkariresult.com.cm/nta-neet-ug-2026/": {
+        "failedAt": "2026-08-21T08:47:28.884Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider"
+      },
+      "https://sarkariresult.com.cm/skau-non-teaching-2026/": {
+        "failedAt": "2026-08-21T08:48:52.488Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
       }
     }
   }
