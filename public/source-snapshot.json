@@ -1,7 +1,23 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-21T12:58:20.288Z",
+    "checkedAt": "2026-08-21T16:43:45.609Z",
     "links": [
+      {
+        "text": "SSC JE Engineer Final Result / Marks 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ssc-jr-engineer-2025/"
+      },
+      {
+        "text": "Delhi DSSSB Various Posts Result 2026",
+        "href": "https://sarkariresult.com.cm/dsssb-various-posts-2026/"
+      },
+      {
+        "text": "RPSC School Lecturer PGT Result 2026 – Updated",
+        "href": "https://sarkariresult.com.cm/rpsc-1st-grade-teacher-2025/"
+      },
+      {
+        "text": "UP DELEd 2026 Allotment Result",
+        "href": "https://sarkariresult.com.cm/up-deled-2026/"
+      },
       {
         "text": "UPSSSC Junior Assistant 09/2022 Final Result 2026",
         "href": "https://sarkariresult.com.cm/upsssc-junior-assistant-09-2022/"
@@ -47,10 +63,6 @@
         "href": "https://sarkariresult.com.cm/upsssc-vdo-2023/"
       },
       {
-        "text": "RPSC School Lecturer PGT Result 2026 – Updated",
-        "href": "https://sarkariresult.com.cm/rpsc-1st-grade-teacher-2025/"
-      },
-      {
         "text": "SSC 10+2 CHSL 2025 FRTA Result – Out",
         "href": "https://sarkariresult.com.cm/ssc-chsl-2026/"
       },
@@ -91,16 +103,12 @@
         "href": "https://sarkariresult.com.cm/rssb-nhm-rajmes-2025/"
       },
       {
-        "text": "RSSB Junior Technical Assistant JTA Final Result 2026",
-        "href": "https://sarkariresult.com.cm/rssb-junior-technical-assistant-jta-result-2025/"
+        "text": "SSC Selection Phase 14 Exam Date 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ssc-selection-phase-14-2026/"
       },
       {
-        "text": "RSSB Ayush Officer Final Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/rssb-ayush-officer-2026/"
-      },
-      {
-        "text": "UPSSSC Auditor / Assistant Accountant 2024 Final Result",
-        "href": "https://sarkariresult.com.cm/upsssc-assistant-accountant-mains-result-2025/"
+        "text": "UPSSSC Stenographer 09/2023 Skill Test Exam Date Notice",
+        "href": "https://sarkariresult.com.cm/upsssc-stenographer-2025/"
       },
       {
         "text": "Railway RRB Group D Exam City / Admit Card 2026",
@@ -191,12 +199,8 @@
         "href": "https://sarkariresult.com.cm/allahabad-high-court-research-associates-2026/"
       },
       {
-        "text": "RSSB Computer Instructor Exam City Details 2026",
-        "href": "https://sarkariresult.com.cm/rssb-computer-instructor-2026/"
-      },
-      {
-        "text": "SBI Assistant Manager Law, Deputy Manager Law Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/sbi-manager-2026/"
+        "text": "MPESB Primary and Secondary Teachers MSPSTET Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/"
       },
       {
         "text": "UPSC EPFO / APFC Online Form 2026",
@@ -253,10 +257,6 @@
       {
         "text": "RSSB Junior Engineer Online Form 2026",
         "href": "https://sarkariresult.com.cm/rssb-junior-engineer-2026/"
-      },
-      {
-        "text": "MPESB Primary and Secondary Teachers MSPSTET Online Form 2026",
-        "href": "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/"
       },
       {
         "text": "MPESB Group 3 Sub Engineer & Other Post Online Form 2026",
@@ -473,7 +473,7 @@
       "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/": {
         "jobId": 130,
         "slug": "mpesb-primary-and-secondary-teachers-mspstet-recruitment-2026",
-        "processedAt": "2026-08-18T12:54:02.070Z"
+        "processedAt": "2026-08-21T16:43:45.607Z"
       },
       "https://sarkariresult.com.cm/mpesb-group-3-sub-engineer-2026/": {
         "jobId": 131,
@@ -569,6 +569,31 @@
         "jobId": 150,
         "slug": "uppsc-gic-lecturer-recruitment-2025",
         "processedAt": "2026-08-21T12:50:42.259Z"
+      },
+      "https://sarkariresult.com.cm/ssc-jr-engineer-2025/": {
+        "jobId": 151,
+        "slug": "ssc-junior-engineer-recruitment-2025",
+        "processedAt": "2026-08-21T16:37:15.607Z"
+      },
+      "https://sarkariresult.com.cm/dsssb-various-posts-2026/": {
+        "jobId": 152,
+        "slug": "delhi-dsssb-various-posts-result-2026",
+        "processedAt": "2026-08-21T16:38:59.290Z"
+      },
+      "https://sarkariresult.com.cm/up-deled-2026/": {
+        "jobId": 153,
+        "slug": "up-deled-2026-allotment-result",
+        "processedAt": "2026-08-21T16:40:11.162Z"
+      },
+      "https://sarkariresult.com.cm/ssc-selection-phase-14-2026/": {
+        "jobId": 154,
+        "slug": "ssc-selection-phase-14-2026-recruitment",
+        "processedAt": "2026-08-21T16:41:18.968Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-stenographer-2025/": {
+        "jobId": 155,
+        "slug": "upsssc-stenographer-2025-recruitment",
+        "processedAt": "2026-08-21T16:42:32.720Z"
       }
     },
     "failed": {
