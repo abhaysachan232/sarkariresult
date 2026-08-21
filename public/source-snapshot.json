@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-21T08:48:52.490Z",
+    "checkedAt": "2026-08-21T12:58:20.288Z",
     "links": [
+      {
+        "text": "UPSSSC Junior Assistant 09/2022 Final Result 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-junior-assistant-09-2022/"
+      },
+      {
+        "text": "HPSC PGT Computer Science Final Result 2026",
+        "href": "https://sarkariresult.com.cm/hpsc-pgt-computer-science-2026/"
+      },
       {
         "text": "NEET UG 2026 1st Round Allotment Result – Out",
         "href": "https://sarkariresult.com.cm/nta-neet-ug-2026/"
@@ -95,12 +103,16 @@
         "href": "https://sarkariresult.com.cm/upsssc-assistant-accountant-mains-result-2025/"
       },
       {
-        "text": "CBSE Board 12th Compartment Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/cbse-12th-result-2026/"
-      },
-      {
         "text": "Railway RRB Group D Exam City / Admit Card 2026",
         "href": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/"
+      },
+      {
+        "text": "UPPSC GIC Lecturer Mains Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/uppsc-gic-lecturer-2025/"
+      },
+      {
+        "text": "Cotton Corporation CCI Various Post Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/cci-various-post-2026/"
       },
       {
         "text": "IBPS SO XVI Pre Admit Card 2026 – Out",
@@ -129,10 +141,6 @@
       {
         "text": "BSF HCM & ASI Steno Admit Card 2026 – Out",
         "href": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/"
-      },
-      {
-        "text": "Cotton Corporation of India CCI Various Post Exam City Details 2026",
-        "href": "https://sarkariresult.com.cm/cci-various-post-2026/"
       },
       {
         "text": "NTA AIAPGET Admit Card 2026 – Out",
@@ -191,8 +199,8 @@
         "href": "https://sarkariresult.com.cm/sbi-manager-2026/"
       },
       {
-        "text": "UPSC CDS-II Exam Schedule 2026",
-        "href": "https://sarkariresult.com.cm/upsc-cds-2-2026/"
+        "text": "UPSC EPFO / APFC Online Form 2026",
+        "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
       },
       {
         "text": "UPSSSC PET Online Form 2026",
@@ -205,6 +213,14 @@
       {
         "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts) – Last Date Today",
         "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
+      },
+      {
+        "text": "NTPC NGEL Engineer and Executive Post Online Form 2026",
+        "href": "https://sarkariresult.com.cm/ntpc-ngel-engineer-and-executive-post-2026/"
+      },
+      {
+        "text": "UP Anganwadi Bharti Online Form 2026 (Updated)",
+        "href": "https://sarkariresult.com.cm/up-anganwadi-bharti-2026/"
       },
       {
         "text": "RPSC Physiotherapist Online Form 2026 – Last Date Today",
@@ -221,10 +237,6 @@
       {
         "text": "RRB Junior Engineer JE Online Form 2026 (4029 Posts)",
         "href": "https://sarkariresult.com.cm/rrb-je-2026/"
-      },
-      {
-        "text": "UPSC EPFO / APFC Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
       },
       {
         "text": "UPPSC Professor & Assistant Professor Online Form 2026",
@@ -267,10 +279,6 @@
         "href": "https://sarkariresult.com.cm/sbi-junior-associates-clerk-2026/"
       },
       {
-        "text": "UP Anganwadi Bharti Online Form 2026 (Updated)",
-        "href": "https://sarkariresult.com.cm/up-anganwadi-bharti-2026/"
-      },
-      {
         "text": "RRVUNL JE, Junior Assistant Online Form 2026",
         "href": "https://sarkariresult.com.cm/rrvunl-je-junior-assistant-2026/"
       },
@@ -289,10 +297,6 @@
       {
         "text": "GIMS Noida Staff Nurse Online Form 2026",
         "href": "https://sarkariresult.com.cm/gims-noida-staff-nurse-2026/"
-      },
-      {
-        "text": "UPSSSC Livestock Extension Officer Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-leo-2026/"
       },
       {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
@@ -484,7 +488,7 @@
       "https://sarkariresult.com.cm/cci-various-post-2026/": {
         "jobId": 133,
         "slug": "cotton-corporation-of-india-cci-various-post-recruitment-2026",
-        "processedAt": "2026-08-19T12:50:23.554Z"
+        "processedAt": "2026-08-21T12:52:18.134Z"
       },
       "https://sarkariresult.com.cm/upsc-epfo-2026/": {
         "jobId": 134,
@@ -555,6 +559,16 @@
         "jobId": 148,
         "slug": "upsssc-up-pollution-control-board-various-post-recruitment-2026",
         "processedAt": "2026-08-20T16:42:39.558Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-junior-assistant-09-2022/": {
+        "jobId": 149,
+        "slug": "upsssc-junior-assistant-09-2022-recruitment-2026",
+        "processedAt": "2026-08-21T12:49:11.540Z"
+      },
+      "https://sarkariresult.com.cm/uppsc-gic-lecturer-2025/": {
+        "jobId": 150,
+        "slug": "uppsc-gic-lecturer-recruitment-2025",
+        "processedAt": "2026-08-21T12:50:42.259Z"
       }
     },
     "failed": {
@@ -1029,6 +1043,10 @@
       "https://sarkariresult.com.cm/skau-non-teaching-2026/": {
         "failedAt": "2026-08-21T08:48:52.488Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+      },
+      "https://sarkariresult.com.cm/ntpc-ngel-engineer-and-executive-post-2026/": {
+        "failedAt": "2026-08-21T12:58:20.286Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider"
       }
     }
   }

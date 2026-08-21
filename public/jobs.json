@@ -10693,18 +10693,18 @@
   },
   {
     "id": 133,
-    "title": "Cotton Corporation of India CCI Various Post Recruitment 2026",
+    "title": "Cotton Corporation CCI Various Post Recruitment 2026",
     "setPath": "cci-various-post-2026",
     "slug": "cotton-corporation-of-india-cci-various-post-recruitment-2026",
-    "organization": "Cotton Corporation of India Limited (CCIL)",
-    "date": "2026-08-19",
+    "organization": "Cotton Corporation Of India Limited (CCIL)",
+    "date": "2026-08-21",
     "location": "",
     "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "Cotton Corporation of India Limited (CCIL) has released the exam city details for the recruitment of Management Trainee (Marketing, Accounts), Junior Commercial Executive, and Junior Assistant posts. The exam will be conducted on 01 September 2026. The last date to submit the application form was 24 July 2026. Candidates can check their exam city details using their enrollment number, registration number, or date of birth by logging into the portal. The total vacancy is 148 posts, including 08 posts for Management Trainee (Marketing), 08 for Management Trainee (Accounts), 50 for Junior Commercial Executive, 30 for Junior Assistant (General), 50 for Junior Assistant (Accounts), and 01 each for Assistant Manager (Official Language) and Assistant Manager (Information Technology). Candidates must meet specific eligibility criteria based on the post, with age limits ranging from 18 to 30 years for most posts and up to 32 years for Assistant Manager posts. Age relaxation is provided as per regulations. The selection process includes written examination, document verification, and medical examination.",
+    "description": "Cotton Corporation Of India Limited (CCIL) has released the admit card for the recruitment of Management Trainee (Marketing, Accounts), Junior Commercial Executive, Junior Assistant, and Assistant Manager posts. A total of 148 positions are available across various categories. The examination will be conducted on 01 September 2026. The online application process started on 09 July 2026 and ended on 24 July 2026. Candidates can check their admit card using their enrollment number, registration number, or date of birth by logging into the official portal. The mode of selection includes written examination, document verification, and medical examination. The minimum age required is 18 years and the maximum age is 30 years for most posts, with a maximum age of 32 years for Assistant Manager posts. The application fee is ₹1770/- for General, OBC, and EWS candidates, ₹590/- for SC, ST, and PH candidates, including intimation charges and GST. Payment can be made via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet.",
     "totalPost": "148",
     "importantDates": {
       "Application Begin": "2026-07-09",
@@ -10714,37 +10714,37 @@
       "Eligibility Result Available": "",
       "Exam Date": "2026-09-01",
       "Exam City Available": "2026-08-18",
-      "Admit Card Available": "Before Exam"
+      "Admit Card Available": "2026-08-21"
     },
     "applicationFee": {
       "General / OBC / EWS": "₹1770/-",
-      "SC / ST": "₹590/-",
-      "PH (Divyang)": "₹590/-",
+      "SC / ST": "₹65/-",
+      "PH (Divyang)": "₹25/-",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
       "Minimum Age": "18 Years",
       "Maximum Age": "30 Years",
-      "Age Calculation Date": "09 July 2026",
-      "Age Relaxation": "As per their regulations"
+      "Age Calculation Date": "01 July 2025",
+      "Age Relaxation": "As per CCIL Regulations"
     },
     "posts": [
-      "Management Trainee (Marketing)",
-      "Management Trainee (Accounts)",
-      "Junior Commercial Executive",
-      "Junior Assistant (General)",
-      "Junior Assistant (Accounts)",
-      "Assistant Manager (Official Language)",
-      "Assistant Manager (Information Technology)"
+      "Management Trainee (Marketing): 08",
+      "Management Trainee (Accounts): 08",
+      "Junior Commercial Executive: 50",
+      "Junior Assistant (General): 30",
+      "Junior Assistant (Accounts): 50",
+      "Assistant Manager (Official Language): 01",
+      "Assistant Manager (Information Technology): 01"
     ],
     "eligibility": [
-      "Management Trainee (Marketing): Candidates must have an MBA in Agri Business Management or an agriculture-related MBA from a recognized institution. Age limit is 18 to 30 years.",
-      "Management Trainee (Accounts): Candidates must have a CA or CMA qualification from a recognized institute. Age limit is 18 to 30 years.",
-      "Junior Commercial Executive: Candidates must have a B.Sc. in Agriculture from a recognized university with 50% marks for UR/OBC/EWS candidates and 45% marks for SC/ST/PwBD candidates. Age limit is 18 to 30 years.",
-      "Junior Assistant (General): Candidates must have a graduation from a recognized university with at least 50% marks (45% for SC/ST/PwBD candidates). Age limit is 18 to 30 years.",
-      "Junior Assistant (Accounts): Candidates must have a B.Com degree from a recognized university with at least 50% marks (45% for SC/ST/PH candidates). Age limit is 18 to 30 years.",
-      "Assistant Manager (Official Language): Candidates must have a postgraduate degree in Hindi with at least 50% marks, have studied English up to graduation, and possess a minimum of 1 year of relevant work experience. Knowledge of Hindi translation, Government of India official language rules, and an MBA will be considered an added advantage. Age limit is 18 to 32 years.",
-      "Assistant Manager (Information Technology): Candidates must have a B.E./B.Tech. in Information Technology, Computer Science, or an equivalent discipline, or an MCA from a recognized university. Or MCA & MBA. Age limit is 18 to 32 years."
+      "Management Trainee (Marketing): MBA in Agri Business Management or Agriculture-related MBA from a recognized institution, age 18 to 30 years.",
+      "Management Trainee (Accounts): CA or CMA qualification from a recognized institute, age 18 to 30 years.",
+      "Junior Commercial Executive: B.Sc. in Agriculture from a recognized university with 50% marks (UR/OBC/EWS) or 45% (SC/ST/PwBD), age 18 to 30 years.",
+      "Junior Assistant (General): Graduation from a recognized university with at least 50% marks (45% for SC/ST/PwBD), age 18 to 30 years.",
+      "Junior Assistant (Accounts): B.Com degree from a recognized university with at least 50% marks (45% for SC/ST/PH), age 18 to 30 years.",
+      "Assistant Manager (Official Language): Postgraduate degree in Hindi with at least 50% marks, studied English up to graduation, and at least 1 year of relevant work experience, age 18 to 32 years.",
+      "Assistant Manager (Information Technology): B.E./B.Tech in IT, Computer Science, or equivalent, or MCA from a recognized university, or MCA & MBA, age 18 to 32 years."
     ],
     "selectionProcess": [
       "Written Examination",
@@ -10752,31 +10752,35 @@
       "Medical Examination"
     ],
     "jobLocation": "",
-    "howToApply": "Candidates can apply online for the Cotton Corporation of India (CCIL) various posts recruitment 2026. The application form is available from 09 July 2026 to 24 July 2026. After logging into the official portal, candidates must fill in all required details, upload necessary documents, and pay the application fee using the available payment modes. The application form must be submitted before the last date to ensure eligibility for the recruitment process. For more details, refer to the official notification. Candidates are advised to verify all details from the official CCIL website before making any decisions.",
+    "howToApply": "Interested candidates can apply online for the Cotton Corporation Of India Limited (CCIL) Various Post Recruitment 2026 through the official CCIL website. The online application process started on 09 July 2026 and ended on 24 July 2026. Candidates must complete the application form before the deadline. It is advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and eligibility criteria. After submission, candidates can check their application status on the portal. The application fee is ₹1770/- for General, OBC, and EWS candidates, ₹590/- for SC, ST, and PH candidates, including intimation charges and GST, which can be paid via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet.",
     "links": {
-      "Apply Online": "https://esb.mp.gov.in/E_default.html",
-      "Official Notification": "https://esb.mp.gov.in/E_default.html"
+      "Apply Online": "https://upsssc.gov.in",
+      "Official Notification": "Click Here"
     },
     "content": [
       {
-        "heading": "Cotton Corporation of India CCI Various Post Recruitment 2026",
-        "body": "Cotton Corporation of India Limited (CCIL) has released the exam city details for the recruitment of Management Trainee (Marketing, Accounts), Junior Commercial Executive, and Junior Assistant posts. The exam will be conducted on 01 September 2026. The last date to submit the application form was 24 July 2026. Candidates can check their exam city details using their enrollment number, registration number, or date of birth by logging into the portal. The total vacancy is 148 posts, including 08 posts for Management Trainee (Marketing), 08 for Management Trainee (Accounts), 50 for Junior Commercial Executive, 30 for Junior Assistant (General), 50 for Junior Assistant (Accounts), and 01 each for Assistant Manager (Official Language) and Assistant Manager (Information Technology). Candidates must meet specific eligibility criteria based on the post, with age limits ranging from 18 to 30 years for most posts and up to 32 years for Assistant Manager posts. Age relaxation is provided as per regulations. The selection process includes written examination, document verification, and medical examination."
+        "heading": "Cotton Corporation CCI Various Post Recruitment 2026",
+        "body": "Cotton Corporation Of India Limited (CCIL) has released the admit card for the recruitment of Management Trainee (Marketing, Accounts), Junior Commercial Executive, Junior Assistant, and Assistant Manager posts. A total of 148 positions are available across various categories. The examination will be conducted on 01 September 2026. The online application process started on 09 July 2026 and ended on 24 July 2026. Candidates can check their admit card using their enrollment number, registration number, or date of birth by logging into the official portal. The mode of selection includes written examination, document verification, and medical examination. The minimum age required is 18 years and the maximum age is 30 years for most posts, with a maximum age of 32 years for Assistant Manager posts. The application fee is ₹1770/- for General, OBC, and EWS candidates, ₹590/- for SC, ST, and PH candidates, including intimation charges and GST. Payment can be made via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet."
       },
       {
-        "heading": "Cotton Corporation of India CCI Various Post Recruitment 2026: Important Dates",
-        "body": "The key important dates for the Cotton Corporation of India CCI Various Post recruitment 2026 are as follows:\n- Online Application Start Date: 09 July 2026\n- Last Date for Online Application: 24 July 2026\n- Last Date for Fee Payment: 24 July 2026\n- Exam Date: 01 September 2026\n- Exam City Details Released: 18 August 2026\n- Admit Card: Available before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates from the CCIL official website before finalizing their preparation and document submission plans. The exam schedule provides a detailed timeline for the recruitment process, including written examination, document verification, and medical examination. Candidates are encouraged to monitor the official portal for updates on result declarations, exam city details, and other notifications."
+        "heading": "Cotton Corporation CCI Various Post Recruitment 2026: Important Dates",
+        "body": "The key important dates for the Cotton Corporation Of India Limited (CCIL) Various Post Recruitment 2026 are as follows:\n- Online Application Start Date: 09 July 2026\n- Online Application Last Date: 24 July 2026\n- Last Date for Fee Payment: 24 July 2026\n- Exam Date: 01 September 2026\n- Exam City Details: 18 August 2026\n- Admit Card Available: 21 August 2026\nCandidates are advised to confirm all dates from the official CCIL website before finalizing their preparation and application plans. The exam schedule provides a detailed timeline for the recruitment process, including the written exams, admit card release, and result declaration. Candidates are encouraged to monitor the official portal for updates on result declarations and other notifications."
       },
       {
-        "heading": "Cotton Corporation of India CCI Various Post Recruitment 2026: Vacancy and Eligibility Details",
-        "body": "The Cotton Corporation of India CCIL Various Post recruitment 2026 includes a total of 148 posts. The vacancy details are as follows:\n\nPost Name: Management Trainee (Marketing) – 08 Posts\nEligibility: Candidates must have an MBA in Agri Business Management or an agriculture-related MBA from a recognized institution. Age limit is 18 to 30 years.\n\nPost Name: Management Trainee (Accounts) – 08 Posts\nEligibility: Candidates must have a CA or CMA qualification from a recognized institute. Age limit is 18 to 30 years.\n\nPost Name: Junior Commercial Executive – 50 Posts\nEligibility: Candidates must have a B.Sc. in Agriculture from a recognized university with 50% marks for UR/OBC/EWS candidates and 45% marks for SC/ST/PwBD candidates. Age limit is 18 to 30 years.\n\nPost Name: Junior Assistant (General) – 30 Posts\nEligibility: Candidates must have a graduation from a recognized university with at least 50% marks (45% for SC/ST/PwBD candidates). Age limit is 18 to 30 years.\n\nPost Name: Junior Assistant (Accounts) – 50 Posts\nEligibility: Candidates must have a B.Com degree from a recognized university with at least 50% marks (45% for SC/ST/PH candidates). Age limit is 18 to 30 years.\n\nPost Name: Assistant Manager (Official Language) – 01 Post\nEligibility: Candidates must have a postgraduate degree in Hindi with at least 50% marks, have studied English up to graduation, and possess a minimum of 1 year of relevant work experience. Knowledge of Hindi translation, Government of India official language rules, and an MBA will be considered an added advantage. Age limit is 18 to 32 years.\n\nPost Name: Assistant Manager (Information Technology) – 01 Post\nEligibility: Candidates must have a B.E./B.Tech. in Information Technology, Computer Science, or an equivalent discipline, or an MCA from a recognized university. Or MCA & MBA. Age limit is 18 to 32 years.\n\nThe minimum age is 18 years and the maximum age varies by post, ranging from 30 to 32 years as on 09 July 2026. Age relaxation is provided as per their regulations. The selection process includes written examination, document verification, and medical examination. Candidates are advised to verify all details from the official CCIL website before making any decisions."
+        "heading": "Cotton Corporation CCI Various Post Recruitment 2026: Eligibility Details",
+        "body": "The eligibility criteria for the Cotton Corporation Of India Limited (CCIL) Various Post Recruitment 2026 are as follows:\n- Management Trainee (Marketing): MBA in Agri Business Management or Agriculture-related MBA from a recognized institution, age 18 to 30 years.\n- Management Trainee (Accounts): CA or CMA qualification from a recognized institute, age 18 to 30 years.\n- Junior Commercial Executive: B.Sc. in Agriculture from a recognized university with 50% marks (UR/OBC/EWS) or 45% (SC/ST/PwBD), age 18 to 30 years.\n- Junior Assistant (General): Graduation from a recognized university with at least 50% marks (45% for SC/ST/PwBD), age 18 to 30 years.\n- Junior Assistant (Accounts): B.Com degree from a recognized university with at least 50% marks (45% for SC/ST/PH), age 18 to 30 years.\n- Assistant Manager (Official Language): Postgraduate degree in Hindi with at least 50% marks, studied English up to graduation, and at least 1 year of relevant work experience, age 18 to 32 years.\n- Assistant Manager (Information Technology): B.E./B.Tech in IT, Computer Science, or equivalent, or MCA from a recognized university, or MCA & MBA, age 18 to 32 years.\nCandidates are advised to read the official notification carefully to confirm specific eligibility requirements for each post."
       },
       {
-        "heading": "How to Apply for Cotton Corporation of India CCI Various Post Recruitment 2026",
-        "body": "Candidates can apply online for the Cotton Corporation of India (CCIL) various posts recruitment 2026. The application form is available from 09 July 2026 to 24 July 2026. After logging into the official portal, candidates must fill in all required details, upload necessary documents, and pay the application fee using the available payment modes. The application form must be submitted before the last date to ensure eligibility for the recruitment process. For more details, refer to the official notification. Candidates are advised to verify all details from the official CCIL website before making any decisions."
+        "heading": "How to Apply for Cotton Corporation CCI Various Post Recruitment 2026",
+        "body": "To apply for the Cotton Corporation Of India Limited (CCIL) Various Post Recruitment 2026, follow these steps:\n1. Visit the official website of Cotton Corporation Of India Limited (CCIL) to access the application portal.\n2. Click on the 'Apply Online' link to register and submit the application form.\n3. Fill in all required details such as personal information, educational qualifications, and contact details.\n4. Upload the necessary documents including educational certificates and identity proof.\n5. Review all details and submit the application form.\n6. After submission, candidates can verify their application status on the portal.\nNote – Candidates are advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and eligibility criteria. The application fee is ₹1770/- for General, OBC, and EWS candidates, ₹590/- for SC, ST, and PH candidates, including intimation charges and GST, which can be paid via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet."
       },
       {
-        "heading": "Cotton Corporation of India CCI Various Post Recruitment 2026: Important Questions and Answers",
-        "body": "Q1. When will the CCI Various Post exam be conducted?\nA: The Cotton Corporation of India (CCIL) exam for various posts will be conducted on 01 September 2026.\n\nQ2. How can I check the CCI exam city details 2026?\nA: Candidates can check their exam city details by visiting the official CCIL website and logging in with their registration number or user ID and password.\n\nQ3. What details are required to check the CCI exam city details?\nA: Candidates generally need their registration number/user ID and password to access the exam city information.\n\nQ4. What information is mentioned in the CCI exam city intimation slip?\nA: The slip provides information about the allotted examination city and other examination-related details such as exam date, shift, and reporting time.\n\nQ5. What is the official website for CCIL?\nA: The official website for CCIL is https://cotcorp.org.in/"
+        "heading": "Cotton Corporation CCI Various Post Recruitment 2026: Mode of Selection",
+        "body": "The selection process for the Cotton Corporation Of India Limited (CCIL) Various Post Recruitment 2026 consists of the following stages:\n1. Written Examination\n2. Document Verification\n3. Medical Examination\nCandidates must successfully clear all stages to be considered for final appointment. The final selection is based on performance in the written exam, followed by document verification and medical examination."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q1. When was the CCI Various Post Admit Card 2026 released?\nA: The Cotton Corporation Of India released the admit card for the various posts recruitment before the online examination.\n\nQ2. How can I check the CCI Admit Card 2026?\nA: Candidates can check their allotted exam city by visiting the official CCIL website and logging in with their required credentials.\n\nQ3. What details are required to check the CCI Admit Card?\nA: Candidates generally need their Registration Number/User ID and Password to access the exam city information.\n\nQ4. What information is mentioned in the CCI Exam City Intimation Slip?\nA: The slip provides information about the allotted examination city and other examination-related details.\n\nQ5. What is the official website for CCIL?\nA: The official website for CCIL is https://cotcorp.org.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -10784,11 +10788,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "Cotton Corporation of India CCI Various Post Recruitment 2026",
-      "metaDescription": "CCI Various Post Recruitment 2026: Check Exam Date, Important Dates, Eligibility, Application Process, Fee, Selection Process, and How to Apply. Age Limit 18–30 Years, Apply Online Until 24 July 2026, Exam on 01 September 2026, 148 Posts.",
-      "keywords": "CCI Various Post Recruitment 2026, CCI Exam Date 2026, CCI Eligibility Criteria, CCI Application Fee, CCI Selection Process, CCI Vacancy 148 Posts"
+      "metaTitle": "Cotton Corporation CCI Various Post Recruitment 2026",
+      "metaDescription": "Cotton Corporation CCI Various Post Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Total Posts: 148. Application Starts 09 July 2026, Ends 24 July 2026. Age Limit: 18 to 30 years (32 years for Assistant Manager). Eligibility: As per post-wise qualifications. Application Fee: ₹1770/- for General, ₹590/- for SC/ST/PH. Mode of Selection: Written Exam, Document Verification, Medical Examination.",
+      "keywords": "CCI Various Post Recruitment 2026, CCI Admit Card 2026, CCI Application Form 2026, CCI Eligibility Criteria, CCI Age Limit, CCI Exam Date, CCI Selection Process, CCI Vacancy Details"
     },
-    "updatedon": "2026-08-19"
+    "updatedon": "2026-08-21"
   },
   {
     "id": 134,
@@ -12191,5 +12195,192 @@
       "keywords": "UPSSSC UP Pollution Control Board 2026, UPSSSC UP Pollution Control Board Recruitment, UPSSSC UP Pollution Control Board Application Form 2026, UPSSSC UP Pollution Control Board Eligibility, UPSSSC UP Pollution Control Board Age Limit, UPSSSC UP Pollution Control Board Exam Date, UPSSSC UP Pollution Control Board Admit Card 2026, UPSSSC UP Pollution Control Board Selection Process"
     },
     "updatedon": "2026-08-20"
+  },
+  {
+    "id": 149,
+    "title": "UPSSSC Junior Assistant 09/2022 Recruitment 2026",
+    "setPath": "upsssc-junior-assistant-09-2022",
+    "slug": "upsssc-junior-assistant-09-2022-recruitment-2026",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "2026-08-21",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the Final Result for the recruitment of 10+2 Junior Assistant posts. A total of 62 positions are available across various categories. The exam was conducted on 22 November 2025. The online application process started on 19 December 2022 and ended on 08 January 2023. Candidates can check their final result using their enrollment number, registration number, or date of birth by logging into the portal. The mode of selection includes preliminary eligibility test, written examination, typing test, and document verification. The minimum age required is 21 years and the maximum age is 40 years as on 07 July 2022. The application fee is ₹25/- for General, OBC, EWS, SC, and ST candidates. Payment can be made via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet.",
+    "totalPost": "62",
+    "importantDates": {
+      "Application Begin": "2022-12-19",
+      "Last Date for Apply Online": "2023-01-08",
+      "Pay Exam Fee Last Date": "2023-01-08",
+      "Correction Last Date": "2023-01-15",
+      "Eligibility Result Available": "",
+      "Exam Date": "2025-01-19",
+      "Exam City Available": "2025-01-10",
+      "Admit Card Available": "2025-01-16"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "₹25/-",
+      "SC / ST": "₹25/-",
+      "PH (Divyang)": "₹25/-",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "40 Years",
+      "Age Calculation Date": "07 July 2022",
+      "Age Relaxation": "As per UPSSSC Regulations"
+    },
+    "posts": [
+      "Junior Assistant: 62"
+    ],
+    "eligibility": [
+      "Candidates must have passed 10+2 (Class 12) from a recognized board and meet the age and category-wise eligibility criteria as per UPSSSC regulations."
+    ],
+    "selectionProcess": [
+      "Preliminary Eligibility Test",
+      "Written Examination",
+      "Typing Test",
+      "Document Verification"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates can apply online for the UPSSSC Junior Assistant 09/2022 Recruitment 2026 through the official UPSSSC website. The online application process started on 19 December 2022 with the last date for submission extended to 08 January 2023. Candidates must complete the application form before the deadline. It is advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and eligibility criteria. After submission, candidates can check their application status on the portal. The application fee is ₹25/- for General, OBC, EWS, SC, and ST candidates, which can be paid via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet.",
+    "links": {
+      "Apply Online": "https://upsssc.gov.in",
+      "Official Notification": "Click Here"
+    },
+    "content": [
+      {
+        "heading": "UPSSSC Junior Assistant 09/2022 Recruitment 2026",
+        "body": "The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the Final Result for the recruitment of 10+2 Junior Assistant posts. A total of 62 positions are available across various categories. The exam was conducted on 22 November 2025. The online application process started on 19 December 2022 and ended on 08 January 2023. Candidates can check their final result using their enrollment number, registration number, or date of birth by logging into the portal. The mode of selection includes preliminary eligibility test, written examination, typing test, and document verification. The minimum age required is 21 years and the maximum age is 40 years as on 07 July 2022. The application fee is ₹25/- for General, OBC, EWS, SC, and ST candidates. Payment can be made via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet."
+      },
+      {
+        "heading": "UPSSSC Junior Assistant 09/2022 Recruitment 2026: Important Dates",
+        "body": "The key important dates for the UPSSSC Junior Assistant 09/2022 Recruitment 2026 are as follows:\n- Online Application Start Date: 19 December 2022\n- Last Date for Online Application: 08 January 2023 (Extended)\n- Last Date for Fee Payment: 08 January 2023\n- Correction Last Date: 15 January 2023\n- Exam Date: 19 January 2025\n- Exam City Details Available: 10 January 2025\n- Admit Card Available: 16 January 2025\n- Answer Key Available: 23 January 2025\n- Typing Test Date: 22 November 2025\n- Typing Test Result Declared: 25 February 2026\n- Admit Card for Typing Test Available: 18 November 2025\nCandidates are advised to confirm all dates from the official UPSSSC website before finalizing their preparation and application plans. The exam schedule provides a detailed timeline for the recruitment process, including the written exams, admit card release, and result declaration. Candidates are encouraged to monitor the official portal for updates on result declarations and other notifications."
+      },
+      {
+        "heading": "UPSSSC Junior Assistant 09/2022 Recruitment 2026: Eligibility Details",
+        "body": "The eligibility criteria for the UPSSSC Junior Assistant 09/2022 Recruitment 2026 are as follows:\n- Candidates must have passed 10+2 (Class 12) from a recognized board and meet the age and category-wise eligibility criteria as per UPSSSC regulations.\nCandidates are advised to read the official notification carefully to confirm specific eligibility requirements for each post."
+      },
+      {
+        "heading": "How to Apply for UPSSSC Junior Assistant 09/2022 Recruitment 2026",
+        "body": "To apply for the UPSSSC Junior Assistant 09/2022 Recruitment 2026, follow these steps:\n1. Visit the official website of the Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) to access the application portal.\n2. Click on the 'Apply Online' link to register and submit the application form.\n3. Fill in all required details such as personal information, educational qualifications, and contact details.\n4. Upload the necessary documents including educational certificates and identity proof.\n5. Review all details and submit the application form.\n6. After submission, candidates can verify their application status on the portal.\nNote – Candidates are advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and eligibility criteria. The application fee is ₹25/- for General, OBC, EWS, SC, and ST candidates, which can be paid via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet."
+      },
+      {
+        "heading": "UPSSSC Junior Assistant 09/2022 Recruitment 2026: Mode of Selection",
+        "body": "The selection process for the UPSSSC Junior Assistant 09/2022 Recruitment 2026 consists of the following stages:\n1. Preliminary Eligibility Test\n2. Written Examination\n3. Typing Test\n4. Document Verification\nCandidates must successfully clear all stages to be considered for final appointment. The final selection is based on performance in the written exam and typing test, followed by document verification."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q1. Has the Typing Test Result for UPSSSC Junior Assistant 09/2022 been released?\nA: Yes, the Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has officially announced the Typing Test Result 2026 for Junior Assistant 09/2022.\n\nQ2. Where can candidates check the Typing Test date?\nA: Candidates can check the date on the official UPSSSC website under the \"Latest Notifications / Examination\" section.\n\nQ3. Do candidates need login credentials to view their Typing Test schedule?\nA: Usually, the schedule is available as a PDF notice and can be downloaded directly. For individual details, candidates may need registration number and date of birth.\n\nQ4. What information is mentioned in the Typing Test notice?\nA: The notice includes candidate name / roll number, test date, test venue, reporting time, and instructions for the exam.\n\nQ5. What is the official website of UPSSSC?\nA: The official website of UPSSSC is https://upsssc.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official UPSSSC website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UPSSSC Junior Assistant 09/2022 Recruitment 2026",
+      "metaDescription": "UPSSSC Junior Assistant 09/2022 Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Total Posts: 62. Application Starts 19 December 2022, Ends 08 January 2023. Age Limit: 21 to 40 years as on 07 July 2022. Eligibility: 10+2 (Class 12) from a recognized board. Application Fee: ₹25/- for all categories. Mode of Selection: Preliminary Eligibility Test, Written Exam, Typing Test, Document Verification.",
+      "keywords": "UPSSSC Junior Assistant 09/2022, UPSSSC Junior Assistant Recruitment 2026, UPSSSC Junior Assistant Application Form 2026, UPSSSC Junior Assistant Eligibility, UPSSSC Junior Assistant Age Limit, UPSSSC Junior Assistant Exam Date, UPSSSC Junior Assistant Admit Card 2026, UPSSSC Junior Assistant Selection Process"
+    },
+    "updatedon": "2026-08-21"
+  },
+  {
+    "id": 150,
+    "title": "UPPSC GIC Lecturer Recruitment 2025",
+    "setPath": "uppsc-gic-lecturer-2025",
+    "slug": "uppsc-gic-lecturer-recruitment-2025",
+    "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
+    "date": "2026-08-21",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "",
+    "description": "The Uttar Pradesh Public Service Commission (UPPSC) has released the Mains Admit Card for the recruitment of Lecturer (GIC) in Government Inter College posts. A total of 1516 positions are available, including 777 male lecturers, 694 female lecturers, and 43 posts for visually impaired candidates. The main examination will be conducted on 30 August 2026. The online application process for the mains form started on 29 July 2026 and ended on 12 August 2026. Candidates can check their admit card on the official UPPSC website. The mode of selection includes written examination, interview, document verification, and final merit list. The minimum age required is 21 years and the maximum age is 40 years as on 01 July 2025. The application fee is ₹125/- for General, OBC, and EWS candidates, ₹65/- for SC and ST candidates, ₹65/- for ex-service candidates, and ₹25/- for PH candidates. Payment can be made via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet.",
+    "totalPost": "1516",
+    "importantDates": {
+      "Application Begin": "2022-12-19",
+      "Last Date for Apply Online": "2023-01-08",
+      "Pay Exam Fee Last Date": "2023-01-08",
+      "Correction Last Date": "2026-03-17 to 2026-03-27",
+      "Eligibility Result Available": "",
+      "Exam Date": "2026-06-14 and 2026-06-17",
+      "Exam City Available": "2025-01-10",
+      "Admit Card Available": "2025-01-16"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "₹125/-",
+      "SC / ST": "₹65/-",
+      "PH (Divyang)": "₹25/-",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "40 Years",
+      "Age Calculation Date": "01 July 2025",
+      "Age Relaxation": "As per UPPSC Regulations"
+    },
+    "posts": [
+      "Lecturer (Male): 777",
+      "Lecturer (Female): 694",
+      "Lecturer, Visually Impaired: 43",
+      "Principal, UP State Jail Training School: 02"
+    ],
+    "eligibility": [
+      "Candidates must have a postgraduate degree in the relevant subject from a recognized university, or an equivalent qualification."
+    ],
+    "selectionProcess": [
+      "Written Examination",
+      "Interview",
+      "Document Verification",
+      "Final Merit List"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates can apply online for the UPPSC GIC Lecturer Recruitment 2025 through the official UPPSC website. The online application process for the mains form started on 29 July 2026 and ended on 12 August 2026. Candidates must complete the application form before the deadline. It is advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and eligibility criteria. After submission, candidates can check their application status on the portal. The application fee is ₹125/- for General, OBC, and EWS candidates, ₹65/- for SC and ST candidates, ₹65/- for ex-service candidates, and ₹25/- for PH candidates, which can be paid via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet.",
+    "links": {
+      "Apply Online": "https://upsssc.gov.in",
+      "Official Notification": "Click Here"
+    },
+    "content": [
+      {
+        "heading": "UPPSC GIC Lecturer Recruitment 2025",
+        "body": "The Uttar Pradesh Public Service Commission (UPPSC) has released the Mains Admit Card for the recruitment of Lecturer (GIC) in Government Inter College posts. A total of 1516 positions are available, including 777 male lecturers, 694 female lecturers, and 43 posts for visually impaired candidates. The main examination will be conducted on 30 August 2026. The online application process for the mains form started on 29 July 2026 and ended on 12 August 2026. Candidates can check their admit card on the official UPPSC website. The mode of selection includes written examination, interview, document verification, and final merit list. The minimum age required is 21 years and the maximum age is 40 years as on 01 July 2025. The application fee is ₹125/- for General, OBC, and EWS candidates, ₹65/- for SC and ST candidates, ₹65/- for ex-service candidates, and ₹25/- for PH candidates. Payment can be made via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet."
+      },
+      {
+        "heading": "UPPSC GIC Lecturer Recruitment 2025: Important Dates",
+        "body": "The key important dates for the UPPSC GIC Lecturer Recruitment 2025 are as follows:\n- Online Application Start Date: 12 August 2025\n- Online Application Last Date: 12 September 2025\n- Last Date for Fee Payment: 12 September 2025\n- Correction Last Date: 17 March 2026 to 27 March 2026\n- Exam Date: 14 and 17 June 2026\n- Admit Card Available: 04 June 2026\n- Answer Key Available: 18 June 2026\n- Result Date: 20 July 2026\n- Online Apply Mains Form Start Date: 29 July 2026\n- Online Apply Mains Form Last Date: 12 August 2026\n- Mains Exam Date: 30 August 2026\n- Mains Admit Card Available: 21 August 2026\nCandidates are advised to confirm all dates from the official UPPSC website before finalizing their preparation and application plans. The exam schedule provides a detailed timeline for the recruitment process, including the written exams, admit card release, and result declaration. Candidates are encouraged to monitor the official portal for updates on result declarations and other notifications."
+      },
+      {
+        "heading": "UPPSC GIC Lecturer Recruitment 2025: Eligibility Details",
+        "body": "The eligibility criteria for the UPPSC GIC Lecturer Recruitment 2025 are as follows:\n- Candidates must have a postgraduate degree in the relevant subject from a recognized university, or an equivalent qualification.\nCandidates are advised to read the official notification carefully to confirm specific eligibility requirements for each post."
+      },
+      {
+        "heading": "How to Apply for UPPSC GIC Lecturer Recruitment 2025",
+        "body": "To apply for the UPPSC GIC Lecturer Recruitment 2025, follow these steps:\n1. Visit the official website of the Uttar Pradesh Public Service Commission (UPPSC) to access the application portal.\n2. Click on the 'Apply Online Mains Form' link to register and submit the application form.\n3. Fill in all required details such as personal information, educational qualifications, and contact details.\n4. Upload the necessary documents including educational certificates and identity proof.\n5. Review all details and submit the application form.\n6. After submission, candidates can verify their application status on the portal.\nNote – Candidates are advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and eligibility criteria. The application fee is ₹125/- for General, OBC, and EWS candidates, ₹65/- for SC and ST candidates, ₹65/- for ex-service candidates, and ₹25/- for PH candidates, which can be paid via debit card, credit card, internet banking, IMPS, cash card, or mobile wallet."
+      },
+      {
+        "heading": "UPPSC GIC Lecturer Recruitment 2025: Mode of Selection",
+        "body": "The selection process for the UPPSC GIC Lecturer Recruitment 2025 consists of the following stages:\n1. Written Examination\n2. Interview\n3. Document Verification\n4. Final Merit List\nCandidates must successfully clear all stages to be considered for final appointment. The final selection is based on performance in the written exam and interview, followed by document verification."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q1. Who releases the UPPSC GIC Lecturer Result 2026?\nA: The UPPSC released the UPPSC GIC Lecturer Result 2026 on its official website.\n\nQ2. Has the UPPSC GIC Lecturer Result 2026 been declared?\nA: Candidates should check the official UPPSC website for the latest status of the UPPSC GIC Lecturer Result 2026.\n\nQ3. What details are required to check the result?\nA: If the result is released through candidate login, you may need your registration number/roll number and password or date of birth.\n\nQ4. What is the official website for UPPSC?\nA: The official website for UPPSC is https://uppsc.up.nic.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official UPPSC website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UPPSC GIC Lecturer Recruitment 2025",
+      "metaDescription": "UPPSC GIC Lecturer Recruitment 2025: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Total Posts: 1516. Application Starts 12 August 2025, Ends 12 September 2025. Age Limit: 21 to 40 years as on 01 July 2025. Eligibility: Postgraduate Degree in Relevant Subject from Recognized University. Application Fee: ₹125/- for General, ₹65/- for SC/ST, ₹25/- for PH. Mode of Selection: Written Exam, Interview, Document Verification, Final Merit List.",
+      "keywords": "UPPSC GIC Lecturer Recruitment 2025, UPPSC GIC Lecturer Application Form 2025, UPPSC GIC Lecturer Eligibility, UPPSC GIC Lecturer Age Limit, UPPSC GIC Lecturer Exam Date, UPPSC GIC Lecturer Admit Card 2026, UPPSC GIC Lecturer Selection Process"
+    },
+    "updatedon": "2026-08-21"
   }
 ]
