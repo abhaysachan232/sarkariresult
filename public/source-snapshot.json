@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-23T08:31:21.820Z",
+    "checkedAt": "2026-08-23T12:45:42.710Z",
     "links": [
       {
         "text": "BPSC Auditor Pre Result 2026 – Out",
@@ -407,6 +407,22 @@
         "href": "https://sarkariresult.com.cm/iim-cat-2026/"
       },
       {
+        "text": "UP Police Computer Operator Syllabus / Exam Pattern 2025 – Out",
+        "href": "https://sarkariresult.com.cm/up-police-computer-operator-syllabus-exam-pattern-2025/"
+      },
+      {
+        "text": "UPSC CBI Assistant Programmer Online Form 2024",
+        "href": "https://sarkariresult.com.cm/upsc-cbi-assistant-programmer-online-form-2024/"
+      },
+      {
+        "text": "Railway RPF SI Exam Syllabus 2024",
+        "href": "https://sarkariresult.com.cm/railway-rpf-si-exam-syllabus-2024/"
+      },
+      {
+        "text": "SSC GD Constable Exam Syllabus 2024",
+        "href": "https://sarkariresult.com.cm/ssc-gd-constable-exam-syllabus-2024/"
+      },
+      {
         "text": "Job",
         "href": "https://sarkariresult.com.cm/#"
       },
@@ -606,6 +622,26 @@
         "jobId": 160,
         "slug": "ssc-delhi-police-constable-executive-2026-recruitment",
         "processedAt": "2026-08-22T08:38:30.105Z"
+      },
+      "https://sarkariresult.com.cm/up-police-computer-operator-syllabus-exam-pattern-2025/": {
+        "jobId": 161,
+        "slug": "up-police-computer-operator-syllabus-exam-pattern-2025",
+        "processedAt": "2026-08-23T12:41:20.096Z"
+      },
+      "https://sarkariresult.com.cm/upsc-cbi-assistant-programmer-online-form-2024/": {
+        "jobId": 162,
+        "slug": "upsc-cbi-assistant-programmer-recruitment-2024",
+        "processedAt": "2026-08-23T12:42:44.605Z"
+      },
+      "https://sarkariresult.com.cm/railway-rpf-si-exam-syllabus-2024/": {
+        "jobId": 163,
+        "slug": "railway-rpf-si-exam-syllabus-2024",
+        "processedAt": "2026-08-23T12:44:16.577Z"
+      },
+      "https://sarkariresult.com.cm/ssc-gd-constable-exam-syllabus-2024/": {
+        "jobId": 164,
+        "slug": "ssc-gd-constable-exam-syllabus-2024",
+        "processedAt": "2026-08-23T12:45:42.708Z"
       }
     },
     "failed": {
