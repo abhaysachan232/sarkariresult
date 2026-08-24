@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-24T01:18:02.496Z",
+    "checkedAt": "2026-08-24T04:46:10.071Z",
     "links": [
       {
         "text": "BPSC Auditor Pre Result 2026 – Out",
@@ -191,12 +191,12 @@
         "href": "https://sarkariresult.com.cm/bpsc-exam-calendar-2026/"
       },
       {
-        "text": "MPESB Group-2 Sub Group-4 Patwari Correction Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/mpesb-group-2-sub-group-4-patwari-2026/"
+        "text": "RCFL Management Trainee MT Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/rcfl-management-trainee-2026/"
       },
       {
-        "text": "RCFL Management Trainee MT Online Form 2026",
-        "href": "https://sarkariresult.com.cm/rcfl-management-trainee-2026/"
+        "text": "IOB Local Bank Officer LBO Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/iob-lbo-2026/"
       },
       {
         "text": "RRVUNL JE, Junior Assistant Online Form 2026",
@@ -642,6 +642,11 @@
         "jobId": 164,
         "slug": "ssc-gd-constable-exam-syllabus-2024",
         "processedAt": "2026-08-23T12:45:42.708Z"
+      },
+      "https://sarkariresult.com.cm/iob-lbo-2026/": {
+        "jobId": 165,
+        "slug": "iob-local-bank-officer-lbo-recruitment-2026",
+        "processedAt": "2026-08-24T04:46:10.070Z"
       }
     },
     "failed": {
