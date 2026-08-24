@@ -1,7 +1,19 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-24T12:56:19.624Z",
+    "checkedAt": "2026-08-24T16:40:58.734Z",
     "links": [
+      {
+        "text": "RRB NTPC 10+2 UG CBT-I Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/"
+      },
+      {
+        "text": "UPSSSC Lower PCS Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-lower-pcs-2026/"
+      },
+      {
+        "text": "UPSSSC Female Health Worker Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-health-worker-2026/"
+      },
       {
         "text": "OICL Administrative Officer 2025 Score Card",
         "href": "https://sarkariresult.com.cm/oicl-administrative-officer-2026/"
@@ -83,18 +95,6 @@
         "href": "https://sarkariresult.com.cm/upsssc-vdo-2023/"
       },
       {
-        "text": "SSC 10+2 CHSL 2025 FRTA Result – Out",
-        "href": "https://sarkariresult.com.cm/ssc-chsl-2026/"
-      },
-      {
-        "text": "NTA CSIR UGC NET June Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/nta-csir-ugc-net-june-2026/"
-      },
-      {
-        "text": "RSSB Forester Result 2026",
-        "href": "https://sarkariresult.com.cm/rssb-forester-2026/"
-      },
-      {
         "text": "Railway RRB Group D Exam City / Admit Card 2026",
         "href": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/"
       },
@@ -159,10 +159,6 @@
         "href": "https://sarkariresult.com.cm/bpssc-havildar-instructor-2026/"
       },
       {
-        "text": "UPSSSC Lower PCS Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsssc-lower-pcs-2026/"
-      },
-      {
         "text": "BSF HCM & ASI Steno Admit Card 2026 – Out",
         "href": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/"
       },
@@ -187,6 +183,10 @@
         "href": "https://sarkariresult.com.cm/nta-ugc-net-june-2025/"
       },
       {
+        "text": "RCFL Management Trainee MT Online Form 2026 – Date Extend",
+        "href": "https://sarkariresult.com.cm/rcfl-management-trainee-2026/"
+      },
+      {
         "text": "UPSSSC PET Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
       },
@@ -197,10 +197,6 @@
       {
         "text": "UPSSSC Forensic Science Laboratory Online Form 2026 – Last Date Today",
         "href": "https://sarkariresult.com.cm/upsssc-fsl-2026/"
-      },
-      {
-        "text": "RCFL Management Trainee MT Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/rcfl-management-trainee-2026/"
       },
       {
         "text": "IOB Local Bank Officer LBO Online Form 2026 – Last Date Today",
@@ -299,6 +295,10 @@
         "href": "https://sarkariresult.com.cm/nta-icar-aieea-pg-and-phd-2026/"
       },
       {
+        "text": "NTA CSIR UGC NET June Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-csir-ugc-net-june-2026/"
+      },
+      {
         "text": "Bihar BPSC APO Answer Key 2026",
         "href": "https://sarkariresult.com.cm/bpsc-apo-2026/"
       },
@@ -333,10 +333,6 @@
       {
         "text": "Punjab PSPCL JE Electrical Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/punjab-pspcl-je-electrical-2026/"
-      },
-      {
-        "text": "RRB Ministerial & Isolated Category Answer Key 2026",
-        "href": "https://sarkariresult.com.cm/rrb-ministerial-isolated-category-2026/"
       },
       {
         "text": "BPSC Exam Calendar 2026",
@@ -421,10 +417,6 @@
       {
         "text": "SSC GD Constable Exam Syllabus 2024",
         "href": "https://sarkariresult.com.cm/ssc-gd-constable-exam-syllabus-2024/"
-      },
-      {
-        "text": "Jobs",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -682,6 +674,16 @@
         "jobId": 172,
         "slug": "ntpc-nspcl-various-post-recruitment-2026",
         "processedAt": "2026-08-24T12:56:19.621Z"
+      },
+      "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/": {
+        "jobId": 173,
+        "slug": "rrb-ntpc-inter-level-recruitment-2025",
+        "processedAt": "2026-08-24T16:39:37.796Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-health-worker-2026/": {
+        "jobId": 174,
+        "slug": "upsssc-female-health-worker-recruitment-2026",
+        "processedAt": "2026-08-24T16:40:58.732Z"
       }
     },
     "failed": {
