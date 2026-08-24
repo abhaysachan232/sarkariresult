@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-24T04:46:10.071Z",
+    "checkedAt": "2026-08-24T08:52:43.573Z",
     "links": [
       {
         "text": "BPSC Auditor Pre Result 2026 – Out",
@@ -99,6 +99,14 @@
         "href": "https://sarkariresult.com.cm/uppsc-assistant-professor-2025/"
       },
       {
+        "text": "RPSC Statistical Officer Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/rpsc-statistical-officer-recruitment-2025-start/"
+      },
+      {
+        "text": "ONGC Geologists and Engineers E1 Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/ongc-geologists-and-engineers-e1-2026/"
+      },
+      {
         "text": "Railway RRB Group D Exam City / Admit Card 2026",
         "href": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/"
       },
@@ -183,12 +191,12 @@
         "href": "https://sarkariresult.com.cm/bpsc-72nd-pre-2026/"
       },
       {
-        "text": "UPSC Civil Services IAS Mains Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsc-civil-services-ias-ifs-2026/"
+        "text": "NTPC Green Energy Limited DGM, AE Online Form 2026",
+        "href": "https://sarkariresult.com.cm/ntpc-ngel-dgm-ae-2026/"
       },
       {
-        "text": "BPSC Exam Calendar 2026",
-        "href": "https://sarkariresult.com.cm/bpsc-exam-calendar-2026/"
+        "text": "UPSSSC Forensic Science Laboratory Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/upsssc-fsl-2026/"
       },
       {
         "text": "RCFL Management Trainee MT Online Form 2026 – Last Date Today",
@@ -283,14 +291,6 @@
         "href": "https://sarkariresult.com.cm/upsssc-veterinary-pharmacist-2026/"
       },
       {
-        "text": "GIMS Noida Staff Nurse Online Form 2026",
-        "href": "https://sarkariresult.com.cm/gims-noida-staff-nurse-2026/"
-      },
-      {
-        "text": "UPSSSC Livestock Extension Officer Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-leo-2026/"
-      },
-      {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/"
       },
@@ -341,6 +341,10 @@
       {
         "text": "RRB Ministerial & Isolated Category Answer Key 2026",
         "href": "https://sarkariresult.com.cm/rrb-ministerial-isolated-category-2026/"
+      },
+      {
+        "text": "BPSC Exam Calendar 2026",
+        "href": "https://sarkariresult.com.cm/bpsc-exam-calendar-2026/"
       },
       {
         "text": "Delhi Laxmi Yojana Form 2026",
@@ -647,6 +651,21 @@
         "jobId": 165,
         "slug": "iob-local-bank-officer-lbo-recruitment-2026",
         "processedAt": "2026-08-24T04:46:10.070Z"
+      },
+      "https://sarkariresult.com.cm/rpsc-statistical-officer-recruitment-2025-start/": {
+        "jobId": 166,
+        "slug": "rpsc-statistical-officer-recruitment-2025",
+        "processedAt": "2026-08-24T08:50:01.293Z"
+      },
+      "https://sarkariresult.com.cm/ongc-geologists-and-engineers-e1-2026/": {
+        "jobId": 167,
+        "slug": "ongc-geologists-and-engineers-e1-recruitment-2026",
+        "processedAt": "2026-08-24T08:51:21.071Z"
+      },
+      "https://sarkariresult.com.cm/ntpc-ngel-dgm-ae-2026/": {
+        "jobId": 168,
+        "slug": "ntpc-green-energy-limited-dgm-ae-recruitment-2026",
+        "processedAt": "2026-08-24T08:52:43.571Z"
       }
     },
     "failed": {
