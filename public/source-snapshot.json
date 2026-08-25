@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-25T13:03:13.819Z",
+    "checkedAt": "2026-08-25T16:39:16.495Z",
     "links": [
+      {
+        "text": "UPSC CAPF AC Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsc-capf-ac-2026/"
+      },
       {
         "text": "SSC Stenographer C, D 2025 Final Result – Out",
         "href": "https://sarkariresult.com.cm/ssc-stenographer-c-d-2026/"
@@ -89,10 +93,6 @@
       {
         "text": "Bihar Police CSBC Constable Operator Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/bihar-police-csbc-constable-operator-2026/"
-      },
-      {
-        "text": "Bihar Police CSBC Constable GD Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/bihar-police-csbc-constable-2026/"
       },
       {
         "text": "RPSC APO Exam City Details 2026",
@@ -191,16 +191,16 @@
         "href": "https://sarkariresult.com.cm/nbems-various-post-2026/"
       },
       {
+        "text": "RRVUNL JE, Junior Assistant Online Form 2026 – Date Extended",
+        "href": "https://sarkariresult.com.cm/rrvunl-je-junior-assistant-2026/"
+      },
+      {
         "text": "UPSSSC PET Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
       },
       {
         "text": "CTET September Online Form 2026 – Re-Open",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
-      },
-      {
-        "text": "RRVUNL JE, Junior Assistant Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/rrvunl-je-junior-assistant-2026/"
       },
       {
         "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts)",
@@ -772,6 +772,11 @@
         "jobId": 187,
         "slug": "up-ambedkar-nagar-ecce-educator-recruitment-2026",
         "processedAt": "2026-08-25T13:03:13.817Z"
+      },
+      "https://sarkariresult.com.cm/upsc-capf-ac-2026/": {
+        "jobId": 188,
+        "slug": "upsc-capf-ac-recruitment-2026",
+        "processedAt": "2026-08-25T16:39:16.492Z"
       }
     },
     "failed": {
