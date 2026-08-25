@@ -12863,37 +12863,37 @@
     "title": "RBI Officer Grade-B 2026 Recruitment",
     "setPath": "rbi-officer-grade-b-2026",
     "slug": "rbi-officer-grade-b-2026-recruitment",
-    "organization": "Reserve Bank Of India (RBI)",
-    "date": "2026-08-22",
+    "organization": "Reserve Bank of India (RBI)",
+    "date": "2026-08-25",
     "location": "",
     "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "The Reserve Bank Of India (RBI) has released the Phase-II Result on its official website for the recruitment of Officer Grade-B posts. The Phase-II Exam was conducted on 25–26 July 2026. The RBI application process started on 29 April 2026, and candidates were able to submit their applications until 20 May 2026. Candidates can download their result using their Enrollment Number, Registration Number, or Date of Birth by logging into the portal. The direct link is provided below. (Advt. No. RBISB/DA/01/2026-27) The total posts are 60. The age limit is 21 to 30 years as of 1 April 2026. Candidates must have either a Bachelor’s Degree in any stream with a minimum of 60% marks (relaxation to 50% for SC/ST/PH candidates) or a Master’s Degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required). For DEPR and DSIM cadres, specific degree qualifications are required. The selection process includes Online Examination (CBT), Language Proficiency Test (LPT), and Final Merit List. The application fee is ₹850 for General, OBC, EWS and ₹100 for SC/ST/PH. Payment can be made via Debit Card, Credit Card, Internet Banking, IMPS, or Cash Card/Mobile Wallet.",
+    "description": "Reserve Bank of India (RBI) has released the Phase-II Result on its official website for the recruitment of Officer Grade-B posts. The Phase-II Exam was conducted on 25–26 July 2026. The RBI application process started on 29 April 2026, and candidates were able to submit their applications until 20 May 2026. Candidates can download their result using their enrollment number, registration number, or date of birth by logging into the portal. The total number of vacancies is 60, with 40 posts for Officers in Grade ‘B’ (DR) – General Cadre, 10 posts for Officers in Grade ‘B’ (DR) – DEPR Cadre, and 10 posts for Officers in Grade ‘B’ (DR) – DSIM Cadre. Candidates must have either a bachelor’s degree in any stream with a minimum of 60% marks (relaxation to 50% for SC/ST/PH candidates) or a master’s degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required). For DEPR cadre, candidates must possess a master’s degree in Economics, or a master’s degree in Finance/PGDM/MBA from a recognized university or institution. For DSIM cadre, candidates must possess a master’s degree in Statistics or Mathematics with a minimum of 55% marks in all semesters/years (50% for SC/ST candidates). The selection process includes online examination (CBT), language proficiency test (LPT), and final merit list. The application fee is ₹850 for General, OBC, EWS candidates and ₹100 for SC/ST/PH candidates. The result was announced on 25 August 2026.",
     "totalPost": "60",
     "importantDates": {
       "Application Begin": "2026-04-29",
       "Last Date for Apply Online": "2026-05-20",
       "Pay Exam Fee Last Date": "2026-05-20",
-      "Correction Last Date": "2023-11-15",
+      "Correction Last Date": "2026-05-25",
       "Eligibility Result Available": "",
-      "Exam Date": "2025-11-16",
-      "Exam City Available": "2025-11-07",
+      "Exam Date": "2026-06-13 to 2026-06-14",
+      "Exam City Available": "2026-07-15",
       "Admit Card Available": "2026-07-15"
     },
     "applicationFee": {
-      "General / OBC / EWS": "₹850",
-      "SC / ST": "₹100",
-      "PH (Divyang)": "₹100",
+      "General / OBC / EWS": "850",
+      "SC / ST": "100",
+      "PH (Divyang)": "100",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
-      "Minimum Age": "21 Years",
-      "Maximum Age": "30 Years",
-      "Age Calculation Date": "01 April 2026",
-      "Age Relaxation": "As per RBI regulations"
+      "Minimum Age": "21",
+      "Maximum Age": "30",
+      "Age Calculation Date": "",
+      "Age Relaxation": "As per the rules of RBI"
     },
     "posts": [
       {
@@ -12910,9 +12910,9 @@
       }
     ],
     "eligibility": [
-      "Candidates must have either a Bachelor’s Degree in any stream with a minimum of 60% marks (relaxation to 50% marks for SC/ST/PH candidates), OR a Master’s Degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required).",
-      "Candidates must possess a Master’s Degree in Economics, OR a Master’s Degree in Finance / PGDM / MBA from a recognized university or institution for DEPR cadre.",
-      "Candidates must possess a Master’s Degree in Statistics or Mathematics with a minimum of 55% marks in all semesters/years for DSIM cadre. For SC/ST candidates, the minimum required marks are 50%. Check official notification for more details."
+      "Candidates must have either a bachelor’s degree in any stream with a minimum of 60% marks (relaxation to 50% marks for SC/ST/PH candidates), OR a master’s degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required).",
+      "For DEPR cadre: Candidates must possess a master’s degree in Economics, OR a master’s degree in Finance / PGDM / MBA from a recognized university or institution.",
+      "For DSIM cadre: Candidates must possess a master’s degree in Statistics or Mathematics with a minimum of 55% marks in all semesters/years. For SC/ST candidates, the minimum required marks are 50%."
     ],
     "selectionProcess": [
       "Online Examination (CBT)",
@@ -12920,47 +12920,47 @@
       "Final Merit List"
     ],
     "jobLocation": "",
-    "howToApply": "Candidates can apply online from 29 April 2026 to 20 May 2026 through the official RBI recruitment portal. The application form requires personal details, educational qualifications, and preferences. Candidates must upload necessary documents and pay the application fee of ₹850 (General, OBC, EWS) or ₹100 (SC/ST, PH) using debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. After submission, candidates should save their registration number for future reference. The application process is completed by following the instructions provided on the official portal. Candidates are advised to verify all details from the official RBI website before finalizing their application.",
+    "howToApply": "Candidates can apply online for the RBI Officer Grade-B recruitment 2026 through the official RBI recruitment portal. The online application process started on 29 April 2026 and ended on 20 May 2026. The application fee must be paid before the last date of fee payment, which was 20 May 2026. Candidates are advised to visit the official RBI website to complete the application process. After the Phase-II examination, candidates can download their result using their registration number, password, or date of birth. The Phase-II result was released on 25 August 2026.",
     "links": {
-      "Apply Online": "http://upsssc.gov.in",
-      "Official Notification": "http://upsssc.gov.in"
+      "Apply Online": "https://uat.onlineupsrtc.co.in/#/Home",
+      "Official Notification": "https://uat.onlineupsrtc.co.in/#/Home"
     },
     "content": [
       {
         "heading": "RBI Officer Grade-B 2026 Recruitment",
-        "body": "The Reserve Bank Of India (RBI) has released the Phase-II Result on its official website for the recruitment of Officer Grade-B posts. The Phase-II Exam was conducted on 25–26 July 2026. The RBI application process started on 29 April 2026, and candidates were able to submit their applications until 20 May 2026. Candidates can download their result using their Enrollment Number, Registration Number, or Date of Birth by logging into the portal. The direct link is provided below. (Advt. No. RBISB/DA/01/2026-27) The total posts are 60. The age limit is 21 to 30 years as of 1 April 2026. Candidates must have either a Bachelor’s Degree in any stream with a minimum of 60% marks (relaxation to 50% marks for SC/ST/PH candidates) or a Master’s Degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required). For DEPR and DSIM cadres, specific degree qualifications are required. The selection process includes Online Examination (CBT), Language Proficiency Test (LPT), and Final Merit List. The application fee is ₹850 for General, OBC, EWS and ₹100 for SC/ST/PH. Payment can be made via Debit Card, Credit Card, Internet Banking, IMPS, or Cash Card/Mobile Wallet."
+        "body": "Reserve Bank of India (RBI) has released the Phase-II Result on its official website for the recruitment of Officer Grade-B posts. The Phase-II Exam was conducted on 25–26 July 2026. The RBI application process started on 29 April 2026, and candidates were able to submit their applications until 20 May 2026. Candidates can download their result using their enrollment number, registration number, or date of birth by logging into the portal. The total number of vacancies is 60, with 40 posts for Officers in Grade ‘B’ (DR) – General Cadre, 10 posts for Officers in Grade ‘B’ (DR) – DEPR Cadre, and 10 posts for Officers in Grade ‘B’ (DR) – DSIM Cadre. Candidates must have either a bachelor’s degree in any stream with a minimum of 60% marks (relaxation to 50% for SC/ST/PH candidates) or a master’s degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required). For DEPR cadre, candidates must possess a master’s degree in Economics, or a master’s degree in Finance/PGDM/MBA from a recognized university or institution. For DSIM cadre, candidates must possess a master’s degree in Statistics or Mathematics with a minimum of 55% marks in all semesters/years (50% for SC/ST candidates). The selection process includes online examination (CBT), language proficiency test (LPT), and final merit list. The application fee is ₹850 for General, OBC, EWS candidates and ₹100 for SC/ST/PH candidates. The result was announced on 25 August 2026."
       },
       {
         "heading": "RBI Officer Grade-B 2026: Important Dates",
-        "body": "The key important dates for the RBI Officer Grade-B 2026 recruitment are as follows:\n- Online Application Start Date: 29 April 2026\n- Last Date to Apply Online: 20 May 2026\n- Last Date for Fee Payment: 20 May 2026\n- Correction Period: 25–26 May 2026\n- Phase-I (DR General) Exam Date: 13 June 2026\n- Phase-II (DR General) Exam Date: 25 July 2026\n- Phase-I (DEPR / DSIM) Exam Date: 14 June 2026\n- Phase-II (DEPR / DSIM) Exam Date: 26 July 2026\n- Admit Card Available: 15 July 2026\n- Result Date: 22 August 2026 (Available Now)\nCandidates are advised to confirm all dates from the official RBI website before finalizing their preparation and application plans. The exam schedule provides a detailed timeline for the recruitment process, including the application period, correction window, and exam dates. Candidates are encouraged to monitor the official portal for updates on result declarations and other notifications."
+        "body": "The key important dates for the RBI Officer Grade-B recruitment 2026 are as follows:\n- Online Application Start Date: 29 April 2026\n- Last Date for Online Application: 20 May 2026\n- Last Date for Fee Payment: 20 May 2026\n- Correction Period: 25–26 May 2026\n- Phase-I (DR General) Exam Date: 13 June 2026\n- Phase-II (DR General) Exam Date: 25 July 2026\n- Phase-I (DEPR / DSIM) Exam Date: 14 June 2026\n- Phase-II (DEPR / DSIM) Exam Date: 26 July 2026\n- Admit Card Available: 15 July 2026\n- Result Date: 25 August 2026 (Updated)\nCandidates are advised to verify all details from the official RBI website before finalizing their application. All dates are subject to change as per the official notification, and candidates must confirm the details from the official source before making any decisions."
       },
       {
         "heading": "RBI Officer Grade-B 2026: Eligibility Details",
-        "body": "The eligibility criteria for the RBI Officer Grade-B 2026 recruitment are as follows:\n- Candidates must have either a Bachelor’s Degree in any stream with a minimum of 60% marks (relaxation to 50% marks for SC/ST/PH candidates), OR a Master’s Degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required).\n- For DEPR Cadre: Candidates must possess a Master’s Degree in Economics, OR a Master’s Degree in Finance / PGDM / MBA from a recognized university or institution.\n- For DSIM Cadre: Candidates must possess a Master’s Degree in Statistics or Mathematics with a minimum of 55% marks in all semesters/years. For SC/ST candidates, the minimum required marks are 50%. Check official notification for more details.\nCandidates are advised to thoroughly read the official notification before applying to verify all details such as age limits, educational qualifications, and other requirements."
+        "body": "The eligibility criteria for the RBI Officer Grade-B recruitment 2026 are as follows:\n- Candidates must have either a bachelor’s degree in any stream with a minimum of 60% marks (relaxation to 50% marks for SC/ST/PH candidates), OR a master’s degree in any subject with at least 55% marks (for SC/ST/PH candidates, only pass marks are required).\n- For DEPR cadre: Candidates must possess a master’s degree in Economics, OR a master’s degree in Finance / PGDM / MBA from a recognized university or institution.\n- For DSIM cadre: Candidates must possess a master’s degree in Statistics or Mathematics with a minimum of 55% marks in all semesters/years. For SC/ST candidates, the minimum required marks are 50%. Check official notification for more details.\nCandidates are advised to verify their educational qualifications against the specific requirements before applying. All candidates must meet these eligibility conditions to be eligible for the examination."
       },
       {
-        "heading": "How to Apply for RBI Officer Grade-B 2026",
-        "body": "Interested candidates can apply online from 29 April 2026 to 20 May 2026 through the official RBI recruitment portal. The application form can be submitted by providing personal details, educational qualifications, and preferences. Candidates must upload necessary documents and pay the application fee of ₹850 (General, OBC, EWS) or ₹100 (SC/ST, PH) using debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. After submission, candidates should save their registration number for future reference. The application process is completed by following the instructions provided on the official portal. Candidates are advised to read the official notification carefully before filling out the form to confirm last dates, age limits, and education qualification requirements."
+        "heading": "How to Apply for RBI Officer Grade-B Recruitment 2026",
+        "body": "Candidates can apply online for the RBI Officer Grade-B recruitment 2026 through the official RBI recruitment portal. The online application process started on 29 April 2026 and ended on 20 May 2026. The application fee must be paid before the last date of fee payment, which was 20 May 2026. Candidates are advised to visit the official RBI website to complete the application process. After the Phase-II examination, candidates can download their result using their registration number, password, or date of birth. The Phase-II result was released on 25 August 2026."
       },
       {
         "heading": "RBI Officer Grade-B 2026: Mode of Selection",
-        "body": "The selection process for the RBI Officer Grade-B 2026 recruitment consists of the following stages:\n1. Online Examination (CBT)\n2. Language Proficiency Test (LPT)\n3. Final Merit List\nCandidates will be evaluated through these stages to determine their final selection. The Online Examination (CBT) assesses general knowledge, aptitude, and subject-specific knowledge. The Language Proficiency Test evaluates the candidate's command of language skills. The Final Merit List is prepared based on the combined performance in the CBT and LPT. Final selection is based on the merit list after all evaluations and verification processes are completed."
+        "body": "The selection process for the RBI Officer Grade-B recruitment 2026 includes three stages: Online Examination (CBT), Language Proficiency Test (LPT), and Final Merit List. Candidates will be evaluated based on their performance in the CBT, followed by a language proficiency test, and finally a final merit list is prepared based on the overall performance. The final selection will be based on the merit list prepared after all stages of the examination."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When will the RBI Officer Grade-B Phase-II Result 2026 be released?\nA: The result has been released online by the Reserve Bank of India (RBI) before the examination.\n\nQ. How can I download the RBI Officer Grade-B Result 2026?\nA: Candidates can download their result from the official RBI recruitment portal by logging in with their registration credentials.\n\nQ. What details are required to download the result?\nA: Candidates need their Registration Number/Roll Number and Password or Date of Birth.\n\nQ. Is it mandatory to carry the admit card to the exam center?\nA: Yes, candidates must carry a printed copy of the admit card to the examination center.\n\nQ. What is the official website for RBI?\nA: The official website for RBI is https://www.rbi.org.in/"
+        "body": "Q. When will the RBI Officer Grade-B Phase-II Result 2026 be released?\nA: The result has been released online by the Reserve Bank of India (RBI) before the examination.\n\nQ. How can I download the RBI Officer Grade-B Result 2026?\nA: Candidates can download their result from the official RBI recruitment portal by logging in with their registration credentials.\n\nQ. What details are required to download the result?\nA: Candidates need their registration number/roll number and password or date of birth.\n\nQ. Is it mandatory to carry the admit card to the exam center?\nA: Yes, candidates must carry a printed copy of the admit card to the examination center.\n\nQ. What is the official website for RBI?\nA: The official website for RBI is https://www.rbi.org.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
-        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official RBI website before making any decisions."
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
       }
     ],
     "seo": {
       "metaTitle": "RBI Officer Grade-B 2026 Recruitment",
-      "metaDescription": "RBI Officer Grade-B 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 60 Posts Available. Application Starts on 29 April 2026. Last Date to Apply: 20 May 2026. Age Limit: 21 to 30 Years (as of 1 April 2026). Eligibility: Bachelor’s Degree (60% or Master’s Degree with 55%), SC/ST/PH Relaxation. Selection Process: Online Exam (CBT), Language Proficiency Test (LPT), Final Merit List. Application Fee: ₹850 (General/OBC/EWS), ₹100 (SC/ST/PH). Official Website: https://www.rbi.org.in.",
-      "keywords": "RBI Officer Grade-B 2026, RBI Recruitment 2026, RBI Application Date 2026, RBI Eligibility, RBI Age Limit, RBI Selection Process, RBI Exam Date 2026, RBI Application Form, RBI Official Website"
+      "metaDescription": "RBI Officer Grade-B 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 60 Posts Available. Application Starts on 29 April 2026. Last Date to Apply: 20 May 2026. Application Fee: ₹850 (General), ₹100 (SC/ST/PH). Age Limit: 21 to 30 Years. Eligibility: Bachelor’s or Master’s Degree with Minimum Marks. Selection Process: CBT, Language Proficiency Test, Final Merit List. Official Website: https://www.rbi.org.in/",
+      "keywords": "RBI Officer Grade-B 2026, RBI Recruitment 2026, RBI Officer Grade-B Exam Date 2026, RBI Application Form 2026, RBI Eligibility Criteria, RBI Age Limit 2026, RBI Selection Process, RBI Application Fee 2026, RBI Admit Card 2026"
     },
-    "updatedon": "2026-08-22"
+    "updatedon": "2026-08-25"
   },
   {
     "id": 157,
@@ -15075,6 +15075,974 @@
       "metaTitle": "UPSRTC Gonda, Bahraich, Balrampur Bus Conductor Recruitment 2026",
       "metaDescription": "UPSRTC Gonda, Bahraich, Balrampur Bus Conductor Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 16 Posts Available. Application Starts on 18 August 2026. Last Date to Apply: 26 August 2026. No Application Fee. Age Limit: 18 to 40 Years. Eligibility: 10+2 & CCC Certificate. Selection Process: Online Examination. Official Website: https://uat.onlineupsrtc.co.in/#/Home",
       "keywords": "UPSRTC Gonda Bahraich Balrampur Bus Conductor Recruitment 2026, UPSRTC Bus Conductor Exam Date 2026, UPSRTC Application Form 2026, UPSRTC Eligibility Criteria, UPSRTC Age Limit 2026, UPSRTC Selection Process, UPSRTC Application Fee 2026, UPSRTC Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 178,
+    "title": "SSC Stenographer C, D 2026 Recruitment",
+    "setPath": "ssc-stenographer-c-d-2026",
+    "slug": "ssc-stenographer-c-d-2026-recruitment",
+    "organization": "Staff Selection Commission (SSC)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Staff Selection Commission (SSC) has released the final result for the Stenographer C, D examination 2026. The skill test was conducted on 28-29 January 2026, and the last date to submit the application form was 26 June 2025. Candidates can check their final result using their enrollment number, registration number, or date of birth by logging into the portal. The total number of vacancies is 1590, with 230 posts for Stenographer Grade C and 1360 posts for Stenographer Grade D. Candidates must have passed the 10+2 (Intermediate) examination from any recognized board in India. The selection process includes CBT, descriptive examination, and a skill test with transcription time limits of 40 minutes for English and 55 minutes for Hindi (Grade C) and 50 minutes for English and 65 minutes for Hindi (Grade D). The application fee is ₹100 for General/OBC/EWS candidates, and ₹0 for SC/ST/female and PH candidates. The final result was announced on 25 August 2026.",
+    "totalPost": "1590",
+    "importantDates": {
+      "Application Begin": "2025-06-05",
+      "Last Date for Apply Online": "2025-06-26",
+      "Pay Exam Fee Last Date": "2025-06-26",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "",
+      "Exam Date": "2025-08-06 to 2025-08-08",
+      "Exam City Available": "2025-07-31",
+      "Admit Card Available": "2025-08-04"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "100",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18",
+      "Maximum Age": "27",
+      "Age Calculation Date": "",
+      "Age Relaxation": "As per the rules of SSC"
+    },
+    "posts": [
+      {
+        "Post Name": "Stenographer Grade C",
+        "No. Of Post": "230"
+      },
+      {
+        "Post Name": "Stenographer Grade D",
+        "No. Of Post": "1360"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have passed the 10+2 (Intermediate) examination from any recognized board in India."
+    ],
+    "selectionProcess": [
+      "CBT",
+      "Descriptive Examination",
+      "Skill Test"
+    ],
+    "jobLocation": "",
+    "howToApply": "Candidates can apply online for the SSC Stenographer C, D recruitment 2026 through the official SSC website. The online application process started on 5 June 2025 and ended on 26 June 2025. The application fee must be paid before the last date of fee payment, which was 26 June 2025. Candidates are advised to visit the official SSC website to complete the application process. After the skill test, the option cum preference form will be released for selection and final allocation.",
+    "links": {
+      "Apply Online": "https://uat.onlineupsrtc.co.in/#/Home",
+      "Official Notification": "https://uat.onlineupsrtc.co.in/#/Home"
+    },
+    "content": [
+      {
+        "heading": "SSC Stenographer C, D 2026 Recruitment",
+        "body": "Staff Selection Commission (SSC) has released the final result for the Stenographer C, D examination 2026. The skill test was conducted on 28-29 January 2026, and the last date to submit the application form was 26 June 2025. Candidates can check their final result using their enrollment number, registration number, or date of birth by logging into the portal. The total number of vacancies is 1590, with 230 posts for Stenographer Grade C and 1360 posts for Stenographer Grade D. Candidates must have passed the 10+2 (Intermediate) examination from any recognized board in India. The selection process includes CBT, descriptive examination, and a skill test with transcription time limits of 40 minutes for English and 55 minutes for Hindi (Grade C) and 50 minutes for English and 65 minutes for Hindi (Grade D). The application fee is ₹100 for General/OBC/EWS candidates, and ₹0 for SC/ST/female and PH candidates. The final result was announced on 25 August 2026."
+      },
+      {
+        "heading": "SSC Stenographer C, D 2026: Important Dates",
+        "body": "The key important dates for the SSC Stenographer C, D recruitment 2026 are as follows:\n- Online Application Start Date: 5 June 2025\n- Last Date for Online Application: 26 June 2025\n- Last Date for Fee Payment: 26 June 2025\n- Exam Date: 6 to 8 August 2025\n- Exam City Details: 31 July 2025\n- Admit Card Available: 4 August 2025\n- Result Date: 28 November 2025 (Skill Test Result)\n- Skill Test Date: 28-29 January 2026\n- Skill Test Exam City Details: 20 January 2026\n- Option Cum Preference Form: 5 to 8 May 2026\n- Final Result: 25 August 2026 (Available Now)\nCandidates are advised to verify all details from the official SSC website before finalizing their application. All dates are subject to change as per the official notification, and candidates must confirm the details from the official source before making any decisions."
+      },
+      {
+        "heading": "SSC Stenographer C, D 2026: Eligibility Details",
+        "body": "The eligibility criteria for the SSC Stenographer C, D recruitment 2026 are as follows:\n- Candidates must have passed the 10+2 (Intermediate) examination from any recognized board in India.\nCandidates are advised to verify their educational qualifications against the specific requirements before applying. All candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for SSC Stenographer C, D Recruitment 2026",
+        "body": "Candidates can apply online for the SSC Stenographer C, D recruitment 2026 through the official SSC website. The online application process started on 5 June 2025 and ended on 26 June 2025. The application fee must be paid before the last date of fee payment, which was 26 June 2025. Candidates are advised to visit the official SSC website to complete the application process. After the skill test, the option cum preference form will be released for selection and final allocation."
+      },
+      {
+        "heading": "SSC Stenographer C, D 2026: Mode of Selection",
+        "body": "The selection process for the SSC Stenographer C, D recruitment 2026 includes three stages: CBT (Computer-Based Test), Descriptive Examination, and Skill Test. Candidates will be evaluated based on their performance in the CBT, followed by a descriptive examination, and finally a skill test involving transcription with time limits of 40 minutes for English and 55 minutes for Hindi (Grade C) and 50 minutes for English and 65 minutes for Hindi (Grade D). The final selection will be based on the merit list prepared after all stages of the examination."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. What is the Option-Cum-Preference Form?\nA: It is a form where you select your post (Grade C / D) and department preferences.\n\nQ. When is the form released?\nA: It is released after the skill test (stenography test).\n\nQ. Where can I fill the form?\nA: On the official Staff Selection Commission (SSC) website.\n\nQ. Is it mandatory to fill this form?\nA: Without it, you may not be considered for final allocation.\n\nQ. What is the official website for SSC?\nA: The official website for SSC is https://ssc.gov.in/."
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "SSC Stenographer C, D 2026 Recruitment",
+      "metaDescription": "SSC Stenographer C, D 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 1590 Posts Available. Application Starts on 5 June 2025. Last Date to Apply: 26 June 2025. Application Fee: ₹100 (General), ₹0 (SC/ST/Female/PH). Age Limit: 18 to 27 Years (Grade C), 18 to 30 Years (Grade D). Eligibility: 10+2 from Recognized Board. Selection Process: CBT, Descriptive, Skill Test. Official Website: https://ssc.gov.in/",
+      "keywords": "SSC Stenographer C D 2026, SSC Stenographer Recruitment 2026, SSC Stenographer Exam Date 2026, SSC Application Form 2026, SSC Eligibility Criteria, SSC Age Limit 2026, SSC Selection Process, SSC Application Fee 2026, SSC Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 179,
+    "title": "RPSC APO 2026 Recruitment",
+    "setPath": "rpsc-apo-2026",
+    "slug": "rpsc-apo-2026-recruitment",
+    "organization": "Rajasthan Public Service Commission (RPSC)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Rajasthan",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Rajasthan Public Service Commission (RPSC) has released the exam city details for the Assistant Prosecution Officer (APO) recruitment 2026. The examination will be conducted on 02 September 2026. The last date to submit the application form was 07 July 2026. Candidates can check their exam city details using their enrollment number, registration number, or date of birth by logging into the portal. A total of 371 posts are available for the APO position. Candidates must have a Bachelor Degree in Law (LLB) from a university established by law, working knowledge of Hindi written in Devnagari script, and knowledge of Rajasthani culture. The selection process includes written examination, personality test, interview, and document verification. The application fee is ₹600 for General, BC, EBC Creamy Layer, and other state candidates, ₹400 for SC/ST, OBC, EBC Non Creamy Layer, and PH candidates, and ₹500 for correction charges. The exam city details will be available on 26 August 2026.",
+    "totalPost": "371",
+    "importantDates": {
+      "Application Begin": "2026-06-08",
+      "Last Date for Apply Online": "2026-07-07",
+      "Pay Exam Fee Last Date": "2026-07-07",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "",
+      "Exam Date": "2026-09-02",
+      "Exam City Available": "2026-08-26",
+      "Admit Card Available": "2026-08-30"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "100",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "21",
+      "Maximum Age": "40",
+      "Age Calculation Date": "01 January 2027",
+      "Age Relaxation": "As per the regulations of RPSC"
+    },
+    "posts": [
+      {
+        "Post Name": "Assistant Prosecution Officer APO",
+        "No. Of Post": "371"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have a Bachelor Degree in Law (LLB) from a university established by law.",
+      "Working knowledge of Hindi written in Devnagari script.",
+      "Knowledge of Rajasthani culture."
+    ],
+    "selectionProcess": [
+      "Written Examination",
+      "Personality Test",
+      "Interview",
+      "Document Verification",
+      "Final Merit List"
+    ],
+    "jobLocation": "",
+    "howToApply": "Candidates can apply online for the RPSC APO recruitment 2026 through the official RPSC website. The online application process started on 08 June 2026 and ended on 07 July 2026. The application fee must be paid before the last date of fee payment, which was 07 July 2026. Candidates are advised to visit the official RPSC website to complete the application process. After the exam, the exam city details will be released on 26 August 2026, and the admit card will be available on 30 August 2026.",
+    "links": {
+      "Apply Online": "https://uat.onlineupsrtc.co.in/#/Home",
+      "Official Notification": "https://uat.onlineupsrtc.co.in/#/Home"
+    },
+    "content": [
+      {
+        "heading": "RPSC APO 2026 Recruitment",
+        "body": "Rajasthan Public Service Commission (RPSC) has released the exam city details for the Assistant Prosecution Officer (APO) recruitment 2026. The examination will be conducted on 02 September 2026. The last date to submit the application form was 07 July 2026. Candidates can check their exam city details using their enrollment number, registration number, or date of birth by logging into the portal. A total of 371 posts are available for the APO position. Candidates must have a Bachelor Degree in Law (LLB) from a university established by law, working knowledge of Hindi written in Devnagari script, and knowledge of Rajasthani culture. The selection process includes written examination, personality test, interview, and document verification. The application fee is ₹600 for General, BC, EBC Creamy Layer, and other state candidates, ₹400 for SC/ST, OBC, EBC Non Creamy Layer, and PH candidates, and ₹500 for correction charges. The exam city details will be available on 26 August 2026."
+      },
+      {
+        "heading": "RPSC APO 2026: Important Dates",
+        "body": "The key important dates for the RPSC APO recruitment 2026 are as follows:\n- Online Application Start Date: 08 June 2026\n- Last Date for Online Application: 07 July 2026\n- Last Date for Fee Payment: 07 July 2026\n- Preliminary Examination Date: 02 September 2026\n- Exam City Details Available: 26 August 2026\n- Admit Card Available: 30 August 2026\n- Result Date: Will be updated soon\nCandidates are advised to verify all details from the official RPSC website before finalizing their application. All dates are subject to change as per the official notification, and candidates must confirm the details from the official source before making any decisions."
+      },
+      {
+        "heading": "RPSC APO 2026: Eligibility Details",
+        "body": "The eligibility criteria for the RPSC APO recruitment 2026 are as follows:\n- Candidates must have a Bachelor Degree in Law (LLB) from a university established by law.\n- Must have working knowledge of Hindi written in Devnagari script.\n- Must have knowledge of Rajasthani culture.\nAll candidates are advised to read the official notification completely before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for RPSC APO Recruitment 2026",
+        "body": "Candidates can apply online for the RPSC APO recruitment 2026 through the official RPSC website. The online application process started on 08 June 2026 and ended on 07 July 2026. The application fee must be paid before the last date of fee payment, which was 07 July 2026. Candidates are advised to visit the official RPSC website to complete the application process. After the exam, the exam city details will be released on 26 August 2026, and the admit card will be available on 30 August 2026."
+      },
+      {
+        "heading": "RPSC APO 2026: Mode of Selection",
+        "body": "The selection process for the RPSC APO recruitment 2026 includes five stages: Written Examination, Personality Test, Interview, Document Verification, and Final Merit List. Candidates will be evaluated based on their performance in the written examination, followed by a personality test, interview, and document verification. The final merit list will be prepared based on the overall performance across all stages, and candidates will be selected accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the RPSC APO exam 2026 be conducted?\nA: The RPSC APO Preliminary Examination 2026 is scheduled to be conducted as per the official exam schedule released by the Rajasthan Public Service Commission (RPSC).\n\nQ. How can I check the RPSC APO exam date 2026?\nA: Candidates can visit the official RPSC website and download the latest RPSC APO exam date notice from the notifications section.\n\nQ. When will the RPSC APO admit card 2026 be released?\nA: The admit card will be released online a few days before the examination. Candidates should regularly check the official RPSC website for updates.\n\nQ. What details are mentioned in the RPSC APO exam date notice?\nA: The notice generally includes the exam date, examination schedule, reporting time, exam shift, and important instructions for candidates.\n\nQ. What is the official website for RPSC?\nA: The official website for RPSC is https://rpsc.rajasthan.gov.in/home."
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "RPSC APO 2026 Recruitment",
+      "metaDescription": "RPSC APO 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 371 Posts Available. Application Starts on 08 June 2026. Last Date to Apply: 07 July 2026. Application Fee: ₹600 (General), ₹400 (SC/ST/PH). Age Limit: 21 to 40 Years. Eligibility: LLB from Recognized University, Knowledge of Hindi and Rajasthani Culture. Selection Process: Written Exam, Personality Test, Interview, Document Verification. Official Website: https://rpsc.rajasthan.gov.in/home",
+      "keywords": "RPSC APO 2026, RPSC APO Recruitment 2026, RPSC APO Exam Date 2026, RPSC Application Form 2026, RPSC Eligibility Criteria, RPSC Age Limit 2026, RPSC Selection Process, RPSC Application Fee 2026, RPSC Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 180,
+    "title": "UPSSSC Pharmacist Ayurvedic 2024 Recruitment",
+    "setPath": "upsssc-pharmacist-ayurvedic-2024",
+    "slug": "upsssc-pharmacist-ayurvedic-2024-recruitment",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2024",
+    "Type": "",
+    "description": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the exam date for the Pharmacist Ayurvedic recruitment 2024. The examination will be conducted on 20 September 2026. The last date to submit the application form was 03 March 2024. Candidates can check their exam date using their enrollment number, registration number, or date of birth by logging into the portal. A total of 1002 posts are available for the Pharmacist Ayurvedic position. Candidates must have passed the 10+2 Intermediate examination with Biology or Mathematics as a subject, and a Diploma in Ayurvedic Pharmacy with registration from the relevant council. The selection process includes shortlisting based on PET 2023 score, written examination, skill test, medical examination, and document verification. The application fee is ₹25 for General, OBC, EWS, SC/ST, and PH candidates. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The eligibility result will be declared on 28 July 2026, and the admit card will be available soon.",
+    "totalPost": "1002",
+    "importantDates": {
+      "Application Begin": "2024-02-12",
+      "Last Date for Apply Online": "2024-03-03",
+      "Pay Exam Fee Last Date": "2024-03-03",
+      "Correction Last Date": "2024-03-11",
+      "Eligibility Result Available": "2026-07-28",
+      "Exam Date": "2026-09-20",
+      "Exam City Available": "",
+      "Admit Card Available": "Soon"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "25",
+      "SC / ST": "25",
+      "PH (Divyang)": "25",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18",
+      "Maximum Age": "40",
+      "Age Calculation Date": "01 July 2024",
+      "Age Relaxation": "As per UPSSSC Examination 2026"
+    },
+    "posts": [
+      {
+        "Post Name": "Pharmacist Ayurvedic",
+        "No. Of Post": "1002"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have passed the 10+2 Intermediate examination with Biology or Mathematics as a subject.",
+      "Must have a Diploma in Ayurvedic Pharmacy and registration with the relevant council."
+    ],
+    "selectionProcess": [
+      "Shortlisting (PET 2023 Score)",
+      "Written Examination",
+      "Skill Test",
+      "Medical Examination",
+      "Document Verification"
+    ],
+    "jobLocation": "",
+    "howToApply": "Candidates can apply online for the UPSSSC Pharmacist Ayurvedic recruitment 2024 through the official UPSSSC website. The online application process started on 12 February 2024 and ended on 03 March 2024. The application fee must be paid before the last date of fee payment, which was 03 March 2024. Candidates are advised to visit the official UPSSSC website to complete the application process. The eligibility result will be declared on 28 July 2026, and the admit card will be available soon.",
+    "links": {
+      "Apply Online": "https://upsssc.gov.in/",
+      "Official Notification": "https://uat.onlineupsrtc.co.in/#/Home"
+    },
+    "content": [
+      {
+        "heading": "UPSSSC Pharmacist Ayurvedic 2024 Recruitment",
+        "body": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the exam date for the Pharmacist Ayurvedic recruitment 2024. The examination will be conducted on 20 September 2026. The last date to submit the application form was 03 March 2024. Candidates can check their exam date using their enrollment number, registration number, or date of birth by logging into the portal. A total of 1002 posts are available for the Pharmacist Ayurvedic position. Candidates must have passed the 10+2 Intermediate examination with Biology or Mathematics as a subject, and a Diploma in Ayurvedic Pharmacy with registration from the relevant council. The selection process includes shortlisting based on PET 2023 score, written examination, skill test, medical examination, and document verification. The application fee is ₹25 for General, OBC, EWS, SC/ST, and PH candidates. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The eligibility result will be declared on 28 July 2026, and the admit card will be available soon."
+      },
+      {
+        "heading": "UPSSSC Pharmacist Ayurvedic 2024: Important Dates",
+        "body": "The key important dates for the UPSSSC Pharmacist Ayurvedic recruitment 2024 are as follows:\n- Online Application Start Date: 12 February 2024\n- Last Date for Online Application: 03 March 2024\n- Last Date for Fee Payment: 03 March 2024\n- Correction Last Date: 11 March 2024\n- Eligibility Result Available: 28 July 2026\n- Exam Date: 20 September 2026\n- Admit Card Available: Soon\nCandidates are advised to verify all details from the official UPSSSC website before finalizing their application. All dates are subject to change as per the official notification, and candidates must confirm the details from the official source before making any decisions."
+      },
+      {
+        "heading": "UPSSSC Pharmacist Ayurvedic 2024: Eligibility Details",
+        "body": "The eligibility criteria for the UPSSSC Pharmacist Ayurvedic recruitment 2024 are as follows:\n- Candidates must have passed the 10+2 Intermediate examination with Biology or Mathematics as a subject.\n- Must have a Diploma in Ayurvedic Pharmacy and registration with the relevant council.\nAll candidates are advised to read the official notification completely before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for UPSSSC Pharmacist Ayurvedic Recruitment 2024",
+        "body": "Candidates can apply online for the UPSSSC Pharmacist Ayurvedic recruitment 2024 through the official UPSSSC website. The online application process started on 12 February 2024 and ended on 03 March 2024. The application fee must be paid before the last date of fee payment, which was 03 March 2024. Candidates are advised to visit the official UPSSSC website to complete the application process. The eligibility result will be declared on 28 July 2026, and the admit card will be available soon."
+      },
+      {
+        "heading": "UPSSSC Pharmacist Ayurvedic 2024: Mode of Selection",
+        "body": "The selection process for the UPSSSC Pharmacist Ayurvedic recruitment 2024 includes five stages: Shortlisting based on PET 2023 score, Written Examination, Skill Test, Medical Examination, and Document Verification. Candidates will be shortlisted based on their PET 2023 score, followed by a written examination, skill test, medical examination, and document verification. The final merit list will be prepared based on the overall performance across all stages, and candidates will be selected accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. What is the UPSSSC Pharmacist Ayurvedic exam date 2024?\nA: The exam date is the scheduled date on which the UPSSSC Pharmacist Ayurvedic examination will be conducted.\n\nQ. How can I check the UPSSSC Pharmacist Ayurvedic exam date 2024?\nA: Candidates can check the exam date by visiting the official UPSSSC website and checking the latest notice or examination schedule.\n\nQ. Where will the UPSSSC Pharmacist Ayurvedic exam date be announced?\nA: The exam date will be announced through the official UPSSSC website.\n\nQ. Will the exam date be mentioned on the admit card?\nA: Yes, the admit card will generally contain the exam date, shift, reporting time, and examination centre details.\n\nQ. What is the official website for UPSSSC?\nA: The official website for UPSSSC is https://upsssc.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UPSSSC Pharmacist Ayurvedic 2024 Recruitment",
+      "metaDescription": "UPSSSC Pharmacist Ayurvedic 2024 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 1002 Posts Available. Application Starts on 12 February 2024. Last Date to Apply: 03 March 2024. Application Fee: ₹25 (All Categories). Age Limit: 18 to 40 Years. Eligibility: 10+2 with Biology/Mathematics, Diploma in Ayurvedic Pharmacy with Registration. Selection Process: PET 2023 Score, Written Exam, Skill Test, Medical Exam, Document Verification. Official Website: https://upsssc.gov.in/",
+      "keywords": "UPSSSC Pharmacist Ayurvedic 2024, UPSSSC Pharmacist Ayurvedic Recruitment 2024, UPSSSC Pharmacist Ayurvedic Exam Date 2024, UPSSSC Application Form 2024, UPSSSC Eligibility Criteria, UPSSSC Age Limit 2024, UPSSSC Selection Process, UPSSSC Application Fee 2024, UPSSSC Admit Card 2024"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 181,
+    "title": "UPSSSC Excise Constable 2026 Recruitment",
+    "setPath": "upsssc-excise-constable-2026",
+    "slug": "upsssc-excise-constable-2026-recruitment",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the exam date for the Excise Constable recruitment 2026. The examination will be conducted on 20 September 2026. The last date to submit the application form was 24 June 2026. Candidates can check their exam date using their enrollment number, registration number, or date of birth by logging into the portal. A total of 820 posts are available for the Excise Constable position. Candidates must have a valid UPSSSC PET 2025 score card and should have passed 10+2 (Intermediate) from a recognized board in India. For physical standards, male candidates must have a height of 167.6 cm and chest 80–85 cm, while female candidates must have a minimum height of 152 cm. The selection process includes shortlisting based on PET 2025 score, written examination, skill test, medical examination, and document verification. The application fee is ₹25 for General, OBC, EWS, SC/ST, and PH candidates. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The eligibility result will be declared soon, and the admit card will be available soon.",
+    "totalPost": "820",
+    "importantDates": {
+      "Application Begin": "2026-06-04",
+      "Last Date for Apply Online": "2026-06-24",
+      "Pay Exam Fee Last Date": "2026-06-24",
+      "Correction Last Date": "2026-07-01",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "2026-09-20",
+      "Exam City Available": "",
+      "Admit Card Available": "Soon"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "25",
+      "SC / ST": "25",
+      "PH (Divyang)": "25",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18",
+      "Maximum Age": "40",
+      "Age Calculation Date": "01 July 2026",
+      "Age Relaxation": "As per UPSSSC Examination 2026"
+    },
+    "posts": [
+      {
+        "Post Name": "Excise Constable",
+        "No. Of Post": "820"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have a valid UPSSSC PET 2025 score card.",
+      "Should have passed 10+2 (Intermediate) from a recognized board in India.",
+      "For physical standards: Male candidates must have a height of 167.6 cm and chest 80–85 cm; Female candidates must have a minimum height of 152 cm."
+    ],
+    "selectionProcess": [
+      "Shortlisting (PET 2025 Score)",
+      "Written Examination",
+      "Skill Test",
+      "Medical Examination",
+      "Document Verification"
+    ],
+    "jobLocation": "",
+    "howToApply": "Candidates can apply online for the UPSSSC Excise Constable recruitment 2026 through the official UPSSSC website. The online application process started on 04 June 2026 and ended on 24 June 2026. The application fee must be paid before the last date of fee payment, which was 24 June 2026. Candidates are advised to visit the official UPSSSC website to complete the application process. The eligibility result will be declared soon, and the admit card will be available soon.",
+    "links": {
+      "Apply Online": "https://upsssc.gov.in/",
+      "Official Notification": "https://uat.onlineupsrtc.co.in/#/Home"
+    },
+    "content": [
+      {
+        "heading": "UPSSSC Excise Constable 2026 Recruitment",
+        "body": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the exam date for the Excise Constable recruitment 2026. The examination will be conducted on 20 September 2026. The last date to submit the application form was 24 June 2026. Candidates can check their exam date using their enrollment number, registration number, or date of birth by logging into the portal. A total of 820 posts are available for the Excise Constable position. Candidates must have a valid UPSSSC PET 2025 score card and should have passed 10+2 (Intermediate) from a recognized board in India. For physical standards, male candidates must have a height of 167.6 cm and chest 80–85 cm, while female candidates must have a minimum height of 152 cm. The selection process includes shortlisting based on PET 2025 score, written examination, skill test, medical examination, and document verification. The application fee is ₹25 for General, OBC, EWS, SC/ST, and PH candidates. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The eligibility result will be declared soon, and the admit card will be available soon."
+      },
+      {
+        "heading": "UPSSSC Excise Constable 2026: Important Dates",
+        "body": "The key important dates for the UPSSSC Excise Constable recruitment 2026 are as follows:\n- Online Application Start Date: 04 June 2026\n- Last Date for Online Application: 24 June 2026\n- Last Date for Fee Payment: 24 June 2026\n- Correction Last Date: 01 July 2026\n- Exam Date: 20 September 2026\n- Admit Card Available: Soon\n- Eligibility Result Available: Soon\nCandidates are advised to verify all details from the official UPSSSC website before finalizing their application. All dates are subject to change as per the official notification, and candidates must confirm the details from the official source before making any decisions."
+      },
+      {
+        "heading": "UPSSSC Excise Constable 2026: Eligibility Details",
+        "body": "The eligibility criteria for the UPSSSC Excise Constable recruitment 2026 are as follows:\n- Candidates must have a valid UPSSSC PET 2025 score card.\n- Should have passed 10+2 (Intermediate) from a recognized board in India.\n- For physical standards: Male candidates must have a height of 167.6 cm and chest 80–85 cm; Female candidates must have a minimum height of 152 cm.\nAll candidates are advised to read the official notification completely before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for UPSSSC Excise Constable Recruitment 2026",
+        "body": "Candidates can apply online for the UPSSSC Excise Constable recruitment 2026 through the official UPSSSC website. The online application process started on 04 June 2026 and ended on 24 June 2026. The application fee must be paid before the last date of fee payment, which was 24 June 2026. Candidates are advised to visit the official UPSSSC website to complete the application process. The eligibility result will be declared soon, and the admit card will be available soon."
+      },
+      {
+        "heading": "UPSSSC Excise Constable 2026: Mode of Selection",
+        "body": "The selection process for the UPSSSC Excise Constable recruitment 2026 includes five stages: Shortlisting based on PET 2025 score, Written Examination, Skill Test, Medical Examination, and Document Verification. Candidates will be shortlisted based on their PET 2025 score, followed by a written examination, skill test, medical examination, and document verification. The final merit list will be prepared based on the overall performance across all stages, and candidates will be selected accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. What is the UPSSSC Excise Constable exam date 2026?\nA: The exam date is the scheduled date on which the UPSSSC Excise Constable examination will be conducted.\n\nQ. How can I check the UPSSSC Excise Constable exam date 2026?\nA: Candidates can check the exam date by visiting the official UPSSSC website and checking the latest notice or examination schedule.\n\nQ. Where will the UPSSSC Excise Constable exam date be announced?\nA: The exam date will be announced through the official UPSSSC website.\n\nQ. Will the exam date be mentioned on the admit card?\nA: Yes, the admit card will generally contain the exam date, shift, reporting time, and examination centre details.\n\nQ. What is the official website for UPSSSC?\nA: The official website for UPSSSC is https://upsssc.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UPSSSC Excise Constable 2026 Recruitment",
+      "metaDescription": "UPSSSC Excise Constable 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 820 Posts Available. Application Starts on 04 June 2026. Last Date to Apply: 24 June 2026. Application Fee: ₹25 (All Categories). Age Limit: 18 to 40 Years. Eligibility: Valid PET 2025 Score Card, 10+2 from Recognized Board. Physical Standards: Male - 167.6 cm Height, 80–85 cm Chest; Female - Minimum 152 cm Height. Selection Process: PET 2025 Score, Written Exam, Skill Test, Medical Exam, Document Verification. Official Website: https://upsssc.gov.in/",
+      "keywords": "UPSSSC Excise Constable 2026, UPSSSC Excise Constable Recruitment 2026, UPSSSC Excise Constable Exam Date 2026, UPSSSC Application Form 2026, UPSSSC Eligibility Criteria, UPSSSC Age Limit 2026, UPSSSC Selection Process, UPSSSC Application Fee 2026, UPSSSC Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 182,
+    "title": "CTET September 2026 Recruitment",
+    "setPath": "ctet-september-2026",
+    "slug": "ctet-september-2026-recruitment",
+    "organization": "Central Board of Secondary Education (CBSE)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Central Board of Secondary Education (CBSE) has released a form re-open notice for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The CTET application form has started on 25 August 2026, and candidates can apply until 01 September 2026. Candidates must check the complete details for CTET September Online Form 2026 given below. There is no age limit for the CTET September 2026 examination. The exam date has been postponed to 06 September 2026. The application fee for Paper-I is ₹1000 for General and OBC, and ₹500 for SC, ST, and PWD. For both papers, the fee is ₹1200 for General and OBC, and ₹600 for SC, ST, and PWD. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. Eligibility criteria vary by level, with requirements including senior secondary education with at least 50% marks, graduation with at least 50% marks, or post-graduation with at least 55% marks. The selection process includes a written examination. The admit card will be available before the exam, and the result will be updated soon.",
+    "totalPost": "Not Applicable",
+    "importantDates": {
+      "Application Begin": "2026-08-25",
+      "Last Date for Apply Online": "2026-09-01",
+      "Pay Exam Fee Last Date": "2026-09-01",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "2026-09-06",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "1000",
+      "SC / ST": "500",
+      "PH (Divyang)": "500",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "",
+      "Maximum Age": "",
+      "Age Calculation Date": "",
+      "Age Relaxation": "No Age Limit"
+    },
+    "posts": [
+      {
+        "Post Name": "CTET September 2026",
+        "No. Of Post": "Not Applicable"
+      }
+    ],
+    "eligibility": [
+      "For Level-1 (Class 1-5): Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year D.El.Ed., or graduation with at least 50% marks and passed/appearing in B.Ed., or post-graduation with at least 55% marks and passed/appearing in the final year of 3-year integrated B.Ed.-M.Ed.",
+      "For Level-2 (Class 6-8): Graduation and passed/appearing in the final year of a 2-year D.El.Ed., or graduation with at least 50% marks and passed/appearing in B.Ed., or senior secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed., or 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed., or graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education), or post-graduation with at least 55% marks and passed/appearing in the final year of 3-year integrated B.Ed.-M.Ed."
+    ],
+    "selectionProcess": [
+      "Written Exam"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official CTET website to complete the application process online. Make sure to complete the application before the deadline of 01 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://ctet.nic.in/",
+      "Official Notification": "https://ctet.nic.in/"
+    },
+    "content": [
+      {
+        "heading": "CTET September 2026 Recruitment",
+        "body": "Central Board of Secondary Education (CBSE) has released a form re-open notice for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The CTET application form has started on 25 August 2026, and candidates can apply until 01 September 2026. Candidates must check the complete details for CTET September Online Form 2026 given below. There is no age limit for the CTET September 2026 examination. The exam date has been postponed to 06 September 2026. The application fee for Paper-I is ₹1000 for General and OBC, and ₹500 for SC, ST, and PWD. For both papers, the fee is ₹1200 for General and OBC, and ₹600 for SC, ST, and PWD. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. Eligibility criteria vary by level, with requirements including senior secondary education with at least 50% marks, graduation with at least 50% marks, or post-graduation with at least 55% marks. The selection process includes a written examination. The admit card will be available before the exam, and the result will be updated soon."
+      },
+      {
+        "heading": "CTET September 2026: Important Dates",
+        "body": "The key important dates for the CTET September 2026 recruitment are as follows:\n- Online Application Start Date: 25 August 2026\n- Last Date for Online Application: 01 September 2026\n- Last Date for Fee Payment: 01 September 2026\n- Exam Date: 06 September 2026 (Postponed)\n- Admit Card Available: Before Exam\n- Result Available: Will be updated soon\nCandidates are advised to verify all details from the official CTET website before finalizing their application. All dates are subject to change as per the official notification, and candidates must confirm the details from the official source before making any decisions."
+      },
+      {
+        "heading": "CTET September 2026: Eligibility Details",
+        "body": "The eligibility criteria for the CTET September 2026 examination are as follows:\n- For Level-1 (Class 1-5): Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year D.El.Ed., or senior secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed. as per NCTE regulations, or graduation with at least 50% marks and passed/appearing in B.Ed., or post-graduation with at least 55% marks and passed/appearing in the final year of 3-year integrated B.Ed.-M.Ed.\n- For Level-2 (Class 6-8): Graduation and passed/appearing in the final year of a 2-year D.El.Ed., or graduation with at least 50% marks and passed/appearing in B.Ed., or senior secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed., or 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed., or graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education), or post-graduation with at least 55% marks and passed/appearing in the final year of 3-year integrated B.Ed.-M.Ed.\nAll candidates are advised to read the official notification completely before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for CTET September 2026",
+        "body": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official CTET website to complete the application process online. Make sure to complete the application before the deadline of 01 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "CTET September 2026: Mode of Selection",
+        "body": "The selection process for the CTET September 2026 examination includes a written examination. Candidates will be selected based on their performance in the written exam. The final merit list will be prepared based on the marks obtained in the written examination, and candidates will be shortlisted accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the online application for CTET September 2026 start?\nA: The online application for this recruitment has started on 25 August 2026.\n\nQ. What is the last date for online application for CTET September 2026?\nA: The last date for online application form is 01 September 2026.\n\nQ. What is the age limit for CTET September 2026?\nA: The age limit for CTET September 2026 is as follows on official notification – No Age Limit.\n\nQ. What is the eligibility for CTET September 2026 vacancy?\nA: The eligibility criteria for the CTET September 2026 vacancy are as follows on CTET rules.\n\nQ. What is the official website for CTET?\nA: The official website for CTET is https://ctet.nic.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "CTET September 2026 Recruitment",
+      "metaDescription": "CTET September 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Application Starts on 25 August 2026. Last Date to Apply: 01 September 2026. Application Fee: ₹1000 (General/OBC), ₹500 (SC/ST/PWD) for Paper-I; ₹1200 (General/OBC), ₹600 (SC/ST/PWD) for Both Papers. Age Limit: No Age Limit. Eligibility: Senior Secondary with 50% Marks, Graduation with 50% Marks, Post-Graduation with 55% Marks. Selection Process: Written Exam. Official Website: https://ctet.nic.in/",
+      "keywords": "CTET September 2026, CTET Recruitment 2026, CTET Application Form 2026, CTET Exam Date 2026, CTET Eligibility Criteria, CTET Age Limit 2026, CTET Application Fee 2026, CTET Selection Process, CTET Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 183,
+    "title": "Bihar BCECEB BSFC Various Post Recruitment 2026",
+    "setPath": "bihar-bceceb-bsfc-various-post-2026",
+    "slug": "bihar-bceceb-bsfc-various-post-recruitment-2026",
+    "organization": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Bihar Combined Entrance Competitive Examination Board (BCECEB) has released a notification on its official website for the recruitment of Assistant Manager, Assistant Account Officer, Accountant, Quality Controller, and Lower Division Clerk (LDC) various posts. This recruitment is for 259 positions. The BCECEB application form has started on 25 August 2026 and candidates can apply till 24 September 2026. The minimum age required is 21 years and the maximum age is 37–42 years (post-wise) as on 01 January 2026. Candidates are advised to check the complete details for the Bihar BCECEB BSFC Various Post Recruitment 2026 provided below. (Advt-No: BCECEB(BSFC)-2026/02). The application fee for General/EBC/BC/EWS is ₹1200, and for SC/ST/PH candidates is ₹600. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The selection process will be based on merit list.",
+    "totalPost": "259",
+    "importantDates": {
+      "Application Begin": "2026-08-25",
+      "Last Date for Apply Online": "2026-09-24",
+      "Pay Exam Fee Last Date": "2026-09-24",
+      "Correction Last Date": "2026-09-26",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "1000",
+      "SC / ST": "600",
+      "PH (Divyang)": "600",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "37 – 42 Years (Post Wise)",
+      "Age Calculation Date": "01 January 2026",
+      "Age Relaxation": "As per BCECEB regulations"
+    },
+    "posts": [
+      {
+        "Post Name": "Assistant Manager",
+        "No. Of Post": "81"
+      },
+      {
+        "Post Name": "Assistant Account Officer",
+        "No. Of Post": "06"
+      },
+      {
+        "Post Name": "Accountant",
+        "No. Of Post": "11"
+      },
+      {
+        "Post Name": "Quality Controller",
+        "No. Of Post": "38"
+      },
+      {
+        "Post Name": "Lower Division Clerk (LDC)",
+        "No. Of Post": "123"
+      }
+    ],
+    "eligibility": [
+      "Assistant Manager: Candidates must have a Master of Business Administration (MBA) or Post Graduate Diploma in Business Management (PGDBM) from any recognized university/institution.",
+      "Assistant Account Officer: Candidates must have a B.Com degree from a recognized university with Chartered Accountancy (CA); OR B.Com degree from a recognized university with 05 years of experience as an Assistant Accounts Officer or equivalent post in the Central Government, Government of Bihar, Government Enterprises, or Corporations.",
+      "Accountant: Candidates must have a B.Com degree with CA Intermediate from a recognized university.",
+      "Quality Controller: Candidates must have a B.Sc. in Agriculture or B.Tech./B.E. in Food Science, Food Science & Technology, Agricultural Engineering, or Biotechnology from a recognized university/institute approved by AICTE.",
+      "Lower Division Clerk (LDC): Candidates must have a graduate from a recognized university with proficiency in computer operations and computer typing."
+    ],
+    "selectionProcess": [
+      "Based on Merit List"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the BCECEB post can submit their application online before 24 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official BCECEB website to complete the application process online. Make sure to complete the application before the deadline of 24 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://bceceboard.bihar.gov.in/",
+      "Official Notification": "https://bceceboard.bihar.gov.in/"
+    },
+    "content": [
+      {
+        "heading": "Bihar BCECEB BSFC Various Post Recruitment 2026",
+        "body": "Bihar Combined Entrance Competitive Examination Board (BCECEB) has released a notification on its official website for the recruitment of Assistant Manager, Assistant Account Officer, Accountant, Quality Controller, and Lower Division Clerk (LDC) various posts. This recruitment is for 259 positions. The BCECEB application form has started on 25 August 2026 and candidates can apply till 24 September 2026. The minimum age required is 21 years and the maximum age is 37–42 years (post-wise) as on 01 January 2026. Candidates are advised to check the complete details for the Bihar BCECEB BSFC Various Post Recruitment 2026 provided below. (Advt-No: BCECEB(BSFC)-2026/02). The application fee for General/EBC/BC/EWS is ₹1200, and for SC/ST/PH candidates is ₹600. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The selection process will be based on merit list."
+      },
+      {
+        "heading": "Bihar BCECEB BSFC Various Post: Important Dates",
+        "body": "The key important dates for the Bihar BCECEB BSFC Various Post Recruitment 2026 are as follows:\n- Online Application Start Date: 25 August 2026\n- Last Date for Online Application: 24 September 2026\n- Last Date for Fee Payment: 24 September 2026\n- Correction Period: 26 – 28 September 2026\n- Exam Date: To be notified later\n- Admit Card Available: Before Exam\n- Result Date: Will be updated soon\nCandidates are advised to confirm all details from the BCECEB official website before finalizing their application. All dates are subject to change as per the official notification, and candidates must verify the details from the official source before making any decisions."
+      },
+      {
+        "heading": "Bihar BCECEB BSFC Various Post: Eligibility Details",
+        "body": "The eligibility criteria for the Bihar BCECEB BSFC Various Post Recruitment 2026 are as follows:\n- Assistant Manager: Candidates must have a Master of Business Administration (MBA) or Post Graduate Diploma in Business Management (PGDBM) from any recognized university/institution.\n- Assistant Account Officer: Candidates must have a B.Com degree from a recognized university with Chartered Accountancy (CA); OR B.Com degree from a recognized university with 05 years of experience as an Assistant Accounts Officer or equivalent post in the Central Government, Government of Bihar, Government Enterprises, or Corporations.\n- Accountant: Candidates must have a B.Com degree with CA Intermediate from a recognized university.\n- Quality Controller: Candidates must have a B.Sc. in Agriculture or B.Tech./B.E. in Food Science, Food Science & Technology, Agricultural Engineering, or Biotechnology from a recognized university/institute approved by AICTE.\n- Lower Division Clerk (LDC): Candidates must have a graduate from a recognized university with proficiency in computer operations and computer typing.\nAll candidates are advised to read the official notification carefully before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for Bihar BCECEB BSFC Various Post 2026",
+        "body": "Interested candidates who wish to apply for the BCECEB post can submit their application online before 24 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official BCECEB website to complete the application process online. Make sure to complete the application before the deadline of 24 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "Bihar BCECEB BSFC Various Post: Mode of Selection",
+        "body": "The selection process for the Bihar BCECEB BSFC Various Post Recruitment 2026 will be based on a merit list. Candidates will be shortlisted based on their performance in the examination, and the final merit list will be prepared according to the prescribed criteria."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the online application for Bihar BCECEB BSFC Various Post Recruitment 2026 start?\nA: The online application for this recruitment has started on 25 August 2026.\n\nQ. What is the last date for online application for Bihar BCECEB BSFC Various Post Online Form 2026?\nA: The last date for online application form is 24 September 2026.\n\nQ. What is the age limit for Bihar BCECEB BSFC Various Post Bharti 2026?\nA: The age limit for Bihar BCECEB BSFC Various Post Bharti 2026 is as follows: The minimum age is 21 years and the maximum age is 37–42 years (post-wise) as on 01 January 2026.\n\nQ. What is the eligibility for Bihar BCECEB BSFC Various Post vacancy 2026?\nA: Candidates must have passed the graduation examination from a recognized board or institution. For detailed information regarding eligibility, requirements, and other conditions, applicants are advised to carefully read the official notification.\n\nQ. What is the official website for BCECEB?\nA: The official website for BCECEB is https://bceceboard.bihar.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Bihar BCECEB BSFC Various Post Recruitment 2026",
+      "metaDescription": "Bihar BCECEB BSFC Various Post Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Application Starts on 25 August 2026. Last Date to Apply: 24 September 2026. Application Fee: ₹1200 (General/EBC/BC/EWS), ₹600 (SC/ST/PH). Age Limit: Minimum 21 Years, Maximum 37–42 Years (Post Wise). Eligibility: MBA, B.Com with CA, B.Sc/B.Tech in relevant fields, Graduate with computer proficiency. Selection Process: Based on Merit List. Official Website: https://bceceboard.bihar.gov.in/",
+      "keywords": "Bihar BCECEB BSFC Recruitment 2026, BCECEB BSFC Various Post 2026, BCECEB Application Form 2026, BCECEB Eligibility Criteria, BCECEB Age Limit 2026, BCECEB Exam Date 2026, BCECEB Selection Process, BCECEB Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 184,
+    "title": "Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026",
+    "setPath": "bihar-bceceb-sr-resident-tutor-2026",
+    "slug": "bihar-bceceb-sr-resident-tutor-recruitment-2026",
+    "organization": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Bihar",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Bihar Combined Entrance Competitive Examination Board (BCECEB) has released a notification on its official website for the recruitment of Sr. Resident/Tutor Phase-II posts. This recruitment is for 118 positions. The BCECEB application form has started on 25 August 2026 and candidates can apply till 08 September 2026. The minimum age required is N/A and the maximum age is 37–42 years (post-wise) as on 01 August 2026. Candidates are advised to check the complete details for the Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026 provided below. (Advt-No: BCECEB/Health(SR)/2026 (Part-II)/01). The application fee for all candidates is ₹2250. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The selection process will be based on merit list.",
+    "totalPost": "118",
+    "importantDates": {
+      "Application Begin": "2026-08-25",
+      "Last Date for Apply Online": "2026-09-08",
+      "Pay Exam Fee Last Date": "2026-09-08",
+      "Correction Last Date": "2026-09-09",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "2250",
+      "SC / ST": "2250",
+      "PH (Divyang)": "2250",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "N/A",
+      "Maximum Age": "37 Years (General/ EWS Male), 40 Years (General / EWS Female), 40 Years (BC/ EBC Male & Female), 42 Years (SC / ST Male & Female)",
+      "Age Calculation Date": "01 August 2026",
+      "Age Relaxation": "As per BCECEB regulations"
+    },
+    "posts": [
+      {
+        "Post Name": "Sr. Resident/Tutor",
+        "No. Of Post": "118"
+      }
+    ],
+    "eligibility": [
+      "For Senior Resident/Tutor posts, 40% of positions will be filled by Bihar State Health Service Cadre members, 40% by doctors who completed their postgraduate degree under the residency scheme from medical colleges within the state, and the remaining 20% by doctors with a postgraduate degree from recognized institutions outside Bihar. The minimum qualification is a Master’s degree in the relevant subject, but in case of shortage of candidates, a diploma may be accepted.",
+      "Candidates must have passed the Intermediate (12th) examination from a recognized board or institution and should possess knowledge of stenography."
+    ],
+    "selectionProcess": [
+      "Based on Merit List"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the BCECEB post can submit their application online before 08 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official BCECEB website to complete the application process online. Make sure to complete the application before the deadline of 08 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://bceceboard.bihar.gov.in/",
+      "Official Notification": "https://bceceboard.bihar.gov.in/"
+    },
+    "content": [
+      {
+        "heading": "Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026",
+        "body": "Bihar Combined Entrance Competitive Examination Board (BCECEB) has released a notification on its official website for the recruitment of Sr. Resident/Tutor Phase-II posts. This recruitment is for 118 positions. The BCECEB application form has started on 25 August 2026 and candidates can apply till 08 September 2026. The minimum age required is N/A and the maximum age is 37–42 years (post-wise) as on 01 August 2026. Candidates are advised to check the complete details for the Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026 provided below. (Advt-No: BCECEB/Health(SR)/2026 (Part-II)/01). The application fee for all candidates is ₹2250. Payment can be made through debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The selection process will be based on merit list."
+      },
+      {
+        "heading": "Bihar BCECEB Sr. Resident/ Tutor: Important Dates",
+        "body": "The key important dates for the Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026 are as follows:\n- Online Application Start Date: 25 August 2026\n- Last Date for Online Application: 08 September 2026\n- Last Date for Fee Payment: 08 September 2026\n- Correction Period: 09 September 2026\n- DV Date: 11 September 2026\n- Admit Card Available: Before Exam\n- Result Date: Will be updated soon\nCandidates are advised to confirm all details from the BCECEB official website before finalizing their application. All dates are subject to change as per the official notification, and candidates must verify the details from the official source before making any decisions."
+      },
+      {
+        "heading": "Bihar BCECEB Sr. Resident/ Tutor: Eligibility Details",
+        "body": "The eligibility criteria for the Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026 are as follows:\n- For Senior Resident/Tutor posts, 40% of positions will be filled by Bihar State Health Service Cadre members, 40% by doctors who completed their postgraduate degree under the residency scheme from medical colleges within the state, and the remaining 20% by doctors with a postgraduate degree from recognized institutions outside Bihar. The minimum qualification is a Master’s degree in the relevant subject, but in case of shortage of candidates, a diploma may be accepted.\n- Candidates must have passed the Intermediate (12th) examination from a recognized board or institution and should possess knowledge of stenography.\nAll candidates are advised to read the official notification carefully before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for Bihar BCECEB Sr. Resident/ Tutor 2026",
+        "body": "Interested candidates who wish to apply for the BCECEB post can submit their application online before 08 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official BCECEB website to complete the application process online. Make sure to complete the application before the deadline of 08 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "Bihar BCECEB Sr. Resident/ Tutor: Mode of Selection",
+        "body": "The selection process for the Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026 will be based on a merit list. Candidates will be shortlisted based on their performance in the examination, and the final merit list will be prepared according to the prescribed criteria."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the online application for Bihar BCECE Sr. Resident/ Tutor Recruitment 2026 start?\nA: The online application for this recruitment has started on 25 August 2026.\n\nQ. What is the last date for online application for Bihar BCECE Sr. Resident/ Tutor Online Form 2026?\nA: The last date for online application form is 08 September 2026.\n\nQ. What is the age limit for Bihar BCECE Sr. Resident/ Tutor Bharti 2026?\nA: The age limit for Bihar BCECE Sr. Resident/ Tutor Bharti 2026 is as follows: The minimum age is not required and the maximum age is 37–42 years (post-wise) as on 01 August 2026.\n\nQ. What is the eligibility for Bihar BCECE Sr. Resident/ Tutor vacancy 2026?\nA: Candidates must have passed the Intermediate (12th) examination from a recognized board or institution and should possess knowledge of stenography. For detailed information regarding eligibility, requirements, and other conditions, applicants are advised to carefully read the official notification.\n\nQ. What is the official website for BCECEB?\nA: The official website for BCECEB is https://bceceboard.bihar.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026",
+      "metaDescription": "Bihar BCECEB Sr. Resident/ Tutor Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Application Starts on 25 August 2026. Last Date to Apply: 08 September 2026. Application Fee: ₹2250. Age Limit: Minimum N/A, Maximum 37–42 Years (Post Wise). Eligibility: Master’s Degree or Diploma in relevant subject, Intermediate (12th) with knowledge of stenography. Selection Process: Based on Merit List. Official Website: https://bceceboard.bihar.gov.in/",
+      "keywords": "Bihar BCECEB Sr. Resident Tutor Recruitment 2026, BCECEB Sr. Resident Tutor 2026, BCECEB Application Form 2026, BCECEB Eligibility Criteria, BCECEB Age Limit 2026, BCECEB Exam Date 2026, BCECEB Selection Process, BCECEB Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 185,
+    "title": "UP Bijnor ECCE Educator Recruitment 2026",
+    "setPath": "up-bijnor-ecce-educator-2026",
+    "slug": "up-bijnor-ecce-educator-recruitment-2026",
+    "organization": "UP Rojgar Sangam (Sewayojan)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "UP Rojgar Sangam (Sewayojan) Portal has released a notification on its official website for the recruitment of Bijnor ECCE Educator posts. This UP Bijnor ECCE recruitment is for 159 positions. The UP Bijnor ECCE application form has started on 10 August 2026 and candidates can apply until 10 September 2026. The minimum age required is 21 years and the maximum age is 40 years. Candidates are advised to check the complete details for the UP Bijnor ECCE Educator Recruitment 2026 provided below. (Advt-No: Not specified). There is no application fee for any candidate. The selection process will be as per UP Rojgar Sangam (Sewayojan) Portal rules.",
+    "totalPost": "159",
+    "importantDates": {
+      "Application Begin": "2026-08-10",
+      "Last Date for Apply Online": "2026-09-10",
+      "Pay Exam Fee Last Date": "2026-09-10",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "0",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": ""
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "40 Years",
+      "Age Calculation Date": "",
+      "Age Relaxation": "As per UP Bijnor ECCE Educator Vacancy rules"
+    },
+    "posts": [
+      {
+        "Post Name": "ECCE Educator",
+        "No. Of Post": "159"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have passed a Bachelor’s degree in Home Science as the main subject with a minimum of 50% marks from a university established by law and recognized by the University Grants Commission (UGC). Candidates belonging to reserved categories will be eligible for a 5% relaxation in minimum qualifying marks as per government rules. OR\nCandidates must possess a diploma of at least two years duration in Teacher Nursery Training (NTT), CTT (Nursery), DPSE, or an equivalent qualification recognized by the National Council for Teacher Education (NCTE).",
+      "All candidates must read the official information completely before applying."
+    ],
+    "selectionProcess": [
+      "As per UP Rojgar Sangam (Sewayojan) Portal rules"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the UP Bijnor ECCE Educator post can submit their application online before 10 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UP Bijnor ECCE Educator to complete the application process online. Make sure to complete the application before the deadline of 10 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://Sewayojan.Up.Nic.In/",
+      "Official Notification": "https://Sewayojan.Up.Nic.In/"
+    },
+    "content": [
+      {
+        "heading": "UP Bijnor ECCE Educator Recruitment 2026",
+        "body": "UP Rojgar Sangam (Sewayojan) Portal has released a notification on its official website for the recruitment of Bijnor ECCE Educator posts. This UP Bijnor ECCE recruitment is for 159 positions. The UP Bijnor ECCE application form has started on 10 August 2026 and candidates can apply until 10 September 2026. The minimum age required is 21 years and the maximum age is 40 years. Candidates are advised to check the complete details for the UP Bijnor ECCE Educator Recruitment 2026 provided below. (Advt-No: Not specified). There is no application fee for any candidate. The selection process will be as per UP Rojgar Sangam (Sewayojan) Portal rules."
+      },
+      {
+        "heading": "UP Bijnor ECCE Educator: Important Dates",
+        "body": "The key important dates for the UP Bijnor ECCE Educator Recruitment 2026 are as follows:\n- Online Application Start Date: 10 August 2026\n- Last Date for Online Application: 10 September 2026\n- Last Date for Fee Payment: 10 September 2026\n- Correction Period: Not specified\n- DV Date: Not specified\n- Admit Card Available: Before Exam\n- Result Date: Will be updated soon\nCandidates are advised to confirm all details from the official website before finalizing their application. All dates are subject to change as per the official notification, and candidates must verify the details from the official source before making any decisions."
+      },
+      {
+        "heading": "UP Bijnor ECCE Educator: Eligibility Details",
+        "body": "The eligibility criteria for the UP Bijnor ECCE Educator Recruitment 2026 are as follows:\n- Candidates must have passed a Bachelor’s degree in Home Science as the main subject with a minimum of 50% marks from a university established by law and recognized by the University Grants Commission (UGC). Candidates belonging to reserved categories will be eligible for a 5% relaxation in minimum qualifying marks as per government rules. OR\n- Candidates must possess a diploma of at least two years duration in Teacher Nursery Training (NTT), CTT (Nursery), DPSE, or an equivalent qualification recognized by the National Council for Teacher Education (NCTE).\nAll candidates are advised to read the official notification carefully before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for UP Bijnor ECCE Educator 2026",
+        "body": "Interested candidates who wish to apply for the UP Bijnor ECCE Educator post can submit their application online before 10 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UP Bijnor ECCE Educator to complete the application process online. Make sure to complete the application before the deadline of 10 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "UP Bijnor ECCE Educator: Mode of Selection",
+        "body": "The selection process for the UP Bijnor ECCE Educator Recruitment 2026 will be as per the rules of UP Rojgar Sangam (Sewayojan) Portal. Candidates will be shortlisted based on the prescribed criteria and the final merit list will be prepared accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the online application for UP Bijnor ECCE Educator Recruitment 2026 start?\nA: The online application for this recruitment has started on 10 August 2026.\n\nQ. What is the last date for online application for UP Bijnor ECCE Educator Recruitment 2026?\nA: The last date for online application is 10 September 2026.\n\nQ. What is the age limit for UP Bijnor ECCE Educator Recruitment 2026?\nA: The age limit for candidates applying for this recruitment is as per the rules of UP Bijnor ECCE Educator 2026. For detailed age information, please refer to the official notification.\n\nQ. What is the eligibility for UP Bijnor ECCE Educator Recruitment 2026?\nA: All candidates who have passed the Bachelor’s degree in Home Science examination from any recognized board in India are eligible to apply for this recruitment. Before applying, candidates should thoroughly read the official information.\n\nQ. What is the official website of Sewayojan?\nA: The official website of Sewayojan is https://Sewayojan.Up.Nic.In/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UP Bijnor ECCE Educator Recruitment 2026",
+      "metaDescription": "UP Bijnor ECCE Educator Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Application Starts on 10 August 2026. Last Date to Apply: 10 September 2026. Age Limit: Minimum 21 Years, Maximum 40 Years. Eligibility: Bachelor’s Degree in Home Science (50% marks) or Diploma in Teacher Nursery Training (NTT/CTT/DPSE) with NCTE recognition. Selection Process: As per UP Rojgar Sangam (Sewayojan) Portal rules. Official Website: https://Sewayojan.Up.Nic.In/",
+      "keywords": "UP Bijnor ECCE Educator Recruitment 2026, UP Bijnor ECCE Educator 2026, UP Bijnor ECCE Application Form 2026, UP Bijnor ECCE Eligibility Criteria, UP Bijnor ECCE Age Limit 2026, UP Bijnor ECCE Exam Date 2026, UP Bijnor ECCE Selection Process, UP Bijnor ECCE Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 186,
+    "title": "UP Chitrakoot ECCE Educator Recruitment 2026",
+    "setPath": "up-chitrakoot-ecce-educator-2026",
+    "slug": "up-chitrakoot-ecce-educator-recruitment-2026",
+    "organization": "UP Rojgar Sangam (Sewayojan)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "UP Rojgar Sangam (Sewayojan) Portal has released a notification on its official website for the recruitment of Chitrakoot ECCE Educator posts. This UP Chitrakoot ECCE recruitment is for 60 positions. The UP Chitrakoot ECCE application form has started on 20 August 2026 and candidates can apply until 05 September 2026. The minimum age required is 21 years and the maximum age is 40 years. Candidates are advised to check the complete details for the UP Chitrakoot ECCE Educator Recruitment 2026 provided below. (Advt-No: Not specified). There is no application fee for any candidate. The selection process will be as per UP Rojgar Sangam (Sewayojan) Portal rules.",
+    "totalPost": "60",
+    "importantDates": {
+      "Application Begin": "2026-08-20",
+      "Last Date for Apply Online": "2026-09-05",
+      "Pay Exam Fee Last Date": "2026-09-05",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "0",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": ""
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "40 Years",
+      "Age Calculation Date": "",
+      "Age Relaxation": "As per UP Chitrakoot ECCE Educator Vacancy rules"
+    },
+    "posts": [
+      {
+        "Post Name": "ECCE Educator",
+        "No. Of Post": "60"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have passed a Bachelor’s degree in Home Science as the main subject with a minimum of 50% marks from a university established by law and recognized by the University Grants Commission (UGC). Candidates belonging to reserved categories will be eligible for a 5% relaxation in minimum qualifying marks as per government rules. OR\nCandidates must possess a diploma of at least two years duration in Teacher Nursery Training (NTT), CTT (Nursery), DPSE, or an equivalent qualification recognized by the National Council for Teacher Education (NCTE).",
+      "All candidates must read the official information completely before applying."
+    ],
+    "selectionProcess": [
+      "As per UP Rojgar Sangam (Sewayojan) Portal rules"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the UP Chitrakoot ECCE Educator post can submit their application online before 05 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UP Chitrakoot ECCE Educator to complete the application process online. Make sure to complete the application before the deadline of 05 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://Sewayojan.Up.Nic.In/",
+      "Official Notification": "https://Sewayojan.Up.Nic.In/"
+    },
+    "content": [
+      {
+        "heading": "UP Chitrakoot ECCE Educator Recruitment 2026",
+        "body": "UP Rojgar Sangam (Sewayojan) Portal has released a notification on its official website for the recruitment of Chitrakoot ECCE Educator posts. This UP Chitrakoot ECCE recruitment is for 60 positions. The UP Chitrakoot ECCE application form has started on 20 August 2026 and candidates can apply until 05 September 2026. The minimum age required is 21 years and the maximum age is 40 years. Candidates are advised to check the complete details for the UP Chitrakoot ECCE Educator Recruitment 2026 provided below. (Advt-No: Not specified). There is no application fee for any candidate. The selection process will be as per UP Rojgar Sangam (Sewayojan) Portal rules."
+      },
+      {
+        "heading": "UP Chitrakoot ECCE Educator: Important Dates",
+        "body": "The key important dates for the UP Chitrakoot ECCE Educator Recruitment 2026 are as follows:\n- Online Application Start Date: 20 August 2026\n- Last Date for Online Application: 05 September 2026\n- Last Date for Fee Payment: 05 September 2026\n- Correction Period: Not specified\n- DV Date: Not specified\n- Admit Card Available: Before Exam\n- Result Date: Will be updated soon\nCandidates are advised to confirm all details from the official website before finalizing their application. All dates are subject to change as per the official notification, and candidates must verify the details from the official source before making any decisions."
+      },
+      {
+        "heading": "UP Chitrakoot ECCE Educator: Eligibility Details",
+        "body": "The eligibility criteria for the UP Chitrakoot ECCE Educator Recruitment 2026 are as follows:\n- Candidates must have passed a Bachelor’s degree in Home Science as the main subject with a minimum of 50% marks from a university established by law and recognized by the University Grants Commission (UGC). Candidates belonging to reserved categories will be eligible for a 5% relaxation in minimum qualifying marks as per government rules. OR\n- Candidates must possess a diploma of at least two years duration in Teacher Nursery Training (NTT), CTT (Nursery), DPSE, or an equivalent qualification recognized by the National Council for Teacher Education (NCTE).\nAll candidates are advised to read the official notification carefully before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for UP Chitrakoot ECCE Educator 2026",
+        "body": "Interested candidates who wish to apply for the UP Chitrakoot ECCE Educator post can submit their application online before 05 September 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UP Chitrakoot ECCE Educator to complete the application process online. Make sure to complete the application before the deadline of 05 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "UP Chitrakoot ECCE Educator: Mode of Selection",
+        "body": "The selection process for the UP Chitrakoot ECCE Educator Recruitment 2026 will be as per the rules of UP Rojgar Sangam (Sewayojan) Portal. Candidates will be shortlisted based on the prescribed criteria and the final merit list will be prepared accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the online application for UP Chitrakoot ECCE Educator Recruitment 2026 start?\nA: The online application for this recruitment has started on 20 August 2026.\n\nQ. What is the last date for online application for UP Chitrakoot ECCE Educator Recruitment 2026?\nA: The last date for online application is 05 September 2026.\n\nQ. What is the age limit for UP Chitrakoot ECCE Educator Recruitment 2026?\nA: The age limit for candidates applying for this recruitment is as per the rules of UP Chitrakoot ECCE Educator 2026. For detailed age information, please refer to the official notification.\n\nQ. What is the eligibility for UP Chitrakoot ECCE Educator Recruitment 2026?\nA: All candidates who have passed the Bachelor’s degree in Home Science examination from any recognized board in India are eligible to apply for this recruitment. Before applying, candidates should thoroughly read the official information.\n\nQ. What is the official website of Sewayojan?\nA: The official website of Sewayojan is https://Sewayojan.Up.Nic.In/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UP Chitrakoot ECCE Educator Recruitment 2026",
+      "metaDescription": "UP Chitrakoot ECCE Educator Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Application Starts on 20 August 2026. Last Date to Apply: 05 September 2026. Age Limit: Minimum 21 Years, Maximum 40 Years. Eligibility: Bachelor’s Degree in Home Science (50% marks) or Diploma in Teacher Nursery Training (NTT/CTT/DPSE) with NCTE recognition. Selection Process: As per UP Rojgar Sangam (Sewayojan) Portal rules. Official Website: https://Sewayojan.Up.Nic.In/",
+      "keywords": "UP Chitrakoot ECCE Educator Recruitment 2026, UP Chitrakoot ECCE Educator 2026, UP Chitrakoot ECCE Application Form 2026, UP Chitrakoot ECCE Eligibility Criteria, UP Chitrakoot ECCE Age Limit 2026, UP Chitrakoot ECCE Exam Date 2026, UP Chitrakoot ECCE Selection Process, UP Chitrakoot ECCE Admit Card 2026"
+    },
+    "updatedon": "2026-08-25"
+  },
+  {
+    "id": 187,
+    "title": "UP Ambedkar Nagar ECCE Educator Recruitment 2026",
+    "setPath": "up-ambedkar-nagar-ecce-educator-2026",
+    "slug": "up-ambedkar-nagar-ecce-educator-recruitment-2026",
+    "organization": "UP Rojgar Sangam (Sewayojan)",
+    "date": "2026-08-25",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "UP Rojgar Sangam (Sewayojan) Portal has released a notification on its official website for the recruitment of Ambedkar Nagar ECCE Educator posts. This UP Ambedkar Nagar ECCE recruitment is for 104 positions. The UP Ambedkar Nagar ECCE application form has started on 19 August 2026 and candidates can apply until 27 August 2026. The minimum age required is 21 years and the maximum age is 40 years. Candidates are advised to check the complete details for the UP Ambedkar Nagar ECCE Educator Recruitment 2026 provided below. (Advt-No: Not specified). There is no application fee for any candidate. The selection process will be as per UP Rojgar Sangam (Sewayojan) Portal rules.",
+    "totalPost": "104",
+    "importantDates": {
+      "Application Begin": "2026-08-19",
+      "Last Date for Apply Online": "2026-08-27",
+      "Pay Exam Fee Last Date": "2026-08-27",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "Soon",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "0",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": ""
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "40 Years",
+      "Age Calculation Date": "",
+      "Age Relaxation": "As per UP Ambedkar Nagar ECCE Educator Vacancy rules"
+    },
+    "posts": [
+      {
+        "Post Name": "ECCE Educator",
+        "No. Of Post": "104"
+      }
+    ],
+    "eligibility": [
+      "Candidates must have passed a Bachelor’s degree in Home Science as the main subject with a minimum of 50% marks from a university established by law and recognized by the University Grants Commission (UGC). Candidates belonging to reserved categories will be eligible for a 5% relaxation in minimum qualifying marks as per government rules. OR\nCandidates must possess a diploma of at least two years duration in Teacher Nursery Training (NTT), CTT (Nursery), DPSE, or an equivalent qualification recognized by the National Council for Teacher Education (NCTE).",
+      "All candidates must read the official information completely before applying."
+    ],
+    "selectionProcess": [
+      "As per UP Rojgar Sangam (Sewayojan) Portal rules"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the UP Ambedkar Nagar ECCE Educator post can submit their application online before 27 August 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UP Ambedkar Nagar ECCE Educator to complete the application process online. Make sure to complete the application before the deadline of 27 August 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://Sewayojan.Up.Nic.In/",
+      "Official Notification": "https://Sewayojan.Up.Nic.In/"
+    },
+    "content": [
+      {
+        "heading": "UP Ambedkar Nagar ECCE Educator Recruitment 2026",
+        "body": "UP Rojgar Sangam (Sewayojan) Portal has released a notification on its official website for the recruitment of Ambedkar Nagar ECCE Educator posts. This UP Ambedkar Nagar ECCE recruitment is for 104 positions. The UP Ambedkar Nagar ECCE application form has started on 19 August 2026 and candidates can apply until 27 August 2026. The minimum age required is 21 years and the maximum age is 40 years. Candidates are advised to check the complete details for the UP Ambedkar Nagar ECCE Educator Recruitment 2026 provided below. (Advt-No: Not specified). There is no application fee for any candidate. The selection process will be as per UP Rojgar Sangam (Sewayojan) Portal rules."
+      },
+      {
+        "heading": "UP Ambedkar Nagar ECCE Educator: Important Dates",
+        "body": "The key important dates for the UP Ambedkar Nagar ECCE Educator Recruitment 2026 are as follows:\n- Online Application Start Date: 19 August 2026\n- Last Date for Online Application: 27 August 2026\n- Last Date for Fee Payment: 27 August 2026\n- Correction Period: Not specified\n- DV Date: Not specified\n- Admit Card Available: Before Exam\n- Result Date: Will be updated soon\nCandidates are advised to confirm all details from the official website before finalizing their application. All dates are subject to change as per the official notification, and candidates must verify the details from the official source before making any decisions."
+      },
+      {
+        "heading": "UP Ambedkar Nagar ECCE Educator: Eligibility Details",
+        "body": "The eligibility criteria for the UP Ambedkar Nagar ECCE Educator Recruitment 2026 are as follows:\n- Candidates must have passed a Bachelor’s degree in Home Science as the main subject with a minimum of 50% marks from a university established by law and recognized by the University Grants Commission (UGC). Candidates belonging to reserved categories will be eligible for a 5% relaxation in minimum qualifying marks as per government rules. OR\n- Candidates must possess a diploma of at least two years duration in Teacher Nursery Training (NTT), CTT (Nursery), DPSE, or an equivalent qualification recognized by the National Council for Teacher Education (NCTE).\nAll candidates are advised to read the official notification carefully before applying. Candidates must meet these eligibility conditions to be eligible for the examination."
+      },
+      {
+        "heading": "How to Apply for UP Ambedkar Nagar ECCE Educator 2026",
+        "body": "Interested candidates who wish to apply for the UP Ambedkar Nagar ECCE Educator post can submit their application online before 27 August 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UP Ambedkar Nagar ECCE Educator to complete the application process online. Make sure to complete the application before the deadline of 27 August 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "UP Ambedkar Nagar ECCE Educator: Mode of Selection",
+        "body": "The selection process for the UP Ambedkar Nagar ECCE Educator Recruitment 2026 will be as per the rules of UP Rojgar Sangam (Sewayojan) Portal. Candidates will be shortlisted based on the prescribed criteria and the final merit list will be prepared accordingly."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When will the online application for UP Ambedkar Nagar ECCE Educator Recruitment 2026 start?\nA: The online application for this recruitment has started on 19 August 2026.\n\nQ. What is the last date for online application for UP Ambedkar Nagar ECCE Educator Recruitment 2026?\nA: The last date for online application is 27 August 2026.\n\nQ. What is the age limit for UP Ambedkar Nagar ECCE Educator Recruitment 2026?\nA: The age limit for candidates applying for this recruitment is as per the rules of UP Ambedkar Nagar ECCE Educator 2026. For detailed age information, please refer to the official notification.\n\nQ. What is the eligibility for UP Ambedkar Nagar ECCE Educator Recruitment 2026?\nA: All candidates who have passed the Bachelor’s degree in Home Science examination from any recognized board in India are eligible to apply for this recruitment. Before applying, candidates should thoroughly read the official information.\n\nQ. What is the official website of Sewayojan?\nA: The official website of Sewayojan is https://Sewayojan.Up.Nic.In/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UP Ambedkar Nagar ECCE Educator Recruitment 2026",
+      "metaDescription": "UP Ambedkar Nagar ECCE Educator Recruitment 2026: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. Application Starts on 19 August 2026. Last Date to Apply: 27 August 2026. Age Limit: Minimum 21 Years, Maximum 40 Years. Eligibility: Bachelor’s Degree in Home Science (50% marks) or Diploma in Teacher Nursery Training (NTT/CTT/DPSE) with NCTE recognition. Selection Process: As per UP Rojgar Sangam (Sewayojan) Portal rules. Official Website: https://Sewayojan.Up.Nic.In/",
+      "keywords": "UP Ambedkar Nagar ECCE Educator Recruitment 2026, UP Ambedkar Nagar ECCE Educator 2026, UP Ambedkar Nagar ECCE Application Form 2026, UP Ambedkar Nagar ECCE Eligibility Criteria, UP Ambedkar Nagar ECCE Age Limit 2026, UP Ambedkar Nagar ECCE Exam Date 2026, UP Ambedkar Nagar ECCE Selection Process, UP Ambedkar Nagar ECCE Admit Card 2026"
     },
     "updatedon": "2026-08-25"
   }
