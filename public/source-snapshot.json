@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-26T12:57:41.030Z",
+    "checkedAt": "2026-08-26T16:52:11.538Z",
     "links": [
+      {
+        "text": "UPTET Result 2026 – Declared",
+        "href": "https://sarkariresult.com.cm/uptet-2026/"
+      },
+      {
+        "text": "RRB NTPC 10+2 UG CBT-I Result / Score Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/"
+      },
       {
         "text": "UP TGT 2022 Sanskrit Revised Result",
         "href": "https://sarkariresult.com.cm/up-tgt-2026/"
@@ -21,10 +29,6 @@
       {
         "text": "KVS NVS Teaching & Non-Teaching Tier-II Result 2026 – Updated",
         "href": "https://sarkariresult.com.cm/kvs-nvs-teaching-non-teaching-2026/"
-      },
-      {
-        "text": "RRB NTPC 10+2 UG CBT-I Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/"
       },
       {
         "text": "UPSC CAPF AC Result 2026 – Out",
@@ -85,10 +89,6 @@
       {
         "text": "UPSSSC Junior Assistant 09/2022 Final Result 2026",
         "href": "https://sarkariresult.com.cm/upsssc-junior-assistant-09-2022/"
-      },
-      {
-        "text": "HPSC PGT Computer Science Final Result 2026",
-        "href": "https://sarkariresult.com.cm/hpsc-pgt-computer-science-2026/"
       },
       {
         "text": "NEET PG 2026 Admit Card",
@@ -183,8 +183,8 @@
         "href": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/"
       },
       {
-        "text": "NTA AIAPGET Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/nta-aiapget-2026/"
+        "text": "RRC ECOR Apprentice Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/"
       },
       {
         "text": "UKPSC Veterinary Officer Online Form 2026",
@@ -243,10 +243,6 @@
         "href": "https://sarkariresult.com.cm/pgcil-apprentice-2026/"
       },
       {
-        "text": "RRC ECOR Apprentice Online Form 2026",
-        "href": "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/"
-      },
-      {
         "text": "NTPC NSPCL Various Post Online Form 2026",
         "href": "https://sarkariresult.com.cm/ntpc-nspcl-various-post-2026/"
       },
@@ -281,10 +277,6 @@
       {
         "text": "UP Anganwadi Bharti Online Form 2026 (Updated)",
         "href": "https://sarkariresult.com.cm/up-anganwadi-bharti-2026/"
-      },
-      {
-        "text": "RRB Junior Engineer JE Online Form 2026 (4029 Posts)",
-        "href": "https://sarkariresult.com.cm/rrb-je-2026/"
       },
       {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
@@ -700,20 +692,10 @@
         "slug": "pgcil-apprentice-recruitment-2026",
         "processedAt": "2026-08-24T12:53:42.872Z"
       },
-      "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/": {
-        "jobId": 171,
-        "slug": "rrc-ecor-apprentice-recruitment-2026",
-        "processedAt": "2026-08-24T12:54:51.365Z"
-      },
       "https://sarkariresult.com.cm/ntpc-nspcl-various-post-2026/": {
         "jobId": 172,
         "slug": "ntpc-nspcl-various-post-recruitment-2026",
         "processedAt": "2026-08-24T12:56:19.621Z"
-      },
-      "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/": {
-        "jobId": 173,
-        "slug": "rrb-ntpc-inter-level-recruitment-2025",
-        "processedAt": "2026-08-24T16:39:37.796Z"
       },
       "https://sarkariresult.com.cm/upsssc-health-worker-2026/": {
         "jobId": 174,
@@ -824,6 +806,11 @@
         "jobId": 195,
         "slug": "up-ghazipur-ecce-educator-recruitment-2026",
         "processedAt": "2026-08-26T12:57:41.024Z"
+      },
+      "https://sarkariresult.com.cm/uptet-2026/": {
+        "jobId": 196,
+        "slug": "uptet-2026-result-declared",
+        "processedAt": "2026-08-26T16:49:48.810Z"
       }
     },
     "failed": {
@@ -1322,6 +1309,14 @@
       "https://sarkariresult.com.cm/upsssc-assistant-statistical-officer-aso-2026/": {
         "failedAt": "2026-08-26T08:48:28.173Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+      },
+      "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/": {
+        "failedAt": "2026-08-26T16:51:14.065Z",
+        "error": "UPDATE structure mismatch: root.posts[0] must be object"
+      },
+      "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/": {
+        "failedAt": "2026-08-26T16:52:11.537Z",
+        "error": "UPDATE structure mismatch: root.posts[0] must be object"
       }
     }
   }
