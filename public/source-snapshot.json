@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-26T22:47:46.970Z",
+    "checkedAt": "2026-08-27T07:58:28.636Z",
     "links": [
+      {
+        "text": "UP SCVTUP ITI 1st Round Allotment Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/up-iti-2026/"
+      },
+      {
+        "text": "RRB NTPC Graduate Level CBT-II Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-2026/"
+      },
       {
         "text": "UPTET Result 2026 – Declared",
         "href": "https://sarkariresult.com.cm/uptet-2026/"
@@ -81,14 +89,6 @@
       {
         "text": "RPSC School Lecturer PGT Result 2026 – Updated",
         "href": "https://sarkariresult.com.cm/rpsc-1st-grade-teacher-2025/"
-      },
-      {
-        "text": "UP DELEd 2026 Allotment Result",
-        "href": "https://sarkariresult.com.cm/up-deled-2026/"
-      },
-      {
-        "text": "UPSSSC Junior Assistant 09/2022 Final Result 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-junior-assistant-09-2022/"
       },
       {
         "text": "NEET PG 2026 Admit Card",
@@ -183,6 +183,26 @@
         "href": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/"
       },
       {
+        "text": "NTA AIAPGET Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-aiapget-2026/"
+      },
+      {
+        "text": "IIT BHU Non Teaching Online Form 2026",
+        "href": "https://sarkariresult.com.cm/iit-bhu-non-teaching-2026/"
+      },
+      {
+        "text": "SBI Junior Associates Clerk Backlog Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/sbi-clerk-backlog-2026/"
+      },
+      {
+        "text": "Patna High Court Assistant Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/patna-high-court-assistant-2026/"
+      },
+      {
+        "text": "India Post GDS Online Form 2026 (25000+ Posts)",
+        "href": "https://sarkariresult.com.cm/india-post-gds-july-2026/"
+      },
+      {
         "text": "RRC ECOR Apprentice Online Form 2026 – Start",
         "href": "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/"
       },
@@ -193,14 +213,6 @@
       {
         "text": "Indian Overseas Bank Security Guard Online Form 2026",
         "href": "https://sarkariresult.com.cm/indian-overseas-bank-security-guard-2026/"
-      },
-      {
-        "text": "Bank of Baroda SO Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/bob-so-2026/"
-      },
-      {
-        "text": "SJVN Various Post Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/sjvn-various-post-2026/"
       },
       {
         "text": "Bihar STET Online Form 2026",
@@ -273,10 +285,6 @@
       {
         "text": "NTPC NGEL Engineer and Executive Post Online Form 2026",
         "href": "https://sarkariresult.com.cm/ntpc-ngel-engineer-and-executive-post-2026/"
-      },
-      {
-        "text": "UP Anganwadi Bharti Online Form 2026 (Updated)",
-        "href": "https://sarkariresult.com.cm/up-anganwadi-bharti-2026/"
       },
       {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
@@ -445,6 +453,10 @@
       {
         "text": "SSC GD Constable Exam Syllabus 2024",
         "href": "https://sarkariresult.com.cm/ssc-gd-constable-exam-syllabus-2024/"
+      },
+      {
+        "text": "Job",
+        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -807,6 +819,31 @@
         "jobId": 196,
         "slug": "uptet-2026-result-declared",
         "processedAt": "2026-08-26T16:49:48.810Z"
+      },
+      "https://sarkariresult.com.cm/up-iti-2026/": {
+        "jobId": 197,
+        "slug": "up-scvtup-iti-1st-round-allotment-result-2026-released",
+        "processedAt": "2026-08-27T07:53:12.423Z"
+      },
+      "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-2026/": {
+        "jobId": 198,
+        "slug": "rrb-ntpc-graduate-level-cbt-ii-result-2026-released",
+        "processedAt": "2026-08-27T07:54:37.404Z"
+      },
+      "https://sarkariresult.com.cm/iit-bhu-non-teaching-2026/": {
+        "jobId": 199,
+        "slug": "iit-bhu-non-teaching-recruitment-2026",
+        "processedAt": "2026-08-27T07:56:13.892Z"
+      },
+      "https://sarkariresult.com.cm/patna-high-court-assistant-2026/": {
+        "jobId": 200,
+        "slug": "patna-high-court-assistant-recruitment-2026",
+        "processedAt": "2026-08-27T07:57:18.331Z"
+      },
+      "https://sarkariresult.com.cm/india-post-gds-july-2026/": {
+        "jobId": 201,
+        "slug": "india-post-gds-recruitment-2026",
+        "processedAt": "2026-08-27T07:58:28.634Z"
       }
     },
     "failed": {
