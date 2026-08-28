@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-08-28T04:04:42.953Z",
+    "checkedAt": "2026-08-28T19:59:21.615Z",
     "links": [
+      {
+        "text": "SBI PO Pre Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/sbi-po-2026/"
+      },
+      {
+        "text": "NTA UGC NET June Final Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-ugc-net-june-2025/"
+      },
       {
         "text": "RRB NTPC Graduate Level CBT-II Result / Score Card 2026 – Out",
         "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-2026/"
@@ -47,10 +55,6 @@
         "href": "https://sarkariresult.com.cm/nta-csir-ugc-net-june-2026/"
       },
       {
-        "text": "NTA UGC NET June Result 2026",
-        "href": "https://sarkariresult.com.cm/nta-ugc-net-june-2025/"
-      },
-      {
         "text": "KVS NVS Teaching & Non-Teaching Tier-II Result 2026 – Updated",
         "href": "https://sarkariresult.com.cm/kvs-nvs-teaching-non-teaching-2026/"
       },
@@ -87,8 +91,8 @@
         "href": "https://sarkariresult.com.cm/bihar-bpsc-auditor-2026/"
       },
       {
-        "text": "UPSC CDS-II Final Result With Marks 2026",
-        "href": "https://sarkariresult.com.cm/upsc-cds-ii-2025/"
+        "text": "PNB Bank LBO Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/pnb-bank-lbo-2026/"
       },
       {
         "text": "NEET PG 2026 Admit Card",
@@ -183,8 +187,16 @@
         "href": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/"
       },
       {
-        "text": "NTA AIAPGET Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/nta-aiapget-2026/"
+        "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts) – Last Date Today",
+        "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
+      },
+      {
+        "text": "ISRO URSC Apprentice Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/isro-ursc-apprentice-2026/"
+      },
+      {
+        "text": "SKAU Kurukshetra Non Teaching Post Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/skau-non-teaching-2026/"
       },
       {
         "text": "ISRO ICRB Scientist / Engineer Online Form 2026",
@@ -201,14 +213,6 @@
       {
         "text": "IIT BHU Non Teaching Online Form 2026",
         "href": "https://sarkariresult.com.cm/iit-bhu-non-teaching-2026/"
-      },
-      {
-        "text": "SBI Junior Associates Clerk Backlog Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/sbi-clerk-backlog-2026/"
-      },
-      {
-        "text": "Patna High Court Assistant Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/patna-high-court-assistant-2026/"
       },
       {
         "text": "RRC ECOR Apprentice Online Form 2026 – Start",
@@ -233,10 +237,6 @@
       {
         "text": "CTET September Online Form 2026 – Re-Open",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
-      },
-      {
-        "text": "IBPS Clerk (CSA) 16th Online Form 2026 (11,403 Posts)",
-        "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
       },
       {
         "text": "Bihar BCECEB BSFC Various Post Online Form 2026",
@@ -275,16 +275,16 @@
         "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
       },
       {
-        "text": "SKAU Kurukshetra Non Teaching Post Online Form 2026 – Date Extend",
-        "href": "https://sarkariresult.com.cm/skau-non-teaching-2026/"
-      },
-      {
         "text": "MPESB Primary and Secondary Teachers MSPSTET Online Form 2026 – Start",
         "href": "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/"
       },
       {
         "text": "Bank Of Baroda LBO Online Form 2026 (2482 Posts)",
         "href": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/"
+      },
+      {
+        "text": "NTPC NGEL Engineer and Executive Post Online Form 2026",
+        "href": "https://sarkariresult.com.cm/ntpc-ngel-engineer-and-executive-post-2026/"
       },
       {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
@@ -337,10 +337,6 @@
       {
         "text": "Patna High Court Computer Operator-cum-Typist Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/patna-high-court-computer-operator-cum-typist-2026/"
-      },
-      {
-        "text": "UPSSSC Assistant Statistical Officer Answer Key 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-assistant-statistical-officer-aso-2026/"
       },
       {
         "text": "BPSC Exam Calendar 2026",
@@ -866,6 +862,21 @@
         "jobId": 203,
         "slug": "upsssc-forest-guard-wildlife-guard-recruitment-2026",
         "processedAt": "2026-08-27T18:58:39.329Z"
+      },
+      "https://sarkariresult.com.cm/sbi-po-2026/": {
+        "jobId": 204,
+        "slug": "sbi-po-recruitment-2026",
+        "processedAt": "2026-08-28T19:57:19.860Z"
+      },
+      "https://sarkariresult.com.cm/pnb-bank-lbo-2026/": {
+        "jobId": 205,
+        "slug": "pnb-bank-lbo-recruitment-2026",
+        "processedAt": "2026-08-28T19:58:15.589Z"
+      },
+      "https://sarkariresult.com.cm/isro-ursc-apprentice-2026/": {
+        "jobId": 206,
+        "slug": "isro-ursc-apprentice-recruitment-2026",
+        "processedAt": "2026-08-28T19:59:21.613Z"
       }
     },
     "failed": {
