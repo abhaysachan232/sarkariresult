@@ -15492,7 +15492,7 @@
   },
   {
     "id": 182,
-    "title": "CTET September 2026 Recruitment",
+    "title": "CTET September Online Form 2026",
     "setPath": "ctet-september-2026",
     "slug": "ctet-september-2026-recruitment",
     "organization": "Central Board of Secondary Education (CBSE)",
@@ -15506,12 +15506,12 @@
     "description": "Central Board of Secondary Education (CBSE) has released a form re-open notice for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The CTET application form has started on 25 August 2026, and candidates can apply until 01 September 2026. Candidates must check the complete details for CTET September Online Form 2026 given below.",
     "totalPost": "Not Applicable",
     "importantDates": {
-      "Application Begin": "2026-05-11",
-      "Last Date for Apply Online": "2026-06-10",
-      "Pay Exam Fee Last Date": "2026-06-10",
+      "Application Begin": "2026-08-25",
+      "Last Date for Apply Online": "2026-09-01",
+      "Pay Exam Fee Last Date": "2026-09-01",
       "Correction Last Date": "",
       "Eligibility Result Available": "",
-      "Exam Date": "2026-09-06",
+      "Exam Date": "Postponed",
       "Exam City Available": "",
       "Admit Card Available": "Before Exam"
     },
@@ -15527,40 +15527,55 @@
       "Age Calculation Date": "",
       "Age Relaxation": "As per CBSE rules"
     },
-    "posts": [],
+    "posts": [
+      "Level-1 (Class 1-5)",
+      "Level-2 (Class 6-8)"
+    ],
     "eligibility": [
-      "Level-1 (Class 1-5): Senior Secondary (Class 12) with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.), or Senior Secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed. as per NCTE regulations, or Senior Secondary with at least 50% marks and passed/appearing in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.), or Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Education (Special Education), or Graduation with at least 50% marks and passed/appearing in B.Ed., or Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.",
-      "Level-2 (Class 6-8): Graduation and passed/appearing in the final year of a 2-year D.El.Ed., or Graduation with at least 50% marks and passed/appearing in B.Ed., or Graduation with at least 45% marks and passed/appearing in B.Ed. as per NCTE regulations, or Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed., or Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed., or Graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education), or Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed."
+      "For Level-1 (Class 1-5): Senior Secondary (Class 12) with at least 50% marks and passed/applying in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.). Senior Secondary with at least 45% marks and passed/applying in the final year of a 2-year D.El.Ed. as per NCTE regulations. Senior Secondary with at least 50% marks and passed/applying in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.). Senior Secondary with at least 50% marks and passed/applying in the final year of a 2-year Diploma in Education (Special Education). Graduation with at least 50% marks and passed/applying in B.Ed. Post-Graduation with at least 55% marks and passed/applying in the final year of 3-year Integrated B.Ed.-M.Ed.",
+      "For Level-2 (Class 6-8): Graduation with at least 50% marks and passed/applying in B.Ed. Graduation with at least 45% marks and passed/applying in B.Ed. as per NCTE regulations. Senior Secondary with at least 50% marks and passed/applying in the final year of 4-year B.El.Ed. Senior Secondary with at least 50% marks and passed/applying in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed. Graduation with at least 50% marks and passed/applying in B.Ed. (Special Education) Post-Graduation with at least 55% marks and passed/applying in the final year of 3-year Integrated B.Ed.-M.Ed."
     ],
     "selectionProcess": [
       "Written Exam"
     ],
     "jobLocation": "",
-    "howToApply": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the Click Here link provided below under Important Link section to apply directly. Alternatively, visit the official website of CTET to complete the application process online. Make sure to complete the application before the deadline 01 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "howToApply": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of CTET to complete the application process online. Make sure to complete the application before the deadline 01 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
     "links": {
-      "Apply Online": "Click Here",
-      "Official Notification": "Click Here"
+      "Apply Online": "https://ctet.nic.in/",
+      "Official Notification": "https://ctet.nic.in/"
     },
     "content": [
       {
-        "heading": "CTET September 2026 Recruitment",
+        "heading": "CTET September Online Form 2026",
         "body": "Central Board of Secondary Education (CBSE) has released a form re-open notice for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The CTET application form has started on 25 August 2026, and candidates can apply until 01 September 2026. Candidates must check the complete details for CTET September Online Form 2026 given below."
       },
       {
-        "heading": "CTET September 2026: Important Dates",
-        "body": "The key important dates for the CTET September 2026 are as follows:\n- Online Application Start Date: 11 May 2026\n- Last Date for Online Application: 10 June 2026\n- Last Date for Fee Payment: 10 June 2026\n- Re-Open Online Application Start Date: 25 August 2026\n- Re-Open Online Application Last Date: 01 September 2026\n- Last Date for Fee Payment: 01 September 2026\n- CTET Exam Date: 06 September 2026 (Postponed)\n- Admit Card Available: Before Exam\n- Result Date: Will be updated here soon.\nCandidates are advised to confirm all dates and details from the official CBSE website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "heading": "CTET September Online Form 2026: Important Dates",
+        "body": "The key important dates for the CTET September Online Form 2026 are as follows:\n- Online Application Start Date: 25 August 2026\n- Last Date for Online Application: 01 September 2026\n- Last Date for Fee Payment: 01 September 2026\n- CTET Exam Date: Postponed\n- Admit Card: Available Before Exam\n- Result Declared: Will Be Updated Here Soon\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "CTET September 2026: Eligibility Criteria",
-        "body": "The eligibility criteria for the CTET September 2026 are as follows:\n\nLevel-1 (Class 1-5):\n- Senior Secondary (Class 12) with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.), or\n- Senior Secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed. as per NCTE regulations, or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.), or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Education (Special Education), or\n- Graduation with at least 50% marks and passed/appearing in B.Ed., or\n- Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.\n\nLevel-2 (Class 6-8):\n- Graduation and passed/appearing in the final year of a 2-year D.El.Ed., or\n- Graduation with at least 50% marks and passed/appearing in B.Ed., or\n- Graduation with at least 45% marks and passed/appearing in B.Ed. as per NCTE regulations, or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed., or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed., or\n- Graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education), or\n- Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.\n\nAge limit: No age limit as per CBSE rules. Candidates are advised to verify all eligibility conditions from the official source before submission."
+        "heading": "CTET September Online Form 2026: Application Fee",
+        "body": "The application fee for the CTET September Online Form 2026 is as follows:\n- For Paper-I: General, OBC: ₹1000/-; SC, ST, PWD: ₹500/-\n- For Both Paper: General, OBC: ₹1200/-; SC, ST, PWD: ₹600/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 01 September 2026."
       },
       {
-        "heading": "CTET September 2026: Mode of Selection",
-        "body": "The selection process for the CTET September 2026 consists of the following stage:\n- Written Exam\nCandidates who qualify the written exam will be considered for final selection based on performance in the examination."
+        "heading": "CTET September Online Form 2026: Age Limit",
+        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: Not specified\n- Maximum Age: Not specified\n- Age Relaxation: As per CBSE rules\nCandidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "CTET September Online Form 2026: Vacancy Details",
+        "body": "The vacancy details for the CTET September Online Form 2026 are as follows:\n- Level-1 (Class 1-5)\n- Level-2 (Class 6-8)\nCandidates are required to apply for the respective level based on their teaching qualification and eligibility. The positions are available for teaching in classes 1 to 8 across the country, and candidates are expected to apply through the official portal for selection."
+      },
+      {
+        "heading": "CTET September Online Form 2026: Education Qualification",
+        "body": "The eligibility criteria for the CTET September Online Form 2026 are as follows:\n- For Level-1 (Class 1-5): Senior Secondary (Class 12) with at least 50% marks and passed/applying in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.). Senior Secondary with at least 45% marks and passed/applying in the final year of a 2-year D.El.Ed. as per NCTE regulations. Senior Secondary with at least 50% marks and passed/applying in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.). Senior Secondary with at least 50% marks and passed/applying in the final year of a 2-year Diploma in Education (Special Education). Graduation with at least 50% marks and passed/applying in B.Ed. Post-Graduation with at least 55% marks and passed/applying in the final year of 3-year Integrated B.Ed.-M.Ed.\n- For Level-2 (Class 6-8): Graduation with at least 50% marks and passed/applying in B.Ed. Graduation with at least 45% marks and passed/applying in B.Ed. as per NCTE regulations. Senior Secondary with at least 50% marks and passed/applying in the final year of 4-year B.El.Ed. Senior Secondary with at least 50% marks and passed/applying in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed. Graduation with at least 50% marks and passed/applying in B.Ed. (Special Education) Post-Graduation with at least 55% marks and passed/applying in the final year of 3-year Integrated B.Ed.-M.Ed.\nAll candidates must read the official information carefully before applying."
+      },
+      {
+        "heading": "How To Fill CTET September Online Form 2026",
+        "body": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of CTET to complete the application process online. Make sure to complete the application before the deadline 01 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When will the online application for CTET September 2026 start?\nA: The online application for this recruitment has started on 25 August 2026.\n\nQ. What is the last date for online application for CTET September 2026?\nA: The last date for online application form is 01 September 2026.\n\nQ. What is the age limit for CTET September 2026?\nA: The age limit for CTET September 2026 is as follows on official notification.\n\nQ. What is the eligibility for CTET September 2026 vacancy?\nA: The eligibility criteria for the CTET September 2026 vacancy are as follows on CTET rules.\n\nQ. What is the official website for CTET?\nA: The official website for CTET is https://ctet.nic.in/"
+        "body": "Q. When Will The Online Application For CTET September Online Form 2026 Start?\nA: The Online Application For This Recruitment Has Started On 25 August 2026.\n\nQ. What Is The Last Date For Online Application For CTET September Online Form 2026?\nA: The Last Date For Online Application Form Is 01 September 2026.\n\nQ. What Is The Age Limit For CTET September Online Form 2026?\nA: The Age Limit For CTET September Online 2026 Is As Follows On Official Notification.\n\nQ. What Is The Eligibility For CTET September Vacancy 2026?\nA: The Eligibility Criteria For The CTET September Vacancy 2026 Are As Follows On CTET Rules.\n\nQ. What Is The Official Website For CTET?\nA: The Official Website For CTET Is https://ctet.nic.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -15568,11 +15583,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "CTET September 2026 Recruitment",
-      "metaDescription": "CTET September 2026 Recruitment: Check Application Dates, Eligibility, Posts, How to Apply, Exam Date, Admit Card, Official Website. Total Posts: Not Applicable. Exam Date: 06 September 2026 (Postponed). Application Start: 25 August 2026. Official Website: https://ctet.nic.in/",
-      "keywords": "CTET September 2026 Recruitment, CTET September 2026 Application, CTET September 2026 Eligibility, CTET September 2026 Exam Date, CTET September 2026 How to Apply, CTET September 2026 Admit Card, CTET September 2026 Result, CTET September 2026 Official Website"
+      "metaTitle": "CTET September Online Form 2026",
+      "metaDescription": "CTET September Online Form 2026: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 25 August 2026. Last Date: 01 September 2026. Age Limit: As per CBSE rules. Eligibility: Senior Secondary with 50% marks and B.Ed. Application Fee: ₹1000/- (General, OBC), ₹500/- (SC, ST, PWD). Official Website: https://ctet.nic.in/",
+      "keywords": "CTET September Online Form 2026, CTET September Application 2026, CTET September Exam Date 2026, CTET September Eligibility 2026, CTET September Application Fee 2026, CTET September Selection Process 2026, CTET September Official Website"
     },
-    "updatedon": "2026-09-01"
+    "updatedon": "2026-09-02"
   },
   {
     "id": 183,
@@ -16842,7 +16857,7 @@
   },
   {
     "id": 196,
-    "title": "UPTET 2026 Result Declared",
+    "title": "UPTET 2026 Result Released",
     "setPath": "uptet-2026-result",
     "slug": "uptet-2026-result-declared",
     "organization": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
@@ -16853,68 +16868,79 @@
     "category": "results",
     "year": "2026",
     "Type": "",
-    "description": "The Uttar Pradesh Education Service Selection Commission (UPESSC) has declared the result for the Uttar Pradesh Teacher Eligibility Test (UPTET) 2026. The examination was conducted on 02, 03, and 04 July 2026. Candidates can check their result using their enrollment number, registration number, or date of birth by logging into the official portal. The result is available from 26 August 2026.",
+    "description": "Uttar Pradesh Education Service Selection Commission (UPESSC) Has Released The Result On Its Official Website For The Uttar Pradesh Teacher Eligibility Test (UPTET) 2026. The Exam Was Conducted On 02, 03, And 04 July 2026. And The Last Date To Submit The Application Form Was 03 May 2026. Candidates Can Also Check Their Result By Using Their Enrollment Number, Registration Number, Or Date Of Birth By Logging Into The Portal. The Direct Link Is Provided Below.",
     "totalPost": "N/A",
     "importantDates": {
       "Application Begin": "2026-03-27",
       "Last Date for Apply Online": "2026-05-03",
       "Pay Exam Fee Last Date": "2026-05-03",
       "Correction Last Date": "2026-05-08",
-      "Eligibility Result Available": "Not specified",
+      "Eligibility Result Available": "",
       "Exam Date": "2026-07-02, 2026-07-03, 2026-07-04",
       "Exam City Available": "2026-06-22",
       "Admit Card Available": "2026-06-30"
     },
     "applicationFee": {
-      "General / OBC / EWS": "1000",
-      "SC / ST": "500",
-      "PH (Divyang)": "300",
+      "General / OBC / EWS": "₹1000",
+      "SC / ST": "₹500",
+      "PH (Divyang)": "₹300",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
       "Minimum Age": "N/A",
       "Maximum Age": "N/A",
-      "Age Calculation Date": "Not specified",
-      "Age Relaxation": "As per UPESSC regulations"
+      "Age Calculation Date": "",
+      "Age Relaxation": "As Per The Rules Of UPESSC"
     },
-    "posts": [],
+    "posts": [
+      "TET Primary Teacher (Class 1-5)",
+      "TET Upper Primary Teacher (Class 6-8)"
+    ],
     "eligibility": [
-      "For TET Primary Teacher (Class 1-5): Candidates must have a Bachelor’s Degree from an NCTE-recognized institution along with a valid teacher training qualification such as BTC, B.El.Ed, or equivalent. Final-year candidates are also eligible. A minimum of 50% marks in graduation or the relevant training program is required.",
-      "For TET Upper Primary Teacher (Class 6-8): Candidates must have a Bachelor’s Degree with at least 50% marks (45% in some cases as per rules) from an NCTE-recognized institution along with a valid teacher training qualification such as B.Ed, BTC, B.El.Ed, or equivalent. Final-year candidates of these courses are also eligible. Additionally, candidates with specialized education qualifications (like Special Education) from RCI-recognized institutes are eligible. In some cases, candidates with 50% marks in intermediate and a 4-year integrated teaching program can also apply."
+      "For TET Primary Teacher (Class 1-5): Candidates Must Have A Bachelor’s Degree From An NCTE-Recognized Institution Along With A Valid Teacher Training Qualification Such As BTC, B.El.Ed, Or Equivalent. Final-Year Candidates Are Also Eligible. A Minimum Of 50% Marks In Graduation Or The Relevant Training Program Is Required.",
+      "For TET Upper Primary Teacher (Class 6-8): Candidates Must Have A Bachelor’s Degree With At Least 50% Marks (45% In Some Cases As Per Rules) From An NCTE-Recognized Institution Along With A Valid Teacher Training Qualification Such As B.Ed, BTC, B.El.Ed, Or Equivalent. Final-Year Candidates Of These Courses Are Also Eligible. Additionally, Candidates With Specialized Education Qualifications (Like Special Education) From RCI-Recognized Institutes Are Eligible. In Some Cases, Candidates With 50% Marks In Intermediate And A 4-Year Integrated Teaching Program Can Also Apply."
     ],
     "selectionProcess": [
       "Written Examination"
     ],
     "jobLocation": "",
-    "howToApply": "The online application for UPTET 2026 started on 27 March 2026 and the last date for submission was 03 May 2026. Candidates can apply through the official UPESSC website. The application process includes filling out the form, uploading documents, and making payment of the application fee. Candidates are advised to verify all details from the official notification before applying.",
+    "howToApply": "The application process for UPTET 2026 has already concluded. The result is now available. Candidates can check their result by logging into the official portal using their enrollment number, registration number, or date of birth. The direct link to check the result is provided below.",
     "links": {
-      "Apply Online": "https://sewayojan.up.nic.in/",
-      "Official Notification": "https://sewayojan.up.nic.in/"
+      "Apply Online": "https://Sewayojan.up.nic.in/",
+      "Official Notification": "https://Sewayojan.up.nic.in/"
     },
     "content": [
       {
-        "heading": "UPTET 2026 Result Declared",
-        "body": "The Uttar Pradesh Education Service Selection Commission (UPESSC) has declared the result for the Uttar Pradesh Teacher Eligibility Test (UPTET) 2026. The examination was conducted on 02, 03, and 04 July 2026. Candidates can check their result using their enrollment number, registration number, or date of birth by logging into the official portal. The result is available from 26 August 2026."
+        "heading": "UPTET 2026 Result Released",
+        "body": "Uttar Pradesh Education Service Selection Commission (UPESSC) Has Released The Result On Its Official Website For The Uttar Pradesh Teacher Eligibility Test (UPTET) 2026. The Exam Was Conducted On 02, 03, And 04 July 2026. And The Last Date To Submit The Application Form Was 03 May 2026. Candidates Can Also Check Their Result By Using Their Enrollment Number, Registration Number, Or Date Of Birth By Logging Into The Portal. The Direct Link Is Provided Below."
       },
       {
         "heading": "UPTET 2026: Important Dates",
-        "body": "The key important dates for the UPTET 2026 examination are as follows:\n- Online Application Start Date: 27 March 2026\n- Last Date for Online Application: 03 May 2026 (Extended)\n- Fee Payment Last Date: 03 May 2026\n- Form Correction Last Date: 08 May 2026\n- Exam Date (TET): 02, 03, and 04 July 2026\n- Exam City Details: 22 June 2026\n- Admit Card Availability: 30 June 2026\n- Answer Key Availability: 08 July 2026\n- Result Declaration: 26 August 2026 (Available Now)\nCandidates are advised to verify all dates and details from the official UPESSC website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must confirm the details on the official website before making any decisions."
+        "body": "The key important dates for the UPTET 2026 examination are as follows:\n- Online Application Start Date: 27 March 2026\n- Last Date for Online Application: 03 May 2026 (Extended)\n- Fee Payment Last Date: 03 May 2026\n- Form Correction Last Date: 08 May 2026\n- Exam Date (TET): 02, 03, 04 July 2026\n- Exam City Details Available: 22 June 2026\n- Admit Card Available: 30 June 2026\n- Answer Key Available: 08 July 2026\n- Result Date: 26 August 2026 (Available Now)\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "UPTET 2026: Application Fee",
+        "body": "The application fee for UPTET 2026 is as follows:\n- For General / OBC / EWS: ₹1000\n- For SC / ST: ₹500\n- For PH (Divyang) Candidates: ₹300\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date to avoid any inconvenience."
+      },
+      {
+        "heading": "UPTET 2026: Age Limit",
+        "body": "The age limit for candidates applying for UPTET 2026 is as follows:\n- Minimum Age: N/A\n- Maximum Age: N/A\nAge relaxation will be provided as per the rules of UPESSC. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "UPTET 2026: Vacancy Details",
+        "body": "The vacancy details for UPTET 2026 are as follows:\n- TET Primary Teacher (Class 1-5)\n- TET Upper Primary Teacher (Class 6-8)\nCandidates are required to meet the eligibility criteria as per the respective category. The positions are for teaching roles in primary and upper primary schools across Uttar Pradesh."
       },
       {
         "heading": "UPTET 2026: Eligibility Criteria",
-        "body": "The eligibility criteria for the UPTET 2026 examination are as follows:\n- For TET Primary Teacher (Class 1-5): Candidates must have a Bachelor’s Degree from an NCTE-recognized institution along with a valid teacher training qualification such as BTC, B.El.Ed, or equivalent. Final-year candidates are also eligible. A minimum of 50% marks in graduation or the relevant training program is required.\n- For TET Upper Primary Teacher (Class 6-8): Candidates must have a Bachelor’s Degree with at least 50% marks (45% in some cases as per rules) from an NCTE-recognized institution along with a valid teacher training qualification such as B.Ed, BTC, B.El.Ed, or equivalent. Final-year candidates of these courses are also eligible. Additionally, candidates with specialized education qualifications (like Special Education) from RCI-recognized institutes are eligible. In some cases, candidates with 50% marks in intermediate and a 4-year integrated teaching program can also apply.\nCandidates are advised to verify all eligibility conditions from the official source before submission."
+        "body": "Eligibility criteria for UPTET 2026 are as follows:\n- For TET Primary Teacher (Class 1-5): Candidates must have a Bachelor’s degree from an NCTE-recognized institution along with a valid teacher training qualification such as BTC, B.El.Ed, or equivalent. Final-year candidates are also eligible. A minimum of 50% marks in graduation or the relevant training program is required.\n- For TET Upper Primary Teacher (Class 6-8): Candidates must have a Bachelor’s degree with at least 50% marks (45% in some cases as per rules) from an NCTE-recognized institution along with a valid teacher training qualification such as B.Ed, BTC, B.El.Ed, or equivalent. Final-year candidates of these courses are also eligible. Additionally, candidates with specialized education qualifications (like Special Education) from RCI-recognized institutes are eligible. In some cases, candidates with 50% marks in intermediate and a 4-year integrated teaching program can also apply."
       },
       {
-        "heading": "How to Check and Download UPTET 2026 Result",
-        "body": "Candidates can check and download their UPTET 2026 result through the following steps:\n1. Open the official UPESSC website.\n2. Click on the 'UPTET 2026 Result' link.\n3. Login using your registration number, password, or date of birth.\n4. Enter the captcha code.\n5. Click on 'Login' or 'Sign In'.\n6. After successful login, the result will be displayed.\n7. Download and save the result for future reference.\nCandidates are advised to carefully check all details in the result before downloading."
-      },
-      {
-        "heading": "UPTET 2026: Mode of Selection",
-        "body": "The selection process for the UPTET 2026 examination is conducted through a written examination. The written test is the sole criterion for selection. The exact pattern, syllabus, and evaluation criteria will be detailed in the official notification. Candidates are advised to stay updated with the official website for further announcements regarding the examination and result declaration."
+        "heading": "UPTET 2026: How To Check & Download Result",
+        "body": "Candidates can check and download the UPTET 2026 result by following these steps:\n1. Open the official UPESSC website.\n2. Click on the \"UPTET 2026 Result\" link.\n3. Login using your registration number, password, or date of birth.\n4. Enter the captcha code.\n5. Click on login/sign in.\n6. After login, the result will be displayed.\n7. Download and save the result for future reference.\nCandidates are advised to carefully check all details before downloading the result."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When will the UPTET 2026 exam be conducted?\nA: The examination was conducted on 02, 03, and 04 July 2026.\n\nQ. Where can I check the result?\nA: Candidates can check the result by logging into the official UPESSC website using their registration number, password, or date of birth.\n\nQ. In what format will the result be released?\nA: The result is generally released in PDF format.\n\nQ. When will the result be released?\nA: The result was released on 26 August 2026.\n\nQ. What is the official website of UPESSC?\nA: The official website of UPESSC is https://www.upessc.up.gov.in/."
+        "body": "Q. When Will The UPTET Exam Date 2026 Be Conducted?\nA: The examination date has been officially announced by the Uttar Pradesh Education Service Selection Commission (UPESSC) through the official portal.\n\nQ. Where Can I Check The Result?\nA: Candidates can check the result notification on the official UPESSC website under the \"Result\" or \"Latest Notifications\" section.\n\nQ. In What Format Will The Result Be Released?\nA: The result is generally released in PDF format.\n\nQ. When Will The Result Be Released?\nA: The result is released after the examination.\n\nQ. What Is The Official Website Of UPESSC?\nA: The official website of UPESSC is https://www.upessc.up.gov.in/."
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -16922,11 +16948,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "UPTET 2026 Result Declared",
-      "metaDescription": "UPTET 2026 Result Declared: Check Result Date, Important Dates, Eligibility, Exam Pattern, How to Check Result, and Official Website. Result Available on 26 August 2026. Exam Dates: 02, 03, 04 July 2026. Official Website: https://www.upessc.up.gov.in/",
-      "keywords": "UPTET 2026 Result, UPTET 2026 Result Declared, UPTET 2026 Exam Date, UPTET 2026 Eligibility, UPTET 2026 How to Check Result, UPTET 2026 Application Dates, UPTET 2026 Official Website, UPTET 2026 Result Date, UPTET 2026 Answer Key, UPTET 2026 Admit Card"
+      "metaTitle": "UPTET 2026 Result Released",
+      "metaDescription": "UPTET 2026 Result Released: Check Result Date, Exam Date, Eligibility, Application Fee, How to Check Result, Official Website. Result Date: 26 August 2026. Exam Dates: 02, 03, 04 July 2026. Application Start: 27 March 2026. Last Date: 03 May 2026. Fee: ₹1000 (General), ₹500 (SC/ST), ₹300 (PH). Official Website: https://www.upessc.up.gov.in/",
+      "keywords": "UPTET 2026 Result, UPTET Result 2026, UPTET Exam Date 2026, UPTET Result Check, UPTET Eligibility, UPTET Application Fee, UPTET 2026 Official Website, UPTET Result 2026 PDF"
     },
-    "updatedon": "2026-08-26"
+    "updatedon": "2026-09-02"
   },
   {
     "id": 197,
@@ -19330,5 +19356,524 @@
       "keywords": "UP Child And Women Welfare Security Guard 2026, UP Security Guard Recruitment 2026, UP MTS Recruitment 2026, UP Child Welfare Security Guard 2026, UP Recruitment 2026, UP Sewayojan Recruitment, UP Security Guard Application Form 2026"
     },
     "updatedon": "2026-09-01"
+  },
+  {
+    "id": 222,
+    "title": "NIC Scientific / Technical Assistant Recruitment 2026",
+    "setPath": "nic-scientific-technical-assistant-recruitment-2026",
+    "slug": "nic-scientific-technical-assistant-recruitment-2026",
+    "organization": "National Informatics Centre (NIC)",
+    "date": "2026-09-02",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "National Informatics Centre (NIC) Has Released A Notification On Its Official Website For The Recruitment Of Scientific / Technical Assistant Posts. This Recruitment Is For 376 Positions. This Application Form Has Started On 01 September 2026 & The Candidates Can Apply Until 30 September 2026. Minimum Age Required Is 18 Years & The Maximum Age Is 30 – 35 Years (Category Wise) As On 30 September 2026. Candidates Must Check The Complete Details For NIC Scientific / Technical Assistant Recruitment 2026, Which Are Given Below.",
+    "totalPost": "376",
+    "importantDates": {
+      "Application Begin": "2026-09-01",
+      "Last Date for Apply Online": "2026-09-30",
+      "Pay Exam Fee Last Date": "2026-09-30",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "800",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Years",
+      "Maximum Age": "30 – 35 Years (Category Wise)",
+      "Age Calculation Date": "As On 30 September 2026",
+      "Age Relaxation": "As Per The Regulations Of NIC"
+    },
+    "posts": [
+      "NIC Scientific / Technical Assistant"
+    ],
+    "eligibility": [
+      "Candidates Must Have B.E./B.Tech. Or Post Graduate Degree In The Related Field From A Recognized University/Institution, With GATE 2024, 2025, Or 2026 Qualified."
+    ],
+    "selectionProcess": [
+      "Merit List Based On GATE Score",
+      "Medical Examination",
+      "Document Verification"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the NIC post can submit their application online before 30 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of NIC to complete the application process online. Make sure to complete the application before the deadline 30 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://www.nic.gov.in/",
+      "Official Notification": "https://www.nic.gov.in/"
+    },
+    "content": [
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026",
+        "body": "National Informatics Centre (NIC) Has Released A Notification On Its Official Website For The Recruitment Of Scientific / Technical Assistant Posts. This Recruitment Is For 376 Positions. This Application Form Has Started On 01 September 2026 & The Candidates Can Apply Until 30 September 2026. Minimum Age Required Is 18 Years & The Maximum Age Is 30 – 35 Years (Category Wise) As On 30 September 2026. Candidates Must Check The Complete Details For NIC Scientific / Technical Assistant Recruitment 2026, Which Are Given Below."
+      },
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026: Important Dates",
+        "body": "The key important dates for the NIC Scientific / Technical Assistant Recruitment 2026 are as follows:\n- Online Application Start Date: 01 September 2026\n- Last Date for Online Application: 30 September 2026\n- Last Date for Fee Payment: 30 September 2026\n- Exam Date: To Be Notified Later\n- Admit Card: Available Before Exam\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026: Application Fee",
+        "body": "The application fee for the NIC Scientific / Technical Assistant Recruitment 2026 is as follows:\n- General, OBC, EWS: Rs. 800/-\n- SC / ST / PH: Rs. 0/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 30 September 2026."
+      },
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: 18 Years\n- Maximum Age: 30 – 35 Years (Category Wise) as on 30 September 2026\nAge relaxation will be provided as per the regulations of NIC. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the NIC Scientific / Technical Assistant Recruitment 2026 are as follows:\n- Post Name: NIC Scientific / Technical Assistant\n- Number of Posts: 376\nThe positions are available across the country, and candidates are expected to apply through the official portal for selection."
+      },
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026: Education Qualification",
+        "body": "Candidates must have a B.E./B.Tech. or Post Graduate Degree in the related field from a recognized university/institution, with GATE 2024, 2025, or 2026 qualified. The eligibility is strictly based on the qualification and GATE score. All candidates must read the official information completely before applying."
+      },
+      {
+        "heading": "NIC Scientific / Technical Assistant Recruitment 2026: How To Apply",
+        "body": "Interested candidates who wish to apply for the NIC post can submit their application online before 30 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of NIC to complete the application process online. Make sure to complete the application before the deadline 30 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For NIC Scientific / Technical Assistant Recruitment 2026 Start?\nA: The Online Application For This Recruitment Has Started On 01 September 2026.\n\nQ. What Is The Last Date For Online Application For NIC Scientific / Technical Assistant Online Form 2026?\nA: The Last Date For Online Application Form Is 30 September 2026.\n\nQ. What Is The Age Limit For NIC Scientific / Technical Assistant Bharti 2026?\nA: The Age Limit For NIC Scientific / Technical Assistant Bharti 2026 Is As Follows: Minimum Age Required Is 18 Years & The Maximum Age Is 30 – 35 Years (Category Wise) As On 30 September 2026.\n\nQ. What Is The Eligibility For NIC Scientific / Technical Assistant Vacancy 2026?\nA: Candidates Must Have A Bachelor’s Degree In Any Discipline From A University Recognized By The Government Of India, With GATE 2024, 2025, Or 2026 Qualified.\n\nQ. What Is The Official Website For NIC?\nA: The Official Website For NIC Is https://www.nic.gov.in/."
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "NIC Scientific / Technical Assistant Recruitment 2026",
+      "metaDescription": "NIC Scientific / Technical Assistant Recruitment 2026: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 01 September 2026. Last Date: 30 September 2026. Age Limit: 18 to 35 Years (Category Wise). Eligibility: B.E./B.Tech. or Post Graduate Degree with GATE 2024, 2025, or 2026 Qualified. Application Fee: Rs. 800/- (General, OBC, EWS), Rs. 0/- (SC/ST/PH). Official Website: https://www.nic.gov.in/",
+      "keywords": "NIC Scientific Technical Assistant 2026, NIC Recruitment 2026, NIC STA Recruitment, NIC GATE Recruitment, NIC Technical Assistant Application Form 2026, NIC Online Form 2026, NIC Job Notification 2026"
+    },
+    "updatedon": "2026-09-02"
+  },
+  {
+    "id": 223,
+    "title": "MPESB MP Police SI & Subedar Recruitment 2026",
+    "setPath": "mpesb-mp-police-si-subedar-recruitment-2026",
+    "slug": "mpesb-mp-police-si-subedar-recruitment-2026",
+    "organization": "Madhya Pradesh Employees Selection Board (MPESB)",
+    "date": "2026-09-02",
+    "location": "",
+    "state": "Madhya Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Madhya Pradesh Employees Selection Board (MPESB) Has Released A Notification On Its Official Website For The Recruitment Of Sub Inspector SI & Subedar Posts. This Recruitment Is For 507 Positions. This Application Form Will Start On 09 September 2026 & The Candidates Can Apply Until 23 September 2026. Minimum Age Required Is 18 Years & The Maximum Age Is 33 – 38 Years Category Wise As On 01 January 2026. Candidates Must Check The Complete Details For MPESB MP Police Sub Inspector SI & Subedar Recruitment 2026, Which Are Given Below.",
+    "totalPost": "507",
+    "importantDates": {
+      "Application Begin": "2026-09-09",
+      "Last Date for Apply Online": "2026-09-23",
+      "Pay Exam Fee Last Date": "2026-09-23",
+      "Correction Last Date": "2026-09-28",
+      "Eligibility Result Available": "",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "800",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Years",
+      "Maximum Age": "33 Years (Male), 38 Years (Female) (Category Wise)",
+      "Age Calculation Date": "As On 01 January 2026",
+      "Age Relaxation": "As Per The Regulations Of MPESB"
+    },
+    "posts": [
+      "Subedar",
+      "Sub Inspector (Special Force)",
+      "Sub Inspector (Civil Police)",
+      "Sub Inspector (Ayudh)",
+      "Sub Inspector (Photo)",
+      "Sub Inspector Q.D",
+      "Sub Inspector (Finger Print)"
+    ],
+    "eligibility": [
+      "Subedar: Candidates Must Have Completed Their Graduation In Any Stream From A Recognized University.",
+      "Sub Inspector (Special Force), Sub Inspector (Civil Police), Sub Inspector (Ayudh): Candidates Must Have Completed Their Diploma In Mechanical Engineering From A Recognized University.",
+      "Sub Inspector (Photo): Candidates Must Have Completed Their Graduation In Physics, Chemistry, Mathematics As A Subject From A Recognized University."
+    ],
+    "selectionProcess": [
+      "Prelims Written Exam",
+      "Mains Written Exam",
+      "Physical Test (PET & PMT)",
+      "Personal Interview",
+      "DV, Medical Exam"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the MPESB post can submit their application online before 23 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of MPESB to complete the application process online. Make sure to complete the application before the deadline 23 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://esb.mp.gov.in/e_default.html",
+      "Official Notification": "https://esb.mp.gov.in/e_default.html"
+    },
+    "content": [
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026",
+        "body": "Madhya Pradesh Employees Selection Board (MPESB) Has Released A Notification On Its Official Website For The Recruitment Of Sub Inspector SI & Subedar Posts. This Recruitment Is For 507 Positions. This Application Form Will Start On 09 September 2026 & The Candidates Can Apply Until 23 September 2026. Minimum Age Required Is 18 Years & The Maximum Age Is 33 – 38 Years Category Wise As On 01 January 2026. Candidates Must Check The Complete Details For MPESB MP Police Sub Inspector SI & Subedar Recruitment 2026, Which Are Given Below."
+      },
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026: Important Dates",
+        "body": "The key important dates for the MPESB MP Police Sub Inspector SI & Subedar Recruitment 2026 are as follows:\n- Online Application Start Date: 09 September 2026\n- Last Date for Online Application: 23 September 2026\n- Last Date for Fee Payment: 23 September 2026\n- Correction Last Date: 28 September 2026\n- Exam Date: To Be Notified Later\n- Admit Card: Available Before Exam\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026: Application Fee",
+        "body": "The application fee for the MPESB MP Police Sub Inspector SI & Subedar Recruitment 2026 is as follows:\n- General / Other State: Rs. 500/-\n- SC / ST / OBC: Rs. 250/-\n- PH (Divyang): Rs. 0/-\n- Portal Charge Extra: Rs. 60/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 23 September 2026."
+      },
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: 18 Years\n- Maximum Age: 33 Years (Male), 38 Years (Female) (Category Wise) as on 01 January 2026\nAge relaxation will be provided as per the regulations of MPESB. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the MPESB MP Police Sub Inspector SI & Subedar Recruitment 2026 are as follows:\n- Post Name: Subedar – 81\n- Post Name: Sub Inspector (Special Force) – 69\n- Post Name: Sub Inspector (Civil Police) – 312\n- Post Name: Sub Inspector (Ayudh) – 10\n- Post Name: Sub Inspector (Photo) – 09\n- Post Name: Sub Inspector Q.D – 04\n- Post Name: Sub Inspector (Finger Print) – 22\nThe positions are available across the state, and candidates are expected to apply through the official portal for selection."
+      },
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the various posts are as follows:\n- Subedar: Candidates must have completed their graduation in any stream from a recognized university.\n- Sub Inspector (Special Force), Sub Inspector (Civil Police), Sub Inspector (Ayudh): Candidates must have completed their diploma in mechanical engineering from a recognized university.\n- Sub Inspector (Photo): Candidates must have completed their graduation in physics, chemistry, and mathematics as a subject from a recognized university.\nAll candidates must read the official information completely before applying."
+      },
+      {
+        "heading": "MPESB MP Police SI & Subedar Recruitment 2026: How To Apply",
+        "body": "Interested candidates who wish to apply for the MPESB post can submit their application online before 23 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of MPESB to complete the application process online. Make sure to complete the application before the deadline 23 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For MPESB MP Police Sub Inspector SI & Subedar Recruitment 2026 Start?\nA: The Online Application For This Recruitment Will Start On 09 September 2026.\n\nQ. What Is The Last Date For Online Application For MPESB MP Police Sub Inspector SI & Subedar Online Form 2026?\nA: The Last Date For Online Application Form Is 23 September 2026.\n\nQ. What Is The Age Limit For MPESB MP Police Sub Inspector SI & Subedar Bharti 2026?\nA: The Age Limit For MPESB MP Police Sub Inspector SI & Subedar Bharti 2026 Is As Follows: Minimum Age Required Is 18 Years & The Maximum Age Is 33 – 38 Years Category Wise As On 01 January 2026.\n\nQ. What Is The Eligibility For MPESB MP Police Sub Inspector SI & Subedar Vacancy 2026?\nA: Candidates Must Have A Bachelor’s Degree In Any Discipline From A University Recognized By The Government Of India.\n\nQ. What Is The Official Website For MPESB?\nA: The Official Website For MPESB Is https://esb.mp.gov.in/e_default.html."
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "MPESB MP Police SI & Subedar Recruitment 2026",
+      "metaDescription": "MPESB MP Police SI & Subedar Recruitment 2026: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 09 September 2026. Last Date: 23 September 2026. Age Limit: 18 to 38 Years (Category Wise). Eligibility: Graduation in Any Stream (Subedar), Diploma in Mechanical Engineering (Special Force, Civil Police, Ayudh), Graduation in Physics, Chemistry, Mathematics (Photo). Application Fee: Rs. 500/- (General), Rs. 250/- (SC/ST/OBC), Rs. 0/- (PH). Official Website: https://esb.mp.gov.in/e_default.html",
+      "keywords": "MPESB MP Police SI Subedar Recruitment 2026, MPESB Recruitment 2026, MP Police SI & Subedar Application Form 2026, MPESB Job Notification 2026, MPESB SI & Subedar Vacancy, MPESB Exam Date 2026, MPESB Selection Process 2026"
+    },
+    "updatedon": "2026-09-02"
+  },
+  {
+    "id": 224,
+    "title": "UPPSC Architectural Assistant Various Post Recruitment 2026",
+    "setPath": "uppsc-architectural-assistant-various-post-recruitment-2026",
+    "slug": "uppsc-architectural-assistant-various-post-recruitment-2026",
+    "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
+    "date": "2026-09-02",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Uttar Pradesh Public Service Commission (UPPSC) Has Released A Notification On Its Official Website For The Recruitment Of Architectural Assistant, Estate Manager & Microbiologist Posts. This Recruitment Is Being Conducted For 37 Vacancies. The UPPSC Application Form Has Started On 03 August 2026 & The Candidates Can Apply Until 03 September 2026. The Minimum Age Required Is 21 Years & The Maximum Age Is 40 Years As On 01 July 2026. Candidates Must Check The Complete Details For UPPSC Architectural Assistant Various Post Recruitment 2026, Which Are Given Below.",
+    "totalPost": "37",
+    "importantDates": {
+      "Application Begin": "2026-08-03",
+      "Last Date for Apply Online": "2026-09-03",
+      "Pay Exam Fee Last Date": "2026-09-03",
+      "Correction Last Date": "2026-09-10",
+      "Eligibility Result Available": "",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "225",
+      "SC / ST": "105",
+      "PH (Divyang)": "25",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "21 Years",
+      "Maximum Age": "40 Years As On 01 July 2026",
+      "Age Calculation Date": "As On 01 July 2026",
+      "Age Relaxation": "As Per The Regulations Of UPPSC"
+    },
+    "posts": [
+      "Architectural Assistant Various Post"
+    ],
+    "eligibility": [
+      "Candidates Must Have A 10+2 Intermediate / Graduate Degree / With Architectural OR 3 Year / 4 Year Architectural Course Full Time / Part Time With 2 Year Experience",
+      "Post Graduate Degree In Microbiology With 3 Year Experience"
+    ],
+    "selectionProcess": [
+      "Mains Exam",
+      "Interview (Viva-Voce)",
+      "Document Verification"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the UPPSC post can submit their application online before 03 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of UPPSC to complete the application process online. Make sure to complete the application before the deadline 03 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://uppsc.up.nic.in/",
+      "Official Notification": "https://esb.mp.gov.in/e_default.html"
+    },
+    "content": [
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026",
+        "body": "Uttar Pradesh Public Service Commission (UPPSC) Has Released A Notification On Its Official Website For The Recruitment Of Architectural Assistant, Estate Manager & Microbiologist Posts. This Recruitment Is Being Conducted For 37 Vacancies. The UPPSC Application Form Has Started On 03 August 2026 & The Candidates Can Apply Until 03 September 2026. The Minimum Age Required Is 21 Years & The Maximum Age Is 40 Years As On 01 July 2026. Candidates Must Check The Complete Details For UPPSC Architectural Assistant Various Post Recruitment 2026, Which Are Given Below."
+      },
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026: Important Dates",
+        "body": "The key important dates for the UPPSC Architectural Assistant Various Post Recruitment 2026 are as follows:\n- Online Application Start Date: 03 August 2026\n- Last Date for Online Application: 03 September 2026\n- Last Date for Fee Payment: 03 September 2026\n- Correction Last Date: 10 September 2026\n- Exam Date: To Be Notified Later\n- Admit Card: Available Before Exam\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026: Application Fee",
+        "body": "The application fee for the UPPSC Architectural Assistant Various Post Recruitment 2026 is as follows:\n- General / OBC / EWS: ₹ 225/-\n- SC / ST: ₹ 105/-\n- PH (Divyang): ₹ 25/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 03 September 2026."
+      },
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: 21 Years\n- Maximum Age: 40 Years As On 01 July 2026\nAge relaxation will be provided as per the regulations of UPPSC. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the UPPSC Architectural Assistant Various Post Recruitment 2026 are as follows:\n- Post Name: Architectural Assistant Various Post – 37 Posts\nThe positions are available across the state, and candidates are expected to apply through the official portal for selection."
+      },
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the various posts are as follows:\n- Candidates Must Have A 10+2 Intermediate / Graduate Degree / With Architectural OR 3 Year / 4 Year Architectural Course Full Time / Part Time With 2 Year Experience\n- Post Graduate Degree In Microbiology With 3 Year Experience\nAll candidates must read the official information completely before applying."
+      },
+      {
+        "heading": "UPPSC Architectural Assistant Various Post Recruitment 2026: How To Apply",
+        "body": "Interested candidates who wish to apply for the UPPSC post can submit their application online before 03 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of UPPSC to complete the application process online. Make sure to complete the application before the deadline 03 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For UPPSC Architectural Assistant Various Post Recruitment 2026 Start?\nA: The Online Application For This Recruitment Has Started From 03 August 2026.\n\nQ. What Is The Last Date For Online Application For UPPSC Architectural Assistant Various Post Online Form 2026?\nA: The Last Date For Online Application Form Is 03 September 2026.\n\nQ. What Is The Age Limit For UPPSC Architectural Assistant Various Post Bharti 2026?\nA: The Age Limit For UPPSC Architectural Assistant Various Post Bharti 2026 Is As Follows: The Minimum Age Required Is 21 Years & The Maximum Age Is 40 Years As On 01 July 2026.\n\nQ. What Is The Eligibility For UPPSC Architectural Assistant Various Post Vacancy 2026?\nA: The Eligibility Criteria For The UPPSC Architectural Assistant Various Post Vacancy 2026 Are As Follows On UPPSC Rules.\n\nQ. What Is The Official Website For UPPSC?\nA: The Official Website For UPPSC Is https://uppsc.up.nic.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UPPSC Architectural Assistant Various Post Recruitment 2026",
+      "metaDescription": "UPPSC Architectural Assistant Various Post Recruitment 2026: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 03 August 2026. Last Date: 03 September 2026. Age Limit: 21 to 40 Years (As On 01 July 2026). Eligibility: 10+2 / Graduate with Architectural Course or 2 Years Experience, PG in Microbiology with 3 Years Experience. Application Fee: ₹225/- (General), ₹105/- (SC/ST), ₹25/- (PH). Official Website: https://uppsc.up.nic.in/",
+      "keywords": "UPPSC Architectural Assistant Recruitment 2026, UPPSC Architectural Assistant Various Post 2026, UPPSC Recruitment 2026, UPPSC Job Notification 2026, UPPSC Application Form 2026, UPPSC Exam Date 2026, UPPSC Selection Process 2026"
+    },
+    "updatedon": "2026-09-02"
+  },
+  {
+    "id": 225,
+    "title": "JSSC 10+2 Inter Level JILCCE Recruitment 2026",
+    "setPath": "jssc-102-inter-level-jilcce-recruitment-2026",
+    "slug": "jssc-10-2-inter-level-jilcce-recruitment-2026",
+    "organization": "Jharkhand Staff Selection Commission (JSSC)",
+    "date": "2026-09-02",
+    "location": "",
+    "state": "Jharkhand",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Jharkhand Staff Selection Commission (JSSC) Has Released A Notification On Its Official Website For The Recruitment Of 10+2 Inter Level JILCCE Posts. This Recruitment Is Being Conducted For 326 Vacancies. The JSSC Application Form Has Started On 05 August 2026 And Candidates Can Apply Until 04 September 2026. The Minimum Age Required Is 18 Years And The Maximum Age Is 35 To 40 Years (Category Wise). Candidates Must Check The Complete Details For JSSC 10+2 Inter Level JILCCE Recruitment 2026, Which Are Given Below.",
+    "totalPost": "326",
+    "importantDates": {
+      "Application Begin": "2026-08-05",
+      "Last Date for Apply Online": "2026-09-04",
+      "Pay Exam Fee Last Date": "2026-09-05",
+      "Correction Last Date": "2026-09-06",
+      "Eligibility Result Available": "",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "225",
+      "SC / ST": "50",
+      "PH (Divyang)": "",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Years",
+      "Maximum Age": "35 To 40 Years (Category Wise)",
+      "Age Calculation Date": "",
+      "Age Relaxation": "As Per The Regulations Of JSSC"
+    },
+    "posts": [
+      "JSSC 10+2 Inter Level JILCCE"
+    ],
+    "eligibility": [
+      "Candidates Must Have Passed Intermediate (12th Class) From A Recognized Board Or Institute."
+    ],
+    "selectionProcess": [
+      "Written Exam",
+      "PET / PST",
+      "Medical Exam"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates who wish to apply for the JSSC post can submit their application online before 04 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of JSSC to complete the application process online. Make sure to complete the application before the deadline 04 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "links": {
+      "Apply Online": "https://jssc.jharkhand.gov.in/",
+      "Official Notification": "https://esb.mp.gov.in/e_default.html"
+    },
+    "content": [
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026",
+        "body": "Jharkhand Staff Selection Commission (JSSC) Has Released A Notification On Its Official Website For The Recruitment Of 10+2 Inter Level JILCCE Posts. This Recruitment Is Being Conducted For 326 Vacancies. The JSSC Application Form Has Started On 05 August 2026 And Candidates Can Apply Until 04 September 2026. The Minimum Age Required Is 18 Years And The Maximum Age Is 35 To 40 Years (Category Wise). Candidates Must Check The Complete Details For JSSC 10+2 Inter Level JILCCE Recruitment 2026, Which Are Given Below."
+      },
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: Important Dates",
+        "body": "The key important dates for the JSSC 10+2 Inter Level JILCCE Recruitment 2026 are as follows:\n- Online Application Start Date: 05 August 2026\n- Last Date for Online Application: 04 September 2026\n- Last Date for Fee Payment: 05 September 2026\n- Correction Last Date: 06 – 08 September 2026\n- Exam Date: To Be Notified Later\n- Admit Card: Available Before Exam\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: Application Fee",
+        "body": "The application fee for the JSSC 10+2 Inter Level JILCCE Recruitment 2026 is as follows:\n- General / EBC / BC / EWS: ₹ 100/-\n- SC / ST: ₹ 50/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 05 September 2026."
+      },
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: 18 Years\n- Maximum Age: 35 To 40 Years (Category Wise)\nAge relaxation will be provided as per the regulations of JSSC. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the JSSC 10+2 Inter Level JILCCE Recruitment 2026 are as follows:\n- Post Name: JSSC 10+2 Inter Level JILCCE – 326 Posts\nThe positions are available across the state, and candidates are expected to apply through the official portal for selection."
+      },
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the JSSC 10+2 Inter Level JILCCE Recruitment 2026 are as follows:\n- Candidates Must Have Passed Intermediate (12th Class) From A Recognized Board Or Institute.\nAll candidates must read the official information carefully before applying."
+      },
+      {
+        "heading": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: How To Apply",
+        "body": "Interested candidates who wish to apply for the JSSC post can submit their application online before 04 September 2026. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of JSSC to complete the application process online. Make sure to complete the application before the deadline 04 September 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For JSSC 10+2 Inter Level JILCCE Recruitment 2026 Start?\nA: The Online Application For This Recruitment Has Started On 05 August 2026.\n\nQ. What Is The Last Date For Online Application For JSSC 10+2 Inter Level JILCCE Online Form 2026?\nA: The Last Date For Online Application Form Is 04 September 2026.\n\nQ. What Is The Age Limit For JSSC 10+2 Inter Level JILCCE Bharti 2026?\nA: The Age Limit For JSSC 10+2 Inter Level JILCCE Bharti 2026 Is As Follows: The Minimum Age Is 18 Years & The Maximum Age Is 35 To 40 Years (Category Wise).\n\nQ. What Is The Eligibility For JSSC 10+2 Inter Level JILCCE Vacancy 2026?\nA: The Eligibility For JSSC 10+2 Inter Level JILCCE Bharti 2026 Is As Follows Post Wise.\n\nQ. What Is The Official Website For JSSC?\nA: The Official Website For JSSC Is https://jssc.jharkhand.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "JSSC 10+2 Inter Level JILCCE Recruitment 2026",
+      "metaDescription": "JSSC 10+2 Inter Level JILCCE Recruitment 2026: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 05 August 2026. Last Date: 04 September 2026. Age Limit: 18 to 35-40 Years (Category Wise). Eligibility: Passed Intermediate (12th Class) from Recognized Board. Application Fee: ₹100/- (General), ₹50/- (SC/ST). Official Website: https://jssc.jharkhand.gov.in/",
+      "keywords": "JSSC 10+2 Inter Level JILCCE Recruitment 2026, JSSC JILCCE Recruitment 2026, JSSC Job Notification 2026, JSSC Application Form 2026, JSSC Exam Date 2026, JSSC Selection Process 2026"
+    },
+    "updatedon": "2026-09-02"
+  },
+  {
+    "id": 226,
+    "title": "Mathura PVT Online Form 2025 Date Extend",
+    "setPath": "mathura-pvt-online-form-2025-date-extend",
+    "slug": "mathura-pvt-online-form-2025-date-extend",
+    "organization": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU",
+    "date": "2025-05-05",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "",
+    "description": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU Has Released A Notification On Its Official Website For The Mathura PVT DUVASU UG / PG / Diploma And PhD 2025 Online Application For Admission 2025. Mathura PVT Application Form Has Started On 20 February 2025 & The Candidates Can Fill The Form Till The 20 May 2025 (Extended). Candidates Must Check The Complete Details For Mathura PVT Online Form 2025 Which Has Given Below.",
+    "totalPost": "NA",
+    "importantDates": {
+      "Application Begin": "2025-02-20",
+      "Last Date for Apply Online": "2025-05-20",
+      "Pay Exam Fee Last Date": "2025-05-20",
+      "Correction Last Date": "",
+      "Eligibility Result Available": "",
+      "Exam Date": "Notify Later",
+      "Exam City Available": "",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "225",
+      "SC / ST": "50",
+      "PH (Divyang)": "",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "",
+      "Maximum Age": "As Per The Mathura PVT Rules",
+      "Age Calculation Date": "",
+      "Age Relaxation": ""
+    },
+    "posts": [
+      "B.V.Sc & A.H Programme",
+      "M.V.Sc And Ph.D (Veterinary Science) Programme",
+      "B.Tech Biotechnology",
+      "Bachelor Of Technology (Diary Technology)",
+      "Bachelor Of Fisheries Science",
+      "M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology)",
+      "Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences"
+    ],
+    "eligibility": [
+      "Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology/Biotechnology, And English Are Eligible for B.V.Sc & A.H Programme.",
+      "Candidates Who Have Passed Or Are Appearing In B.V.Sc. & A.H. Are Eligible for M.V.Sc And Ph.D (Veterinary Science) Programme. For Doctorate Programs, A M.V.Sc. Degree In The Relevant Subject Is Required.",
+      "Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology/Mathematics, And English. General/OBC Category: Minimum 60% Marks. SC/ST Category: Minimum 55% Marks for B.Tech Biotechnology.",
+      "Candidates Should Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology Or Mathematics, And English. General/OBC: Minimum 60% Marks. SC/ST: Minimum 55% Marks for Bachelor Of Technology (Diary Technology).",
+      "Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology, And English. General/OBC: At Least 60% Marks. SC/ST: At Least 55% Marks for Bachelor Of Fisheries Science.",
+      "Candidates Applying For M.Sc Must Have A Bachelor’s Degree In Life Sciences Or Biological Sciences. For M.V.Sc, A Degree In Veterinary Science Is Required. M.Tech Applicants Should Have A 4-Year Engineering Degree With Biology Or A Related Subject Studied At 10+2 Or Later. For Doctorate Programs, Candidates Need A Master’s Degree (M.Sc/M.Tech In A Relevant Science Field Or M.V.Sc). General/OBC Candidates Must Have At Least 60% Marks, And SC/ST Candidates Need 55% for M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology).",
+      "Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology, And English Are Eligible for Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences. General/OBC: Minimum 50% Marks. SC/ST: Minimum 45% Marks."
+    ],
+    "selectionProcess": [
+      "Entrance Exam",
+      "Merit-Based Admission",
+      "Reservation Policy",
+      "Counseling Programme"
+    ],
+    "jobLocation": "Bareilly, Gorakhpur, Jhansi, Kanpur, Lucknow, Mathura, Meerut, Prayagraj, And Varanasi",
+    "howToApply": "Interested candidates who wish to fill for the Mathura PVT post can submit their application online before 20 May 2025. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of Mathura PVT to complete the application process online. Make sure to complete the application before the deadline 20 May 2025.",
+    "links": {
+      "Apply Online": "https://www.upvetuniv.edu.in/",
+      "Official Notification": "https://esb.mp.gov.in/e_default.html"
+    },
+    "content": [
+      {
+        "heading": "Mathura PVT Online Form 2025 Date Extend",
+        "body": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU Has Released A Notification On Its Official Website For The Mathura PVT DUVASU UG / PG / Diploma And PhD 2025 Online Application For Admission 2025. Mathura PVT Application Form Has Started On 20 February 2025 & The Candidates Can Fill The Form Till The 20 May 2025 (Extended). Candidates Must Check The Complete Details For Mathura PVT Online Form 2025 Which Has Given Below."
+      },
+      {
+        "heading": "Mathura PVT Online Form 2025: Important Dates",
+        "body": "The key important dates for the Mathura PVT Online Form 2025 are as follows:\n- Online Application Start Date: 20 February 2025\n- Last Date for Online Application: 20 May 2025\n- Last Date for Online Payment: 20 May 2025\n- UGEE Exam Date: 15 June 2025\n- DEE Exam Date: 29 June 2025\n- PGEE Exam Date: 20 July 2025\n- Admit Card: Available Before Exam\n- Result Declared: Will Be Updated Here Soon\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "Mathura PVT Online Form 2025: Application Fee",
+        "body": "The application fee for the Mathura PVT Online Form 2025 is as follows:\n- General / OBC: ₹ 1800/-\n- SC / ST / PH: ₹ 1800/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 20 May 2025."
+      },
+      {
+        "heading": "Mathura PVT Online Form 2025: Age Limit",
+        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: Not specified\n- Maximum Age: As per the Mathura PVT Rules\nAge relaxation will be provided as per the rules of Mathura PVT. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "Mathura PVT Online Form 2025: Vacancy Details",
+        "body": "The vacancy details for the Mathura PVT Online Form 2025 are as follows:\n- B.V.Sc & A.H Programme\n- M.V.Sc And Ph.D (Veterinary Science) Programme\n- B.Tech Biotechnology\n- Bachelor Of Technology (Diary Technology)\n- Bachelor Of Fisheries Science\n- M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology)\n- Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences\nThe positions are available across the state, and candidates are expected to apply through the official portal for selection."
+      },
+      {
+        "heading": "Mathura PVT Online Form 2025: Education Qualification",
+        "body": "The eligibility criteria for the Mathura PVT Online Form 2025 are as follows:\n- Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology/Biotechnology, And English Are Eligible for B.V.Sc & A.H Programme.\n- Candidates Who Have Passed Or Are Appearing In B.V.Sc. & A.H. Are Eligible for M.V.Sc And Ph.D (Veterinary Science) Programme. For Doctorate Programs, A M.V.Sc. Degree In The Relevant Subject Is Required.\n- Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology/Mathematics, And English. General/OBC Category: Minimum 60% Marks. SC/ST Category: Minimum 55% Marks for B.Tech Biotechnology.\n- Candidates Should Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology Or Mathematics, And English. General/OBC: Minimum 60% Marks. SC/ST: Minimum 55% Marks for Bachelor Of Technology (Diary Technology).\n- Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology, And English. General/OBC: At Least 60% Marks. SC/ST: At Least 55% Marks for Bachelor Of Fisheries Science.\n- Candidates Applying For M.Sc Must Have A Bachelor’s Degree In Life Sciences Or Biological Sciences. For M.V.Sc, A Degree In Veterinary Science Is Required. M.Tech Applicants Should Have A 4-Year Engineering Degree With Biology Or A Related Subject Studied At 10+2 Or Later. For Doctorate Programs, Candidates Need A Master’s Degree (M.Sc/M.Tech In A Relevant Science Field Or M.V.Sc). General/OBC Candidates Must Have At Least 60% Marks, And SC/ST Candidates Need 55% for M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology).\n- Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology, And English Are Eligible for Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences. General/OBC: Minimum 50% Marks. SC/ST: Minimum 45% Marks.\nAll candidates must read the official information carefully before applying."
+      },
+      {
+        "heading": "How To Fill Mathura PVT Admission 2025 Online Form",
+        "body": "Interested candidates who wish to fill for the Mathura PVT post can submit their application online before 20 May 2025. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of Mathura PVT to complete the application process online. Make sure to complete the application before the deadline 20 May 2025."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For Mathura PVT Online Form 2025 Start?\nA: The Online Application For This Exam Has Started From February 20, 2025.\n\nQ. What Is The Last Date For Mathura PVT Online Form 2025?\nA: The Last Date To Apply Online For This Exam Is May 20, 2025.\n\nQ. What Is The Age Limit For Mathura PVT Online Form 2025?\nA: The Age Limit For Candidates Applying For This Exam Is As Per The Mathura PVT Entrance Test Rules. For Detailed Age-Related Information, Refer To The Official Notification.\n\nQ. What Is The Eligibility For Mathura PVT Online Form 2025?\nA: The Eligibility Criteria For Candidates Applying For This Exam Is As Per The Mathura PVT Entrance Test Rules. Check The Official Notification For Details.\n\nQ. What Is The Official Website Of Mathura PVT?\nA: The Official Website Of Mathura PVT Is https://www.upvetuniv.edu.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Mathura PVT Online Form 2025 Date Extend",
+      "metaDescription": "Mathura PVT Online Form 2025 Date Extend: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 20 February 2025. Last Date: 20 May 2025. Age Limit: As Per Mathura PVT Rules. Eligibility: 10+2 with Physics, Chemistry, Biology/Biotechnology, and English. Application Fee: ₹1800/- (General, OBC, SC, ST, PH). Official Website: https://www.upvetuniv.edu.in/",
+      "keywords": "Mathura PVT Online Form 2025, Mathura PVT Admission 2025, Mathura PVT UG/PG/Diploma/PhD 2025, Mathura PVT Application Form 2025, Mathura PVT Exam Date 2025, Mathura PVT Selection Process 2025"
+    },
+    "updatedon": "2026-09-02"
   }
 ]
