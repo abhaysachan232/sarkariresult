@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-03T03:15:32.922Z",
+    "checkedAt": "2026-09-03T08:43:35.558Z",
     "links": [
+      {
+        "text": "RPSC Deputy Jailor PET Result 2026",
+        "href": "https://sarkariresult.com.cm/rpsc-deputy-jailor-result-2025/"
+      },
       {
         "text": "UPTET Result 2026 Important Notice",
         "href": "https://sarkariresult.com.cm/uptet-2026/"
@@ -91,6 +95,10 @@
         "href": "https://sarkariresult.com.cm/upsssc-lower-pcs-2026/"
       },
       {
+        "text": "AIIMS NORCET 11th Nursing Officer Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/aiims-norcet-11th-nursing-officer-2026/"
+      },
+      {
         "text": "SBI PO Mains Admit Card 2026 – Out",
         "href": "https://sarkariresult.com.cm/sbi-po-2026/"
       },
@@ -171,20 +179,28 @@
         "href": "https://sarkariresult.com.cm/upsssc-stenographer-2026/"
       },
       {
-        "text": "UPSSSC Pharmacist Ayurvedic Mains Exam Fee Payment 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-pharmacist-ayurvedic-2024/"
+        "text": "SSC Junior Engineer JE Online Form 2026",
+        "href": "https://sarkariresult.com.cm/ssc-je-2026/"
       },
       {
-        "text": "UPSSSC PET Online Form 2026 – Date Extend",
+        "text": "UPSSSC PET Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
-      },
-      {
-        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
-        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
       {
         "text": "India Post GDS Online Form 2026 (23,757 Posts)",
         "href": "https://sarkariresult.com.cm/india-post-gds-july-2026/"
+      },
+      {
+        "text": "UPPSC Computer Operator Various Post Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/uppsc-computer-operator-2026/"
+      },
+      {
+        "text": "UPPSC Architectural Assistant Various Post Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/uppsc-architectural-assistant-2026/"
+      },
+      {
+        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
+        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
       {
         "text": "IBPS RRB 15th Online Form 2026 (13,706 Posts)",
@@ -227,10 +243,6 @@
         "href": "https://sarkariresult.com.cm/mp-police-si-subedar-2026/"
       },
       {
-        "text": "UPPSC Architectural Assistant Various Post Online Form 2026",
-        "href": "https://sarkariresult.com.cm/uppsc-architectural-assistant-2026/"
-      },
-      {
         "text": "JSSC 10+2 Inter Level JILCCE Online form 2026",
         "href": "https://sarkariresult.com.cm/jssc-102-inter-level-jilcce-2026/"
       },
@@ -265,14 +277,6 @@
       {
         "text": "ISRO ICRB Scientist / Engineer Online Form 2026",
         "href": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/"
-      },
-      {
-        "text": "RRC ECOR Apprentice Online Form 2026",
-        "href": "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/"
-      },
-      {
-        "text": "UKPSC Veterinary Officer Online Form 2026",
-        "href": "https://sarkariresult.com.cm/ukpsc-veterinary-officer-2026/"
       },
       {
         "text": "BSNL Junior Telecom Officer JTO Answer Key 2026 – Out",
@@ -381,6 +385,10 @@
       {
         "text": "Odisha Anganwadi Bharti Online Form 2026",
         "href": "https://sarkariresult.com.cm/odisha-anganwadi-bharti-2026/"
+      },
+      {
+        "text": "RRC ECOR Apprentice Online Form 2026",
+        "href": "https://sarkariresult.com.cm/rrc-ecor-apprentice-2026/"
       },
       {
         "text": "PGCIL Apprentice Online Form 2026",
@@ -930,7 +938,7 @@
       "https://sarkariresult.com.cm/uppsc-architectural-assistant-2026/": {
         "jobId": 224,
         "slug": "uppsc-architectural-assistant-various-post-recruitment-2026",
-        "processedAt": "2026-09-02T08:40:42.805Z"
+        "processedAt": "2026-09-03T08:43:35.556Z"
       },
       "https://sarkariresult.com.cm/jssc-102-inter-level-jilcce-2026/": {
         "jobId": 225,
@@ -951,6 +959,26 @@
         "jobId": 228,
         "slug": "nvs-class-9th-admission-form-2027-28",
         "processedAt": "2026-09-02T16:09:15.564Z"
+      },
+      "https://sarkariresult.com.cm/rpsc-deputy-jailor-result-2025/": {
+        "jobId": 229,
+        "slug": "rpsc-deputy-jailor-pet-result-2026",
+        "processedAt": "2026-09-03T08:38:04.987Z"
+      },
+      "https://sarkariresult.com.cm/aiims-norcet-11th-nursing-officer-2026/": {
+        "jobId": 230,
+        "slug": "aiims-norcet-11th-nursing-officer-recruitment-2026",
+        "processedAt": "2026-09-03T08:39:15.573Z"
+      },
+      "https://sarkariresult.com.cm/ssc-je-2026/": {
+        "jobId": 231,
+        "slug": "ssc-junior-engineer-je-recruitment-2026",
+        "processedAt": "2026-09-03T08:40:49.927Z"
+      },
+      "https://sarkariresult.com.cm/uppsc-computer-operator-2026/": {
+        "jobId": 232,
+        "slug": "uppsc-computer-operator-various-post-recruitment-2026",
+        "processedAt": "2026-09-03T08:42:05.876Z"
       }
     },
     "failed": {
