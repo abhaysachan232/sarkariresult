@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-04T15:52:44.341Z",
+    "checkedAt": "2026-09-04T18:52:56.861Z",
     "links": [
       {
         "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Out",
@@ -95,6 +95,22 @@
         "href": "https://sarkariresult.com.cm/sbi-apprentice-2026/"
       },
       {
+        "text": "NTA UGC NET June Re-Exam Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-ugc-net-june-2025/"
+      },
+      {
+        "text": "SSC Stenographer Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/ssc-stenographer-2026/"
+      },
+      {
+        "text": "SSC Combined Hindi Translators JHT Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/ssc-jht-2026/"
+      },
+      {
+        "text": "SBI PO Mains Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/sbi-po-2026/"
+      },
+      {
         "text": "UPSC NDA II Admit Card 2026 – Out",
         "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
       },
@@ -105,10 +121,6 @@
       {
         "text": "AIIMS NORCET 11th Nursing Officer Exam City Details 2026",
         "href": "https://sarkariresult.com.cm/aiims-norcet-11th-nursing-officer-2026/"
-      },
-      {
-        "text": "SBI PO Mains Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/sbi-po-2026/"
       },
       {
         "text": "Delhi High Court Higher Judicial Service HJS Mains Exam Date 2026",
@@ -123,24 +135,12 @@
         "href": "https://sarkariresult.com.cm/cisf-asi-paramedical-staff-2026/"
       },
       {
-        "text": "NTA UGC NET June Re-Exam City Details 2026 – Out",
-        "href": "https://sarkariresult.com.cm/nta-ugc-net-june-2025/"
-      },
-      {
         "text": "NBEMS Group A, B & C Various Post Revised Exam Date 2026",
         "href": "https://sarkariresult.com.cm/nbems-various-post-2026/"
       },
       {
         "text": "UPCISB UP Co-operative Bank Various Post Exam City Details / Admit Card 2026",
         "href": "https://sarkariresult.com.cm/up-co-operative-bank-various-post-2026/"
-      },
-      {
-        "text": "SSC Stenographer Exam City Details 2026 – Out",
-        "href": "https://sarkariresult.com.cm/ssc-stenographer-2026/"
-      },
-      {
-        "text": "SSC Combined Hindi Translators JHT Exam City Details 2026 – Out",
-        "href": "https://sarkariresult.com.cm/ssc-jht-2026/"
       },
       {
         "text": "Union Bank Specialist Officer SO Admit Card 2026",
@@ -187,6 +187,14 @@
         "href": "https://sarkariresult.com.cm/india-post-gds-july-2026/"
       },
       {
+        "text": "IBPS RRB 15th Online Form 2026 (13,706 Posts)",
+        "href": "https://sarkariresult.com.cm/ibps-rrb-15th-2026/"
+      },
+      {
+        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
+        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
+      },
+      {
         "text": "IBPS Clerk (CSA) 16th Correction / Edit Form 2026",
         "href": "https://sarkariresult.com.cm/ibps-clerk-16th-2026/"
       },
@@ -209,14 +217,6 @@
       {
         "text": "MPESB Primary and Secondary Teachers MSPSTET Online Form 2026 – Last Date Today",
         "href": "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/"
-      },
-      {
-        "text": "IBPS RRB 15th Online Form 2026 (13,706 Posts)",
-        "href": "https://sarkariresult.com.cm/ibps-rrb-15th-2026/"
-      },
-      {
-        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
-        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
       {
         "text": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
@@ -833,7 +833,7 @@
       "https://sarkariresult.com.cm/sbi-po-2026/": {
         "jobId": 204,
         "slug": "sbi-po-recruitment-2026",
-        "processedAt": "2026-09-02T16:06:45.439Z"
+        "processedAt": "2026-09-04T18:52:56.859Z"
       },
       "https://sarkariresult.com.cm/pnb-bank-lbo-2026/": {
         "jobId": 205,
