@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-05T08:16:36.278Z",
+    "checkedAt": "2026-09-05T14:44:37.525Z",
     "links": [
       {
         "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Out",
@@ -179,6 +179,10 @@
         "href": "https://sarkariresult.com.cm/upsssc-stenographer-2025/"
       },
       {
+        "text": "Delhi High Court SPA & PA Online Form 2026",
+        "href": "https://sarkariresult.com.cm/delhi-high-court-spa-pa-2026/"
+      },
+      {
         "text": "India Post GDS Online Form 2026 (23,757 Posts)",
         "href": "https://sarkariresult.com.cm/india-post-gds-july-2026/"
       },
@@ -273,10 +277,6 @@
       {
         "text": "NIC Scientific / Technical Assistant Online Form 2026",
         "href": "https://sarkariresult.com.cm/nic-scientific-technical-assistant-2026/"
-      },
-      {
-        "text": "UKSSSC Group C Various Post Online Form 2026",
-        "href": "https://sarkariresult.com.cm/uksssc-group-c-2026/"
       },
       {
         "text": "NTA AIAPGET Answer Key 2026",
@@ -385,6 +385,10 @@
       {
         "text": "IIM CAT 2026 Online Form – Start",
         "href": "https://sarkariresult.com.cm/iim-cat-2026/"
+      },
+      {
+        "text": "UKSSSC Group C Various Post Online Form 2026",
+        "href": "https://sarkariresult.com.cm/uksssc-group-c-2026/"
       },
       {
         "text": "Odisha Anganwadi Bharti Online Form 2026",
@@ -1037,6 +1041,11 @@
         "jobId": 242,
         "slug": "up-banda-ecce-educator-recruitment-2026",
         "processedAt": "2026-09-05T08:16:36.276Z"
+      },
+      "https://sarkariresult.com.cm/delhi-high-court-spa-pa-2026/": {
+        "jobId": 243,
+        "slug": "delhi-high-court-spa-pa-recruitment-2026",
+        "processedAt": "2026-09-05T14:44:37.522Z"
       }
     },
     "failed": {
