@@ -12723,46 +12723,48 @@
   },
   {
     "id": 154,
-    "title": "SSC Selection Phase 14 2026 Recruitment",
+    "title": "SSC Selection Phase 14 Recruitment 2026",
     "setPath": "ssc-selection-phase-14-2026",
     "slug": "ssc-selection-phase-14-2026-recruitment",
     "organization": "Staff Selection Commission (SSC)",
-    "date": "2026-08-21",
+    "date": "2026-09-08",
     "location": "",
     "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "The Staff Selection Commission (SSC) has released a notification for Selection Phase-14 Examination 2026, offering 3,003 posts. The online application process began on 13 April 2026 and candidates can apply until 04 May 2026. The minimum age required is 18 years, with a maximum age limit of 35 years as of 01 January 2026. Candidates must have passed Class 10th, Class 12th, or a Bachelor's degree from a recognized board or university. The selection process includes CBT, Descriptive, and Skill Test. The exam date is scheduled for June 2026. Application fee for General/OBC/EWS is ₹100, for SC/ST/Female and PH candidates it is ₹0. Payment can be made via debit card, credit card, internet banking, IMPS, or cash card/mobile wallet.",
+    "description": "Staff Selection Commission (SSC) has released the exam city details for the Selection Phase-14 Examination 2026. The exam will be conducted from 16 to 26 September 2026. The last date to submit the application form was 04 May 2026. Candidates can check their exam city details using their enrollment number, registration number, or date of birth by logging into the portal. The total vacancies are 3003 posts with eligibility criteria based on matric, intermediate, or graduate level education.",
     "totalPost": "3003",
     "importantDates": {
       "Application Begin": "2026-04-13",
       "Last Date for Apply Online": "2026-05-04",
       "Pay Exam Fee Last Date": "2026-05-05",
-      "Correction Last Date": "2026-05-11",
+      "Correction Last Date": "2026-05-13",
       "Eligibility Result Available": "",
-      "Exam Date": "2026-06",
-      "Exam City Available": "",
-      "Admit Card Available": "Before Exam"
+      "Exam Date": "2026-09-16 to 2026-09-26",
+      "Exam City Available": "2026-09-08",
+      "Admit Card Available": "Soon"
     },
     "applicationFee": {
-      "General / OBC / EWS": "₹100",
-      "SC / ST": "₹500",
-      "PH (Divyang)": "₹0",
+      "General / OBC / EWS": "100",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
       "Minimum Age": "18 Years",
       "Maximum Age": "35 Years",
-      "Age Calculation Date": "01 January 2026",
-      "Age Relaxation": "As per SSC regulations"
+      "Age Calculation Date": "As on 01 January 2026",
+      "Age Relaxation": "As per the regulations of SSC"
     },
-    "posts": [],
+    "posts": [
+      "Various Selection Posts Phase-13 (XIII)"
+    ],
     "eligibility": [
-      "Candidates must have passed Class 10th (High School) exam from a recognized board.",
-      "Candidates must have passed Class 12th (Intermediate) exam from a recognized board.",
-      "Candidates having a Bachelor's degree in any stream from a recognized university in India."
+      "Matric Level: Candidates must have passed Class 10th (High School) exam from recognized board.",
+      "Intermediate Level: Candidates must have passed Class 12th (Intermediate) exam from recognized board.",
+      "Graduate Level: Candidates having Bachelor Degree in any stream from recognized university in India."
     ],
     "selectionProcess": [
       "CBT",
@@ -12770,47 +12772,59 @@
       "Skill Test"
     ],
     "jobLocation": "",
-    "howToApply": "Interested candidates can submit their application online before 04 May 2026. Use the 'Apply Online' link provided below to apply directly. Alternatively, visit the official SSC website to complete the application process online. Make sure to complete the application before the deadline of 04 May 2026. Candidates are advised to read the official notification carefully before filling out the form to confirm last dates, age limits, and education qualification requirements.",
+    "howToApply": "Candidates can apply online for the SSC Selection Phase 14 Recruitment 2026 by visiting the official SSC website. The online application process started on 13 April 2026 and the last date to apply was 04 May 2026. Candidates must complete the application form and pay the exam fee before the last date. The fee payment can be made online using debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. After submission, candidates should keep a record of their enrollment number and registration number for future reference. It is advised to verify all details from the official website before applying.",
     "links": {
-      "Apply Online": "https://ssc.gov.in",
-      "Official Notification": "https://ssc.gov.in"
+      "Apply Online": "Click Here",
+      "Official Notification": "Click Here"
     },
     "content": [
       {
-        "heading": "SSC Selection Phase 14 2026 Recruitment",
-        "body": "The Staff Selection Commission (SSC) has released a notification for Selection Phase-14 Examination 2026, offering 3,003 posts. The online application process began on 13 April 2026 and candidates can apply until 04 May 2026. The minimum age required is 18 years, with a maximum age limit of 35 years as of 01 January 2026. Candidates must have passed Class 10th, Class 12th, or a Bachelor's degree from a recognized board or university. The selection process includes CBT, Descriptive, and Skill Test. The exam date is scheduled for June 2026. Application fee for General/OBC/EWS is ₹100, for SC/ST/Female and PH candidates it is ₹0. Payment can be made via debit card, credit card, internet banking, IMPS, or cash card/mobile wallet."
+        "heading": "SSC Selection Phase 14 Recruitment 2026",
+        "body": "Staff Selection Commission (SSC) has released the exam city details for the Selection Phase-14 Examination 2026. The exam will be conducted from 16 to 26 September 2026. The last date to submit the application form was 04 May 2026. Candidates can check their exam city details using their enrollment number, registration number, or date of birth by logging into the portal. The total vacancies are 3003 posts with eligibility criteria based on matric, intermediate, or graduate level education."
       },
       {
-        "heading": "SSC Selection Phase 14 2026: Important Dates",
-        "body": "The key important dates for the SSC Selection Phase 14 recruitment 2026 are as follows:\n- Online Application Start Date: 13 April 2026\n- Last Date to Apply Online: 04 May 2026\n- Last Date for Fee Payment: 05 May 2026\n- Correction Period: 11 to 13 May 2026\n- Exam Date: June 2026\n- Admit Card Availability: Before the exam\nCandidates are advised to confirm all dates from the official SSC website before finalizing their preparation and application plans. The exam schedule provides a detailed timeline for the recruitment process, including the application period, correction window, and exam date. Candidates are encouraged to monitor the official portal for updates on result declarations and other notifications."
+        "heading": "SSC Selection Phase 14 Recruitment 2026: Important Dates",
+        "body": "The key important dates for the SSC Selection Phase 14 Recruitment 2026 are as follows:\n- Online Application Start Date: 13 April 2026\n- Online Application Last Date: 04 May 2026\n- Last Date for Fee Payment: 05 May 2026\n- Correction Period: 11 to 13 May 2026\n- Exam Date: 16 to 26 September 2026\n- Exam City Details Available: 08 September 2026\n- Admit Card Available: Soon\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the SSC official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "SSC Selection Phase 14 2026: Eligibility Details",
-        "body": "The eligibility criteria for the SSC Selection Phase 14 recruitment 2026 are as follows:\n- Candidates must have passed Class 10th (High School) exam from a recognized board.\n- Candidates must have passed Class 12th (Intermediate) exam from a recognized board.\n- Candidates having a Bachelor's degree in any stream from a recognized university in India.\nCandidates are advised to thoroughly read the official notification before applying to verify all details such as age limits, educational qualifications, and other requirements."
+        "heading": "SSC Selection Phase 14 Recruitment 2026: Application Fee",
+        "body": "The application fee for the SSC Selection Phase 14 Recruitment 2026 is as follows:\n- For General / OBC / EWS: ₹100/-\n- For SC / ST / Female: ₹0/-\n- For PH (Divyang) Candidates: ₹0/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 05 May 2026. The fee is waived for SC, ST, and female candidates, and for PH candidates as well."
       },
       {
-        "heading": "How to Apply for SSC Selection Phase 14 2026",
-        "body": "Interested candidates can submit their application online before 04 May 2026. Use the 'Apply Online' link provided below to apply directly. Alternatively, visit the official SSC website to complete the application process online. Make sure to complete the application before the deadline of 04 May 2026. Candidates are advised to read the official notification carefully before filling out the form to confirm last dates, age limits, and education qualification requirements. The application form requires personal information, educational qualifications, and preferences. Candidates must upload necessary documents and pay the application fee using debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. After submission, candidates should save their application number for future reference."
+        "heading": "SSC Selection Phase 14 Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for the SSC Selection Phase 14 Recruitment 2026 is as follows: The minimum age is 18 years and the maximum age is 35 years as on 01 January 2026. SSC provides age relaxation for the Phase 14 position as per their regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "SSC Selection Phase 14 2026: Mode of Selection",
-        "body": "The selection process for the SSC Selection Phase 14 recruitment 2026 consists of the following stages:\n1. CBT (Computer-Based Test)\n2. Descriptive Test\n3. Skill Test\nCandidates will be evaluated through these stages to determine their final selection. The CBT assesses general knowledge and aptitude, the descriptive test evaluates writing skills, and the skill test checks practical abilities as per the post. Final selection is based on the combined performance in all three stages."
+        "heading": "SSC Selection Phase 14 Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the SSC Selection Phase 14 Recruitment 2026 are as follows:\n- Post Name: Various Selection Posts Phase-13 (XIII)\n- Total Posts: 3003\n- Eligibility Criteria: Matric Level – Class 10th (High School) from recognized board; Intermediate Level – Class 12th (Intermediate) from recognized board; Graduate Level – Bachelor Degree in any stream from recognized university in India.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "SSC Selection Phase 14 Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the SSC Selection Phase 14 Recruitment 2026 are as follows:\n- Matric Level: Candidates must have passed Class 10th (High School) exam from recognized board.\n- Intermediate Level: Candidates must have passed Class 12th (Intermediate) exam from recognized board.\n- Graduate Level: Candidates having Bachelor Degree in any stream from recognized university in India.\nFor full eligibility details, please check the official notification. Candidates are advised to read the official notification carefully before applying."
+      },
+      {
+        "heading": "How To Apply for SSC Selection Phase 14 Recruitment 2026",
+        "body": "Candidates can apply online for the SSC Selection Phase 14 Recruitment 2026 by visiting the official SSC website. The online application process started on 13 April 2026 and the last date to apply was 04 May 2026. Candidates must complete the application form and pay the exam fee before the last date. The fee payment can be made online using debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. After submission, candidates should keep a record of their enrollment number and registration number for future reference. It is advised to verify all details from the official website before applying."
+      },
+      {
+        "heading": "SSC Selection Phase 14 Recruitment 2026: Mode of Selection",
+        "body": "The selection process for the SSC Selection Phase 14 Recruitment 2026 consists of the following stages:\n- Computer-Based Test (CBT)\n- Descriptive Test\n- Skill Test\nCandidates are advised to prepare thoroughly for the CBT and descriptive test, and ensure they meet the required standards for the skill test stage."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When will the online application for SSC Selection Phase 14 Recruitment 2026 start?\nA: The online application for SSC Selection Phase 14 Recruitment 2026 started on 13 April 2026.\n\nQ. What is the last date for online application for SSC Selection Phase 14 2026?\nA: The last date to apply online for SSC Selection Phase 14 2026 is 04 May 2026.\n\nQ. What is the age limit for SSC Selection Phase 14 2026?\nA: The age limit for SSC Selection Phase 14 2026 is 18 years minimum and 35 years maximum as of 01 January 2026. Age relaxation is provided as per SSC regulations.\n\nQ. What is the eligibility for SSC Selection Phase 14 vacancy 2026?\nA: The eligibility criteria for SSC Selection Phase 14 vacancy 2026 require candidates to have passed Class 10th, Class 12th, or a Bachelor's degree from a recognized board or university in India.\n\nQ. What is the official website for SSC?\nA: The official website for SSC is https://ssc.gov.in."
+        "body": "Q. What Is SSC Selection Post Phase 14 Exam 2026?\nA: It is a recruitment examination conducted by the Staff Selection Commission for various selection post vacancies under different educational qualification levels.\n\nQ. How Can I Check The SSC Selection Phase 14 Exam Date 2026?\nA: Candidates can check the official exam date notice through the SSC website and download it for future reference.\n\nQ. When Will The SSC Selection Post Phase 14 Exam 2026 Be Conducted?\nA: According to the SSC’s 2026–27 tentative calendar, the Phase-XIV computer-based examination was scheduled for May–July 2026. Candidates should check the latest official SSC notice for any revised or specific exam dates.\n\nQ. What Is The Mode Of The SSC Selection Phase 14 Exam?\nA: The examination is conducted in computer-based examination (CBE) mode.\n\nQ. What Is The Official Website For SSC?\nA: The official website for SSC is https://ssc.gov.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
-        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official SSC website before making any decisions."
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
       }
     ],
     "seo": {
-      "metaTitle": "SSC Selection Phase 14 2026 Recruitment",
-      "metaDescription": "SSC Selection Phase 14 2026 Recruitment: Check Important Dates, Eligibility, Application Process, Age Limit, Vacancy Details, Selection Process, and How to Apply. 3003 Posts Available. Application Starts on 13 April 2026. Last Date to Apply: 04 May 2026. Age Limit: 18 to 35 Years (as of 01 January 2026). Eligibility: Class 10th, 12th, or Bachelor's Degree. Selection Process: CBT, Descriptive, Skill Test. Application Fee: ₹100 (General/OBC/EWS), ₹0 (SC/ST/Female/PH).",
-      "keywords": "SSC Selection Phase 14 2026, SSC Recruitment 2026, SSC Application Date 2026, SSC Eligibility, SSC Age Limit, SSC Selection Process, SSC Exam Date 2026, SSC Application Form, SSC Official Website"
+      "metaTitle": "SSC Selection Phase 14 Recruitment 2026",
+      "metaDescription": "SSC Selection Phase 14 Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 3003. Age Limit: 18 to 35 Years. Eligibility: Matric, Intermediate, Graduate. Application Fee: ₹100/- (General/OBC/EWS), ₹0/- (SC/ST/Female/PH). Official Website: https://ssc.gov.in/",
+      "keywords": "SSC Selection Phase 14 2026, SSC Recruitment 2026, SSC Application Form 2026, SSC Age Limit 2026, SSC Eligibility Criteria, SSC Exam Date 2026, SSC Official Website, SSC Application Fee 2026"
     },
-    "updatedon": "2026-08-21"
+    "updatedon": "2026-09-08"
   },
   {
     "id": 155,
@@ -17283,30 +17297,30 @@
     "title": "Patna High Court Assistant Recruitment 2026",
     "setPath": "patna-high-court-assistant-2026",
     "slug": "patna-high-court-assistant-recruitment-2026",
-    "organization": "Patna High Court (Bihar)",
-    "date": "2026-08-27",
+    "organization": "Patna High Court",
+    "date": "2026-09-08",
     "location": "",
-    "state": "Bihar",
+    "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "Patna High Court (Bihar) has released a notification for the recruitment of Ex-Cadre Assistant (Group-C) posts. A total of 68 positions are available. The online application process has started on 28 July 2026 and will close on 27 August 2026. The minimum age is 18 years, and the maximum age limit is 37 years as of 01 January 2026. Candidates must have passed graduate and hold a 6-month diploma/certificate in Computer Applications as per Patna High Court rules. The application fee is ₹1500 for UR, OBC, EWS and ₹750 for SC/ST. The selection process includes preliminary (MCQ based) written test, computer proficiency test, interview, document verification, and medical examination.",
+    "description": "Patna High Court (Bihar) has released the exam date on its official website for the recruitment of Ex-Cadre Assistant (Group-C) posts. This recruitment is for 68 posts. The Patna High Court application form has started on 28 July 2026, and candidates can apply until 27 August 2026. The minimum age required is 18 years, and the maximum age limit is 37 years as of 01 January 2026. Candidates must check the complete details for Patna High Court Assistant Recruitment 2026 given below.",
     "totalPost": "68",
     "importantDates": {
       "Application Begin": "2026-07-28",
       "Last Date for Apply Online": "2026-08-27",
       "Pay Exam Fee Last Date": "2026-08-30",
-      "Correction Last Date": "Not specified",
-      "Eligibility Result Available": "Will be updated here soon",
-      "Exam Date": "Notify Later",
-      "Exam City Available": "Before Exam",
-      "Admit Card Available": "Before Exam"
+      "Correction Last Date": "",
+      "Eligibility Result Available": "",
+      "Exam Date": "2026-09-18",
+      "Exam City Available": "",
+      "Admit Card Available": "Soon"
     },
     "applicationFee": {
       "General / OBC / EWS": "1500",
       "SC / ST": "750",
-      "PH (Divyang)": "Not specified",
+      "PH (Divyang)": "",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
@@ -17319,7 +17333,7 @@
       "Patna High Court Assistant"
     ],
     "eligibility": [
-      "Candidates must have passed graduate and have a 6-month diploma/certificate in Computer Applications as per Patna High Court rules."
+      "Candidates must have passed graduate and having 6-month diploma/certificate in Computer Applications as per Patna High Court rules."
     ],
     "selectionProcess": [
       "Preliminary (MCQ Based) Written Test",
@@ -17329,35 +17343,47 @@
       "Medical Examination"
     ],
     "jobLocation": "",
-    "howToApply": "Interested candidates can apply online before 27 August 2026. Click on the 'Apply Online' link provided in the important links section to apply directly. Alternatively, visit the official website of Patna HC to complete the application process online. Ensure that the application is submitted before the deadline. Candidates are advised to carefully read the official notification before filling out the form to confirm last date, age limit, and education qualification.",
+    "howToApply": "Interested candidates who wish to apply for the Patna HC post can submit their application online before 27 August 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of Patna HC to complete the application process online. Make sure to complete the application before the deadline of 27 August 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
     "links": {
-      "Apply Online": "http://patnahighcourt.gov.in/",
-      "Official Notification": "http://patnahighcourt.gov.in/"
+      "Apply Online": "Click Here",
+      "Official Notification": "Click Here"
     },
     "content": [
       {
         "heading": "Patna High Court Assistant Recruitment 2026",
-        "body": "Patna High Court (Bihar) has released a notification for the recruitment of Ex-Cadre Assistant (Group-C) posts. A total of 68 positions are available. The online application process has started on 28 July 2026 and will close on 27 August 2026. The minimum age is 18 years, and the maximum age limit is 37 years as of 01 January 2026. Candidates must have passed graduate and hold a 6-month diploma/certificate in Computer Applications as per Patna High Court rules. The application fee is ₹1500 for UR, OBC, EWS and ₹750 for SC/ST. The selection process includes preliminary (MCQ based) written test, computer proficiency test, interview, document verification, and medical examination."
+        "body": "Patna High Court (Bihar) has released the exam date on its official website for the recruitment of Ex-Cadre Assistant (Group-C) posts. This recruitment is for 68 posts. The Patna High Court application form has started on 28 July 2026, and candidates can apply until 27 August 2026. The minimum age required is 18 years, and the maximum age limit is 37 years as of 01 January 2026. Candidates must check the complete details for Patna High Court Assistant Recruitment 2026 given below."
       },
       {
         "heading": "Patna High Court Assistant Recruitment 2026: Important Dates",
-        "body": "The key important dates for the Patna High Court Assistant Recruitment 2026 are as follows:\n- Online Application Start Date: 28 July 2026\n- Last Date for Online Application: 27 August 2026\n- Last Date for Online Payment: 30 August 2026\n- Exam Date: To be notified later\n- Admit Card: Available before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to verify all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must confirm the details on the official website before making any decisions."
+        "body": "The key important dates for the Patna High Court Assistant Recruitment 2026 are as follows:\n- Online Application Start Date: 28 July 2026\n- Online Application Last Date: 27 August 2026\n- Last Date for Fee Payment: 30 August 2026\n- Exam Date: 18 September 2026\n- Admit Card: Available Soon\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the Patna High Court official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "Patna High Court Assistant Recruitment 2026: Eligibility Criteria",
-        "body": "The eligibility criteria for the Patna High Court Assistant Recruitment 2026 are as follows:\n- Candidates must have passed graduate and have a 6-month diploma/certificate in Computer Applications as per Patna High Court rules.\nCandidates are advised to verify all eligibility conditions from the official source before submission."
+        "heading": "Patna High Court Assistant Recruitment 2026: Application Fee",
+        "body": "The application fee for the Patna High Court Assistant Recruitment 2026 is as follows:\n- For UR, OBC, EWS: ₹1500/-\n- For SC / ST: ₹750/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 30 August 2026."
       },
       {
-        "heading": "How to Apply for Patna High Court Assistant Recruitment 2026",
-        "body": "Interested candidates can apply online before 27 August 2026. Click on the 'Apply Online' link provided in the important links section to apply directly. Alternatively, visit the official website of Patna HC to complete the application process online. Ensure that the application is submitted before the deadline. Candidates are advised to carefully read the official notification before filling out the form to confirm last date, age limit, and education qualification."
+        "heading": "Patna High Court Assistant Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for the Patna High Court Assistant Recruitment 2026 is as follows: The minimum age is 18 years and the maximum age is 37 years as on 01 January 2026. Age relaxation is provided as per Patna High Court Examination 2026 regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "Patna High Court Assistant Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the Patna High Court Assistant Recruitment 2026 are as follows:\n- Post Name: Patna High Court Assistant\n- Total Posts: 68\n- Eligibility Criteria: Candidates must have passed graduate and having 6-month diploma/certificate in Computer Applications as per Patna High Court rules.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "Patna High Court Assistant Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the Patna High Court Assistant Recruitment 2026 are as follows:\n- Candidates must have passed graduate and having 6-month diploma/certificate in Computer Applications as per Patna High Court rules.\nFor full eligibility details, please check the official notification. Candidates are advised to read the official notification carefully before applying."
+      },
+      {
+        "heading": "How To Apply for Patna High Court Assistant Recruitment 2026",
+        "body": "Interested candidates who wish to apply for the Patna HC post can submit their application online before 27 August 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of Patna HC to complete the application process online. Make sure to complete the application before the deadline of 27 August 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
       },
       {
         "heading": "Patna High Court Assistant Recruitment 2026: Mode of Selection",
-        "body": "The selection process for the Patna High Court Assistant Recruitment 2026 consists of the following stages:\n- Preliminary (MCQ Based) Written Test\n- Computer Proficiency Test\n- Interview\n- Document Verification\n- Medical Examination\nCandidates who clear the preliminary written test will proceed to the computer proficiency test. Final selection will be based on performance in the written test, computer proficiency test, interview, document verification, and medical examination. Candidates are advised to stay updated with the official website for further announcements regarding the examination and result declaration."
+        "body": "The selection process for the Patna High Court Assistant Recruitment 2026 consists of the following stages:\n- Preliminary (MCQ Based) Written Test\n- Computer Proficiency Test\n- Interview\n- Document Verification\n- Medical Examination\nCandidates are advised to prepare thoroughly for the written examination and ensure all documents are in order for document verification and medical examination."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When will the online application for Patna High Court Assistant Recruitment 2026 start?\nA: The online application for this recruitment has started on 28 July 2026.\n\nQ. What is the last date for online application for Patna High Court Assistant Online Form 2026?\nA: The last date for online application form is 27 August 2026.\n\nQ. What is the age limit for Patna High Court Assistant Bharti 2026?\nA: The age limit for Patna High Court Assistant Bharti 2026 is as follows: The minimum age required is 18 years and the maximum age is 37 years as on 01 January 2026.\n\nQ. What is the eligibility for Patna High Court Assistant vacancy 2026?\nA: The eligibility criteria for the Patna High Court Assistant vacancy 2026 are as follows on notification rules.\n\nQ. What is the official website for Patna HC?\nA: The official website for Patna HC is http://patnahighcourt.gov.in/"
+        "body": "Q. When Will The Online Application For Patna High Court Assistant Recruitment 2026 Start?\nA: The online application for this recruitment has started on 28 July 2026.\n\nQ. What Is The Last Date For Online Application For Patna High Court Assistant Online Form 2026?\nA: The last date for online application form is 27 August 2026.\n\nQ. What Is The Age Limit For Patna High Court Assistant Bharti 2026?\nA: The age limit for Patna High Court Assistant Bharti 2026 is as follows: The minimum age required is 18 years and the maximum age is 37 years as on 01 January 2026.\n\nQ. What Is The Eligibility For Patna High Court Assistant Vacancy 2026?\nA: The eligibility criteria for the Patna High Court Assistant vacancy 2026 are as follows on notification rules.\n\nQ. What Is The Official Website For Patna HC?\nA: The official website for Patna HC is Http://Patnahighcourt.Gov.In/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -17366,10 +17392,10 @@
     ],
     "seo": {
       "metaTitle": "Patna High Court Assistant Recruitment 2026",
-      "metaDescription": "Patna High Court Assistant Recruitment 2026: Check Application Dates, Eligibility, Posts, Age Limit, Application Fee, How to Apply, and Official Website. Application Starts 28 July 2026, Ends 27 August 2026. Total Posts: 68. Age Limit: 18 – 37 Years. Application Fee: ₹1500 (UR/OBC/EWS), ₹750 (SC/ST). Official Website: http://patnahighcourt.gov.in/",
-      "keywords": "Patna High Court Assistant Recruitment 2026, Patna HC Recruitment, Patna High Court Assistant Posts, Patna HC Application Dates, Patna HC Eligibility, Patna HC Age Limit, Patna HC Application Fee, Patna HC How to Apply, Patna HC Vacancy Details, Patna HC Selection Process"
+      "metaDescription": "Patna High Court Assistant Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 68. Age Limit: 18 to 37 Years. Eligibility: Graduate with 6-Month Diploma in Computer Applications. Application Fee: ₹1500/- (General/OBC/EWS), ₹750/- (SC/ST). Official Website: Http://Patnahighcourt.Gov.In/",
+      "keywords": "Patna High Court Assistant 2026, Patna HC Recruitment 2026, Patna HC Application Form 2026, Patna HC Age Limit 2026, Patna HC Eligibility Criteria, Patna HC Exam Date 2026, Patna HC Official Website, Patna HC Application Fee 2026"
     },
-    "updatedon": "2026-08-27"
+    "updatedon": "2026-09-08"
   },
   {
     "id": 201,
@@ -17561,14 +17587,14 @@
     "setPath": "upsssc-forest-guard-wildlife-guard-2026",
     "slug": "upsssc-forest-guard-wildlife-guard-recruitment-2026",
     "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
-    "date": "2026-08-27",
+    "date": "2026-09-08",
     "location": "",
     "state": "Uttar Pradesh",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the eligibility result for the recruitment of Forest Guard and Wildlife Guard posts. A total of 708 positions are available. The application process started on 30 June 2026 and closed on 20 July 2026. The minimum age is 18 years, with a maximum age of 40 years as on 01 July 2026. Candidates must have passed Class 12th from a recognized board and possess a valid UP PET 2025 scorecard. The selection process includes shortlisting based on PET 2025 score, written examination, PMT/PST, and document verification.",
+    "description": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the mains exam fee payment details for the recruitment of Forest Guard & Wildlife Guard posts. This recruitment is for 708 positions. The UPSSSC application form started on 30 June 2026 and candidates can apply until 20 July 2026. The minimum age required is 18 years and the maximum age is 40 years as on 01 July 2026. Candidates must check the complete details for UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 provided below.",
     "totalPost": "708",
     "importantDates": {
       "Application Begin": "2026-06-30",
@@ -17576,8 +17602,8 @@
       "Pay Exam Fee Last Date": "2026-07-20",
       "Correction Last Date": "2026-07-27",
       "Eligibility Result Available": "2026-08-27",
-      "Exam Date": "Notify Later",
-      "Exam City Available": "Before Exam",
+      "Exam Date": "2026-09-27",
+      "Exam City Available": "",
       "Admit Card Available": "Before Exam"
     },
     "applicationFee": {
@@ -17593,53 +17619,59 @@
       "Age Relaxation": "As per UPSSSC Examination 2026"
     },
     "posts": [
-      "Forest Guard",
-      "Wildlife Guard"
+      "Forest Guard / Wildlife Guard"
     ],
     "eligibility": [
-      "Candidates must have passed Class 12th (Intermediate) from a recognized board.",
-      "Candidates must possess a valid UP PET 2025 scorecard."
+      "Candidates must have passed Class 12th (Intermediate) from a recognized board and possess a valid UP PET 2025 scorecard."
     ],
     "selectionProcess": [
-      "Shortlisting (based on PET 2025 score)",
+      "Shortlisting (PET 2025 Score)",
       "Written Examination",
       "PMT / PST",
       "Document Verification"
     ],
     "jobLocation": "",
-    "howToApply": "Interested candidates can submit their application online before 20 July 2026. Use the 'Apply Online' link provided in the important links section to apply directly. Alternatively, visit the official UPSSSC website to complete the application process. Candidates are advised to carefully read the official notification before filling out the form to confirm the last date, age limit, and educational qualification.",
+    "howToApply": "Interested candidates who wish to apply for the UPSSSC post can submit their application online before 20 July 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UPSSSC to complete the application process online. Make sure to complete the application before the deadline of 20 July 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
     "links": {
       "Apply Online": "Click Here",
-      "Official Notification": "http://patnahighcourt.gov.in/"
+      "Official Notification": "Click Here"
     },
     "content": [
       {
         "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026",
-        "body": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the eligibility result for the recruitment of Forest Guard and Wildlife Guard posts. A total of 708 positions are available. The application process started on 30 June 2026 and closed on 20 July 2026. The minimum age is 18 years, with a maximum age of 40 years as on 01 July 2026. Candidates must have passed Class 12th from a recognized board and possess a valid UP PET 2025 scorecard. The selection process includes shortlisting based on PET 2025 score, written examination, PMT/PST, and document verification."
+        "body": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the mains exam fee payment details for the recruitment of Forest Guard & Wildlife Guard posts. This recruitment is for 708 positions. The UPSSSC application form started on 30 June 2026 and candidates can apply until 20 July 2026. The minimum age required is 18 years and the maximum age is 40 years as on 01 July 2026. Candidates must check the complete details for UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 provided below."
       },
       {
         "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Important Dates",
-        "body": "The key important dates for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n- Online Application Start Date: 30 June 2026\n- Online Application Last Date: 20 July 2026\n- Last Date for Fee Payment: 20 July 2026\n- Correction Last Date: 27 July 2026\n- Eligibility Result Date: 27 August 2026\n- Exam Date: To be notified later\n- Admit Card Released: Before Exam\nCandidates are advised to confirm all dates and details from the UPSSSC official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "body": "The key important dates for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n- Online Application Start Date: 30 June 2026\n- Online Application Last Date: 20 July 2026\n- Last Date for Fee Payment: 20 July 2026\n- Correction Last Date: 27 July 2026\n- Eligibility Result Available: 27 August 2026\n- Exam Date: 27 September 2026\n- Admit Card Available: Before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the UPSSSC official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Eligibility Criteria",
-        "body": "The eligibility criteria for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n- Candidates must have passed Class 12th (Intermediate) from a recognized board.\n- Candidates must possess a valid UP PET 2025 scorecard.\nCandidates are advised to verify all eligibility conditions from the official source before submission."
+        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Application Fee",
+        "body": "The application fee for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 is as follows:\n- For General / OBC / EWS: ₹25/-\n- For SC / ST: ₹25/-\n- For PH (Divyang) Candidates: ₹25/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 20 July 2026."
       },
       {
-        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Physical Measurement Details",
-        "body": "The physical measurement requirements for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n\nMeasurement\tMale\tFemale\nHeight\tUR, OBC, EWS, SC: 168 CMS | For ST: 160 CMS\t79-84 CMS\nChest\tUR, OBC, EWS, SC: 152 CMS | For ST: 147 CMS\t77-82 CMS\nWeight\t—\t45-58 KG\n\nCandidates must meet these physical standards as per the category specified in the official notification."
+        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 is as follows: The minimum age is 18 years and the maximum age is 40 years as on 01 July 2026. Age relaxation is provided as per UPSSSC Examination 2026 regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: PET Details",
-        "body": "The PET (Physical Efficiency Test) details for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n\nCategory\tDistance\tTiming\nMale\t25 KM with 10 KG weight\t4 Hours\nFemale\t14 KM\t4 Hours\n\nCandidates must complete the PET as per the prescribed distance and time. The performance in PET 2025 will be used for shortlisting before the written examination."
+        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n- Post Name: Forest Guard / Wildlife Guard\n- Total Posts: 708\n- Eligibility Criteria: Candidates must have passed Class 12th (Intermediate) from a recognized board and possess a valid UP PET 2025 scorecard.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 are as follows:\n- Candidates must have passed Class 12th (Intermediate) from a recognized board and possess a valid UP PET 2025 scorecard.\nFor full eligibility details, please check the official notification. Candidates are advised to read the official notification carefully before applying."
+      },
+      {
+        "heading": "How To Apply for UPSSSC Forest Guard / Wildlife Guard Recruitment 2026",
+        "body": "Interested candidates who wish to apply for the UPSSSC post can submit their application online before 20 July 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of UPSSSC to complete the application process online. Make sure to complete the application before the deadline of 20 July 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
       },
       {
         "heading": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Mode of Selection",
-        "body": "The selection process for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 consists of the following stages:\n- Shortlisting based on PET 2025 score\n- Written Examination\n- PMT / PST (Physical and Mental Test)\n- Document Verification\nCandidates who clear the PET and written examination will be called for PMT/PST and document verification. Final selection will be based on performance in PET, written exam, and verification process. Candidates are advised to stay updated with the official website for further announcements regarding the examination and result declaration."
+        "body": "The selection process for the UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 consists of the following stages:\n- Shortlisting (PET 2025 Score)\n- Written Examination\n- PMT / PST\n- Document Verification\nCandidates are advised to prepare thoroughly for the written examination and ensure all documents are in order for document verification and PMT/PST."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When will the online application for UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 start?\nA: The online application for this recruitment has started on 30 June 2026.\n\nQ. What is the last date for online application for UPSSSC Forest Guard / Wildlife Guard 2026?\nA: The last date for online application form is 20 July 2026.\n\nQ. What is the age limit for UPSSSC Forest Guard / Wildlife Guard Recruitment 2026?\nA: The age limit for UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 is as follows: The minimum age required is 18 years and the maximum age is 40 years as on 01 July 2026.\n\nQ. What is the eligibility for UPSSSC Forest Guard / Wildlife Guard vacancy 2026?\nA: The eligibility criteria for the UPSSSC Forest Guard / Wildlife Guard vacancy 2026 are as per UPSSSC rules.\n\nQ. What is the official website for UPSSSC?\nA: The official website for UPSSSC is https://upsssc.gov.in/"
+        "body": "Q. When Will The Online Application For UPSSSC Forest Guard / Wildlife Guard Recruitment 2026 Start?\nA: The online application for this recruitment has started on 30 June 2026.\n\nQ. What Is The Last Date For Online Application For UPSSSC Forest Guard / Wildlife Guard Online Form 2026?\nA: The last date for online application form is 20 July 2026.\n\nQ. What Is The Age Limit For UPSSSC Forest Guard / Wildlife Guard Bharti 2026?\nA: The age limit for UPSSSC Forest Guard / Wildlife Guard Bharti 2026 is as follows: The minimum age required is 18 years and the maximum age is 40 years as on 01 July 2026.\n\nQ. What Is The Eligibility For UPSSSC Forest Guard / Wildlife Guard Vacancy 2026?\nA: The eligibility criteria for the UPSSSC Forest Guard / Wildlife Guard vacancy 2026 are as follows on UPSSSC rules.\n\nQ. What Is The Official Website For UPSSSC?\nA: The official website for UPSSSC is https://upsssc.gov.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -17648,10 +17680,10 @@
     ],
     "seo": {
       "metaTitle": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026",
-      "metaDescription": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Check Application Dates, Eligibility, Posts, Age Limit, Application Fee, How to Apply, and Official Website. Total Posts: 708. Application Start: 30 June 2026, Ends 20 July 2026. Age Limit: 18 – 40 Years. Application Fee: ₹25 (All Categories). Official Website: https://upsssc.gov.in/",
-      "keywords": "UPSSSC Forest Guard Recruitment 2026, UPSSSC Wildlife Guard Recruitment 2026, UPSSSC Forest Guard Posts, UPSSSC Forest Guard Application Dates, UPSSSC Forest Guard Eligibility, UPSSSC Forest Guard Age Limit, UPSSSC Forest Guard Application Fee, UPSSSC Forest Guard How to Apply, UPSSSC Forest Guard Vacancy Details, UPSSSC Forest Guard Selection Process"
+      "metaDescription": "UPSSSC Forest Guard / Wildlife Guard Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 708. Age Limit: 18 to 40 Years. Eligibility: Class 12th + UP PET 2025 Scorecard. Application Fee: ₹25/- (All Categories). Official Website: https://upsssc.gov.in/",
+      "keywords": "UPSSSC Forest Guard 2026, UPSSSC Wildlife Guard 2026, UPSSSC Recruitment 2026, UPSSSC Application Form 2026, UPSSSC Age Limit 2026, UPSSSC Eligibility Criteria, UPSSSC Exam Date 2026, UPSSSC Official Website, UPSSSC Application Fee 2026"
     },
-    "updatedon": "2026-08-27"
+    "updatedon": "2026-09-08"
   },
   {
     "id": 204,
@@ -22486,6 +22518,217 @@
       "metaTitle": "RRB Paramedical Staff Recruitment 2026",
       "metaDescription": "RRB Paramedical Staff Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 560. Age Limit: 18 to 40 Years. Eligibility: Post-wise as specified. Application Fee: ₹500/- (General/OBC/EWS), ₹250/- (SC/ST/EBC). Official Website: https://rrb.indianrailways.gov.in/",
       "keywords": "RRB Paramedical Staff 2026, RRB Recruitment 2026, RRB Application Form 2026, RRB Age Limit 2026, RRB Eligibility Criteria, RRB Exam Date 2026, RRB Official Website, RRB Application Fee 2026"
+    },
+    "updatedon": "2026-09-08"
+  },
+  {
+    "id": 252,
+    "title": "Delhi High Court JJA Stage-II Mains Exam Date 2026",
+    "setPath": "delhi-high-court-jja-stage-ii-mains-exam-date-2026",
+    "slug": "delhi-high-court-jja-stage-ii-mains-exam-date-2026",
+    "organization": "Delhi High Court",
+    "date": "2026-09-08",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Delhi High Court (DHC), New Delhi has released the Stage-II Mains Exam Date on its official website for the recruitment of Junior Judicial Assistant (JJA) / Restorer posts. The exam was conducted on 22 March 2026, and the last date to submit the application form was 23 February 2026. Candidates can check their Stage-II Mains Exam Date using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below.",
+    "totalPost": "152",
+    "importantDates": {
+      "Application Begin": "2026-02-04",
+      "Last Date for Apply Online": "2026-02-23",
+      "Pay Exam Fee Last Date": "2026-02-23",
+      "Correction Last Date": "2026-02-27",
+      "Eligibility Result Available": "",
+      "Exam Date": "2026-10-04",
+      "Exam City Available": "",
+      "Admit Card Available": "2026-03-18"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "1500",
+      "SC / ST": "1300",
+      "PH (Divyang)": "1300",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Years",
+      "Maximum Age": "32 Years",
+      "Age Calculation Date": "As on 01 January 2026",
+      "Age Relaxation": "As per the regulations of Delhi High Court"
+    },
+    "posts": [
+      "Junior Judicial Assistant (JJA) / Restorer"
+    ],
+    "eligibility": [
+      "Candidates must have a Bachelor Degree in any stream from recognized university/college. Candidates must also have a typing speed of not less than 35 words per minute on computer."
+    ],
+    "selectionProcess": [
+      "Pre Exam",
+      "Mains Exam",
+      "Typing Test",
+      "Interview (Viva-Voce)",
+      "Document Verification"
+    ],
+    "jobLocation": "",
+    "howToApply": "Candidates can apply online for the Delhi High Court JJA Recruitment 2026 by visiting the official website and navigating to the 'Public Notices' or 'Recruitment' section. Click on the 'Junior Judicial Assistant (JJA) Stage-II Exam Date 2026' notification link to access the details. After logging in using their registration number, application number, or date of birth, candidates can proceed with the application process. The last date for online application is 23 February 2026, and the fee payment must be completed by the same date. Candidates are advised to verify all details from the official website before finalizing their application.",
+    "links": {
+      "Apply Online": "Click Here",
+      "Official Notification": "Click Here"
+    },
+    "content": [
+      {
+        "heading": "Delhi High Court JJA Stage-II Mains Exam Date 2026",
+        "body": "Delhi High Court (DHC), New Delhi has released the Stage-II Mains Exam Date on its official website for the recruitment of Junior Judicial Assistant (JJA) / Restorer posts. The exam was conducted on 22 March 2026, and the last date to submit the application form was 23 February 2026. Candidates can check their Stage-II Mains Exam Date using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below."
+      },
+      {
+        "heading": "Delhi High Court JJA Recruitment 2026: Important Dates",
+        "body": "The key important dates for the Delhi High Court JJA Recruitment 2026 are as follows:\n- Online Application Start Date: 04 February 2026\n- Online Application Last Date: 23 February 2026\n- Last Date for Fee Payment: 23 February 2026\n- Correction Last Date: 27 February 2026\n- Stage-II Mains Exam Date: 04 October 2026\n- Admit Card Available: 18 March 2026\n- Result Date: 25 April 2026\n- Revised Result: 08 September 2026 (Available Now)\nCandidates are advised to confirm all dates and details from the Delhi High Court official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "Delhi High Court JJA Recruitment 2026: Application Fee",
+        "body": "The application fee for the Delhi High Court JJA Recruitment 2026 is as follows:\n- For General / OBC / EWS: ₹1500/-\n- For SC / ST / PH: ₹1300/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 23 February 2026."
+      },
+      {
+        "heading": "Delhi High Court JJA Recruitment 2026: Age Limit",
+        "body": "The age limit for candidates applying for the Delhi High Court JJA Recruitment 2026 is as follows: The minimum age is 18 years and the maximum age is 32 years as on 01 January 2026. Delhi High Court provides age relaxation for the Jr. Judicial Assistant (JJA) / Restorer position as per their regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "Delhi High Court JJA Recruitment 2026: Vacancy Details",
+        "body": "The vacancy details for the Delhi High Court JJA Recruitment 2026 are as follows:\n- Post Name: Junior Judicial Assistant (JJA) / Restorer\n- Total Posts: 152\n- Eligibility Criteria: Candidates must have a Bachelor Degree in any stream from a recognized university/college and must have a typing speed of not less than 35 words per minute on a computer.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "Delhi High Court JJA Recruitment 2026: Education Qualification",
+        "body": "The eligibility criteria for the Delhi High Court JJA Recruitment 2026 are as follows:\n- Candidates must have a Bachelor Degree in any stream from a recognized university/college.\n- Candidates must have a typing speed of not less than 35 words per minute on a computer.\nFor full eligibility details, please check the official notification. Candidates are advised to read the official notification carefully before applying."
+      },
+      {
+        "heading": "How To Apply for Delhi High Court JJA Recruitment 2026",
+        "body": "Candidates can apply online for the Delhi High Court JJA Recruitment 2026 by visiting the official website and navigating to the 'Public Notices' or 'Recruitment' section. Click on the 'Junior Judicial Assistant (JJA) Stage-II Exam Date 2026' notification link to access the details. After logging in using their registration number, application number, or date of birth, candidates can proceed with the application process. The last date for online application is 23 February 2026, and the fee payment must be completed by the same date. Candidates are advised to verify all details from the official website before finalizing their application."
+      },
+      {
+        "heading": "Delhi High Court JJA Recruitment 2026: Mode of Selection",
+        "body": "The selection process for the Delhi High Court JJA Recruitment 2026 consists of the following stages:\n- Pre Exam\n- Mains Exam\n- Typing Test\n- Interview (Viva-Voce)\n- Document Verification\nCandidates are advised to prepare thoroughly for the written examinations, typing test, and interview, and ensure all documents are in order for document verification."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Delhi High Court JJA Stage-II Exam Date 2026 Be Released?\nA: The Exam Date Has Released Before The Admit Card On The Official Website.\n\nQ. How Can Candidates Download The Delhi High Court JJA Stage-II Exam Date 2026?\nA: Candidates Can Download The Exam Date By Visiting The Official Website And Logging In Using Their Registration Number / Application Number And Date Of Birth.\n\nQ. Is It Mandatory To Carry The Exam Date To The Exam Center?\nA: Yes, Candidates Must Carry A Printed Copy Of The Admit Card Along With A Valid Photo ID Proof To The Examination Center.\n\nQ. What Should Candidates Do If There Is An Error On The Admit Card?\nA: Candidates Should Immediately Contact The Delhi High Court Recruitment Authority To Get The Details Corrected Before The Exam.\n\nQ. What Is The Official Website For Delhi High Court?\nA: The Official Website For DHC Is https://delhihighcourt.nic.in/web/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Delhi High Court JJA Stage-II Mains Exam Date 2026",
+      "metaDescription": "Delhi High Court JJA Stage-II Mains Exam Date 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 152. Age Limit: 18 to 32 Years. Eligibility: Bachelor Degree in any stream and typing speed of 35 WPM. Application Fee: ₹1500/- (General/OBC/EWS), ₹1300/- (SC/ST/PH). Official Website: https://delhihighcourt.nic.in/web/",
+      "keywords": "Delhi High Court JJA 2026, Delhi High Court Recruitment 2026, JJA Exam Date 2026, Delhi High Court Application Form 2026, JJA Eligibility Criteria, JJA Age Limit 2026, JJA Selection Process, Delhi High Court Official Website"
+    },
+    "updatedon": "2026-09-08"
+  },
+  {
+    "id": 253,
+    "title": "SSC JHT Option Cum Preference Form 2026",
+    "setPath": "ssc-jht-option-cum-preference-form-2026",
+    "slug": "ssc-jht-option-cum-preference-form-2026",
+    "organization": "Staff Selection Commission (SSC)",
+    "date": "2026-09-08",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2025",
+    "Type": "",
+    "description": "Staff Selection Commission (SSC) has released the Post Preference Form on its official website for the recruitment of Junior Hindi Translator, Hindi Translator, Senior Translator & Hindi Pradhyapak CHT Examination 2025. The exam was conducted on 14 December 2025, and the last date to submit the application form was 26 June 2025. Candidates can check their Paper-II Result using their Enrollment Number, Registration Number, or Date of Birth by logging into the portal. The direct link is provided below.",
+    "totalPost": "457",
+    "importantDates": {
+      "Application Begin": "2025-06-05",
+      "Last Date for Apply Online": "2025-06-26",
+      "Pay Exam Fee Last Date": "2025-06-27",
+      "Correction Last Date": "2025-07-02",
+      "Eligibility Result Available": "",
+      "Exam Date": "2025-08-12",
+      "Exam City Available": "2025-08-05",
+      "Admit Card Available": "2025-12-12"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "100",
+      "SC / ST": "0",
+      "PH (Divyang)": "0",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Years",
+      "Maximum Age": "27 Years",
+      "Age Calculation Date": "As on 01 January 2026",
+      "Age Relaxation": "As per the regulations of SSC"
+    },
+    "posts": [
+      "Junior Hindi Translator (JHT)",
+      "Senior Hindi Translator (SHT)",
+      "Hindi Translator",
+      "Hindi Pradhyapak CHT"
+    ],
+    "eligibility": [
+      "Candidates must have a Master’s Degree in Hindi or English with the other as a compulsory subject, or a Master’s in any subject with English medium and Hindi as a compulsory subject at the graduation level.",
+      "Additionally, they should have a recognized translation diploma or 2 years of translation experience."
+    ],
+    "selectionProcess": [
+      "CBT",
+      "Skill Test"
+    ],
+    "jobLocation": "",
+    "howToApply": "Candidates can apply online for the SSC JHT, JT, CHT Recruitment 2025 by visiting the official website and navigating to the 'Public Notices' or 'Recruitment' section. Click on the 'SSC JHT, JT, CHT Examination 2025' notification link to access the details. After logging in using their registration number, application number, or date of birth, candidates can proceed with the application process. The last date for online application is 26 June 2025, and the fee payment must be completed by 27 June 2025. Candidates are advised to verify all details from the official website before finalizing their application.",
+    "links": {
+      "Apply Online": "Registration | Login",
+      "Official Notification": "Click Here"
+    },
+    "content": [
+      {
+        "heading": "SSC JHT Option Cum Preference Form 2026",
+        "body": "Staff Selection Commission (SSC) has released the Post Preference Form on its official website for the recruitment of Junior Hindi Translator, Hindi Translator, Senior Translator & Hindi Pradhyapak CHT Examination 2025. The exam was conducted on 14 December 2025, and the last date to submit the application form was 26 June 2025. Candidates can check their Paper-II Result using their Enrollment Number, Registration Number, or Date of Birth by logging into the portal. The direct link is provided below."
+      },
+      {
+        "heading": "SSC JHT, JT, CHT Recruitment 2025: Important Dates",
+        "body": "The key important dates for the SSC JHT, JT, CHT Recruitment 2025 are as follows:\n- Online Application Start Date: 05 June 2025\n- Online Application Last Date: 26 June 2025\n- Last Date for Fee Payment: 27 June 2025\n- Correction Last Date: 02 July 2025\n- Exam Date: 12 August 2025\n- Exam City Details: 05 August 2025\n- Answer Key: 04 September 2025\n- Result Date: 04 November 2025\n- Paper-II Exam Date: 14 December 2025\n- Paper-II Exam City Details: 04 December 2025\n- Paper-II Admit Card: 12 December 2025\n- Paper-II Result: 04 June 2026\n- Post Preference Form: 08 – 11 September 2026\nCandidates are advised to confirm all dates and details from the SSC official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "SSC JHT, JT, CHT Recruitment 2025: Application Fee",
+        "body": "The application fee for the SSC JHT, JT, CHT Recruitment 2025 is as follows:\n- For General / OBC / EWS: ₹100/-\n- For SC / ST / Female: ₹0/-\n- For PH Candidates: ₹0/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 27 June 2025."
+      },
+      {
+        "heading": "SSC JHT, JT, CHT Recruitment 2025: Age Limit",
+        "body": "The age limit for candidates applying for the SSC JHT, JT, CHT Recruitment 2025 is as follows: The minimum age is 18 years and the maximum age is 27 years as on 01 August 2025. SSC provides age relaxation for the SSC JHT, JT, CHT position as per their regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "SSC JHT, JT, CHT Recruitment 2025: Vacancy Details",
+        "body": "The vacancy details for the SSC JHT, JT, CHT Recruitment 2025 are as follows:\n- Post Name: Junior Hindi Translator (JHT), Senior Hindi Translator (SHT), Hindi Translator, Hindi Pradhyapak CHT\n- Total Posts: 457\n- Eligibility Criteria: Candidates must have a Master’s Degree in Hindi or English with the other as a compulsory subject, or a Master’s in any subject with English medium and Hindi as a compulsory subject at the graduation level. Additionally, they should have a recognized translation diploma or 2 years of translation experience.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "SSC JHT, JT, CHT Recruitment 2025: Education Qualification",
+        "body": "The eligibility criteria for the SSC JHT, JT, CHT Recruitment 2025 are as follows:\n- Candidates must have a Master’s Degree in Hindi or English with the other as a compulsory subject, or a Master’s in any subject with English medium and Hindi as a compulsory subject at the graduation level.\n- Additionally, they should have a recognized translation diploma or 2 years of translation experience.\nFor full eligibility details, please check the official notification. Candidates are advised to read the official notification carefully before applying."
+      },
+      {
+        "heading": "How To Apply for SSC JHT, JT, CHT Recruitment 2025",
+        "body": "Candidates can apply online for the SSC JHT, JT, CHT Recruitment 2025 by visiting the official website and navigating to the 'Public Notices' or 'Recruitment' section. Click on the 'SSC JHT, JT, CHT Examination 2025' notification link to access the details. After logging in using their registration number, application number, or date of birth, candidates can proceed with the application process. The last date for online application is 26 June 2025, and the fee payment must be completed by 27 June 2025. Candidates are advised to verify all details from the official website before finalizing their application."
+      },
+      {
+        "heading": "SSC JHT, JT, CHT Recruitment 2025: Mode of Selection",
+        "body": "The selection process for the SSC JHT, JT, CHT Recruitment 2025 consists of the following stages:\n- CBT\n- Skill Test\nCandidates are advised to prepare thoroughly for the written examination and skill test, and ensure all documents are in order for document verification."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Was The SSC JHT Paper-II Result 2026 Released?\nA: The Paper-II Result Has Released Through The Official SSC Website.\n\nQ. How Can I Check The Result?\nA: You Can Check The Exam Date By Opening The Official SSC Result PDF Available In The Latest Updates Section.\n\nQ. Is Paper-II Compulsory For All Candidates?\nA: Yes, All Candidates Who Qualified In Paper-I Must Appear For Paper-II.\n\nQ. Will The Exam Be Conducted In Offline Or Online Mode?\nA: Paper-II Is Usually Conducted In Offline Descriptive Mode.\n\nQ. What Is The Official Website For SSC?\nA: The Official Website For SSC Is https://ssc.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "SSC JHT Option Cum Preference Form 2026",
+      "metaDescription": "SSC JHT Option Cum Preference Form 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 457. Age Limit: 18 to 27 Years. Eligibility: Master’s Degree in Hindi or English with Hindi as compulsory subject or 2 years translation experience. Application Fee: ₹100/- (General/OBC/EWS), ₹0/- (SC/ST/Female/PH). Official Website: https://ssc.gov.in/",
+      "keywords": "SSC JHT 2025, SSC Recruitment 2025, Hindi Translator Exam, SSC Option Cum Preference Form, SSC JHT Eligibility, SSC Age Limit 2025, SSC Selection Process, SSC Official Website"
     },
     "updatedon": "2026-09-08"
   }
