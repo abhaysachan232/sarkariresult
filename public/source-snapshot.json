@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-08T22:35:34.363Z",
+    "checkedAt": "2026-09-09T03:29:31.313Z",
     "links": [
       {
         "text": "UPSC CAPF AC Name Wise Result 2026 – Out",
@@ -231,14 +231,6 @@
         "href": "https://sarkariresult.com.cm/uiicl-ao-2026/"
       },
       {
-        "text": "ITBP CAPF Medical Officer Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/itbp-capf-medical-officer-2026/"
-      },
-      {
-        "text": "Bihar BCECEB Sr. Resident/ Tutor Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/bihar-bcece-sr-resident-tutor-2026/"
-      },
-      {
         "text": "CSIR NGRI Technician Online Form 2026",
         "href": "https://sarkariresult.com.cm/csir-ngri-technician-2026/"
       },
@@ -277,6 +269,14 @@
       {
         "text": "RRC SR Apprentice Online Form 2026 (4471 Posts)",
         "href": "https://sarkariresult.com.cm/rrc-sr-apprentice-2026/"
+      },
+      {
+        "text": "Bank of Baroda SO Online Form 2026 (1100 Posts) – Start",
+        "href": "https://sarkariresult.com.cm/bank-of-baroda-so-2026/"
+      },
+      {
+        "text": "MPESB MP Police SI, Subedar Online Form 2026",
+        "href": "https://sarkariresult.com.cm/mp-police-si-subedar-2026/"
       },
       {
         "text": "RPSC Statistical Officer Answer Key 2026 – Out",
@@ -924,7 +924,7 @@
       "https://sarkariresult.com.cm/mp-police-si-subedar-2026/": {
         "jobId": 223,
         "slug": "mpesb-mp-police-si-subedar-recruitment-2026",
-        "processedAt": "2026-09-02T08:39:19.596Z"
+        "processedAt": "2026-09-09T03:29:31.311Z"
       },
       "https://sarkariresult.com.cm/uppsc-architectural-assistant-2026/": {
         "jobId": 224,
@@ -994,7 +994,7 @@
       "https://sarkariresult.com.cm/bank-of-baroda-so-2026/": {
         "jobId": 238,
         "slug": "bank-of-baroda-so-recruitment-2026",
-        "processedAt": "2026-09-04T08:45:58.360Z"
+        "processedAt": "2026-09-09T03:28:01.434Z"
       },
       "https://sarkariresult.com.cm/up-mirzapur-ecce-educator-2026/": {
         "jobId": 239,
