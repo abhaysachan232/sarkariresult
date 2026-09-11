@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-11T09:06:48.244Z",
+    "checkedAt": "2026-09-11T16:07:03.323Z",
     "links": [
+      {
+        "text": "UPSSSC Lekhpal Mains Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-lekhpal-2026/"
+      },
       {
         "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
         "href": "https://sarkariresult.com.cm/emrs-teaching-non-teaching-2026/"
@@ -91,8 +95,8 @@
         "href": "https://sarkariresult.com.cm/rbi-bank-assistant-2026/"
       },
       {
-        "text": "UP SCVTUP ITI 1st Round Allotment Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/up-iti-2026/"
+        "text": "NBEMS Group A, B & C Various Post Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/nbems-various-post-2026/"
       },
       {
         "text": "RRB Section Controller Exam Date 2026 – Out",
@@ -109,6 +113,10 @@
       {
         "text": "Railway RRB Technician Exam Date 2026 – Out",
         "href": "https://sarkariresult.com.cm/rrb-technician-2026/"
+      },
+      {
+        "text": "Uttarakhand TET Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/utet-2026/"
       },
       {
         "text": "CGPSC Assistant District Prosecution Officer ADPO Admit Card 2026",
@@ -181,14 +189,6 @@
       {
         "text": "Delhi High Court JJA Stage-II Mains Exam Date 2026 – Out",
         "href": "https://sarkariresult.com.cm/delhi-high-court-jja-2026/"
-      },
-      {
-        "text": "Rajasthan State Eligibility Test SET Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/rajasthan-set-2026/"
-      },
-      {
-        "text": "SSC Stenographer Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/ssc-stenographer-2026/"
       },
       {
         "text": "India Post GDS Online Form 2026 (23,757 Posts)",
@@ -399,6 +399,14 @@
         "href": "https://sarkariresult.com.cm/iim-cat-2026/"
       },
       {
+        "text": "MUIT Diploma Admissions Online Form 2025",
+        "href": "https://sarkariresult.com.cm/muit-diploma-admissions-online-form-2025/"
+      },
+      {
+        "text": "Mathura PVT Online Form 2025 – Date Extend",
+        "href": "https://sarkariresult.com.cm/mathura-pvt-online-form-2025-date-extend/"
+      },
+      {
         "text": "PGCIL Apprentice Online Form 2026",
         "href": "https://sarkariresult.com.cm/pgcil-apprentice-2026/"
       },
@@ -538,7 +546,7 @@
       "https://sarkariresult.com.cm/nbems-various-post-2026/": {
         "jobId": 127,
         "slug": "nbems-group-a-b-c-various-post-exam-city-details-2026",
-        "processedAt": "2026-09-01T16:15:39.760Z"
+        "processedAt": "2026-09-11T16:02:41.888Z"
       },
       "https://sarkariresult.com.cm/rssb-junior-engineer-2026/": {
         "jobId": 128,
@@ -898,7 +906,7 @@
       "https://sarkariresult.com.cm/muit-diploma-admissions-online-form-2025/": {
         "jobId": 220,
         "slug": "muit-diploma-admissions-online-form-2025",
-        "processedAt": "2026-09-01T16:22:51.359Z"
+        "processedAt": "2026-09-11T16:05:10.977Z"
       },
       "https://sarkariresult.com.cm/up-child-and-women-welfare-security-guard-online-form-2026/": {
         "jobId": 221,
@@ -928,7 +936,7 @@
       "https://sarkariresult.com.cm/mathura-pvt-online-form-2025-date-extend/": {
         "jobId": 226,
         "slug": "mathura-pvt-online-form-2025-date-extend",
-        "processedAt": "2026-09-02T08:43:48.457Z"
+        "processedAt": "2026-09-11T16:07:03.321Z"
       },
       "https://sarkariresult.com.cm/nvs-class-11th-form-2027-28/": {
         "jobId": 227,
@@ -1139,6 +1147,16 @@
         "jobId": 268,
         "slug": "upsc-11-2026-various-posts-recruitment-2026",
         "processedAt": "2026-09-11T09:02:32.921Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-lekhpal-2026/": {
+        "jobId": 269,
+        "slug": "upsssc-lekhpal-2026-recruitment",
+        "processedAt": "2026-09-11T16:01:06.451Z"
+      },
+      "https://sarkariresult.com.cm/utet-2026/": {
+        "jobId": 270,
+        "slug": "uttarakhand-tet-2026-recruitment",
+        "processedAt": "2026-09-11T16:04:00.115Z"
       }
     },
     "failed": {

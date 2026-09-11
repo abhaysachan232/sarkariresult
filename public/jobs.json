@@ -10171,28 +10171,28 @@
   },
   {
     "id": 127,
-    "title": "NBEMS Group A, B & C Various Post Recruitment 2026",
+    "title": "NBEMS Group A, B & C Various Post 2026 Recruitment",
     "setPath": "nbems-group-a-b-c-various-post-exam-city-details-2026",
     "slug": "nbems-group-a-b-c-various-post-exam-city-details-2026",
-    "organization": "National Board of Examination (NBE)",
-    "date": "2026-09-01",
+    "organization": "National Board Of Examination (NBE)",
+    "date": "2026-09-11",
     "location": "",
     "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "National Board of Examination (NBE) has released the revised exam date notice on its official website for the recruitment of Group A, B & C various posts. The exam will be conducted on 15 – 16 September 2026. The last date to submit the application form was 31 July 2026. Candidates can also check their exam city details by using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below. (NBE Advt: A-12011/3/2025-Estb)",
+    "description": "National Board Of Examination (NBE) has released the admit card for the recruitment of Group A, B & C various posts. The exam will be conducted on 15 – 16 September 2026. The last date to submit the application form was 31 July 2026. Candidates can check their admit card by using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below. (NBE Advt: A-12011/3/2025-Estb)",
     "totalPost": "53",
     "importantDates": {
       "Application Begin": "2026-07-07",
       "Last Date for Apply Online": "2026-07-31",
       "Pay Exam Fee Last Date": "2026-07-31",
-      "Correction Last Date": "",
-      "Eligibility Result Available": "",
+      "Correction Last Date": "2026-02-04",
+      "Eligibility Result Available": "2026-02-26",
       "Exam Date": "2026-09-15 to 2026-09-16",
       "Exam City Available": "2026-08-18",
-      "Admit Card Available": "Before Exam"
+      "Admit Card Available": "2026-09-11"
     },
     "applicationFee": {
       "General / OBC / EWS": "1500",
@@ -10203,22 +10203,22 @@
     "ageLimit": {
       "Minimum Age": "18 Years",
       "Maximum Age": "27 – 35 Years (Post Wise)",
-      "Age Calculation Date": "20 July 2026",
+      "Age Calculation Date": "As on 20 July 2026",
       "Age Relaxation": "As per NBEMS Examination 2026"
     },
     "posts": [
-      "Stenographer",
-      "Junior Assistant",
-      "Deputy Director (Medical)",
-      "Junior Programmer",
-      "Junior Accountant"
+      "Stenographer: 07 Posts",
+      "Junior Assistant: 39 Posts",
+      "Deputy Director (Medical): 02 Posts",
+      "Junior Programmer: 01 Post",
+      "Junior Accountant: 04 Posts"
     ],
     "eligibility": [
-      "Candidates must have passed Senior Secondary (10+2) or equivalent. They should possess a shorthand speed of 80 words per minute and a typing speed of 30 words per minute. Candidates must also qualify the General English, Shorthand, and Computer Typing tests conducted by the board. Preference will be given to candidates with 2 years of experience as a stenographer in a government/public sector undertaking/autonomous body and proficiency in word processing on computers.",
-      "Candidates must have passed Senior Secondary (10+2) from a board or university recognized by the Central/State Government, Union Territory Administration, or Educational Authority. They should be proficient in computer operations and basic software packages, including Windows, network operating systems, and LAN architecture. Candidates must also qualify the examination prescribed by NBEMS.",
-      "Candidates must possess a recognized postgraduate medical qualification in the relevant specialty as per the Medical Council Act, 1956. Preference will be given to candidates having training in medical education technology and knowledge of modern assessment techniques, including preparation of MCQs/MEQs and evaluation of candidate performance.",
-      "Candidates must have a B.Tech./B.E., BCA, DOEACC ‘B’ Level or ‘C’ Level certification, or a degree in Computer Science, Information Technology, or Electronics with specialization in computers, or an equivalent qualification from a recognized institution/university.",
-      "Candidates must have a Bachelor’s degree in Commerce or a Bachelor’s degree with Mathematics or Statistics as a subject from a recognized university. Candidates must also qualify the examination prescribed by NBEMS. Preference will be given to candidates having 3 years of experience in maintaining accounts and records with knowledge of computer-based accounting in a government or similar institution."
+      "Stenographer: Candidates must have passed Senior Secondary (10+2) or equivalent. They should possess a shorthand speed of 80 words per minute and a typing speed of 30 words per minute. Candidates must also qualify the General English, Shorthand, and Computer Typing tests conducted by the Board. Preference will be given to candidates with 2 years of experience as a stenographer in a government/public sector undertaking/autonomous body and proficiency in word processing on computers.",
+      "Junior Assistant: Candidates must have passed Senior Secondary (10+2) from a board or university recognized by the Central/State Government, Union Territory Administration, or Educational Authority. They should be proficient in computer operations and basic software packages, including Windows, network operating systems, and LAN architecture. Candidates must also qualify the examination prescribed by NBEMS.",
+      "Deputy Director (Medical): Candidates must possess a recognized postgraduate medical qualification in the relevant specialty as per the Medical Council Act, 1956. Preference will be given to candidates having training in medical education technology and knowledge of modern assessment techniques, including preparation of MCQs/MEQs and evaluation of candidate performance.",
+      "Junior Programmer: Candidates must have a B.Tech./B.E., BCA, DOEACC ‘B’ Level or ‘C’ Level certification, or a degree in Computer Science, Information Technology, or Electronics with specialization in computers, or an equivalent qualification from a recognized institution/university.",
+      "Junior Accountant: Candidates must have a Bachelor’s Degree in Commerce or a Bachelor’s Degree with Mathematics or Statistics as a subject from a recognized university. Candidates must also qualify the examination prescribed by NBEMS. Preference will be given to candidates having 3 years of experience in maintaining accounts and records with knowledge of computer-based accounting in a government or similar institution."
     ],
     "selectionProcess": [
       "Paper-I",
@@ -10226,35 +10226,47 @@
       "Final Merit List"
     ],
     "jobLocation": "",
-    "howToApply": "Eligible candidates can apply online by filling out the application form through the official recruitment link available on the website. The online application process started on 07 July 2026 and ended on 31 July 2026. Candidates must complete the form and pay the required fee before the last date. After submission, candidates can check their application status on the official portal. For detailed instructions, refer to the official notification.",
+    "howToApply": "Interested candidates can apply online through the official NBEMS website. The online application process started on 07 July 2026 and the last date to apply was 31 July 2026. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying.",
     "links": {
-      "Apply Online": "https://natboard.edu.in/",
+      "Apply Online": "https://natboard.edu.in",
       "Official Notification": "Click Here"
     },
     "content": [
       {
-        "heading": "NBEMS Group A, B & C Various Post Recruitment 2026",
-        "body": "National Board of Examination (NBE) has released the revised exam date notice on its official website for the recruitment of Group A, B & C various posts. The exam will be conducted on 15 – 16 September 2026. The last date to submit the application form was 31 July 2026. Candidates can also check their exam city details by using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below. (NBE Advt: A-12011/3/2025-Estb)"
+        "heading": "NBEMS Group A, B & C Various Post 2026 Recruitment",
+        "body": "National Board Of Examination (NBE) has released the admit card for the recruitment of Group A, B & C various posts. The exam will be conducted on 15 – 16 September 2026. The last date to submit the application form was 31 July 2026. Candidates can check their admit card by using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below. (NBE Advt: A-12011/3/2025-Estb)"
       },
       {
-        "heading": "NBEMS Group A, B & C Various Post Recruitment 2026: Important Dates",
-        "body": "The key important dates for the NBEMS Group A, B & C Various Post Recruitment 2026 are as follows:\n- Online Application Start Date: 07 July 2026\n- Last Date for Online Application: 31 July 2026\n- Last Date for Fee Payment: 31 July 2026\n- Exam Date: 15 – 16 September 2026\n- Exam City Details Available: 18 August 2026\n- Admit Card Available: Before Exam\nCandidates are advised to confirm all dates and details from the NBEMS official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "heading": "NBEMS Group A, B & C Various Post 2026: Important Dates",
+        "body": "The key important dates for the NBEMS Group A, B & C various posts recruitment 2026 are as follows:\n- Online Application Start Date: 07 July 2026\n- Last Date for Online Application: 31 July 2026\n- Last Date for Fee Payment: 31 July 2026\n- Exam Date: 15 – 16 September 2026\n- Exam City Details: 18 August 2026\n- Admit Card Available: 11 September 2026\nCandidates are advised to confirm all dates and details from the NBEMS official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "NBEMS Group A, B & C Various Post Recruitment 2026: Eligibility Criteria",
-        "body": "The eligibility criteria for the NBEMS Group A, B & C Various Post Recruitment 2026 are as follows:\n- Candidates must have passed Senior Secondary (10+2) or equivalent. They should possess a shorthand speed of 80 words per minute and a typing speed of 30 words per minute. Candidates must also qualify the General English, Shorthand, and Computer Typing tests conducted by the board. Preference will be given to candidates with 2 years of experience as a stenographer in a government/public sector undertaking/autonomous body and proficiency in word processing on computers.\n- Candidates must have passed Senior Secondary (10+2) from a board or university recognized by the Central/State Government, Union Territory Administration, or Educational Authority. They should be proficient in computer operations and basic software packages, including Windows, network operating systems, and LAN architecture. Candidates must also qualify the examination prescribed by NBEMS.\n- Candidates must possess a recognized postgraduate medical qualification in the relevant specialty as per the Medical Council Act, 1956. Preference will be given to candidates having training in medical education technology and knowledge of modern assessment techniques, including preparation of MCQs/MEQs and evaluation of candidate performance.\n- Candidates must have a B.Tech./B.E., BCA, DOEACC ‘B’ Level or ‘C’ Level certification, or a degree in Computer Science, Information Technology, or Electronics with specialization in computers, or an equivalent qualification from a recognized institution/university.\n- Candidates must have a Bachelor’s degree in Commerce or a Bachelor’s degree with Mathematics or Statistics as a subject from a recognized university. Candidates must also qualify the examination prescribed by NBEMS. Preference will be given to candidates having 3 years of experience in maintaining accounts and records with knowledge of computer-based accounting in a government or similar institution.\nCandidates are advised to thoroughly read the official notification before applying."
+        "heading": "NBEMS Group A, B & C Various Post 2026: Application Fee",
+        "body": "The application fee for the NBEMS Group A, B & C various posts recruitment 2026 is as follows:\n- For General, OBC, EWS: ₹1500/- (including 18% GST)\n- For SC / ST / PH / Female: ₹0/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 31 July 2026."
       },
       {
-        "heading": "NBEMS Group A, B & C Various Post Recruitment 2026: Vacancy Details",
-        "body": "The total vacancy for the NBEMS Group A, B & C Various Post Recruitment 2026 is 53 posts, distributed as follows:\n\nPost Name\tNo. Of Post\nStenographer\t07\nJunior Assistant\t39\nDeputy Director (Medical)\t02\nJunior Programmer\t01\nJunior Accountant\t04\nCandidates are advised to check the official notification for detailed post-wise information and eligibility."
+        "heading": "NBEMS Group A, B & C Various Post 2026: Age Limit",
+        "body": "The age limit for candidates applying for the NBEMS Group A, B & C various posts recruitment 2026 is as follows: Minimum age is 18 years and the maximum age is 27 – 35 years (post-wise) as on 20 July 2026. Age relaxation is provided as per NBEMS examination 2026. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "NBEMS Group A, B & C Various Post Recruitment 2026: Mode of Selection",
-        "body": "The selection process for the NBEMS Group A, B & C Various Post Recruitment 2026 consists of the following stages:\n- Paper-I\n- Paper-II\n- Final Merit List\nCandidates will be selected based on their performance in Paper-I, Paper-II, and the final merit list as per the rules and regulations of NBEMS."
+        "heading": "NBEMS Group A, B & C Various Post 2026: Vacancy Details",
+        "body": "The vacancy details for the NBEMS Group A, B & C various posts recruitment 2026 are as follows:\n- Total Posts: 53\n- Post-wise Breakdown:\n - Stenographer: 07 Posts\n - Junior Assistant: 39 Posts\n - Deputy Director (Medical): 02 Posts\n - Junior Programmer: 01 Post\n - Junior Accountant: 04 Posts\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "NBEMS Group A, B & C Various Post 2026: Education Qualification",
+        "body": "The eligibility criteria for the NBEMS Group A, B & C various posts recruitment 2026 are as follows:\n- Stenographer: Candidates must have passed Senior Secondary (10+2) or equivalent. They should possess a shorthand speed of 80 words per minute and a typing speed of 30 words per minute. Candidates must also qualify the General English, Shorthand, and Computer Typing tests conducted by the Board. Preference will be given to candidates with 2 years of experience as a stenographer in a government/public sector undertaking/autonomous body and proficiency in word processing on computers.\n- Junior Assistant: Candidates must have passed Senior Secondary (10+2) from a board or university recognized by the Central/State Government, Union Territory Administration, or Educational Authority. They should be proficient in computer operations and basic software packages, including Windows, network operating systems, and LAN architecture. Candidates must also qualify the examination prescribed by NBEMS.\n- Deputy Director (Medical): Candidates must possess a recognized postgraduate medical qualification in the relevant specialty as per the Medical Council Act, 1956. Preference will be given to candidates having training in medical education technology and knowledge of modern assessment techniques, including preparation of MCQs/MEQs and evaluation of candidate performance.\n- Junior Programmer: Candidates must have a B.Tech./B.E., BCA, DOEACC ‘B’ Level or ‘C’ Level certification, or a degree in Computer Science, Information Technology, or Electronics with specialization in computers, or an equivalent qualification from a recognized institution/university.\n- Junior Accountant: Candidates must have a Bachelor’s Degree in Commerce or a Bachelor’s Degree with Mathematics or Statistics as a subject from a recognized university. Candidates must also qualify the examination prescribed by NBEMS. Preference will be given to candidates having 3 years of experience in maintaining accounts and records with knowledge of computer-based accounting in a government or similar institution.\nCandidates are advised to verify all eligibility details from the official notification before applying."
+      },
+      {
+        "heading": "How To Apply for NBEMS Group A, B & C Various Post 2026",
+        "body": "Interested candidates can apply online through the official NBEMS website. The online application process started on 07 July 2026 and the last date to apply was 31 July 2026. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying."
+      },
+      {
+        "heading": "NBEMS Group A, B & C Various Post 2026: Mode of Selection",
+        "body": "The selection process for the NBEMS Group A, B & C various posts recruitment 2026 consists of the following stages:\n- Paper-I\n- Paper-II\n- Final Merit List\nCandidates are advised to prepare thoroughly for the papers and ensure they meet the eligibility criteria before applying."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. How can I check the NBEMS Group A, B & C Exam City Details 2026?\nA: Candidates can check their exam city details through the official NBEMS website and the recruitment/examination portal.\n\nQ. What details are required to check the NBEMS Exam City Details?\nA: Candidates should use their Application Number, Date of Birth, Password, or other required login details to access the city information.\n\nQ. What information is mentioned in the NBEMS Exam City Intimation Slip?\nA: The slip generally provides details about the allotted examination city and examination-related information.\n\nQ. Is the NBEMS Exam City Intimation Slip the admit card?\nA: No. The Exam City Intimation Slip is different from the admit card. The exact examination venue is generally provided through the admit card.\n\nQ. What is the official website for NBEMS?\nA: The official website for NBEMS is https://natboard.edu.in/"
+        "body": "Q. How Can I Check The NBEMS Group A, B & C Admit Card 2026?\nA: Candidates Can Check Their Admit Card Through The Official NBEMS Website And The Recruitment/Examination Portal.\n\nQ. What Details Are Required To Check The NBEMS Admit Card?\nA: Candidates Should Use Their Application Number, Date Of Birth, Password, Or Other Required Login Details To Access The Admit Card.\n\nQ. What Information Is Mentioned In The NBEMS Exam City Intimation Slip?\nA: The Slip Generally Provides Details About The Allotted Examination City And Examination-Related Information.\n\nQ. Is The NBEMS Exam City Intimation Slip The Admit Card?\nA: No. The Exam City Intimation Slip Is Different From The Admit Card. The Exact Examination Venue Is Generally Provided Through The Admit Card.\n\nQ. What Is The Official Website For NBEMS?\nA: The Official Website For NBEMS Is https://natboard.edu.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -10262,11 +10274,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "NBEMS Group A, B & C Various Post Recruitment 2026",
-      "metaDescription": "NBEMS Group A, B & C Various Post Recruitment 2026: Check Application Dates, Eligibility, Posts, How to Apply, Exam Date, Admit Card, Result, Official Website. Total Posts: 53. Application Start: 07 July 2026. Last Date: 31 July 2026. Age Limit: 18 years minimum, 27–35 years maximum (post-wise) as on 20 July 2026. Application Fee: ₹1500 (General/OBC/EWS), ₹0 (SC/ST/PH). Official Website: https://natboard.edu.in/",
-      "keywords": "NBEMS Group A B C Various Post Recruitment 2026, NBEMS Group A B C Application 2026, NBEMS Group A B C Vacancy 2026, NBEMS Group A B C Eligibility 2026, NBEMS Group A B C How to Apply 2026, NBEMS Group A B C Exam Date 2026, NBEMS Group A B C Result 2026, NBEMS Group A B C Official Website 2026"
+      "metaTitle": "NBEMS Group A, B & C Various Post 2026 Recruitment",
+      "metaDescription": "NBEMS Group A, B & C Various Post 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 53. Application Fee: ₹1500/- (General, OBC, EWS), ₹0/- (SC, ST, PH, Female). Application Start: 07 July 2026. Last Date: 31 July 2026. Exam Date: 15–16 September 2026. Official Website: https://natboard.edu.in/",
+      "keywords": "NBEMS Group A B C Various Post 2026 Recruitment, NBEMS Application Date, NBEMS Age Limit, NBEMS Eligibility, NBEMS Application Fee, NBEMS Official Website, NBEMS Vacancy Details"
     },
-    "updatedon": "2026-09-01"
+    "updatedon": "2026-09-11"
   },
   {
     "id": 128,
@@ -19257,10 +19269,10 @@
   },
   {
     "id": 220,
-    "title": "MUIT Diploma Admissions Online Form 2025",
+    "title": "MUIT Diploma Admissions 2025",
     "setPath": "muit-diploma-admissions-online-form-2025",
     "slug": "muit-diploma-admissions-online-form-2025",
-    "organization": "Maharishi University of Management (MUIT)",
+    "organization": "Maharshi University of Management and Technology (MUIT)",
     "date": "2025-05-21",
     "location": "",
     "state": "",
@@ -19268,22 +19280,22 @@
     "category": "latest-jobs",
     "year": "2025",
     "Type": "",
-    "description": "Maharishi University MUIT Lucknow And Noida Campus, The Official Website Has Released A Notification For The Admission To The MUIT Noida And Lucknow Campus Has Released The Part Time And Full Time Diploma Courses Admissions 2025. The MUIT Application Form Started On 19th May 2025, And Candidates Can Fill Out The Form Until 15th June 2025. Candidates Must Check The Complete Details For The MUIT Diploma Admissions Online Form 2025, Which Are Given Below.",
+    "description": "Maharshi University of Management and Technology (MUIT) has released the online application form for diploma courses at its Noida and Lucknow campuses for the year 2025. The application process started on 19 May 2025 and the last date to apply was 15 June 2025. Candidates must have passed 10+2 with at least 35% marks for the general category and 33% for SC/ST/PWD categories. The application fee is ₹200/- for General, OBC, and EWS categories and ₹200/- for SC/ST categories. Payment can be made online via debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The exam date will be notified soon. Admission will be based on an entrance test, merit-based selection, counselling, and final admission.",
     "totalPost": "NA",
     "importantDates": {
       "Application Begin": "2025-05-19",
       "Last Date for Apply Online": "2025-06-15",
       "Pay Exam Fee Last Date": "2025-06-16",
-      "Correction Last Date": "",
-      "Eligibility Result Available": "",
+      "Correction Last Date": "2026-08-11",
+      "Eligibility Result Available": "2026-02-26",
       "Exam Date": "Notified Soon",
-      "Exam City Available": "",
-      "Admit Card Available": "Will Be Updated Here Soon"
+      "Exam City Available": "2026-05-11",
+      "Admit Card Available": "2026-09-09"
     },
     "applicationFee": {
-      "General / OBC / EWS": "200/-",
-      "SC / ST": "200/-",
-      "PH (Divyang)": "",
+      "General / OBC / EWS": "200",
+      "SC / ST": "200",
+      "PH (Divyang)": "25",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
@@ -19297,8 +19309,8 @@
       "Diploma (Evening)"
     ],
     "eligibility": [
-      "Candidates Must Have Passed 10+2 With At Least 35% Marks For General Category And 33% Marks For SC/ST/PWD Categories.",
-      "Available Trades Include: Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics Engineering, And Computer Science Engineering."
+      "Candidates must have passed 10+2 with at least 35% marks for the general category and 33% marks for SC/ST/PWD categories.",
+      "Available trades include: Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics Engineering, and Computer Science Engineering."
     ],
     "selectionProcess": [
       "Entrance Test",
@@ -19307,39 +19319,47 @@
       "Final Admission"
     ],
     "jobLocation": "",
-    "howToApply": "Interested Candidates Who Wish To Fill For The MUIT Post Can Submit Their Application Online Before 15 June 2025. Use The Click Here Link Provided Below Under Important Link Section To Apply Directly. Alternatively, Visit The Official Website Of MUIT To Complete The Application Process Online. Make Sure To Complete The Application Before The Deadline 15 June 2025.",
+    "howToApply": "Interested candidates can apply online through the official MUIT website. The online application process started on 19 May 2025 and the last date to apply was 15 June 2025. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying.",
     "links": {
-      "Apply Online": "https://allduniv.ac.in/",
-      "Official Notification": "https://sssc.uk.gov.in"
+      "Apply Online": "https://ukutet.com/",
+      "Official Notification": "Click Here"
     },
     "content": [
       {
-        "heading": "MUIT Diploma Admissions Online Form 2025",
-        "body": "Maharishi University MUIT Lucknow And Noida Campus, The Official Website Has Released A Notification For The Admission To The MUIT Noida And Lucknow Campus Has Released The Part Time And Full Time Diploma Courses Admissions 2025. The MUIT Application Form Started On 19th May 2025, And Candidates Can Fill Out The Form Until 15th June 2025. Candidates Must Check The Complete Details For The MUIT Diploma Admissions Online Form 2025, Which Are Given Below."
+        "heading": "MUIT Diploma Admissions 2025",
+        "body": "Maharshi University of Management and Technology (MUIT) has released the online application form for diploma courses at its Noida and Lucknow campuses for the year 2025. The application process started on 19 May 2025 and the last date to apply was 15 June 2025. Candidates must have passed 10+2 with at least 35% marks for the general category and 33% for SC/ST/PWD categories. The application fee is ₹200/- for General, OBC, and EWS categories and ₹200/- for SC/ST categories. Payment can be made online via debit card, credit card, internet banking, IMPS, or cash card/mobile wallet. The exam date will be notified soon. Admission will be based on an entrance test, merit-based selection, counselling, and final admission."
       },
       {
-        "heading": "MUIT Diploma Admissions Online Form 2025: Important Dates",
-        "body": "The key important dates for the MUIT Diploma Admissions Online Form 2025 are as follows:\n- Online Application Start Date: 19 May 2025\n- Last Date for Online Application: 15 June 2025\n- Last Date to Pay Exam Fee: 16 June 2025\n- Exam Date: Notified Soon\n- Merit List Declared Date: Will Be Updated Here Soon\nCandidates are advised to confirm all dates and details from the MUIT official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "heading": "MUIT Diploma Admissions 2025: Important Dates",
+        "body": "The key important dates for the MUIT Diploma Admissions 2025 are as follows:\n- Online Application Start Date: 19 May 2025\n- Last Date for Online Application: 15 June 2025\n- Last Date for Online Payment: 16 June 2025\n- Exam Date: Notified Soon\n- Merit List Declared Date: Will be updated soon\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "MUIT Diploma Admissions Online Form 2025: Application Fee",
-        "body": "The application fee for the MUIT Diploma Admissions Online Form 2025 is as follows:\n- For General, OBC, and EWS candidates: ₹200/-\n- For SC and ST candidates: ₹200/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, and Cash Card / Mobile Wallet."
+        "heading": "MUIT Diploma Admissions 2025: Application Fee",
+        "body": "The application fee for the MUIT Diploma Admissions 2025 is as follows:\n- For General / OBC / EWS: ₹200/-\n- For SC / ST: ₹200/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 16 June 2025."
       },
       {
-        "heading": "MUIT Diploma Admissions Online Form 2025: Eligibility Criteria",
-        "body": "The eligibility criteria for the MUIT Diploma Admissions Online Form 2025 are as follows:\n- Candidates Must Have Passed 10+2 With At Least 35% Marks For General Category And 33% Marks For SC/ST/PWD Categories.\n- Available Trades Include: Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics Engineering, And Computer Science Engineering.\nCandidates must have completed their 10+2 (Intermediate) or High School Level Exam with English and Hindi as compulsory subjects. For more details, refer to the official notification."
+        "heading": "MUIT Diploma Admissions 2025: Age Limit",
+        "body": "The age limit for candidates applying for the MUIT Diploma Admissions 2025 is as per MUIT rules. The maximum age is not specified in the notification. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "MUIT Diploma Admissions Online Form 2025: Selection Process",
-        "body": "The selection process for the MUIT Diploma Admissions Online Form 2025 includes the following steps:\n- Entrance Test\n- Merit Based Selection\n- Counselling\n- Final Admission\nCandidates who qualify in the entrance test and meet the merit criteria will be shortlisted for counselling and final admission."
+        "heading": "MUIT Diploma Admissions 2025: Vacancy Details",
+        "body": "The vacancy details for the MUIT Diploma Admissions 2025 are as follows:\n- Total Posts: Not available (NA)\n- Post-wise Breakdown:\n - Diploma Courses (Part Time): Not specified\n - Diploma (Evening): Not specified\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
       },
       {
-        "heading": "How To Fill MUIT Diploma Admissions Online Form 2025",
-        "body": "Interested Candidates Who Wish To Fill For The MUIT Post Can Submit Their Application Online Before 15 June 2025. Use The Click Here Link Provided Below Under Important Link Section To Apply Directly. Alternatively, Visit The Official Website Of MUIT To Complete The Application Process Online. Make Sure To Complete The Application Before The Deadline 15 June 2025."
+        "heading": "MUIT Diploma Admissions 2025: Education Qualification",
+        "body": "The eligibility criteria for the MUIT Diploma Admissions 2025 are as follows:\n- Candidates must have passed 10+2 with at least 35% marks for the general category and 33% marks for SC/ST/PWD categories.\n- Available trades include: Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics Engineering, and Computer Science Engineering.\nCandidates are advised to verify all eligibility details from the official notification before applying."
+      },
+      {
+        "heading": "How To Apply for MUIT Diploma Admissions 2025",
+        "body": "Interested candidates can apply online through the official MUIT website. The online application process started on 19 May 2025 and the last date to apply was 15 June 2025. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying."
+      },
+      {
+        "heading": "MUIT Diploma Admissions 2025: Mode of Selection",
+        "body": "The selection process for the MUIT Diploma Admissions 2025 consists of the following stages:\n- Entrance Test\n- Merit Based Selection\n- Counselling\n- Final Admission\nCandidates are advised to prepare thoroughly for the entrance test and ensure they meet the eligibility criteria before applying."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When Will The Online Application For MUIT Diploma Admissions Online Form 2025 Start?\nA: The Online Application For This Exam Has Started On 19 May 2025.\n\nQ. What Is The Last Date For MUIT Diploma Admissions Online Form 2025?\nA: The Last Date To Apply Online For This Exam Is 15 June 2025.\n\nQ. What Is The Age Limit For MUIT Diploma Admissions Online Form 2025?\nA: The Age Limit For Candidates Applying For This Exam Is As Per The MUIT Diploma Admissions Rules. For Detailed Age-Related Information, Refer To The Official Notification.\n\nQ. What Is The Eligibility For MUIT Diploma Admissions Online Form 2025?\nA: Candidates Must Have Passed 10+2 With At Least 35% Marks For General Category And 33% Marks For SC/ST/PWD Categories.\n\nQ. What Is The Official Website Of MUIT?\nA: The Official Website Of MUIT Is https://www.maharishiuniversity.ac.in/."
+        "body": "Q. When Will The Online Application For MUIT Diploma Admissions Online Form 2025 Start?\nA: The Online Application For This Exam Has Started On 19 May 2025.\n\nQ. What Is The Last Date For MUIT Diploma Admissions Online Form 2025?\nA: The Last Date To Apply Online For This Exam Is 15 June 2025.\n\nQ. What Is The Age Limit For MUIT Diploma Admissions Online Form 2025?\nA: The Age Limit For Candidates Applying For This Exam Is As Per The MUIT Diploma Admissions Rules. For Detailed Age-Related Information, Refer To The Official Notification.\n\nQ. What Is The Eligibility For MUIT Diploma Admissions Online Form 2025?\nA: Candidates Must Have Passed 10+2 With At Least 35% Marks For General Category And 33% Marks For SC/ST/PWD Categories.\n\nQ. What Is The Official Website Of MUIT?\nA: The Official Website Of MUIT Is https://www.maharishiuniversity.ac.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -19347,11 +19367,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "MUIT Diploma Admissions Online Form 2025",
-      "metaDescription": "MUIT Diploma Admissions Online Form 2025: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 19 May 2025. Last Date: 15 June 2025. Application Fee: General/OBC/EWS - ₹200, SC/ST - ₹200. Eligibility: 10+2 with 35% (General) or 33% (SC/ST/PWD). Selection Process: Entrance Test, Merit Based, Counselling, Final Admission. Official Website: https://www.maharishiuniversity.ac.in/",
-      "keywords": "MUIT Diploma Admissions 2025, MUIT Online Form 2025, MUIT Eligibility 2025, MUIT Application Fee 2025, MUIT How to Apply 2025, MUIT Selection Process 2025, MUIT Official Website 2025"
+      "metaTitle": "MUIT Diploma Admissions 2025",
+      "metaDescription": "MUIT Diploma Admissions 2025: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Application Start: 19 May 2025. Last Date: 15 June 2025. Application Fee: ₹200/- (General, OBC, EWS), ₹200/- (SC/ST). Official Website: https://www.maharishiuniversity.ac.in/",
+      "keywords": "MUIT Diploma Admissions 2025, MUIT Application Date, MUIT Eligibility, MUIT Age Limit, MUIT Application Fee, MUIT Official Website, MUIT Exam Date"
     },
-    "updatedon": "2026-09-01"
+    "updatedon": "2026-09-11"
   },
   {
     "id": 221,
@@ -19866,7 +19886,7 @@
   },
   {
     "id": 226,
-    "title": "Mathura PVT Online Form 2025 Date Extend",
+    "title": "Mathura PVT Online Form 2025",
     "setPath": "mathura-pvt-online-form-2025-date-extend",
     "slug": "mathura-pvt-online-form-2025-date-extend",
     "organization": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU",
@@ -19877,28 +19897,28 @@
     "category": "latest-jobs",
     "year": "2025",
     "Type": "",
-    "description": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU Has Released A Notification On Its Official Website For The Mathura PVT DUVASU UG / PG / Diploma And PhD 2025 Online Application For Admission 2025. Mathura PVT Application Form Has Started On 20 February 2025 & The Candidates Can Fill The Form Till The 20 May 2025 (Extended). Candidates Must Check The Complete Details For Mathura PVT Online Form 2025 Which Has Given Below.",
+    "description": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU has released a notification for the Mathura PVT 2025 online application for admission to UG/PG/Diploma and PhD programs. The online application process started on 20 February 2025 and the last date to apply was extended to 20 May 2025. The UGEE exam is scheduled for 15 June 2025, DEE for 29 June 2025, and PGEE for 20 July 2025. Admission will be based on entrance exams and merit-based selection. Candidates must check the official notification for detailed eligibility and other requirements.",
     "totalPost": "NA",
     "importantDates": {
       "Application Begin": "2025-02-20",
       "Last Date for Apply Online": "2025-05-20",
       "Pay Exam Fee Last Date": "2025-05-20",
-      "Correction Last Date": "",
-      "Eligibility Result Available": "",
-      "Exam Date": "Notify Later",
-      "Exam City Available": "",
+      "Correction Last Date": "2026-08-11",
+      "Eligibility Result Available": "2026-02-26",
+      "Exam Date": "2026-09-29",
+      "Exam City Available": "2026-05-11",
       "Admit Card Available": "Before Exam"
     },
     "applicationFee": {
-      "General / OBC / EWS": "225",
-      "SC / ST": "50",
-      "PH (Divyang)": "",
+      "General / OBC / EWS": "600",
+      "SC / ST": "300",
+      "PH (Divyang)": "25",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
       "Minimum Age": "",
-      "Maximum Age": "As Per The Mathura PVT Rules",
-      "Age Calculation Date": "",
+      "Maximum Age": "",
+      "Age Calculation Date": "As per Mathura PVT Rules",
       "Age Relaxation": ""
     },
     "posts": [
@@ -19911,13 +19931,13 @@
       "Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences"
     ],
     "eligibility": [
-      "Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology/Biotechnology, And English Are Eligible for B.V.Sc & A.H Programme.",
-      "Candidates Who Have Passed Or Are Appearing In B.V.Sc. & A.H. Are Eligible for M.V.Sc And Ph.D (Veterinary Science) Programme. For Doctorate Programs, A M.V.Sc. Degree In The Relevant Subject Is Required.",
-      "Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology/Mathematics, And English. General/OBC Category: Minimum 60% Marks. SC/ST Category: Minimum 55% Marks for B.Tech Biotechnology.",
-      "Candidates Should Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology Or Mathematics, And English. General/OBC: Minimum 60% Marks. SC/ST: Minimum 55% Marks for Bachelor Of Technology (Diary Technology).",
-      "Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology, And English. General/OBC: At Least 60% Marks. SC/ST: At Least 55% Marks for Bachelor Of Fisheries Science.",
-      "Candidates Applying For M.Sc Must Have A Bachelor’s Degree In Life Sciences Or Biological Sciences. For M.V.Sc, A Degree In Veterinary Science Is Required. M.Tech Applicants Should Have A 4-Year Engineering Degree With Biology Or A Related Subject Studied At 10+2 Or Later. For Doctorate Programs, Candidates Need A Master’s Degree (M.Sc/M.Tech In A Relevant Science Field Or M.V.Sc). General/OBC Candidates Must Have At Least 60% Marks, And SC/ST Candidates Need 55% for M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology).",
-      "Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology, And English Are Eligible for Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences. General/OBC: Minimum 50% Marks. SC/ST: Minimum 45% Marks."
+      "B.V.Sc & A.H Programme: Candidates who have passed or are appearing in 10+2 (Intermediate) with Physics, Chemistry, Biology/Biotechnology, and English are eligible.",
+      "M.V.Sc And Ph.D (Veterinary Science) Programme: Candidates who have passed or are appearing in B.V.Sc & A.H are eligible. For doctorate programs, a M.V.Sc degree in the relevant subject is required.",
+      "B.Tech Biotechnology: Candidates must have passed 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology/Mathematics, and English. General/OBC category: minimum 60% marks; SC/ST category: minimum 55% marks.",
+      "Bachelor Of Technology (Diary Technology): Candidates should have passed 10+2 or equivalent with Physics, Chemistry, Biology or Mathematics, and English. General/OBC: minimum 60% marks; SC/ST: minimum 55% marks.",
+      "Bachelor Of Fisheries Science: Candidates must have passed 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English. General/OBC: at least 60% marks; SC/ST: at least 55% marks.",
+      "M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology): Candidates applying for M.Sc must have a Bachelor’s degree in Life Sciences or Biological Sciences. For M.V.Sc, a degree in Veterinary Science is required. M.Tech applicants should have a 4-year engineering degree with Biology or a related subject studied at 10+2 or later. For doctorate programs, candidates need a Master’s degree (M.Sc/M.Tech in a relevant science field or M.V.Sc). General/OBC candidates must have at least 60% marks, and SC/ST candidates need 55%.",
+      "Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences: Candidates who have passed or are appearing in 10+2 (Intermediate) with Physics, Chemistry, Biology, and English are eligible. General/OBC: minimum 50% marks; SC/ST: minimum 45% marks."
     ],
     "selectionProcess": [
       "Entrance Exam",
@@ -19925,40 +19945,44 @@
       "Reservation Policy",
       "Counseling Programme"
     ],
-    "jobLocation": "Bareilly, Gorakhpur, Jhansi, Kanpur, Lucknow, Mathura, Meerut, Prayagraj, And Varanasi",
-    "howToApply": "Interested candidates who wish to fill for the Mathura PVT post can submit their application online before 20 May 2025. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of Mathura PVT to complete the application process online. Make sure to complete the application before the deadline 20 May 2025.",
+    "jobLocation": "Bareilly, Gorakhpur, Jhansi, Kanpur, Lucknow, Mathura, Meerut, Prayagraj, Varanasi",
+    "howToApply": "Interested candidates can apply online through the official website of UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU. The online application process started on 20 February 2025 and the last date to apply was extended to 20 May 2025. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying.",
     "links": {
       "Apply Online": "https://www.upvetuniv.edu.in/",
-      "Official Notification": "https://esb.mp.gov.in/e_default.html"
+      "Official Notification": "Click Here"
     },
     "content": [
       {
-        "heading": "Mathura PVT Online Form 2025 Date Extend",
-        "body": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU Has Released A Notification On Its Official Website For The Mathura PVT DUVASU UG / PG / Diploma And PhD 2025 Online Application For Admission 2025. Mathura PVT Application Form Has Started On 20 February 2025 & The Candidates Can Fill The Form Till The 20 May 2025 (Extended). Candidates Must Check The Complete Details For Mathura PVT Online Form 2025 Which Has Given Below."
+        "heading": "Mathura PVT Online Form 2025",
+        "body": "UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU has released a notification for the Mathura PVT 2025 online application for admission to UG/PG/Diploma and PhD programs. The online application process started on 20 February 2025 and the last date to apply was extended to 20 May 2025. The UGEE exam is scheduled for 15 June 2025, DEE for 29 June 2025, and PGEE for 20 July 2025. Admission will be based on entrance exams and merit-based selection. Candidates must check the official notification for detailed eligibility and other requirements."
       },
       {
-        "heading": "Mathura PVT Online Form 2025: Important Dates",
-        "body": "The key important dates for the Mathura PVT Online Form 2025 are as follows:\n- Online Application Start Date: 20 February 2025\n- Last Date for Online Application: 20 May 2025\n- Last Date for Online Payment: 20 May 2025\n- UGEE Exam Date: 15 June 2025\n- DEE Exam Date: 29 June 2025\n- PGEE Exam Date: 20 July 2025\n- Admit Card: Available Before Exam\n- Result Declared: Will Be Updated Here Soon\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "heading": "Mathura PVT 2025: Important Dates",
+        "body": "The key important dates for the Mathura PVT 2025 admission are as follows:\n- Online Application Start Date: 20 February 2025\n- Last Date for Online Application: 20 May 2025\n- Last Date for Online Payment: 20 May 2025\n- UGEE Exam Date: 15 June 2025\n- DEE Exam Date: 29 June 2025\n- PGEE Exam Date: 20 July 2025\n- Admit Card Available: Before Exam\n- Result Declared: Will be updated here soon\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "Mathura PVT Online Form 2025: Application Fee",
-        "body": "The application fee for the Mathura PVT Online Form 2025 is as follows:\n- General / OBC: ₹ 1800/-\n- SC / ST / PH: ₹ 1800/-\nPayment can be made online through the following modes: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 20 May 2025."
+        "heading": "Mathura PVT 2025: Application Fee",
+        "body": "The application fee for the Mathura PVT 2025 admission is as follows:\n- For General / OBC: ₹1800/-\n- For SC / ST / PH: ₹1800/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 20 May 2025."
       },
       {
-        "heading": "Mathura PVT Online Form 2025: Age Limit",
-        "body": "The age limit for candidates applying for this recruitment is as follows:\n- Minimum Age: Not specified\n- Maximum Age: As per the Mathura PVT Rules\nAge relaxation will be provided as per the rules of Mathura PVT. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+        "heading": "Mathura PVT 2025: Age Limit",
+        "body": "The age limit for candidates applying for the Mathura PVT 2025 admission is not specified in the notification. The age eligibility is as per Mathura PVT entrance test rules. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "Mathura PVT Online Form 2025: Vacancy Details",
-        "body": "The vacancy details for the Mathura PVT Online Form 2025 are as follows:\n- B.V.Sc & A.H Programme\n- M.V.Sc And Ph.D (Veterinary Science) Programme\n- B.Tech Biotechnology\n- Bachelor Of Technology (Diary Technology)\n- Bachelor Of Fisheries Science\n- M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology)\n- Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences\nThe positions are available across the state, and candidates are expected to apply through the official portal for selection."
+        "heading": "Mathura PVT 2025: Vacancy Details",
+        "body": "The vacancy details for the Mathura PVT 2025 admission are as follows:\n- Total Posts: Not specified\n- Post-wise Breakdown:\n - B.V.Sc & A.H Programme: Not specified\n - M.V.Sc And Ph.D (Veterinary Science) Programme: Not specified\n - B.Tech Biotechnology: Not specified\n - Bachelor Of Technology (Diary Technology): Not specified\n - Bachelor Of Fisheries Science: Not specified\n - M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology): Not specified\n - Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences: Not specified\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
       },
       {
-        "heading": "Mathura PVT Online Form 2025: Education Qualification",
-        "body": "The eligibility criteria for the Mathura PVT Online Form 2025 are as follows:\n- Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology/Biotechnology, And English Are Eligible for B.V.Sc & A.H Programme.\n- Candidates Who Have Passed Or Are Appearing In B.V.Sc. & A.H. Are Eligible for M.V.Sc And Ph.D (Veterinary Science) Programme. For Doctorate Programs, A M.V.Sc. Degree In The Relevant Subject Is Required.\n- Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology/Mathematics, And English. General/OBC Category: Minimum 60% Marks. SC/ST Category: Minimum 55% Marks for B.Tech Biotechnology.\n- Candidates Should Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology Or Mathematics, And English. General/OBC: Minimum 60% Marks. SC/ST: Minimum 55% Marks for Bachelor Of Technology (Diary Technology).\n- Candidates Must Have Passed 10+2 Or Equivalent With Physics, Chemistry, Biology/Biotechnology, And English. General/OBC: At Least 60% Marks. SC/ST: At Least 55% Marks for Bachelor Of Fisheries Science.\n- Candidates Applying For M.Sc Must Have A Bachelor’s Degree In Life Sciences Or Biological Sciences. For M.V.Sc, A Degree In Veterinary Science Is Required. M.Tech Applicants Should Have A 4-Year Engineering Degree With Biology Or A Related Subject Studied At 10+2 Or Later. For Doctorate Programs, Candidates Need A Master’s Degree (M.Sc/M.Tech In A Relevant Science Field Or M.V.Sc). General/OBC Candidates Must Have At Least 60% Marks, And SC/ST Candidates Need 55% for M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology).\n- Candidates Who Have Passed Or Are Appearing In 10+2 (Intermediate) With Physics, Chemistry, Biology, And English Are Eligible for Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences. General/OBC: Minimum 50% Marks. SC/ST: Minimum 45% Marks.\nAll candidates must read the official information carefully before applying."
+        "heading": "Mathura PVT 2025: Education Qualification",
+        "body": "The eligibility criteria for the Mathura PVT 2025 admission are as follows:\n- B.V.Sc & A.H Programme: Candidates who have passed or are appearing in 10+2 (Intermediate) with Physics, Chemistry, Biology/Biotechnology, and English are eligible.\n- M.V.Sc And Ph.D (Veterinary Science) Programme: Candidates who have passed or are appearing in B.V.Sc & A.H are eligible. For doctorate programs, a M.V.Sc degree in the relevant subject is required.\n- B.Tech Biotechnology: Candidates must have passed 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology/Mathematics, and English. General/OBC category: minimum 60% marks; SC/ST category: minimum 55% marks.\n- Bachelor Of Technology (Diary Technology): Candidates should have passed 10+2 or equivalent with Physics, Chemistry, Biology or Mathematics, and English. General/OBC: minimum 60% marks; SC/ST: minimum 55% marks.\n- Bachelor Of Fisheries Science: Candidates must have passed 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English. General/OBC: at least 60% marks; SC/ST: at least 55% marks.\n- M.Sc (Biotechnology) / M.V.Sc (Biotechnology) / Ph.D (Biotechnology): Candidates applying for M.Sc must have a Bachelor’s degree in Life Sciences or Biological Sciences. For M.V.Sc, a degree in Veterinary Science is required. M.Tech applicants should have a 4-year engineering degree with Biology or a related subject studied at 10+2 or later. For doctorate programs, candidates need a Master’s degree (M.Sc/M.Tech in a relevant science field or M.V.Sc). General/OBC candidates must have at least 60% marks, and SC/ST candidates need 55%.\n- Diploma In Veterinary Pharmacy & Livestock Extension In Institute Of Para-Veterinary Sciences: Candidates who have passed or are appearing in 10+2 (Intermediate) with Physics, Chemistry, Biology, and English are eligible. General/OBC: minimum 50% marks; SC/ST: minimum 45% marks.\nCandidates are advised to verify all eligibility details from the official notification before applying."
       },
       {
-        "heading": "How To Fill Mathura PVT Admission 2025 Online Form",
-        "body": "Interested candidates who wish to fill for the Mathura PVT post can submit their application online before 20 May 2025. Use the Click Here link provided below under the important link section to apply directly. Alternatively, visit the official website of Mathura PVT to complete the application process online. Make sure to complete the application before the deadline 20 May 2025."
+        "heading": "How To Apply for Mathura PVT 2025",
+        "body": "Interested candidates can apply online through the official website of UP Pt. Deen Dayal Upadhyaya Pashu Chikitsa, Mathura DUVASU. The online application process started on 20 February 2025 and the last date to apply was extended to 20 May 2025. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying."
+      },
+      {
+        "heading": "Mathura PVT 2025: Mode of Selection",
+        "body": "The selection process for the Mathura PVT 2025 admission consists of the following stages:\n- Entrance Exam\n- Merit-Based Admission\n- Reservation Policy\n- Counseling Programme\nCandidates are advised to prepare thoroughly for the entrance exams and ensure they meet the eligibility criteria before applying."
       },
       {
         "heading": "Important Questions and Answers",
@@ -19970,11 +19994,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "Mathura PVT Online Form 2025 Date Extend",
-      "metaDescription": "Mathura PVT Online Form 2025 Date Extend: Check Application Dates, Eligibility, Application Fee, How to Apply, Selection Process, Official Website. Application Start: 20 February 2025. Last Date: 20 May 2025. Age Limit: As Per Mathura PVT Rules. Eligibility: 10+2 with Physics, Chemistry, Biology/Biotechnology, and English. Application Fee: ₹1800/- (General, OBC, SC, ST, PH). Official Website: https://www.upvetuniv.edu.in/",
-      "keywords": "Mathura PVT Online Form 2025, Mathura PVT Admission 2025, Mathura PVT UG/PG/Diploma/PhD 2025, Mathura PVT Application Form 2025, Mathura PVT Exam Date 2025, Mathura PVT Selection Process 2025"
+      "metaTitle": "Mathura PVT Online Form 2025",
+      "metaDescription": "Mathura PVT 2025: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Application Start: 20 February 2025. Last Date: 20 May 2025. Exam Dates: UGEE 15 June 2025, DEE 29 June 2025, PGEE 20 July 2025. Application Fee: ₹1800/- (General, OBC), ₹1800/- (SC/ST/PH). Official Website: https://www.upvetuniv.edu.in/",
+      "keywords": "Mathura PVT Online Form 2025, Mathura PVT Admission 2025, Mathura PVT Eligibility, Mathura PVT Application Date, Mathura PVT Exam Dates, Mathura PVT Application Fee, Mathura PVT Official Website"
     },
-    "updatedon": "2026-09-02"
+    "updatedon": "2026-09-11"
   },
   {
     "id": 227,
@@ -24351,6 +24375,212 @@
       "metaTitle": "UPSC 11/2026 Various Posts Recruitment 2026",
       "metaDescription": "UPSC 11/2026 Various Posts Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 212. Application Fee: ₹25/- (General), ₹0/- (SC/ST/All Female). Application Start: 12 September 2026. Last Date: 02 October 2026. Official Website: https://www.upsc.gov.in/",
       "keywords": "UPSC 11/2026 Various Posts Recruitment 2026, UPSC Application Date, UPSC Age Limit, UPSC Eligibility, UPSC Application Fee, UPSC Official Website, UPSC Vacancy Details"
+    },
+    "updatedon": "2026-09-11"
+  },
+  {
+    "id": 269,
+    "title": "UPSSSC Lekhpal 2026 Recruitment",
+    "setPath": "upsssc-lekhpal-2026",
+    "slug": "upsssc-lekhpal-2026-recruitment",
+    "organization": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC)",
+    "date": "2026-09-11",
+    "location": "",
+    "state": "Uttar Pradesh",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the mains result for the Lekhpal recruitment 2026. The exam was conducted on 21 May 2026, and the last date to submit the application form was 28 January 2026. Candidates can check their mains result on the official website using their enrollment number, registration number, or date of birth. The total vacancies are 7994. The selection process is based on PET score card and mains exam.",
+    "totalPost": "7994",
+    "importantDates": {
+      "Application Begin": "2025-12-29",
+      "Last Date for Apply Online": "2026-01-28",
+      "Pay Exam Fee Last Date": "2026-01-28",
+      "Correction Last Date": "2026-02-04",
+      "Eligibility Result Available": "2026-02-26",
+      "Exam Date": "2026-05-21",
+      "Exam City Available": "2026-05-11",
+      "Admit Card Available": "2026-05-16"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "25",
+      "SC / ST": "25",
+      "PH (Divyang)": "25",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Years",
+      "Maximum Age": "40 Years",
+      "Age Calculation Date": "As on 01 July 2025",
+      "Age Relaxation": "As per UPSSSC Regulations"
+    },
+    "posts": [
+      "UPSSSC Lekhpal: 7994 Posts"
+    ],
+    "eligibility": [
+      "Candidates must have passed 10+2 (Intermediate) from any recognized board in India to be eligible."
+    ],
+    "selectionProcess": [
+      "PET Score Card",
+      "Mains Exam"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates can apply online through the official UPSSSC website. The application process started on 29 December 2025 and the last date to apply was 28 January 2026. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying.",
+    "links": {
+      "Apply Online": "Click Here",
+      "Official Notification": "Click Here"
+    },
+    "content": [
+      {
+        "heading": "UPSSSC Lekhpal 2026 Recruitment",
+        "body": "Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) has released the mains result for the Lekhpal recruitment 2026. The exam was conducted on 21 May 2026, and the last date to submit the application form was 28 January 2026. Candidates can check their mains result on the official website using their enrollment number, registration number, or date of birth. The total vacancies are 7994. The selection process is based on PET score card and mains exam."
+      },
+      {
+        "heading": "UPSSSC Lekhpal 2026: Important Dates",
+        "body": "The key important dates for the UPSSSC Lekhpal 2026 recruitment are as follows:\n- Online Application Start Date: 29 December 2025\n- Last Date for Online Application: 28 January 2026\n- Last Date for Fee Payment: 28 January 2026\n- Correction Last Date: 04 February 2026\n- Eligibility Result Available: 26 February 2026\n- Exam Date: 21 May 2026\n- Exam City Details: 11 May 2026\n- Admit Card Available: 16 May 2026\n- Answer Key: 22 May 2026\n- Revised Answer Key: 01 July 2026\n- Result Date: 11 September 2026\nCandidates are advised to confirm all dates and details from the UPSSSC official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "UPSSSC Lekhpal 2026: Application Fee",
+        "body": "The application fee for the UPSSSC Lekhpal 2026 recruitment is as follows:\n- For General / OBC / EWS: ₹25/-\n- For SC / ST: ₹25/-\n- For PH Candidates: ₹25/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 28 January 2026."
+      },
+      {
+        "heading": "UPSSSC Lekhpal 2026: Age Limit",
+        "body": "The age limit for candidates applying for the UPSSSC Lekhpal 2026 recruitment is as follows: Minimum age is 18 years and the maximum age is 40 years as on 01 July 2025. Age relaxation is provided as per UPSSSC regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "UPSSSC Lekhpal 2026: Vacancy Details",
+        "body": "The vacancy details for the UPSSSC Lekhpal 2026 recruitment are as follows:\n- Total Posts: 7994\n- Post-wise Breakdown:\n - UPSSSC Lekhpal: 7994 Posts\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "UPSSSC Lekhpal 2026: Education Qualification",
+        "body": "The eligibility criteria for the UPSSSC Lekhpal 2026 recruitment are as follows:\n- Candidates must have passed 10+2 (Intermediate) from any recognized board in India to be eligible.\nCandidates are advised to verify all eligibility details from the official notification before applying."
+      },
+      {
+        "heading": "How To Apply for UPSSSC Lekhpal 2026",
+        "body": "Interested candidates can apply online through the official UPSSSC website. The application process started on 29 December 2025 and the last date to apply was 28 January 2026. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying."
+      },
+      {
+        "heading": "UPSSSC Lekhpal 2026: Mode of Selection",
+        "body": "The selection process for the UPSSSC Lekhpal 2026 recruitment consists of the following stages:\n- PET Score Card\n- Mains Exam\nCandidates are advised to prepare thoroughly for the PET and mains exam and ensure they meet the eligibility criteria before applying."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. Who Releases The UPSSSC Lekhpal Answer Key 2026?\nA: The Answer Key Is Released By The Uttar Pradesh Subordinate Services Selection Commission (UPSSSC) On Its Official Website.\n\nQ. In What Format Is The Answer Key Released?\nA: The Answer Key Is Generally Published In PDF Format Containing The Roll Numbers Of Qualified Candidates.\n\nQ. Where Can Candidates Check The Answer Key?\nA: Candidates Can Check In The Answer Key / Notifications Section Of The Official UPSSSC Website.\n\nQ. What Details Are Required To Check The Answer Key?\nA: Usually, Candidates Only Need Their Roll Number Or Registration Number To Search In The PDF File.\n\nQ. What Is The Official Website For UPSSSC?\nA: The Official Website For UPSSSC Is https://upsssc.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "UPSSSC Lekhpal 2026 Recruitment",
+      "metaDescription": "UPSSSC Lekhpal 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 7994. Application Fee: ₹25/- (All Categories). Application Start: 29 December 2025. Last Date: 28 January 2026. Official Website: https://upsssc.gov.in/",
+      "keywords": "UPSSSC Lekhpal 2026 Recruitment, UPSSSC Application Date, UPSSSC Age Limit, UPSSSC Eligibility, UPSSSC Application Fee, UPSSSC Official Website, UPSSSC Vacancy Details"
+    },
+    "updatedon": "2026-09-11"
+  },
+  {
+    "id": 270,
+    "title": "Uttarakhand TET 2026 Recruitment",
+    "setPath": "uttarakhand-tet-2026",
+    "slug": "uttarakhand-tet-2026-recruitment",
+    "organization": "Uttarakhand Board of School Education (UBSE)",
+    "date": "2026-09-11",
+    "location": "",
+    "state": "Uttarakhand",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "Uttarakhand Board of School Education (UBSE) has released the admit card for the Uttarakhand Teacher Eligibility Test (UTET) 2026 for the selection of teachers in Class 1 to 5 (UTET-I) and Class 6 to 8 (UTET-II) in all government schools. The exam was conducted on 29 September 2026. The last date to submit the application form was 03 August 2026. Candidates can check their admit card using their enrollment number, registration number, or date of birth by logging into the portal. The total posts are not specified in the notification.",
+    "totalPost": "N/A",
+    "importantDates": {
+      "Application Begin": "2026-07-14",
+      "Last Date for Apply Online": "2026-08-03",
+      "Pay Exam Fee Last Date": "2026-08-06",
+      "Correction Last Date": "2026-08-11",
+      "Eligibility Result Available": "2026-02-26",
+      "Exam Date": "2026-09-29",
+      "Exam City Available": "2026-05-11",
+      "Admit Card Available": "2026-09-09"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "600",
+      "SC / ST": "300",
+      "PH (Divyang)": "25",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "",
+      "Maximum Age": "",
+      "Age Calculation Date": "As per Uttarakhand Rules",
+      "Age Relaxation": ""
+    },
+    "posts": [
+      "UTET-I: Class 1 to 5",
+      "UTET-II: Class 6 to 8"
+    ],
+    "eligibility": [
+      "For Class 1 to 5: Candidates must have passed 10+2 (Intermediate) with at least 50% marks and a 2-year diploma in Elementary Education (D.El.Ed./BTC), or 45% marks with D.El.Ed./BTC as per NCTE 2002 regulations, or 50% marks with a 4-year Bachelor of Elementary Education (B.El.Ed.), or 50% marks with a 2-year diploma in Special Education recognized by the Rehabilitation Council of India (RCI). Alternatively, candidates with a bachelor’s degree and a 2-year diploma in Elementary Education (D.El.Ed./BTC) are also eligible.",
+      "For Class 6 to 8: Candidates must have a bachelor’s degree with D.El.Ed./BTC, B.Ed., B.Ed. (Special Education), or an equivalent teacher education qualification as prescribed by NCTE. Alternatively, candidates with 10+2 and a 4-year B.El.Ed./B.A.B.Ed./B.Sc.B.Ed. are also eligible. Regularly appointed in-service teachers are also eligible as per the notification."
+    ],
+    "selectionProcess": [
+      "CBT Exam – I",
+      "CBT Exam – II"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates can apply online through the official Uttarakhand Board of School Education (UBSE) website. The online application process started on 14 July 2026 and the last date to apply was 03 August 2026. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying.",
+    "links": {
+      "Apply Online": "https://ukutet.com/",
+      "Official Notification": "Click Here"
+    },
+    "content": [
+      {
+        "heading": "Uttarakhand TET 2026 Recruitment",
+        "body": "Uttarakhand Board of School Education (UBSE) has released the admit card for the Uttarakhand Teacher Eligibility Test (UTET) 2026 for the selection of teachers in Class 1 to 5 (UTET-I) and Class 6 to 8 (UTET-II) in all government schools. The exam was conducted on 29 September 2026. The last date to submit the application form was 03 August 2026. Candidates can check their admit card using their enrollment number, registration number, or date of birth by logging into the portal. The total posts are not specified in the notification."
+      },
+      {
+        "heading": "Uttarakhand TET 2026: Important Dates",
+        "body": "The key important dates for the Uttarakhand TET 2026 recruitment are as follows:\n- Online Application Start Date: 14 July 2026\n- Last Date for Online Application: 03 August 2026\n- Last Date for Fee Payment: 06 August 2026\n- Correction Last Date: 08 to 11 August 2026\n- Exam Date: 29 September 2026\n- Admit Card Available: 09 September 2026\nCandidates are advised to confirm all dates and details from the UTET official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "Uttarakhand TET 2026: Application Fee",
+        "body": "The application fee for the Uttarakhand TET 2026 recruitment is as follows:\n- For General / OBC / EWS: ₹600/-\n- For SC / ST / PwBD: ₹300/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 06 August 2026."
+      },
+      {
+        "heading": "Uttarakhand TET 2026: Age Limit",
+        "body": "The age limit for candidates applying for the Uttarakhand TET 2026 recruitment is not specified in the notification. The age eligibility is as per Uttarakhand rules. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "Uttarakhand TET 2026: Vacancy Details",
+        "body": "The vacancy details for the Uttarakhand TET 2026 recruitment are as follows:\n- Total Posts: Not specified\n- Post-wise Breakdown:\n - UTET-I (Class 1 to 5): Not specified\n - UTET-II (Class 6 to 8): Not specified\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "Uttarakhand TET 2026: Education Qualification",
+        "body": "The eligibility criteria for the Uttarakhand TET 2026 recruitment are as follows:\n- For Class 1 to 5: Candidates must have passed 10+2 (Intermediate) with at least 50% marks and a 2-year diploma in Elementary Education (D.El.Ed./BTC), or 45% marks with D.El.Ed./BTC as per NCTE 2002 regulations, or 50% marks with a 4-year Bachelor of Elementary Education (B.El.Ed.), or 50% marks with a 2-year diploma in Special Education recognized by the Rehabilitation Council of India (RCI). Alternatively, candidates with a bachelor’s degree and a 2-year diploma in Elementary Education (D.El.Ed./BTC) are also eligible.\n- For Class 6 to 8: Candidates must have a bachelor’s degree with D.El.Ed./BTC, B.Ed., B.Ed. (Special Education), or an equivalent teacher education qualification as prescribed by NCTE. Alternatively, candidates with 10+2 and a 4-year B.El.Ed./B.A.B.Ed./B.Sc.B.Ed. are also eligible. Regularly appointed in-service teachers are also eligible as per the notification.\nCandidates are advised to verify all eligibility details from the official notification before applying."
+      },
+      {
+        "heading": "How To Apply for Uttarakhand TET 2026",
+        "body": "Interested candidates can apply online through the official Uttarakhand Board of School Education (UBSE) website. The online application process started on 14 July 2026 and the last date to apply was 03 August 2026. Candidates must complete the application form and pay the application fee before the deadline. After submission, candidates can check their application status on the official website. It is advised to verify all details from the official notification before applying."
+      },
+      {
+        "heading": "Uttarakhand TET 2026: Mode of Selection",
+        "body": "The selection process for the Uttarakhand TET 2026 recruitment consists of the following stages:\n- CBT Exam – I\n- CBT Exam – II\nCandidates are advised to prepare thoroughly for both exams and ensure they meet the eligibility criteria before applying."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For Uttarakhand TET UTET Recruitment 2026 Start?\nA: The Online Application For This Recruitment Has Started On 14 July 2026.\n\nQ. What Is The Last Date For Online Application For Uttarakhand TET UTET Online Form 2026?\nA: The Last Date For Online Application Form Is 03 August 2026.\n\nQ. What Is The Age Limit For Uttarakhand TET UTET Bharti 2026?\nA: The Age Limit For Uttarakhand TET UTET Bharti 2026 Is As Follow.\n\nQ. What Is The Eligibility For Uttarakhand TET UTET Vacancy 2026?\nA: The Eligibility Criteria For The Uttarakhand TET UTET Vacancy 2026 Are As Follows: Candidates Must Have Passed 12th Examination From A Recognized Board In India.\n\nQ. What Is The Official Website For UTET?\nA: The Official Website For UTET Is https://ukutet.com/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Uttarakhand TET 2026 Recruitment",
+      "metaDescription": "Uttarakhand TET 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Application Start: 14 July 2026. Last Date: 03 August 2026. Exam Date: 29 September 2026. Application Fee: ₹600/- (General), ₹300/- (SC/ST/PwBD). Official Website: https://ukutet.com/",
+      "keywords": "Uttarakhand TET 2026 Recruitment, UTET Application Date, UTET Eligibility, UTET Age Limit, UTET Application Fee, UTET Official Website, UTET Exam Date"
     },
     "updatedon": "2026-09-11"
   }
