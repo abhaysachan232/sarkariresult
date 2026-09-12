@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-12T08:44:48.724Z",
+    "checkedAt": "2026-09-12T15:13:53.973Z",
     "links": [
       {
         "text": "UPSSSC Lekhpal Mains Result 2026 – Out",
@@ -91,6 +91,14 @@
         "href": "https://sarkariresult.com.cm/bihar-btsc-staff-nurse-2025/"
       },
       {
+        "text": "SSC CGL Exam Date 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ssc-cgl-2026/"
+      },
+      {
+        "text": "Patna High Court Assistant Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/patna-high-court-assistant-2026/"
+      },
+      {
         "text": "RPSC Factories & Boiler Inspector Exam City Details 2026",
         "href": "https://sarkariresult.com.cm/rpsc-factories-boiler-inspector-2025/"
       },
@@ -177,14 +185,6 @@
       {
         "text": "SSC Selection Phase 14 Exam City Details 2026 – Out",
         "href": "https://sarkariresult.com.cm/ssc-selection-phase-14-2026/"
-      },
-      {
-        "text": "MPESB ASI / HC Practical Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/mp-police-hc-and-asi-2026/"
-      },
-      {
-        "text": "SAV Bihar Class 6 Dummy Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/sav-bihar-class-6-2026/"
       },
       {
         "text": "India Post GDS Online Form 2026 (23,757 Posts)",
@@ -287,6 +287,14 @@
         "href": "https://sarkariresult.com.cm/gims-noida-staff-nurse-2026/"
       },
       {
+        "text": "UPSSSC Teacher Cadre JTC Final Answer Key 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-teacher-cadre-jtc-2026/"
+      },
+      {
+        "text": "UPSSSC Assistant Boring Technician Final Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-assistant-boring-technician-2026/"
+      },
+      {
         "text": "BSF HCM & ASI Steno Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/"
       },
@@ -329,14 +337,6 @@
       {
         "text": "Bihar BPSC APO Answer Key 2026",
         "href": "https://sarkariresult.com.cm/bpsc-apo-2026/"
-      },
-      {
-        "text": "UPSSSC Agriculture Technical Assistant Group-C Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsssc-agriculture-technical-assistant-group-c-2026/"
-      },
-      {
-        "text": "JSSC Field Worker Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/jssc-field-worker-2024/"
       },
       {
         "text": "Rajasthan Uttar Matric Scholarship 2026",
@@ -503,7 +503,7 @@
         "href": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/"
       },
       {
-        "text": "jobs",
+        "text": "Jobs",
         "href": "https://sarkariresult.com.cm/#"
       },
       {
@@ -796,7 +796,7 @@
       "https://sarkariresult.com.cm/patna-high-court-assistant-2026/": {
         "jobId": 200,
         "slug": "patna-high-court-assistant-recruitment-2026",
-        "processedAt": "2026-09-08T22:31:35.091Z"
+        "processedAt": "2026-09-12T15:10:31.592Z"
       },
       "https://sarkariresult.com.cm/india-post-gds-july-2026/": {
         "jobId": 201,
@@ -1197,6 +1197,21 @@
         "jobId": 280,
         "slug": "up-azamgarh-ecce-educator-recruitment-2026",
         "processedAt": "2026-09-12T08:42:04.301Z"
+      },
+      "https://sarkariresult.com.cm/ssc-cgl-2026/": {
+        "jobId": 281,
+        "slug": "ssc-cgl-recruitment-2026",
+        "processedAt": "2026-09-12T15:09:20.921Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-teacher-cadre-jtc-2026/": {
+        "jobId": 282,
+        "slug": "upsssc-teacher-cadre-jtc-recruitment-2026",
+        "processedAt": "2026-09-12T15:12:27.554Z"
+      },
+      "https://sarkariresult.com.cm/upsssc-assistant-boring-technician-2026/": {
+        "jobId": 283,
+        "slug": "upsssc-assistant-boring-technician-recruitment-2026",
+        "processedAt": "2026-09-12T15:13:53.971Z"
       }
     },
     "failed": {
