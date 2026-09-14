@@ -15588,87 +15588,94 @@
   },
   {
     "id": 182,
-    "title": "CTET September 2026 Recruitment",
+    "title": "CTET September 2026 Exam Date Announcement",
     "setPath": "ctet-september-2026",
     "slug": "ctet-september-2026-recruitment",
     "organization": "Central Board of Secondary Education (CBSE)",
-    "date": "2026-09-10",
+    "date": "2026-09-14",
     "location": "",
     "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "Central Board of Secondary Education (CBSE) has released a form correction notice for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The CTET application form started on 25 August 2026 and candidates can apply until 01 September 2026. Candidates must check the complete details for CTET September Online Form 2026 which are given below. The exam date has been postponed to 06 September 2026. The selection process includes a written examination.",
+    "description": "The Central Board of Secondary Education (CBSE) has released the exam date for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The exam will be conducted on 12–13 December 2026. The last date to submit the application form was 01 September 2026. Candidates can also check their exam date by using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below.",
     "totalPost": "Not Applicable",
     "importantDates": {
-      "Application Begin": "2026-08-25",
-      "Last Date for Apply Online": "2026-09-01",
-      "Pay Exam Fee Last Date": "2026-09-01",
-      "Correction Last Date": "2026-09-07 to 2026-09-10",
-      "Eligibility Result Available": "",
-      "Exam Date": "2026-09-06",
-      "Exam City Available": "",
-      "Admit Card Available": "Before Exam"
+      "Application Begin": "2026-04-15",
+      "Last Date for Apply Online": "2026-05-05",
+      "Pay Exam Fee Last Date": "2026-05-05",
+      "Correction Last Date": "2026-05-12",
+      "Eligibility Result Available": "2026-06-02",
+      "Exam Date": "2026-07-12",
+      "Exam City Available": "2026-07-02",
+      "Admit Card Available": "2026-07-08"
     },
     "applicationFee": {
-      "General / OBC / EWS": "25",
-      "SC / ST": "150",
-      "PH (Divyang)": "16.36",
+      "General / OBC / EWS": "₹ 25/-",
+      "SC / ST": "₹ 25/-",
+      "PH (Divyang)": "₹ 25/-",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
-      "Minimum Age": "No Age Limit",
+      "Minimum Age": "",
       "Maximum Age": "",
       "Age Calculation Date": "",
       "Age Relaxation": ""
     },
-    "posts": [],
+    "posts": [
+      "Level-1 (Class 1-5)",
+      "Level-2 (Class 6-8)"
+    ],
     "eligibility": [
-      "Level-1 (Class 1-5): Senior Secondary (Class 12) with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.). Senior Secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed., as per NCTE regulations. Senior Secondary with at least 50% marks and passed/appearing in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.). Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Education (Special Education). Graduation with at least 50% marks and passed/appearing in B.Ed. Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.",
-      "Level-2 (Class 6-8): Graduation and passed/appearing in the final year of a 2-year D.El.Ed. Graduation with at least 50% marks and passed/appearing in B.Ed. Graduation with at least 45% marks and passed/appearing in B.Ed., as per NCTE regulations. Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed. Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed. Graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education) Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed."
+      "For Level-1 (Class 1-5): Senior Secondary (Class 12) with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.), or Senior Secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed. as per NCTE regulations, or Senior Secondary with at least 50% marks and passed/appearing in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.), or Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Education (Special Education), or Graduation with at least 50% marks and passed/appearing in B.Ed., or Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.",
+      "For Level-2 (Class 6-8): Graduation and passed/appearing in the final year of a 2-year D.El.Ed., or Graduation with at least 50% marks and passed/appearing in B.Ed., or Graduation with at least 45% marks and passed/appearing in B.Ed. as per NCTE regulations, or Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed., or Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed., or Graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education), or Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed."
     ],
     "selectionProcess": [
-      "Written Examination"
+      "Written Exam"
     ],
     "jobLocation": "",
-    "howToApply": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the Click Here link provided below under Important Link section to apply directly. Alternatively, visit the official website of CTET to complete the application process online. Make sure to complete the application before the deadline 01 September 2026. Note – Candidates are advised to read the official notification carefully before filling the form to ensure they meet the eligibility criteria such as last date, age limit, and education qualification.",
+    "howToApply": "Candidates can apply online for the CTET September 2026 examination by visiting the official CTET website. On the homepage, go to the Latest News / Public Notices section. Find the notice related to CTET September 2026 exam date. Click on the public notice: Exam Dates for 22nd Edition of CTET. The official exam-date notice will open on the screen. Check the CTET September 2026 exam date, paper, shift, and reporting time mentioned in the notice. Download and save the notice for future reference. Candidates should regularly check the official CTET website for further updates regarding the city intimation slip and admit card.",
     "links": {
-      "Apply Online": "Click Here",
-      "Official Notification": "Click Here"
+      "Apply Online": "https://ctet.nic.in/",
+      "Official Notification": "https://Sewayojan.up.nic.in/"
     },
     "content": [
       {
-        "heading": "CTET September 2026 Recruitment",
-        "body": "Central Board of Secondary Education (CBSE) has released a form correction notice for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The CTET application form started on 25 August 2026 and candidates can apply until 01 September 2026. Candidates must check the complete details for CTET September Online Form 2026 which are given below. The exam date has been postponed to 06 September 2026. The selection process includes a written examination."
+        "heading": "CTET September 2026 Exam Date Announcement",
+        "body": "The Central Board of Secondary Education (CBSE) has released the exam date for the Central Teacher Eligibility Test (CTET) September Examination 2026 on its official website. The exam will be conducted on 12–13 December 2026. The last date to submit the application form was 01 September 2026. Candidates can also check their exam date by using their enrollment number, registration number, or date of birth by logging into the portal. The direct link is provided below."
       },
       {
         "heading": "CTET September 2026: Important Dates",
-        "body": "The key important dates for the CTET September 2026 recruitment are as follows:\n- Online Application Start Date: 25 August 2026\n- Last Date for Online Application: 01 September 2026\n- Last Date for Fee Payment: 01 September 2026\n- Correction Period: 07 – 10 September 2026\n- Exam Date: 06 September 2026 (Postponed)\n- Admit Card: Available before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "body": "The key important dates for the CTET September 2026 examination are as follows:\n- Online Application Start Date: 11 May 2026\n- Last Date for Online Application: 10 June 2026\n- Last Date for Fee Payment: 10 June 2026\n- Re-Open Online Application Start Date: 25 August 2026\n- Re-Open Online Application Last Date: 01 September 2026\n- Last Date for Fee Payment (Re-Open): 01 September 2026\n- Correction Period: 07–10 September 2026\n- CTET Exam Date: 12–13 December 2026\n- Admit Card Release: Before the examination\n- Exam Result: Will be updated here soon\nCandidates are advised to confirm all dates and details from the official CTET website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
         "heading": "CTET September 2026: Application Fee",
-        "body": "The application fee for the CTET September 2026 is as follows:\n- For Paper-I:\n - General, OBC: ₹1000/-\n - SC, ST, PWD: ₹500/-\n- For Both Paper:\n - General, OBC: ₹1200/-\n - SC, ST, PWD: ₹600/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 01 September 2026."
+        "body": "The application fee for the CTET September 2026 examination is as follows:\n- For Paper-I:\n - General, OBC: ₹1000/-\n - SC, ST, PWD: ₹500/-\n- For Both Papers:\n - General, OBC: ₹1200/-\n - SC, ST, PWD: ₹600/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to complete the application and pay the fee before the last date of 10 June 2026 or 01 September 2026 (re-open period)."
       },
       {
         "heading": "CTET September 2026: Age Limit",
-        "body": "The age limit for candidates applying for the CTET September 2026 is as follows: There is no age limit for this examination. Candidates are advised to refer to the official notification for detailed information on eligibility and other requirements."
+        "body": "There is no age limit for the CTET September 2026 examination as per CBSE rules. Candidates of all age groups are eligible to apply. Age relaxation, if any, will be as per CBSE regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "CTET September 2026: Eligibility Details",
-        "body": "The eligibility criteria for the CTET September 2026 are as follows:\n- Level-1 (Class 1-5):\n - Senior Secondary (Class 12) with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.).\n - Senior Secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed., as per NCTE regulations.\n - Senior Secondary with at least 50% marks and passed/appearing in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.).\n - Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Education (Special Education).\n - Graduation with at least 50% marks and passed/appearing in B.Ed.\n - Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.\n\n- Level-2 (Class 6-8):\n - Graduation and passed/appearing in the final year of a 2-year D.El.Ed.\n - Graduation with at least 50% marks and passed/appearing in B.Ed.\n - Graduation with at least 45% marks and passed/appearing in B.Ed., as per NCTE regulations.\n - Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed.\n - Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed.\n - Graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education)\n - Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.\nCandidates are advised to verify all eligibility details from the official notification before applying."
+        "heading": "CTET September 2026: Vacancy Details",
+        "body": "The vacancy details for the CTET September 2026 examination are as follows:\n- Total Posts: Not Applicable\n- Eligibility is based on educational qualifications as per Level-1 and Level-2 requirements.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details or eligibility criteria."
       },
       {
-        "heading": "How To Apply for CTET September 2026",
-        "body": "Interested candidates who wish to apply for the CTET post can submit their application online before 01 September 2026. Use the Click Here link provided below under Important Link section to apply directly. Alternatively, visit the official website of CTET to complete the application process online. Make sure to complete the application before the deadline 01 September 2026. Note – Candidates are advised to read the official notification carefully before filling the form to ensure they meet the eligibility criteria such as last date, age limit, and education qualification."
+        "heading": "CTET September 2026: Education Qualification",
+        "body": "The eligibility criteria for the CTET September 2026 examination are as follows:\nFor Level-1 (Class 1-5):\n- Senior Secondary (Class 12) with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Elementary Education (D.El.Ed.), or\n- Senior Secondary with at least 45% marks and passed/appearing in the final year of a 2-year D.El.Ed. as per NCTE regulations, or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of a 4-year Bachelor of Elementary Education (B.El.Ed.), or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of a 2-year Diploma in Education (Special Education), or\n- Graduation with at least 50% marks and passed/appearing in B.Ed., or\n- Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.\n\nFor Level-2 (Class 6-8):\n- Graduation and passed/appearing in the final year of a 2-year D.El.Ed., or\n- Graduation with at least 50% marks and passed/appearing in B.Ed., or\n- Graduation with at least 45% marks and passed/appearing in B.Ed. as per NCTE regulations, or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.El.Ed., or\n- Senior Secondary with at least 50% marks and passed/appearing in the final year of 4-year B.A./B.Sc.Ed. or B.A.Ed./B.Sc.Ed., or\n- Graduation with at least 50% marks and passed/appearing in B.Ed. (Special Education), or\n- Post-Graduation with at least 55% marks and passed/appearing in the final year of 3-year Integrated B.Ed.-M.Ed.\nCandidates are advised to verify the full eligibility criteria from the official notification before applying."
+      },
+      {
+        "heading": "How To Check & Download CTET September 2026 Exam Date",
+        "body": "Candidates can check and download the CTET September 2026 exam date by following these steps:\n1. Visit the official CTET website.\n2. On the homepage, go to the Latest News / Public Notices section.\n3. Find the notice related to CTET September 2026 exam date.\n4. Click on the public notice: Exam Dates for 22nd Edition of CTET.\n5. The official exam-date notice will open on the screen.\n6. Check the CTET September 2026 exam date, paper, shift, and reporting time mentioned in the notice.\n7. Download and save the notice for future reference.\nCandidates should regularly check the official CTET website for further updates regarding the city intimation slip and admit card."
       },
       {
         "heading": "CTET September 2026: Mode of Selection",
-        "body": "The selection process for the CTET September 2026 consists of the following stage:\n- Written Examination\nCandidates are advised to prepare thoroughly for the written examination and ensure they meet the eligibility criteria before applying."
+        "body": "The selection process for the CTET September 2026 examination will be conducted through the following stage:\n- Written Exam\nCandidates are advised to prepare thoroughly for the written examination and ensure they meet the eligibility criteria before applying."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When Will The Online Application For CTET September Online Form 2026 Start?\nA: The Online Application For This Recruitment Has Started On 25 August 2026.\n\nQ. What Is The Last Date For Online Application For CTET September Online Form 2026?\nA: The Last Date For Online Application Form Is 01 September 2026.\n\nQ. What Is The Age Limit For CTET September Online Form 2026?\nA: The Age Limit For CTET September Online 2026 Is As Follows On Official Notification.\n\nQ. What Is The Eligibility For CTET September Vacancy 2026?\nA: The Eligibility Criteria For The CTET September Vacancy 2026 Are As Follows On CTET Rules.\n\nQ. What Is The Official Website For CTET?\nA: The Official Website For CTET Is https://ctet.nic.in/"
+        "body": "Q. When Will The CTET September Exam 2026 Be Conducted?\nA: The CTET September 2026 Examination Will Be Conducted As Per The Revised Exam Schedule Released By CBSE.\n\nQ. How Can I Check The CTET September Exam Date 2026?\nA: Candidates Can Check The Exam Date By Visiting The Official CTET Website And Opening The Public Notice: Exam Dates For 22nd Edition Of CTET.\n\nQ. Will CTET September 2026 Be Conducted In Two Shifts?\nA: CTET Examination Papers Are Conducted In Different Shifts. Candidates Should Check Their Admit Card For The Exact Paper, Shift And Reporting Time.\n\nQ. When Will The CTET September 2026 Admit Card Be Released?\nA: The CTET September 2026 Admit Card Will Be Released By CBSE Before The Examination. Candidates Can Download It From The Official CTET Website Using Their Login Details.\n\nQ. What Is The Official Website For CTET?\nA: The Official Website For CTET Is https://ctet.nic.in/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -15676,11 +15683,11 @@
       }
     ],
     "seo": {
-      "metaTitle": "CTET September 2026 Recruitment",
-      "metaDescription": "CTET September 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Application Start: 25 August 2026. Last Date: 01 September 2026. Exam Date: 06 September 2026. Application Fee: ₹1000/- (General), ₹500/- (SC/ST/PWD). Official Website: https://ctet.nic.in/",
-      "keywords": "CTET September 2026, CTET Application Date, CTET Age Limit, CTET Eligibility, CTET Application Fee, CTET Official Website, CTET Exam Date"
+      "metaTitle": "CTET September 2026 Exam Date Announcement",
+      "metaDescription": "CTET September 2026 Exam Date: 12–13 December 2026. Last Date to Apply: 01 September 2026. Application Fee: ₹1000/- (Paper-I, General/OBC), ₹500/- (SC/ST/PWD). Eligibility: Based on educational qualifications for Level-1 and Level-2. Official Website: https://ctet.nic.in/",
+      "keywords": "CTET September 2026 Exam Date, CTET Application Date, CTET Eligibility, CTET Age Limit, CTET Application Fee, CTET Official Website, CTET September 2026"
     },
-    "updatedon": "2026-09-11"
+    "updatedon": "2026-09-14"
   },
   {
     "id": 183,
@@ -22501,36 +22508,36 @@
     "setPath": "rrb-paramedical-staff-recruitment-2026",
     "slug": "rrb-paramedical-staff-recruitment-2026",
     "organization": "Railway Recruitment Board (RRB)",
-    "date": "2026-09-08",
+    "date": "2026-09-14",
     "location": "",
     "state": "",
     "type": "latest-job",
     "category": "latest-jobs",
     "year": "2026",
     "Type": "",
-    "description": "Railway Recruitment Board (RRB) has released a short notice on its official website for the recruitment of Paramedical Staff posts. This recruitment is for 560 positions. The RRB application form will start on 15 September 2026, and candidates can apply until 14 October 2026. The minimum age required is 18 years and the maximum age is 40 years as on 01 January 2027. Candidates must check the complete details for RRB Paramedical Staff Recruitment 2026 provided below.",
-    "totalPost": "560",
+    "description": "Railway Recruitment Board (RRB) has released a notification on its official website for the recruitment of Paramedical Staff posts. This recruitment is for 590 positions. The RRB application form will start on 15 September 2026, and candidates can apply until 14 October 2026. The minimum age is 18 years & the maximum age is 40 years as on 01 January 2027. Candidates must check the complete details for the RRB Paramedical Staff Recruitment 2026 provided below. (Advt No : 05/2026)",
+    "totalPost": "590",
     "importantDates": {
       "Application Begin": "2026-09-15",
       "Last Date for Apply Online": "2026-10-14",
-      "Pay Exam Fee Last Date": "2026-10-14",
-      "Correction Last Date": "",
+      "Pay Exam Fee Last Date": "2026-10-16",
+      "Correction Last Date": "2026-10-17",
       "Eligibility Result Available": "",
       "Exam Date": "Notify Later",
-      "Exam City Available": "",
+      "Exam City Available": "Before Exam",
       "Admit Card Available": "Before Exam"
     },
     "applicationFee": {
-      "General / OBC / EWS": "500",
-      "SC / ST": "250",
-      "PH (Divyang)": "250",
+      "General / OBC / EWS": "₹ 500/-",
+      "SC / ST": "₹ 25/-",
+      "PH (Divyang)": "₹ 25/-",
       "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
     },
     "ageLimit": {
-      "Minimum Age": "18 Years",
-      "Maximum Age": "40 Years",
+      "Minimum Age": "18 Year",
+      "Maximum Age": "40 Year",
       "Age Calculation Date": "As on 01 January 2027",
-      "Age Relaxation": "As per the regulations of RRB"
+      "Age Relaxation": "As per RRB Regulations"
     },
     "posts": [
       "Nursing Superintendent",
@@ -22543,60 +22550,60 @@
     ],
     "eligibility": [
       "Nursing Superintendent: GNM / B.Sc Nursing",
-      "Pharmacist (Entry Grade): Degree / Diploma In Pharmacy",
-      "Radiographer (X-Ray Technician): Diploma In Radiography / X Ray Technician / Radiodiagnosis Technology",
-      "Health & Malaria Inspector Grade-II: B.Sc. With Chemistry, 01 Year Diploma In Health / Sanitary Inspector",
-      "Lab Assistant Grade-II: Diploma In Medical Laboratory Technology (DMLT)",
-      "Dialysis Technician: B.Sc. And Diploma In Hemodialysis",
-      "ECG Technician: Degree / Diploma In ECG Laboratory Technology / Cardiology / Cardiology Technician / Cardiology Techniques"
+      "Pharmacist (Entry Grade): Degree / Diploma in Pharmacy",
+      "Radiographer (X-Ray Technician): Diploma in Radiography / X Ray Technician / Radiodiagnosis Technology",
+      "Health & Malaria Inspector Grade-II: B.Sc. With Chemistry, 01 Year Diploma in Health / Sanitary Inspector",
+      "Lab Assistant Grade-II: Diploma in Medical Laboratory Technology (DMLT)",
+      "Dialysis Technician: B.Sc. And Diploma in Hemodialysis",
+      "ECG Technician: Degree / Diploma in ECG Laboratory Technology / Cardiology / Cardiology Technician / Cardiology Techniques"
     ],
     "selectionProcess": [
-      "Written Exam",
+      "Written Examination",
       "Document Verification",
       "Medical Examination"
     ],
     "jobLocation": "",
-    "howToApply": "Interested candidates who wish to apply for the RRB post can submit their application online before 14 October 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of RRB to complete the application process online. Make sure to complete the application before the deadline of 14 October 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)",
+    "howToApply": "Interested candidates who wish to apply for the RRB Post can submit their application online before 14 October 2026. Use the Click Here link provided below under Important Link Section to apply directly. Alternatively, visit the official website of RRB to complete the application process online. Make sure to complete the application before the deadline 14 October 2026. Note – Students are advised to read the official notification carefully before filling the form to ensure they meet the last date, age limit, and education qualification requirements.",
     "links": {
-      "Apply Online": "Click Here",
-      "Official Notification": "Click Here"
+      "Apply Online": "https://Rrb.Indianrailways.Gov.In/",
+      "Official Notification": "https://Sewayojan.up.nic.in/"
     },
     "content": [
       {
         "heading": "RRB Paramedical Staff Recruitment 2026",
-        "body": "Railway Recruitment Board (RRB) has released a short notice on its official website for the recruitment of Paramedical Staff posts. This recruitment is for 560 positions. The RRB application form will start on 15 September 2026, and candidates can apply until 14 October 2026. The minimum age required is 18 years and the maximum age is 40 years as on 01 January 2027. Candidates must check the complete details for RRB Paramedical Staff Recruitment 2026 provided below."
+        "body": "Railway Recruitment Board (RRB) has released a notification on its official website for the recruitment of Paramedical Staff posts. This recruitment is for 590 positions. The RRB application form will start on 15 September 2026, and candidates can apply until 14 October 2026. The minimum age is 18 years & the maximum age is 40 years as on 01 January 2027. Candidates must check the complete details for the RRB Paramedical Staff Recruitment 2026 provided below. (Advt No : 05/2026)"
       },
       {
-        "heading": "RRB Paramedical Staff Recruitment 2026: Important Dates",
-        "body": "The key important dates for the RRB Paramedical Staff Recruitment 2026 are as follows:\n- Online Application Start Date: 15 September 2026\n- Online Application Last Date: 14 October 2026\n- Last Date for Fee Payment: 14 October 2026\n- Exam Date: To be notified later\n- Admit Card Available: Before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the RRB official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
+        "heading": "RRB Paramedical Staff 2026: Important Dates",
+        "body": "The key important dates for the RRB Paramedical Staff Recruitment 2026 are as follows:\n- Online Application Start Date: 15 September 2026\n- Last Date for Online Application: 14 October 2026\n- Last Date for Fee Payment: 16 October 2026\n- Correction Period: 17 – 26 October 2026\n- Eligibility Result Available: Not specified\n- Exam Date: To be notified later\n- Exam City Details: Available before the exam\n- Admit Card Available: Before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the RRB official website before finalizing their application. All dates are subject to change as per the official announcement, and candidates must verify the details on the official website before making any decisions."
       },
       {
-        "heading": "RRB Paramedical Staff Recruitment 2026: Application Fee",
-        "body": "The application fee for the RRB Paramedical Staff Recruitment 2026 is as follows:\n- For General / OBC / EWS: ₹500/-\n- For SC / ST / EBC: ₹250/-\n- For All Category Female: ₹250/-\n- General / OBC: ₹400/- will be refunded and other candidates: ₹250/- will be refunded to the bank account after appearing in Stage I exam.\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to make the payment before the last date of fee payment, which is 14 October 2026."
+        "heading": "RRB Paramedical Staff 2026: Application Fee",
+        "body": "The application fee for the RRB Paramedical Staff Recruitment 2026 is as follows:\n- General / OBC / EWS: ₹ 500/-\n- SC / ST / EBC: ₹ 250/-\n- All Category Female: ₹ 250/-\nRefund Policy: General / OBC candidates will receive ₹ 400/- refund, and other candidates will receive ₹ 250/- refund to their bank account after appearing in Stage I exam. Payment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to complete the application and pay the fee before the last date of 16 October 2026."
       },
       {
-        "heading": "RRB Paramedical Staff Recruitment 2026: Age Limit",
-        "body": "The age limit for candidates applying for the RRB Paramedical Staff Recruitment 2026 is as follows: The minimum age is 18 years and the maximum age is 40 years as on 01 January 2027. RRB provides age relaxation for the Paramedical Staff position as per their regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+        "heading": "RRB Paramedical Staff 2026: Age Limit",
+        "body": "The age limit for candidates applying for the RRB Paramedical Staff Recruitment 2026 is as follows:\n- Minimum Age: 18 years\n- Maximum Age: 40 years (as on 01 January 2027)\nAge relaxation will be provided as per RRB regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
       },
       {
-        "heading": "RRB Paramedical Staff Recruitment 2026: Vacancy Details",
-        "body": "The vacancy details for the RRB Paramedical Staff Recruitment 2026 are as follows:\n- Post Name: Nursing Superintendent, Pharmacist (Entry Grade), Radiographer (X-Ray Technician), Health & Malaria Inspector Grade-II, Lab Assistant Grade-II, Dialysis Technician, ECG Technician\n- Total Posts: 560\n- Eligibility Criteria: Post-wise as specified in the official notification.\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+        "heading": "RRB Paramedical Staff 2026: Vacancy Details",
+        "body": "The vacancy details for the RRB Paramedical Staff Recruitment 2026 are as follows:\n- Total Posts: 590\n- Post-wise Breakdown:\n - Nursing Superintendent: Not specified\n - Pharmacist (Entry Grade): Not specified\n - Radiographer (X-Ray Technician): Not specified\n - Health & Malaria Inspector Grade-II: Not specified\n - Lab Assistant Grade-II: Not specified\n - Dialysis Technician: Not specified\n - ECG Technician: Not specified\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
       },
       {
-        "heading": "RRB Paramedical Staff Recruitment 2026: Education Qualification",
-        "body": "The eligibility criteria for the RRB Paramedical Staff Recruitment 2026 are as follows:\n- Nursing Superintendent: GNM / B.Sc Nursing\n- Pharmacist (Entry Grade): Degree / Diploma In Pharmacy\n- Radiographer (X-Ray Technician): Diploma In Radiography / X Ray Technician / Radiodiagnosis Technology\n- Health & Malaria Inspector Grade-II: B.Sc. With Chemistry, 01 Year Diploma In Health / Sanitary Inspector\n- Lab Assistant Grade-II: Diploma In Medical Laboratory Technology (DMLT)\n- Dialysis Technician: B.Sc. And Diploma In Hemodialysis\n- ECG Technician: Degree / Diploma In ECG Laboratory Technology / Cardiology / Cardiology Technician / Cardiology Techniques\nFor full eligibility details, please check the official notification. Candidates are advised to read the official notification carefully before applying."
+        "heading": "RRB Paramedical Staff 2026: Education Qualification",
+        "body": "The eligibility criteria for the RRB Paramedical Staff Recruitment 2026 are as follows:\n- Nursing Superintendent: GNM / B.Sc Nursing\n- Pharmacist (Entry Grade): Degree / Diploma in Pharmacy\n- Radiographer (X-Ray Technician): Diploma in Radiography / X Ray Technician / Radiodiagnosis Technology\n- Health & Malaria Inspector Grade-II: B.Sc. With Chemistry, 01 Year Diploma in Health / Sanitary Inspector\n- Lab Assistant Grade-II: Diploma in Medical Laboratory Technology (DMLT)\n- Dialysis Technician: B.Sc. And Diploma in Hemodialysis\n- ECG Technician: Degree / Diploma in ECG Laboratory Technology / Cardiology / Cardiology Technician / Cardiology Techniques\nFor more details, candidates should read the official notification carefully. All candidates are advised to verify the full eligibility criteria from the official notification before applying."
       },
       {
         "heading": "How To Apply for RRB Paramedical Staff Recruitment 2026",
-        "body": "Interested candidates who wish to apply for the RRB post can submit their application online before 14 October 2026. Use the 'Apply Online' link provided below under the Important Links section to apply directly. Alternatively, visit the official website of RRB to complete the application process online. Make sure to complete the application before the deadline of 14 October 2026. Note – छात्रो से ये अनुरोध किया जाता है की वो अपना फॉर्म भरने से पहले Official Notification को ध्यान से जरूर पढे उसके बाद ही अपना फॉर्म भरे । (Last Date, Age Limit, & Education Qualification)"
+        "body": "Interested candidates who wish to apply for the RRB Post can submit their application online before 14 October 2026. Use the Click Here link provided below under Important Link Section to apply directly. Alternatively, visit the official website of RRB to complete the application process online. Make sure to complete the application before the deadline 14 October 2026. Note – Students are advised to read the official notification carefully before filling the form to ensure they meet the last date, age limit, and education qualification requirements."
       },
       {
-        "heading": "RRB Paramedical Staff Recruitment 2026: Mode of Selection",
-        "body": "The selection process for the RRB Paramedical Staff Recruitment 2026 consists of the following stages:\n- Written Exam\n- Document Verification\n- Medical Examination\nCandidates are advised to prepare thoroughly for the written examination and ensure all documents are in order for document verification and medical examination."
+        "heading": "RRB Paramedical Staff 2026: Mode of Selection",
+        "body": "The selection process for the RRB Paramedical Staff Recruitment 2026 will be conducted through the following stages:\n- Written Examination\n- Document Verification\n- Medical Examination\nCandidates are advised to prepare thoroughly for each stage and ensure they meet the eligibility criteria before applying."
       },
       {
         "heading": "Important Questions and Answers",
-        "body": "Q. When Will The Online Application For RRB Paramedical Staff Recruitment 2026 Start?\nA: The online application for this recruitment will start on 15 September 2026.\n\nQ. What Is The Last Date For Online Application For RRB Paramedical Staff Online Form 2026?\nA: The last date for online application form is 14 October 2026.\n\nQ. What Is The Age Limit For RRB Paramedical Staff Bharti 2026?\nA: The age limit for RRB Paramedical Staff Bharti 2026 is as follows: The minimum age is 18 years and the maximum age is 40 years as on 01 January 2027.\n\nQ. What Is The Eligibility For RRB Paramedical Staff Vacancy 2026?\nA: The eligibility for RRB Paramedical Staff Bharti 2026 is as follows: Post-wise as specified in the official notification.\n\nQ. What Is The Official Website For RRB?\nA: The official website for RRB is https://rrb.indianrailways.gov.in/"
+        "body": "Q. When Will The Online Application For RRB Paramedical Staff Recruitment 2026 Start?\nA: The Online Application For This Recruitment Will Start On 15 September 2026.\n\nQ. What Is The Last Date For Online Application For RRB Paramedical Staff Online Form 2026?\nA: The Last Date For Online Application Form Is 14 October 2026.\n\nQ. What Is The Age Limit For RRB Paramedical Staff Bharti 2026?\nA: The Age Limit For RRB Paramedical Staff Bharti 2026 Is As Follows: The Minimum Age Is 18 Years & The Maximum Age Is 40 Years As On 01 January 2027.\n\nQ. What Is The Eligibility For RRB Paramedical Staff Vacancy 2026?\nA: The Eligibility For RRB Paramedical Staff Bharti 2026 Is As Follows Post Wise.\n\nQ. What Is The Official Website For RRB?\nA: The Official Website For RRB Is https://Rrb.Indianrailways.Gov.In/"
       },
       {
         "heading": "Important Notes and Disclaimer",
@@ -22605,10 +22612,10 @@
     ],
     "seo": {
       "metaTitle": "RRB Paramedical Staff Recruitment 2026",
-      "metaDescription": "RRB Paramedical Staff Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Total Posts: 560. Age Limit: 18 to 40 Years. Eligibility: Post-wise as specified. Application Fee: ₹500/- (General/OBC/EWS), ₹250/- (SC/ST/EBC). Official Website: https://rrb.indianrailways.gov.in/",
-      "keywords": "RRB Paramedical Staff 2026, RRB Recruitment 2026, RRB Application Form 2026, RRB Age Limit 2026, RRB Eligibility Criteria, RRB Exam Date 2026, RRB Official Website, RRB Application Fee 2026"
+      "metaDescription": "RRB Paramedical Staff Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Application Start: 15 September 2026. Last Date: 14 October 2026. Age Limit: 18 to 40 Years. Eligibility: Post-wise as per qualification. Official Website: https://Rrb.Indianrailways.Gov.In/",
+      "keywords": "RRB Paramedical Staff Recruitment 2026, RRB Application Date, RRB Eligibility, RRB Age Limit, RRB Application Fee, RRB Official Website, RRB Paramedical Staff"
     },
-    "updatedon": "2026-09-08"
+    "updatedon": "2026-09-14"
   },
   {
     "id": 252,
@@ -25968,5 +25975,111 @@
       "keywords": "UPSSSC Assistant Boring Technician Recruitment 2026, UPSSSC Application Date, UPSSSC Eligibility, UPSSSC Age Limit, UPSSSC Application Fee, UPSSSC Official Website, UPSSSC Assistant Boring Technician"
     },
     "updatedon": "2026-09-12"
+  },
+  {
+    "id": 284,
+    "title": "Indian Army Dental Corps Recruitment 2026",
+    "setPath": "indian-army-dental-corp-recruitment-2026",
+    "slug": "indian-army-dental-corps-recruitment-2026",
+    "organization": "Indian Army",
+    "date": "2026-09-14",
+    "location": "",
+    "state": "",
+    "type": "latest-job",
+    "category": "latest-jobs",
+    "year": "2026",
+    "Type": "",
+    "description": "The Indian Army has released a notification for the recruitment of Dental Corps as Short Services Commissioned Officers. A total of 37 positions are available. The online application process started on 22 September 2026 and will close on 22 October 2026. Candidates must have a BDS or MDS degree from a DCI-recognized college/university with at least 55% marks in the final year. They must have completed a one-year compulsory rotatory internship by 30 June 2026 and hold a valid dental practitioner registration certificate valid up to 31 December 2026. Candidates must have appeared for NEET (MDS) 2026 held on 19 April 2026. The selection process will be based on NEET score and interview, followed by medical examination.",
+    "totalPost": "37",
+    "importantDates": {
+      "Application Begin": "2026-09-22",
+      "Last Date for Apply Online": "2026-10-22",
+      "Pay Exam Fee Last Date": "2026-10-22",
+      "Correction Last Date": "2026-05-12",
+      "Eligibility Result Available": "2026-06-02",
+      "Exam Date": "Notify Soon",
+      "Exam City Available": "2026-07-02",
+      "Admit Card Available": "Before Exam"
+    },
+    "applicationFee": {
+      "General / OBC / EWS": "₹ 200/-",
+      "SC / ST": "₹ 200/-",
+      "PH (Divyang)": "",
+      "Payment Mode": "Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet"
+    },
+    "ageLimit": {
+      "Minimum Age": "18 Year",
+      "Maximum Age": "45 Year",
+      "Age Calculation Date": "As on 31 December 2026",
+      "Age Relaxation": "As per Indian Army Regulations"
+    },
+    "posts": [
+      "Dental Corps"
+    ],
+    "eligibility": [
+      "Candidates must have a BDS or MDS degree from a DCI-recognized college/university with at least 55% marks in the final year of BDS or MDS degree.",
+      "Must have completed a one-year compulsory rotatory internship by 30 June 2026.",
+      "Must hold a valid Dental Practitioner Registration Certificate (valid up to 31 December 2026).",
+      "Must have appeared for NEET (MDS) 2026 held on 19 April 2026."
+    ],
+    "selectionProcess": [
+      "Based on NEET Score",
+      "Interview",
+      "Medical Examination"
+    ],
+    "jobLocation": "",
+    "howToApply": "Interested candidates can apply online for the Indian Army Dental Corps Recruitment 2026 before 22 October 2026. Use the 'Apply Online' link provided below to submit the application directly. Alternatively, visit the official website of the Indian Army to complete the application process. Ensure the application is submitted before the deadline of 22 October 2026. Candidates are advised to carefully read the official notification before filling out the form to confirm last dates, age limits, and eligibility criteria.",
+    "links": {
+      "Apply Online": "https://join.afms.gov.in/",
+      "Official Notification": "https://Sewayojan.up.nic.in/"
+    },
+    "content": [
+      {
+        "heading": "Indian Army Dental Corps Recruitment 2026",
+        "body": "The Indian Army has released a notification for the recruitment of Dental Corps as Short Services Commissioned Officers. A total of 37 positions are available. The online application process started on 22 September 2026 and will close on 22 October 2026. Candidates must have a BDS or MDS degree from a DCI-recognized college/university with at least 55% marks in the final year. They must have completed a one-year compulsory rotatory internship by 30 June 2026 and hold a valid dental practitioner registration certificate valid up to 31 December 2026. Candidates must have appeared for NEET (MDS) 2026 held on 19 April 2026. The selection process will be based on NEET score and interview, followed by medical examination."
+      },
+      {
+        "heading": "Indian Army Dental Corps 2026: Important Dates",
+        "body": "The key important dates for the Indian Army Dental Corps Recruitment 2026 are as follows:\n- Online Application Start Date: 22 September 2026\n- Last Date for Online Application: 22 October 2026\n- Last Date for Fee Payment: 22 October 2026\n- Exam Date: To be notified soon\n- Admit Card Available: Before the exam\n- Result Date: Will be updated here soon\nCandidates are advised to confirm all dates and details from the official Indian Army website before finalizing their application. All dates are subject to change as per official announcements, and candidates must verify the details on the official website before making any decisions."
+      },
+      {
+        "heading": "Indian Army Dental Corps 2026: Application Fee",
+        "body": "The application fee for the Indian Army Dental Corps Recruitment 2026 is as follows:\n- General / OBC: ₹ 200/-\n- SC / ST: ₹ 200/-\nPayment can be made online using the following methods: Debit Card, Credit Card, Internet Banking, IMPS, Cash Card / Mobile Wallet. Candidates are advised to complete the application and pay the fee before the last date of 22 October 2026."
+      },
+      {
+        "heading": "Indian Army Dental Corps 2026: Age Limit",
+        "body": "The age limit for candidates applying for the Indian Army Dental Corps Recruitment 2026 is as follows:\n- Minimum Age: 18 years\n- Maximum Age: 45 years (as on 31 December 2026)\nAge relaxation will be provided as per Indian Army regulations. Candidates are advised to refer to the official notification for detailed information on age relaxation and other eligibility criteria."
+      },
+      {
+        "heading": "Indian Army Dental Corps 2026: Vacancy Details",
+        "body": "The vacancy details for the Indian Army Dental Corps Recruitment 2026 are as follows:\n- Total Posts: 37\n- Post-wise Breakdown:\n Dental Corps: 37\nCandidates are advised to check the official notification for any updates or changes in the vacancy details."
+      },
+      {
+        "heading": "Indian Army Dental Corps 2026: Education Qualification",
+        "body": "The eligibility criteria for the Indian Army Dental Corps Recruitment 2026 are as follows:\nCandidates must have a BDS or MDS degree from a DCI-recognized college/university with at least 55% marks in the final year of BDS or MDS degree. They must have completed a one-year compulsory rotatory internship by 30 June 2026 and must hold a valid Dental Practitioner Registration Certificate (valid up to 31 December 2026). In addition, they must have appeared for NEET (MDS) 2026 held on 19 April 2026. All candidates are advised to verify the full eligibility criteria from the official notification before applying."
+      },
+      {
+        "heading": "How To Apply for Indian Army Dental Corps Recruitment 2026",
+        "body": "Interested candidates can apply online for the Indian Army Dental Corps Recruitment 2026 before 22 October 2026. Use the 'Apply Online' link provided below to submit the application directly. Alternatively, visit the official website of the Indian Army to complete the application process. Ensure the application is submitted before the deadline of 22 October 2026. Candidates are advised to carefully read the official notification before filling out the form to confirm last dates, age limits, and eligibility criteria."
+      },
+      {
+        "heading": "Indian Army Dental Corps 2026: Mode of Selection",
+        "body": "The selection process for the Indian Army Dental Corps Recruitment 2026 will be conducted through the following stages:\n- Based on NEET Score\n- Interview\n- Medical Examination\nCandidates are advised to prepare thoroughly for each stage and ensure they meet the eligibility criteria before applying."
+      },
+      {
+        "heading": "Important Questions and Answers",
+        "body": "Q. When Will The Online Application For Indian Army Dental Corps Recruitment 2026 Start?\nA: The Online Application For This Recruitment Has Started On 22 September 2026.\n\nQ. What Is The Last Date To Apply For Indian Army Dental Corps Recruitment 2026?\nA: The Last Date To Submit The Online Application Is 22 October 2026.\n\nQ. What Is The Age Limit For Indian Army Dental Corps Recruitment 2026?\nA: The Candidate’s Date Of Birth Should Be Checked As Per The Age Limit Defined By Indian Army Rules.\n\nQ. What Is The Eligibility For Indian Army Dental Corps Recruitment 2026?\nA: All Candidates Are Advised To Thoroughly Read The Official Notification Before Applying.\n\nQ. What Is The Official Website Of The Indian Army?\nA: The Official Website Of The Indian Army Is https://join.afms.gov.in/"
+      },
+      {
+        "heading": "Important Notes and Disclaimer",
+        "body": "The information provided on this website regarding any exam form, results, marks, answer key, or timetable is published solely for the immediate information of examinees and should not be considered a legal document. While every effort has been made by the team to ensure the accuracy of the information provided, including official links, we are not responsible for any inadvertent errors that may appear in examination results, marks, answer keys, or time tables. We disclaim any liability for any loss or damage caused by shortcomings, defects, or inaccuracies in the information available on this website. Candidates are advised to verify all details from the official website before making any decisions."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Indian Army Dental Corps Recruitment 2026",
+      "metaDescription": "Indian Army Dental Corps Recruitment 2026: Check Important Dates, How to Apply, Eligibility, Selection Process, Application Fee, Official Website. Application Start: 22 September 2026. Last Date: 22 October 2026. Age Limit: 18 to 45 Years. Eligibility: BDS or MDS Degree with 55% Marks, One-Year Rotatory Internship, Valid Dental Registration, NEET (MDS) 2026. Official Website: https://join.afms.gov.in/",
+      "keywords": "Indian Army Dental Corps Recruitment 2026, Indian Army Application Date, Indian Army Eligibility, Indian Army Age Limit, Indian Army Application Fee, Indian Army Official Website, Indian Army Dental Corps"
+    },
+    "updatedon": "2026-09-14"
   }
 ]
