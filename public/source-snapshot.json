@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-15T09:28:17.961Z",
+    "checkedAt": "2026-09-15T16:30:07.203Z",
     "links": [
+      {
+        "text": "Indian Overseas Bank IOB Apprentice Result 2026",
+        "href": "https://sarkariresult.com.cm/iob-apprentice-2026/"
+      },
+      {
+        "text": "IBPS Clerk 15th Reserve List 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ibps-clerk-csa-xv-2025/"
+      },
       {
         "text": "Bihar Vidhan Parishad LDC / DEO Final Result 2026",
         "href": "https://sarkariresult.com.cm/bihar-vidhan-parishad-pa-deo-ldc-steno-2026/"
@@ -83,12 +91,12 @@
         "href": "https://sarkariresult.com.cm/jammu-university-result-2026/"
       },
       {
-        "text": "NTA ICAR AIEEA PG Ph.D Result / Score Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/nta-icar-aieea-pg-and-phd-2026/"
+        "text": "UPCISB UP Cooperative Bank Various Post Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/upcisb-cooperative-bank-2026/"
       },
       {
-        "text": "NTA CSIR UGC NET June Result / Cutoff 2026 – Out",
-        "href": "https://sarkariresult.com.cm/nta-csir-ugc-net-june-2026/"
+        "text": "SBI Junior Associates Clerk PET Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/sbi-junior-associates-clerk-2026/"
       },
       {
         "text": "UPESSC Principal Admit Card 2026",
@@ -179,20 +187,12 @@
         "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
       },
       {
-        "text": "SSC Delhi Police Constable (Executive) PE & MT Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/ssc-delhi-police-constable-executive-2026/"
+        "text": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
+        "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
       },
       {
-        "text": "UPSSSC PET Exam Date 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
-      },
-      {
-        "text": "MP High Court Assistant Grade III Online Form 2026 – Date Extend",
-        "href": "https://sarkariresult.com.cm/mp-high-court-assistant-grade-iii-2026/"
-      },
-      {
-        "text": "Delhi High Court SPA & PA Online Form 2026 – Start",
-        "href": "https://sarkariresult.com.cm/delhi-high-court-spa-pa-2026/"
+        "text": "Bihar STET Online Form 2026 – Extend",
+        "href": "https://sarkariresult.com.cm/bihar-stet-2026/"
       },
       {
         "text": "India Post GDS Online Form 2026 (23,757 Posts)",
@@ -203,12 +203,16 @@
         "href": "https://sarkariresult.com.cm/ssc-chsl-sep-2026/"
       },
       {
-        "text": "RRB Paramedical Staff Online Form 2026 – Start",
-        "href": "https://sarkariresult.com.cm/rrb-paramedical-staff-05-2026/"
+        "text": "MP High Court Assistant Grade III Online Form 2026 – Date Extend",
+        "href": "https://sarkariresult.com.cm/mp-high-court-assistant-grade-iii-2026/"
       },
       {
-        "text": "Bihar STET Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/bihar-stet-2026/"
+        "text": "Delhi High Court SPA & PA Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/delhi-high-court-spa-pa-2026/"
+      },
+      {
+        "text": "RRB Paramedical Staff Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/rrb-paramedical-staff-05-2026/"
       },
       {
         "text": "RRC ECOR Apprentice Online Form 2026 – Last Date Today",
@@ -283,10 +287,6 @@
         "href": "https://sarkariresult.com.cm/mp-police-si-subedar-2026/"
       },
       {
-        "text": "UPSSSC Livestock Extension Officer Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-leo-2026/"
-      },
-      {
         "text": "UPSSSC Teacher Cadre JTC Final Answer Key 2026",
         "href": "https://sarkariresult.com.cm/upsssc-teacher-cadre-jtc-2026/"
       },
@@ -317,6 +317,10 @@
       {
         "text": "BSNL Junior Telecom Officer JTO Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/bsnl-junior-telecom-officer-jto-2026/"
+      },
+      {
+        "text": "NTA CSIR UGC NET June Result / Cutoff 2026 – Out",
+        "href": "https://sarkariresult.com.cm/nta-csir-ugc-net-june-2026/"
       },
       {
         "text": "UPSSSC Lower PCS Answer Key 2026 – Out",
@@ -509,10 +513,6 @@
       {
         "text": "ISRO ICRB Scientist / Engineer Online Form 2026",
         "href": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/"
-      },
-      {
-        "text": "Job",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -1210,6 +1210,21 @@
         "jobId": 284,
         "slug": "indian-army-dental-corps-recruitment-2026",
         "processedAt": "2026-09-14T17:54:26.190Z"
+      },
+      "https://sarkariresult.com.cm/iob-apprentice-2026/": {
+        "jobId": 285,
+        "slug": "indian-overseas-bank-iob-apprentice-recruitment-2026",
+        "processedAt": "2026-09-15T16:27:07.239Z"
+      },
+      "https://sarkariresult.com.cm/ibps-clerk-csa-xv-2025/": {
+        "jobId": 286,
+        "slug": "ibps-clerk-csa-xv-recruitment-2025",
+        "processedAt": "2026-09-15T16:28:38.771Z"
+      },
+      "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/": {
+        "jobId": 287,
+        "slug": "upessc-prt-assistant-teacher-recruitment-2026",
+        "processedAt": "2026-09-15T16:30:07.201Z"
       }
     },
     "failed": {
