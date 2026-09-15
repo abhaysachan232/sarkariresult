@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-15T16:30:07.203Z",
+    "checkedAt": "2026-09-15T22:46:06.879Z",
     "links": [
       {
         "text": "Indian Overseas Bank IOB Apprentice Result 2026",
@@ -187,6 +187,10 @@
         "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
       },
       {
+        "text": "UP PGT Teacher Online Form 2026 (2607 Posts)",
+        "href": "https://sarkariresult.com.cm/up-pgt-teacher-2026/"
+      },
+      {
         "text": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
         "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
       },
@@ -281,10 +285,6 @@
       {
         "text": "Bank of India BOI SO Online Form 2026",
         "href": "https://sarkariresult.com.cm/boi-so-2026/"
-      },
-      {
-        "text": "MPESB MP Police SI, Subedar Online Form 2026",
-        "href": "https://sarkariresult.com.cm/mp-police-si-subedar-2026/"
       },
       {
         "text": "UPSSSC Teacher Cadre JTC Final Answer Key 2026",
@@ -513,6 +513,10 @@
       {
         "text": "ISRO ICRB Scientist / Engineer Online Form 2026",
         "href": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/"
+      },
+      {
+        "text": "Job",
+        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -1225,6 +1229,11 @@
         "jobId": 287,
         "slug": "upessc-prt-assistant-teacher-recruitment-2026",
         "processedAt": "2026-09-15T16:30:07.201Z"
+      },
+      "https://sarkariresult.com.cm/up-pgt-teacher-2026/": {
+        "jobId": 288,
+        "slug": "up-pgt-teacher-recruitment-2026",
+        "processedAt": "2026-09-15T22:46:06.877Z"
       }
     },
     "failed": {
