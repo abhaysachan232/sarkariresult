@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-16T16:19:35.209Z",
+    "checkedAt": "2026-09-16T22:47:07.456Z",
     "links": [
+      {
+        "text": "UPTET 2026 Result Notice",
+        "href": "https://sarkariresult.com.cm/uptet-2026/"
+      },
       {
         "text": "RRB Junior Engineer JE CBT-2 Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/rrb-junior-engineer-je-2026/"
@@ -9,10 +13,6 @@
       {
         "text": "RPSC SI / Platoon Commander PET Result 2026",
         "href": "https://sarkariresult.com.cm/rpsc-si-platoon-commander-2026/"
-      },
-      {
-        "text": "UPSSSC Junior Assistant Result 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-junior-assistant-2026/"
       },
       {
         "text": "Indian Overseas Bank IOB Apprentice Result 2026",
@@ -89,6 +89,14 @@
       {
         "text": "CGPSC SSE PCS Mains Result 2026",
         "href": "https://sarkariresult.com.cm/cgpsc-sse-pcs-pre-2025/"
+      },
+      {
+        "text": "NCERT LDC Post Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ncert-group-a-b-c-2026/"
+      },
+      {
+        "text": "UPSSSC Junior Assistant Typing Test Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-junior-assistant-2026/"
       },
       {
         "text": "UPSSSC Excise Constable Admit Card 2026 – Out",
@@ -175,12 +183,8 @@
         "href": "https://sarkariresult.com.cm/mpesb-krashi-vistar-adhikari/"
       },
       {
-        "text": "ISRO Assistant & Junior Personal Assistant Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
-      },
-      {
-        "text": "SSC Delhi Police Constable (Executive) PE & MT Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/ssc-delhi-police-constable-executive-2026/"
+        "text": "UPSC Engineering Services Pre Online Form 2027",
+        "href": "https://sarkariresult.com.cm/upsc-engineering-services-pre-2027/"
       },
       {
         "text": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
@@ -277,10 +281,6 @@
       {
         "text": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
         "href": "https://sarkariresult.com.cm/rajasthan-safai-karmchari-2026/"
-      },
-      {
-        "text": "UKPSC Upper PCS Online Form 2026",
-        "href": "https://sarkariresult.com.cm/ukpsc-upper-pcs-2026/"
       },
       {
         "text": "UPSC NDA II Answer Key 2026 – Out",
@@ -766,7 +766,7 @@
       "https://sarkariresult.com.cm/uptet-2026/": {
         "jobId": 196,
         "slug": "uptet-2026-result-declared",
-        "processedAt": "2026-09-02T08:30:41.654Z"
+        "processedAt": "2026-09-16T22:42:47.405Z"
       },
       "https://sarkariresult.com.cm/up-iti-2026/": {
         "jobId": 197,
@@ -841,7 +841,7 @@
       "https://sarkariresult.com.cm/ncert-group-a-b-c-2026/": {
         "jobId": 211,
         "slug": "ncert-group-a-b-c-recruitment-2026",
-        "processedAt": "2026-09-01T09:15:11.001Z"
+        "processedAt": "2026-09-16T22:44:38.748Z"
       },
       "https://sarkariresult.com.cm/mpesb-group-2-sub-group-3-2026/": {
         "jobId": 212,
@@ -1236,7 +1236,7 @@
       "https://sarkariresult.com.cm/upsssc-junior-assistant-2026/": {
         "jobId": 291,
         "slug": "upsssc-junior-assistant-recruitment-2026",
-        "processedAt": "2026-09-16T09:13:25.960Z"
+        "processedAt": "2026-09-16T22:45:50.899Z"
       },
       "https://sarkariresult.com.cm/urgent-hiring-in-sarkari-result-apply-now/": {
         "jobId": 292,
@@ -1252,6 +1252,11 @@
         "jobId": 294,
         "slug": "uksssc-group-c-scaler-recruitment-2026",
         "processedAt": "2026-09-16T16:19:35.207Z"
+      },
+      "https://sarkariresult.com.cm/upsc-engineering-services-pre-2027/": {
+        "jobId": 295,
+        "slug": "upsc-engineering-services-pre-recruitment-2027",
+        "processedAt": "2026-09-16T22:47:07.452Z"
       }
     },
     "failed": {
