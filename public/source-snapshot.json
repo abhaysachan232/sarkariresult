@@ -1,7 +1,23 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-17T09:30:30.415Z",
+    "checkedAt": "2026-09-17T16:29:16.125Z",
     "links": [
+      {
+        "text": "HPSC HCS Mains Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/haryana-hpsc-hcs-2026/"
+      },
+      {
+        "text": "Indian Navy Agniveer SSR / MR Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/indian-navy-agniveer-ssr-mr-2026/"
+      },
+      {
+        "text": "UPPSC 2025 PCS Mains Exam Result 2026",
+        "href": "https://sarkariresult.com.cm/uppsc-2025/"
+      },
+      {
+        "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
+        "href": "https://sarkariresult.com.cm/emrs-teaching-non-teaching-2026/"
+      },
       {
         "text": "UPTET 2026 Result Notice",
         "href": "https://sarkariresult.com.cm/uptet-2026/"
@@ -29,10 +45,6 @@
       {
         "text": "UPSSSC Lekhpal Mains Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/upsssc-lekhpal-2026/"
-      },
-      {
-        "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
-        "href": "https://sarkariresult.com.cm/emrs-teaching-non-teaching-2026/"
       },
       {
         "text": "NTA UGC NET June Result / Score Card 2026",
@@ -87,12 +99,12 @@
         "href": "https://sarkariresult.com.cm/upsc-cms-2026/"
       },
       {
-        "text": "CGPSC SSE PCS Mains Result 2026",
-        "href": "https://sarkariresult.com.cm/cgpsc-sse-pcs-pre-2025/"
+        "text": "UPSC Civil Services IFS Mains Exam Date 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsc-civil-services-ias-ifs-2026/"
       },
       {
-        "text": "NCERT LDC Post Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/ncert-group-a-b-c-2026/"
+        "text": "SBI Junior Associates Clerk Pre Exam Date 2026 – Out",
+        "href": "https://sarkariresult.com.cm/sbi-junior-associates-clerk-2026/"
       },
       {
         "text": "SSC Delhi Police HC (Ministerial) PE & MT Admit Card 2026 – Out",
@@ -135,10 +147,6 @@
         "href": "https://sarkariresult.com.cm/upcisb-cooperative-bank-2026/"
       },
       {
-        "text": "SBI Junior Associates Clerk PET Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/sbi-junior-associates-clerk-2026/"
-      },
-      {
         "text": "UPESSC Principal Admit Card 2026",
         "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
       },
@@ -179,10 +187,6 @@
         "href": "https://sarkariresult.com.cm/rrb-technician-2026/"
       },
       {
-        "text": "Uttarakhand TET Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/utet-2026/"
-      },
-      {
         "text": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
         "href": "https://sarkariresult.com.cm/2026-mp-police-constable-sep26/"
       },
@@ -201,10 +205,6 @@
       {
         "text": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
         "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
-      },
-      {
-        "text": "Urgent Hiring In Sarkari Result – Apply Now",
-        "href": "https://sarkariresult.com.cm/urgent-hiring-in-sarkari-result-apply-now/"
       },
       {
         "text": "SSC CHSL 10+2 Online Form 2026",
@@ -233,6 +233,10 @@
       {
         "text": "UKSSSC Group C Scaler Online Form 2026",
         "href": "https://sarkariresult.com.cm/uksssc-group-c-scaler-2026/"
+      },
+      {
+        "text": "SBI SCO Wealth & Other Post Online Form 2026",
+        "href": "https://sarkariresult.com.cm/sbi-sco-wealth-other-post-online-form-2026/"
       },
       {
         "text": "Bihar STET Online Form 2026 – Extend",
@@ -511,7 +515,7 @@
         "href": "https://sarkariresult.com.cm/aai-junior-executive-manager-2026/"
       },
       {
-        "text": "Job",
+        "text": "Jobs",
         "href": "https://sarkariresult.com.cm/#"
       },
       {
@@ -1265,6 +1269,26 @@
         "jobId": 298,
         "slug": "up-mainpuri-ecce-educator-recruitment-2026",
         "processedAt": "2026-09-17T09:29:11.520Z"
+      },
+      "https://sarkariresult.com.cm/haryana-hpsc-hcs-2026/": {
+        "jobId": 299,
+        "slug": "hpsc-hcs-mains-result-2026",
+        "processedAt": "2026-09-17T16:25:17.099Z"
+      },
+      "https://sarkariresult.com.cm/indian-navy-agniveer-ssr-mr-2026/": {
+        "jobId": 300,
+        "slug": "indian-navy-agniveer-ssr-mr-result-2026",
+        "processedAt": "2026-09-17T16:26:29.913Z"
+      },
+      "https://sarkariresult.com.cm/uppsc-2025/": {
+        "jobId": 301,
+        "slug": "uppsc-2025-pcs-mains-exam-result-2026",
+        "processedAt": "2026-09-17T16:27:49.633Z"
+      },
+      "https://sarkariresult.com.cm/sbi-sco-wealth-other-post-online-form-2026/": {
+        "jobId": 302,
+        "slug": "sbi-sco-wealth-other-post-recruitment-2026",
+        "processedAt": "2026-09-17T16:29:16.122Z"
       }
     },
     "failed": {
