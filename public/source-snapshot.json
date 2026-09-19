@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-19T15:29:39.196Z",
+    "checkedAt": "2026-09-19T18:29:20.767Z",
     "links": [
       {
         "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
@@ -87,6 +87,14 @@
         "href": "https://sarkariresult.com.cm/uppsc-computer-assistant-2026/"
       },
       {
+        "text": "Indian Airforce Group Y/ Medical Assistant Airmen Intake 02/2027 Admit Card",
+        "href": "https://sarkariresult.com.cm/airforce-group-y-medical-assistant-airmen-intake-02-2027/"
+      },
+      {
+        "text": "Indian Airforce Agniveer Vayu Intake 02/2027 Admit Card",
+        "href": "https://sarkariresult.com.cm/indian-airforce-agniveer-vayu-intake-02-2027/"
+      },
+      {
         "text": "MPESB Group-2 Sub Group-4 Patwari Admit Card 2026",
         "href": "https://sarkariresult.com.cm/mpesb-group-2-sub-group-4-patwari-2026/"
       },
@@ -167,12 +175,8 @@
         "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
       },
       {
-        "text": "CTET September Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/ctet-september-2026/"
-      },
-      {
-        "text": "SSC Selection Phase 14 Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/ssc-selection-phase-14-2026/"
+        "text": "SBI Trade Finance Officer Online Form 2026 – Date Extend",
+        "href": "https://sarkariresult.com.cm/sbi-tfo-specialist-cadre-2026/"
       },
       {
         "text": "India Post GDS Online Form 2026 (23,757 Posts) – Last Date Today",
@@ -201,10 +205,6 @@
       {
         "text": "JSSC 10+2 Inter Level JILCCE Online form 2026 – Re-Open",
         "href": "https://sarkariresult.com.cm/jssc-102-inter-level-jilcce-2026/"
-      },
-      {
-        "text": "SBI Trade Finance Officer Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/sbi-tfo-specialist-cadre-2026/"
       },
       {
         "text": "RCFL Apprentices Online Form 2026",
@@ -481,6 +481,10 @@
       {
         "text": "Bank Of Baroda LBO Online Form 2026 (2482 Posts)",
         "href": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/"
+      },
+      {
+        "text": "CTET September Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/ctet-september-2026/"
       },
       {
         "text": "UPSC EPFO / APFC Online Form 2026",
@@ -1078,7 +1082,7 @@
       "https://sarkariresult.com.cm/airforce-group-y-medical-assistant-airmen-intake-02-2027/": {
         "jobId": 264,
         "slug": "indian-airforce-group-y-medical-assistant-airmen-intake-02-2027",
-        "processedAt": "2026-09-11T08:43:03.922Z"
+        "processedAt": "2026-09-19T18:29:20.766Z"
       },
       "https://sarkariresult.com.cm/cgpsc-adpo-2026/": {
         "jobId": 265,
