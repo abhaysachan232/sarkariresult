@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-20T03:45:37.200Z",
+    "checkedAt": "2026-09-20T09:11:48.397Z",
     "links": [
       {
         "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
@@ -175,19 +175,19 @@
         "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
       },
       {
-        "text": "SBI Trade Finance Officer Online Form 2026 – Date Extend",
-        "href": "https://sarkariresult.com.cm/sbi-tfo-specialist-cadre-2026/"
+        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
+        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
       {
-        "text": "India Post GDS Online Form 2026 (23,757 Posts) – Last Date Today",
-        "href": "https://sarkariresult.com.cm/india-post-gds-july-2026/"
+        "text": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
+        "href": "https://sarkariresult.com.cm/2026-mp-police-constable-sep26/"
       },
       {
         "text": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
         "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
       },
       {
-        "text": "UP PGT Teacher Online Form 2026 (2607 Posts) – Start",
+        "text": "UP PGT Teacher Online Form 2026 (2607 Posts)",
         "href": "https://sarkariresult.com.cm/up-pgt-teacher-2026/"
       },
       {
@@ -199,6 +199,26 @@
         "href": "https://sarkariresult.com.cm/ibps-rrb-15th-2026/"
       },
       {
+        "text": "RCFL Apprentices Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/rcfl-apprentices-2026/"
+      },
+      {
+        "text": "RCFL Management Trainee MT Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/rcfl-management-trainee-2026/"
+      },
+      {
+        "text": "SSC Junior Engineer JE Online Form 2026",
+        "href": "https://sarkariresult.com.cm/ssc-je-2026/"
+      },
+      {
+        "text": "India Post GDS Online Form 2026 (23,757 Posts)",
+        "href": "https://sarkariresult.com.cm/india-post-gds-july-2026/"
+      },
+      {
+        "text": "SBI Trade Finance Officer Online Form 2026 – Date Extend",
+        "href": "https://sarkariresult.com.cm/sbi-tfo-specialist-cadre-2026/"
+      },
+      {
         "text": "HPSC Food Safety Officer (FSO) Online Form 2026",
         "href": "https://sarkariresult.com.cm/hpsc-fso-2026/"
       },
@@ -207,24 +227,12 @@
         "href": "https://sarkariresult.com.cm/jssc-102-inter-level-jilcce-2026/"
       },
       {
-        "text": "RCFL Apprentices Online Form 2026",
-        "href": "https://sarkariresult.com.cm/rcfl-apprentices-2026/"
-      },
-      {
         "text": "MPESB Primary and Secondary Teachers MSPSTET Online Form 2026 – Date Extend",
         "href": "https://sarkariresult.com.cm/mpesb-primary-and-secondary-teachers-mspstet-2026/"
       },
       {
         "text": "MPESB Subedar Steno, ASI Online Form 2026",
         "href": "https://sarkariresult.com.cm/mpesb-subedar-steno-asi-2026/"
-      },
-      {
-        "text": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
-        "href": "https://sarkariresult.com.cm/2026-mp-police-constable-sep26/"
-      },
-      {
-        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
-        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
       {
         "text": "Bihar STET Online Form 2026 – Extend",
@@ -265,14 +273,6 @@
       {
         "text": "SBI SCO Wealth & Other Post Online Form 2026",
         "href": "https://sarkariresult.com.cm/sbi-sco-wealth-other-post-online-form-2026/"
-      },
-      {
-        "text": "MP High Court Assistant Grade III Online Form 2026 – Date Extend",
-        "href": "https://sarkariresult.com.cm/mp-high-court-assistant-grade-iii-2026/"
-      },
-      {
-        "text": "Delhi High Court SPA & PA Online Form 2026 – Start",
-        "href": "https://sarkariresult.com.cm/delhi-high-court-spa-pa-2026/"
       },
       {
         "text": "RSSB Computer Instructor Answer Key 2026",
@@ -491,16 +491,8 @@
         "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
       },
       {
-        "text": "SSC Junior Engineer JE Online Form 2026",
-        "href": "https://sarkariresult.com.cm/ssc-je-2026/"
-      },
-      {
         "text": "AAI Junior Executive & Manager Online Form 2026",
         "href": "https://sarkariresult.com.cm/aai-junior-executive-manager-2026/"
-      },
-      {
-        "text": "Job",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -772,7 +764,7 @@
       "https://sarkariresult.com.cm/india-post-gds-july-2026/": {
         "jobId": 201,
         "slug": "india-post-gds-recruitment-2026",
-        "processedAt": "2026-09-19T08:37:57.516Z"
+        "processedAt": "2026-09-20T09:11:48.394Z"
       },
       "https://sarkariresult.com.cm/bihar-btsc-staff-nurse-2025/": {
         "jobId": 202,
@@ -1002,7 +994,7 @@
       "https://sarkariresult.com.cm/rcfl-apprentices-2026/": {
         "jobId": 247,
         "slug": "rcfl-apprentices-recruitment-2026",
-        "processedAt": "2026-09-19T08:43:51.175Z"
+        "processedAt": "2026-09-20T09:10:22.423Z"
       },
       "https://sarkariresult.com.cm/uiicl-ao-2026/": {
         "jobId": 248,
@@ -1197,7 +1189,7 @@
       "https://sarkariresult.com.cm/up-pgt-teacher-2026/": {
         "jobId": 288,
         "slug": "up-pgt-teacher-recruitment-2026",
-        "processedAt": "2026-09-19T08:39:15.369Z"
+        "processedAt": "2026-09-20T09:08:50.340Z"
       },
       "https://sarkariresult.com.cm/rrb-junior-engineer-je-2026/": {
         "jobId": 289,
