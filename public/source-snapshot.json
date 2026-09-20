@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-20T15:34:49.739Z",
+    "checkedAt": "2026-09-20T18:33:14.119Z",
     "links": [
       {
         "text": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
@@ -87,6 +87,10 @@
         "href": "https://sarkariresult.com.cm/uppsc-computer-assistant-2026/"
       },
       {
+        "text": "RRB NTPC Graduate Level CBTST Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-2026/"
+      },
+      {
         "text": "Indian Airforce Group Y/ Medical Assistant Airmen Intake 02/2027 Admit Card",
         "href": "https://sarkariresult.com.cm/airforce-group-y-medical-assistant-airmen-intake-02-2027/"
       },
@@ -141,10 +145,6 @@
       {
         "text": "NTA Exam Calendar 2026-27",
         "href": "https://sarkariresult.com.cm/nta-exam-calendar-2026-27/"
-      },
-      {
-        "text": "RPSC Sub Inspector Admit Card 2026 – Out",
-        "href": "https://sarkariresult.com.cm/rpsc-sub-inspector-2021/"
       },
       {
         "text": "UPSSSC Junior Assistant Typing Test Exam Date 2026",
@@ -275,6 +275,10 @@
         "href": "https://sarkariresult.com.cm/sbi-sco-wealth-other-post-online-form-2026/"
       },
       {
+        "text": "RPSC Sub Inspector Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rpsc-sub-inspector-2021/"
+      },
+      {
         "text": "RSSB Computer Instructor Answer Key 2026",
         "href": "https://sarkariresult.com.cm/rssb-computer-instructor-2026/"
       },
@@ -325,10 +329,6 @@
       {
         "text": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/"
-      },
-      {
-        "text": "UPSSSC UP Pollution Control Board Various Post Final Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsssc-up-pollution-control-board-2026/"
       },
       {
         "text": "UP Scholarship Online Form 2026-27",
@@ -749,7 +749,7 @@
       "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-2026/": {
         "jobId": 198,
         "slug": "rrb-ntpc-graduate-level-cbt-ii-result-2026-released",
-        "processedAt": "2026-08-29T10:57:58.715Z"
+        "processedAt": "2026-09-20T18:33:14.116Z"
       },
       "https://sarkariresult.com.cm/iit-bhu-non-teaching-2026/": {
         "jobId": 199,
