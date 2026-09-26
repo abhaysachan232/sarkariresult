@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-26T09:21:05.474Z",
+    "checkedAt": "2026-09-26T15:58:56.655Z",
     "links": [
+      {
+        "text": "UPESSC Principal Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
+      },
       {
         "text": "UPSSSC Assistant Store Keeper Final Result 2026",
         "href": "https://sarkariresult.com.cm/upsssc-assistant-store-keeper-2025/"
@@ -69,10 +73,6 @@
       {
         "text": "UPPSC ATP Pre Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/uppsc-atp-2025/"
-      },
-      {
-        "text": "UP TGT 2022 College Allotment Result",
-        "href": "https://sarkariresult.com.cm/up-tgt-2026/"
       },
       {
         "text": "SSC Delhi Police Driver Physical Admit Card 2026",
@@ -303,10 +303,6 @@
         "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
       },
       {
-        "text": "UPSC CDS-II Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsc-cds-2-2026/"
-      },
-      {
         "text": "UP Scholarship Online Form 2026-27",
         "href": "https://sarkariresult.com.cm/up-scholarship-2026/"
       },
@@ -483,7 +479,7 @@
         "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
       },
       {
-        "text": "Jobs",
+        "text": "Job",
         "href": "https://sarkariresult.com.cm/#"
       },
       {
@@ -542,11 +538,6 @@
         "jobId": 135,
         "slug": "uppsc-professor-assistant-professor-recruitment-2026",
         "processedAt": "2026-09-01T09:20:14.433Z"
-      },
-      "https://sarkariresult.com.cm/upessc-principal-2026/": {
-        "jobId": 136,
-        "slug": "upessc-principal-recruitment-2026",
-        "processedAt": "2026-09-15T09:16:16.108Z"
       },
       "https://sarkariresult.com.cm/iit-jam-2027/": {
         "jobId": 137,
@@ -2001,6 +1992,10 @@
       },
       "https://sarkariresult.com.cm/airforce-group-y-medical-assistant-airmen-intake-02-2027/": {
         "failedAt": "2026-09-26T09:21:05.470Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/upessc-principal-2026/": {
+        "failedAt": "2026-09-26T15:58:56.652Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
