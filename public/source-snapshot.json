@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-09-27T04:02:04.486Z",
+    "checkedAt": "2026-09-27T13:37:39.899Z",
     "links": [
       {
         "text": "UPESSC Principal Answer Key 2026 – Out",
@@ -75,6 +75,14 @@
         "href": "https://sarkariresult.com.cm/uppsc-atp-2025/"
       },
       {
+        "text": "Bank Of Baroda LBO Admit Card 2026 – Out",
+        "href": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/"
+      },
+      {
+        "text": "Railway RRB Technician Exam City Details 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rrb-technician-2026/"
+      },
+      {
         "text": "SSC CGL Tier-I Exam City Details 2026",
         "href": "https://sarkariresult.com.cm/ssc-cgl-2026/"
       },
@@ -109,10 +117,6 @@
       {
         "text": "UKPSC Lecturer Admit Card 2026",
         "href": "https://sarkariresult.com.cm/ukpsc-lecturer-recruitment-2026-last-date/"
-      },
-      {
-        "text": "Bank Of Baroda LBO Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/"
       },
       {
         "text": "UPSSSC Forensic Science Laboratory Admit Card 2026",
@@ -161,10 +165,6 @@
       {
         "text": "MPESB Group-2 Sub Group-4 Patwari Admit Card 2026",
         "href": "https://sarkariresult.com.cm/mpesb-group-2-sub-group-4-patwari-2026/"
-      },
-      {
-        "text": "ISRO ICRB Scientist / Engineer Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/"
       },
       {
         "text": "IBPS RRB 15th Online Form 2026 (13,706 Posts) – Last Date Today",
@@ -323,12 +323,12 @@
         "href": "https://sarkariresult.com.cm/up-police-upprpb-one-time-registration-otr-online-form-2025/"
       },
       {
-        "text": "IIM CAT 2026 Online Form",
-        "href": "https://sarkariresult.com.cm/iim-cat-2026/"
+        "text": "IIT GATE 2027 Online Form – Last Date Today",
+        "href": "https://sarkariresult.com.cm/iit-gate-2027/"
       },
       {
-        "text": "IIT GATE 2027 Online Form",
-        "href": "https://sarkariresult.com.cm/iit-gate-2027/"
+        "text": "IIM CAT 2026 Online Form",
+        "href": "https://sarkariresult.com.cm/iim-cat-2026/"
       },
       {
         "text": "CLAT Online Form 2026",
@@ -465,6 +465,10 @@
       {
         "text": "SSC Junior Engineer JE Online Form 2026",
         "href": "https://sarkariresult.com.cm/ssc-je-2026/"
+      },
+      {
+        "text": "ISRO ICRB Scientist / Engineer Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/"
       },
       {
         "text": "RRB Junior Engineer JE Exam Date 2026",
@@ -938,11 +942,6 @@
         "jobId": 259,
         "slug": "ssc-cpo-si-capf-recruitment-2026",
         "processedAt": "2026-09-10T08:47:40.054Z"
-      },
-      "https://sarkariresult.com.cm/rrb-technician-2026/": {
-        "jobId": 261,
-        "slug": "rrb-technician-recruitment-2026",
-        "processedAt": "2026-09-10T15:59:17.635Z"
       },
       "https://sarkariresult.com.cm/ukpsc-upper-pcs-2026/": {
         "jobId": 262,
@@ -1996,6 +1995,10 @@
       },
       "https://sarkariresult.com.cm/upessc-principal-2026/": {
         "failedAt": "2026-09-26T15:58:56.652Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/rrb-technician-2026/": {
+        "failedAt": "2026-09-27T13:37:39.897Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
