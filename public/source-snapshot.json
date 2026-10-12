@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-10-11T23:32:16.649Z",
+    "checkedAt": "2026-10-12T04:40:50.438Z",
     "links": [
       {
         "text": "AIIMS NORCET 11th Stage-II Result 2026 – Out",
@@ -191,6 +191,14 @@
         "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
       },
       {
+        "text": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
+        "href": "https://sarkariresult.com.cm/rajasthan-safai-karmchari-2026/"
+      },
+      {
+        "text": "RUHS Medical Officer Online Form 2026",
+        "href": "https://sarkariresult.com.cm/ruhs-medical-officer-2026/"
+      },
+      {
         "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (33,320 Posts)",
         "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
       },
@@ -201,10 +209,6 @@
       {
         "text": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Posts)",
         "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
-      },
-      {
-        "text": "MECL Non-Executive Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/mecl-non-executive-2026/"
       },
       {
         "text": "DSSSB Sweeper & Chowkidar Online Form 2026",
@@ -221,10 +225,6 @@
       {
         "text": "RRB NTPC 10+2 UG Online Form 2026",
         "href": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-07-2026/"
-      },
-      {
-        "text": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
-        "href": "https://sarkariresult.com.cm/rajasthan-safai-karmchari-2026/"
       },
       {
         "text": "RRB Paramedical Staff Online Form 2026",
@@ -517,10 +517,6 @@
       {
         "text": "UPSC EPFO / APFC Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
-      },
-      {
-        "text": "jobs",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -988,11 +984,6 @@
         "jobId": 292,
         "slug": "urgent-hiring-in-for-youtube-video-maker-editor-and-social-media-handler",
         "processedAt": "2026-09-17T09:26:10.881Z"
-      },
-      "https://sarkariresult.com.cm/ruhs-medical-officer-2026/": {
-        "jobId": 293,
-        "slug": "ruhs-medical-officer-recruitment-2026",
-        "processedAt": "2026-09-16T16:18:19.701Z"
       },
       "https://sarkariresult.com.cm/uksssc-group-c-scaler-2026/": {
         "jobId": 294,
@@ -2163,6 +2154,10 @@
       },
       "https://sarkariresult.com.cm/dsssb-sweeper-chowkidar-2026/": {
         "failedAt": "2026-10-10T14:17:29.597Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/ruhs-medical-officer-2026/": {
+        "failedAt": "2026-10-12T04:40:50.436Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
       }
     }
