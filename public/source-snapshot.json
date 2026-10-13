@@ -1,10 +1,22 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-10-13T11:28:48.881Z",
+    "checkedAt": "2026-10-13T18:58:23.133Z",
     "links": [
+      {
+        "text": "UPSC NDA II Result (Name Wise) 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
+      },
+      {
+        "text": "RPSC 2nd Grade Teacher Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/rpsc-2nd-grade-teacher-2025/"
+      },
       {
         "text": "SSC GD Constable Result 2026",
         "href": "https://sarkariresult.com.cm/ssc-gd-constable-2026/"
+      },
+      {
+        "text": "DSSSB Assistant Teacher (Primary) Result 2026",
+        "href": "https://sarkariresult.com.cm/dsssb-primary-teacher-prt-recruitment-2025-last-date/"
       },
       {
         "text": "UPESSC Principal Result 2026",
@@ -21,10 +33,6 @@
       {
         "text": "AIIMS NORCET 11th Stage-II Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/aiims-norcet-11th-nursing-officer-2026/"
-      },
-      {
-        "text": "UPSC NDA II Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
       },
       {
         "text": "Bihar Police CSBC Constable GD Final Result 2026 – Out",
@@ -77,14 +85,6 @@
       {
         "text": "Uttarakhand TET Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/utet-2026/"
-      },
-      {
-        "text": "RRB ALP CBT-II Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/railway-rrb-alp-2026/"
-      },
-      {
-        "text": "UPSSSC Platoon Commander / Block Organizer Eligibility Result 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-platoon-commander-block-organizer-2026/"
       },
       {
         "text": "UPSSSC PET Exam City Details 2026",
@@ -183,6 +183,10 @@
         "href": "https://sarkariresult.com.cm/bihar-stet-2026/"
       },
       {
+        "text": "MPESB Group 3 Sub Engineer & Other Post Online Form 2026 – Re-Open",
+        "href": "https://sarkariresult.com.cm/mpesb-group-3-sub-engineer-2026/"
+      },
+      {
         "text": "RRB NTPC Graduate Level Online Form 2026 (3548 Posts)",
         "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-06-2026/"
       },
@@ -221,10 +225,6 @@
       {
         "text": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
         "href": "https://sarkariresult.com.cm/rajasthan-safai-karmchari-2026/"
-      },
-      {
-        "text": "MPESB Group 3 Sub Engineer & Other Post Online Form 2026 – Re-Open",
-        "href": "https://sarkariresult.com.cm/mpesb-group-3-sub-engineer-2026/"
       },
       {
         "text": "UP Anganwadi Bharti Online Form 2026 (Updated)",
@@ -2182,6 +2182,10 @@
       },
       "https://sarkariresult.com.cm/supreme-court-spa-2026/": {
         "failedAt": "2026-10-13T11:28:48.878Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/dsssb-primary-teacher-prt-recruitment-2025-last-date/": {
+        "failedAt": "2026-10-13T18:58:23.130Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
