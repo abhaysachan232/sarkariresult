@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-10-24T08:42:40.044Z",
+    "checkedAt": "2026-10-24T15:30:06.388Z",
     "links": [
+      {
+        "text": "ISRO Assistant & Junior Personal Assistant Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
+      },
       {
         "text": "CCI Various Post Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/cci-various-post-2026/"
@@ -91,10 +95,6 @@
         "href": "https://sarkariresult.com.cm/ssc-stenographer-c-d-2026/"
       },
       {
-        "text": "UPPSC LT Grade Assistant Teacher Mains Result 2026 – Updated",
-        "href": "https://sarkariresult.com.cm/uppsc-lt-grade-assistant-teacher-2026/"
-      },
-      {
         "text": "Bank of Baroda SO Admit Card 2026",
         "href": "https://sarkariresult.com.cm/bob-so-2026/"
       },
@@ -167,10 +167,6 @@
         "href": "https://sarkariresult.com.cm/jhtet-online-form-2026/"
       },
       {
-        "text": "ISRO Assistant & Junior Personal Assistant Skill Test Date 2026",
-        "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
-      },
-      {
         "text": "UPSC Principal, Vice Principal Exam Date 2026",
         "href": "https://sarkariresult.com.cm/upsc-principal-2026/"
       },
@@ -185,6 +181,10 @@
       {
         "text": "Rajasthan High Court Stenographer Admit Card 2026",
         "href": "https://sarkariresult.com.cm/rajasthan-high-court-stenographer-2026/"
+      },
+      {
+        "text": "WCL Mining Sirdar & Assistant Foreman Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/wcl-mining-sirdar-assistant-foreman-2026/"
       },
       {
         "text": "UPESSC UP TGT Online Form 2026 (17,735 Posts) – Start",
@@ -439,6 +439,18 @@
         "href": "https://sarkariresult.com.cm/2026-mp-police-constable-sep26/"
       },
       {
+        "text": "UP Shahjahanpur ECCE Educator Online Form 2026",
+        "href": "https://sarkariresult.com.cm/up-shahjahanpur-ecce-educator-2026-2/"
+      },
+      {
+        "text": "UP Hamirpur ECCE Educator Online Form 2026",
+        "href": "https://sarkariresult.com.cm/up-hamirpur-ecce-educator-2026/"
+      },
+      {
+        "text": "UP Budaun ECCE Educator Online Form 2026",
+        "href": "https://sarkariresult.com.cm/up-budaun-ecce-educator-2026/"
+      },
+      {
         "text": "UP Fatehpur ECCE Educator Online Form 2026",
         "href": "https://sarkariresult.com.cm/up-fatehpur-ecce-educator-2026/"
       },
@@ -485,18 +497,6 @@
       {
         "text": "UP Basic Shiksha Vibhag Computer Operator Online Form 2026",
         "href": "https://sarkariresult.com.cm/up-basic-shiksha-vibhag-computer-operator-2026/"
-      },
-      {
-        "text": "UP Basic Shiksha Vibhag Assistant Accountant Online Form 2026",
-        "href": "https://sarkariresult.com.cm/up-basic-shiksha-vibhag-assistant-accountant-2026/"
-      },
-      {
-        "text": "UP Bareilly ECCE Educator Online Form 2026",
-        "href": "https://sarkariresult.com.cm/up-bareilly-ecce-educator-2026/"
-      },
-      {
-        "text": "UP Agra ECCE Educator Online Form 2026",
-        "href": "https://sarkariresult.com.cm/up-agra-ecce-educator-2026/"
       },
       {
         "text": "ISRO ICRB Scientist / Engineer New Exam Date 2026",
@@ -2302,6 +2302,18 @@
       },
       "https://sarkariresult.com.cm/up-rampur-ecce-educator-2026-2/": {
         "failedAt": "2026-10-24T08:42:40.041Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/up-shahjahanpur-ecce-educator-2026-2/": {
+        "failedAt": "2026-10-24T15:30:02.515Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/up-hamirpur-ecce-educator-2026/": {
+        "failedAt": "2026-10-24T15:30:04.454Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/up-budaun-ecce-educator-2026/": {
+        "failedAt": "2026-10-24T15:30:06.387Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
       }
     }
