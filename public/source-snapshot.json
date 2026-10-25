@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-10-25T03:31:00.857Z",
+    "checkedAt": "2026-10-25T08:59:21.437Z",
     "links": [
       {
         "text": "ISRO Assistant & Junior Personal Assistant Result 2026 – Out",
@@ -187,16 +187,24 @@
         "href": "https://sarkariresult.com.cm/wcl-mining-sirdar-assistant-foreman-2026/"
       },
       {
-        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (33,320 Posts) – Fee Payment Last Date",
-        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
+        "text": "UPESSC UP TGT Online Form 2026 (17,735 Posts) – Start",
+        "href": "https://sarkariresult.com.cm/upessc-up-tgt-2026/"
       },
       {
         "text": "NTA JEE Mains Session I Online Form 2027",
         "href": "https://sarkariresult.com.cm/nta-jee-mains-session-i-2027/"
       },
       {
-        "text": "UPESSC UP TGT Online Form 2026 (17,735 Posts) – Start",
-        "href": "https://sarkariresult.com.cm/upessc-up-tgt-2026/"
+        "text": "BPSC School Teacher TRE 4.0 Online Form 2026 (33,320 Posts) – Fee Payment Last Date",
+        "href": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/"
+      },
+      {
+        "text": "Supreme Court SCI Court Master Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/supreme-court-sci-court-master-2026/"
+      },
+      {
+        "text": "UPPSC RO / ARO Online Form 2026",
+        "href": "https://sarkariresult.com.cm/uppsc-ro-aro-2026-2/"
       },
       {
         "text": "RRB NTPC 10+2 UG Online Form 2026 (1688 Posts)",
@@ -263,10 +271,6 @@
         "href": "https://sarkariresult.com.cm/isro-sdsc-shar-various-post-2026/"
       },
       {
-        "text": "Supreme Court SCI Court Master Online Form 2026",
-        "href": "https://sarkariresult.com.cm/supreme-court-sci-court-master-2026/"
-      },
-      {
         "text": "Supreme Court SPA Online Form 2026 – Start",
         "href": "https://sarkariresult.com.cm/supreme-court-spa-2026/"
       },
@@ -281,10 +285,6 @@
       {
         "text": "SIB Junior Officer (Operations) Online Form 2026",
         "href": "https://sarkariresult.com.cm/sib-junior-officer-operations-2026/"
-      },
-      {
-        "text": "BSSC Field Assistant 2025 Mains Online Form",
-        "href": "https://sarkariresult.com.cm/bihar-bssc-field-assistant-pre-result-2026/"
       },
       {
         "text": "Bihar BPSC APO Final Answer Key 2026",
@@ -513,6 +513,10 @@
       {
         "text": "CTET September Exam Date 2026",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
+      },
+      {
+        "text": "jobs",
+        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -2310,6 +2314,10 @@
       },
       "https://sarkariresult.com.cm/nta-jee-mains-session-i-2027/": {
         "failedAt": "2026-10-24T18:45:05.652Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/uppsc-ro-aro-2026-2/": {
+        "failedAt": "2026-10-25T08:59:21.428Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
       }
     }
