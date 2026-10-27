@@ -1,7 +1,19 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-10-27T09:45:04.948Z",
+    "checkedAt": "2026-10-27T17:35:14.999Z",
     "links": [
+      {
+        "text": "UPSSSC Stenographer Skill Test Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-stenographer-2026/"
+      },
+      {
+        "text": "BPSC ASO Mains Result 2026",
+        "href": "https://sarkariresult.com.cm/bpsc-aso-mains-2026/"
+      },
+      {
+        "text": "UPSC CDS-II (Name Wise) Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsc-cds-2-2026/"
+      },
       {
         "text": "RRB Section Controller Answer Key 2026 – Out",
         "href": "https://sarkariresult.com.cm/rrb-section-controller-03-2026/"
@@ -17,10 +29,6 @@
       {
         "text": "SSC GD Constable Revised Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/ssc-gd-constable-2026/"
-      },
-      {
-        "text": "UPSC CDS-II Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsc-cds-2-2026/"
       },
       {
         "text": "HPSC HCS Final Result 2026",
@@ -87,28 +95,28 @@
         "href": "https://sarkariresult.com.cm/ssc-selection-phase-14-2026/"
       },
       {
-        "text": "ONGC Geologists and Engineers E1 Result 2026",
-        "href": "https://sarkariresult.com.cm/ongc-geologists-and-engineers-e1-2026/"
+        "text": "UPSSSC PET Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
       },
       {
-        "text": "SSC Stenographer C, D 2025 Final Result With Marks – Out",
-        "href": "https://sarkariresult.com.cm/ssc-stenographer-c-d-2026/"
+        "text": "SSC Junior Engineer JE Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/ssc-je-2026/"
+      },
+      {
+        "text": "CISF Constable Fire Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/cisf-constable-fire-dv-pet-pst-exam-date/"
+      },
+      {
+        "text": "CISF Constable Driver Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/cisf-constable-driver-trade-test-dv-admit-card-2025/"
       },
       {
         "text": "CISF Constable Tradesmen Exam Date 2026",
         "href": "https://sarkariresult.com.cm/cisf-constable-tradesmen-trade-test-dv-admit-card-2025/"
       },
       {
-        "text": "UPSSSC PET Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
-      },
-      {
         "text": "SSC CPO SI CAPF Revised Exam Date 2026",
         "href": "https://sarkariresult.com.cm/2026-ssc-cpo-si-sep26/"
-      },
-      {
-        "text": "SSC Junior Engineer JE Revised Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/ssc-je-2026/"
       },
       {
         "text": "SSC CGL Tier-I Admit Card 2026",
@@ -181,14 +189,6 @@
       {
         "text": "Jharkhand Teacher Eligibility Test JHTET Admit Card 2026",
         "href": "https://sarkariresult.com.cm/jhtet-online-form-2026/"
-      },
-      {
-        "text": "UPSC Principal, Vice Principal Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/upsc-principal-2026/"
-      },
-      {
-        "text": "UIICL Administrative Officers AO Phase-I Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/uiicl-ao-2026/"
       },
       {
         "text": "Railway RRB Station Master Online Form 2026 – Start",
@@ -519,6 +519,10 @@
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
       },
       {
+        "text": "jobs",
+        "href": "https://sarkariresult.com.cm/#"
+      },
+      {
         "text": "Bharat Result",
         "href": "http://sarkariresult.com.cm/result/"
       },
@@ -679,11 +683,6 @@
         "jobId": 187,
         "slug": "up-ambedkar-nagar-ecce-educator-recruitment-2026",
         "processedAt": "2026-08-25T13:03:13.817Z"
-      },
-      "https://sarkariresult.com.cm/upsssc-stenographer-2026/": {
-        "jobId": 189,
-        "slug": "upsssc-stenographer-recruitment-2026",
-        "processedAt": "2026-08-26T08:46:18.702Z"
       },
       "https://sarkariresult.com.cm/up-jalaun-ecce-educator-2026/": {
         "jobId": 194,
@@ -2330,6 +2329,22 @@
       },
       "https://sarkariresult.com.cm/cisf-constable-tradesmen-trade-test-dv-admit-card-2025/": {
         "failedAt": "2026-10-27T09:45:04.938Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/upsssc-stenographer-2026/": {
+        "failedAt": "2026-10-27T17:35:09.561Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/bpsc-aso-mains-2026/": {
+        "failedAt": "2026-10-27T17:35:11.358Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/cisf-constable-fire-dv-pet-pst-exam-date/": {
+        "failedAt": "2026-10-27T17:35:13.156Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/cisf-constable-driver-trade-test-dv-admit-card-2025/": {
+        "failedAt": "2026-10-27T17:35:14.995Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
       }
     }
