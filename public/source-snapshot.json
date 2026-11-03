@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-03T11:40:36.753Z",
+    "checkedAt": "2026-11-03T19:10:31.868Z",
     "links": [
+      {
+        "text": "SSC Constable GD 2025 Final Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ssc-constable-gd-2025/"
+      },
       {
         "text": "Indian Bank Specialist Officer SO Result 2026",
         "href": "https://sarkariresult.com.cm/indian-bank-so-2026/"
@@ -81,10 +85,6 @@
       {
         "text": "DSSSB Assistant Teacher (Primary) Result 2026",
         "href": "https://sarkariresult.com.cm/dsssb-primary-teacher-prt-recruitment-2025-last-date/"
-      },
-      {
-        "text": "UPESSC Principal Result 2026",
-        "href": "https://sarkariresult.com.cm/upessc-principal-2026/"
       },
       {
         "text": "UPSSSC Junior Assistant Typing Test Admit Card 2026",
@@ -315,10 +315,6 @@
         "href": "https://sarkariresult.com.cm/indian-airforce-agniveer-vayu-intake-02-2027/"
       },
       {
-        "text": "Patna High Court Assistant Answer Key 2026",
-        "href": "https://sarkariresult.com.cm/patna-high-court-assistant-2026/"
-      },
-      {
         "text": "NIELIT CCC Online Form, Admit Card, Result 2026",
         "href": "https://sarkariresult.com.cm/nielit-ccc-exam-2026/"
       },
@@ -505,6 +501,10 @@
       {
         "text": "CTET September Exam Date 2026",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
+      },
+      {
+        "text": "jobs",
+        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -2406,6 +2406,10 @@
       "https://sarkariresult.com.cm/nta-aissee-2027/": {
         "failedAt": "2026-11-03T11:40:36.750Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: You have no remaining credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get monthly included credits."
+      },
+      "https://sarkariresult.com.cm/ssc-constable-gd-2025/": {
+        "failedAt": "2026-11-03T19:10:31.865Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
   }
