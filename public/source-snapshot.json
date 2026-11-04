@@ -1,7 +1,11 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-04T11:53:51.301Z",
+    "checkedAt": "2026-11-04T19:27:10.704Z",
     "links": [
+      {
+        "text": "SSC CGL Tier-I Answer Key 2026 – Out",
+        "href": "https://sarkariresult.com.cm/ssc-cgl-2026/"
+      },
       {
         "text": "BSF HC RO / RM Answer Key 2026",
         "href": "https://sarkariresult.com.cm/bsf-hc-ro-rm-2025/"
@@ -77,14 +81,6 @@
       {
         "text": "SBI PO Mains Result 2026",
         "href": "https://sarkariresult.com.cm/sbi-po-2026/"
-      },
-      {
-        "text": "UP Police Constable Final Result 2026",
-        "href": "https://sarkariresult.com.cm/up-police-constable-2026/"
-      },
-      {
-        "text": "UPSC NDA II Result (Name Wise) 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsc-nda-2-2026/"
       },
       {
         "text": "UPSSSC Junior Assistant Typing Test Admit Card 2026",
@@ -169,6 +165,10 @@
       {
         "text": "RRB ALP CBAT Admit Card 2026",
         "href": "https://sarkariresult.com.cm/railway-rrb-alp-2026/"
+      },
+      {
+        "text": "UPPSC Various Posts Online Form 2026",
+        "href": "https://sarkariresult.com.cm/uppsc-various-posts-2026/"
       },
       {
         "text": "Rajasthan Safai Karmchari Correction / Edit Form 2026 – Last Date Today",
@@ -267,10 +267,6 @@
         "href": "https://sarkariresult.com.cm/uppsc-ro-aro-oct26/"
       },
       {
-        "text": "UPSSSC Inter (12th) Level Online Form 2026",
-        "href": "https://sarkariresult.com.cm/upsssc-inter-12th-level-2026/"
-      },
-      {
         "text": "ISRO Assistant, JPA, UDC & Stenographer Revised Answer Key 2026",
         "href": "https://sarkariresult.com.cm/isro-assistant-2026/"
       },
@@ -305,10 +301,6 @@
       {
         "text": "Indian Airforce Group Y/ Medical Assistant Airmen Intake 02/2027 Answer Key",
         "href": "https://sarkariresult.com.cm/airforce-group-y-medical-assistant-airmen-intake-02-2027/"
-      },
-      {
-        "text": "Indian Airforce Agniveer Vayu Intake 02/2027 Answer Key",
-        "href": "https://sarkariresult.com.cm/indian-airforce-agniveer-vayu-intake-02-2027/"
       },
       {
         "text": "NIELIT CCC Online Form, Admit Card, Result 2026",
@@ -369,6 +361,10 @@
       {
         "text": "Rajasthan B.Ed. 2025 Online Form",
         "href": "https://sarkariresult.com.cm/rajasthan-b-ed-2025-online-form/"
+      },
+      {
+        "text": "UPSSSC Inter (12th) Level Online Form 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-inter-12th-level-2026/"
       },
       {
         "text": "MPESB MP Police Constable Driver Online Form 2026",
@@ -501,10 +497,6 @@
       {
         "text": "CTET September Exam Date 2026",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
-      },
-      {
-        "text": "jobs",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -2425,6 +2417,10 @@
       },
       "https://sarkariresult.com.cm/bihar-vidhan-sabha-junior-secretariat-assistant-jsa-2026/": {
         "failedAt": "2026-11-04T11:53:51.254Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/uppsc-various-posts-2026/": {
+        "failedAt": "2026-11-04T19:27:10.695Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
