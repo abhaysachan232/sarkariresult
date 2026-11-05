@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-05T11:55:53.165Z",
+    "checkedAt": "2026-11-05T19:42:11.916Z",
     "links": [
       {
         "text": "SSC JHT 2025 FRTA Result / Cutoff – Out",
@@ -167,6 +167,10 @@
         "href": "https://sarkariresult.com.cm/ibps-so-xvi-2026/"
       },
       {
+        "text": "ISRO SDSC SHAR Apprentice Online Form 2026",
+        "href": "https://sarkariresult.com.cm/isro-sdsc-shar-apprentice-2026/"
+      },
+      {
         "text": "Railway RRB Isolated Categories Online Form 2026",
         "href": "https://sarkariresult.com.cm/rrb-isolated-categories-2026/"
       },
@@ -261,10 +265,6 @@
       {
         "text": "AEES Teaching Various Post Online Form 2026",
         "href": "https://sarkariresult.com.cm/aees-teaching-various-post-2026/"
-      },
-      {
-        "text": "Armed Forces AFMS SSC Medical Officer Online Form 2026",
-        "href": "https://sarkariresult.com.cm/armed-forces-afms-ssc-medical-officer-2026/"
       },
       {
         "text": "ISRO Assistant, JPA, UDC & Stenographer Revised Answer Key 2026",
@@ -509,10 +509,6 @@
       {
         "text": "CTET September Exam Date 2026",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
-      },
-      {
-        "text": "Jobs",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -2448,6 +2444,10 @@
       },
       "https://sarkariresult.com.cm/nicl-apprentice-2026/": {
         "failedAt": "2026-11-05T11:55:53.159Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/isro-sdsc-shar-apprentice-2026/": {
+        "failedAt": "2026-11-05T19:42:11.914Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
