@@ -1,7 +1,15 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-06T11:52:09.450Z",
+    "checkedAt": "2026-11-06T19:07:17.773Z",
     "links": [
+      {
+        "text": "UPSSSC PET Answer Key Objection 2026",
+        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
+      },
+      {
+        "text": "UPSSSC BCG Technician Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/"
+      },
       {
         "text": "BPSC 71th Mains Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/bpsc-71th-2026/"
@@ -55,10 +63,6 @@
         "href": "https://sarkariresult.com.cm/indian-bank-so-2026/"
       },
       {
-        "text": "UPSSSC PET Answer Key 2026 – Out",
-        "href": "https://sarkariresult.com.cm/upsssc-pet-2026/"
-      },
-      {
         "text": "UPSC CDS-I Final Result 2026 – Out",
         "href": "https://sarkariresult.com.cm/upsc-cds-i-2026/"
       },
@@ -81,10 +85,6 @@
       {
         "text": "UPPSC LT Grade Assistant Teacher Mains Result 2026 – Updated",
         "href": "https://sarkariresult.com.cm/uppsc-lt-grade-assistant-teacher-2026/"
-      },
-      {
-        "text": "BPSC ASO Mains Result 2026",
-        "href": "https://sarkariresult.com.cm/bpsc-aso-mains-2026/"
       },
       {
         "text": "UKPSC Upper PCS Pre Exam Date 2026",
@@ -171,8 +171,8 @@
         "href": "https://sarkariresult.com.cm/upsc-geo-scientist-2027/"
       },
       {
-        "text": "Delhi Cantonment Board DCB AE and JE Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/delhi-dcb-ae-and-je-2026/"
+        "text": "RRB NTPC Graduate Level Online Form 2026 (3548 Posts) – Date Extend",
+        "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-06-2026/"
       },
       {
         "text": "UKPSC Lower PCS Online Form 2026",
@@ -181,10 +181,6 @@
       {
         "text": "DSSSB MTS & JE Online Form 2026",
         "href": "https://sarkariresult.com.cm/dsssb-mts-je-2026/"
-      },
-      {
-        "text": "RRB NTPC Graduate Level Online Form 2026 (3548 Posts) – Last Date Today",
-        "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-06-2026/"
       },
       {
         "text": "UPSSSC Regional Youth Welfare Officer Online Form 2026 – Last Date Today",
@@ -515,10 +511,6 @@
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
       },
       {
-        "text": "jobs",
-        "href": "https://sarkariresult.com.cm/#"
-      },
-      {
         "text": "Bharat Result",
         "href": "http://sarkariresult.com.cm/result/"
       },
@@ -589,11 +581,6 @@
         "jobId": 145,
         "slug": "upsssc-pharmacist-recruitment-2026",
         "processedAt": "2026-08-20T16:37:26.842Z"
-      },
-      "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/": {
-        "jobId": 147,
-        "slug": "upsssc-bcg-technician-recruitment-2024",
-        "processedAt": "2026-08-20T16:40:43.454Z"
       },
       "https://sarkariresult.com.cm/upsssc-up-pollution-control-board-2026/": {
         "jobId": 148,
@@ -2479,6 +2466,10 @@
       },
       "https://sarkariresult.com.cm/up-bulandshahar-ecce-educator-2026/": {
         "failedAt": "2026-11-06T11:52:09.447Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/": {
+        "failedAt": "2026-11-06T19:07:17.770Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
