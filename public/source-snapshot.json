@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-07T05:45:29.107Z",
+    "checkedAt": "2026-11-07T14:43:22.277Z",
     "links": [
       {
         "text": "UPSSSC PET Answer Key Objection 2026",
@@ -179,12 +179,24 @@
         "href": "https://sarkariresult.com.cm/upessc-up-tgt-2026/"
       },
       {
-        "text": "UPESSC PRT Assistant Teacher Re-Open Form 2026 (12405 Posts)",
-        "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
-      },
-      {
         "text": "RRB NTPC Graduate Level Online Form 2026 (3548 Posts) – Date Extend",
         "href": "https://sarkariresult.com.cm/rrb-ntpc-graduate-level-06-2026/"
+      },
+      {
+        "text": "Bihar Vidhan Sabha Office Attendant Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-office-attendant-2026/"
+      },
+      {
+        "text": "Bihar Vidhan Sabha Junior Secretariat Assistant JSA Online Form 2026 – Start",
+        "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-junior-secretariat-assistant-jsa-2026/"
+      },
+      {
+        "text": "Railway RRC NR Apprentice Online Form 2026 (4651 Posts)",
+        "href": "https://sarkariresult.com.cm/railway-rrc-nr-apprentice-2026/"
+      },
+      {
+        "text": "UPESSC PRT Assistant Teacher Re-Open Form 2026 (12405 Posts)",
+        "href": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/"
       },
       {
         "text": "UKPSC Lower PCS Online Form 2026",
@@ -251,24 +263,12 @@
         "href": "https://sarkariresult.com.cm/indian-bank-apprentice-2026/"
       },
       {
-        "text": "Bihar Vidhan Sabha Office Attendant Online Form 2026",
-        "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-office-attendant-2026/"
-      },
-      {
-        "text": "Bihar Vidhan Sabha Junior Secretariat Assistant JSA Online Form 2026",
-        "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-junior-secretariat-assistant-jsa-2026/"
-      },
-      {
         "text": "Bihar BCECEB Sr. Resident/ Tutor Phase-III Online Form 2026 – Start",
         "href": "https://sarkariresult.com.cm/bihar-bceceb-sr-resident-tutor-phase-3-2026/"
       },
       {
         "text": "PGCIL Engineer Trainee Online Form 2026",
         "href": "https://sarkariresult.com.cm/pgcil-engineer-trainee-online-form-2026/"
-      },
-      {
-        "text": "Semi Conductor SCL Various Post Online Form 2026",
-        "href": "https://sarkariresult.com.cm/semi-conductor-scl-various-post-2026/"
       },
       {
         "text": "UP Special TET Answer Key 2026",
@@ -505,10 +505,6 @@
       {
         "text": "CTET September Exam Date 2026",
         "href": "https://sarkariresult.com.cm/ctet-september-2026/"
-      },
-      {
-        "text": "jobs",
-        "href": "https://sarkariresult.com.cm/#"
       },
       {
         "text": "Bharat Result",
@@ -2470,6 +2466,10 @@
       },
       "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/": {
         "failedAt": "2026-11-06T19:07:17.770Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/railway-rrc-nr-apprentice-2026/": {
+        "failedAt": "2026-11-07T14:43:22.272Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
