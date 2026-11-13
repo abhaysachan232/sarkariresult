@@ -1,9 +1,13 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-13T00:55:41.282Z",
+    "checkedAt": "2026-11-13T11:54:31.572Z",
     "links": [
       {
-        "text": "Railway RRB Group D CBT-I Result 2026 – Out",
+        "text": "Uttarakhand TET Result 2026 – Out",
+        "href": "https://sarkariresult.com.cm/utet-2026/"
+      },
+      {
+        "text": "Railway RRB Group D CBT-I Result 2026",
         "href": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/"
       },
       {
@@ -91,8 +95,12 @@
         "href": "https://sarkariresult.com.cm/up-co-operative-bank-various-post-2026/"
       },
       {
-        "text": "BPSC AES Result 2026 – Out",
-        "href": "https://sarkariresult.com.cm/bihar-bpsc-aes-2025/"
+        "text": "UKPSC Upper PCS Pre Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/ukpsc-upper-pcs-2026/"
+      },
+      {
+        "text": "Allahabad HC Private Secretary Gr-I Admit Card 2026",
+        "href": "https://sarkariresult.com.cm/allahabad-hc-private-secretary-gr-i-2026/"
       },
       {
         "text": "RSSB Teaching Associate Admit card 2026",
@@ -151,16 +159,8 @@
         "href": "https://sarkariresult.com.cm/upessc-ap-sep-2026/"
       },
       {
-        "text": "UKPSC Upper PCS Pre Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/ukpsc-upper-pcs-2026/"
-      },
-      {
         "text": "Delhi High Court SPA Typing Test Exam City Details 2026",
         "href": "https://sarkariresult.com.cm/delhi-high-court-spa-pa-2026/"
-      },
-      {
-        "text": "Allahabad HC Private Secretary Gr-I Exam City Details 2026",
-        "href": "https://sarkariresult.com.cm/allahabad-hc-private-secretary-gr-i-2026/"
       },
       {
         "text": "Indian Coast Guard CGEPT 01/2027 & 02/2027 Exam City Details – Out",
@@ -175,19 +175,27 @@
         "href": "https://sarkariresult.com.cm/ssc-cpo-si-paper-i-2025/"
       },
       {
-        "text": "Indian Army TES 57th Online Form 2026 – Last Date Today",
-        "href": "https://sarkariresult.com.cm/indian-army-tes-57th-2026/"
+        "text": "CONCOR MT, Assistant Officer Exam Date 2026",
+        "href": "https://sarkariresult.com.cm/concor-mt-assistant-officer-2026/"
       },
       {
-        "text": "RRB NTPC 10+2 UG Online Form 2026 (1688 Posts)",
+        "text": "Exim Bank Management Trainee, Manager Online Form 2026",
+        "href": "https://sarkariresult.com.cm/exim-bank-mt-manager-2026/"
+      },
+      {
+        "text": "RRB NTPC 10+2 UG Online Form 2026 (1688 Posts) – Last Date Today",
         "href": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-07-2026/"
+      },
+      {
+        "text": "ISRO URSC Various Post Online Form 2026 – Last Date Today",
+        "href": "https://sarkariresult.com.cm/isro-ursc-various-post-2026/"
       },
       {
         "text": "UPSSSC Inter (12th) Level Online Form 2026",
         "href": "https://sarkariresult.com.cm/upsssc-inter-12th-level-2026/"
       },
       {
-        "text": "DSSSB MTS & JE Online Form 2026 – Start",
+        "text": "DSSSB MTS & JE Online Form 2026",
         "href": "https://sarkariresult.com.cm/dsssb-mts-je-2026/"
       },
       {
@@ -243,11 +251,11 @@
         "href": "https://sarkariresult.com.cm/rrc-cr-apprentice-2026/"
       },
       {
-        "text": "Bihar Vidhan Sabha Office Attendant Online Form 2026 – Start",
+        "text": "Bihar Vidhan Sabha Office Attendant Online Form 2026",
         "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-office-attendant-2026/"
       },
       {
-        "text": "Bihar Vidhan Sabha Junior Secretariat Assistant JSA Online Form 2026 – Start",
+        "text": "Bihar Vidhan Sabha Junior Secretariat Assistant JSA Online Form 2026",
         "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-junior-secretariat-assistant-jsa-2026/"
       },
       {
@@ -327,10 +335,6 @@
         "href": "https://sarkariresult.com.cm/up-police-upprpb-one-time-registration-otr-online-form-2025/"
       },
       {
-        "text": "NTA CSIR UGC NET December Correction Form 2026",
-        "href": "https://sarkariresult.com.cm/nta-csir-ugc-net-december-2026/"
-      },
-      {
         "text": "NTA AISSEE 2027 Online Form",
         "href": "https://sarkariresult.com.cm/nta-aissee-2027/"
       },
@@ -365,6 +369,10 @@
       {
         "text": "MP Rojgar Panjiyan Online Form 2025",
         "href": "https://sarkariresult.com.cm/mp-rojgar-panjiyan-online-form-2025/"
+      },
+      {
+        "text": "Haryana HTET Online Form 2024",
+        "href": "https://sarkariresult.com.cm/haryana-htet-online-form-2024/"
       },
       {
         "text": "MPESB MP Police Constable Driver Online Form 2026",
@@ -2477,6 +2485,14 @@
       },
       "https://sarkariresult.com.cm/rpsc-protection-officer-recruitment-2026-last-date/": {
         "failedAt": "2026-11-12T16:37:43.809Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/exim-bank-mt-manager-2026/": {
+        "failedAt": "2026-11-13T11:54:29.560Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/haryana-htet-online-form-2024/": {
+        "failedAt": "2026-11-13T11:54:31.570Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
