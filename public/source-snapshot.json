@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-17T12:49:45.008Z",
+    "checkedAt": "2026-11-17T23:22:18.149Z",
     "links": [
       {
         "text": "UP Police Constable Score Card 2026 – Out",
@@ -91,6 +91,22 @@
         "href": "https://sarkariresult.com.cm/up-co-operative-bank-various-post-2026/"
       },
       {
+        "text": "RRB NTPC 10+2 UG CBTST Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/"
+      },
+      {
+        "text": "CISF Constable Tradesmen Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/cisf-constable-tradesmen-trade-test-dv-admit-card-2025/"
+      },
+      {
+        "text": "CISF Constable Driver Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/cisf-constable-driver-trade-test-dv-admit-card-2025/"
+      },
+      {
+        "text": "CISF Constable Fire Exam City Details 2026",
+        "href": "https://sarkariresult.com.cm/cisf-constable-fire-dv-pet-pst-exam-date/"
+      },
+      {
         "text": "RSSB CET 12th Level Exam Date 2026",
         "href": "https://sarkariresult.com.cm/rssb-cet-12th-level-2026/"
       },
@@ -139,22 +155,6 @@
         "href": "https://sarkariresult.com.cm/2026-ssc-cpo-si-sep26/"
       },
       {
-        "text": "CISF Constable Tradesmen Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/cisf-constable-tradesmen-trade-test-dv-admit-card-2025/"
-      },
-      {
-        "text": "CISF Constable Fire Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/cisf-constable-fire-dv-pet-pst-exam-date/"
-      },
-      {
-        "text": "CISF Constable Driver Exam Date 2026",
-        "href": "https://sarkariresult.com.cm/cisf-constable-driver-trade-test-dv-admit-card-2025/"
-      },
-      {
-        "text": "UPSC Civil Services IFS Mains Admit Card 2026",
-        "href": "https://sarkariresult.com.cm/upsc-civil-services-ias-ifs-2026/"
-      },
-      {
         "text": "UKPSC Upper PCS Pre Admit Card 2026",
         "href": "https://sarkariresult.com.cm/ukpsc-upper-pcs-2026/"
       },
@@ -185,6 +185,14 @@
       {
         "text": "UPSSSC Platoon Commander / Block Organizer Exam City Details 2026",
         "href": "https://sarkariresult.com.cm/upsssc-platoon-commander-block-organizer-2026/"
+      },
+      {
+        "text": "UKSSSC Constable Various Post Online Form 2026",
+        "href": "https://sarkariresult.com.cm/uksssc-police-constable-2026/"
+      },
+      {
+        "text": "RSSB Junior Engineer Online Form 2026 – Re-Open",
+        "href": "https://sarkariresult.com.cm/rssb-junior-engineer-2026/"
       },
       {
         "text": "Assam Rifles Technical / Tradesman Online Form 2026",
@@ -277,14 +285,6 @@
       {
         "text": "Railway RRC CR Apprentice Online Form 2026 (2861 Posts)",
         "href": "https://sarkariresult.com.cm/rrc-cr-apprentice-2026/"
-      },
-      {
-        "text": "Bihar Vidhan Sabha Office Attendant Online Form 2026",
-        "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-office-attendant-2026/"
-      },
-      {
-        "text": "Bihar Vidhan Sabha Junior Secretariat Assistant JSA Online Form 2026",
-        "href": "https://sarkariresult.com.cm/bihar-vidhan-sabha-junior-secretariat-assistant-jsa-2026/"
       },
       {
         "text": "UPSSSC Lower PCS Revised Answer Key 2026 – Out",
@@ -519,10 +519,6 @@
         "href": "https://sarkariresult.com.cm/upsc-epfo-2026/"
       },
       {
-        "text": "jobs",
-        "href": "https://sarkariresult.com.cm/#"
-      },
-      {
         "text": "Bharat Result",
         "href": "http://sarkariresult.com.cm/result/"
       },
@@ -553,11 +549,6 @@
         "jobId": 126,
         "slug": "bihar-police-csbc-constable-operator-result-2026",
         "processedAt": "2026-08-18T12:47:17.403Z"
-      },
-      "https://sarkariresult.com.cm/rssb-junior-engineer-2026/": {
-        "jobId": 128,
-        "slug": "rssb-junior-engineer-recruitment-2026",
-        "processedAt": "2026-09-14T09:43:11.389Z"
       },
       "https://sarkariresult.com.cm/uppsc-professor-2026/": {
         "jobId": 135,
@@ -2521,6 +2512,14 @@
       },
       "https://sarkariresult.com.cm/rssb-cet-12th-level-2026/": {
         "failedAt": "2026-11-17T12:49:45.006Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/uksssc-police-constable-2026/": {
+        "failedAt": "2026-11-17T23:22:16.318Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/rssb-junior-engineer-2026/": {
+        "failedAt": "2026-11-17T23:22:18.146Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
