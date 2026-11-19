@@ -1,6 +1,6 @@
 {
   "sarkariresult-com-cm": {
-    "checkedAt": "2026-11-18T16:59:13.333Z",
+    "checkedAt": "2026-11-19T01:45:57.462Z",
     "links": [
       {
         "text": "SBI Junior Associates Clerk Pre Result / Mains Admit Card 2026",
@@ -183,6 +183,10 @@
         "href": "https://sarkariresult.com.cm/rpsc-protection-officer-recruitment-2026-last-date/"
       },
       {
+        "text": "UPTET Exam 2027 Online Form",
+        "href": "https://sarkariresult.com.cm/uptet-2027-feb-exam/"
+      },
+      {
         "text": "ASRB ICAR Technical Assistant Online Form 2026 – Start",
         "href": "https://sarkariresult.com.cm/asrb-icar-technical-assistant-2026/"
       },
@@ -277,10 +281,6 @@
       {
         "text": "DSSSB MTS & JE Online Form 2026",
         "href": "https://sarkariresult.com.cm/dsssb-mts-je-2026/"
-      },
-      {
-        "text": "UKPSC Lower PCS Online Form 2026",
-        "href": "https://sarkariresult.com.cm/ukpsc-lower-pcs-2026/"
       },
       {
         "text": "UPSSSC Lower PCS Revised Answer Key 2026 – Out",
@@ -2531,6 +2531,10 @@
       },
       "https://sarkariresult.com.cm/haryana-htet-online-form-2026/": {
         "failedAt": "2026-11-18T16:59:13.330Z",
+        "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
+      },
+      "https://sarkariresult.com.cm/uptet-2027-feb-exam/": {
+        "failedAt": "2026-11-19T01:45:57.460Z",
         "error": "AI extraction failed after 3 attempts: Failed to perform inference: an HTTP error occurred when requesting the provider."
       }
     }
